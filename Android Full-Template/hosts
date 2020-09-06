@@ -1,0 +1,736 @@
+#   ____                      ___           _           _                          
+#  / ___| __ _ _ __ ___   ___|_ _|_ __   __| |_   _ ___| |_ _ __ _   _   ___ _   _ 
+# | |  _ / _` | '_ ` _ \ / _ \| || '_ \ / _` | | | / __| __| '__| | | | / _ \ | | |
+# | |_| | (_| | | | | | |  __/| || | | | (_| | |_| \__ \ |_| |  | |_| ||  __/ |_| |
+#  \____|\__,_|_| |_| |_|\___|___|_| |_|\__,_|\__,_|___/\__|_|   \__, (_)___|\__,_|
+#                                                                |___/             
+#
+# Erhöhter Schutz vor Spyware, Advertising, Analytics, Tracking in Spielen
+# Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
+#
+# Version: Template für Androidspiele und Programme - Komplette Version
+# Änderungsdatum: 08.08.2020
+#
+# Diese Datei stammt von https://www.gameindustry.eu
+# Kontaktmail: noreply@gameindustry.eu
+# Hilfe: https://www.gameindustry.eu/hosts/faq.php
+# Kontakt: https://www.gameindustry.eu/u/kontakt/
+# Steam: https://www.steamcommunity.com/groups/Penguindome
+#
+# Lizenz: CC BY-NC-SA 4.0
+# https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
+#
+# License: CC BY-NC-SA 4.0
+# https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en
+#
+# Es ist gestattet, die host Dateien für nicht-kommerzielle Zwecke zu verwenden,
+# solange auf angemessene Urheber/Rechteangaben mitsamt Link verwiesen wird.
+#
+# ---Ab hier kopieren ---
+
+# Adobe
+# Adobe Acrobat Reader
+0.0.0.0 graph.facebook.com
+0.0.0.0 ims-na1.adobelogin.com
+0.0.0.0 adobecorp.sc.omtrdc.net
+0.0.0.0 app-measurement.com
+
+# Avast Software s.r.o.
+0.0.0.0 feed.ff.avast.com
+0.0.0.0 streamback.ff.avast.com
+0.0.0.0 au.ff.avast.com
+0.0.0.0 device-control.ff.avast.com
+0.0.0.0 shepherd.ff.avast.com
+0.0.0.0 analytics.ff.avast.com
+
+# AVG Labs
+# Alarm Clock Xtreme
+0.0.0.0 t.appsflyer.com
+0.0.0.0 feed.ff.avast.com
+0.0.0.0 ip-info.ff.avast.com
+0.0.0.0 api.taboola.com
+0.0.0.0 ip-info.ff.avast.com
+0.0.0.0 app-measurement.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 device-control.ff.avast.com
+0.0.0.0 cloudconfig.googleapis.com
+0.0.0.0 shepherd.ff.avast.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 device-control.ff.avast.com
+
+# Abfallwirtschaftsgesellschaft des Kreises Warendorf mbH 
+# Tonnennticker Pro
+# 91.102.137.86
+#0.0.0.0 krwaf-abfallapp.regioit.de # Kategorienamen, Orte, Straßen, Termine, Abholbezirke
+0.0.0.0 www.borgholzhausen.de # Werbebanner unter Aktuelles
+
+# Bling Bling Games GmbH
+# Idle Tycoon: Space Colony
+0.0.0.0 idleclicker.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cloudconfig.googleapis.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 track.tenjin.io
+0.0.0.0 init.supersonicads.com
+0.0.0.0 cognito-identity.us-west-2.amazonaws.com
+0.0.0.0 outcome.supersonicads.com
+
+# Brain Training Games Dev
+# Wort Reise
+0.0.0.0 t.appsflyer.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 rubick.gameanalytics.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 abtest.cpcphone.com
+0.0.0.0 app-measurement.com
+0.0.0.0 app-measurement.com
+0.0.0.0 update.usdget.com
+0.0.0.0 topdata.usdget.com
+0.0.0.0 a.applovin.com
+0.0.0.0 a.applvn.com
+0.0.0.0 d.applovin.com
+0.0.0.0 rt.applovin.com
+
+# Cheetah Mobile
+# QuickPic
+0.0.0.0 helpcmqp0.ksmobile.com # Zeitstempel
+0.0.0.0 cloud.cmcm.com
+0.0.0.0 alog.umeng.com # Applog
+0.0.0.0 alog.umeng.co
+
+# Codigames
+# Idle Supermarket Tycoon
+0.0.0.0 outcome.supersonicads.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 ns.exitgames.com
+0.0.0.0 core-server.s3-website-us-east-1.amazonaws.com
+0.0.0.0 e.crashlytics.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 t.appsflyer.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 www.geoplugin.net
+0.0.0.0 ecommerce.iap.unity3d.com
+# 0.0.0.0 rings-game.us-east-1.elasticbeanstalk.com
+
+# Theme Park Tycoon
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 sessions.bugsnag.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 t.appsflyer.com
+#0.0.0.0 idle-tycoon.us-east-1.elasticbeanstalk.com
+0.0.0.0 core-server.s3-website-us-east-1.amazonaws.com
+0.0.0.0 outcome-ssp.supersonicads.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 www.geoplugin.com
+0.0.0.0 app-measurement.com
+
+# Com2uS
+# Skylanders
+0.0.0.0 graph.facebook.com
+0.0.0.0 activeuser.qpyou.cn
+0.0.0.0 c4-gateway.appguard.co.kr
+0.0.0.0 error.appguard.co.kr
+0.0.0.0 mlog.appguard.co.kr
+#0.0.0.0 aas.com2us.net
+0.0.0.0 gate.hockeyapp.net
+0.0.0.0 provision.qpyou.cn
+0.0.0.0 analytics-log.withhive.com
+#0.0.0.0 image-glb.qpyou.cn
+#0.0.0.0 auth.qpyou.cn
+0.0.0.0 promotion.qpyou.cn
+0.0.0.0 push.qpyou.cn
+#0.0.0.0 sleu.qpyou.cn
+0.0.0.0 auth.globalwithhive.com
+0.0.0.0 hiveiap.qpyou.cn
+#0.0.0.0 c4-auth.appguard.co.kr
+
+# DAERISOFT
+# A girl Adrift
+0.0.0.0 teamtapas.cafe24.com
+0.0.0.0 gm.girladrift.daerisoft.com # Onlinebelohnungen
+0.0.0.0 graph.facebook.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 cvr.ad-brix.com
+0.0.0.0 as.ad-brix.com
+0.0.0.0 campaign.ad-brix.com
+0.0.0.0 tracking.ad-brix.com
+0.0.0.0 stats.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
+
+# Deutsche Bahn
+# DB Navigator
+# 52.28.83.124, 52.59.136.79, 52.31.190.58, 95.100.64.121, 95.100.68.126
+0.0.0.0 tiqcdn.com
+0.0.0.0 cdn.optimizely.com
+0.0.0.0 deutschebahn.sc.omtrdc.net
+0.0.0.0 assets.adobedtm.com
+0.0.0.0 settings.crashlytics.com
+#0.0.0.0 www.bahn.de
+#0.0.0.0 www.img-bahn.de
+#0.0.0.0 reiseauskunft.bahn.de
+
+# DB Ausflug
+# 83.169.5.101
+0.0.0.0 www.donnerwetter.de
+#0.0.0.0 db.pixelpoint.biz # Bilder & Beschreibungnen, Städtenamen, Kategorienamen
+
+# Electronic Arts
+# Plants vs. Zombies
+0.0.0.0 pn.tnt-ea.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 draper.popcap.com
+0.0.0.0 ads.nexage.com
+0.0.0.0 river-mobile.data.ea.com
+0.0.0.0 cdn.skum.eamobile.com
+0.0.0.0 product.sn.eamobile.com
+0.0.0.0 outcome.supersonicads.com
+0.0.0.0 943.engine.mobileapptracking.com
+0.0.0.0 mars.tnt-ea.com
+0.0.0.0 cdn.skum.eamobile.com
+0.0.0.0 rs-xpromotion.appspot.com
+
+# Futureplay
+# Idle City Empire
+0.0.0.0 graph.facebook.com
+0.0.0.0 android.clients.google.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 app-measurement.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 fp-cloudsync.herokuapp.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 cloudconfig.googleapis.com
+0.0.0.0 build-away-idle-city-buil-487.firebaseio.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 adc3-launch.adcolony.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 t.appsflyer.com
+0.0.0.0 events.appsflyer.com
+0.0.0.0 wd.adcolony.com
+0.0.0.0 android.clients.google.com
+
+# GGDS
+# Idle Medieval Tycoon
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 api.gameanayltics.com
+0.0.0.0 googleads.g.doubleclick.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 sessions.bugsnag.com
+
+# Girl Games - Cooking Games
+# Cooking Madness
+0.0.0.0 graph.facebook.com
+0.0.0.0 app.adjust.com
+0.0.0.0 dep2-cooking-stat-ecs-prod.tuanguwen.com
+0.0.0.0 slots5.tuanguwen.com
+0.0.0.0 slots5-stat.tuanguwen.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 ads.api.vungle.com
+0.0.0.0 app-measurement.com
+0.0.0.0 outcome.supersonicads.com
+0.0.0.0 cookingmadness-cf.tuanguwen.com
+0.0.0.0 cookingmadness-us-login.liuxinkeji.cn
+#0.0.0.0 d1vhm9ngebin8n.cloudfront.net
+
+# Google LLC
+0.0.0.0 playatoms-pa.googleapis.com
+0.0.0.0 datamixer-pa.googleapis.com
+0.0.0.0 instantmessaging-pa.googleapis.com
+0.0.0.0 mobilemaps-pa.googleapis.com
+0.0.0.0 play.googleapis.com
+0.0.0.0 cloudconfig.googleapis.com
+0.0.0.0 android.clients.google.com # Ingamekäufe
+0.0.0.0 phonedeviceverification-pa.googleapis.com
+#0.0.0.0 android.googleapis.com # Wird für Playstoreanbindung benötigt
+0.0.0.0 digitalassetlinks.googleapis.com
+0.0.0.0 mtalk.google.com
+0.0.0.0 alt1-mtalk.google.com
+0.0.0.0 alt2-mtalk.google.com
+0.0.0.0 alt3-mtalk.google.com
+0.0.0.0 alt4-mtalk.google.com
+0.0.0.0 alt5-mtalk.google.com
+0.0.0.0 alt6-mtalk.google.com
+0.0.0.0 alt7-mtalk.google.com
+0.0.0.0 alt8-mtalk.google.com
+
+# Google LLC - Crashlytics
+0.0.0.0 e.crashlytics.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 reports.crashlytics.com
+
+# Green Panda Games
+# Idle Royale Tycoon - Incremental Merge Battle Game
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 track.tenjin.io
+0.0.0.0 greenpandagames.com
+0.0.0.0 a.applovin.com
+0.0.0.0 ads.mopub.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 a.applvn.com
+0.0.0.0 graph.facebook.com
+
+# Halfbrick Studios
+# Fruit Ninja®
+0.0.0.0 halfbrickapis.com
+0.0.0.0 cdn.bricknet.com
+0.0.0.0 stats.appsflyer.com
+0.0.0.0 api.otherlevels.com
+0.0.0.0 t.appsflyer.com
+0.0.0.0 e.crashlytics.com
+0.0.0.0 app-measurement.com
+0.0.0.0 apiv2.bricknet.com
+0.0.0.0 api.skydeo.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 api.skydeo.com
+0.0.0.0 ws.otherlevels.com
+0.0.0.0 graph.facebook.com
+
+# Huawei HiCloud
+0.0.0.0 servicesupport.hicloud.com
+0.0.0.0 servicesupport2.hicloud.com
+#0.0.0.0 query.hicloud.com
+0.0.0.0 pushtrs7.push.hicloud.com
+0.0.0.0 dnkeeper.hicloud.com
+
+# Huawei Swype
+0.0.0.0 api-swype.swypeconnect.com
+
+# iKame Games
+# Idle Prison Tycoon
+0.0.0.0 graph.facebook.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 init.supersonicads.com # 
+0.0.0.0 outcome-ssp.supersonicads.com
+0.0.0.0 supersonicads-a.akamaihd.net
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 mega.ikame.vn
+0.0.0.0 android.clients.google.com
+0.0.0.0 cloudconfig.googleapis.com
+0.0.0.0 app-measurement.com
+0.0.0.0 adc3-launch.adcolony.com
+0.0.0.0 wd.adcolony.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 ssl.google-analytics.com
+
+# Iron Horse Games LLC
+# Apocalypse
+0.0.0.0 pool.ntp.org
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 live.chartboost.com
+0.0.0.0 connect.tapjoy.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 events.iap.unity3d.com
+0.0.0.0 t.appsflyer.com
+
+# Idle Planet Miner
+0.0.0. t.appsflyer.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 connect.tapjoy.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 pool.ntp.org
+0.0.0.0 connect.tapjoy.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 t.appsflyer.com
+0.0.0.0 sessions.bugsnag.com
+
+# J2 Interactive
+# MX Player
+0.0.0.0 e.crashlytics.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 android.clients.google.com
+0.0.0.0 i.mxplayer.j2inter.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 ade.clmbtech.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 ase.clmbtech.com
+0.0.0.0 app-measurement.com
+0.0.0.0 t.appsflyer.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 evt.mxplay.com
+0.0.0.0 mxvp-feature-toggle-prod-1.zenmxapps.com
+
+# Jiri Techet
+# Network Analyzer
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 adservice.google.com
+0.0.0.0 in.appcenter.ms
+
+# Kolibri Games GmbH
+# Idle Miner Tycoon
+0.0.0.0 hades.getsocial.im
+0.0.0.0 e.crashlytics.com
+0.0.0.0 app-measurement.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 onesignal.com
+0.0.0.0 ms.applovin.com
+0.0.0.0 ms.applvn.com
+0.0.0.0 rt.applovin.com
+0.0.0.0 rt.applvn.com
+0.0.0.0 d.applovin.com
+0.0.0.0 d.applvn.com
+0.0.0.0 assets.applovin.com
+0.0.0.0 events.appsflyer.com
+0.0.0.0 t.appsflyer.com
+0.0.0.0 www.ssacdn.com
+0.0.0.0 kolibri-games.helpshift.com
+0.0.0.0 ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
+0.0.0.0 hosts.ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
+0.0.0.0 init.supersonicads.com
+0.0.0.0 outcome-ssp.supersonicads.com
+0.0.0.0 supersonicads-a.akamaihd.net
+0.0.0.0 logs.supersonic.com
+0.0.0.0 rv-gateway.supersonicads.com
+0.0.0.0 connect.tapjoy.com
+0.0.0.0 placements.tapjoy.com
+0.0.0.0 rpc.tapjoy.com
+0.0.0.0 ws.tapjoyads.com
+0.0.0.0 content.tapjoy.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 www.facebook.com
+0.0.0.0 adc3-launch.adcolony.com
+0.0.0.0 ads30.adcolony.com
+0.0.0.0 wd.adcolony.com
+0.0.0.0 ads.api.vungle.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 b343.playfabapi.com
+
+# Kongregate
+# Adventure Communist
+0.0.0.0 engage13617dvntr.deltadna.net
+0.0.0.0 collect13617dvntr.deltadna.net
+0.0.0.0 app.adjust.com
+0.0.0.0 rink.hockeyapp.net
+0.0.0.0 gate.hockeyapp.net
+0.0.0.0 analytics.kongregate.io
+#0.0.0.0 hyperhippo.ssl.hwcdn.net
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 onesignal.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 m.kongregate.com
+#0.0.0.0 6bf5.playfabapi.com
+
+# Kurechii
+# Postknight
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 outcome.supersonicads.com
+0.0.0.0 www.api.postknight.com
+
+# LC Studios
+# Kanji Study
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 decide.mixpanel.com
+0.0.0.0 api.mixpanel.com
+0.0.0.0 kanjistudyapp.com
+0.0.0.0 e.crashlytics.com
+0.0.0.0 ssl.google-analytics.com
+
+# Lion Studios
+# Cash, Inc.
+# {- Zeitangaben für einzelne Idlebalken laufen serverseitig | Onlinezwang mit Telemetrie -}
+0.0.0.0 config.safedk.com
+0.0.0.0 api.safedk.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 t.appsflyer.com
+0.0.0.0 app-measurement.com
+0.0.0.0 assets.applovin.com
+0.0.0.0 events.appsflyer.com
+0.0.0.0 ms.applovin.com
+0.0.0.0 rt.applovin.com
+0.0.0.0 d.applovin.com
+0.0.0.0 pdn.applovin.com
+0.0.0.0 img.applovin.com
+0.0.0.0 res1.applovin.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 e.crashlytics.com
+0.0.0.0 connect.tapjoy.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 outcome-ssp.supersonicads.com
+0.0.0.0 www.facebook.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 setting.rayjump.com
+0.0.0.0 analytics.rayjump.com
+0.0.0.0 s3.amazonaws.com
+0.0.0.0 alegrium.helpshift.com
+#0.0.0.0 lbadv.alegrium.com
+#0.0.0.0 lbmarie.alegrium.com
+
+# Making Fun, Inc.
+# Eternium
+0.0.0.0 tracking.aatkit.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 androidads23.adcolony.com
+0.0.0.0 collect4739mgndm.deltadna.net
+0.0.0.0 reporting.aatkit.com
+0.0.0.0 analytics.prod.mm.makingfun.com
+0.0.0.0 status.mm.makingfun.com
+#0.0.0.0 cds.j9u6s9u6.hwcdn.net
+#0.0.0.0 android-mm.makingfun.com # Onlinefunktionen/Werbung
+0.0.0.0 rules2.aatkit.com
+0.0.0.0 rules3.aatkit.com
+0.0.0.0 rules.aatkit.com
+
+# Metamoki
+# Weed Inc: Idle Tycoon
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 track.tenjin.io
+#0.0.0.0 s3.amazonaws.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 outcome.supersonicads.com
+0.0.0.0 weed-inc-cdn.metamoki.com
+#0.0.0.0 weed-inc-api.metamoki.com
+0.0.0.0 weed-inc.firebaseio.com
+0.0.0.0 api.amplitude.com
+0.0.0.0 app-measurement.com
+0.0.0.0 graph.facebook.com
+
+# Moon+
+# Moon+ Reader
+0.0.0.0 www.moondownload.com
+0.0.0.0 googleads.g.doubleclick.net
+
+# Moon Active
+# Coin Master
+0.0.0.0 graph.facebook.com
+0.0.0.0 www.facebook.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 decide.mixpanel.com
+0.0.0.0 api.mixpanel.com
+0.0.0.0 vik-analytics.moonactive.net
+0.0.0.0 t.appsflyer.com
+0.0.0.0 events.appsflyer.com
+0.0.0.0 register.appsflyer.com
+0.0.0.0 a8221c8e.api.splkmobile.com
+#0.0.0.0 vik-game.moonactive.net
+#0.0.0.0 static.moonactive.net
+0.0.0.0 ow-gateway.supersonicads.com
+0.0.0.0 rv-gateway.supersonicads.com
+0.0.0.0 logs.supersonicads.com
+0.0.0.0 supersonicads-a.akamaihd.net
+0.0.0.0 outcome-ssp.supersonicads.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 z.moatads.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 sdk-diagnostics.prd.mz.internal.unity3d.com
+0.0.0.0 cdn-store-icons-highwinds-prd.unityads.unity3d.com
+0.0.0.0 cdn-creatives-highwinds-prd.unityads.unity3d.com
+0.0.0.0 auction.unityads.unity3d.com
+0.0.0.0 publisher-config.unityads.unity3d.com
+0.0.0.0 webview.unityads.unity3d.com
+0.0.0.0 static.ssacdn.com
+0.0.0.0 www.ssacdn.com
+0.0.0.0 events3alt.adcolony.com
+0.0.0.0 wd.adcolony.com
+0.0.0.0 adc3-assets.adcolony.com
+0.0.0.0 c4d-cdn.adcolony.com
+0.0.0.0 ads30.adcolony.com
+0.0.0.0 adc-launch.adcolony.com
+0.0.0.0 pixel.adsafeprotected.com
+0.0.0.0 static.adsafeprotected.com
+0.0.0.0 dt.adsafeprotected.com
+0.0.0.0 cdn-lb.vungle.com
+0.0.0.0 api.vungle.com
+0.0.0.0 ads.api.vungle.com
+
+# MX Media
+# MX Player und MX Player PRO
+0.0.0.0 mxase.clmbtech.com
+0.0.0.0 e10843.dscj.akamaiedge.net
+0.0.0.0 ade.clmbtech.com
+0.0.0.0 e5178.dsce.akamaiedge.net
+0.0.0.0 evt.mxplay.com
+0.0.0.0 i.mxplayer.j2inter.com
+0.0.0.0 mxvp-feature-toggle-prod-1.zenmxapps.com
+0.0.0.0 ase.clmbtech.com
+
+# Outfit7 Limited
+# Swamp Attack
+0.0.0.0 apps.outfit7.com
+0.0.0.0 apps2.outfit7.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 api.bee7.com
+0.0.0.0 api-proxy.bee7.com
+0.0.0.0 t.appsflyer.com
+
+# Playrix
+# Township
+0.0.0.0 config.safedk.com
+0.0.0.0 api.safedk.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 playrix.helpshift.com
+#0.0.0.0 township-ios.playrix.com
+0.0.0.0 cdn.playrix.com
+0.0.0.0 msg.township-ios.playrix.com
+0.0.0.0 township-cdn.playrix.com
+0.0.0.0 gate.hockeyapp.net
+0.0.0.0 app-measurement.com
+0.0.0.0 1170.api.swrve.com
+0.0.0.0 events.appsflyer.com
+0.0.0.0 t.appsflyer.com
+0.0.0.0 1170.content.swrve.com
+0.0.0.0 android.clients.google.com
+0.0.0.0 404.playrix.com
+0.0.0.0 township-cdn-cf.playrix.com
+
+# RaphaelW
+# JA Sensei - Japanisch lernen
+#0.0.0.0 www.japan-activator.com
+0.0.0.0 ssl.google-analytics.com
+
+# RARLAB
+# Rar
+0.0.0.0 adservice.google.com
+
+# regioIT
+# Tonnenticker Pro
+#0.0.0.0 krwaf-abfallapp.regioit.de
+
+# SEGA
+# Sonic Dash
+0.0.0.0 ads.mopub.com
+0.0.0.0 stats.appsflyer.com
+0.0.0.0 connect.tapjoy.com
+0.0.0.0 sonicdash.sega-net.jp
+0.0.0.0 init.supersonicads.com
+0.0.0.0 outcome.supersonicads.com
+0.0.0.0 grid.hardlightgames.com
+0.0.0.0 sonicdash-config.hardlightdev.com
+0.0.0.0 www.5rocks.io
+0.0.0.0 analytics.hardlightgames.com
+0.0.0.0 e.crashlytics.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 api.safedk.com
+0.0.0.0 tp.sega.com
+0.0.0.0 t.appsflyer.com
+0.0.0.0 events.appsflyer.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 hl-legals.s3-us-west-2.amazonaws.com
+
+# Smart Verable Devices
+# VeryFitPro Fitnesstracker
+0.0.0.0 api.share.mob.com
+0.0.0.0 f.gm.mob.com
+0.0.0.0 api.exc.mob.com
+0.0.0.0 ido-ble-lib.cn-hongkong.log.aliyuncs.com
+0.0.0.0 cn-hangzhou.oss-pub.aliyun-inc.com
+0.0.0.0 api.map.baidu.com
+0.0.0.0 veryfitproapi.veryfitplus.com
+0.0.0.0 restapi.amap.com
+0.0.0.0 logs.amap.com
+0.0.0.0 a.amap.com
+0.0.0.0 adiu.amap.com
+0.0.0.0 control.aps.amap.com
+0.0.0.0 api.ipify.org
+0.0.0.0 sdk.yolanda.hk
+0.0.0.0 www.youduoyun.com # Hilfeseiten
+
+# SwiftKey
+# SwiftKey-Tastatur
+0.0.0.0 telemetry.api.swiftkey.com
+0.0.0.0 snippetdata.api.swiftkey.com
+0.0.0.0 tigger-citadel.touchtype-fluency.com
+0.0.0.0 snippetdata.api.swiftkey.com
+0.0.0.0 d39hwpl5gxli7h.cloudfront.net
+0.0.0.0 gate.hockeyapp.net
+0.0.0.0 bibo.api.swiftkey.com
+
+# Tapps Games
+# Illuminati
+0.0.0.0 events.appsflyer.com
+0.0.0.0 firebaseremoteconfig.googleapis.com
+0.0.0.0 ms.applovin.com
+0.0.0.0 d.applovin.com
+0.0.0.0 rt.applovin.com
+0.0.0.0 app-measurement.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 graph.facebook.com
+0.0.0.0 ads.api.vungle.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 outcome.supersonicads.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 live.chartboost.com
+0.0.0.0 ads.mopub.com
+#0.0.0.0 www.googleapis.com
+#0.0.0.0 securetoken.googleapis.com
+
+# upjers GmbH
+# My free farm 2
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 data-optout-service.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 googleads.g.doubleclick.net
+#0.0.0.0 gamemff2.upjers.com
+0.0.0.0 mff2.wavecdn.net
+0.0.0.0 9470.engine.mobileapptracking.com
+0.0.0.0 m.upjers.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 app-measurement.com
+0.0.0.0 sessions.bugsnag.com
+
+# YT3 - Youtube Downloader
+0.0.0.0 adimpression.startappservice.com
+0.0.0.0 nj-lb.startappelb.com
+0.0.0.0 info.startappservice.com
+0.0.0.0 cs1112.wpc.rhocdn.net
+0.0.0.0 infoevent.startappservice.com
+0.0.0.0 sin-lb.startappelb.com
+0.0.0.0 adsmetadata.startappservice.com
+0.0.0.0 images.startappservice.com
+0.0.0.0 req.startappservice.com
+0.0.0.0 dts.startappservice.com
+
+# Zeh Fernando
+# Kana Mind
+0.0.0.0 sessions.bugsnag.com
+0.0.0.0 api.gameanalytics.com
+
+# Zepni Ltd.
+# Merge Dogs
+0.0.0.0 graph.facebook.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 googleads.g.doubleclick.net
