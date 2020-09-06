@@ -1,0 +1,308 @@
+#   ____                      ___           _           _                          
+#  / ___| __ _ _ __ ___   ___|_ _|_ __   __| |_   _ ___| |_ _ __ _   _   ___ _   _ 
+# | |  _ / _` | '_ ` _ \ / _ \| || '_ \ / _` | | | / __| __| '__| | | | / _ \ | | |
+# | |_| | (_| | | | | | |  __/| || | | | (_| | |_| \__ \ |_| |  | |_| ||  __/ |_| |
+#  \____|\__,_|_| |_| |_|\___|___|_| |_|\__,_|\__,_|___/\__|_|   \__, (_)___|\__,_|
+#                                                                |___/             
+#
+# Erhöhter Schutz vor Spyware, Advertising, Analytics, Tracking in Spielen
+# Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
+#
+# Version: hosts Template für PC-Spiele - Mini-Version
+# Änderungsdatum: 04.09.2020
+#
+# Diese Datei stammt von https://www.gameindustry.eu
+# Kontaktmail: noreply@gameindustry.eu
+# Hilfe: https://www.gameindustry.eu/hosts/faq.php
+# Kontakt: https://www.gameindustry.eu/u/kontakt/
+# Steam: https://www.steamcommunity.com/groups/Penguindome
+#
+# Lizenz: CC BY-NC-SA 4.0
+# https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
+#
+# License: CC BY-NC-SA 4.0
+# https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en
+#
+# Es ist gestattet, die host Dateien für nicht-kommerzielle Zwecke zu verwenden,
+# solange auf angemessene Urheber/Rechteangaben mitsamt Link verwiesen wird.
+#
+# --- Ab hier kopieren ---
+
+127.0.0.1	localhost
+127.0.0.1	localhost.localdomain
+255.255.255.255	broadcasthost
+::1		localhost
+127.0.0.1	local
+::1		ip6-localhost ip6-loopback
+fe00::0		ip6-localnet
+ff00::0		ip6-mcastprefix
+ff02::1		ip6-allnodes
+ff02::2		ip6-allrouters
+ff02::3		ip6-allhosts
+#fe80::1%lo0	localhost
+
+# (Adobe Inc.)
+0.0.0.0 airdownload2.adobe.com
+
+# (Amazon.com, Inc.)
+# Blockieren: 52.94.229.182
+0.0.0.0 kinesis.us-east-1.amazonaws.com
+
+# (Aspyr)
+# Blockieren: 54.148.251.172
+0.0.0.0 gameguide3.aspyr.com
+
+# (Avalanche Studios)
+# Blockieren: 104.16.1.61, 104.16.2.61
+0.0.0.0 tracking.avalanchestudios.com
+0.0.0.0 metrics.avalanchestudios.com
+0.0.0.0 tracking2.avalanchestudios.com
+0.0.0.0 oldtracking.avalanchestudios.com
+
+# (Buffpanel)
+# Blockieren: 46.101.127.173, 185.14.184.48
+0.0.0.0 buffpanel.com
+0.0.0.0 api.buffpanel.com
+
+# (Cloudapp, Inc.)
+0.0.0.0 s3-telemetry-eust1.cloudapp.net
+0.0.0.0 s3-telemetry-eust2.cloudapp.net
+0.0.0.0 s3-telemetry-eust3.cloudapp.net
+0.0.0.0 s3-telemetry-eust4.cloudapp.net
+0.0.0.0 s3-telemetry-eust5.cloudapp.net
+
+# (Daedalic Entertainment)
+# Blockieren: 104.27.146.140, 52.166.80.100, 104.27.146.140
+0.0.0.0 cgpromotion.azurewebsites.net
+0.0.0.0 cgpromotion.blob.core.windows.net
+
+# (DeltaDNA, Ltd)
+# Blockieren: 31.3.232.184, 34.96.113.148, 78.129.129.136
+0.0.0.0 balanced-collect.deltadna.net
+0.0.0.0 collect14010thrnb.deltadna.net # Thronebreaker: The Witcher Tales
+0.0.0.0 collect3515gvrnr.deltadna.net # Governor of Poker 3
+0.0.0.0 engage3515gvrnr.deltadna.net # Governor of Poker 3
+0.0.0.0 collect11772tmntp.deltadna.net # Teenage Mutant Ninja Turtles: Portal Power
+0.0.0.0 collect5588rmtct.deltadna.net # Arma Tactics
+0.0.0.0 collect13452trpc6.deltadna.net # Tropico 6
+0.0.0.0 collect9543hvjmp.deltadna.net # Hive Jump 
+0.0.0.0 collect13623ww19v.deltadna.net # WWE 2K19
+0.0.0.0 collect14853cntrl.deltadna.net # Control: Ultimate Edition
+
+# (Epic Games, Inc.)
+# [UnrealEngine Analytics]
+# Dazugehörige IP-Adressen unter https://gameindustry.eu/firmenkatalog/epic-games-inc/
+0.0.0.0 et.epicgames.com
+0.0.0.0 et2.epicgames.com
+0.0.0.0 qos1.ol.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com 
+# Datarouter Tracking vor 2020
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 datarouter-prod.ak.epicgames.com
+# Datarouter Tracking 2020
+0.0.0.0 api.epicgames.dev # Mehr Info hierzu auf www.gameindustry.eu
+0.0.0.0 metrics.ol.epicgames.com
+# Noch mehr Telemetrie
+0.0.0.0 tracking.epicgames.com
+0.0.0.0 metric-public-service-prod.ol.epicgames.com
+# EULA und Tracking nach Bedarf blockieren
+#0.0.0.0 etsource.epicgames.com
+
+# (FatShark)
+0.0.0.0 ftp.fatshark.se
+
+# (GameAnalytics)
+# Blockieren: 3.208.241.25, 18.215.25.247, 34.232.158.101, 34.235.76.210, 52.54.160.160, 52.72.141.108, 54.85.112.35, 54.164.66.28, 54.210.167.166, 54.210.178.45, 52.73.89.97, 34.238.54.250
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 api-us.gameanalytics.com
+0.0.0.0 gameanalytics.com
+0.0.0.0 freegameanalytics.com
+0.0.0.0 rubick.gameanalytics.com
+0.0.0.0 skdev.io
+0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
+
+# (Gamesight)
+# 35.161.12.27, 54.203.171.101, 40.118.187.121
+0.0.0.0 track-api.gamesight.io
+0.0.0.0 api.ingest.marketing.gamesight.io
+0.0.0.0 console.gamesight.io
+
+# (Google LLC)
+# [Google Analytics & TagManager]
+# Blockieren: 172.217.21.206,216.58.211.14, 172.217.21.142, 172.217.21.174, 216.58.199.238, 216.58.203.238, 216.58.209.238, 216.58.208.46, 172.217.26.78, 216.58.215.110, 172.217.17.46, 172.217.17.110, 172.217.22.46, 172.217.194.102, 216.58.212.174, 216.58.212.238, 216.58.221.78, 216.58.223.78
+0.0.0.0 www.google-analytics.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 www.googletagmanager.com
+
+# [Doubleclick]
+# Blockieren: 74.125.68.157, 172.217.22.6, 172.217.16.134, 172.217.18.98, 172.217.21.226, 172.217.8.2
+0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 stats.l.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 static.doubleclick.net
+
+# (Klei Entertainment)
+# Blockieren: 34.236.69.189, 52.6.54.1, 34.231.207.192, 52.201.125.219, 34.211.23.135
+0.0.0.0 kleianalyticsfrontend.elasticbeanstalk.com
+0.0.0.0 metric.kleientertainment.com
+0.0.0.0 kleianalyticsfrontend.elasticbeanstalk.com
+0.0.0.0 oni.metrics.klei.com
+0.0.0.0 jwt.metrics.klei.com
+0.0.0.0 jwtcollector.kleientertainment.com
+0.0.0.0 dst.metrics.klei.com
+0.0.0.0 ni.metrics.klei.com
+0.0.0.0 ds.metrics.klei.com
+
+# (Kongregate | MTG Gruppe)
+0.0.0.0 analytics.kongregate.io
+
+# (Microsoft Corporation)
+0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 web.vortex.data.microsoft.com
+0.0.0.0 vortex-sbx.microsoft.com
+0.0.0.0 vortex-win-sandbox.data.microsoft.com
+0.0.0.0 vortex.microsoft.com
+
+# (Mixpanel, Inc.)
+# Blockieren: 35.186.241.51, 107.178.240.159, 35.190.25.25
+0.0.0.0 decide.mixpanel.com
+0.0.0.0 api.mixpanel.com
+0.0.0.0 cdn.mxpnl.com
+0.0.0.0 cdn4.mxpnl.com
+0.0.0.0 api-js.mixpanel.com
+
+# (Ninja Kiwi Limited)
+0.0.0.0 analytics.ninjakiwi.com
+
+# (Obsidian Entertainment)
+0.0.0.0 telemetry.obsidian.net
+
+# (Paradox Interactive)
+0.0.0.0 opstm.paradoxplaza.com
+
+# (Redshell)
+0.0.0.0 api.redshell.io
+0.0.0.0 prod-lb.redshell.io
+
+# (Rockstar Games)
+0.0.0.0 prod.telemetry.ros.rockstargames.com
+
+# (Sega Games Co., Ltd.)
+# Blockieren: 52.48.186.45, 52.44.13.74, 34.252.170.86
+0.0.0.0 garry.sgaas.net
+0.0.0.0 hull.sgaas.net
+0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
+
+# (Snail Games USA)
+0.0.0.0 crashlogs.mobilegame.woniu.com
+
+# (Square Enix)
+0.0.0.0 metrics.hitman.io
+
+# (StatHat)
+0.0.0.0 api.stathat.com
+
+# (Trackedlink)
+0.0.0.0 t.trackedlink.net
+
+# (TrackJS)
+# Blockieren: 158.69.52.117, 149.56.21.68, 167.114.119.127, 167.114.103.79, 167.114.172.69, 158.69.52.117
+0.0.0.0 capture-trackjs.com
+0.0.0.0 usage.trackjs.com
+
+# (Treasuredata | Clouddienst für Datenerfassung, Analyse und Speicherung)
+# Blockieren: 34.202.72.93
+0.0.0.0 cdn.treasuredata.com
+0.0.0.0 in.treasuredata.com
+0.0.0.0 tokyo.in.treasuredata.com
+0.0.0.0 cdp.in.treasuredata.com
+
+# (Unity Technologies ApS)
+# [Unity3D Engine]
+# Ungefragte Datenweitergabe von persönlichen Informationen, Block auf allen Ebenen wird empfohlen
+# Infos auf https://unity3d.com/de/legal/privacy-policy
+0.0.0.0 activation.unity3d.com # Aktivierung
+0.0.0.0 unityads.unity3d.com # Werbung
+0.0.0.0 webview.unityads.unity3d.com
+0.0.0.0 developer.cloud.unity3d.com # Entwicklung, CoreUI, Warteliste
+0.0.0.0 collab-waiting-list.cloud.unity3d.com # Warteliste API
+0.0.0.0 build-artifact-api.cloud.unity3d.com # Build Upload API
+0.0.0.0 build-api.cloud.unity3d.com # BuildAPI
+0.0.0.0 prd-lender.cdp.internal.unity3d.com # CDP Analytics
+0.0.0.0 data.cloud.unity3d.com # Clouddaten
+0.0.0.0 collab.cloud.unity3d.com # Collab
+0.0.0.0 commenting.cloud.unity3d.com # Kommentare
+0.0.0.0 core.cloud.unity3d.com # Core
+0.0.0.0 embedded.cloud.unity3d.com # Core Embedded
+#0.0.0.0 api.unity.com # Genesis API, Identifizierung, Webseitenanmeldung
+#0.0.0.0 id.unity.com # Genesis API URL, Webseitenanmeldung
+0.0.0.0 jump.cloud.unity3d.com # Jump
+0.0.0.0 license.unity3d.com # Lizenzserver
+0.0.0.0 perf.cloud.unity3d.com # Activity-Feed
+0.0.0.0 multiplayer.unity3d.com # Mehrspieler
+0.0.0.0 accounts.unity3d.com # WebAUTH
+0.0.0.0 dashboard.heyplayapp.com # Social Dashboard
+0.0.0.0 public-cdn.cloud.unity3d.com # Hub Installer
+0.0.0.0 eloqua-trackings.unity3d.com
+0.0.0.0 lore.cdp.internal.unity3d.com
+0.0.0.0 lore.data.ie.cdp.internal.unity3d.com
+0.0.0.0 eu-api.uca.cloud.unity3d.com
+0.0.0.0 dataoptout-ui-prd.uca.cloud.unity3d.com
+0.0.0.0 uca.cloud.unity3d.com
+0.0.0.0 sdk-diagnostics.prd.mz.internal.unity3d.com
+0.0.0.0 auction.unityads.unity3d.com
+0.0.0.0 nginx-auction-prdgcp.adsx.unityads.unity3d.com
+0.0.0.0 cdn-creatives-highwindsprd.unityads.unity3d.com
+0.0.0.0 auiopt.unityads.unity3d.com
+0.0.0.0 cdn-store-icons-highwindsprd.unityads.unity3d.com
+0.0.0.0 httpkafka.unityads.unity3d.com
+0.0.0.0 publisher-config.unityads.unity3d.com
+0.0.0.0 ads-gameconfiguration.unityads.unity3d.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
+# Zuständig für Schnüffelei in Spielen
+# Erfasste Daten werden je nach Nutzerherkunft an USC "z.b. Usa", EUW "z.b. Deutschland"" oder APE "z.b. Japan" von der Perf-Events aus weitergeleitet. Ips gehören dazu.
+# Blockieren: 35.241.52.229, 35.186.194.186, 35.241.26.53, 35.190.88.234, 35.190.78.8
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 stats.unity3d.com
+0.0.0.0 hwstats.uca.cloud.unity3d.com
+# Data-Optout leitet auf Analytics mitsamt Übergabeparameter/Token weiter. Dazu gehören ProgrammID, UserID, GeräteID
+# Außerdem Einstellungen zu de/aktivierten Analytics, Optout ja/nein, Report erlaubt ja/nein
+# Bei Bedarf de/aktivieren
+0.0.0.0 data-optout-service.uca.cloud.unity3d.com
+0.0.0.0 analytics.cloud.unity3d.com # Analytics
+
+# (Valve Corporation)
+# [Steamerrorreporter.exe | Upload nicht genehmigter Crashdumps]
+# Blockieren: 208.64.203.140 
+0.0.0.0 crash.steampowered.com
+
+# [Directory Server]
+# Blockieren: 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 a1737.b.akamai.net
+0.0.0.0 208-64-200-105.steampowered.com
+
+# [steamwebhelper.exe]
+# Blockieren: 151.101.112.193
+0.0.0.0 limited-prod.giphy.map.fastly.net
+0.0.0.0 prod.imgur.map.fastlylb.net
+
+# (Yo Yo Games)
+0.0.0.0 ping.yoyogames.com
+
+# (Z-software.net)
+0.0.0.0 gametracker.z-software.net
