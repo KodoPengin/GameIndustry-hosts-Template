@@ -16,7 +16,8 @@ This unique hosts offer an enhanced privacy to protect users from tracking, spyw
 # Special features:
 - Entries for over 1300 games
 - Over 25000 lines
-- Entries for Software, websites and IOT
+- Up to date
+- Entries for Software, games, websites and IOT
 - Modular design
 - All entries are categorized by Product names, Publisher & company name
 - Comments and additional information for several entries
@@ -31,8 +32,8 @@ This unique hosts offer an enhanced privacy to protect users from tracking, spyw
 Careful with using entries. Some may be strict and many services may not work
 
 # Copyright, Support & License
-It's a single project. Creating and maintaining the list has taken several years and have build alone from scratch.
-GameIndustry.eu is the original source of this and other host files. If the files are from somewhere else (maybe modified), they are not from me and get no support.
+It's a single project. Creating and maintaining the list has taken several years a lot of money and have build alone from scratch.
+GameIndustry.eu is the original source of published host files. If the files (or components) are from somewhere else (maybe modified), they are not from me and get no support.
 
 Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a><br>
 Steam Group & Support: <a href="https://steamcommunity.com/groups/penguindome/">Spyware in Spielen? Nein danke!</a>
