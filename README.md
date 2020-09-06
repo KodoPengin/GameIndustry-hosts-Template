@@ -26,7 +26,8 @@ This unique hosts offer an enhanced privacy to protect users from tracking, spyw
 - Strict and no exceptions for big technology companys
 
 # Cons:
-- Kaspersky Internet Security and Windows Defender Smartscreen are no friends of mine
+- Kaspersky Internet Security and Windows Defender Smartscreen are no friends of mine<br>
+Exception rules have to be created for those two programs
 
 # Hint:
 Careful with using entries. Some may be strict and many services may not work
