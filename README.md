@@ -16,7 +16,7 @@ This unique hosts offer an enhanced privacy to protect users from tracking, spyw
 # Special features:
 - Entries for over 1300 games
 - Over 25000 lines
-- Up to date
+- Regularly updated
 - Entries for Software, games, websites and IOT
 - Modular design
 - All entries are categorized by Product names, Publisher & company name
