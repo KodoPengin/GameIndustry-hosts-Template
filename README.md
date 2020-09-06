@@ -6,6 +6,13 @@ Business analytics, spyware, tracking cookies in games and clients and thus part
 
 This unique hosts offers enhanced privacy to protect users from tracking, spyware, malware, advertising and redirections in games, on websites and in regulary programs.
 
+# Host versions
+- Main Template: software, websites, drivers, technology companys, gaming clients, games
+- Gaming Mini-Template: Blocked most common game analytics, spyware and advertising services in PC games
+- Gaming Full-Template: Blocked telmetry, game analytics, spyware and unnecessary connections for Gaming Clients and Games on and for several platforms.
+- Android Mini-Template: Blocked most common game analytics, spyware and advertising services in Android games and software
+- Android Full-Template: Blocked telmetry, game analytics, spyware and unnecessary connections for several Android products, product related without exception
+
 # Special features:
 - Entries for over 1300 games
 - Entries for Software, websites and IOT
@@ -14,10 +21,13 @@ This unique hosts offers enhanced privacy to protect users from tracking, spywar
 - Comments and additional information for several entries
 - All products are seperated, to show consumers which things belong to which product
 - Additional Ipv4 and Ipv6 entries to block them in your firewall
-- Strict and no exceptions for big technology companys (also means some entries may not for beginners)
+- Strict and no exceptions for big technology companys
 
 # Cons:
 - Kaspersky and Windows Defender doesn't like it
+
+# Hint:
+Careful with using entries. Some may be strict and many services may not work
 
 # Copyright, Support & License
 It's a single project. Creating and maintaining the list has taken several years.
