@@ -10,8 +10,8 @@ This unique hosts offer an enhanced privacy to protect users from tracking, spyw
 - Main Template: software, websites, drivers, technology companys, gaming clients, games and more
 - Gaming Mini-Template: Blocked most common game analytics, spyware and advertising services in PC games. Nothing else
 - Gaming Full-Template: Blocked telemetry, game analytics, spyware and unnecessary connections for Gaming Clients and Games on and for several platforms.
-- Android Mini-Template: Blocked most common game analytics, spyware and advertising services in Android games and software
-- Android Full-Template: Blocked telemetry, game analytics, spyware and unnecessary connections for several Android products. Product related without exception
+- Android Mini-Template: Blocked most common game analytics, advertising, spyware and advertising services in Android games and software
+- Android Full-Template: Blocked telemetry, advertising, game analytics, spyware and unnecessary connections for several Android products. Product related without exception
 
 # Special features:
 - Entries for over 1300 games
@@ -33,7 +33,7 @@ Exception rules have to be created for those two programs
 Careful with using entries. Some may be strict and many services may not work
 
 # Copyright, Support & License
-It's a single project. Creating and maintaining the list has taken several years a lot of money and have build alone from scratch.
+It's a single project. Creating and maintaining the list has taken several years a lot of money and have build alone from scratch.<br><br>
 GameIndustry.eu is the original source of published host files. If the files (or components) are from somewhere else (maybe modified), they are not from me and get no support.
 
 Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a><br>
