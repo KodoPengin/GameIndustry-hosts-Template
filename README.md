@@ -30,7 +30,7 @@ This unique hosts offer enhanced privacy to protect users from tracking, spyware
 Careful with using entries. Some may be strict and many services may not work
 
 # Copyright, Support & License
-It's a single project. Creating and maintaining the list has taken several years.
+It's a single project. Creating and maintaining the list has taken several years and have build alone from scratch.
 GameIndustry.eu is the original source of this and other host files. If the files are from somewhere else (maybe modified), they are not from me and get no support.
 
 Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a><br>
