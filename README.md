@@ -4,17 +4,18 @@ host templates to enhance own privacy in games, websites and regulary software
 # Readme
 Business analytics, spyware, tracking cookies in games and clients and thus partly self-legitimized data theft are often wide accepted these days.
 
-This unique hosts offer enhanced privacy to protect users from tracking, spyware, malware, advertising and redirections in games, on websites and in regulary programs.
+This unique hosts offer an enhanced privacy to protect users from tracking, spyware, malware, advertising and redirections in games, on websites and in regulary programs.
 
 # Host versions
 - Main Template: software, websites, drivers, technology companys, gaming clients, games and more
-- Gaming Mini-Template: Blocked most common game analytics, spyware and advertising services in PC games
-- Gaming Full-Template: Blocked telmetry, game analytics, spyware and unnecessary connections for Gaming Clients and Games on and for several platforms.
+- Gaming Mini-Template: Blocked most common game analytics, spyware and advertising services in PC games. Nothing else
+- Gaming Full-Template: Blocked telemetry, game analytics, spyware and unnecessary connections for Gaming Clients and Games on and for several platforms.
 - Android Mini-Template: Blocked most common game analytics, spyware and advertising services in Android games and software
-- Android Full-Template: Blocked telmetry, game analytics, spyware and unnecessary connections for several Android products, product related without exception
+- Android Full-Template: Blocked telemetry, game analytics, spyware and unnecessary connections for several Android products. Product related without exception
 
 # Special features:
 - Entries for over 1300 games
+- Over 25000 lines
 - Entries for Software, websites and IOT
 - Modular design
 - All entries are categorized by Product names, Publisher & company name
@@ -24,7 +25,7 @@ This unique hosts offer enhanced privacy to protect users from tracking, spyware
 - Strict and no exceptions for big technology companys
 
 # Cons:
-- Kaspersky and Windows Defender doesn't like it
+- Kaspersky Internet Security and Windows Defender Smartscreen are no friends of mine
 
 # Hint:
 Careful with using entries. Some may be strict and many services may not work
@@ -37,4 +38,3 @@ Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a><br>
 Steam Group & Support: <a href="https://steamcommunity.com/groups/penguindome/">Spyware in Spielen? Nein danke!</a>
 
 License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons by-nc-sa 4.0</a>
-
