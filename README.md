@@ -25,9 +25,18 @@ This unique hosts offer an enhanced privacy to protect users from tracking, spyw
 - Additional Ipv4 and Ipv6 entries to block them in your firewall
 - Strict and no exceptions for big technology companys
 
+# Bonus:
+A host file setup was created for easy use. Start your setup, choose one template and install<br>
+Source: <a href="https://www.gameindustry.eu/downloads/">GameIndustry Downloads</a>
+
 # Cons:
 - Kaspersky Internet Security and Windows Defender Smartscreen are no friends of mine<br>
 Exception rules have to be created for those two programs
+
+# Installation for Windows and other systems:
+Windows: %SystemRoot%\System32\drivers\etc\hosts<br>
+Linux: /etc/hosts<br>
+Android: /etc/hosts (a symbolic link to /system/etc/hosts) 
 
 # Hints:
 Careful with using entries. Some may be strict and many services may not work
