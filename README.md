@@ -47,7 +47,7 @@ Careful with using entries. Some may be strict and many services may not work
 It's a single project. Creating and maintaining the list has taken several years a lot of money and have build alone from scratch.<br><br>
 GameIndustry.eu is the original source of published host files. If the files (or components) are from somewhere else (maybe modified), they are not from me and get no support.
 
-Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a><br>
+Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a> and <a href="https://www.gameindustry.eu/u/kontakt/">Contact site</a><br>
 Steam Group & Support: <a href="https://steamcommunity.com/groups/penguindome/">Spyware in Spielen? Nein danke!</a>
 
 License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons by-nc-sa 4.0</a>
