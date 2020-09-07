@@ -17,10 +17,10 @@ This unique hosts offer an enhanced privacy to protect users from tracking, spyw
 - Entries for over 1300 games
 - Over 25000 lines
 - Regularly updated
-- Entries for Software, games, websites and IOT
+- Entries for Software, games, websites and IoT
 - Modular design
-- All entries are categorized by Product names, Publisher & company name
-- Comments and additional information for several entries
+- All entries are categorized by Product names, Publisher, website & company names
+- Comments and additional information for several entries (german language)
 - All products are seperated, to show consumers which things belong to which product
 - Additional Ipv4 and Ipv6 entries to block them in your firewall
 - Strict and no exceptions for big technology companys
