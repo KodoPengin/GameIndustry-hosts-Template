@@ -26,8 +26,10 @@ This unique hosts offer an enhanced privacy to protect users from tracking, spyw
 - Strict and no exceptions for big technology companys
 
 # Bonus:
-A host file setup was created for easy use. Start your setup, choose one template and install<br>
-Source: <a href="https://www.gameindustry.eu/downloads/">GameIndustry Downloads</a>
+A host file setup was created for easy use. Start your setup, choose one template and install.<br>
+Source: <a href="https://www.gameindustry.eu/downloads/">GameIndustry Downloads</a><br>
+
+Supporting german, english and japanese language
 
 # Cons:
 - Kaspersky Internet Security and Windows Defender Smartscreen are no friends of mine<br>
