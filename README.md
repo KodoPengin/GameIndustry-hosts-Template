@@ -1,5 +1,5 @@
-# GameIndustry-hosts-Templates
-host templates to enhance own privacy in games, websites and regulary software
+# GameIndustry hosts Templates
+Unique host templates to enhance own privacy in games, websites and regulary software
 
 # Description
 Business analytics, spyware, tracking cookies in games and clients and thus partly self-legitimized data theft are often wide accepted these days.
