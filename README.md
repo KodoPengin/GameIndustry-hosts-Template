@@ -1,7 +1,7 @@
 # GameIndustry-hosts-Templates
 host templates to enhance own privacy in games, websites and regulary software
 
-# Readme
+# Description
 Business analytics, spyware, tracking cookies in games and clients and thus partly self-legitimized data theft are often wide accepted these days.
 
 This unique hosts offer an enhanced privacy to protect users from tracking, spyware, malware, advertising and redirections in games, on websites and in regulary programs.
@@ -29,7 +29,7 @@ This unique hosts offer an enhanced privacy to protect users from tracking, spyw
 - Kaspersky Internet Security and Windows Defender Smartscreen are no friends of mine<br>
 Exception rules have to be created for those two programs
 
-# Hint:
+# Hints:
 Careful with using entries. Some may be strict and many services may not work
 
 # Copyright, Support & License
@@ -39,4 +39,4 @@ GameIndustry.eu is the original source of published host files. If the files (or
 Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a><br>
 Steam Group & Support: <a href="https://steamcommunity.com/groups/penguindome/">Spyware in Spielen? Nein danke!</a>
 
-License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons by-nc-sa 4.0</a>
+License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons by-nc-sa 4.0</a
