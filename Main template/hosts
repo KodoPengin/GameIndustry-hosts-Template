@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 06.09.2020
+# Änderungsdatum: 07.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -340,7 +340,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 raw.githubusercontent.com
 0.0.0.0 avatars.githubusercontent.com
 # Telemetrie / Metrics
-0.0.0.0 central.github.com # Ping
+#0.0.0.0 central.github.com # Ping und Download von Github Software
 0.0.0.0 david-dm.org # mectrics.svg
 0.0.0.0 api.travis-ci.org
 0.0.0.0 ci.appveyor.com
@@ -6381,6 +6381,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 rce.veeseo.com
 0.0.0.0 push.rce.veeseo.com
 0.0.0.0 tracking-rce.veeseo.com
+
+# Verint Systems, Inc.
+# Ip/s blockieren:
+# 52.202.9.160
+# 143.204.94.14
+0.0.0.0 analytics.foresee.com
+0.0.0.0 gateway.foresee.com
 
 # Vertamedia.com
 0.0.0.0 static.vertamedia.com
@@ -16161,6 +16168,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.gameanalytics.com
 
 # デジモンストーリー サイバースルゥース ハッカーズメモリー | Digimon Story Cyber Sleuth: Complete Edition
+# 35.241.58.78
 # 172.217.22.67
 # 35.186.241.36
 # 216.58.212.163
@@ -16170,6 +16178,7 @@ ff02::3 ip6-allhosts
 # 2a00:1450:4001:819::2003
 # 2a00:1450:4001:81c::2003
 0.0.0.0 cosmos.channel.or.jp
+0.0.0.0 test.cosmos.channel.or.jp
 0.0.0.0 36.241.186.35.bc.googleusercontent.com
 #0.0.0.0 www.google.co.jp
 0.0.0.0 fra24s01-in-x03.1e100.net
