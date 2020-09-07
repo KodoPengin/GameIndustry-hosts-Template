@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 04.09.2020
+# Änderungsdatum: 07.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -923,9 +923,9 @@ ff02::3 ip6-allhosts
 # 184.24.77.162
 # 184.24.77.156
 0.0.0.0 ipv6check-udp.steamcontent.com
+0.0.0.0 ipv6check-http.steamcontent.com
 0.0.0.0 udp.ipv6check.akadns.net
 0.0.0.0 eu.udp.ipv6check.akadns.net
-0.0.0.0 ipv6check-http.steamcontent.com
 0.0.0.0 http.ipv6check.akadns.net
 0.0.0.0 eu.http.ipv6check.akadns.net
 
@@ -1934,8 +1934,34 @@ ff02::3 ip6-allhosts
 
 # Alexey Glinskiy
 # DeepFear
-0.0.0.0 api.uca.cloud.unity3d.com
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
+# Far Space Halloween Edition
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Alientrap
 # Apotheon
@@ -2393,13 +2419,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.gameanalytics.com
 
 # デジモンストーリー サイバースルゥース ハッカーズメモリー | Digimon Story Cyber Sleuth: Complete Edition
+# 35.241.58.78
+# 172.217.22.67
 # 35.186.241.36
 # 216.58.212.163
 # 172.217.18.163
 # 2a00:1450:4001:802::2003
 # 2a00:1450:4001:806::2003
 # 2a00:1450:4001:819::2003
+# 2a00:1450:4001:81c::2003
 0.0.0.0 cosmos.channel.or.jp
+0.0.0.0 test.cosmos.channel.or.jp
 0.0.0.0 36.241.186.35.bc.googleusercontent.com
 #0.0.0.0 www.google.co.jp
 0.0.0.0 fra24s01-in-x03.1e100.net
@@ -3300,6 +3330,24 @@ ff02::3 ip6-allhosts
 # Pressure Overdrive
 # s. Steam: General Directory Server
 
+# Cheesecake Dev
+# Internet Cafe Simulator
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Chibig
 # Summer in Mara
 # Ip/s blockieren:
@@ -4079,7 +4127,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 auth.gog.com
 #0.0.0.0 users.gog.com
 #0.0.0.0 multiplayer.gog.com
-0.0.0.0 e11072.g.akamaiedge.net
+#0.0.0.0 e11072.g.akamaiedge.net
 
 # Serious Sam Fusion 2017
 0.0.0.0 ingame.serioussam.com
@@ -6277,6 +6325,33 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 487cdcdf7a19623b97a27be170bb81f4.cloudfront.net
+
+# Kabam Games, Inc.
+# Shop Titans: Craft & Bauen
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+# 35.239.26.138
+# 49.51.129.251
+# 172.217.16.208
+# 35.184.156.205
+#0.0.0.0 storage.googleapis.com
+# Chat und noch mehr Telemetrie - optional de/aktivieren
+#0.0.0.0 shopr-live2.ripostegames.com
+#0.0.0.0 shopr-live2-chat.ripostegames.com
+#0.0.0.0 shopr-live-chat.mcoc-cdn.cn
+# Server ist Pflicht, Onlinezwang
+#0.0.0.0 shopr-data-1300366939.cos.accelerate.myqcloud.com
 
 # Kakao Games Europe B.V.
 # Blackdesert Online
@@ -9800,6 +9875,24 @@ ff02::3 ip6-allhosts
 # s. Steam: General Directory Server
 #0.0.0.0 warbandmain.taleworlds.com # Serverliste/Multiplayer
 
+# Tamasenco
+# Wild West Saga: Idle Tycoon Clicker
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 104.26.6.7
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 www.tamasenco.net
+
 # Tasharen Entertainment Inc.
 # Windward
 # IP Erkennung
@@ -9949,6 +10042,9 @@ ff02::3 ip6-allhosts
 # TGA Company LLC
 # You Deserve
 # Youtube, Facebook, Twitter, Instagram
+
+# The Arcade Crew & Maple Whispering Limited
+# s. Steam: General Directory Server
 
 # The Brotherhood & Daedalic Entertainment
 # Cayne
@@ -10426,7 +10522,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 mordhau.com # Ingamenews
 #0.0.0.0 uploads.mordhau.com
 0.0.0.0 bugtracker.mordhau.com
-0.0.0.0 api.mod.io
+#0.0.0.0 api.mod.io # Ingame/Modschnittstelle
 # Youtube Tracking/Cookies
 # 165.231.161.13
 # 216.58.207.35
@@ -11694,6 +11790,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
+# YDKR
+# DPS Idle
+# s. Steam: General Directory Server
+
 # Yiming
 # Zombie Flick | 僵尸快打
 # Ip/s blockieren:
@@ -11761,6 +11861,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 54.242.214.84
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 # s. Eintrag Steam: IP Checks
 
 # Zonitron Productions
@@ -11796,4 +11897,4 @@ ff02::3 ip6-allhosts
 
 # ZOV GAME STUDIO
 # To The Light
-# s. Steam: General Directory Server 
+# s. Steam: General Directory Server
