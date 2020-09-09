@@ -28,7 +28,7 @@
 #
 # --- Ab hier kopieren ---
 
-﻿127.0.0.1 localhost
+127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
 127.0.0.1 local
 255.255.255.255 broadcasthost
@@ -4925,10 +4925,12 @@ ff02::3 ip6-allhosts
 # s. Steam: General Directory Server
 
 # Necromunda: Underhive Wars
+# Zwangsanbindung an Onlineserver auch für Einzelspieler, bei Bedarf de/aktivieren
 # 149.202.85.119
-# 2.21.228.17, 2a02:908:4b51:7e60:8a71:b1ff:feab:5cda
-0.0.0.0 bfg3.stormancer.com
-0.0.0.0 focus3.stormancer.com
+# 2.21.228.17
+# 2a02:908:4b51:7e60:8a71:b1ff:feab:5cda
+#0.0.0.0 bfg3.stormancer.com
+#0.0.0.0 focus3.stormancer.com
 
 # The Surge 2
 # 178.162.211.15
