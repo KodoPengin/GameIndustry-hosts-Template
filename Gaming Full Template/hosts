@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 07.09.2020
+# Änderungsdatum: 09.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -702,6 +702,7 @@ ff02::3 ip6-allhosts
 # 95.101.72.216
 # 162.254.196.86
 # 162.254.193.42
+# 72.247.154.169
 # Angaben nicht komplett
 #0.0.0.0 steambroadcast.akamaized.net # Initialisiert den Broadcast ansich
 #0.0.0.0 video.steamstatic.com # Analytics
@@ -1056,8 +1057,9 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 151.101.112.193
 # 172.217.12.206
+# 190.61.17.9
 0.0.0.0 prod.imgur.map.fastlylb.net
-0.0.0.0 fpdownload2.macromedia.com # 190.61.17.9, a1843.g1.akamai.net
+0.0.0.0 fpdownload2.macromedia.com
 # Ip/s blockieren:
 # 172.217.12.206
 # 216.58.207.238
@@ -2400,6 +2402,7 @@ ff02::3 ip6-allhosts
 # s. Rubrik Kopierschutz / AntiCheat
 # 35.186.241.36
 0.0.0.0 cosmos.channel.or.jp # Plattform, Session, Titel, NutzerID, Sprache, Ingamesprache, SteamID, IP-Aresse, Spiellog
+0.0.0.0 test.cosmos.channel.or.jp
 0.0.0.0 36.241.186.35.bc.googleusercontent.com
 
 # Für Multiplayer der DarkSouls Spiele die FromSoftware Adressen de/aktivieren
@@ -2487,6 +2490,7 @@ ff02::3 ip6-allhosts
 # 35.186.241.36
 # s. Steam: General Directory Server
 0.0.0.0 cosmos.channel.or.jp
+0.0.0.0 test.cosmos.channel.or.jp
 0.0.0.0 36.241.186.35.bc.googleusercontent.com
 
 # Soulcalibur VI
@@ -4920,6 +4924,12 @@ ff02::3 ip6-allhosts
 # Final Exam
 # s. Steam: General Directory Server
 
+# Necromunda: Underhive Wars
+# 149.202.85.119
+# 2.21.228.17, 2a02:908:4b51:7e60:8a71:b1ff:feab:5cda
+0.0.0.0 bfg3.stormancer.com
+0.0.0.0 focus3.stormancer.com
+
 # The Surge 2
 # 178.162.211.15
 # Listening-Port: 9264 Local IP=0.0.0.0 Protocol=TCP
@@ -5921,6 +5931,33 @@ ff02::3 ip6-allhosts
 # s. Steam: General Directory Server
 0.0.0.0 ec2-35-162-118-172.us-west-2.compute.amazonaws.com
 0.0.0.0 magpole.eus
+
+# HONG KONG SPARK SOFTWARE TECHNOLOGY CO., LIMITED
+# Idle Big Devil
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+# Serveranbindung
+# 54.218.149.204
+# 8.129.165.235
+# 15.236.10.138
+# 15.236.159.54
+# 15.236.172.108
+# 47.115.19.224
+# 8.129.165.235
+# 18.230.84.84
+# 15.236.172.108
+# 39.108.249.30
 
 # Housemarque
 # Nex Machina
@@ -9826,6 +9863,23 @@ ff02::3 ip6-allhosts
 # Sunside Inc
 # Abducted
 0.0.0.0 datarouter.ol.epicgames.com
+
+# Super Icon, Ltd
+# Gates of Hell
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# s. Steam: General Directory Server
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Superhot Team
 # SuperhotVR
