@@ -28,7 +28,7 @@
 #
 # --- Ab hier kopieren ---
 
-127.0.0.1 localhost
+﻿127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
 127.0.0.1 local
 255.255.255.255 broadcasthost
@@ -4900,10 +4900,16 @@ ff02::3 ip6-allhosts
 # s. Steam: General Directory Server
 
 # Etherium
-# checking also own router port :49000
-0.0.0.0 checkip.dyndns.org # Aufnahme der IP-Adresse
-# s. Steam: General Directory Server
-#0.0.0.0 api.steampowered.com
+# 216.146.43.70
+# 67.225.180.24
+# 67.225.180.25
+# 239.255.255.250
+# 104.73.230.192
+# 216.58.205.228
+0.0.0.0 checkip.dyndns.org
+#0.0.0.0 api.steampowered.com # GetNumberOfCurrentPlayers
+0.0.0.0 assets2.unity3d.com
+#0.0.0.0 www.google.com # Cookie
 
 # Farming Simulator 19
 # Einzelspieler
@@ -4920,9 +4926,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.farming-simulator.com
 0.0.0.0 media.farming-simulator.com
 #0.0.0.0 ssl.gstatic.com
-
-# Final Exam
-# s. Steam: General Directory Server
 
 # Necromunda: Underhive Wars
 # Zwangsanbindung an Onlineserver auch für Einzelspieler, bei Bedarf de/aktivieren
@@ -8764,6 +8767,30 @@ ff02::3 ip6-allhosts
 # Rogue Earth LLC
 # Eterium
 # s. Steam: General Directory Server
+
+# rokaplay und Maple Whispering Limited
+# Stranded Sails - Entdecker der verfluchten Inseln
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+# 54.192.86.11
+# 172.217.18.179
+# 72.217.18.174
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 www.google-analytics.com # UA-59066187-26
+#0.0.0.0 form.asana.com
+#0.0.0.0 stranded-sails.rokapublish.de
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 www-google-analytics.l.google.com
 
 # Rooftop Panda
 # Rocket Wars
