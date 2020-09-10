@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 09.09.2020
+# Änderungsdatum: 10.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -227,7 +227,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 googleads.g.doubleclick.net
 
 # GoG Galaxy 2.0 | Dabei seit 18.09.2019
-#0.0.0.0 cdn.gog.com
+#0.0.0.0 cdn.gog.com # Downloadverzeichnis z.B. https://cdn.gog.com/open/galaxy/client/setup_galaxy_2.0.20.39.exe
 #0.0.0.0 www.gogalaxy.com
 #0.0.0.0 webinstallers.gog.com
 # Installation & Update
@@ -236,12 +236,14 @@ ff02::3 ip6-allhosts
 # Formatierung, Schriften und Bilder
 # 192.229.233.146
 # 152.89.163.155
+#0.0.0.0 gamesdb.gog.com
 #0.0.0.0 images.gog.com
 #0.0.0.0 images-1.gog.com
 #0.0.0.0 images-2.gog.com
 #0.0.0.0 images-2.gog.com
 #0.0.0.0 images-4.gog.com
 #0.0.0.0 www4-static.gog.com # Schriften, Javascripts, CSS
+#0.0.0.0 galaxy-library.gog.com
 # Feed / Eigene Aktivitäten/ Bestenlisten/ Javascripts/ Warenkorb/ Nutzerdaten / SVG
 # 23.12.133.27
 # 152.89.163.155
@@ -255,9 +257,10 @@ ff02::3 ip6-allhosts
 # 77.79.249.118
 0.0.0.0 notifications-pusher.gog.com
 0.0.0.0 notifications.gog.com
-# External Users
+# External Users z.b. Accountverknüpfungen zu Epic & Co
 # 77.79.249.210
 0.0.0.0 external-users.gog.com
+0.0.0.0 external-accounts.gog.com
 # Freunde, Ameldung & Chat
 # 23.12.133.27
 #0.0.0.0 cfg.gog.com
@@ -269,6 +272,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 img.youtube.com
 # Logs, Analytics & Tracking
 # Ip/s blockieren:
+# 195.167.152.169
 # 23.79.90.127
 # 172.217.23.136
 # 172.217.18.168
@@ -281,6 +285,7 @@ ff02::3 ip6-allhosts
 # 157.240.20.35
 0.0.0.0 galaxy-client-reports.gog.com
 0.0.0.0 insights-collector.gog.com
+0.0.0.0 gwent-bi-collector.gog.com
 0.0.0.0 connect.facebook.net
 0.0.0.0 www.facebook.com
 0.0.0.0 cx.atdmt.com # Facebook Tracking Cookie
@@ -509,6 +514,7 @@ ff02::3 ip6-allhosts
 
 # Epic Games Datarouter
 # Ip/s blockieren:
+# 35.171.73.202
 # 52.203.187.25
 # 54.174.205.197
 # 23.20.51.18
@@ -913,6 +919,8 @@ ff02::3 ip6-allhosts
 
 # Steam: IP Checks
 # Ip/s blockieren:
+# 2a01:bc80:7:100:0:0:9b85:f80c
+# 2a01:bc80:a:100:0:0:b919:b602
 # 2a01:bc80:1:103::a2fe:c60d
 # 2a01:bc80:1:104::a2fe:c64d
 # 2a01:bc80:5:105::9b85:fa4b
@@ -1176,6 +1184,7 @@ ff02::3 ip6-allhosts
 # 52.208.190.137
 # 52.49.218.253
 # 52.18.94.153
+# 54.194.195.183
 #0.0.0.0 srv01.codefusion.technology
 #0.0.0.0 cf-revalidation-1750743123.eu-west-1.elb.amazonaws.com
 #0.0.0.0 srv02.codefusion.technology
@@ -1715,6 +1724,23 @@ ff02::3 ip6-allhosts
 
 # Ember
 # s. Steam: General Directory Server
+
+# Underworld Ascendant
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # 8-Bit Studio
 # Skara - The Blade Remains
@@ -4013,6 +4039,34 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 104.197.132.127
 0.0.0.0 steam-telemetry.homefront-game.com
+
+# Iron Harvest
+# Unity Analytics und Reports
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+# Deep Silver Telemetrie
+# Ip/s blockieren:
+# 35.227.230.186
+0.0.0.0 telemetry.deeparc.net
+# Onlinefunktionen - Automatische Anmeldung, Nutzerprofil, Erfolge, Mehrspieler bei Bedarf de/aktivieren
+# 34.95.126.216
+#0.0.0.0 api.iron-harvest.com
+# Zeug
+# 207.154.210.110
+0.0.0.0 kamos.kingart-games.com
 
 # Metro Exodus
 # s. Rubrik Kopierschutz / AntiCheat
@@ -7477,6 +7531,22 @@ ff02::3 ip6-allhosts
 #0.0.0.0 gsp-auw003-se09.gamesparks.net
 #0.0.0.0 gsp-auw003-se11.gamesparks.net
 
+# NEOWIZ
+# Skul: The Hero Slayer
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
 # NewProject
 # Idle Evolution
 # SSLv3 Zeugs, Signatur, Serverdaten, Sessions für...?
@@ -8495,6 +8565,21 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 # s. Steam: General Directory Server
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Star Renegades
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
