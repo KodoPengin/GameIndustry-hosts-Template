@@ -402,7 +402,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 epicgames-download1.akamaized.net
 #0.0.0.0 epicgames.com # Login
 #0.0.0.0 www.unrealengine.com
-0.0.0.0 eulatracking-public-service-prod06.ol.epicgames.com
+#0.0.0.0 eulatracking-public-service-prod06.ol.epicgames.com
 0.0.0.0 qos1.ol.epicgames.com
 0.0.0.0 qos2.ol.epicgames.com
 0.0.0.0 qos3.ol.epicgames.com
@@ -515,7 +515,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 clientstream-ga.launchdarkly.com
 0.0.0.0 events.launchdarkly.com
 0.0.0.0 d1dxcvubdbe4ji.cloudfront.net
-0.0.0.0 dvo2b19ndqhsb.cloudfront.net
 # Webseite Anmeldung Captcha
 # 34.253.77.237
 # 13.227.156.28
@@ -4093,7 +4092,6 @@ ff02::3 ip6-allhosts
 # 3.224.138.95
 # Wird zu Spielstart, Installation, Besitzanspruch benötigt
 #0.0.0.0 eulatracking-public-service-prod.ak.epicgames.com # kid, alg, app, sub, dvid, clid, exchange_code, iai, clsvc, iat, jti, exp u.a.
-#0.0.0.0 eulatracking-public-service-prod06.ol.epicgames.com
 #0.0.0.0 account-public-service-prod03.ol.epicgames.com
 #0.0.0.0 ecommerceintegration-public-service-ecomprod02.ol.epicgames.com
 # Abschaltbar
