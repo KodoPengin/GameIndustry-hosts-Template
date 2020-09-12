@@ -3002,6 +3002,30 @@ ff02::3 ip6-allhosts
 # s. Steam: General Directory Server
 #0.0.0.0 itunes.apple.com
 
+# BlankMediaGames
+# Town of Salem
+# 104.239.145.241
+# 2001:4800:7818:104:be76:4eff:fe04:6c7c
+# 104.22.42.233
+#0.0.0.0 live.tos.blankmediagames.com
+#0.0.0.0 www.blankmediagames.com
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 108.177.119.100
+0.0.0.0 www.google-analytics.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
 # Blazing Griffin LTD.
 # Gentlemen!
 # Facebook, Twitter, Google/maps
@@ -5505,12 +5529,42 @@ ff02::3 ip6-allhosts
 
 # Goblinz Studio & WhisperGames
 # Dungeon Rushers: Crawler RPG
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+# 104.28.19.111
 #0.0.0.0 marketing.dungeon-rushers.com # News, Sprache
 #0.0.0.0 nodeserver.dungeon-rushers.com # Wird für Onlinemodus Freundesliste, Feedback, ID, Mail und mehr gebraucht
 #0.0.0.0 i.imgur.com # Bildablage
-0.0.0.0 perf-events.cloud.unity3d.com
+
+# Goblinz Studio & Maple Whispering Limited
+# As Far As The Eye
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 galaxy-log.gog.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Good Games
 # The World II: Hunting BOSS
