@@ -8,7 +8,7 @@
 # Erhöhter Schutz vor Spyware, Advertising, Analytics, Tracking in Spielen
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
-# Version: hosts Datei - Komplett mit allen Einträgen
+# Version: hosts Datei - Komplett mit allen Einträgen als TXT Format
 # Änderungsdatum: 12.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
@@ -10159,6 +10159,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dc.ads.linkedin.com
 0.0.0.0 www.linkedin.com
 0.0.0.0 snap.licdn.com # lms Analytics
+0.0.0.0 in.visitors.live # WSS
 # CSS Formatierung, Content und Javascripts
 #0.0.0.0 static.licdn.com
 0.0.0.0 media-lcdn.licdn.com
@@ -12336,6 +12337,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dev.lifesoftwares.com
 0.0.0.0 dexchangeinc.com
 0.0.0.0 diapi.webgains.com
+0.0.0.0 diffuser-cdn.app-us1.com
 0.0.0.0 dig.ultimedia.com
 0.0.0.0 digidip.net
 0.0.0.0 distoryrussion.info
@@ -12617,6 +12619,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.hscta.net
 0.0.0.0 js.hsleadflows.net
 0.0.0.0 js.spotx.tv
+0.0.0.0 js.usemessages.com
+0.0.0.0 js.webpartners.co
 0.0.0.0 js1.nend.net
 0.0.0.0 jsc.idealmedia.io
 0.0.0.0 jsc.lentainform.com
@@ -12963,6 +12967,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.redirekted.com
 0.0.0.0 r.scoota.co
 0.0.0.0 r.teads.tv
+0.0.0.0 r1.trackedweb.net
 0.0.0.0 ra.poringa.net
 0.0.0.0 rabbit-affiliates.elb.myaffiliates.com
 0.0.0.0 rabbitent-static.casinomodule.com
@@ -13137,6 +13142,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.selfpua.com
 0.0.0.0 static.site24x7rum.com # Swisscom
 0.0.0.0 static.smilewanted.com
+0.0.0.0 static.trackedweb.net
 0.0.0.0 static.virgul.com
 0.0.0.0 static.waudeesestew.com
 0.0.0.0 static.webclicks24.com
@@ -13269,6 +13275,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tmsnrt.rs
 0.0.0.0 tonsterandhantan.info
 0.0.0.0 toolbox.brightspotcdn.com # Autotrack Analytics
+0.0.0.0 tools.impactbnd.com
 0.0.0.0 tortoise.proboards.com
 0.0.0.0 tps.doubleverify.com
 0.0.0.0 tps20231.doubleverify.com
@@ -16841,6 +16848,30 @@ ff02::3 ip6-allhosts
 # s. Steam: General Directory Server
 #0.0.0.0 itunes.apple.com
 
+# BlankMediaGames
+# Town of Salem
+# 104.239.145.241
+# 2001:4800:7818:104:be76:4eff:fe04:6c7c
+# 104.22.42.233
+#0.0.0.0 live.tos.blankmediagames.com
+#0.0.0.0 www.blankmediagames.com
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 108.177.119.100
+0.0.0.0 www.google-analytics.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
 # Blazing Griffin LTD.
 # Gentlemen!
 # Facebook, Twitter, Google/maps
@@ -19344,12 +19375,42 @@ ff02::3 ip6-allhosts
 
 # Goblinz Studio & WhisperGames
 # Dungeon Rushers: Crawler RPG
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+# 104.28.19.111
 #0.0.0.0 marketing.dungeon-rushers.com # News, Sprache
 #0.0.0.0 nodeserver.dungeon-rushers.com # Wird für Onlinemodus Freundesliste, Feedback, ID, Mail und mehr gebraucht
 #0.0.0.0 i.imgur.com # Bildablage
-0.0.0.0 perf-events.cloud.unity3d.com
+
+# Goblinz Studio & Maple Whispering Limited
+# As Far As The Eye
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 galaxy-log.gog.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Good Games
 # The World II: Hunting BOSS
