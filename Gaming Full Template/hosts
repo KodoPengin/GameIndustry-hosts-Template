@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 10.09.2020
+# Änderungsdatum: 12.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -4082,7 +4082,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 kamos.kingart-games.com
 
 # Metro Exodus
-# s. Rubrik Kopierschutz / AntiCheat
 # Gilt nur zusammen mit den Einträgen des "Epic Games Launcher".
 # 52.1.153.55
 # 52.200.174.184
@@ -4104,6 +4103,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.227.230.186
 0.0.0.0 telemetry.deeparc.net
+0.0.0.0 186.230.227.35.bc.googleusercontent.com
 
 # Pathfinder: Kingmaker
 # Ip/s blockieren:
@@ -6543,6 +6543,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
+# Port Royale 4
+# 217.172.184.73
+# 82.165.136.129
+0.0.0.0 launcher01.kalypsomedia.com
+0.0.0.0 genf156.server4you.de
+
 # Railway Empire
 # Bei aktivem Mitwirken Verbindungen zu Facebook, e-mailit.com, avocet.io, adnxs, cpx.to, audrte.com, Google Analytics, Livefyre
 # s. Steam: General Directory Server
@@ -8338,6 +8344,40 @@ ff02::3 ip6-allhosts
 # The Way
 # Spiel basiert auf einer Java-Applikation/Javaw.exe
 # s. Steam: General Directory Server
+
+# UBoat
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 34.107.181.14
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 14.181.107.34.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 userreporting.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# POCKET PAIR, Inc.
+# Craftopia
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Pocketwatch Games
 # Tooth and Tail
@@ -10988,6 +11028,8 @@ ff02::3 ip6-allhosts
 # Zuständig für Schnüffelei in Spielen
 # Erfasste Daten werden je nach Nutzerherkunft an USC "z.b. Usa", EUW "z.b. Deutschland"" oder APE "z.b. Japan" von der Perf-Events aus weitergeleitet. Ips gehören dazu.
 # Ip/s blockieren:
+# 35.190.78.8
+# 34.107.181.14
 # 35.241.52.229
 # 35.186.194.186
 # 35.241.26.53
@@ -11002,6 +11044,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 stats.unity3d.com
 0.0.0.0 hwstats.uca.cloud.unity3d.com
+0.0.0.0 userreporting.cloud.unity3d.com
+0.0.0.0 14.181.107.34.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 150.252.227.35.bc.googleusercontent.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
 # Data-Optout leitet auf Analytics mitsamt Übergabeparameter/Token weiter. Dazu gehören ProgrammID, UserID, GeräteID
 # Außerdem Einstellungen zu de/aktivierten Analytics, Optout ja/nein, Report erlaubt ja/nein
 # Bei Bedarf de/aktivieren
