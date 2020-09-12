@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Template für PC-Spiele - Mini-Version
-# Änderungsdatum: 04.09.2020
+# Änderungsdatum: 12.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -58,6 +58,12 @@ ff02::3		ip6-allhosts
 0.0.0.0 metrics.avalanchestudios.com
 0.0.0.0 tracking2.avalanchestudios.com
 0.0.0.0 oldtracking.avalanchestudios.com
+
+# (Bandai NAMCO Entertainment)
+# Blockieren: 35.241.58.78, 35.186.241.36
+0.0.0.0 cosmos.channel.or.jp
+0.0.0.0 test.cosmos.channel.or.jp
+0.0.0.0 36.241.186.35.bc.googleusercontent.com
 
 # (Buffpanel)
 # Blockieren: 46.101.127.173, 185.14.184.48
@@ -265,7 +271,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 config.unityads.unity3d.com
 # Zuständig für Schnüffelei in Spielen
 # Erfasste Daten werden je nach Nutzerherkunft an USC "z.b. Usa", EUW "z.b. Deutschland"" oder APE "z.b. Japan" von der Perf-Events aus weitergeleitet. Ips gehören dazu.
-# Blockieren: 35.241.52.229, 35.186.194.186, 35.241.26.53, 35.190.88.234, 35.190.78.8
+# Blockieren: 35.190.78.8, 34.107.181.14, 35.241.52.229, 35.186.194.186, 35.241.26.53, 35.190.88.234, 35.190.78.8
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -276,6 +282,11 @@ ff02::3		ip6-allhosts
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 stats.unity3d.com
 0.0.0.0 hwstats.uca.cloud.unity3d.com
+0.0.0.0 userreporting.cloud.unity3d.com
+0.0.0.0 14.181.107.34.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 150.252.227.35.bc.googleusercontent.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
 # Data-Optout leitet auf Analytics mitsamt Übergabeparameter/Token weiter. Dazu gehören ProgrammID, UserID, GeräteID
 # Außerdem Einstellungen zu de/aktivierten Analytics, Optout ja/nein, Report erlaubt ja/nein
 # Bei Bedarf de/aktivieren
