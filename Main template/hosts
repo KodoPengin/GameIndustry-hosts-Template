@@ -8,8 +8,8 @@
 # Erhöhter Schutz vor Spyware, Advertising, Analytics, Tracking in Spielen
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
-# Version: hosts Datei - Komplett mit allen Einträgen als TXT Format
-# Änderungsdatum: 12.09.2020
+# Version: hosts Datei - Komplett mit allen Einträgen
+# Änderungsdatum: 16.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -2385,6 +2385,7 @@ ff02::3 ip6-allhosts
 # Akstat.io
 0.0.0.0 22f9d241.akstat.io
 0.0.0.0 0211c83e.akstat.io
+0.0.0.0 684dd30b.akstat.io # Metacritic
 
 # Alephd
 0.0.0.0 pixel.alephd.com
@@ -3383,14 +3384,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 wlbetathome.adsrv.eacdn.com
 
 # EBay com & de
+0.0.0.0 pages.ebay.com # RTM und Identitycheck, verweist auf rover.ebay.* und aktiviert Portscans von Online Metrix
 0.0.0.0 usllpic0-dc4630e7290bb867650301354478f4a1d3516478-am1.d.aa.online-metrix.net
 0.0.0.0 usllpic0-abb23a8fb2d6d2dbf3196b134bbd902afaa49f0c-am1.e.aa.online-metrix.net
 0.0.0.0 usllpic0-68f4729ed14556ad5229cc1ef029c8d847d3aa53-am1.e.aa.online-metrix.net
+0.0.0.0 usllpic0n4prax5tmt26vvztrgu57dv5jmhj5c2icd19901648df1d6csac.d.aa.online-metrix.net
 0.0.0.0 h-ebay.online-metrix.net
 0.0.0.0 pulsar.ebay.de
 0.0.0.0 pulsar.ebay.com
 0.0.0.0 svcs.ebay.com
 0.0.0.0 srv.main.ebayrtm.com
+0.0.0.0 srv.de.ebayrtm.com
+0.0.0.0 secureir.ebaystatic.com
+0.0.0.0 rover.ebay.de
+0.0.0.0 rover.ebay.com
+0.0.0.0 adf0901f1861.cdn4.forter.com # Ebay
+0.0.0.0 1b6736374efb459da3fd2ff388aa6889-adf0901f1861.cdn.forter.com
 
 # Eclkmpsa
 0.0.0.0 eclkmpsa.com
@@ -7305,6 +7314,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 fsm1.chip.de
 0.0.0.0 cmp.chip.de # Cookie Nagscreen
 
+# CNBC.com
+0.0.0.0 webql-redesign.cnbcfm.com
+0.0.0.0 mps.cnbc.com
+0.0.0.0 surf.nbcuni.com
+
 # Computerbase.de
 0.0.0.0 ram.amunx.de # Werbung z.b. von adnxs.com
 0.0.0.0 geo-eu.snigelweb.com
@@ -7588,6 +7602,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 lib.selfcampaign.com
 0.0.0.0 track2.selfcampaign.com
 0.0.0.0 delivery.selfcampaign.com
+0.0.0.0 cmp-cdn.golem.de # Cookie Nagscreen
+0.0.0.0 d379964aymex2x.cloudfront.net # SVM
 
 # Gutefrage.de
 0.0.0.0 happyunicorns.gutefrage.net
@@ -7759,6 +7775,12 @@ ff02::3 ip6-allhosts
 
 # Megagames.com
 0.0.0.0 mountains.megagames.com
+
+# Metacritic.com
+0.0.0.0 saa.metacritic.com # Verweist auf Yahoo Analytics
+0.0.0.0 zn_3v23d21mc1uqclj-cbs.siteintercept.qualtrics.com
+0.0.0.0 at.cbsi.com # Geolokalisierung, ISP Daten und Eventtracking
+0.0.0.0 048d19ec580e1cf56a88c7142b3a5bab.safeframe.googlesyndication.com
 
 # MVV
 0.0.0.0 mb.mtvnservices.com
@@ -7997,7 +8019,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.rubikon.news
 
 # SchneeVonMorgen
-# Tracker & Werbung z.b. bei Chip.de oder Golem.de Videos vorgeschaltet. Videos sind in der hosts für entsprechende Seiten generell abgeschaltet
+# Tracker, Impressions, Werbung & Werbemanagement z.b. bei Chip.de oder Golem.de Videos vorgeschaltet. Videos sind in der hosts für entsprechende Seiten generell abgeschaltet
 # Bei Bedarf einfach Einträge zu damoh/Schneevonmorgen löschen
 # Gearbeitet wird auch mit Variablen wie z.b. http://hashwert.1.damoh.gamonade.svonm.com/
 # https://s3.amazonaws.com/homad-global-configs.schneevonmorgen.com/global_config.json?cache=7591918956
@@ -8008,8 +8030,9 @@ ff02::3 ip6-allhosts
 # 136.243.244.75
 0.0.0.0 homad-global-configs.schneevonmorgen.com.s3.amazonaws.com
 0.0.0.0 homad-global-configs-eu-fra.schneevonmorgen.com.s3.amazonaws.com
-0.0.0.0 hgc-cf-cache-1.svonm.com
 0.0.0.0 hmdassts.schneevonmorgen.com
+0.0.0.0 dev.schneevonmorgen.com
+0.0.0.0 hgc-cf-cache-1.svonm.com
 0.0.0.0 hgcorigin.svonm.com
 0.0.0.0 de4-homad-lb.schneevonmorgen.com
 0.0.0.0 de6-homad-lb.schneevonmorgen.com
@@ -8020,9 +8043,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 de29-homad-lb.schneevonmorgen.com
 0.0.0.0 de34-homad-lb.schneevonmorgen.com
 0.0.0.0 de36-homad-lb.schneevonmorgen.com
-0.0.0.0 hgc-cf-cache-1.svonm.com
+# t-online.de, giga.de, spieletipps.de, kino.de, desired.de, spielaffe.de, kicker.de, 4players.de, pcgames.de, pcgameshardware.de, videogameszone.de, gamezone.de, gamesaktuell.de, buffed.de, golem.de uvw.
 0.0.0.0 d379964aymex2x.cloudfront.net
-0.0.0.0 dev.schneevonmorgen.com
 
 # Soundcloud.com
 0.0.0.0 api.soundcloud.com # Tracker
@@ -8631,6 +8653,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 hm.baidu.com
 0.0.0.0 bdimg.share.baidu.com
 0.0.0.0 click.fanyi.baidu.com
+0.0.0.0 anti-bot.baidu.com
+0.0.0.0 correctxt.baidu.com
 0.0.0.0 sp0.baidu.com
 0.0.0.0 eclick.baidu.com
 0.0.0.0 zz.bdstatic.com
@@ -9150,6 +9174,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 quick-yen-88111.appspot.com
 0.0.0.0 page-view-ingestion.appspot.com
 0.0.0.0 image-proxy-dot-veeseo-rce.appspot.com
+0.0.0.0 ima3vpaid.appspot.com
 
 # Google Crashpad
 0.0.0.0 clients2.google.com
@@ -10449,6 +10474,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.services.mozilla.com
 #0.0.0.0 download-installer.cdn.mozilla.net # Download Installationsdatei
 0.0.0.0 blocklist.addons.mozilla.org
+0.0.0.0 incoming-telemetry.thunderbird.net
 # Ip/s blockieren:
 # 34.213.175.3
 0.0.0.0 crash-reports.mozilla.com # GeräteID, Addoninfos, Bioshersteller, Breakpaddaten, Zeistempel, Minidumpdatei, Speicherdaten uvm
@@ -10572,7 +10598,7 @@ ff02::3 ip6-allhosts
 # Creative Technology Ltd.
 # Sound Blaster Connect & Sound Blaster Command
 # Klick und Menüverfolgung innerhalb der Software mit Unterstützung von Google Spyware
-# connection service.exe blockiert Port 8888 | Datei kann gelöscht werden
+# connection service.exe blockiert Port 8888 | Datei kann wenn nicht benötigt gelöscht werden
 # Ip/s blockieren:
 # 172.217.18.110
 0.0.0.0 www-google-analytics.l.google.com
@@ -10581,6 +10607,7 @@ ff02::3 ip6-allhosts
 # 52.76.78.119
 # 54.169.123.93
 # 129.126.128.133
+# 2a02:26f0:ce:2bf::1b01
 # Accountverwaltung
 0.0.0.0 api.creative.com # Daten im Klartext und an Google Analytics gekoppelt
 # Product Update Response
@@ -11650,10 +11677,13 @@ ff02::3 ip6-allhosts
 # Mudhook Marketing, Inc.
 # SaferVPN
 # 52.201.109.242
+# 52.20.169.88
 0.0.0.0 in.appcenter.ms
 #0.0.0.0 svpnapi.safervpn.com
 #0.0.0.0 api.safersoftware.net
+#0.0.0.0 cdn.safervpn.com # Clientdownload
 #0.0.0.0 d1swh8d1us2hlo.cloudfront.net # Ländergrafiken
+0.0.0.0 dualstack.awseb-awseb-lu4u554nin6c-2115740690.us-east-1.elb.amazonaws.com
 # 162.88.193.70
 # 131.186.113.70
 # 216.146.43.70
@@ -11929,6 +11959,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.mailmunch.co.herokudns.com
 0.0.0.0 analytics.ovh.com # Measure.js
 0.0.0.0 analytics.slashdotmedia.com
+0.0.0.0 analytics.sleeknote.com
 0.0.0.0 analytics.stavros.io
 0.0.0.0 analytics.travel-dealz.de # Piwik
 0.0.0.0 analytics.webgains.io
@@ -12306,11 +12337,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 d.adup-tech.com
 0.0.0.0 d.amoad.com
 0.0.0.0 d.omsnative.de
+0.0.0.0 d1j8v290qqvibb.cloudfront.net
 0.0.0.0 d5p.de17a.com
 0.0.0.0 d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com
 0.0.0.0 d8526382938814309666-t4400066239592907150.id.amgdgt.com
 0.0.0.0 dafloor.tidelinedata.io
 0.0.0.0 dashboard.insticator.com
+0.0.0.0 dashboard.tinypass.com
 0.0.0.0 data.24smi.net
 0.0.0.0 data.ad-score.com
 0.0.0.0 data.adserver.ai
@@ -12812,6 +12845,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 openx.einbock-internet.de
 0.0.0.0 opt.q-divisioncdn.de
 0.0.0.0 orientaldaily.on.cc
+0.0.0.0 orionis.techradar.com
 0.0.0.0 output.nend.net
 0.0.0.0 ox-i.majorgeeks.com
 0.0.0.0 ox-ui.gol-network.com
@@ -13505,6 +13539,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.freewheel.tv
 0.0.0.0 www.friendlyduck.com
 0.0.0.0 www.giftn.id
+0.0.0.0 www.girlfriendsfilms.com
 0.0.0.0 www.gjnusfiby.com
 0.0.0.0 www.goodsetup4content.bid
 0.0.0.0 www.goodsetup4content.trade
@@ -13528,6 +13563,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.korean.net
 0.0.0.0 www.lapalingo.com
 0.0.0.0 www.lasagneandands.com
+0.0.0.0 www.linkfame.com
 0.0.0.0 www.liqwid.net
 0.0.0.0 www.makinggames.biz
 0.0.0.0 www.maplejuddy.com
@@ -14411,7 +14447,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 usage.trackjs.com
 0.0.0.0 capture.trackjs.co
 0.0.0.0 prod-telemetry.paradox-interactive.com
-0.0.0.0 opstm.paradoxplaza.com # In älteren Titeln aktiv, wurde durch Prod-Telmetry ersetzt
+0.0.0.0 opstm.paradoxplaza.com # In älteren Titeln aktiv, wurde durch Prod-Telemetry ersetzt
 # Anmeldung und Account optional
 #0.0.0.0 services.paradoxplaza.com
 #0.0.0.0 api.paradox-interactive.com
@@ -14776,6 +14812,7 @@ ff02::3 ip6-allhosts
 
 # Steam: IP Checks
 # Ip/s blockieren:
+# 2a01:bc80:4:101::a2fe:c42b
 # 2a01:bc80:7:100:0:0:9b85:f80c
 # 2a01:bc80:a:100:0:0:b919:b602
 # 2a01:bc80:1:103::a2fe:c60d
@@ -15063,7 +15100,7 @@ ff02::3 ip6-allhosts
 #
 # Spiele und Clientspezifische Daten
 # Doppelte Adressen sind der Vollständigkeit halber angegeben und können per Suchen/Ersetzen gelöscht werden.
-# Achtung, hier sind teilweise auch diverse Newsletter, Herstellerhomepages und andere Dienste jeweiliger Produkte gesperrt.
+# Achtung, in dieser Kategorie sind teilweise auch diverse Newsletter, Herstellerhomepages und andere Dienste jeweiliger Produkte gesperrt.
 
 # 赤燭遊戲 | RedCandleGames
 # Devotion
@@ -15083,6 +15120,7 @@ ff02::3 ip6-allhosts
 
 # 北京网元圣唐娱乐科技有限公司
 # 神舞幻想 Faith of Danschant
+# s. Eintrag Steam: IP Checks
 0.0.0.0 patch.swhx.wangyuan.com
 
 # 哔哩哔哩
@@ -15134,11 +15172,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
-# 萌石游戏 | Sprouting stone game
-# 辣条杂货店:回到1997，我当小商贩
-0.0.0.0 api.uca.cloud.unity3d.com
+# 萌豆游戏 | Meng Dou Game
+# 辣条杂货店:令人感动的童年回忆，经典策略模拟经营解密
+# Ip/s blockieren:
+# 120.27.101.247
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# s. Steam: General Directory Server
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 notebook.xuehan.me # eindeutige ID, Ingamename, Geld und anderes
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 mengstone.com # 404 Error
 
 # 腾讯 | Tencent
 # 流放之路 Path of Exile
@@ -15311,6 +15362,17 @@ ff02::3 ip6-allhosts
 
 # 18Light Game Ltd.
 # 螢幕判官 Behind the Screen
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -22112,14 +22174,6 @@ ff02::3 ip6-allhosts
 # 99.83.187.156
 # 35.224.155.179
 # 216.115.180.42
-# 2a01:bc80:1:103::a2fe:c60d
-# 2a01:bc80:1:104::a2fe:c64d
-# 2a01:bc80:5:105::9b85:fa4b
-# 2a01:bc80:5:105::9b85:fa4c
-# 2a01:bc80:5:106::9b85:fa6b
-# 2a01:bc80:5:106::9b85:fa6c
-# 2a01:bc80:7:100::9b85:f80b
-# 2a01:bc80:7:100::9b85:f80c
 # 184.24.77.162
 # 184.24.77.156
 # s. Eintrag Steam: IP Checks
@@ -23882,9 +23936,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Strength in Numbers Studios, Inc
-# Tuebor: I Will Defend
+# Skull Ball Heroes
 # Adressen werden zur Nutzung beide benötigt!
-# 52.44.190.57 # Serveranbindung, api.ipify.org # Ipidentifikation
+# 52.44.190.57
+0.0.0.0 api.ipify.org # Ip-Identifikation
 
 # Striped Rocket
 # Loading
@@ -25239,7 +25294,7 @@ ff02::3 ip6-allhosts
 # s. Steam: General Directory Server
 
 # Warcave, Crazy Monkey Studios
-# Warparty
+# War Party
 # Ip/s blockieren:
 # 35.186.194.186
 # 35.241.26.53
@@ -25459,7 +25514,7 @@ ff02::3 ip6-allhosts
 # s. Steam: General Directory Server
 
 # Winking Entertainment
-# Heroine Anthem Zero
+# Heroine Anthem Zero -Sacrifice-
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.redshell.io
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -25784,7 +25839,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com # Australia East
 
 # Killer Instinct
+# 52.176.155.74
 #0.0.0.0 ki-int-wallet.msgamestudios.com # "Ultratek Server/ Onlinemodus Schattenlords"
+#0.0.0.0 commerce-prod-na.cloudapp.net
 0.0.0.0 messaging.lws.msgamestudios.com
 #0.0.0.0 api.steampowered.com
 0.0.0.0 uhf.microsoft.com
