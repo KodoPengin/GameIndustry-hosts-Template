@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 12.09.2020
+# Änderungsdatum: 16.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -565,7 +565,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 usage.trackjs.com
 0.0.0.0 capture.trackjs.co
 0.0.0.0 prod-telemetry.paradox-interactive.com
-0.0.0.0 opstm.paradoxplaza.com # In älteren Titeln aktiv, wurde durch Prod-Telmetry ersetzt
+0.0.0.0 opstm.paradoxplaza.com # In älteren Titeln aktiv, wurde durch Prod-Telemetry ersetzt
 # Anmeldung und Account optional
 #0.0.0.0 services.paradoxplaza.com
 #0.0.0.0 api.paradox-interactive.com
@@ -930,6 +930,7 @@ ff02::3 ip6-allhosts
 
 # Steam: IP Checks
 # Ip/s blockieren:
+# 2a01:bc80:4:101::a2fe:c42b
 # 2a01:bc80:7:100:0:0:9b85:f80c
 # 2a01:bc80:a:100:0:0:b919:b602
 # 2a01:bc80:1:103::a2fe:c60d
@@ -1217,7 +1218,7 @@ ff02::3 ip6-allhosts
 #
 # Spiele und Clientspezifische Daten
 # Doppelte Adressen sind der Vollständigkeit halber angegeben und können per Suchen/Ersetzen gelöscht werden.
-# Achtung, hier sind teilweise auch diverse Newsletter, Herstellerhomepages und andere Dienste jeweiliger Produkte gesperrt.
+# Achtung, in dieser Kategorie sind teilweise auch diverse Newsletter, Herstellerhomepages und andere Dienste jeweiliger Produkte gesperrt.
 
 # 赤燭遊戲 | RedCandleGames
 # Devotion
@@ -1237,6 +1238,7 @@ ff02::3 ip6-allhosts
 
 # 北京网元圣唐娱乐科技有限公司
 # 神舞幻想 Faith of Danschant
+# s. Eintrag Steam: IP Checks
 0.0.0.0 patch.swhx.wangyuan.com
 
 # 哔哩哔哩
@@ -1288,11 +1290,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
-# 萌石游戏 | Sprouting stone game
-# 辣条杂货店:回到1997，我当小商贩
-0.0.0.0 api.uca.cloud.unity3d.com
+# 萌豆游戏 | Meng Dou Game
+# 辣条杂货店:令人感动的童年回忆，经典策略模拟经营解密
+# Ip/s blockieren:
+# 120.27.101.247
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# s. Steam: General Directory Server
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 notebook.xuehan.me # eindeutige ID, Ingamename, Geld und anderes
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 mengstone.com # 404 Error
 
 # 腾讯 | Tencent
 # 流放之路 Path of Exile
@@ -1465,6 +1480,17 @@ ff02::3 ip6-allhosts
 
 # 18Light Game Ltd.
 # 螢幕判官 Behind the Screen
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -8266,14 +8292,6 @@ ff02::3 ip6-allhosts
 # 99.83.187.156
 # 35.224.155.179
 # 216.115.180.42
-# 2a01:bc80:1:103::a2fe:c60d
-# 2a01:bc80:1:104::a2fe:c64d
-# 2a01:bc80:5:105::9b85:fa4b
-# 2a01:bc80:5:105::9b85:fa4c
-# 2a01:bc80:5:106::9b85:fa6b
-# 2a01:bc80:5:106::9b85:fa6c
-# 2a01:bc80:7:100::9b85:f80b
-# 2a01:bc80:7:100::9b85:f80c
 # 184.24.77.162
 # 184.24.77.156
 # s. Eintrag Steam: IP Checks
@@ -10036,9 +10054,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Strength in Numbers Studios, Inc
-# Tuebor: I Will Defend
+# Skull Ball Heroes
 # Adressen werden zur Nutzung beide benötigt!
-# 52.44.190.57 # Serveranbindung, api.ipify.org # Ipidentifikation
+# 52.44.190.57
+0.0.0.0 api.ipify.org # Ip-Identifikation
 
 # Striped Rocket
 # Loading
@@ -11393,7 +11412,7 @@ ff02::3 ip6-allhosts
 # s. Steam: General Directory Server
 
 # Warcave, Crazy Monkey Studios
-# Warparty
+# War Party
 # Ip/s blockieren:
 # 35.186.194.186
 # 35.241.26.53
@@ -11613,7 +11632,7 @@ ff02::3 ip6-allhosts
 # s. Steam: General Directory Server
 
 # Winking Entertainment
-# Heroine Anthem Zero
+# Heroine Anthem Zero -Sacrifice-
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.redshell.io
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -11938,7 +11957,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com # Australia East
 
 # Killer Instinct
+# 52.176.155.74
 #0.0.0.0 ki-int-wallet.msgamestudios.com # "Ultratek Server/ Onlinemodus Schattenlords"
+#0.0.0.0 commerce-prod-na.cloudapp.net
 0.0.0.0 messaging.lws.msgamestudios.com
 #0.0.0.0 api.steampowered.com
 0.0.0.0 uhf.microsoft.com
