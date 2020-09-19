@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 16.09.2020
+# Änderungsdatum: 19.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -28,7 +28,7 @@
 #
 # --- Ab hier kopieren ---
 
-﻿127.0.0.1 localhost
+127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
 127.0.0.1 local
 255.255.255.255 broadcasthost
@@ -787,6 +787,7 @@ ff02::3 ip6-allhosts
 
 # Steam: Chat
 #0.0.0.0 bc1-tuk1.chat.steamcontent.com
+# 2.17.182.211
 # 23.78.65.15
 # 104.108.9.73
 # 23.197.5.200
@@ -826,6 +827,9 @@ ff02::3 ip6-allhosts
 # Deaktivieren um Cloudspeicherung zu verbieten
 #0.0.0.0 cloud-3.steamusercontent.com
 #0.0.0.0 steamcloud-eu.storage.googleapis.com
+# 64.233.163.128
+# 172.217.23.80
+# 20.38.118.132
 # 172.217.22.16
 # 52.239.140.10
 # 216.58.205.240
@@ -849,6 +853,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 steamcloud-saopaulo.storage.googleapis.com
 0.0.0.0 steamcloud-br.s3.dualstack.sa-east-1.amazonaws.com
 0.0.0.0 steamcloud-sg.s3.dualstack.ap-southeast-1.amazonaws.com
+#0.0.0.0 steamcloudfrankfurt.blob.core.windows.net
+0.0.0.0 ssteamcloud-eu-fra.storage.googleapis.com
 
 # Steam: Cloudflare
 # 104.18.24.217
@@ -930,6 +936,8 @@ ff02::3 ip6-allhosts
 
 # Steam: IP Checks
 # Ip/s blockieren:
+# 2a01:bc80:a:100::b919:b602
+# 2a01:bc80:a:101::b919:b622
 # 2a01:bc80:4:101::a2fe:c42b
 # 2a01:bc80:7:100:0:0:9b85:f80c
 # 2a01:bc80:a:100:0:0:b919:b602
@@ -941,6 +949,7 @@ ff02::3 ip6-allhosts
 # 2a01:bc80:5:106::9b85:fa6c
 # 2a01:bc80:7:100::9b85:f80b
 # 2a01:bc80:7:100::9b85:f80c
+# 2a01:bc80:4:100::a2fe:c40b
 # 184.24.77.162
 # 184.24.77.156
 0.0.0.0 ipv6check-udp.steamcontent.com
@@ -1197,6 +1206,7 @@ ff02::3 ip6-allhosts
 # 52.49.218.253
 # 52.18.94.153
 # 54.194.195.183
+# 52.49.61.71
 #0.0.0.0 srv01.codefusion.technology
 #0.0.0.0 cf-revalidation-1750743123.eu-west-1.elb.amazonaws.com
 #0.0.0.0 srv02.codefusion.technology
@@ -1465,6 +1475,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.11bitstudios.com
 0.0.0.0 11bitstudios.com
 
+# Beat Cop
+# s. Steam: General Directory Server
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
 # This War of Mine
 # Facebook Anbindung
 #0.0.0.0 api.babeltheproject.com # Ingamesprache
@@ -1590,6 +1616,11 @@ ff02::3 ip6-allhosts
 # 34.234.19.21
 0.0.0.0 cdn.services.gearboxsoftware.com
 0.0.0.0 discovery.services.gearboxsoftware.com
+
+# Mafia II: Definitive Edition 2020
+# 192.81.242.131
+#0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com # Onlinebindung bei Bedarf abschalten
+0.0.0.0 promotions.api.2kcoretech.online
 
 # Mafia III
 # Telemetry64.dll im Installationsordner löschen! Adressen sind für Telemetrie und Onlinefunktion zuständig
@@ -2352,6 +2383,28 @@ ff02::3 ip6-allhosts
 0.0.0.0 aurochdigital.us7.list-manage2.com
 0.0.0.0 twemoji.maxcdn.com
 
+# Aurum Dust, LLC. & WhisperGames
+# Ash of Gods: Redemption
+# Ip/s blockieren:
+# 208.64.200.105
+# 35.241.26.53
+# 35.186.194.186
+# 35.241.52.229
+# 35.190.88.234
+# s. Steam: General Directory Server
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+# Mehrspielerfunktion bei Bedarf abschalten
+# 13.95.138.92
+#0.0.0.0 b451.playfabapi.com # Automatische Kontenverknüfpung
+#0.0.0.0 game.ashofgods.com
+
 # AutoAttack Games
 # Legion TD 2
 # Onlinezwang
@@ -2444,13 +2497,51 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Bandai Namco Entertainment
-# 11-11
+# 11-11 イレブン イレブン Memories Retold™ | 11-11 Memories Retold
 # Eintrag zu Unity Technologies beachten
 # Ip/s blockieren:
 # 35.186.194.186
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+
+# エースコンバット7 | ACE COMBAT™ 7: SKIES UNKNOWN
+# Ip/s blockieren:
+# 35.171.73.202
+# 34.237.117.11
+# 3.228.118.138
+# 52.4.236.189
+# 3.221.183.62
+# 34.233.113.242
+# 35.169.57.162
+# 107.23.15.61
+# 3.221.231.189
+# 3.215.111.143
+# 54.88.211.84
+# 107.23.37.44
+# 34.233.184.163
+# 34.232.247.41
+# 2a01:bc80:7:100::9b85:f80b
+# 2a01:bc80:4:100::a2fe:c40b
+# 2a01:bc80:4:101::a2fe:c42b
+# 2a01:bc80:5:105::9b85:fa4b
+# 2a01:bc80:5:105::9b85:fa4c
+# 2a01:bc80:5:106::9b85:fa6c
+# 2a01:bc80:5:106::9b85:fa6b
+# 2a01:bc80:1:103::a2fe:c60d
+# 2a01:bc80:1:104::a2fe:c64d
+# 2a01:bc80:7:100::9b85:f80c
+# 2a01:bc80:a:101::b919:b622
+# 2a01:bc80:a:100::b919:b602
+# s. Eintrag Steam: IP Checks
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 ipv6check-udp.steamcontent.com
+0.0.0.0 ipv6check-http.steamcontent.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 udp.ipv6check.akadns.net
+0.0.0.0 eu.udp.ipv6check.akadns.net
+0.0.0.0 http.ipv6check.akadns.net
+0.0.0.0 eu.http.ipv6check.akadns.net
 
 # Beware Planet Earth
 0.0.0.0 www.lightmare-studio.com
@@ -4219,6 +4310,9 @@ ff02::3 ip6-allhosts
 # XIIZEAL
 # s. Steam: General Directory Server
 
+# Degica & Chara-Ani
+# s. Steam: General Directory Server
+
 # Devolver Digital
 # Enter the Gungeon
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -4763,6 +4857,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Excalibur Games
+# Dad Quest
+# s. Steam: General Directory Server
+
 # Shoppe Keep 2
 # Crashanalytics, Erfassung von Hard und Software sowie IPerfassung
 # Ip/s blockieren:
@@ -7315,6 +7412,10 @@ ff02::3 ip6-allhosts
 # s. Rubrik Kopierschutz / AntiCheat
 
 # Microids Indie
+# Alice in Wonderland - Hidden Objects
+# 213.186.33.87
+0.0.0.0 hdo-adventure.com # Optionale Kontenverknüpfung in Klartext und http
+
 # Nostradamus - The Four Horsemen of the Apocalypse
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -10366,6 +10467,10 @@ ff02::3 ip6-allhosts
 # 107.23.154.158
 0.0.0.0 ec2-107-23-154-158.compute-1.amazonaws.com
 0.0.0.0 behemoth-websites-alb-1662044894.us-east-1.elb.amazonaws.com
+
+# The Digital Lounge
+# Another World – 20th Anniversary Edition
+# s. Steam: General Directory Server
 
 # The Fun Pimps Entertainment LLC
 # 7 days to die
