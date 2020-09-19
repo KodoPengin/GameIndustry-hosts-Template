@@ -824,9 +824,10 @@ ff02::3 ip6-allhosts
 #0.0.0.0 clientconfig.akamai.steamstatic.com # Ablage für *.tar.gz
 
 # Steam: Cloud für Speicherstände & Client
-# Deaktivieren um Cloudspeicherung zu verbieten
+# De/aktivieren nach Bedarf
 #0.0.0.0 cloud-3.steamusercontent.com
 #0.0.0.0 steamcloud-eu.storage.googleapis.com
+# 216.58.201.80
 # 64.233.163.128
 # 172.217.23.80
 # 20.38.118.132
@@ -838,23 +839,23 @@ ff02::3 ip6-allhosts
 # 216.58.207.80
 # 172.217.22.16
 # 173.194.73.128
-#0.0.0.0 steamcloudams.blob.core.windows.net
-#0.0.0.0 steamclouddub.blob.core.windows.net
-#0.0.0.0 steamclouduseast.blob.core.windows.net
-#0.0.0.0 steamcloudlrsuswest.blob.core.windows.net
 #0.0.0.0 steamcloud-eu-ams.storage.googleapis.com
-0.0.0.0 steamcloud-finland.storage.googleapis.com
-0.0.0.0 steamcloud-singapore.storage.googleapis.com
-0.0.0.0 steamcloudsg.blob.core.windows.net
-0.0.0.0 steamcloud-taiwan.storage.googleapis.com
-#0.0.0.0 steamcloudams2.blob.core.windows.net
 #0.0.0.0 steamcloud-ugc.storage.googleapis.com
-0.0.0.0 steamcloudsaopaulo.blob.core.windows.net
-0.0.0.0 steamcloud-saopaulo.storage.googleapis.com
-0.0.0.0 steamcloud-br.s3.dualstack.sa-east-1.amazonaws.com
-0.0.0.0 steamcloud-sg.s3.dualstack.ap-southeast-1.amazonaws.com
+#0.0.0.0 steamcloudams.blob.core.windows.net
+#0.0.0.0 steamcloudams2.blob.core.windows.net
+#0.0.0.0 steamclouddub.blob.core.windows.net
 #0.0.0.0 steamcloudfrankfurt.blob.core.windows.net
-0.0.0.0 ssteamcloud-eu-fra.storage.googleapis.com
+#0.0.0.0 steamcloudlrsuswest.blob.core.windows.net
+#0.0.0.0 steamclouduseast.blob.core.windows.net
+0.0.0.0 steamcloud-br.s3.dualstack.sa-east-1.amazonaws.com
+0.0.0.0 steamcloud-eu-fra.storage.googleapis.com
+0.0.0.0 steamcloud-finland.storage.googleapis.com
+0.0.0.0 steamcloud-saopaulo.storage.googleapis.com
+0.0.0.0 steamcloud-sg.s3.dualstack.ap-southeast-1.amazonaws.com
+0.0.0.0 steamcloud-singapore.storage.googleapis.com
+0.0.0.0 steamcloud-taiwan.storage.googleapis.com
+0.0.0.0 steamcloudsaopaulo.blob.core.windows.net
+0.0.0.0 steamcloudsg.blob.core.windows.net
 
 # Steam: Cloudflare
 # 104.18.24.217
