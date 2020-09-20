@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 19.09.2020
+# Änderungsdatum: 20.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -722,62 +722,62 @@ ff02::3 ip6-allhosts
 # 72.247.154.169
 # Angaben nicht komplett
 #0.0.0.0 steambroadcast.akamaized.net # Initialisiert den Broadcast ansich
-#0.0.0.0 video.steamstatic.com # Analytics
-#0.0.0.0 valve500.broadcast.steamcontent.com
-#0.0.0.0 valve501.broadcast.steamcontent.com
-#0.0.0.0 valve1600.broadcast.steamcontent.com
-#0.0.0.0 valve1601.broadcast.steamcontent.com
-#0.0.0.0 valve1600.chat.steamcontent.com
-#0.0.0.0 valve1601.chat.steamcontent.com
 #0.0.0.0 br1-fra1.broadcast.steamcontent.com
-#0.0.0.0 br2-fra1.broadcast.steamcontent.com
-#0.0.0.0 br3-fra1.broadcast.steamcontent.com
-#0.0.0.0 br4-fra1.broadcast.steamcontent.com
 #0.0.0.0 br1-lax1.broadcast.steamcontent.com
-#0.0.0.0 br2-lax1.broadcast.steamcontent.com
-#0.0.0.0 br3-lax1.broadcast.steamcontent.com
-#0.0.0.0 br4-lax1.broadcast.steamcontent.com
 #0.0.0.0 br1-lhr1.broadcast.steamcontent.com
-#0.0.0.0 br2-lhr1.broadcast.steamcontent.com
-#0.0.0.0 br3-lhr1.broadcast.steamcontent.com
-#0.0.0.0 br4-lhr1.broadcast.steamcontent.com
 #0.0.0.0 br1-ord1.broadcast.steamcontent.com
-#0.0.0.0 br2-ord1.broadcast.steamcontent.com
-#0.0.0.0 br3-ord1.broadcast.steamcontent.com
-#0.0.0.0 br4-ord1.broadcast.steamcontent.com
 #0.0.0.0 br1-tyo1.broadcast.steamcontent.com
+#0.0.0.0 br2-fra1.broadcast.steamcontent.com
+#0.0.0.0 br2-lax1.broadcast.steamcontent.com
+#0.0.0.0 br2-lhr1.broadcast.steamcontent.com
+#0.0.0.0 br2-ord1.broadcast.steamcontent.com
 #0.0.0.0 br2-tyo1.broadcast.steamcontent.com
+#0.0.0.0 br3-fra1.broadcast.steamcontent.com
+#0.0.0.0 br3-lax1.broadcast.steamcontent.com
+#0.0.0.0 br3-lhr1.broadcast.steamcontent.com
+#0.0.0.0 br3-ord1.broadcast.steamcontent.com
 #0.0.0.0 br3-tyo1.broadcast.steamcontent.com
+#0.0.0.0 br4-fra1.broadcast.steamcontent.com
+#0.0.0.0 br4-lax1.broadcast.steamcontent.com
+#0.0.0.0 br4-lhr1.broadcast.steamcontent.com
+#0.0.0.0 br4-ord1.broadcast.steamcontent.com
 #0.0.0.0 br4-tyo1.broadcast.steamcontent.com
 #0.0.0.0 repo-01-fra1.broadcast.steamcontent.com
-#0.0.0.0 repo-02-fra1.broadcast.steamcontent.com
-#0.0.0.0 repo-03-fra1.broadcast.steamcontent.com
-#0.0.0.0 repo-04-fra1.broadcast.steamcontent.com
 #0.0.0.0 repo-01-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-02-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-03-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-04-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-01-sto1.broadcast.steamcontent.com
-#0.0.0.0 repo-02-sto1.broadcast.steamcontent.com
-#0.0.0.0 repo-03-sto1.broadcast.steamcontent.com
-#0.0.0.0 repo-04-sto1.broadcast.steamcontent.com
 #0.0.0.0 repo-01-sea1.broadcast.steamcontent.com
+#0.0.0.0 repo-01-sto1.broadcast.steamcontent.com
+#0.0.0.0 repo-02-fra1.broadcast.steamcontent.com
+#0.0.0.0 repo-02-lhr1.broadcast.steamcontent.com
 #0.0.0.0 repo-02-sea1.broadcast.steamcontent.com
+#0.0.0.0 repo-02-sto1.broadcast.steamcontent.com
+#0.0.0.0 repo-03-fra1.broadcast.steamcontent.com
+#0.0.0.0 repo-03-lhr1.broadcast.steamcontent.com
 #0.0.0.0 repo-03-sea1.broadcast.steamcontent.com
+#0.0.0.0 repo-03-sto1.broadcast.steamcontent.com
+#0.0.0.0 repo-04-fra1.broadcast.steamcontent.com
+#0.0.0.0 repo-04-lhr1.broadcast.steamcontent.com
 #0.0.0.0 repo-04-sea1.broadcast.steamcontent.com
+#0.0.0.0 repo-04-sto1.broadcast.steamcontent.com
+#0.0.0.0 valve1600.broadcast.steamcontent.com
+#0.0.0.0 valve1600.chat.steamcontent.com
+#0.0.0.0 valve1601.broadcast.steamcontent.com
+#0.0.0.0 valve1601.chat.steamcontent.com
+#0.0.0.0 valve500.broadcast.steamcontent.com
+#0.0.0.0 valve501.broadcast.steamcontent.com
+#0.0.0.0 video.steamstatic.com # Analytics
 # Auszug der Streamingthumbnails
-#0.0.0.0 ingest-01-lhr1.broadcast.steamcontent.com
 #0.0.0.0 ingest-01-lax1.broadcast.steamcontent.com
-#0.0.0.0 ingest-02-lhr1.broadcast.steamcontent.com
+#0.0.0.0 ingest-01-lhr1.broadcast.steamcontent.com
 #0.0.0.0 ingest-02-fra1.broadcast.steamcontent.com
+#0.0.0.0 ingest-02-lhr1.broadcast.steamcontent.com
+#0.0.0.0 ingest-02-sea1.broadcast.steamcontent.com
 #0.0.0.0 ingest-02-sto1.broadcast.steamcontent.com
-#0.0.0.0 ingest-03-ord1.broadcast.steamcontent.com
 #0.0.0.0 ingest-03-fra1.broadcast.steamcontent.com
 #0.0.0.0 ingest-03-lax1.broadcast.steamcontent.com
+#0.0.0.0 ingest-03-ord1.broadcast.steamcontent.com
 #0.0.0.0 ingest-03-sto1.broadcast.steamcontent.com
 #0.0.0.0 ingest-04-lax1.broadcast.steamcontent.com
 #0.0.0.0 ingest-04-lhr1.broadcast.steamcontent.com
-#0.0.0.0 ingest-02-sea1.broadcast.steamcontent.com
 
 # Steam: CDN | Content Delivery Network
 # 2.21.228.105
@@ -894,7 +894,6 @@ ff02::3 ip6-allhosts
 # 155.133.248.29
 # 155.133.248.22
 # 155.133.248.19
-#0.0.0.0 cdn.highwinds.cs.steampowered.com # Depot Manifest
 #0.0.0.0 cache10-ams1.steamcontent.com
 #0.0.0.0 cache11-ams1.steamcontent.com
 #0.0.0.0 cache12-ams1.steamcontent.com
@@ -906,6 +905,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cache3-ams1.steamcontent.com
 #0.0.0.0 cache54-fra1.steamcontent.com
 #0.0.0.0 cache8-ams1.steamcontent.com
+#0.0.0.0 cdn.highwinds.cs.steampowered.com # Depot Manifest
 
 # Steam: Steamworks
 # 23.78.88.233
@@ -936,6 +936,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 video.steamstatic.com
 
 # Steam: IP Checks
+# Verpflichtende Callbacks, die allerdings blockiert werden können
 # Ip/s blockieren:
 # 2a01:bc80:a:100::b919:b602
 # 2a01:bc80:a:101::b919:b622
@@ -953,118 +954,33 @@ ff02::3 ip6-allhosts
 # 2a01:bc80:4:100::a2fe:c40b
 # 184.24.77.162
 # 184.24.77.156
-0.0.0.0 ipv6check-udp.steamcontent.com
 0.0.0.0 ipv6check-http.steamcontent.com
-0.0.0.0 udp.ipv6check.akadns.net
+0.0.0.0 ipv6check-udp.steamcontent.com
+0.0.0.0 eu.http.ipv6check.akadns.net
 0.0.0.0 eu.udp.ipv6check.akadns.net
 0.0.0.0 http.ipv6check.akadns.net
-0.0.0.0 eu.http.ipv6check.akadns.net
+0.0.0.0 udp.ipv6check.akadns.net
 
-# Steam: Multiplayer Serverlisten & Content
-# Valve Server 1 bis ca. 3000+
-#0.0.0.0 valve165.steamcontent.com
-#0.0.0.0 valve300.steamcontent.com
-#0.0.0.0 valve2507.steamcontent.com
-#0.0.0.0 valve501.steamcontent.com
-#0.0.0.0 valve500.steamcontent.com
-#0.0.0.0 valve514.steamcontent.com
-#0.0.0.0 valve506.steamcontent.com
-#0.0.0.0 valve507.steamcontent.com
+# Steam: Beispiele Multiplayer Serverlisten & Content
+# Valve Server reichen von 1 bis ca. 3000+
+#0.0.0.0 valve561.steamcontent.com
+#0.0.0.0 valve559.steamcontent.com
+#0.0.0.0 valve556.steamcontent.com
 #0.0.0.0 valve555.steamcontent.com
 #0.0.0.0 valve541.steamcontent.com
 #0.0.0.0 valve533.steamcontent.com
-#0.0.0.0 valve504.steamcontent.com
-#0.0.0.0 valve505.steamcontent.com
-#0.0.0.0 valve559.steamcontent.com
 #0.0.0.0 valve525.steamcontent.com
-#0.0.0.0 valve556.steamcontent.com
-#0.0.0.0 valve561.steamcontent.com
-#0.0.0.0 valve1601.steamcontent.com
-#0.0.0.0 valve518.steamcontent.com
-#0.0.0.0 valve560.steamcontent.com
-#0.0.0.0 valve566.steamcontent.com
-#0.0.0.0 valve520.steamcontent.com
-#0.0.0.0 valve554.steamcontent.com
-#0.0.0.0 valve558.steamcontent.com
-#0.0.0.0 valve531.steamcontent.com
-#0.0.0.0 valve552.steamcontent.com
-#0.0.0.0 valve562.steamcontent.com
-#0.0.0.0 valve523.steamcontent.com
-#0.0.0.0 valve535.steamcontent.com
-#0.0.0.0 valve567.steamcontent.com
-#0.0.0.0 valve536.steamcontent.com
-#0.0.0.0 valve548.steamcontent.com
-#0.0.0.0 valve532.steamcontent.com
-#0.0.0.0 valve542.steamcontent.com
-#0.0.0.0 valve959.steamcontent.com
-#0.0.0.0 valve539.steamcontent.com
-#0.0.0.0 valve563.steamcontent.com
-#0.0.0.0 valve565.steamcontent.com
-#0.0.0.0 valve564.steamcontent.com
-#0.0.0.0 valve543.steamcontent.com
-#0.0.0.0 valve526.steamcontent.com
-#0.0.0.0 valve537.steamcontent.com
-#0.0.0.0 valve557.steamcontent.com
-#0.0.0.0 valve515.steamcontent.com
-#0.0.0.0 valve547.steamcontent.com
-#0.0.0.0 valve519.steamcontent.com
-#0.0.0.0 valve516.steamcontent.com
-#0.0.0.0 valve521.steamcontent.com
-#0.0.0.0 valve540.steamcontent.com
-#0.0.0.0 valve502.steamcontent.com
+#0.0.0.0 valve514.steamcontent.com
+#0.0.0.0 valve507.steamcontent.com
+#0.0.0.0 valve506.steamcontent.com
+#0.0.0.0 valve505.steamcontent.com
+#0.0.0.0 valve504.steamcontent.com
+#0.0.0.0 valve501.steamcontent.com
+#0.0.0.0 valve500.steamcontent.com
+#0.0.0.0 valve300.steamcontent.com
+#0.0.0.0 valve2507.steamcontent.com
 #0.0.0.0 valve165.steamcontent.com
-#0.0.0.0 valve553.steamcontent.com
-#0.0.0.0 valve530.steamcontent.com
-#0.0.0.0 valve164.steamcontent.com
-#0.0.0.0 valve400.steamcontent.com
-#0.0.0.0 valve401.steamcontent.com
-#0.0.0.0 valve503.steamcontent.com
-#0.0.0.0 valve508.steamcontent.com
-#0.0.0.0 valve509.steamcontent.com
-#0.0.0.0 valve510.steamcontent.com
-#0.0.0.0 valve511.steamcontent.com
-#0.0.0.0 valve512.steamcontent.com
-#0.0.0.0 valve513.steamcontent.com
-#0.0.0.0 valve517.steamcontent.com
-#0.0.0.0 valve522.steamcontent.com
-#0.0.0.0 valve524.steamcontent.com
-#0.0.0.0 valve528.steamcontent.com
-#0.0.0.0 valve529.steamcontent.com
-#0.0.0.0 valve538.steamcontent.com
-#0.0.0.0 valve544.steamcontent.com
-#0.0.0.0 valve545.steamcontent.com
-#0.0.0.0 valve546.steamcontent.com
-#0.0.0.0 valve550.steamcontent.com
-#0.0.0.0 valve551.steamcontent.com
-#0.0.0.0 valve900.steamcontent.com
-#0.0.0.0 valve901.steamcontent.com
-#0.0.0.0 valve904.steamcontent.com
-#0.0.0.0 valve905.steamcontent.com
-#0.0.0.0 valve906.steamcontent.com
-#0.0.0.0 valve907.steamcontent.com
-#0.0.0.0 valve908.steamcontent.com
-#0.0.0.0 valve950.steamcontent.com
-#0.0.0.0 valve951.steamcontent.com
-#0.0.0.0 valve952.steamcontent.com
-#0.0.0.0 valve953.steamcontent.com
-#0.0.0.0 valve954.steamcontent.com
-#0.0.0.0 valve956.steamcontent.com
-#0.0.0.0 valve957.steamcontent.com
-#0.0.0.0 valve958.steamcontent.com
-#0.0.0.0 valve1603.steamcontent.com
-#0.0.0.0 valve1604.steamcontent.com
-#0.0.0.0 valve1605.steamcontent.com
-#0.0.0.0 valve1606.steamcontent.com
-#0.0.0.0 valve1607.steamcontent.com
-#0.0.0.0 valve1609.steamcontent.com
-#0.0.0.0 valve1610.steamcontent.com
-#0.0.0.0 valve1612.steamcontent.com
-#0.0.0.0 valve1613.steamcontent.com
-#0.0.0.0 valve1614.steamcontent.com
-#0.0.0.0 valve1615.steamcontent.com
-#0.0.0.0 valve1616.steamcontent.com
-#0.0.0.0 valve1617.steamcontent.com
-#0.0.0.0 valve1618.steamcontent.com
+#0.0.0.0 valve1601.steamcontent.com
 
 # Steam: Nutzergenerierte Inhalte
 # 2.20.254.145
