@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 19.09.2020
+# Änderungsdatum: 20.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1529,7 +1529,7 @@ ff02::3 ip6-allhosts
 # 216.58.212.238
 # 216.58.223.78
 # 216.58.221.78
-0.0.0.0 www.google-analytics.com #
+0.0.0.0 www.google-analytics.com
 # Updates & Installation
 #0.0.0.0 activate.api.stardock.net # 66.79.209.82 in regelmäßigen Abständen
 #0.0.0.0 download.api.stardock.net
@@ -2443,63 +2443,65 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad099bddc3b362cf302797e3f53e91c0d.profile.nrt12-c3.cloudfront.net # Experimentelle AWS Cloudfront Antwort
 #0.0.0.0 s3.amazonaws.com
 #0.0.0.0 s3-eu-west-1.amazonaws.com # Ablage CSS Files einiger Seiten
-0.0.0.0 sqs.us-east-1.amazonaws.com
-0.0.0.0 static.emsservice.de.s3.amazonaws.com
-0.0.0.0 revcontent-p0.s3.amazonaws.com
-0.0.0.0 livefyre-cdn.s3.amazonaws.com
-0.0.0.0 gtrk.s3.amazonaws.com
-0.0.0.0 s3-1-w.amazonaws.com
-0.0.0.0 ams-ads-cornerstone-creatives-fe.s3.amazonaws.com
-0.0.0.0 s3.eu-central-1.amazonaws.com
-0.0.0.0 xcmz7crlld.execute-api.eu-central-1.amazonaws.com
-0.0.0.0 n3k5k32e00.execute-api.eu-central-1.amazonaws.com # Geodaten & Browsererfassung
-0.0.0.0 esev2.s3.amazonaws.com
-0.0.0.0 stats-analytics-722939043.eu-west-1.elb.amazonaws.com
-0.0.0.0 adserver-vpc-alb-2-1264451658.eu-west-1.elb.amazonaws.com
-0.0.0.0 ec2-52-38-234-14.us-west-2.compute.amazonaws.com
-0.0.0.0 ec2-54-213-253-147.us-west-2.compute.amazonaws.com
-0.0.0.0 bbuseruploads.s3.amazonaws.com
-0.0.0.0 rlmgws-data.s3-accelerate.amazonaws.com
-0.0.0.0 www.pc.error5587875531ademscomboclf3493.com.s3-website.eu-central-1.amazonaws.com
-0.0.0.0 pc.error-1003a49feif3042.com.s3-website.eu-central-1.amazonaws.com
-0.0.0.0 elb-aws-fr-clickdistrict-1651093077.eu-central-1.elb.amazonaws.com
-0.0.0.0 aa-agkn-com-https-1893222849.eu-west-2.elb.amazonaws.com
-0.0.0.0 cookiesyncing-1395500543.us-east-1.elb.amazonaws.com
-0.0.0.0 dcs-edge-irl1-876252164.eu-west-1.elb.amazonaws.com
-0.0.0.0 elb-aws-ie-rockabox-scoota-2052063539.eu-west-1.elb.amazonaws.com
-0.0.0.0 sharedid-2070269664.us-east-1.elb.amazonaws.com
-0.0.0.0 api-prod-alb-220889581.eu-central-1.elb.amazonaws.com
-0.0.0.0 match-1943069928.eu-west-1.elb.amazonaws.com
-0.0.0.0 9dbd256a-default-ih-dd4d-36901406.eu-central-1.elb.amazonaws.com
-0.0.0.0 prod-dub-beacon-1484770602.eu-west-1.elb.amazonaws.com
-0.0.0.0 dxedge-prod-lb-404808087.eu-central-1.elb.amazonaws.com
-0.0.0.0 saas-components-ecsloadbalancer-1709586717.eu-central-1.elb.amazonaws.com
-0.0.0.0 alb-aws-fr-bswx-3-1125904451.eu-central-1.elb.amazonaws.com
-0.0.0.0 e77d760a-default-ih-dd4d-1693796260.eu-central-1.elb.amazonaws.com
-0.0.0.0 matomo-wpmudev-1288779782.us-east-2.elb.amazonaws.com
-0.0.0.0 9dbd256a-default-trx-2d0e-496170222.eu-central-1.elb.amazonaws.com
-0.0.0.0 prod-balan-fdzj1d4q5tzo-2064467324.us-east-1.elb.amazonaws.com
-0.0.0.0 personalization-prod1-ext-alb-1258852474.us-east-1.elb.amazonaws.com
-0.0.0.0 location-prod1-ext-alb-1369692072.us-east-1.elb.amazonaws.com
-0.0.0.0 bidder-prod.mgycqhrtpm.eu-central-1.elasticbeanstalk.com
-0.0.0.0 antenna-frontend-production-219b4455bc07fb73.elb.eu-west-1.amazonaws.com
-0.0.0.0 elb-optchk-asg-euw1-1156411587.eu-west-1.elb.amazonaws.com
-0.0.0.0 ads-yieldmo-com-eu-west-1-544050270.eu-west-1.elb.amazonaws.com
 0.0.0.0 33xchange-1576862511.us-east-1.elb.amazonaws.com
-0.0.0.0 p13nlog-1106815646.us-east-1.elb.amazonaws.com
-0.0.0.0 bids-elb-195079410.us-west-2.elb.amazonaws.com
-0.0.0.0 tracking-1611167402.us-east-1.elb.amazonaws.com
-0.0.0.0 ictjob-next-dev.eu-west-1.elasticbeanstalk.com
-0.0.0.0 marketingkaizen.s3-eu-west-1.amazonaws.com
-0.0.0.0 partners-alb-1113315349.useast-1.elb.amazonaws.com
-0.0.0.0 wildcard-ads-new-1653986885.useast-1.elb.amazonaws.com
+0.0.0.0 9dbd256a-default-ih-dd4d-36901406.eu-central-1.elb.amazonaws.com
+0.0.0.0 9dbd256a-default-trx-2d0e-496170222.eu-central-1.elb.amazonaws.com
 0.0.0.0 a10abac5d1e9b11ea8d990e43aad44f4-1031692812.us-east-1.elb.amazonaws.com
 0.0.0.0 a2963af13702f11ea8e280ea4befdfff-375410077.us-east-1.elb.amazonaws.com
-0.0.0.0 infra-events-pipelineproduction-1520650058.useast-1.elb.amazonaws.com
-0.0.0.0 match-1943069928.euwest-1.elb.amazonaws.com
-0.0.0.0 ads-1460635594.eucentral-1.elb.amazonaws.com
-0.0.0.0 nginx-eucl1-ext-prod-a-2061165432.eucentral-1.elb.amazonaws.com
+0.0.0.0 aa-agkn-com-https-1893222849.eu-west-2.elb.amazonaws.com
 0.0.0.0 acds-euwt1-ext-prod-a-232925330.euwest-1.elb.amazonaws.com
+0.0.0.0 ads-1460635594.eucentral-1.elb.amazonaws.com
+0.0.0.0 ads-yieldmo-com-eu-west-1-544050270.eu-west-1.elb.amazonaws.com
+0.0.0.0 adserver-vpc-alb-2-1264451658.eu-west-1.elb.amazonaws.com
+0.0.0.0 alb-aws-fr-bswx-3-1125904451.eu-central-1.elb.amazonaws.com
+0.0.0.0 ams-ads-cornerstone-creatives-fe.s3.amazonaws.com
+0.0.0.0 antenna-frontend-production-219b4455bc07fb73.elb.eu-west-1.amazonaws.com
+0.0.0.0 api-prod-alb-220889581.eu-central-1.elb.amazonaws.com
+0.0.0.0 bbuseruploads.s3.amazonaws.com
+0.0.0.0 bidder-prod.mgycqhrtpm.eu-central-1.elasticbeanstalk.com
+0.0.0.0 bids-elb-195079410.us-west-2.elb.amazonaws.com
+0.0.0.0 cookiesyncing-1395500543.us-east-1.elb.amazonaws.com
+0.0.0.0 dcs-edge-irl1-876252164.eu-west-1.elb.amazonaws.com
+0.0.0.0 dxedge-prod-lb-404808087.eu-central-1.elb.amazonaws.com
+0.0.0.0 e77d760a-default-ih-dd4d-1693796260.eu-central-1.elb.amazonaws.com
+0.0.0.0 ec2-52-38-234-14.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-54-213-253-147.us-west-2.compute.amazonaws.com
+0.0.0.0 elb-aws-fr-clickdistrict-1651093077.eu-central-1.elb.amazonaws.com
+0.0.0.0 elb-aws-ie-rockabox-scoota-2052063539.eu-west-1.elb.amazonaws.com
+0.0.0.0 elb-optchk-asg-euw1-1156411587.eu-west-1.elb.amazonaws.com
+0.0.0.0 esev2.s3.amazonaws.com
+0.0.0.0 gtrk.s3.amazonaws.com
+0.0.0.0 ictjob-next-dev.eu-west-1.elasticbeanstalk.com
+0.0.0.0 infra-events-pipelineproduction-1520650058.useast-1.elb.amazonaws.com
+0.0.0.0 livefyre-cdn.s3.amazonaws.com
+0.0.0.0 location-prod1-ext-alb-1369692072.us-east-1.elb.amazonaws.com
+0.0.0.0 marketingkaizen.s3-eu-west-1.amazonaws.com
+0.0.0.0 match-1943069928.eu-west-1.elb.amazonaws.com
+0.0.0.0 match-1943069928.euwest-1.elb.amazonaws.com
+0.0.0.0 matomo-wpmudev-1288779782.us-east-2.elb.amazonaws.com
+0.0.0.0 n3k5k32e00.execute-api.eu-central-1.amazonaws.com # Geodaten & Browsererfassung
+0.0.0.0 nginx-eucl1-ext-prod-a-2061165432.eucentral-1.elb.amazonaws.com
+0.0.0.0 p13nlog-1106815646.us-east-1.elb.amazonaws.com
+0.0.0.0 partners-alb-1113315349.useast-1.elb.amazonaws.com
+0.0.0.0 pc.error-1003a49feif3042.com.s3-website.eu-central-1.amazonaws.com
+0.0.0.0 personalization-prod1-ext-alb-1258852474.us-east-1.elb.amazonaws.com
+0.0.0.0 prod-balan-fdzj1d4q5tzo-2064467324.us-east-1.elb.amazonaws.com
+0.0.0.0 prod-dub-beacon-1484770602.eu-west-1.elb.amazonaws.com
+0.0.0.0 qpsftq5jqg.execute-api.us-east-1.amazonaws.com # Southernliving.com, Allrecipes.com
+0.0.0.0 revcontent-p0.s3.amazonaws.com
+0.0.0.0 rlmgws-data.s3-accelerate.amazonaws.com
+0.0.0.0 s3-1-w.amazonaws.com
+0.0.0.0 s3.eu-central-1.amazonaws.com
+0.0.0.0 saas-components-ecsloadbalancer-1709586717.eu-central-1.elb.amazonaws.com
+0.0.0.0 sharedid-2070269664.us-east-1.elb.amazonaws.com
+0.0.0.0 sqs.us-east-1.amazonaws.com
+0.0.0.0 static.emsservice.de.s3.amazonaws.com
+0.0.0.0 stats-analytics-722939043.eu-west-1.elb.amazonaws.com
+0.0.0.0 tracking-1611167402.us-east-1.elb.amazonaws.com
+0.0.0.0 wildcard-ads-new-1653986885.useast-1.elb.amazonaws.com
+0.0.0.0 www.pc.error5587875531ademscomboclf3493.com.s3-website.eu-central-1.amazonaws.com
+0.0.0.0 xcmz7crlld.execute-api.eu-central-1.amazonaws.com
+
 # Amazon-Adsystem und Drittanbietertracking und Metrics
 0.0.0.0 ir-de.amazon-adsystem.com
 0.0.0.0 ws-eu.amazon-adsystem.com
@@ -2549,6 +2551,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 af4bcc94ad9dc09d085706145234f5565.profile.msp50.cloudfront.net
 0.0.0.0 d10lumateci472.cloudfront.net
 0.0.0.0 d11enq2rymy0yl.cloudfront.net
+0.0.0.0 d1225795gabrip.cloudfront.net
 0.0.0.0 d134s3bx3cib14.cloudfront.net
 0.0.0.0 d141wsrw9m4as6.cloudfront.net
 0.0.0.0 d144jmuhz9kvbq.cloudfront.net
@@ -2556,6 +2559,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d163w5bauk02b4.cloudfront.net # Chip.de
 0.0.0.0 d17fy28x8ov4h8.cloudfront.net # Dailymail
 0.0.0.0 d18dhv6xwmvh4j.cloudfront.net
+0.0.0.0 d1bqktvj79b0wh.cloudfront.net
 0.0.0.0 d1dli2tyorled9.cloudfront.net
 0.0.0.0 d1er90t4t0ta7c.cloudfront.net
 0.0.0.0 d1hq9wbcfo7dcl.cloudfront.net
@@ -2565,6 +2569,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d1lxz4vuik53pc.cloudfront.net # Amazon
 0.0.0.0 d1mbihpm2gncx7.cloudfront.net
 0.0.0.0 d1nmxiiewlx627.cloudfront.net # GCW, Animeloads etc
+0.0.0.0 d1o6jc0ebh0dtu.cloudfront.net
 0.0.0.0 d1pozdfelzfhyt.cloudfront.net
 0.0.0.0 d1qggq1at2gusn.cloudfront.net
 0.0.0.0 d1ql3z8u1oo390.cloudfront.net
@@ -2572,18 +2577,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 d1r27qvpjiaqj3.cloudfront.net # Heise.de
 0.0.0.0 d1r90st78epsag.cloudfront.net
 0.0.0.0 d1sga4e4j5xr2k.cloudfront.net # Spiegel.de
-0.0.0.0 d2p3zdq8vjvnxd.cloudfront.net
 0.0.0.0 d1tlya86oqnb8p.cloudfront.net
+0.0.0.0 d1ykf07e75w7ss.cloudfront.net
 0.0.0.0 d1z2jf7jlzjs58.cloudfront.net # wired.com, nbcnews.com
 0.0.0.0 d20duyjzb7cuoc.cloudfront.net # Kaufda Bonanza Script
 0.0.0.0 d22v2nmahyeg2a.cloudfront.net # Php Einfach
 0.0.0.0 d22z575k8abudv.cloudfront.net
+0.0.0.0 d24n15hnbwhuhn.cloudfront.net
 0.0.0.0 d2e1wye93a9yxe.cloudfront.net
 0.0.0.0 d2fbkzyicji7c4.cloudfront.net # JavOUT
 0.0.0.0 d2na2p72vtqyok.cloudfront.net
 0.0.0.0 d2nx6ydw3e5y5d.cloudfront.net # Bild.de
 0.0.0.0 d2oa97wrxvxm7y.cloudfront.net
+0.0.0.0 d2p3zdq8vjvnxd.cloudfront.net
+0.0.0.0 d2s2jxtv35392n.cloudfront.net
 0.0.0.0 d2ty8gaf6rmowa.cloudfront.net
+0.0.0.0 d2v9mhsiek5lbq.cloudfront.net
+0.0.0.0 d2wu036mkcz52n.cloudfront.net
 0.0.0.0 d2wy8f7a9ursnm.cloudfront.net # Bugsnag Script
 0.0.0.0 d2yyd1h5u9mauk.cloudfront.net
 0.0.0.0 d31qbv1cthcecs.cloudfront.net
@@ -2598,6 +2608,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 d3dytsf4vrjn5x.cloudfront.net
 0.0.0.0 d3hj4iyx6t1waz.cloudfront.net
 0.0.0.0 d3kblkhdtjv0tf.cloudfront.net
+0.0.0.0 d3lcz8vpax4lo2.cloudfront.net
+0.0.0.0 d3o49rridkfcxi.cloudfront.net
 0.0.0.0 d3ooh7n2f0ku5s.cloudfront.net
 0.0.0.0 d3qz0rrtpnddkp.cloudfront.net # Gamespot.com
 0.0.0.0 d3t5ngjixpjdho.cloudfront.net
@@ -2611,14 +2623,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 d7t0ajd8uy1xk.cloudfront.net
 0.0.0.0 d81mfvml8p5ml.cloudfront.net
 0.0.0.0 d8rk54i4mohrb.cloudfront.net # RottenTomatoes
+0.0.0.0 d9etzk30b05yg.cloudfront.net
+0.0.0.0 d9jj3mjthpub.cloudfront.net
 0.0.0.0 da8k5lxr4s0r1.cloudfront.net
 0.0.0.0 dc5k8fg5ioc8s.cloudfront.net
+0.0.0.0 dc8xl0ndzn2cb.cloudfront.net
 0.0.0.0 dd6zx4ibq538k.cloudfront.net
 0.0.0.0 ddfnmo6ev4fd.cloudfront.net
 0.0.0.0 df80k0z3fi8zg.cloudfront.net
 0.0.0.0 dgw7ae5vrovs7.cloudfront.net
 0.0.0.0 djtflbt20bdde.cloudfront.net
 0.0.0.0 djvbdz1obemzo.cloudfront.net
+0.0.0.0 dkumiip2e9ary.cloudfront.net
 0.0.0.0 dlhf38wsun1qh.cloudfront.net
 0.0.0.0 dlvds9i67c60j.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
@@ -2631,18 +2647,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dtxtngytz5im1.cloudfront.net
 0.0.0.0 dx6ctphzljkf1.cloudfront.net # Golem.de
 0.0.0.0 dyfw24whmn0ln.cloudfront.net
-0.0.0.0 d1o6jc0ebh0dtu.cloudfront.net
-0.0.0.0 d2s2jxtv35392n.cloudfront.net
-0.0.0.0 d1225795gabrip.cloudfront.net
-0.0.0.0 d1ykf07e75w7ss.cloudfront.net
-0.0.0.0 d3o49rridkfcxi.cloudfront.net
-0.0.0.0 d1bqktvj79b0wh.cloudfront.net
-0.0.0.0 d2wu036mkcz52n.cloudfront.net
-0.0.0.0 d3lcz8vpax4lo2.cloudfront.net
-0.0.0.0 d24n15hnbwhuhn.cloudfront.net
-0.0.0.0 d9jj3mjthpub.cloudfront.net
-0.0.0.0 dc8xl0ndzn2cb.cloudfront.net
-0.0.0.0 d9etzk30b05yg.cloudfront.net
 
 # Amplitude.com
 0.0.0.0 api.amplitude.com
@@ -3350,6 +3354,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 event.api.drift.com
 0.0.0.0 1039834-34.chat.api.drift.com
 0.0.0.0 presence.api.drift.com # Websocket
+0.0.0.0 customer.api.drift.com # Geodaten
+0.0.0.0 embeds.driftcdn.com
 
 # Driveserv.de
 0.0.0.0 app.driveserv.de
@@ -9175,10 +9181,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 automate-prod.storage.googleapis.com
 
 # Google Appspot.com
-0.0.0.0 quick-yen-88111.appspot.com
-0.0.0.0 page-view-ingestion.appspot.com
-0.0.0.0 image-proxy-dot-veeseo-rce.appspot.com
+0.0.0.0 amp-error-reporting.appspot.com
+0.0.0.0 cmanager-prometeo.appspot.com
+0.0.0.0 directed-truck-256814.appspot.com
 0.0.0.0 ima3vpaid.appspot.com
+0.0.0.0 image-proxy-dot-veeseo-rce.appspot.com
+0.0.0.0 page-view-ingestion.appspot.com
+0.0.0.0 quick-yen-88111.appspot.com
 
 # Google Crashpad
 0.0.0.0 clients2.google.com
@@ -10401,7 +10410,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 adbroker.mp.dse.microsoft.com
 # Ip/s blockieren:
 # 40.77.18.167
+# 104.214.150.122
 0.0.0.0 skypedataprdcolcus13.cloudapp.net
+0.0.0.0 skypedataprdcoljpw00.cloudapp.net
 #0.0.0.0 g.msn.com
 #0.0.0.0 static-spartan-neu-s-msn-com.akamaized.net # auf den Static Adressen befinden sich die CSS und JS Scripts von MSN
 #0.0.0.0 static-spartan-eas-s-msn-com.akamaized.net
@@ -11187,7 +11198,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dfgbalon.com
 0.0.0.0 dialgold.com
 0.0.0.0 direct.apus.tech # Bannerrotation
-0.0.0.0 directed-truck-256814.appspot.com
 0.0.0.0 dormitysature.info
 0.0.0.0 dovewallet.com
 0.0.0.0 dsfgp.admenhost.com
@@ -11687,11 +11697,13 @@ ff02::3 ip6-allhosts
 # SaferVPN
 # 52.201.109.242
 # 52.20.169.88
+# 151.139.128.14
 0.0.0.0 in.appcenter.ms
 #0.0.0.0 svpnapi.safervpn.com
 #0.0.0.0 api.safersoftware.net
 #0.0.0.0 cdn.safervpn.com # Clientdownload
 #0.0.0.0 d1swh8d1us2hlo.cloudfront.net # Ländergrafiken
+#0.0.0.0 ocsp.sectigo.com
 0.0.0.0 dualstack.awseb-awseb-lu4u554nin6c-2115740690.us-east-1.elb.amazonaws.com
 # 162.88.193.70
 # 131.186.113.70
@@ -11836,6 +11848,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 accede-throne.gdn
 0.0.0.0 accomplishedsettings.cdn-clound.club
 0.0.0.0 acds.prod.vidible.tv
+0.0.0.0 actions-api-pro-esvehatdmq-ew.a.run.app
 0.0.0.0 acuityplatform.com
 0.0.0.0 ad-aws-it.neodatagroup.com
 0.0.0.0 ad-delivery.net
@@ -11941,13 +11954,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 agre.crosscert.com
 0.0.0.0 aj1574.online
 0.0.0.0 akutapro.com
+0.0.0.0 allrecipes.groceryserver.com # Geodaten
 0.0.0.0 allstarmediagroup.com
 0.0.0.0 alpha.inet-logistics.com
 0.0.0.0 alysson.de
 0.0.0.0 am.cdnetworks.net
 0.0.0.0 am15.net
 0.0.0.0 amavirgin.pro
-0.0.0.0 amp-error-reporting.appspot.com
 0.0.0.0 amp.ad.dotandad.com
 0.0.0.0 amp.adventivedev.com
 0.0.0.0 amp.emediate.eu
@@ -11971,6 +11984,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.sleeknote.com
 0.0.0.0 analytics.stavros.io
 0.0.0.0 analytics.travel-dealz.de # Piwik
+0.0.0.0 analytics.video.meredithcorp.io
 0.0.0.0 analytics.webgains.io
 0.0.0.0 analyze.wywy.com
 0.0.0.0 andarcair.club
@@ -12071,6 +12085,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 baletingo.com
 0.0.0.0 bank.reklamstore.com
 0.0.0.0 banners.askmecca.com
+0.0.0.0 bcdn.grmtas.com
 0.0.0.0 bd202457b.com
 0.0.0.0 be7f5dd1-ef00-4a87-857e-0a03b46c2965.static.pub.wix-code.com
 0.0.0.0 bea4.v.fwmrm.net
@@ -12274,6 +12289,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 cm.steepto.com
 0.0.0.0 cmp.network-n.com # Google Personalisierung & Partner
 0.0.0.0 cmp.tech426.com
+0.0.0.0 cmpsp.hobbyconsolas.com
+0.0.0.0 cmpv2.macworld.com
 0.0.0.0 cn.asq.com
 0.0.0.0 cn.gentlemonster.com
 0.0.0.0 code.gentlemonster.com
@@ -12286,10 +12303,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 coltagainst.pro
 0.0.0.0 com-date.info
 0.0.0.0 commercialvalue.org
+0.0.0.0 commsvc.essen-und-trinken.de
 0.0.0.0 commsvc.gala.de
 0.0.0.0 commsvc.schoener-wohnen.de
 0.0.0.0 concentleconse.site
 0.0.0.0 config.heasycouponsaccess.com
+0.0.0.0 config.seedtag.com
 0.0.0.0 connexity.net
 0.0.0.0 consent-pref.trustarc.com
 0.0.0.0 consent.cmp.gamesradar.com
@@ -12432,6 +12451,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 eu1.wbdds.com
 0.0.0.0 eu2.madsone.com
 0.0.0.0 eulnl.vornz.com
+0.0.0.0 europe-west1-project-prometeo-v2.cloudfunctions.net # Geo und Gerätedaten
 0.0.0.0 events.apester.com
 0.0.0.0 events.avantisvideo.com
 0.0.0.0 events.native20.com
@@ -12594,7 +12614,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ifrm.camdough.com
 0.0.0.0 ii.alatest.com
 0.0.0.0 ilkmawgod.site
-0.0.0.0 ima3vpaid.appspot.com
 0.0.0.0 image.ard.de # Trackingpixel und Browserdaten
 0.0.0.0 imagepory.themaven.net
 0.0.0.0 images.babyboomboomads.com
@@ -12708,6 +12727,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lessblog.pro
 0.0.0.0 letitbify.com
 0.0.0.0 level3ssl.optimicdn.com
+0.0.0.0 libs.aseads.com
 0.0.0.0 likemore-fe.go.mail.ru
 0.0.0.0 likemore-go.imgsmail.ru
 0.0.0.0 lindenlaugh.pro
@@ -12748,6 +12768,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lwlink3.linkwithin.com
 0.0.0.0 m.adup-tech.com
 0.0.0.0 m.amoad.com
+0.0.0.0 m.dr-datenschutz.de
 0.0.0.0 m.reachmax.cn
 0.0.0.0 m2d.m2.ai
 0.0.0.0 magnetic.t.domdex.com
@@ -12889,6 +12910,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pb.media01.eu
 0.0.0.0 pbcde.com
 0.0.0.0 pbjs.sskzlabs.com
+0.0.0.0 pebed.dm-event.net
 0.0.0.0 pendo.io
 0.0.0.0 performance.jc-affiliates.com
 0.0.0.0 pernod-ricard.com
@@ -13094,6 +13116,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s.optvn.com
 0.0.0.0 s.po.st
 0.0.0.0 s.pubmine.com
+0.0.0.0 s.seedtag.com
 0.0.0.0 s.visx.net
 0.0.0.0 s.yieldmo.com
 0.0.0.0 s.zkcdn.net
@@ -13120,6 +13143,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 secure-dcr.imrworldwide.com # Sessiontracking -> Facebook
 0.0.0.0 seg.ad.gt
 0.0.0.0 segmentnext-com.videoplayerhub.com
+0.0.0.0 segments-api-pro-yky7y5vtuq-ew.a.run.app
 0.0.0.0 segments.delidatax.net
 0.0.0.0 sendmepush.com
 0.0.0.0 serconmp.com
@@ -13131,6 +13155,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 servicer.idealmedia.io
 0.0.0.0 servicer.lentainform.com
 0.0.0.0 services.bilsyndication.com
+0.0.0.0 services.sunmedia.tv # Geodaten
 0.0.0.0 servicesforoffers.life
 0.0.0.0 sessions.bugsnag.com
 0.0.0.0 sftwrads.com
@@ -13618,6 +13643,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.popads.ne
 0.0.0.0 www.predictivdisplay.com
 0.0.0.0 www.profitacceleratorsystem.com
+0.0.0.0 www.prometeo-media-service.com
 0.0.0.0 www.protopie.io
 0.0.0.0 www.provenexpert.com
 0.0.0.0 www.ps7894.com
@@ -14631,62 +14657,62 @@ ff02::3 ip6-allhosts
 # 72.247.154.169
 # Angaben nicht komplett
 #0.0.0.0 steambroadcast.akamaized.net # Initialisiert den Broadcast ansich
-#0.0.0.0 video.steamstatic.com # Analytics
-#0.0.0.0 valve500.broadcast.steamcontent.com
-#0.0.0.0 valve501.broadcast.steamcontent.com
-#0.0.0.0 valve1600.broadcast.steamcontent.com
-#0.0.0.0 valve1601.broadcast.steamcontent.com
-#0.0.0.0 valve1600.chat.steamcontent.com
-#0.0.0.0 valve1601.chat.steamcontent.com
 #0.0.0.0 br1-fra1.broadcast.steamcontent.com
-#0.0.0.0 br2-fra1.broadcast.steamcontent.com
-#0.0.0.0 br3-fra1.broadcast.steamcontent.com
-#0.0.0.0 br4-fra1.broadcast.steamcontent.com
 #0.0.0.0 br1-lax1.broadcast.steamcontent.com
-#0.0.0.0 br2-lax1.broadcast.steamcontent.com
-#0.0.0.0 br3-lax1.broadcast.steamcontent.com
-#0.0.0.0 br4-lax1.broadcast.steamcontent.com
 #0.0.0.0 br1-lhr1.broadcast.steamcontent.com
-#0.0.0.0 br2-lhr1.broadcast.steamcontent.com
-#0.0.0.0 br3-lhr1.broadcast.steamcontent.com
-#0.0.0.0 br4-lhr1.broadcast.steamcontent.com
 #0.0.0.0 br1-ord1.broadcast.steamcontent.com
-#0.0.0.0 br2-ord1.broadcast.steamcontent.com
-#0.0.0.0 br3-ord1.broadcast.steamcontent.com
-#0.0.0.0 br4-ord1.broadcast.steamcontent.com
 #0.0.0.0 br1-tyo1.broadcast.steamcontent.com
+#0.0.0.0 br2-fra1.broadcast.steamcontent.com
+#0.0.0.0 br2-lax1.broadcast.steamcontent.com
+#0.0.0.0 br2-lhr1.broadcast.steamcontent.com
+#0.0.0.0 br2-ord1.broadcast.steamcontent.com
 #0.0.0.0 br2-tyo1.broadcast.steamcontent.com
+#0.0.0.0 br3-fra1.broadcast.steamcontent.com
+#0.0.0.0 br3-lax1.broadcast.steamcontent.com
+#0.0.0.0 br3-lhr1.broadcast.steamcontent.com
+#0.0.0.0 br3-ord1.broadcast.steamcontent.com
 #0.0.0.0 br3-tyo1.broadcast.steamcontent.com
+#0.0.0.0 br4-fra1.broadcast.steamcontent.com
+#0.0.0.0 br4-lax1.broadcast.steamcontent.com
+#0.0.0.0 br4-lhr1.broadcast.steamcontent.com
+#0.0.0.0 br4-ord1.broadcast.steamcontent.com
 #0.0.0.0 br4-tyo1.broadcast.steamcontent.com
 #0.0.0.0 repo-01-fra1.broadcast.steamcontent.com
-#0.0.0.0 repo-02-fra1.broadcast.steamcontent.com
-#0.0.0.0 repo-03-fra1.broadcast.steamcontent.com
-#0.0.0.0 repo-04-fra1.broadcast.steamcontent.com
 #0.0.0.0 repo-01-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-02-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-03-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-04-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-01-sto1.broadcast.steamcontent.com
-#0.0.0.0 repo-02-sto1.broadcast.steamcontent.com
-#0.0.0.0 repo-03-sto1.broadcast.steamcontent.com
-#0.0.0.0 repo-04-sto1.broadcast.steamcontent.com
 #0.0.0.0 repo-01-sea1.broadcast.steamcontent.com
+#0.0.0.0 repo-01-sto1.broadcast.steamcontent.com
+#0.0.0.0 repo-02-fra1.broadcast.steamcontent.com
+#0.0.0.0 repo-02-lhr1.broadcast.steamcontent.com
 #0.0.0.0 repo-02-sea1.broadcast.steamcontent.com
+#0.0.0.0 repo-02-sto1.broadcast.steamcontent.com
+#0.0.0.0 repo-03-fra1.broadcast.steamcontent.com
+#0.0.0.0 repo-03-lhr1.broadcast.steamcontent.com
 #0.0.0.0 repo-03-sea1.broadcast.steamcontent.com
+#0.0.0.0 repo-03-sto1.broadcast.steamcontent.com
+#0.0.0.0 repo-04-fra1.broadcast.steamcontent.com
+#0.0.0.0 repo-04-lhr1.broadcast.steamcontent.com
 #0.0.0.0 repo-04-sea1.broadcast.steamcontent.com
+#0.0.0.0 repo-04-sto1.broadcast.steamcontent.com
+#0.0.0.0 valve1600.broadcast.steamcontent.com
+#0.0.0.0 valve1600.chat.steamcontent.com
+#0.0.0.0 valve1601.broadcast.steamcontent.com
+#0.0.0.0 valve1601.chat.steamcontent.com
+#0.0.0.0 valve500.broadcast.steamcontent.com
+#0.0.0.0 valve501.broadcast.steamcontent.com
+#0.0.0.0 video.steamstatic.com # Analytics
 # Auszug der Streamingthumbnails
-#0.0.0.0 ingest-01-lhr1.broadcast.steamcontent.com
 #0.0.0.0 ingest-01-lax1.broadcast.steamcontent.com
-#0.0.0.0 ingest-02-lhr1.broadcast.steamcontent.com
+#0.0.0.0 ingest-01-lhr1.broadcast.steamcontent.com
 #0.0.0.0 ingest-02-fra1.broadcast.steamcontent.com
+#0.0.0.0 ingest-02-lhr1.broadcast.steamcontent.com
+#0.0.0.0 ingest-02-sea1.broadcast.steamcontent.com
 #0.0.0.0 ingest-02-sto1.broadcast.steamcontent.com
-#0.0.0.0 ingest-03-ord1.broadcast.steamcontent.com
 #0.0.0.0 ingest-03-fra1.broadcast.steamcontent.com
 #0.0.0.0 ingest-03-lax1.broadcast.steamcontent.com
+#0.0.0.0 ingest-03-ord1.broadcast.steamcontent.com
 #0.0.0.0 ingest-03-sto1.broadcast.steamcontent.com
 #0.0.0.0 ingest-04-lax1.broadcast.steamcontent.com
 #0.0.0.0 ingest-04-lhr1.broadcast.steamcontent.com
-#0.0.0.0 ingest-02-sea1.broadcast.steamcontent.com
 
 # Steam: CDN | Content Delivery Network
 # 2.21.228.105
@@ -14803,7 +14829,6 @@ ff02::3 ip6-allhosts
 # 155.133.248.29
 # 155.133.248.22
 # 155.133.248.19
-#0.0.0.0 cdn.highwinds.cs.steampowered.com # Depot Manifest
 #0.0.0.0 cache10-ams1.steamcontent.com
 #0.0.0.0 cache11-ams1.steamcontent.com
 #0.0.0.0 cache12-ams1.steamcontent.com
@@ -14815,6 +14840,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cache3-ams1.steamcontent.com
 #0.0.0.0 cache54-fra1.steamcontent.com
 #0.0.0.0 cache8-ams1.steamcontent.com
+#0.0.0.0 cdn.highwinds.cs.steampowered.com # Depot Manifest
 
 # Steam: Steamworks
 # 23.78.88.233
@@ -14845,6 +14871,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 video.steamstatic.com
 
 # Steam: IP Checks
+# Verpflichtende Callbacks, die allerdings blockiert werden können
 # Ip/s blockieren:
 # 2a01:bc80:a:100::b919:b602
 # 2a01:bc80:a:101::b919:b622
@@ -14862,118 +14889,33 @@ ff02::3 ip6-allhosts
 # 2a01:bc80:4:100::a2fe:c40b
 # 184.24.77.162
 # 184.24.77.156
-0.0.0.0 ipv6check-udp.steamcontent.com
 0.0.0.0 ipv6check-http.steamcontent.com
-0.0.0.0 udp.ipv6check.akadns.net
+0.0.0.0 ipv6check-udp.steamcontent.com
+0.0.0.0 eu.http.ipv6check.akadns.net
 0.0.0.0 eu.udp.ipv6check.akadns.net
 0.0.0.0 http.ipv6check.akadns.net
-0.0.0.0 eu.http.ipv6check.akadns.net
+0.0.0.0 udp.ipv6check.akadns.net
 
-# Steam: Multiplayer Serverlisten & Content
-# Valve Server 1 bis ca. 3000+
-#0.0.0.0 valve165.steamcontent.com
-#0.0.0.0 valve300.steamcontent.com
-#0.0.0.0 valve2507.steamcontent.com
-#0.0.0.0 valve501.steamcontent.com
-#0.0.0.0 valve500.steamcontent.com
-#0.0.0.0 valve514.steamcontent.com
-#0.0.0.0 valve506.steamcontent.com
-#0.0.0.0 valve507.steamcontent.com
+# Steam: Beispiele Multiplayer Serverlisten & Content
+# Valve Server reichen von 1 bis ca. 3000+
+#0.0.0.0 valve561.steamcontent.com
+#0.0.0.0 valve559.steamcontent.com
+#0.0.0.0 valve556.steamcontent.com
 #0.0.0.0 valve555.steamcontent.com
 #0.0.0.0 valve541.steamcontent.com
 #0.0.0.0 valve533.steamcontent.com
-#0.0.0.0 valve504.steamcontent.com
-#0.0.0.0 valve505.steamcontent.com
-#0.0.0.0 valve559.steamcontent.com
 #0.0.0.0 valve525.steamcontent.com
-#0.0.0.0 valve556.steamcontent.com
-#0.0.0.0 valve561.steamcontent.com
-#0.0.0.0 valve1601.steamcontent.com
-#0.0.0.0 valve518.steamcontent.com
-#0.0.0.0 valve560.steamcontent.com
-#0.0.0.0 valve566.steamcontent.com
-#0.0.0.0 valve520.steamcontent.com
-#0.0.0.0 valve554.steamcontent.com
-#0.0.0.0 valve558.steamcontent.com
-#0.0.0.0 valve531.steamcontent.com
-#0.0.0.0 valve552.steamcontent.com
-#0.0.0.0 valve562.steamcontent.com
-#0.0.0.0 valve523.steamcontent.com
-#0.0.0.0 valve535.steamcontent.com
-#0.0.0.0 valve567.steamcontent.com
-#0.0.0.0 valve536.steamcontent.com
-#0.0.0.0 valve548.steamcontent.com
-#0.0.0.0 valve532.steamcontent.com
-#0.0.0.0 valve542.steamcontent.com
-#0.0.0.0 valve959.steamcontent.com
-#0.0.0.0 valve539.steamcontent.com
-#0.0.0.0 valve563.steamcontent.com
-#0.0.0.0 valve565.steamcontent.com
-#0.0.0.0 valve564.steamcontent.com
-#0.0.0.0 valve543.steamcontent.com
-#0.0.0.0 valve526.steamcontent.com
-#0.0.0.0 valve537.steamcontent.com
-#0.0.0.0 valve557.steamcontent.com
-#0.0.0.0 valve515.steamcontent.com
-#0.0.0.0 valve547.steamcontent.com
-#0.0.0.0 valve519.steamcontent.com
-#0.0.0.0 valve516.steamcontent.com
-#0.0.0.0 valve521.steamcontent.com
-#0.0.0.0 valve540.steamcontent.com
-#0.0.0.0 valve502.steamcontent.com
+#0.0.0.0 valve514.steamcontent.com
+#0.0.0.0 valve507.steamcontent.com
+#0.0.0.0 valve506.steamcontent.com
+#0.0.0.0 valve505.steamcontent.com
+#0.0.0.0 valve504.steamcontent.com
+#0.0.0.0 valve501.steamcontent.com
+#0.0.0.0 valve500.steamcontent.com
+#0.0.0.0 valve300.steamcontent.com
+#0.0.0.0 valve2507.steamcontent.com
 #0.0.0.0 valve165.steamcontent.com
-#0.0.0.0 valve553.steamcontent.com
-#0.0.0.0 valve530.steamcontent.com
-#0.0.0.0 valve164.steamcontent.com
-#0.0.0.0 valve400.steamcontent.com
-#0.0.0.0 valve401.steamcontent.com
-#0.0.0.0 valve503.steamcontent.com
-#0.0.0.0 valve508.steamcontent.com
-#0.0.0.0 valve509.steamcontent.com
-#0.0.0.0 valve510.steamcontent.com
-#0.0.0.0 valve511.steamcontent.com
-#0.0.0.0 valve512.steamcontent.com
-#0.0.0.0 valve513.steamcontent.com
-#0.0.0.0 valve517.steamcontent.com
-#0.0.0.0 valve522.steamcontent.com
-#0.0.0.0 valve524.steamcontent.com
-#0.0.0.0 valve528.steamcontent.com
-#0.0.0.0 valve529.steamcontent.com
-#0.0.0.0 valve538.steamcontent.com
-#0.0.0.0 valve544.steamcontent.com
-#0.0.0.0 valve545.steamcontent.com
-#0.0.0.0 valve546.steamcontent.com
-#0.0.0.0 valve550.steamcontent.com
-#0.0.0.0 valve551.steamcontent.com
-#0.0.0.0 valve900.steamcontent.com
-#0.0.0.0 valve901.steamcontent.com
-#0.0.0.0 valve904.steamcontent.com
-#0.0.0.0 valve905.steamcontent.com
-#0.0.0.0 valve906.steamcontent.com
-#0.0.0.0 valve907.steamcontent.com
-#0.0.0.0 valve908.steamcontent.com
-#0.0.0.0 valve950.steamcontent.com
-#0.0.0.0 valve951.steamcontent.com
-#0.0.0.0 valve952.steamcontent.com
-#0.0.0.0 valve953.steamcontent.com
-#0.0.0.0 valve954.steamcontent.com
-#0.0.0.0 valve956.steamcontent.com
-#0.0.0.0 valve957.steamcontent.com
-#0.0.0.0 valve958.steamcontent.com
-#0.0.0.0 valve1603.steamcontent.com
-#0.0.0.0 valve1604.steamcontent.com
-#0.0.0.0 valve1605.steamcontent.com
-#0.0.0.0 valve1606.steamcontent.com
-#0.0.0.0 valve1607.steamcontent.com
-#0.0.0.0 valve1609.steamcontent.com
-#0.0.0.0 valve1610.steamcontent.com
-#0.0.0.0 valve1612.steamcontent.com
-#0.0.0.0 valve1613.steamcontent.com
-#0.0.0.0 valve1614.steamcontent.com
-#0.0.0.0 valve1615.steamcontent.com
-#0.0.0.0 valve1616.steamcontent.com
-#0.0.0.0 valve1617.steamcontent.com
-#0.0.0.0 valve1618.steamcontent.com
+#0.0.0.0 valve1601.steamcontent.com
 
 # Steam: Nutzergenerierte Inhalte
 # 2.20.254.145
