@@ -1621,7 +1621,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 reg.tipard.com
 
 # The Game Creators
-# 208.64.200.105, 104.26.1.229, 104.28.16.127, 172.67.196.103
+# GameGuru
+# 208.64.200.105
+# 104.26.1.229
+# 104.28.16.127
+# 172.67.196.103
 # s. Steam: General Directory Server
 # Steamversion: Erweiterungen nur zu haben mit einer Kontenverknüpfung und Anschluss an die eigene Plattform
 #0.0.0.0 www.thegamecreators.com
@@ -18403,6 +18407,10 @@ ff02::3 ip6-allhosts
 # Pixel Junk™ Shooter Ultimate
 # s. Steam: General Directory Server
 
+# Draw Distance
+# Vampire: The Masquerade - Coteries of New York
+# Aktive UnityCrashHandler64.exe
+
 # DreamGate
 # Steampunk Tower 2
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -20184,16 +20192,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
-# Cultist Simulator
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
-
-# HackyZack
+# Forager
 # s. Steam: General Directory Server
 
 # Staxel
 0.0.0.0 log.playstaxel.com # Api v1 - Formular Logfiles, Hardwareinformationen
 0.0.0.0 auth.playstaxel.com # Api v3 - Steamlogin für Multiplayer evtl. benötigt
+
+# The Occupation
+# Ip/s blockieren:
+# 52.86.67.197
+# 54.84.122.125
+# 52.202.234.202
+# 52.55.140.235
+# 52.54.6.123
+# 54.86.61.101
+# IP Auflistung nicht vollständig!
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 ec2-52-55-140-235.compute-1.amazonaws.com
 
 # Hydro Games
 # Dungeon Kingdom: Sign of the Moon
@@ -20458,6 +20475,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 xblcxplatqos-jae-9-18-2-0.cloudapp.net # JapanEast
 #0.0.0.0 xblcxplatqos-ause-9-18-2-0.cloudapp.net # AustraliaSoutheast
 #0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com # AustraliaEast
+
+# Jadon Barnes
+# Aktive UnityCrashHandler64.exe
 
 # Jason Baird
 # Dealey Plaza Paintball
@@ -20753,6 +20773,10 @@ ff02::3 ip6-allhosts
 # The Shrouded Isle
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# Klabater
+# Apocalipsis
+# s. Steam: General Directory Server
 
 # Klei Entertainment
 # Don't Starve
@@ -23748,6 +23772,10 @@ ff02::3 ip6-allhosts
 # Where is my Brain!?
 0.0.0.0 datarouter.ol.epicgames.com
 
+# Spaceboy Games
+# HackyZack
+# s. Steam: General Directory Server
+
 # Spawn Point OSK
 # Army of Squirrels
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -24799,6 +24827,10 @@ ff02::3 ip6-allhosts
 # s. Steam: General Directory Server
 0.0.0.0 www.google-analytics.com
 
+# Trichotomy
+# Dog Sled Saga
+# 129.6.13.35
+
 # Trion Worlds
 # Trove
 # Facebook Anbindung für Impressionen
@@ -25447,6 +25479,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
+# The Shapeshifting Detective
+# Ip/s blockieren:
+# 35.190.88.234
+# 35.241.26.53
+# 35.186.194.186
+# 35.241.52.229
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
 # Walter Machado
 # UBERMOSH Vol.5
 # s. Steam: General Directory Server
@@ -25608,6 +25654,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 s.thebrighttag.com
 0.0.0.0 r.dlx.addthis.com
 0.0.0.0 d.turn.com
+
+# Weather Factory
+# Cultist Simulator
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # WeirdBeard
 # Tricky Towers
@@ -26135,6 +26197,22 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 208.64.203.140
 0.0.0.0 crash.steampowered.com
+
+# Yak & Co
+# Agent A: A puzzle in disguise
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Yangyang Mobile
 # The Letter - Horror Visual Novel
