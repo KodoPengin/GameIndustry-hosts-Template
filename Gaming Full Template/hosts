@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 20.09.2020
+# Änderungsdatum: 21.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -827,6 +827,7 @@ ff02::3 ip6-allhosts
 # De/aktivieren nach Bedarf
 #0.0.0.0 cloud-3.steamusercontent.com
 #0.0.0.0 steamcloud-eu.storage.googleapis.com
+# 20.238.118.132
 # 216.58.201.80
 # 64.233.163.128
 # 172.217.23.80
@@ -960,6 +961,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 eu.udp.ipv6check.akadns.net
 0.0.0.0 http.ipv6check.akadns.net
 0.0.0.0 udp.ipv6check.akadns.net
+
+# Steam: IP Selector
+# 205.196.6.172
+# 205.196.6.137
+# 205.196.6.139
+# 205.196.6.141
+# 205.196.6.138
+#0.0.0.0 lancache.steamcontent.com
+0.0.0.0 origin-ip-selector.steampipe.steamcontent.akadns.net
 
 # Steam: Beispiele Multiplayer Serverlisten & Content
 # Valve Server reichen von 1 bis ca. 3000+
@@ -1991,6 +2001,22 @@ ff02::3 ip6-allhosts
 # Almost Human Games
 # Legend of Grimrock II
 # s. Steam: General Directory Server
+
+# Alper Gonen
+# Lost Daughter
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Amanita Design
 # Samorost 3
@@ -4964,6 +4990,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
+# First Game Studio
+# Bird Watcher
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
 # Flamebait Games
 # Passpartout: The Starving Artist
 0.0.0.0 flamebaitgames.com # Werbung/Zufallsbilder
@@ -5122,12 +5164,14 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Viki Spotter: Camping
 # Ip/s blockieren:
@@ -5135,12 +5179,14 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Viki Spotter: Megapolis
 # Ip/s blockieren:
@@ -5148,12 +5194,14 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Viki Spotter: Professions
 # Ip/s blockieren:
@@ -5161,12 +5209,14 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Viki Spotter: School
 # Ip/s blockieren:
@@ -5174,12 +5224,14 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Viki Spotter: Shopping
 # Ip/s blockieren:
@@ -5187,12 +5239,14 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Viki Spotter: Space Mission
 # Ip/s blockieren:
@@ -5200,12 +5254,14 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Viki Spotter: Sports
 # Ip/s blockieren:
@@ -5213,12 +5269,14 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Viki Spotter: The Farm
 # Ip/s blockieren:
@@ -5226,12 +5284,14 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Viki Spotter: Undersea
 # Ip/s blockieren:
@@ -5239,12 +5299,14 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Viki Spotter: Zoo
 # Ip/s blockieren:
@@ -5252,12 +5314,14 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Z Runaway
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -5756,7 +5820,7 @@ ff02::3 ip6-allhosts
 # 52.239.214.164
 # 52.213.44.117
 # 40.71.177.34
-0.0.0.0 blob.am5prdstr14a.store.core.windows.net
+0.0.0.0 blob.am5prdstr14a.store.core.windows.net # Steamcloud
 0.0.0.0 blob.blaprdstr08a.store.core.windows.net
 0.0.0.0 www.mothergunship.com.herokudns.com
 0.0.0.0 waws-prod-blu-089.cloudapp.net
@@ -9500,7 +9564,13 @@ ff02::3 ip6-allhosts
 
 # Shiro Games
 # Northgard
+# Einzelspielermodus
+# 5.39.74.98
 0.0.0.0 shirogames.com
+0.0.0.0 mongo.shirogames.com
+# Mehrspielermodus
+# 37.187.27.57
+#0.0.0.0 master.shirogames.com
 
 # Shiver Games
 # Lucius 3
@@ -10233,6 +10303,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 bid.contextweb.com
 0.0.0.0 static.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
+
+# Tate Multimedia
+# Kao the Kangaroo: Round 2
+# s. Steam: General Directory Server
 
 # Team17 Digital Ltd
 # Alien Breed: Impact
@@ -12186,6 +12260,26 @@ ff02::3 ip6-allhosts
 # Zen Studios, Ltd.
 # Operencia: The Stolen Sun
 0.0.0.0 wt.zenstudios.com
+
+# Zero Gravity
+# Hellion
+# Ip/s blockieren:
+# 35.227.252.150
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 www.playhellion.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 data-optout-service.uca.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 150.252.227.35.bc.googleusercontent.com
 
 # Zodiac Interactive
 # AngerForce: Reloaded
