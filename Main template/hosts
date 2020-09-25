@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 21.09.2020
+# Änderungsdatum: 25.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -147,6 +147,7 @@ ff02::3 ip6-allhosts
 # 3.95.91.130
 0.0.0.0 cctypekit.adobe.io
 # Allgemein
+0.0.0.0 geo.adobe.com # Geodaten Webseite
 0.0.0.0 oobe.adobe.com # Weiterleitung
 0.0.0.0 geo2.adobe.com
 0.0.0.0 assets.adobedtm.com
@@ -5224,7 +5225,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 go.pardot.com
 
 # Parsely.com | Web Analyse
-# DNS Blockade empfohlen
 0.0.0.0 srv-2018-03-18-02.pixel.parsely.com
 0.0.0.0 static.parsely.com
 0.0.0.0 api.parsely.com
@@ -5235,6 +5235,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.parsely.com
 
 # PayPal
+# 23.210.252.100
 0.0.0.0 ak1s.abmr.net # Akamai, Paypal Zusammenhang - Ergibt Fehler bei Aufruf
 0.0.0.0 t.myvisualiq.net # Paypal Activity Pixel
 0.0.0.0 b.stats.paypal.com
@@ -6778,14 +6779,26 @@ ff02::3 ip6-allhosts
 # CounterStrike CS:GO
 # Scam, Abzocke und Gambleseiten für den beliebten Shooter CS:GO der Valve Corporation
 
-0.0.0.0 csgo-skins.com
-0.0.0.0 csgofast.com
-0.0.0.0 csgoroll.com
 0.0.0.0 cloudcsgo.com
 0.0.0.0 counterluck.com
+0.0.0.0 cs.twojanagroda.pl
 0.0.0.0 csbetgo.com
 0.0.0.0 csbets.net
 0.0.0.0 csbetz.com
+0.0.0.0 csgo-dream.com
+0.0.0.0 csgo-fight.com
+0.0.0.0 csgo-gambler.com
+0.0.0.0 csgo-gg-wp.ru
+0.0.0.0 csgo-house.com
+0.0.0.0 csgo-lobby.com
+0.0.0.0 csgo-lottery.com
+0.0.0.0 csgo-maniac.com
+0.0.0.0 csgo-saloon.com
+0.0.0.0 csgo-skins.com
+0.0.0.0 csgo-skins.pl
+0.0.0.0 csgo.guru
+0.0.0.0 csgo.one
+0.0.0.0 csgo1.com
 0.0.0.0 csgoaimpot.com
 0.0.0.0 csgobar.com
 0.0.0.0 csgobazar.com
@@ -6794,31 +6807,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 csgoblaze.com
 0.0.0.0 csgocardgames.com
 0.0.0.0 csgoclubs.com
-0.0.0.0 csgo1.com
 0.0.0.0 csgodealer.com
 0.0.0.0 csgodicegame.com
 0.0.0.0 csgodices.com
 0.0.0.0 csgodouble.com
-0.0.0.0 csgo-dream.com
 0.0.0.0 csgoegg.com
 0.0.0.0 csgoezinv.com
-0.0.0.0 csgo-fight.com
+0.0.0.0 csgofast.com
 0.0.0.0 csgofresh.com
 0.0.0.0 csgogamble.com
-0.0.0.0 csgo-gambler.com
-0.0.0.0 csgo-gg-wp.ru
-0.0.0.0 csgo.guru
-0.0.0.0 csgo-house.com
 0.0.0.0 csgohub.gg
 0.0.0.0 csgojackpot.com
 0.0.0.0 csgoking.de
-0.0.0.0 csgo-lobby.com
 0.0.0.0 csgoloot.com
-0.0.0.0 csgo-lottery.com
 0.0.0.0 csgolucky.com
 0.0.0.0 csgoluckywheel.com
 0.0.0.0 csgomars.com
-0.0.0.0 csgo.one
 0.0.0.0 csgoparty.com
 0.0.0.0 csgoplant.com
 0.0.0.0 csgopot.win
@@ -6828,14 +6832,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 csgori.ch
 0.0.0.0 csgorich.com
 0.0.0.0 csgorivalry.com
+0.0.0.0 csgoroll.com
 0.0.0.0 csgorulet.com
 0.0.0.0 csgosafe.com
-0.0.0.0 csgo-saloon.com
 0.0.0.0 csgoselector.ru
 0.0.0.0 csgoshuffle.com
 0.0.0.0 csgoskindraft.com
 0.0.0.0 csgoskinraffle.com
-0.0.0.0 csgo-skins.pl
 0.0.0.0 csgotraders.net
 0.0.0.0 csgotransaction.com
 0.0.0.0 csgoutpost.com
@@ -6843,30 +6846,30 @@ ff02::3 ip6-allhosts
 0.0.0.0 csgoweb.com
 0.0.0.0 csgowonder.com
 0.0.0.0 csjackpot.pl
+0.0.0.0 csladders.com
 0.0.0.0 cslots.ru
-0.0.0.0 cs.twojanagroda.pl
 0.0.0.0 cyrexjackpot.com
-0.0.0.0 egb.com
 0.0.0.0 egamingbets.com
-0.0.0.0 keypacks.com
+0.0.0.0 egb.com
 0.0.0.0 eqraffle.com
 0.0.0.0 ezskinz.org
 0.0.0.0 good-gabe.com
-0.0.0.0 kickback.com
 0.0.0.0 item.exchange
 0.0.0.0 itemgrad.com
+0.0.0.0 keypacks.com
+0.0.0.0 kickback.com
 0.0.0.0 knifeskin.com
+0.0.0.0 ladderslogin.info
 0.0.0.0 nitrogensports.eu
 0.0.0.0 opskin-drop.com
 0.0.0.0 pinnaclesports.com
 0.0.0.0 randomskinz.com
-0.0.0.0 csgo-maniac.com
 0.0.0.0 skinhell.com
 0.0.0.0 skinomat.com
 0.0.0.0 skinprofit.com
-0.0.0.0 skinsbazaar.com
 0.0.0.0 skins-hunter.com
 0.0.0.0 skins1v1.com
+0.0.0.0 skinsbazaar.com
 0.0.0.0 sociusgaming.com
 0.0.0.0 steamanalyst.com
 0.0.0.0 stonefire.io
@@ -7627,6 +7630,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 delivery.selfcampaign.com
 0.0.0.0 cmp-cdn.golem.de # Cookie Nagscreen
 0.0.0.0 d379964aymex2x.cloudfront.net # SVM
+#0.0.0.0 account.golem.de # /ping?callback=jQuery224017893889545709618_1600964961500&_=1600964961501
 
 # Gutefrage.de
 0.0.0.0 happyunicorns.gutefrage.net
@@ -8452,6 +8456,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 kdex097.kanade-ad.net
 0.0.0.0 link.86uk.com
 0.0.0.0 linkback.contentsfeed.com
+0.0.0.0 log-netgame.dmm.com
 0.0.0.0 log.adplex.co.kr
 0.0.0.0 log.f-tra.com
 0.0.0.0 log.nordot.jp
@@ -9801,7 +9806,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 store-images.s-microsoft.com # Bilder 1
 #0.0.0.0 store-images.microsoft.com # Bilder 2
 0.0.0.0 universalstore.streaming.mediaservices.windows.net
-0.0.0.0 uhf.microsoft.com
+0.0.0.0 uhf.microsoft.com # Logs
 #0.0.0.0 statics-neu.onestore.ms # CSS & Javascript
 #0.0.0.0 assets.onestore.ms # nochmal CSS
 #0.0.0.0 auth.gfx.ms # Eingabemaske Login
@@ -9828,6 +9833,7 @@ ff02::3 ip6-allhosts
 # Svchost.exe
 # 40.90.137.122
 # 40.90.22.187
+# 52.114.132.91
 0.0.0.0 array104-prod.do.dsp.mp.microsoft.com
 0.0.0.0 array612-prod.do.dsp.mp.microsoft.com
 0.0.0.0 array613-prod.do.dsp.mp.microsoft.com
@@ -9880,8 +9886,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 secure.aadcdn.microsoftonline-p.com
 0.0.0.0 config.teams.microsoft.com # Betriebssystem/Version, ClientID, Accounttyp
 
+# Noch mehr Telemetrie
+0.0.0.0 oca.microsoft.com
+0.0.0.0 oca.telemetry.microsoft.com # Analyse von Onlineabstürzen
+0.0.0.0 kmwatsonc.telemetry.microsoft.com
+0.0.0.0 v10c.events.data.microsoft.com
+0.0.0.0 v10.vortex-win.data.microsoft.com
+
 # Windows 10 Update | ebenfalls svchost.exe
-# Windows 10 Updates blockieren? Kein Problem! Mit diesem Block dieser Adressen ist es möglich
+# Kann verwendet werden um Windows Updates blockieren
 # 52.137.103.96
 # 172.227.179.19
 # 104.124.11.40
@@ -9929,7 +9942,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 settingsfd-geo.trafficmanager.net
 
 # Verschiedenes Microsoft
-# Ip/s blockieren:
+# 40.90.22.191
 # 23.196.246.142
 # 104.44.88.28
 # 52.157.234.37
@@ -9954,6 +9967,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 array807-prod.do.dsp.mp.microsoft.com
 0.0.0.0 ars.smartscreen.microsoft.com
 0.0.0.0 asimov-win.settings.data.microsoft.com.akadns.net
+0.0.0.0 bay-main-ips.b.lg.prod.aadmsa.trafficmanager.net
 0.0.0.0 bingads.microsoft.com
 0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 c1.microsoft.com
@@ -9976,10 +9990,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 geo.settings-win.data.microsoft.com.akadns.net
 0.0.0.0 geo.vortex.data.microsoft.com.akadns.net
 0.0.0.0 kv801-prod.do.dsp.mp.microsoft.com
+0.0.0.0 markets.books.microsoft.com
 0.0.0.0 mbi.kntk.de
 0.0.0.0 mediaredirect.microsoft.com
 0.0.0.0 mscrl.microsoft.com
-0.0.0.0 oca.telemetry.microsoft.com # Analyse von Onlineabstürzen
 0.0.0.0 odc-common-us-meta.onedrive.akadns.net
 0.0.0.0 offerservicefallback.blob.core.windows.net
 0.0.0.0 onecollector.cloudapp.aria.akadns.net
@@ -10000,18 +10014,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.vortex-win.data.microsoft.com
 0.0.0.0 v10-win.vortex.data.microsoft.com.akadns.net
 0.0.0.0 v10.events.data.microsoft.com.aria.akadns.net
-0.0.0.0 v10.vortex-win.data.microsoft.com
 0.0.0.0 v20.events.data.microsoft.com.aria.akadns.net
 0.0.0.0 vortex-win-sandbox.data.microsoft.com
 0.0.0.0 vortex.data.microsoft.com # OneDrive für Windows
+0.0.0.0 wdcpalt.microsoft.com
 0.0.0.0 web.vortex.data.microsoft.com
 0.0.0.0 web.vortex.data.msn.com
 0.0.0.0 wes.df.telemetry.microsoft.com
 0.0.0.0 winphone.wns.windows.com
 0.0.0.0 wns.notify.windows.com.akadns.net
 0.0.0.0 www.bingads.microsoft.com
-0.0.0.0 wdcpalt.microsoft.com
-0.0.0.0 markets.books.microsoft.com
 
 # Visual Studio
 # Microsoft.ServiceHub.Controller.exe, vs_installershell.exe
@@ -10034,6 +10046,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 watson.ppe.telemetry.microsoft.com
 0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
 0.0.0.0 survey.watson.microsoft.com
+0.0.0.0 umwatsonc.telemetry.microsoft.com
 # Ip/s blockieren:
 # 40.69.153.67
 # 40.79.85.125
@@ -10045,12 +10058,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 umwatsonc.events.data.microsoft.com
 0.0.0.0 modern.watson.data.microsoft.com.akadns.net
 0.0.0.0 umwatson.trafficmanager.net
+0.0.0.0 ceuswatcab01.blob.core.windows.net
+0.0.0.0 ceuswatcab02.blob.core.windows.net
+0.0.0.0 eaus2watcab01.blob.core.windows.net
+0.0.0.0 eaus2watcab02.blob.core.windows.net
+0.0.0.0 weus2watcab01.blob.core.windows.net
+0.0.0.0 weus2watcab02.blob.core.windows.net
 
 # Webseite Microsoft z.b. Technet, Blog usw.
 0.0.0.0 az452423.vo.msecnd.net # scripts/jsll-4.2.1.js | beinhaltet Demdex, Doubleclick, Google, Adobe uvm.
 #0.0.0.0 az725175.vo.msecnd.net
 0.0.0.0 ds-aksb-a.akamaihd.net # Measurescript
-#0.0.0.0 c.s-microsoft.com # Verweist auf UHF | beinhaltet zudem Bilder zwecks Webseitendarstellung
+#0.0.0.0 c.s-microsoft.com # Verweist auf UHF Logserver und beinhaltet zudem Bilder zwecks Webseitendarstellung
 0.0.0.0 uhf.microsoft.com # Logfiles
 #0.0.0.0 mem.gfx.ms # Telemetrieevent & Anmeldebutton auf Microsoftseiten
 0.0.0.0 vlscppe.microsoft.com
@@ -10417,6 +10436,9 @@ ff02::3 ip6-allhosts
 # Microsoft EDGE
 #0.0.0.0 www.msn.com
 0.0.0.0 iecvlist.microsoft.com
+0.0.0.0 browser.events.data.msn.com # Collector
+0.0.0.0 alchemist.go2cloud.org # Anzeigen & Affiliate Linking
+#0.0.0.0 static-entertainment-neu-s-msn-com.akamaized.net # Trackingpixel, Schriften, CSS, Javascript
 # Ip/s blockieren:
 # 204.79.197.200
 0.0.0.0 any.edge.bing.com
@@ -10424,8 +10446,10 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 40.77.18.167
 # 104.214.150.122
+# 51.140.157.153
 0.0.0.0 skypedataprdcolcus13.cloudapp.net
 0.0.0.0 skypedataprdcoljpw00.cloudapp.net
+0.0.0.0 skypedataprdcoluks00.cloudapp.net
 #0.0.0.0 g.msn.com
 #0.0.0.0 static-spartan-neu-s-msn-com.akamaized.net # auf den Static Adressen befinden sich die CSS und JS Scripts von MSN
 #0.0.0.0 static-spartan-eas-s-msn-com.akamaized.net
@@ -10464,6 +10488,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mozilla-europe.org
 
 # Mozilla, Firefox .com .org und .net
+# Mozilla Firefox
 # Balrog
 # Ip/s blockieren:
 # 13.225.73.48
@@ -10492,12 +10517,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 thunderbird.innocraft.cloud # Piwik
 # Tracking Schutz
 0.0.0.0 tracking-protection.cdn.mozilla.net
-# getPocket unter Webseiten nochmal mit eigenem Eintrag
+# getPocket
 0.0.0.0 img-getpocket.cdn.mozilla.net
 0.0.0.0 getpocket.cdn.mozilla.net
 # Standortbestimmung Browser und Mail
 0.0.0.0 location.services.mozilla.com
-# Thunderbird
+# Mozilla Thunderbird
+# 104.18.165.34
+# 34.96.108.242
 #0.0.0.0 ocsp.int-x3.letsencrypt.org
 #0.0.0.0 ocsp.comodoca.com
 0.0.0.0 start.thunderbird.net
@@ -10507,7 +10534,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.services.mozilla.com
 #0.0.0.0 download-installer.cdn.mozilla.net # Download Installationsdatei
 0.0.0.0 blocklist.addons.mozilla.org
-0.0.0.0 incoming-telemetry.thunderbird.net
+0.0.0.0 incoming-telemetry.thunderbird.net # Opt-Out mal anders
+0.0.0.0 www.mozilla.org.cdn.cloudflare.net
+0.0.0.0 prod.balrog.prod.cloudops.mozgcp.net
 # Ip/s blockieren:
 # 34.213.175.3
 0.0.0.0 crash-reports.mozilla.com # GeräteID, Addoninfos, Bioshersteller, Breakpaddaten, Zeistempel, Minidumpdatei, Speicherdaten uvm
@@ -10536,14 +10565,30 @@ ff02::3 ip6-allhosts
 0.0.0.0 autopush.prod.mozaws.net
 0.0.0.0 classify-client.services.mozilla.com
 0.0.0.0 mitmdetection.services.mozilla.com
-0.0.0.0 accounts.firefox.com
 0.0.0.0 content-signature-2.cdn.mozilla.net
+0.0.0.0 prod-tp.sumo.mozit.cloud
+# Anmeldung über Amazon AWS
+# 34.210.168.158
+# 13.224.103.47
+# 52.88.60.222
+# 52.40.168.255
+# https://accounts.firefox.com/metrics
+0.0.0.0 accounts.firefox.com # Anmeldung verknüpft mit Telemetrie, Gerätedaten, einmaligen NutzerId's, Affiliatedaten
+0.0.0.0 accounts-static.cdn.mozilla.net # Grafiken, CSS/Scripts
+0.0.0.0 api.accounts.firefox.com # Status
+0.0.0.0 oauth.accounts.firefox.com
 # Addons
 #0.0.0.0 addons.mozilla.org
 #0.0.0.0 addons-amo.cdn.mozilla.net
 #0.0.0.0 addons.cdn.mozilla.net
 0.0.0.0 snippets.cdn.mozilla.net
 #0.0.0.0 addons-discovery.cdn.mozilla.net # Formatierung und Javascripts
+# Firefox Monitor | Protection Dashboard
+# 35.244.248.2
+# 13.224.103.106
+# Affiliatelinks, Google Analytics
+0.0.0.0 monitor.firefox.com # ?entrypoint=protection_report_monitor&utm_source=about-protections
+0.0.0.0 monitor.cdn.mozilla.net # Bilder
 # Pingsender.exe
 # Ip/s blockieren:
 # 34.217.184.213
@@ -10699,6 +10744,7 @@ ff02::3 ip6-allhosts
 # Geblockte Weiterleitungen, Affiliates und mehr
 
 0.0.0.0 12007250.pix-cdn.org
+0.0.0.0 3npsgv2sx5.com
 0.0.0.0 994ot5rkpch2.com
 0.0.0.0 a.bestcontentnetwork.top
 0.0.0.0 a.bestcontentplan.top
@@ -10795,9 +10841,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 review.traffic-gate.com
 0.0.0.0 s.opoxv.com
 0.0.0.0 sb7h2nwbe.trafficmagnates.com
+0.0.0.0 shit-around.com
 0.0.0.0 static.luyten-98c.com
 0.0.0.0 t.riverhit.com
 0.0.0.0 t.simply-hentai.com
+0.0.0.0 teartee.com
 0.0.0.0 trk.blmte.com
 0.0.0.0 ts.clickadilla.com
 0.0.0.0 userputraf.traffic-gate.com
@@ -12417,6 +12465,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 digidip.net
 0.0.0.0 distoryrussion.info
 0.0.0.0 dm.hybrid.ai
+0.0.0.0 dmbe.durationmedia.net
 0.0.0.0 dmp-westeurope.trafficmanager.net
 0.0.0.0 dmp.brand-display.com
 0.0.0.0 dmx.districtm.ca
@@ -13320,6 +13369,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tag.adaraanalytics.com
 0.0.0.0 tag.aumago.com
 0.0.0.0 tag.contextweb.com
+0.0.0.0 tag.durationmedia.net
 0.0.0.0 tag.evanalitic.com
 0.0.0.0 tag.followdigits.com
 0.0.0.0 tag.leadplace.fr
@@ -14660,14 +14710,18 @@ ff02::3 ip6-allhosts
 # 184.86.38.254
 # 172.227.184.238
 # 104.90.132.221
+# 104.108.177.8
+# 2.23.53.12
+# Block nicht empfohlen, aber möglich.
 # Metriken unter /IClientMetricsService/ReportClientError/v1
-#0.0.0.0 api.steampowered.com # Globale Erfolge, Anmeldetoken, DRM, Metriken
+#0.0.0.0 api.steampowered.com # Globale Erfolge, Anmeldetoken, DRM, Metriken, Kommentare im Forum und Profil, Aktivitäten
 
 # Steam: Beispiele für Broadcasting
 # 95.101.72.216
 # 162.254.196.86
 # 162.254.193.42
 # 72.247.154.169
+# 2.21.228.155
 # Angaben nicht komplett
 #0.0.0.0 steambroadcast.akamaized.net # Initialisiert den Broadcast ansich
 #0.0.0.0 br1-fra1.broadcast.steamcontent.com
@@ -14728,13 +14782,15 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ingest-04-lhr1.broadcast.steamcontent.com
 
 # Steam: CDN | Content Delivery Network
+# Block nicht empfohlen, aber möglich. Wirkt sich auf zahlreiche Drittanbiterseiten aus, die allesamt auf Steam verlinken
 # 2.21.228.105
 # 190.98.152.34
 # 2.21.228.17
-#0.0.0.0 steamcdn-a.akamaihd.net # Grafiken Erfolge
+#0.0.0.0 steamcdn-a.akamaihd.net # Grafiken Erfolge, Produktgrafiken, Headerbilder, Vorschaubilder usw.
 
 # Steam: Chat
 #0.0.0.0 bc1-tuk1.chat.steamcontent.com
+# 104.108.78.51
 # 2.17.182.211
 # 23.78.65.15
 # 104.108.9.73
@@ -14768,6 +14824,7 @@ ff02::3 ip6-allhosts
 # 2.21.228.120
 # 2.21.228.73
 # 190.98.152.18
+# 2.22.61.75
 # Beinhalten Daten/Id's zu Spieltitel und Dlcs, Produktgrafiken, Sprache, Publisher, Seitenkategorien, Schlagworte sowie ManifestId's für Downloads
 #0.0.0.0 clientconfig.akamai.steamstatic.com # Ablage für *.tar.gz
 
@@ -14775,6 +14832,7 @@ ff02::3 ip6-allhosts
 # De/aktivieren nach Bedarf
 #0.0.0.0 cloud-3.steamusercontent.com
 #0.0.0.0 steamcloud-eu.storage.googleapis.com
+# 142.250.74.208
 # 20.238.118.132
 # 216.58.201.80
 # 64.233.163.128
@@ -14823,8 +14881,10 @@ ff02::3 ip6-allhosts
 
 # Steam: Controller Konfiguration
 # 95.101.142.155
+# 104.104.182.95
 #0.0.0.0 media.steampowered.com
 #0.0.0.0 steam.apac.qtlglb.com # Depotmanifest /depot/241100/manifest/6711344606286301481/5
+#0.0.0.0 controller.steampowered.com
 
 # Steam: Crashlogs | Telemetrie
 # Ip/s blockieren:
@@ -14942,8 +15002,10 @@ ff02::3 ip6-allhosts
 
 # Steam: Nutzergenerierte Inhalte
 # 2.20.254.145
-# 104.115.82.97
+# 104.115.82.975
+# 172.217.23.129
 #0.0.0.0 steamuserimages-a.akamaihd.net # hochgeladene Bilder wie Artworks, Screenshots, verlinkte Chatgrafiken
+#0.0.0.0 photos-ugc.l.googleusercontent.com
 
 # Steam: Steam.exe
 # 162.254.197.106
@@ -14991,6 +15053,21 @@ ff02::3 ip6-allhosts
 
 # Steam: Unkategorisiert
 0.0.0.0 steampipe.akamaized.net
+
+# Steam: Weitere Drittanbieter
+# Livepipe.net - Trackingcookies, Werbung und Analytics eingebunden über Javascript
+# 104.115.82.97
+#0.0.0.0 steamcommunity-a.akamaihd.net # public/javascript/livepipe.js?v=.sk9HEaDHE9C5
+# Google, LLC - Youtube, inkl. Logging, Audiences, Doubleclick und Cookies
+# Ip/s blockieren:
+# 172.217.16.150
+# 172.217.22.110
+#0.0.0.0 i.ytimg.com
+0.0.0.0 youtube-ui.l.google.com
+0.0.0.0 www.google-analytics.com
+# Paypal Tracking - Aktiv im Warenkorb, auch ohne eingegebene Paypaldaten
+#0.0.0.0 www.paypal.com # Logger, TagManager, Trackingcookies
+0.0.0.0 t.paypal.com # Trackingpixel
 
 #
 # Kopierschutz
@@ -15398,6 +15475,7 @@ ff02::3 ip6-allhosts
 # 1C Company
 # Ancestors Legacy
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Fall of Light | Aktualisiert: 15.03.2019
 # 35.241.26.53
@@ -15642,6 +15720,7 @@ ff02::3 ip6-allhosts
 # 18.233.90.22
 # 52.4.127.66
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 ec2-18-233-90-22.compute-1.amazonaws.com
 
 # Control
@@ -15701,6 +15780,7 @@ ff02::3 ip6-allhosts
 # Act 3 Games, LLC
 # The Fidelio Incident
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Activision
 # Call of Duty: Black OPS III
@@ -15998,6 +16078,7 @@ ff02::3 ip6-allhosts
 # Angry Demon Studio
 # Unforgiving - A nothern Hymn
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Angry games, RuVN
 # Neighboring Islands
@@ -16153,6 +16234,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 52.200.123.101
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Ali Asfand
 # Rex
@@ -16162,6 +16244,7 @@ ff02::3 ip6-allhosts
 # >observer_
 0.0.0.0 gameguide3.aspyr.com
 0.0.0.0 datarouter.ol.epicgames.com # Analytics
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 aspyr.com
 
 # InnerSpace
@@ -16262,6 +16345,7 @@ ff02::3 ip6-allhosts
 # Rock of Ages II: Bigger & Boulder™
 0.0.0.0 aceteam.cl
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Rollers of the Realm | Update 24.08.2018
 0.0.0.0 api.gameanalytics.com
@@ -16412,27 +16496,9 @@ ff02::3 ip6-allhosts
 # 107.23.37.44
 # 34.233.184.163
 # 34.232.247.41
-# 2a01:bc80:7:100::9b85:f80b
-# 2a01:bc80:4:100::a2fe:c40b
-# 2a01:bc80:4:101::a2fe:c42b
-# 2a01:bc80:5:105::9b85:fa4b
-# 2a01:bc80:5:105::9b85:fa4c
-# 2a01:bc80:5:106::9b85:fa6c
-# 2a01:bc80:5:106::9b85:fa6b
-# 2a01:bc80:1:103::a2fe:c60d
-# 2a01:bc80:1:104::a2fe:c64d
-# 2a01:bc80:7:100::9b85:f80c
-# 2a01:bc80:a:101::b919:b622
-# 2a01:bc80:a:100::b919:b602
 # s. Eintrag Steam: IP Checks
 0.0.0.0 datarouter.ol.epicgames.com
-0.0.0.0 ipv6check-udp.steamcontent.com
-0.0.0.0 ipv6check-http.steamcontent.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
-0.0.0.0 udp.ipv6check.akadns.net
-0.0.0.0 eu.udp.ipv6check.akadns.net
-0.0.0.0 http.ipv6check.akadns.net
-0.0.0.0 eu.http.ipv6check.akadns.net
 
 # Beware Planet Earth
 0.0.0.0 www.lightmare-studio.com
@@ -16472,10 +16538,7 @@ ff02::3 ip6-allhosts
 # 35.186.241.36
 # 216.58.212.163
 # 172.217.18.163
-# 2a00:1450:4001:802::2003
-# 2a00:1450:4001:806::2003
-# 2a00:1450:4001:819::2003
-# 2a00:1450:4001:81c::2003
+# s. Eintrag Steam: IP Checks
 0.0.0.0 cosmos.channel.or.jp
 0.0.0.0 test.cosmos.channel.or.jp
 0.0.0.0 36.241.186.35.bc.googleusercontent.com
@@ -16494,9 +16557,11 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 52.203.187.25
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Little Nightmares
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # 塊魂 | Katamari Damacy Reroll
 # Ip/s blockieren:
@@ -16515,6 +16580,7 @@ ff02::3 ip6-allhosts
 # MY HERO ONE'S JUSTICE
 0.0.0.0 mha-oj.channel.or.jp # Sprache, Plattform, UserID, SteamID
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Naruto to boruto: Shinobi Striker
 # 92.123.64.75
@@ -16529,6 +16595,7 @@ ff02::3 ip6-allhosts
 # New Gundam Breaker
 # s. Rubrik Kopierschutz / AntiCheat
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # SD GUNDAM G GENERATION CROSS RAYS
 # Ip/s blockieren:
@@ -16540,11 +16607,12 @@ ff02::3 ip6-allhosts
 
 # Soulcalibur VI
 # s. Rubrik Kopierschutz / AntiCheat
-#0.0.0.0 srv01.codefusion.technology
-0.0.0.0 storage101.iad3.clouddrive.com
-#0.0.0.0 status.thawte.com
-#0.0.0.0 cdp.thawte.com
-#0.0.0.0 ocsp.digicert.com
+# s. Eintrag Steam: IP Checks
+# Onlinezwang mit verknüpfter Telemetrie/Netzwerkcheck
+# Hier helfen nur der Steam Offlinemodus oder Cracks
+# 35.186.241.36
+0.0.0.0 cosmos.channel.or.jp
+0.0.0.0 36.241.186.35.bc.googleusercontent.com
 
 # Sword Art Online: Fatal Bullet
 # SAOFB_Launcher.exe
@@ -16561,8 +16629,22 @@ ff02::3 ip6-allhosts
 
 # Tekken VII
 # s. Rubrik Kopierschutz / AntiCheat
+# 52.0.151.162
+# 54.88.211.84
+# 52.1.96.184
+# 35.170.111.251
+# 54.197.154.200
+# 34.237.117.11
+# 52.17.173.247
 # 151.101.18.133
-0.0.0.0 prod.globalsign.map.fastly.net
+# 35.186.241.36
+# s. Eintrag Steam: IP Checks
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 cosmos.channel.or.jp
+0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 ec2-34-237-117-11.compute-1.amazonaws.com
+0.0.0.0 ec2-52-1-96-184.compute-1.amazonaws.com
+0.0.0.0 36.241.186.35.bc.googleusercontent.com
 
 # Bacq Stellan
 # Blue Snake Adventures
@@ -16971,12 +17053,15 @@ ff02::3 ip6-allhosts
 # Neoballs
 # s. Steam: General Directory Server
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Neoballs 2
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Neosticks
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # BKOM Studios
 # Little Lords of Twilight
@@ -17098,6 +17183,7 @@ ff02::3 ip6-allhosts
 # Citadel: Forged with Fire
 0.0.0.0 blueislestudios.com
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Blue Sunset Games
 # Car Demolition Clicker
@@ -17326,6 +17412,7 @@ ff02::3 ip6-allhosts
 # Carlos Coronado
 # Infernium
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 # Optional mit Twitchanbindung
 0.0.0.0 irc.chat.twitch.tv # Chat
 0.0.0.0 twitchapps.com # OAuth
@@ -17515,6 +17602,21 @@ ff02::3 ip6-allhosts
 #0.0.0.0 coaguco.com # Stats
 
 # Codemasters Software Company Limited
+# F1® 2019
+# 52.49.61.71
+# 52.49.218.253
+# 205.185.216.42
+# 205.185.216.42
+# 52.56.247.33
+# 94.75.196.116
+# 94.75.196.235
+# s. Rubrik Kopierschutz / AntiCheat
+#0.0.0.0 ecdn.codemasters.com
+#0.0.0.0 prod.egonet.codemasters.com
+#0.0.0.0 f1s.codemasters.com
+0.0.0.0 f1-stats.codemasters.com
+
+# Grid
 # 94.75.196.235
 #0.0.0.0 prod.egonet.codemasters.com
 
@@ -17873,6 +17975,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 52.203.126.30
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 datarouter-svc-prod06-public-49221551.us-east-1.elb.amazonaws.com
 
 # Daedalic Entertainment
@@ -17969,6 +18072,7 @@ ff02::3 ip6-allhosts
 
 # Long Journey Home
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Shadow Tactics: Blades of the Shogun
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -18064,6 +18168,7 @@ ff02::3 ip6-allhosts
 # Wartile
 0.0.0.0 www.google-analytics.com
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Deep Silver
 # Agents of Mayhem
@@ -18229,6 +18334,7 @@ ff02::3 ip6-allhosts
 # s. Easy Anti-Cheat
 # 176.57.138.2
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Serious Sam’s Bogus Detour
 # Ip/s blockieren:
@@ -18668,6 +18774,7 @@ ff02::3 ip6-allhosts
 # Robo Encryption
 # 18.235.16.110
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Enemby Games
 # Death Game+
@@ -18690,6 +18797,7 @@ ff02::3 ip6-allhosts
 # Unreal Engine
 0.0.0.0 epicleaderboard.com # Statistiken/Leaderboards
 0.0.0.0 datarouter.ol.epicgames.com # Analytics
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 etsource.epicgames.com
 0.0.0.0 et2.epicgames.com # Zeug :P
 
@@ -19016,6 +19124,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 cerberus-eu-lb-6707ab7fcc744d90.elb.eu-west-1.amazonaws.com
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Blood Bowl: Chaos Edition
 # s. Steam: General Directory Server
@@ -19026,6 +19135,7 @@ ff02::3 ip6-allhosts
 
 # Call of Cthulhu®
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Cities XXL
 # s. Steam: General Directory Server
@@ -19079,6 +19189,7 @@ ff02::3 ip6-allhosts
 
 # Vampyr
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Food dream factory
 # 美食梦工厂：研发美食开心制作糖果模拟经营养成
@@ -19370,6 +19481,7 @@ ff02::3 ip6-allhosts
 
 # Hollow
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Masky
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -19386,6 +19498,7 @@ ff02::3 ip6-allhosts
 
 # Rift Coaster HD Remastered VR
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Sparkle II Evo
 0.0.0.0 www.mateuszskutnik.com
@@ -19494,6 +19607,7 @@ ff02::3 ip6-allhosts
 # 54.83.136.94
 # s. Eintrag Steam: IP Checks
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Games Starter
 # Flat Kingdom Paper’s Cut Edition
@@ -19654,9 +19768,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Redeemer
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Zombie Night Terror | Update 04.08.2018
 # s. Steam: General Directory Server
@@ -19817,6 +19933,7 @@ ff02::3 ip6-allhosts
 # 54.72.196.97
 #0.0.0.0 steam.f13-services.illfonic.com
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Layers of Fear 2
 # Datenerfassung über Steamerrorreporter64.exe zu jedem Spielstart
@@ -19977,6 +20094,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 wowa.no-ip.info
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Marble Duel
 # Beinhaltet Network Connection Status Indicator, NCSI - Siehe Hinweise Webseite
@@ -20080,6 +20198,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 mt1p.www.vivox.com # 74.201.103.215
 0.0.0.0 484.playfabapi.com # Login -> Geräteinfo, PlayfabID, Neu angelegt ja/nein, Token, Accountyp und Tracking der Spielerposition/Level/Spielmodus/Schwierigkeitsgrad usw
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Holyday Studios
 # Firestone Idle RPG
@@ -20193,7 +20312,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Forager
+# 162.125.66.1
+# 2620:100:6022:1::a27d:4201
 # s. Steam: General Directory Server
+# Dropbox für im Spiel integrierte Fankunst
+0.0.0.0 www.dropbox.com
+0.0.0.0 www.dropbox-dns.com
 
 # Staxel
 0.0.0.0 log.playstaxel.com # Api v1 - Formular Logfiles, Hardwareinformationen
@@ -20208,6 +20332,7 @@ ff02::3 ip6-allhosts
 # 52.54.6.123
 # 54.86.61.101
 # IP Auflistung nicht vollständig!
+# s. Eintrag Steam: IP Checks
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 ec2-52-55-140-235.compute-1.amazonaws.com
@@ -20238,6 +20363,7 @@ ff02::3 ip6-allhosts
 # HypeTrain Digital
 # Desolate
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Hyper Hippo Games
 # AdVenture Capitalist
@@ -20273,6 +20399,7 @@ ff02::3 ip6-allhosts
 
 # Cyberdimension Neptunia: 4 Goddesses Online | 四女神オンライン CYBER DIMENSION NEPTUNE | 四女神ONLINE 幻次元遊戲戰機少女
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # DATE A LIVE: Rio Reincarnation
 # s. Steam: General Directory Server
@@ -20289,6 +20416,7 @@ ff02::3 ip6-allhosts
 # IMGN.PRO
 # Seven: The Days Long Gone
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Impulse Game Studios, LLC.
 # 123 Slaughter Me Street 2
@@ -20331,6 +20459,7 @@ ff02::3 ip6-allhosts
 # Interactive Stone
 # Gray Dawn
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # ILLUMICORP
 # Color Cingdom
@@ -20355,6 +20484,7 @@ ff02::3 ip6-allhosts
 # IndieGala
 # Downward
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Io-Interactive A/S
 # HITMAN™
@@ -20389,6 +20519,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 34.203.172.183
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # ION LANDS
 # Phoning Home
@@ -20450,6 +20581,7 @@ ff02::3 ip6-allhosts
 # The Bard's Tale IV: Barrows Deep
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Wasteland 3
 # Ip/s blockieren:
@@ -20710,15 +20842,35 @@ ff02::3 ip6-allhosts
 0.0.0.0 zor.livefyre.com
 
 # Kasedo Games
-# Warhammer 40,000: Mechanicus
+# Project Highrise
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 216.58.212.176
+# 216.58.206.16
+# 142.250.74.206
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 highrise-static.storage.googleapis.com # Logging
+0.0.0.0 www.google-analytics.com
 
 # Rise of Industry
 0.0.0.0 dapperpenguinstudios.com # Ingamenews
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com # Analytics
 0.0.0.0 mailchi.mp # Newsletterversand
+
+# Warhammer 40,000: Mechanicus
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Kazakov Oleg
 # Putrefaction 2: Rumble in the hometown
@@ -20857,11 +21009,14 @@ ff02::3 ip6-allhosts
 
 # KOEI TECMO GAMES CO., LTD.
 # デッド オア アライブ エクストリーム ヴィーナス バケーション | DEAD OR ALIVE Xtreme Venus Vacation
+# 54.64.247.206
+# 54.64.247.206
+# 52.68.151.118
+# 163.171.129.13
+# 163.171.208.219
 # 52.192.238.18
 # 54.65.41.145
 # 157.185.185.184
-# 163.171.208.219
-# 3.114.90.216
 #0.0.0.0 game.doaxvv.com
 #0.0.0.0 api01.doaxvv.com
 #0.0.0.0 api.doaxvv.com
@@ -21158,6 +21313,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 172.68.195.1 # Cloudflare auch bei Solstice Chronicles: MIA aktiv
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # MAGES. Inc.
 # BULLET SOUL INFINITE BURST
@@ -21430,6 +21586,7 @@ ff02::3 ip6-allhosts
 # Gravel
 #0.0.0.0 online.milestone.it # Für Singleplayer nicht benötigt
 0.0.0.0 datarouter.ol.epicgames.com # Tracking der Spielzeit, Zeitstempel, Spielname, ProjektID, IP, Betriebssystem, Versionsnummer usw
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # MotoGP™15
 # Launcher & Spiel
@@ -21575,9 +21732,11 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 34.194.74.77
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Treasure Hunter Simulator
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Mpact Games, LLC.
 # Hanako: Honor & Blade
@@ -21918,6 +22077,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 34.193.236.205
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Nuke Nine
 # Vagante
@@ -21964,6 +22124,7 @@ ff02::3 ip6-allhosts
 # OnFire Games
 # Ultimate Spinner Simulator - Unstress Yourself
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Onyx Lute
 # Glass Masquerade
@@ -22277,6 +22438,7 @@ ff02::3 ip6-allhosts
 # Parallax Labs
 # Despoiler
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 api.gameanalytics.com
 
 # Paul Schneider
@@ -22545,6 +22707,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 34.236.93.59
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Poysky Productions
 # Regions Of Ruin
@@ -22568,6 +22731,7 @@ ff02::3 ip6-allhosts
 # 18.233.90.22
 # 52.1.90.14
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Songbird Symphony
 # Ip/s blockieren:
@@ -22585,6 +22749,7 @@ ff02::3 ip6-allhosts
 # Primary Games & BiggameIncubator
 # Never Again
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Primitive Studio
 # Insects runner
@@ -22661,6 +22826,7 @@ ff02::3 ip6-allhosts
 # QuickSave
 # Hollow Steps
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Quiet River
 # Zup! Zero
@@ -22821,6 +22987,7 @@ ff02::3 ip6-allhosts
 # RedRuins Softworks
 # Breathedge
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Red Thread Games
 # Dreamfall Chapters
@@ -22838,6 +23005,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 vk.com # Ingameanbindung an das russische Facebook als Spiel-Element
 #0.0.0.0 pp.userapi.com # Avatare
 0.0.0.0 datarouter.ol.epicgames.com # Analytics
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Restory Studio
 # The Initial
@@ -22886,6 +23054,7 @@ ff02::3 ip6-allhosts
 # Der erste Tracker/Analytics ist unter chessapi.auzurwebsites.net/api/v2/analytics
 #0.0.0.0 chessapi.azurewebsites.net
 0.0.0.0 datarouter.ol.epicgames.com # noch einmal Hardware/System Analytics
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 #0.0.0.0 images-eds.xboxlive.com # Grafiken
 #0.0.0.0 cdn-image-e0d67c509fb203858ebcb2fe3f88c2aa.baas.nintendo.com # noch einmal Grafiken
 
@@ -22945,7 +23114,8 @@ ff02::3 ip6-allhosts
 
 # ROCKFISH Games
 # EVERSPACE™
-0.0.0.0 datarouter.ol.epicgames.com # Hier wird die u.a. Spielzeit/Betriebssystem aufgezeichnet
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Rockstar Games
 # Grand Theft Auto IV
@@ -23080,6 +23250,7 @@ ff02::3 ip6-allhosts
 
 # Postal Redux
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Sad Panda Studios
 # Crush Crush
@@ -23176,6 +23347,7 @@ ff02::3 ip6-allhosts
 # SEGA
 # Bayonetta
 0.0.0.0 garry.sgaas.net
+0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 # s. Steam: General Directory Server
 
 # Binary Domain
@@ -23219,14 +23391,17 @@ ff02::3 ip6-allhosts
 
 # Endless Space® 2
 0.0.0.0 garry.sgaas.net
+0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 0.0.0.0 track-api.gamesight.io
 0.0.0.0 api.games2gether.com
 
 # Motorsport Manager
 0.0.0.0 garry.sgaas.net
+0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 
 # Shenmue I & II
 0.0.0.0 garry.sgaas.net
+0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 
 # Shining Resonance Refrain
 # s. Rubrik Kopierschutz / AntiCheat
@@ -23365,6 +23540,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 hull.sgaas.net
 0.0.0.0 garry.sgaas.net
+0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 0.0.0.0 apikeys.civiccomputing.com
 0.0.0.0 03c9acbb-4d65-4544-bc3d-082aa04cc5b4.totalwar.com
 0.0.0.0 launcher-analytics.totalwar.com
@@ -23436,10 +23612,12 @@ ff02::3 ip6-allhosts
 # Valkyria Chronicles 4
 # s. Rubrik Kopierschutz / AntiCheat
 0.0.0.0 garry.sgaas.net
+0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 
 # Yakuza 0
 # s. Rubrik Kopierschutz / AntiCheat
 0.0.0.0 garry.sgaas.net
+0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 
 # Yakuza Kiwami
 # Ip/s blockieren:
@@ -23621,6 +23799,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 www.matrixgames.com # Werbung/CSS Formatierung des Launchers
 0.0.0.0 www.google-analytics.com # Tracker1
 0.0.0.0 datarouter.ol.epicgames.com # Tracker2
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 #0.0.0.0 empiresapart.net # Ingamenews/Grafiken/CSS Formatierung
 
 # Warhammer 40,000: Armageddon
@@ -23771,6 +23950,7 @@ ff02::3 ip6-allhosts
 # SoundStage13
 # Where is my Brain!?
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Spaceboy Games
 # HackyZack
@@ -23983,10 +24163,27 @@ ff02::3 ip6-allhosts
 
 # The Turing Test
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 datarouter-svc-prod06-public-49221551.us-east-1.elb.amazonaws.com
 
 # Thief IV
 #0.0.0.0 t4.os.eidos.com
+
+# Square Enix & Forever Entertainment S.A.
+# Fear Effect Sedna
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Starbreeze Publishing AB
 # Payday II
@@ -24123,6 +24320,7 @@ ff02::3 ip6-allhosts
 # Loading
 # s. Steam: General Directory Server
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # StudioMDHR Entertainment Inc.
 # Cuphead
@@ -24172,6 +24370,7 @@ ff02::3 ip6-allhosts
 # Sunside Inc
 # Abducted
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Super Icon, Ltd
 # Gates of Hell
@@ -24286,6 +24485,7 @@ ff02::3 ip6-allhosts
 
 # Aven Colony
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Blasphemous
 # Ip/s blockieren:
@@ -24316,6 +24516,7 @@ ff02::3 ip6-allhosts
 
 # PLANET ALPHA
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # The Escapists
 # s. Steam: General Directory Server
@@ -24396,9 +24597,11 @@ ff02::3 ip6-allhosts
 # Tero Lunkka
 # Thirsty Bubble
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Zomby Soldier
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Texel Raptor
 # Parkitect
@@ -24522,6 +24725,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 www.gstatic.com # Wird für Google Captchas auf Webseiten benötigt
 # Usertracking
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Full Spectrum Warrior
 0.0.0.0 fswpc.available.gamespy.com
@@ -24582,6 +24786,7 @@ ff02::3 ip6-allhosts
 # Hello Neighbor
 0.0.0.0 www.google-analytics.com
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Hellpoint
 # Ip/s blockieren:
@@ -24594,6 +24799,7 @@ ff02::3 ip6-allhosts
 
 # Outpost Zero
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Party Hard Tycoon
 0.0.0.0 api.gameanalytics.com
@@ -24728,6 +24934,11 @@ ff02::3 ip6-allhosts
 # Toka Loka Games
 # Goo Saga - HD Edition
 0.0.0.0 services.tokaloka.com
+
+# Tola Ay
+# Remnants of Naezith
+# 142.93.175.219
+#0.0.0.0 ron.naezith.com
 
 # Tomas Daugela
 # Bob The Cube
@@ -25116,6 +25327,7 @@ ff02::3 ip6-allhosts
 # UMBRESS
 # Retro Sphere
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # United Soft Media
 # Catan Universe
@@ -26060,8 +26272,11 @@ ff02::3 ip6-allhosts
 
 # Killer Instinct
 # 52.176.155.74
-#0.0.0.0 ki-int-wallet.msgamestudios.com # "Ultratek Server/ Onlinemodus Schattenlords"
-#0.0.0.0 commerce-prod-na.cloudapp.net
+# 23.32.116.98
+# 2.17.123.50
+#0.0.0.0 ki-int-wallet.msgamestudios.com # Ultratek Server/ Onlinemodus Schattenlords
+#0.0.0.0 commerce-prod-na.cloudapp.net # Ultratek Server/ Onlinemodus Schattenlords
+#0.0.0.0 steamusercontent-a.akamaihd.net # Ladder Information
 0.0.0.0 messaging.lws.msgamestudios.com
 #0.0.0.0 api.steampowered.com
 0.0.0.0 uhf.microsoft.com
@@ -26246,6 +26461,7 @@ ff02::3 ip6-allhosts
 # Home Sweet Home
 # Überträgt die IP, Betriebssystem, Programmversion/name, Spiezeit/dauer
 0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Zachtronics
 # Infinifactory
