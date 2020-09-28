@@ -21609,9 +21609,9 @@ ff02::3 ip6-allhosts
 # 47.91.24.239
 # 47.252.29.148
 # 8.209.112.253
-0.0.0.0 oseurodispatch.yuanshen.com
-0.0.0.0 osasiadispatch.yuanshen.com
-0.0.0.0 osusadispatch.yuanshen.com
+#0.0.0.0 oseurodispatch.yuanshen.com
+#0.0.0.0 osasiadispatch.yuanshen.com
+#0.0.0.0 osusadispatch.yuanshen.com
 #0.0.0.0 dispatchosglobal.yuanshen.com # Regionsliste & Subchannel
 #0.0.0.0 genshin.mihoyo.com # Videos
 #0.0.0.0 account.mihoyo.com # Script für folgende Facebookloginadresse
