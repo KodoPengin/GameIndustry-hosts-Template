@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 25.09.2020
+# Änderungsdatum: 28.09.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1027,8 +1027,12 @@ ff02::3 ip6-allhosts
 
 # Malwarebytes
 # Malwarebytes Anti Malware
+# 52.88.97.83
+# 52.27.157.175
+# 54.148.253.4
 0.0.0.0 stats.mbamupdates.com
-0.0.0.0 telemetry.malwarebytes.com
+0.0.0.0 telemetry.malwarebytes.com # mbamservice.exe
+0.0.0.0 elb-telemetry-prod-external-1332413525.us-west-2.elb.amazonaws.com
 0.0.0.0 hubble.mb-cosmos.com
 0.0.0.0 genesis.malwarebytes.com # Isp, IP und Geodatenerfassung
 0.0.0.0 iris.mwbsys.com
@@ -2500,6 +2504,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 personalization-prod1-ext-alb-1258852474.us-east-1.elb.amazonaws.com
 0.0.0.0 prod-balan-fdzj1d4q5tzo-2064467324.us-east-1.elb.amazonaws.com
 0.0.0.0 prod-dub-beacon-1484770602.eu-west-1.elb.amazonaws.com
+0.0.0.0 prod.log.shortbread.aws.dev
+0.0.0.0 prod.tools.shortbread.aws.dev
 0.0.0.0 qpsftq5jqg.execute-api.us-east-1.amazonaws.com # Southernliving.com, Allrecipes.com
 0.0.0.0 revcontent-p0.s3.amazonaws.com
 0.0.0.0 rlmgws-data.s3-accelerate.amazonaws.com
@@ -10567,16 +10573,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 mitmdetection.services.mozilla.com
 0.0.0.0 content-signature-2.cdn.mozilla.net
 0.0.0.0 prod-tp.sumo.mozit.cloud
-# Anmeldung über Amazon AWS
+# Anmeldung im Firefox und Thunderbird über Amazon AWS
+# Telemetrie während der Anmeldung - https://accounts.firefox.com/metrics
 # 34.210.168.158
 # 13.224.103.47
 # 52.88.60.222
 # 52.40.168.255
-# https://accounts.firefox.com/metrics
-0.0.0.0 accounts.firefox.com # Anmeldung verknüpft mit Telemetrie, Gerätedaten, einmaligen NutzerId's, Affiliatedaten
-0.0.0.0 accounts-static.cdn.mozilla.net # Grafiken, CSS/Scripts
-0.0.0.0 api.accounts.firefox.com # Status
-0.0.0.0 oauth.accounts.firefox.com
+# Block nach Bedarf
+#0.0.0.0 accounts.firefox.com # Anmeldung verknüpft mit Telemetrie, Gerätedaten, einmaligen NutzerId's, Affiliatedaten
+#0.0.0.0 accounts-static.cdn.mozilla.net # Grafiken, CSS/Scripts
+#0.0.0.0 api.accounts.firefox.com # Statusabfrage
+#0.0.0.0 oauth.accounts.firefox.com
 # Addons
 #0.0.0.0 addons.mozilla.org
 #0.0.0.0 addons-amo.cdn.mozilla.net
@@ -12483,6 +12490,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dsfgp.admenhost.com
 0.0.0.0 dskyseconomic.info
 0.0.0.0 dummy7.sslcs.cdngc.net
+0.0.0.0 duskiness.pl
 0.0.0.0 dup.baidustatic.com
 0.0.0.0 dy.adserve.io
 0.0.0.0 dynamicadx.com
@@ -14722,8 +14730,9 @@ ff02::3 ip6-allhosts
 # 162.254.193.42
 # 72.247.154.169
 # 2.21.228.155
+# 155.133.248.16
 # Angaben nicht komplett
-#0.0.0.0 steambroadcast.akamaized.net # Initialisiert den Broadcast ansich
+#0.0.0.0 steambroadcast.akamaized.net
 #0.0.0.0 br1-fra1.broadcast.steamcontent.com
 #0.0.0.0 br1-lax1.broadcast.steamcontent.com
 #0.0.0.0 br1-lhr1.broadcast.steamcontent.com
@@ -14780,6 +14789,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ingest-03-sto1.broadcast.steamcontent.com
 #0.0.0.0 ingest-04-lax1.broadcast.steamcontent.com
 #0.0.0.0 ingest-04-lhr1.broadcast.steamcontent.com
+# Beispiel für Breodcasting über Contentserver
+# https://cache5-ams1.steamcontent.com/broadcast/76561199005420507/7883999028056715455/segment/video/4/*.*
 
 # Steam: CDN | Content Delivery Network
 # Block nicht empfohlen, aber möglich. Wirkt sich auf zahlreiche Drittanbiterseiten aus, die allesamt auf Steam verlinken
@@ -14869,7 +14880,7 @@ ff02::3 ip6-allhosts
 # 104.18.25.217
 #0.0.0.0 community.cloudflare.steamstatic.com # Sounds, CSS Dateien, Javascript, Emoticons, Icons, Grafiken Sammelkarten
 #0.0.0.0 cdn.cloudflare.steamstatic.com # Grafiken der Bibliothek - Erfolge, Teaser für Bilder und Filmchen
-#0.0.0.0 store.cloudflare.steamstatic.com # Javascripts, Schriften, Webseitengrafiken
+#0.0.0.0 store.cloudflare.steamstatic.com # Javascript, CSS, Schriften, Webseitengrafiken
 
 # Steam: Community
 # 104.115.82.107
@@ -14916,9 +14927,13 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cache8-ams1.steamcontent.com
 #0.0.0.0 cdn.highwinds.cs.steampowered.com # Depot Manifest
 
-# Steam: Steamworks
-# 23.78.88.233
-#0.0.0.0 partner.steamgames.com
+# Steam: Experimentelles Blockieren von Telemetrie, Spyware und Bloatware - Nicht anwenderfreundlich
+#0.0.0.0 cdn.cloudflare.steamstatic.com
+#0.0.0.0 steamcdn-a.akamaihd.net
+#0.0.0.0 api.steampowered.com
+#0.0.0.0 steambroadcast.akamaized.net
+#0.0.0.0 video.steamstatic.com
+#0.0.0.0 steamuserimages-a.akamaihd.net
 
 # Steam: Game Overlay UI
 # Ip/s blockieren:
@@ -15036,6 +15051,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 pagead46.l.doubleclick.net
 0.0.0.0 static-doubleclick-net.l.google.com
 0.0.0.0 stats.l.doubleclick.net
+
+# Steam: Steamworks
+# 23.78.88.233
+#0.0.0.0 partner.steamgames.com
 
 # Steam: Store
 # 23.216.77.136
@@ -19390,6 +19409,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 
 # frecle ApS
+# Youropa
 # Ip/s blockieren:
 # 54.91.145.71
 0.0.0.0 api.gameanalytics.com
@@ -21562,6 +21582,64 @@ ff02::3 ip6-allhosts
 # Flashcookie wird gesetzt, Block und Whitlists von Domänen
 0.0.0.0 account.y8.com # Flashcookie wird hier gesetzt
 # https://playtomic.y8.com/v1?hash=IrgendeinWert verweist auf Dropbox | Spielstart, ProgrammID
+
+# Mihoyo Co. Ltd.
+# Genshin
+# Logs und Logupload
+# 47.242.50.47
+0.0.0.0 log-upload-os.mihoyo.com
+0.0.0.0 overseauspider.yuanshen.com
+# Unity Analytics
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+# Zeug
+# 47.246.43.225
+# 47.246.46.224
+# 47.91.24.239
+# 47.252.29.148
+# 8.209.112.253
+0.0.0.0 oseurodispatch.yuanshen.com
+0.0.0.0 osasiadispatch.yuanshen.com
+0.0.0.0 osusadispatch.yuanshen.com
+#0.0.0.0 dispatchosglobal.yuanshen.com # Regionsliste & Subchannel
+#0.0.0.0 genshin.mihoyo.com # Videos
+#0.0.0.0 account.mihoyo.com # Script für folgende Facebookloginadresse
+0.0.0.0 connect.facebook.net
+# Login
+# 47.56.192.192
+#0.0.0.0 hk4e-sdk-os.mihoyo.com
+# Config & API
+# 47.246.43.203
+# 47.246.43.209
+# 47.246.46.225
+#0.0.0.0 sdk-os-static.mihoyo.com
+#0.0.0.0 sdk-os-static.mihoyo.com.a.lahuashanbx.com
+#0.0.0.0 api-static.mihoyo.com
+# Launcher, Ankündigungen, Grafiken
+# Anmerkung - Schriften und Audio z.b. von 127.0.0.1:1221/font/zh-cn.ttf
+# 47.246.43.226
+# 47.246.43.224
+# 47.246.43.230
+# 47.246.43.203
+# 47.246.43.223
+#0.0.0.0 webstatic-sea.mihoyo.com
+# Downloads z.B. Patch, DirectX & Spieldateien
+# 163.171.130.136
+# 157.185.165.19
+# 163.171.140.203
+#0.0.0.0 autopatchhk.yuanshen.com
+#0.0.0.0 autopatchhk.yuanshen.com.wsdvs.com
 
 # Mikhail Melnikov
 # Cubic
