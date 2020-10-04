@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 28.09.2020
+# Änderungsdatum: 04.10.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -408,6 +408,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qos3.ol.epicgames.com
 0.0.0.0 qos4.ol.epicgames.com
 #0.0.0.0 songbird.cardinalcommerce.com
+0.0.0.0 merchantpool1.epicgames.com # Angeschlossen an Microsoft Dynamics 365 Fraud Protection
 # Bei neueren Titeln ist die API mit Telemetrie und Onlinezwang verknüpft
 # Diesselbe Adresse als WSS für Heartbeat Telemetrie - Mehr Info unter dem Firmeneintrag zu Epic Games, Inc.
 # 34.225.36.75
@@ -921,7 +922,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cache8-ams1.steamcontent.com
 #0.0.0.0 cdn.highwinds.cs.steampowered.com # Depot Manifest
 
-# Steam: Experimentelles Blockieren von Telemetrie, Spyware und Bloatware - Nicht anwenderfreundlich
+# Steam: Experimentelles Blockieren von Telemetrie, Spyware, Bloatware und Kommentaren - Nicht anwenderfreundlich
 #0.0.0.0 cdn.cloudflare.steamstatic.com
 #0.0.0.0 steamcdn-a.akamaihd.net
 #0.0.0.0 api.steampowered.com
@@ -1996,6 +1997,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
+# Aleksandr Golovkin
+# Territory Idle
+# s. Steam: General Directory Server
+
 # Alexey Glinskiy
 # DeepFear
 # Ip/s blockieren:
@@ -2293,6 +2298,36 @@ ff02::3 ip6-allhosts
 0.0.0.0 gg3-assets-stage.aspyr.com
 #0.0.0.0 hello.myfonts.net
 0.0.0.0 support.aspyr.com
+
+# Lightmatter
+# 44.238.95.17
+# 44.238.95.159
+# 52.218.176.208
+# 152.199.21.2
+# 108.177.127.113
+# 52.218.216.106
+# 52.218.236.11
+# 108.177.127.102
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 2a00:1450:4013:c07::65
+0.0.0.0 gameguide3.aspyr.com
+#0.0.0.0 s3-us-west-2.amazonaws.com
+0.0.0.0 production-prolog.s3.amazonaws.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 hello.myfonts.net
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 cs977204322.wpc.edgecastcdn.net
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Next Up Hero
 # Ip/s blockieren:
@@ -3015,22 +3050,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 # s. Steam: General Directory Server
 
-# Bigben Interactive
-# Sherlock Holmes: The Devil's Daughter
-# s. Rubrik Kopierschutz / AntiCheat
-0.0.0.0 mc.frogwares.com
-# + Facebook, Twitter, Google Analytics
-0.0.0.0 frogwares.com
-
-# WRC 7 FIA World Rally Championship
-# s. Rubrik Kopierschutz / AntiCheat
-# 104.154.187.60
-# 172.217.22.16
-# 52.26.54.44
-0.0.0.0 wrc7-server.kylotonn.com # Mehrspielerserver
-0.0.0.0 storage-cloud.googleapis.com
-0.0.0.0 api.amplitude.com
-
 # Bitlock Studio
 # Protect Me
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -3052,15 +3071,28 @@ ff02::3 ip6-allhosts
 # Bitten Toast Games Inc.
 # Garden Paws
 # Ip/s blockieren:
-# 35.186.194.186
 # 35.241.26.53
-# 52.174.162.167
-# 50.22.246.2
-# 208.43.72.30
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com
+# 92.223.82.17
+# 40.114.175.181
+# 5.188.110.5
+# 5.188.239.6
+# 92.38.183.13
+# 146.185.221.6
+# 92.38.154.56
+#0.0.0.0 ns.exitgames.com
+#0.0.0.0 gcash013.exitgames.com
+#0.0.0.0 vss-ns2019-eu.westeurope.cloudapp.azure.com
 
 # BJGAMEIND
 # Neoballs
@@ -3381,7 +3413,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 d21s7hqn3pmzza.cloudfront.net
 
 # Resident Evil: Operation Raccoon City
-# 104.83.120.32, 80.239.237.18
+# 104.83.120.32
+# 80.239.237.18
 #0.0.0.0 go.microsoft.com
 #0.0.0.0 e11290.dspg.akamaiedge.net
 #0.0.0.0 a104-83-120-32.deploy.static.akamaitechnologies.com
@@ -3395,6 +3428,11 @@ ff02::3 ip6-allhosts
 # 104.46.227.235
 # 104.18.20.226
 0.0.0.0 game2.residentevil.net # IP, Spielfortschritt u.a.
+
+# バイオハザード RE:3 | Resident Evil 3 Remake 2020
+# 216.239.36.54
+# 2001:4860:4802:36::36
+0.0.0.0 us-central1-escape-analysis.cloudfunctions.net
 
 # スト5 | Street Fighter 5
 # Ingame Update
@@ -3573,7 +3611,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 stats.unity3d.com
-0.0.0.0 ns.exitgames.com
+#0.0.0.0 ns.exitgames.com
 0.0.0.0 cleversan.com
 
 # Claudio Norori und Antonio Vargas
@@ -3942,6 +3980,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 208-64.200.105.steampowered.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
+# Narcos: Rise of the Cartels
+# s. Eintrag Steam: IP Checks
 
 # Serial Cleaner
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -5454,6 +5495,11 @@ ff02::3 ip6-allhosts
 #0.0.0.0 aws.amazon.com
 # s. Steam: General Directory Server
 
+# Frogware
+# Magrunner: Dark Pulse
+# s. Steam: General Directory Server
+# s. Eintrag Steam: IP Checks
+
 # Frontier Developments
 # Elite Dangerous
 #0.0.0.0 api.zaonce.net # Eventlogging, MaschinenID, Anmeldetoken, Betriebssystem, Serverzeit & Check der Clientversion, CollectHardwareSurvey uvm.
@@ -6478,6 +6524,9 @@ ff02::3 ip6-allhosts
 # ILLUMICORP
 # Color Cingdom
 # Websocket
+
+# Force Tanks
+# Crashpad Analytics
 
 # LittleBigSoko
 #0.0.0.0 www.gstatic.com
@@ -7832,6 +7881,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
+# Nacon
+# Sherlock Holmes: The Devil's Daughter
+# s. Rubrik Kopierschutz / AntiCheat
+0.0.0.0 mc.frogwares.com
+# + Facebook, Twitter, Google Analytics
+#0.0.0.0 frogwares.com
+
+# WRC 7 FIA World Rally Championship
+# s. Rubrik Kopierschutz / AntiCheat
+# 104.154.187.60
+# 172.217.22.16
+# 52.26.54.44
+0.0.0.0 wrc7-server.kylotonn.com # Mehrspielerserver
+0.0.0.0 storage-cloud.googleapis.com
+0.0.0.0 api.amplitude.com
+
 # Narko Games
 # Kama Bullet Heritage 2
 # Ip/s blockieren:
@@ -7962,7 +8027,7 @@ ff02::3 ip6-allhosts
 
 # Nexon America Inc.
 # MapleStory 2
-0.0.0.0 web.nxfs.nexon.com
+#0.0.0.0 web.nxfs.nexon.com
 0.0.0.0 nxl.log.nexon.io
 0.0.0.0 www.google-analytics.com
 0.0.0.0 stats.g.doubleclick.net
@@ -8177,11 +8242,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
-# OneShark
-# Forbidden Clicker Party
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 api.uca.cloud.unity3d.com
+# OGPlanet
 # s. Steam: General Directory Server
+# Das Produkt wurde abgeschaltet
+# 202.213.198.230
+0.0.0.0 id.ogplanet.com
+0.0.0.0 dl.latale.jp
+0.0.0.0 gpdl01.gamepot.co.jp
+0.0.0.0 lapatch.gameflier.com
+0.0.0.0 testpatch-dl.latale.jp
 
 # OhNoo Studio
 # Tormentum - Dark Sorrow
@@ -8192,6 +8261,12 @@ ff02::3 ip6-allhosts
 # Deadly Escape
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# OneShark
+# Forbidden Clicker Party
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+# s. Steam: General Directory Server
 
 # OnFire Games
 # Ultimate Spinner Simulator - Unstress Yourself
@@ -8313,6 +8388,22 @@ ff02::3 ip6-allhosts
 # s. Steam: General Directory Server
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# Panic
+# Untitled Goose Game
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Panoramik Inc
 # Forge of Gods
@@ -8908,7 +8999,7 @@ ff02::3 ip6-allhosts
 # Blood Feed
 # 52.174.162.167
 # 92.223.82.17
-0.0.0.0 ns.exitgames.com
+#0.0.0.0 ns.exitgames.com
 0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com # Serverliste
 
 # Ragdoll Inc
@@ -9849,6 +9940,21 @@ ff02::3 ip6-allhosts
 # The Safeguard Garrison
 # s. Steam: General Directory Server
 
+# Silver Dollar Games
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Sindiecate Arts
 # Nongünz
 0.0.0.0 chromereader-pa.googleapis.com
@@ -10574,6 +10680,27 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
+# Golf with your friends
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+#0.0.0.0 vss-ns2019-eu.westeurope.cloudapp.azure.com
+#0.0.0.0 gcams058.exitgames.com # Europa
+#0.0.0.0 gcash013.exitgames.com # USA Ost
+#0.0.0.0 gcsc100.exitgames.com # USA West
+#0.0.0.0 gctok011.exitgames.com # Japan
+#0.0.0.0 gcmel001.exitgames.com # Australien
+#0.0.0.0 gcsing019.exitgames.com # Asien
+#0.0.0.0 gcsp002.exitgames.com # Südamerika
+#0.0.0.0 6c.65.36a9.ip4.static.sl-reverse.com # Kanada
+#0.0.0.0 gcmos014.exitgames.com # Russland Ost
+#0.0.0.0 gckha001.exitgames.com # Russland West
+#0.0.0.0 6e.58.26a9.ip4.static.sl-reverse.com # Indien
+#0.0.0.0 gcsel002.exitgames.com # Korea
+
 # My time at Portia
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -10705,6 +10832,10 @@ ff02::3 ip6-allhosts
 # 107.23.154.158
 0.0.0.0 ec2-107-23-154-158.compute-1.amazonaws.com
 0.0.0.0 behemoth-websites-alb-1662044894.us-east-1.elb.amazonaws.com
+
+# The Deep End Games
+# Perception
+# s. Eintrag Steam: IP Checks
 
 # The Digital Lounge
 # Another World – 20th Anniversary Edition
@@ -11387,6 +11518,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# ESport Manager
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -11754,6 +11902,21 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 # 35.227.252.150
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
+# Moonfall Ultimate
+# Ip/s blockieren:
+# 35.186.194.186
+# 35.241.26.53
+# 35.190.88.234
+# 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
