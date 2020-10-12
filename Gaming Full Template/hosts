@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 04.10.2020
+# Änderungsdatum: 12.10.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -796,6 +796,7 @@ ff02::3 ip6-allhosts
 
 # Steam: Chat
 #0.0.0.0 bc1-tuk1.chat.steamcontent.com
+# 172.227.166.174
 # 104.108.78.51
 # 2.17.182.211
 # 23.78.65.15
@@ -860,15 +861,15 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamcloudfrankfurt.blob.core.windows.net
 #0.0.0.0 steamcloudlrsuswest.blob.core.windows.net
 #0.0.0.0 steamclouduseast.blob.core.windows.net
-0.0.0.0 steamcloud-br.s3.dualstack.sa-east-1.amazonaws.com
-0.0.0.0 steamcloud-eu-fra.storage.googleapis.com
-0.0.0.0 steamcloud-finland.storage.googleapis.com
-0.0.0.0 steamcloud-saopaulo.storage.googleapis.com
-0.0.0.0 steamcloud-sg.s3.dualstack.ap-southeast-1.amazonaws.com
-0.0.0.0 steamcloud-singapore.storage.googleapis.com
-0.0.0.0 steamcloud-taiwan.storage.googleapis.com
-0.0.0.0 steamcloudsaopaulo.blob.core.windows.net
-0.0.0.0 steamcloudsg.blob.core.windows.net
+#0.0.0.0 steamcloud-br.s3.dualstack.sa-east-1.amazonaws.com
+#0.0.0.0 steamcloud-eu-fra.storage.googleapis.com
+#0.0.0.0 steamcloud-finland.storage.googleapis.com
+#0.0.0.0 steamcloud-saopaulo.storage.googleapis.com
+#0.0.0.0 steamcloud-sg.s3.dualstack.ap-southeast-1.amazonaws.com
+#0.0.0.0 steamcloud-singapore.storage.googleapis.com
+#0.0.0.0 steamcloud-taiwan.storage.googleapis.com
+#0.0.0.0 steamcloudsaopaulo.blob.core.windows.net
+#0.0.0.0 steamcloudsg.blob.core.windows.net
 
 # Steam: Cloudflare
 # 104.18.24.217
@@ -900,6 +901,8 @@ ff02::3 ip6-allhosts
 
 # Steam: Beispiele für Produkt | Spieledownload | Depots
 # Komplette Liste ist ähnlich groß wie die der Mehrspielerserverlisten etwas weiter unten
+# 87.245.208.52
+# 108.177.126.128
 # 155.133.250.67
 # 155.133.248.26
 # 155.133.248.23
@@ -921,6 +924,13 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cache54-fra1.steamcontent.com
 #0.0.0.0 cache8-ams1.steamcontent.com
 #0.0.0.0 cdn.highwinds.cs.steampowered.com # Depot Manifest
+# Neue Downloadserver seit Sept./Okt. 2020
+#0.0.0.0 cache1.hel-retn.steamcontent.com
+#0.0.0.0 cache1-hrk-retn.steamcontent.com
+#0.0.0.0 cache1-svo-retn.steamcontent.com
+#0.0.0.0 cache2-hel-retn.steamcontent.com
+#0.0.0.0 cache2-hrk-retn.steamcontent.com
+#0.0.0.0 cache2-svo-retn.steamcontent.com
 
 # Steam: Experimentelles Blockieren von Telemetrie, Spyware, Bloatware und Kommentaren - Nicht anwenderfreundlich
 #0.0.0.0 cdn.cloudflare.steamstatic.com
@@ -929,6 +939,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steambroadcast.akamaized.net
 #0.0.0.0 video.steamstatic.com
 #0.0.0.0 steamuserimages-a.akamaihd.net
+#0.0.0.0 crash.steampowered.com
 
 # Steam: Game Overlay UI
 # Ip/s blockieren:
@@ -1052,6 +1063,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 partner.steamgames.com
 
 # Steam: Store
+# 23.66.23.40
+# 104.74.103.35
 # 23.216.77.136
 # 2.23.46.232
 # 2.21.228.105
@@ -1062,6 +1075,7 @@ ff02::3 ip6-allhosts
 # 93.191.15.153
 # 93.191.15.170
 # 93.191.15.171
+# https://store.steampowered.com/default/usabilitytracking/
 #0.0.0.0 store.steampowered.com # Altersverifizierung, Nutzungsbedinungen, Suche, Eventtracking, Broadcast, Accountmeldungen, Hover, Updatenews, API Anbindung, Beschreibungen & Ids für Produkte
 #0.0.0.0 steamstore-a.akamaihd.net # Produktgrafiken, Icons, JQuery Scripts, Alterskennzeichnung, Bundles, Subs, Avatare, CSS, Javascript, Clientgrafiken
 
@@ -7188,6 +7202,26 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Larian Studios
+# Baldur's Gate
+# 138.68.124.48
+# 104.74.89.119
+# 188.166.195.45
+# 2a02:26f0:3100:3a3::21cc
+# 2a02:26f0:3100:3b1::21cc
+# 52.218.109.186
+# 13.227.209.88
+# 13.227.209.122
+# 13.227.209.16
+# 13.227.209.74
+0.0.0.0 cmsapi.larian.com
+0.0.0.0 launcher.larian.com
+0.0.0.0 3f6xra69mj.execute-api.eu-west-1.amazonaws.com
+0.0.0.0 s3-3-w.amazonaws.com
+0.0.0.0 natpunch3.larian.com
+0.0.0.0 natpunch4.larian.com
+0.0.0.0 natpunch5.larian.com
+0.0.0.0 natpunch6.larian.com
+
 # Divinity: Original Sin II
 # Alternativ EoCApp.exe in Supporttool.exe umbenennen. Originaldatei sichern und löschen
 0.0.0.0 dl1.larianvault.com
@@ -10912,11 +10946,13 @@ ff02::3 ip6-allhosts
 
 # Die Gilde III
 # 176.9.91.194
-# 94.130.198.244
-# 94.130.252.66
+# http://176.9.91.194:5080/gds/TG3/01/rpc
 0.0.0.0 tqa_pc-gds.thqonline.net
 # Für Onlinespiel benötigt
-#0.0.0.0 theguild3-thqno.thqonline.net
+# 78.47.139.87
+# 116.203.12.197
+#0.0.0.0 gu.services.thqonline.net
+#0.0.0.0 uaa.services.thqonline.net
 
 # Fade to Silence
 # Umfrage im Hauptmenü | Wer Google/Docs benötigt beide Adressen mitsamt Gstatic aktiv lassen
@@ -11333,7 +11369,7 @@ ff02::3 ip6-allhosts
 
 # TwoWizards
 # Idle Wizard
-# Ip/s blockieren:
+# 54.175.64.91
 # 52.20.250.191
 # 52.201.30.51
 # 54.208.229.218
@@ -11343,10 +11379,12 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 0.0.0.0 us-east-1-a.route.herokuapp.com # Werbung, Promocodes, Statistiken
 0.0.0.0 cloud-save-backup.herokuapp.com
-0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
