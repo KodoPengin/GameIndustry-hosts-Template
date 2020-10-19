@@ -11,7 +11,7 @@
 # unerlaubte Wordpress Logins uvm.
 #
 # Version: IP-Table - Erhöhter Schutz vor Serverangriffen
-# Einträge: 856 | Änderungsdatum: 18.10.2020
+# Einträge: 859 | Änderungsdatum: 19.10.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -234,6 +234,7 @@
 148.101.119.135
 148.101.75.235
 148.255.247.34
+148.70.152.56
 148.70.39.4
 148.71.140.186
 148.71.242.163
@@ -623,6 +624,7 @@
 45.118.144.77
 45.125.221.19
 45.127.45.212
+45.13.252.55
 45.146.165.129
 45.153.212.23
 45.159.184.141
@@ -882,5 +884,3 @@
 98.254.171.22
 98.28.112.32
 99.238.112.182
-
-45.13.252.55

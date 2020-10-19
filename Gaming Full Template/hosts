@@ -1,4 +1,4 @@
-#   ____                      ___           _           _                          
+﻿#   ____                      ___           _           _                          
 #  / ___| __ _ _ __ ___   ___|_ _|_ __   __| |_   _ ___| |_ _ __ _   _   ___ _   _ 
 # | |  _ / _` | '_ ` _ \ / _ \| || '_ \ / _` | | | / __| __| '__| | | | / _ \ | | |
 # | |_| | (_| | | | | | |  __/| || | | | (_| | |_| \__ \ |_| |  | |_| ||  __/ |_| |
@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 12.10.2020
+# Änderungsdatum: 19.10.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -2761,6 +2761,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
+# Beamdog
+# Baldur’s Gate: Enhanced Edition
+# Mehrspielermodi über Amazon AWS
+# 52.39.37.2
+#0.0.0.0 users2.beamdog.com
+#0.0.0.0 ec2-01.beamdog.com
+
+# Baldur’s Gate II: Enhanced Edition
+# Mehrspielermodi über Amazon AWS
+# s. Steam: General Directory Server
+# 52.39.37.2
+#0.0.0.0 users2.beamdog.com
+#0.0.0.0 ec2-01.beamdog.com
+
 # Behaviour Digital Inc.
 # Dead by Daylight | Erneut überprüft 16.03.2020
 # s. Easy Anti-Cheat
@@ -5009,7 +5023,7 @@ ff02::3 ip6-allhosts
 # 52.218.224.240
 # 54.86.119.232
 0.0.0.0 CMS-258328131.us-east-1.elb.amazonaws.com
-0.0.0.0 s3.us-west-2.amazonaws.com
+#0.0.0.0 s3.us-west-2.amazonaws.com
 
 # Fatbot Games, s. r. o.
 # Vaporum
@@ -6054,6 +6068,28 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Hamsters Gaming
+# Evil Democracy: 1932
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 34.107.181.14
+# 35.190.78.8
+# 2600:1901:0:e37d::
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 14.181.107.34.bc.googleusercontent.com
+0.0.0.0 userreporting.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Evil Bank Manager
 # s. Steam: General Directory Server
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -6985,6 +7021,32 @@ ff02::3 ip6-allhosts
 # Door Kickers: Action Squad
 # s. Steam: General Directory Server
 0.0.0.0 www.google-analytics.com # Tracker alle paar Sekunden aktiv
+
+# Kinetic Games
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+# 2600:1901:0:e37d::
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+# Mehrspielerserver
+# 172.65.203.188
+# 172.65.237.131
+# 172.65.254.227
+# 172.65.215.196
+# 172.65.239.175
+#0.0.0.0 ns-eu.exitgames.com
 
 # Kishmish Games
 # Noise
@@ -10931,12 +10993,35 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # THQ Nordic
+# Aquanox Deep Descent
+# Telemetrie und Heartbeat sind von Anbeginn aktiv. Leider werden die Adressen wie z.b. in die Gilde 3 un Spellforce 3 für Mehrspieler benötigt
+# Bei Bedarf de/aktivieren
+# 78.47.139.87
+# 94.130.198.230
+# 116.203.12.197
+0.0.0.0 gu.services.thqonline.net
+0.0.0.0 uaa.services.thqonline.net
+0.0.0.0 static.230.198.130.94.clients.your-server.de
+0.0.0.0 static.197.12.203.116.clients.your-server.de
+0.0.0.0 static.87.139.47.78.clients.your-server.de
+
 # Battle Chasers: Nightwar
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Darksiders III
-#0.0.0.0 steamcloud-eu-ams.storage.googleapis.com # Cloudspeicherstände bei Google gelagert
+#0.0.0.0 steamcloud-eu-ams.storage.googleapis.com
 
 # Destroy All Humans!
 # 35.188.42.15
@@ -10951,8 +11036,8 @@ ff02::3 ip6-allhosts
 # Für Onlinespiel benötigt
 # 78.47.139.87
 # 116.203.12.197
-#0.0.0.0 gu.services.thqonline.net
-#0.0.0.0 uaa.services.thqonline.net
+0.0.0.0 gu.services.thqonline.net
+0.0.0.0 uaa.services.thqonline.net
 
 # Fade to Silence
 # Umfrage im Hauptmenü | Wer Google/Docs benötigt beide Adressen mitsamt Gstatic aktiv lassen
@@ -10989,6 +11074,17 @@ ff02::3 ip6-allhosts
 #0.0.0.0 uaa.services.thqonline.net
 
 # This is the police
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -11049,6 +11145,9 @@ ff02::3 ip6-allhosts
 # Phantom Trigger
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# Spoiler Alert
+# s. Steam: General Directory Server
 
 # Stage Presence
 # 35.241.26.53
@@ -11899,8 +11998,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Volcanoids s.r.o.
 # Volcanoids
@@ -11909,10 +12010,27 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.241.52.229
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# VPAT | Virtual and Physical Media Integration Association of Taiwan
+# 162.215.249.74
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 

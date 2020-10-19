@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 12.10.2020
+# Änderungsdatum: 19.10.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1615,7 +1615,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 offers.filezilla-project.org
 0.0.0.0 ua.inmotionhosting.com
 0.0.0.0 imh01-inmotionhosting1.netdna-ssl.com
-0.0.0.0 www.inmotionhosting.com
+#0.0.0.0 www.inmotionhosting.com
 0.0.0.0 cloud.nitehe-nutete.com
 0.0.0.0 cloud.nitehe-nutete.com
 0.0.0.0 remote.nitehe-nutete.com
@@ -6548,6 +6548,12 @@ ff02::3 ip6-allhosts
 # Vidonna.de
 0.0.0.0 vidonna.de
 
+# Viewdeos.com
+0.0.0.0 track.viewdeos.com
+0.0.0.0 track1.viewdeos.com
+0.0.0.0 tags.viewdeos.com
+0.0.0.0 go1.viewdeos.com
+
 # Viglink.com
 0.0.0.0 cdn.viglink.com
 0.0.0.0 api.viglink.com
@@ -9512,6 +9518,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 96d80cafb2cc6ad351ea76aea0f55d37.safeframe.googlesyndication.com
 0.0.0.0 6b09e21fccb81d1971b38d0d84f33248.safeframe.googlesyndication.com
 0.0.0.0 bb88ee5b85c699f7598bce8d0af21df6.safeframe.googlesyndication.com
+0.0.0.0 ebf6ec8c76bc3261c08e6966dd3828bb.safeframe.googlesyndication.com
+0.0.0.0 b04229121c49a977f3f05e11a8f5ae5f.safeframe.googlesyndication.com
 
 # Google Tag Manager
 # 172.217.16.136
@@ -9729,6 +9737,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 8b006f8c8bd50f74301b880a5c78d9f6.clo.footprintdns.com
 
 # Weiterleitungen
+# 104.83.120.32
 #0.0.0.0 go.microsoft.com
 # 23.61.218.119
 #0.0.0.0 e11290.dspg.akamaiedge.net
@@ -10039,6 +10048,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 settingsfd-geo.trafficmanager.net
 
 # Verschiedenes Microsoft
+# 137.117.144.39
 # 51.105.249.239
 # 40.90.22.191
 # 23.196.246.142
@@ -10176,10 +10186,10 @@ ff02::3 ip6-allhosts
 # WerFault.exe & svchost.exe
 # Ip/s blockieren:
 # 20.44.86.43
-# Ip/s blockieren:
 # 93.184.221.240
 # 52.138.148.159
 # 51.105.249.228
+# 52.247.37.26
 0.0.0.0 cs11.wpc.v0cdn.net
 0.0.0.0 dmd.metaservices.microsoft.com.akadns.net
 0.0.0.0 am3p.wns.notify.windows.com.akadns.net
@@ -10661,8 +10671,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 aus.thunderbird.net # Update.xml
 # Diverses
 # 52.34.51.144
+# 54.192.86.49
 0.0.0.0 self-repair.mozilla.org
-0.0.0.0 firefox.settings.services.mozilla.com
+0.0.0.0 firefox.settings.services.mozilla.com # Browserbroker
 0.0.0.0 search.services.mozilla.com
 0.0.0.0 content-signature.cdn.mozilla.net
 0.0.0.0 push.services.mozilla.com
@@ -10855,6 +10866,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.bestcontentplan.top
 0.0.0.0 a.bestcontentprovider.top
 0.0.0.0 a.besttextservice.top
+0.0.0.0 a.nel.cloudflare.com
 0.0.0.0 acrmbjkk6qc5utby.pro
 0.0.0.0 ads.adamoads.com
 0.0.0.0 ads.bullionyield.com
@@ -10863,6 +10875,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adsader.com
 0.0.0.0 adsmediabox.com
 0.0.0.0 adsrv.bangbros.com
+0.0.0.0 adsxyz.com
 0.0.0.0 aff.trackinglibrary.prodperfect.com
 0.0.0.0 ag.palmtube.net
 0.0.0.0 anymad.com
@@ -10894,10 +10907,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn1.anymad.com
 0.0.0.0 cdn2.bangready.com
 0.0.0.0 cdn2.popcash.net
+0.0.0.0 cdn2.pubexchange.com
 0.0.0.0 cdn3.bestcontentprovider.top
 0.0.0.0 cdn37804682.ahacdn.me
 0.0.0.0 cdn53833466.ahacdn.me
 0.0.0.0 ck.jads.co
+0.0.0.0 clipsex.online
 0.0.0.0 clit9.sextracker.com
 0.0.0.0 cnt.xhamster.desi
 0.0.0.0 collector.xhamster.desi
@@ -10919,15 +10934,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 denis-pj0823031-491201b.com
 0.0.0.0 engine.phn.doublepimp.com
 0.0.0.0 engine.voluumtlkrnarketing.com
+0.0.0.0 fappinghd.com
 0.0.0.0 fst.securefastoffers.com
+0.0.0.0 gay2porn.com
+0.0.0.0 girlgossips.com
 0.0.0.0 go.strpjmp.com
 0.0.0.0 graphics1.sextracker.com
 0.0.0.0 hd100546b.com
 0.0.0.0 i.bangassets.com
 0.0.0.0 i.bangassets.com
 0.0.0.0 i.jads.co
+0.0.0.0 id.sharedid.org
 0.0.0.0 images.securedataimages.com
 0.0.0.0 istri.it
+0.0.0.0 javbebe.com
+0.0.0.0 javhdbest.com
 0.0.0.0 js.click-plus.net
 0.0.0.0 knutenegros.pro
 0.0.0.0 ladsips.com
@@ -10940,6 +10961,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 mptentry.com
 0.0.0.0 nextmovs.com
 0.0.0.0 p.zetadeo.com
+0.0.0.0 pornlink.co
+0.0.0.0 pornpicvip.com
 0.0.0.0 poweredby.jads.co
 0.0.0.0 pp.awmplus.com
 0.0.0.0 r.srvtrck.com
@@ -10951,6 +10974,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.riverhit.com
 0.0.0.0 t.simply-hentai.com
 0.0.0.0 teartee.com
+0.0.0.0 thesexscene.com
 0.0.0.0 trk.blmte.com
 0.0.0.0 ts.clickadilla.com
 0.0.0.0 userputraf.traffic-gate.com
@@ -10958,6 +10982,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.bangcreatives.com
 0.0.0.0 www.bisonads.com
 0.0.0.0 www.clickthruhost.com
+0.0.0.0 www.madcpms.com
+0.0.0.0 www.topdisplaynetwork.com
 0.0.0.0 x.sexhd.pics # Piwik
 0.0.0.0 x4i6u4n6.ssl.hwcdn.net
 0.0.0.0 youzoojizz.top
@@ -13468,6 +13494,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 siteeuwest.slgnt.eu
 0.0.0.0 siteimproveanalytics.com
 0.0.0.0 sitemnk.com
+0.0.0.0 sitriverunder2.live
 0.0.0.0 sjs.bizographics.com
 0.0.0.0 skeetads.com
 0.0.0.0 skim.clickaine.com
@@ -13640,6 +13667,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tavertotsand.info
 0.0.0.0 tc.tradetracker.net
 0.0.0.0 td.yieldify.com
+0.0.0.0 tdsjsext3.life
 0.0.0.0 te.ip-prod.aws-cbc.cloud
 0.0.0.0 te.technical-service.net
 0.0.0.0 tebadu.com
@@ -13975,6 +14003,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.rnengage.com
 0.0.0.0 www.rolnk.com
 0.0.0.0 www.rvty.net
+0.0.0.0 www.samfloy.com
 0.0.0.0 www.sbmdsfld.com
 0.0.0.0 www.searchwinner.site
 0.0.0.0 www.sejonghakdang.org
@@ -14279,6 +14308,7 @@ ff02::3 ip6-allhosts
 
 # Facebook Technologies, LLC.
 # Oculus Rift S
+# # Oculus VR Nutzung als auch Setup nur mit Facebook Zwang. Aktivieren auf eigene Gefahr
 # Ip/s blockieren:
 # 185.60.216.49
 # 31.13.64.48
@@ -14287,10 +14317,15 @@ ff02::3 ip6-allhosts
 # 157.240.20.49
 # 157.240.194.49
 # 31.13.92.60
+# 185.60.216.15
+# 2a03:2880:f02d:e:face:b00c:0:2
+# 2a03:2880:f22d:c1:face:b00c:0:32c2
 0.0.0.0 oculus.c10r.facebook.com
 0.0.0.0 oculus.xx.fbcdn.net # Download Firmware Update
 0.0.0.0 graph.facebook.com
 0.0.0.0 www2.oculus.com
+0.0.0.0 edge-star6-shv-01-frx5.facebook.com
+0.0.0.0 edge-oculus6-shv-01-frx5.fbcdn.net
 # Telemetrie
 0.0.0.0 mqtt.c10r.facebook.com
 0.0.0.0 edge-mqtt.facebook.com
@@ -17019,6 +17054,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
+# Beamdog
+# Baldur’s Gate: Enhanced Edition
+# Mehrspielermodi über Amazon AWS
+# 52.39.37.2
+#0.0.0.0 users2.beamdog.com
+#0.0.0.0 ec2-01.beamdog.com
+
+# Baldur’s Gate II: Enhanced Edition
+# Mehrspielermodi über Amazon AWS
+# s. Steam: General Directory Server
+# 52.39.37.2
+#0.0.0.0 users2.beamdog.com
+#0.0.0.0 ec2-01.beamdog.com
+
 # Behaviour Digital Inc.
 # Dead by Daylight | Erneut überprüft 16.03.2020
 # s. Easy Anti-Cheat
@@ -19267,7 +19316,7 @@ ff02::3 ip6-allhosts
 # 52.218.224.240
 # 54.86.119.232
 0.0.0.0 CMS-258328131.us-east-1.elb.amazonaws.com
-0.0.0.0 s3.us-west-2.amazonaws.com
+#0.0.0.0 s3.us-west-2.amazonaws.com
 
 # Fatbot Games, s. r. o.
 # Vaporum
@@ -20312,6 +20361,28 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Hamsters Gaming
+# Evil Democracy: 1932
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 34.107.181.14
+# 35.190.78.8
+# 2600:1901:0:e37d::
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 14.181.107.34.bc.googleusercontent.com
+0.0.0.0 userreporting.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Evil Bank Manager
 # s. Steam: General Directory Server
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -21243,6 +21314,32 @@ ff02::3 ip6-allhosts
 # Door Kickers: Action Squad
 # s. Steam: General Directory Server
 0.0.0.0 www.google-analytics.com # Tracker alle paar Sekunden aktiv
+
+# Kinetic Games
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+# 2600:1901:0:e37d::
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+# Mehrspielerserver
+# 172.65.203.188
+# 172.65.237.131
+# 172.65.254.227
+# 172.65.215.196
+# 172.65.239.175
+#0.0.0.0 ns-eu.exitgames.com
 
 # Kishmish Games
 # Noise
@@ -25189,12 +25286,35 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # THQ Nordic
+# Aquanox Deep Descent
+# Telemetrie und Heartbeat sind von Anbeginn aktiv. Leider werden die Adressen wie z.b. in die Gilde 3 un Spellforce 3 für Mehrspieler benötigt
+# Bei Bedarf de/aktivieren
+# 78.47.139.87
+# 94.130.198.230
+# 116.203.12.197
+0.0.0.0 gu.services.thqonline.net
+0.0.0.0 uaa.services.thqonline.net
+0.0.0.0 static.230.198.130.94.clients.your-server.de
+0.0.0.0 static.197.12.203.116.clients.your-server.de
+0.0.0.0 static.87.139.47.78.clients.your-server.de
+
 # Battle Chasers: Nightwar
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Darksiders III
-#0.0.0.0 steamcloud-eu-ams.storage.googleapis.com # Cloudspeicherstände bei Google gelagert
+#0.0.0.0 steamcloud-eu-ams.storage.googleapis.com
 
 # Destroy All Humans!
 # 35.188.42.15
@@ -25209,8 +25329,8 @@ ff02::3 ip6-allhosts
 # Für Onlinespiel benötigt
 # 78.47.139.87
 # 116.203.12.197
-#0.0.0.0 gu.services.thqonline.net
-#0.0.0.0 uaa.services.thqonline.net
+0.0.0.0 gu.services.thqonline.net
+0.0.0.0 uaa.services.thqonline.net
 
 # Fade to Silence
 # Umfrage im Hauptmenü | Wer Google/Docs benötigt beide Adressen mitsamt Gstatic aktiv lassen
@@ -25247,6 +25367,17 @@ ff02::3 ip6-allhosts
 #0.0.0.0 uaa.services.thqonline.net
 
 # This is the police
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -25307,6 +25438,9 @@ ff02::3 ip6-allhosts
 # Phantom Trigger
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# Spoiler Alert
+# s. Steam: General Directory Server
 
 # Stage Presence
 # 35.241.26.53
@@ -26157,8 +26291,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Volcanoids s.r.o.
 # Volcanoids
@@ -26167,10 +26303,27 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.241.52.229
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# VPAT | Virtual and Physical Media Integration Association of Taiwan
+# 162.215.249.74
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
