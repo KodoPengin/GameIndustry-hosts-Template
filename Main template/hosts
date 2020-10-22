@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 19.10.2020
+# Änderungsdatum: 22.10.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1503,9 +1503,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.sodapdf.com
 0.0.0.0 redamex.sodapdf.com
 
+# Softorino, Ltd.
+# Folder Colorizer 2
+# 35.224.231.200
+# 13.225.73.15
+# 67.205.130.156
+# 54.218.17.85
+# 108.177.126.99
+# 2a00:1450:4013:c01::69
+0.0.0.0 www.macpaw.com
+0.0.0.0 devmate.com
+0.0.0.0 api.softorino.com # Updatecheck
+0.0.0.0 shining.softorino.com # Download
+0.0.0.0 activations.devmate.com # Validierung
+#0.0.0.0 www.google.com
+0.0.0.0 www.google-analytics.com # UA-74423648-11
+
 # Softwarenetz
 # Kassenbuch
-# IPs Validierung Seriennummern
+# IPs Validierung Seriennummern | Bei Bedarf freischalten
 # 217.160.167.151
 # 217.160.79.207
 0.0.0.0 www.softwarenetz.de
@@ -16561,6 +16577,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
+# Artifex Mundi
+# Path of Sin: Greed
+# 137.117.84.54
+0.0.0.0 am-crosspromo.azurewebsites.net
+
 # Ali Asfand
 # Rex
 # s. Steam: General Directory Server
@@ -20874,6 +20895,9 @@ ff02::3 ip6-allhosts
 # LittleBigSoko
 #0.0.0.0 www.gstatic.com
 
+# Murazu
+# Crashpad Analytics
+
 # Mutants Must Die!
 # s. Steam: General Directory Server
 
@@ -21130,6 +21154,10 @@ ff02::3 ip6-allhosts
 #0.0.0.0 shopr-live-chat.mcoc-cdn.cn
 # Server ist Pflicht, Onlinezwang
 #0.0.0.0 shopr-data-1300366939.cos.accelerate.myqcloud.com
+
+# Kagura Games
+# Leviathan ~A Survival RPG~
+# s. Steam: General Directory Server
 
 # Kakao Games Europe B.V.
 # Blackdesert Online
@@ -21557,7 +21585,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Larian Studios
-# Baldur's Gate
+# Baldur's Gate 3
 # 138.68.124.48
 # 104.74.89.119
 # 188.166.195.45
@@ -23571,6 +23599,17 @@ ff02::3 ip6-allhosts
 
 # RewindApp
 # Archery Blast
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -23584,14 +23623,53 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Hammer 2
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Obscurity
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Operation Desert Road
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -24527,6 +24605,10 @@ ff02::3 ip6-allhosts
 # Army of Squirrels
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# Specialbit Studio
+# The Last Dream: Developer’s Edition
+# s. Steam: General Directory Server
 
 # Spiderling Studios
 # Besiege
@@ -26719,8 +26801,21 @@ ff02::3 ip6-allhosts
 # 47.91.161.6
 # 207.38.86.247
 # Android auf PC Portierung mit Restbeständen
-0.0.0.0 prpr-muse-dash.leanapp.cn
+# 47.91.161.6
 0.0.0.0 api.xd.com # Ping, Produktname, ID, ProgrammID, Androidkennung, AliPay Name, QQ Adresse usw
+# Access KeyID, Ankündigungen, Statistiken, Highscores
+# 106.75.73.208
+0.0.0.0 prpr-muse-dash.peropero.net
+# Bilder
+# 101.227.0.137
+# 180.163.121.248
+0.0.0.0 file-prpr-muse-dash.peropero.net
+0.0.0.0 lc-ipdzczx0.cn-n1.lcfile.com
+0.0.0.0 chinacdnweb.qiniu.com.w.kunlunno.com
+# Sonstiges
+# 114.80.187.75
+0.0.0.0 tinychinacdnweb.qiniu.com.w.kunlunno.com
+# s. Steam: General Directory Server
 
 # Xander’s Corgi Arcade
 # Corgi Warlock
