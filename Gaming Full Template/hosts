@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 22.10.2020
+# Änderungsdatum: 01.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1448,6 +1448,21 @@ ff02::3 ip6-allhosts
 # Satellite
 # s. Steam: General Directory Server
 
+# 10tons Ltd
+# JYDGE
+# s. Steam: General Directory Server
+# Ip/s blockieren:
+# 52.72.141.108
+# 54.164.66.28
+# 18.215.25.247
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
+
+# Spellspire
+# s. Steam: General Directory Server
+# 54.225.115.127
+0.0.0.0 10tonsnews.the10tons.com
+
 # 11 Bit Studios
 # Anomaly Warzone Earth
 0.0.0.0 funkyserver2.11bitstudios.com
@@ -1790,6 +1805,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+
+# 505 Games und All In! Games
+# Ghostrunner
+# Ip/s blockieren:
+# 34.96.113.148
+# 2600:1901:0:15bb::
+0.0.0.0 collect16548ghstr.deltadna.net
+0.0.0.0 balanced-collect.deltadna.net
 
 # 8-Bit Studio
 # Skara - The Blade Remains
@@ -2268,8 +2291,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Artifex Mundi
+# Demon Hunter 2
+# 137.117.84.54
+# 168.62.224.13
+0.0.0.0 promo.artifexmundi.com
+0.0.0.0 stats.artifexmundi.com
+0.0.0.0 am-crosspromo.azurewebsites.net
+
 # Path of Sin: Greed
 # 137.117.84.54
+0.0.0.0 promo.artifexmundi.com
 0.0.0.0 am-crosspromo.azurewebsites.net
 
 # Ali Asfand
@@ -2582,17 +2613,31 @@ ff02::3 ip6-allhosts
 0.0.0.0 test.cosmos.channel.or.jp
 0.0.0.0 36.241.186.35.bc.googleusercontent.com
 
-# Für Multiplayer der DarkSouls Spiele die FromSoftware Adressen de/aktivieren
+# Für die Souls Spiele kann hier der Mehrspielermodus optional abgeschaltet werden
+# DARK SOULS™ II
+# 52.36.151.238
+# 34.208.174.153
+#0.0.0.0 frpg2-steam-ope.fromsoftware.jp
+
+# DARK SOULS™: Prepare To Die™ Edition
+# s. Steam: General Directory Server
+
 # DARK SOULS™: REMASTERED
+# 35.163.21.226
+# 35.166.190.0
 #0.0.0.0 fhd-steam-prod.fromsoftware-game.net
 
-# Dark Souls II
-#0.0.0.0 frpg2-steam64-ope-login.fromsoftware-game.net
+# Dark Souls II: Scholar of the First Sin
 # 54.149.135.90
+# 52.32.252.139
+# 52.42.170.254
+#0.0.0.0 frpg2-steam64-ope-login.fromsoftware-game.net
 
 # Dark Souls III
-0.0.0.0 fdp-steam-ope-login.fromsoftware-game.net
+#0.0.0.0 fdp-steam-ope-login.fromsoftware-game.net
 # 52.36.123.251
+# 52.35.220.94
+# 35.163.56.166
 #0.0.0.0 ocsp.msocsp.com
 
 # DeadCore | Update 24.08.2018
@@ -5035,6 +5080,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 
+# Vaporum: Lockdown
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Fatshark AB
 # Warhammer: End Times - Vermintide
 # Spiel und Webseite/n nutzt zudem zahlreiche Google Adressierungen
@@ -5716,6 +5776,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# GameNet
+# Destiny or Fate
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Gamious
@@ -9052,6 +9128,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
+# The Outer Worlds
+# s. Eintrag Steam: IP Checks
+
 # PRODUCTION PENCIL
 # Paradise Cleaning!
 # s. Steam: General Directory Server
@@ -9422,6 +9501,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
+
+# Roastery Games
+# Smartphone Tycoon
+# 108.177.119.94
+# 108.177.127.84
+# 239.255.255.250
+# 224.0.0.251
+#0.0.0.0 accounts.google.com
+#0.0.0.0 www.gstatic.com
 
 # Robert Alvarez
 # Isotiles - Isometric Puzzle Game
@@ -11263,6 +11351,11 @@ ff02::3 ip6-allhosts
 # Axiom Verge
 # s. Steam: General Directory Server
 
+# Thorium
+# Undermine
+# 185.199.111.153
+0.0.0.0 thorium-entertainment.github.io
+
 # Three Flip Studios
 # Ip/s blockieren:
 # 35.241.26.53
@@ -12854,6 +12947,33 @@ ff02::3 ip6-allhosts
 
 # Xenfinity
 # PROJECT VELOCITY
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# XGen Studios
+# The Low Road
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 

@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 22.10.2020
+# Änderungsdatum: 01.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1548,6 +1548,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 sv.symcb.com
 # Tracking
 # Ip/s blockieren:
+# 108.177.127.100
+# 109.202.99.45
 # 74.125.140.102
 # 172.217.17.46
 # 172.217.17.110
@@ -2704,7 +2706,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.amplitude.com
 0.0.0.0 ec2-52-26-54-44.us-west-2.compute.amazonaws.com
 
-# AMP Project + Prebid Script
+# AMP Project mit Verkettung von Prebid Scripts
+# Nach Bedarf handhaben
 0.0.0.0 cdn.ampproject.org
 0.0.0.0 3p.ampproject.net
 0.0.0.0 d-35343490523972114676.ampproject.net
@@ -2720,25 +2723,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 d-11552533261597603108.ampproject.net
 0.0.0.0 d-38366694261327041557.ampproject.net
 0.0.0.0 d-12078555161580893360.ampproject.net
-0.0.0.0 d-36563819372173832515.ampproject.net
-0.0.0.0 d-40134837644212745287.ampproject.net
-0.0.0.0 d-39269826063243997250.ampproject.net
-0.0.0.0 d-1390922653307727793.ampproject.net
-0.0.0.0 d-35606675231977980073.ampproject.net
-0.0.0.0 d-35193943341047919931.ampproject.net
-0.0.0.0 d-38911545802889092250.ampproject.net
-0.0.0.0 d-26330024344249368544.ampproject.net
-0.0.0.0 d-157609674121089109.ampproject.net
-0.0.0.0 d-1167938332526601553.ampproject.net
-0.0.0.0 d-9737118212082405482.ampproject.net
-0.0.0.0 d-3482390031483628707.ampproject.net
-0.0.0.0 d-2981955123798097818.ampproject.net
-0.0.0.0 d-130564334643117782.ampproject.net
-0.0.0.0 d-1925180791688616039.ampproject.net
-0.0.0.0 d-182849508627218719.ampproject.net
-0.0.0.0 d-26166146373321546350.ampproject.net
-0.0.0.0 d-16364503842353983875.ampproject.net
-0.0.0.0 d-19771283131990902164.ampproject.net
+#0.0.0.0 d-36563819372173832515.ampproject.net
+#0.0.0.0 d-40134837644212745287.ampproject.net
+#0.0.0.0 d-39269826063243997250.ampproject.net
+#0.0.0.0 d-1390922653307727793.ampproject.net
+#0.0.0.0 d-35606675231977980073.ampproject.net
+#0.0.0.0 d-35193943341047919931.ampproject.net
+#0.0.0.0 d-38911545802889092250.ampproject.net
+#0.0.0.0 d-26330024344249368544.ampproject.net
+#0.0.0.0 d-157609674121089109.ampproject.net
+#0.0.0.0 d-1167938332526601553.ampproject.net
+#0.0.0.0 d-9737118212082405482.ampproject.net
+#0.0.0.0 d-3482390031483628707.ampproject.net
+#0.0.0.0 d-2981955123798097818.ampproject.net
+#0.0.0.0 d-130564334643117782.ampproject.net
+#0.0.0.0 d-1925180791688616039.ampproject.net
+#0.0.0.0 d-182849508627218719.ampproject.net
+#0.0.0.0 d-26166146373321546350.ampproject.net
+#0.0.0.0 d-16364503842353983875.ampproject.net
+#0.0.0.0 d-19771283131990902164.ampproject.net
 
 # Amung.us
 0.0.0.0 amung.us
@@ -6975,7 +6978,9 @@ ff02::3 ip6-allhosts
 
 # CERTUM
 # 213.222.201.215
+# 108.161.187.37
 #0.0.0.0 csca.ocsp.certum.pl
+#0.0.0.0 crl.certum.pl
 
 # Comodo CA
 # 151.139.128.14
@@ -11163,6 +11168,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 crpt.livejasmin.com
 0.0.0.0 cradver.livejasmin.com
 0.0.0.0 click.livejasmin.com
+0.0.0.0 crt.livejasmin.com
 0.0.0.0 cradver.livejasmin.com
 
 # Kashtanka.in
@@ -12286,6 +12292,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 analyze.wywy.com
 0.0.0.0 andarcair.club
 0.0.0.0 andbeyond.media
+0.0.0.0 andtracer.com
 0.0.0.0 anlcld.com
 0.0.0.0 anlcld.com
 0.0.0.0 anon-stats.eff.org
@@ -12631,6 +12638,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 consent.truste.com
 0.0.0.0 consentmgr.q-divisioncdn.de
 0.0.0.0 constintptr.com
+0.0.0.0 consumersweepstakes.online
 0.0.0.0 content.adunity.com
 0.0.0.0 convertkit.com
 0.0.0.0 cookie-sync-desktop.yellowblue.io
@@ -12682,6 +12690,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d.amoad.com
 0.0.0.0 d.omsnative.de
 0.0.0.0 d1j8v290qqvibb.cloudfront.net
+0.0.0.0 d24ak3f2b.top
 0.0.0.0 d5p.de17a.com
 0.0.0.0 d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com
 0.0.0.0 d8526382938814309666-t4400066239592907150.id.amgdgt.com
@@ -13203,6 +13212,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 oblivki.biz
 0.0.0.0 ocular.pepper.com
 0.0.0.0 oe.wwa.wipe.de
+0.0.0.0 offers.bestclicks.xyz
 0.0.0.0 offers.hopa.com
 0.0.0.0 offers.tracking6666.xyz
 0.0.0.0 offoonguser.com
@@ -13392,6 +13402,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rbp.mxptint.net
 0.0.0.0 rcp.c.appier.net
 0.0.0.0 rddywd.com
+0.0.0.0 rdtrck2.com
 0.0.0.0 reactads.engine.adglare.net
 0.0.0.0 receleges-illoffee.com
 0.0.0.0 record.rabbit-affiliates.com
@@ -13604,6 +13615,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 storage.cloud.kargo.com
 0.0.0.0 stream.playbuzz.com # Adwords
 0.0.0.0 study.korean.net
+0.0.0.0 subscribe.pushnetwork.tech
 0.0.0.0 sumo.com
 0.0.0.0 superjuryger.site
 0.0.0.0 supermetrics.idevaffiliate.com
@@ -13717,6 +13729,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 toolbox.brightspotcdn.com # Autotrack Analytics
 0.0.0.0 tools.impactbnd.com
 0.0.0.0 tortoise.proboards.com
+0.0.0.0 tp1jcgl644jk.com
 0.0.0.0 tps.doubleverify.com
 0.0.0.0 tps20231.doubleverify.com
 0.0.0.0 tr.blismedia.com
@@ -13857,6 +13870,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 webcompanion.com
 0.0.0.0 webcontentassessor.com
 0.0.0.0 weborama.fr
+0.0.0.0 webstats.tnaflix.com
 0.0.0.0 webtracking.trifels.de # rheinmain4family.de, frankfurt-tipp.de usw
 0.0.0.0 wekomix.com
 0.0.0.0 welcome.unibet.ee
@@ -15758,6 +15772,21 @@ ff02::3 ip6-allhosts
 # Satellite
 # s. Steam: General Directory Server
 
+# 10tons Ltd
+# JYDGE
+# s. Steam: General Directory Server
+# Ip/s blockieren:
+# 52.72.141.108
+# 54.164.66.28
+# 18.215.25.247
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
+
+# Spellspire
+# s. Steam: General Directory Server
+# 54.225.115.127
+0.0.0.0 10tonsnews.the10tons.com
+
 # 11 Bit Studios
 # Anomaly Warzone Earth
 0.0.0.0 funkyserver2.11bitstudios.com
@@ -16100,6 +16129,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+
+# 505 Games und All In! Games
+# Ghostrunner
+# Ip/s blockieren:
+# 34.96.113.148
+# 2600:1901:0:15bb::
+0.0.0.0 collect16548ghstr.deltadna.net
+0.0.0.0 balanced-collect.deltadna.net
 
 # 8-Bit Studio
 # Skara - The Blade Remains
@@ -16578,8 +16615,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Artifex Mundi
+# Demon Hunter 2
+# 137.117.84.54
+# 168.62.224.13
+0.0.0.0 promo.artifexmundi.com
+0.0.0.0 stats.artifexmundi.com
+0.0.0.0 am-crosspromo.azurewebsites.net
+
 # Path of Sin: Greed
 # 137.117.84.54
+0.0.0.0 promo.artifexmundi.com
 0.0.0.0 am-crosspromo.azurewebsites.net
 
 # Ali Asfand
@@ -16892,17 +16937,31 @@ ff02::3 ip6-allhosts
 0.0.0.0 test.cosmos.channel.or.jp
 0.0.0.0 36.241.186.35.bc.googleusercontent.com
 
-# Für Multiplayer der DarkSouls Spiele die FromSoftware Adressen de/aktivieren
+# Für die Souls Spiele kann hier der Mehrspielermodus optional abgeschaltet werden
+# DARK SOULS™ II
+# 52.36.151.238
+# 34.208.174.153
+#0.0.0.0 frpg2-steam-ope.fromsoftware.jp
+
+# DARK SOULS™: Prepare To Die™ Edition
+# s. Steam: General Directory Server
+
 # DARK SOULS™: REMASTERED
+# 35.163.21.226
+# 35.166.190.0
 #0.0.0.0 fhd-steam-prod.fromsoftware-game.net
 
-# Dark Souls II
-#0.0.0.0 frpg2-steam64-ope-login.fromsoftware-game.net
+# Dark Souls II: Scholar of the First Sin
 # 54.149.135.90
+# 52.32.252.139
+# 52.42.170.254
+#0.0.0.0 frpg2-steam64-ope-login.fromsoftware-game.net
 
 # Dark Souls III
-0.0.0.0 fdp-steam-ope-login.fromsoftware-game.net
+#0.0.0.0 fdp-steam-ope-login.fromsoftware-game.net
 # 52.36.123.251
+# 52.35.220.94
+# 35.163.56.166
 #0.0.0.0 ocsp.msocsp.com
 
 # DeadCore | Update 24.08.2018
@@ -19345,6 +19404,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 
+# Vaporum: Lockdown
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Fatshark AB
 # Warhammer: End Times - Vermintide
 # Spiel und Webseite/n nutzt zudem zahlreiche Google Adressierungen
@@ -20026,6 +20100,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# GameNet
+# Destiny or Fate
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Gamious
@@ -23362,6 +23452,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
+# The Outer Worlds
+# s. Eintrag Steam: IP Checks
+
 # PRODUCTION PENCIL
 # Paradise Cleaning!
 # s. Steam: General Directory Server
@@ -23732,6 +23825,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
+
+# Roastery Games
+# Smartphone Tycoon
+# 108.177.119.94
+# 108.177.127.84
+# 239.255.255.250
+# 224.0.0.251
+#0.0.0.0 accounts.google.com
+#0.0.0.0 www.gstatic.com
 
 # Robert Alvarez
 # Isotiles - Isometric Puzzle Game
@@ -25573,6 +25675,11 @@ ff02::3 ip6-allhosts
 # Axiom Verge
 # s. Steam: General Directory Server
 
+# Thorium
+# Undermine
+# 185.199.111.153
+0.0.0.0 thorium-entertainment.github.io
+
 # Three Flip Studios
 # Ip/s blockieren:
 # 35.241.26.53
@@ -27164,6 +27271,33 @@ ff02::3 ip6-allhosts
 
 # Xenfinity
 # PROJECT VELOCITY
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# XGen Studios
+# The Low Road
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
