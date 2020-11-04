@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 01.11.2020
+# Änderungsdatum: 04.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -743,7 +743,9 @@ ff02::3 ip6-allhosts
 # 52.85.243.107
 # 13.32.240.72
 # 143.204.201.101
+# 23.239.20.32
 #0.0.0.0 www.fxsound.com
+0.0.0.0 dragon-linode.fxsound.com
 
 # Gavrila Martau
 # Total Uninstall
@@ -3160,6 +3162,13 @@ ff02::3 ip6-allhosts
 
 # CLKD
 0.0.0.0 clkd.at
+
+# Clksite.com
+0.0.0.0 clksite.com
+0.0.0.0 p131675.clksite.com
+0.0.0.0 p220333.clksite.com
+0.0.0.0 p232207.clkcln.com
+0.0.0.0 p232207.clksite.com
 
 # Clktag.com
 0.0.0.0 clktag.com
@@ -7141,6 +7150,7 @@ ff02::3 ip6-allhosts
 
 # Verisign, Inc
 # 23.52.27.27
+# 93.184.220.29
 #0.0.0.0 crl.verisign.com
 #0.0.0.0 ocsp.verisign.com
 #0.0.0.0 csc3-2010-crl.verisign.com
@@ -7221,6 +7231,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scout24-d.openx.net
 0.0.0.0 tags-eu.tiqcdn.com
 0.0.0.0 tracking.immobilienscout24.de
+0.0.0.0 tracking.immobilienscout24.at
 0.0.0.0 api-tracking-verification.mobile.immobilienscout24.de
 0.0.0.0 osa.s24-media.immobilienscout24.de
 0.0.0.0 clickout.classmarkets.com
@@ -7550,6 +7561,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 webanalytics.ec.europa.eu
 0.0.0.0 7sa0f65mlc.execute-api.eu-west-1.amazonaws.com
 #0.0.0.0 ec.europa.eu
+
+# Expresscomputer.in
+0.0.0.0 tt1.zedo.com
+0.0.0.0 tt7.zedo.com
+0.0.0.0 tt3.zedo.com
+0.0.0.0 saxp.zedo.com
 
 # Fanatical.com ehemals Bundlestars
 0.0.0.0 api.rollbar.com # Fehlersuche & Absturzreports
@@ -8320,11 +8337,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 d2tycn7nnoiglw.cloudfront.net
 
 # Vimeo
+# 34.120.202.204
 0.0.0.0 fresnel.vimeocdn.com
 #0.0.0.0 48skyfiregce-vimeo.akamaized.net
 #0.0.0.0 player.vimeo.com
 #0.0.0.0 f.vimeocdn.com
 #0.0.0.0 i.vimeocdn.com
+0.0.0.0 player-telemetry.vimeo.com
 
 # Voxmedia.com / TheVerge.com
 #0.0.0.0 volume-assets.voxmedia.com
@@ -10022,36 +10041,26 @@ ff02::3 ip6-allhosts
 
 # Windows 10 Update | ebenfalls svchost.exe
 # Kann verwendet werden um Windows Updates blockieren
-# 52.137.103.96
 # 172.227.179.19
 # 104.124.11.40
 # 65.52.108.90
 # 13.74.179.117
-# 13.78.168.230
 # 64.4.54.18
 # 13.68.93.109
 # 23.216.77.132
 # 13.78.168.230
 # 152.195.11.6
 #0.0.0.0 adl.windows.com
-#0.0.0.0 emdl.ws.microsoft.com
 #0.0.0.0 adldefinitionupdates-wu.azurewebsites.net # verweist auf "definitionsupdates.microsoft.com"
 #0.0.0.0 array607.prod.do.dsp.mp.microsoft.com # Verweist auf TLU Delivery
 #0.0.0.0 array803.prod.do.dsp.mp.microsoft.com
-#0.0.0.0 au.download.windowsupdate.com # z.b. Securityupdates
 #0.0.0.0 cs611.wpc.edgecastcdn.net
 #0.0.0.0 definitionupdates.microsoft.com
 #0.0.0.0 download.microsoft.com # Products.xml
-#0.0.0.0 download.windowsupdate.com
-#0.0.0.0 fe2.update.microsoft.com
-#0.0.0.0 fe2cr.update.microsoft.com
-#0.0.0.0 fe3.delivery.mp.microsoft.com
-#0.0.0.0 fe3cr.delivery.mp.microsoft.com
+#0.0.0.0 emdl.ws.microsoft.com
 #0.0.0.0 sls.update.microsoft.com
 #0.0.0.0 slscr.update.microsoft.com
-#0.0.0.0 tlu.dl.delivery.mp.microsoft.com
 #0.0.0.0 tsfe.trafficshaping.dsp.mp.microsoft.com # Content Regulation z.b. Download optionaler Features
-#0.0.0.0 www.download.windowsupdate.com
 0.0.0.0 cp501-prod.do.dsp.mp.microsoft.com
 0.0.0.0 cp801.prod.do.dsp.mp.microsoft.com
 0.0.0.0 geo.prod.do.dsp.mp.microsoft.com
@@ -10060,7 +10069,39 @@ ff02::3 ip6-allhosts
 0.0.0.0 kv601.prod.do.dsp.mp.microsoft.com
 0.0.0.0 kv801.prod.do.dsp.mp.microsoft.com
 0.0.0.0 settings-win.data.microsoft.com
+# 80.239.148.71
+# 80.239.148.81
+# 2a02:26f0:1b00::5c7b:efa1
 #0.0.0.0 ctldl.windowsupdate.com
+# 8.248.103.254
+# 8.247.186.126
+# 67.27.141.254
+# 8.238.39.126
+# 2001:1900:23a8:1d01::1fe
+# 2001:1900:232c:3013::1fe
+#0.0.0.0 tlu.dl.delivery.mp.microsoft.com
+# 52.242.231.35
+# 20.188.78.185
+#0.0.0.0 fe2.update.microsoft.com
+#0.0.0.0 fe2cr.update.microsoft.com
+# 40.125.122.151
+# 111.221.29.40
+#0.0.0.0 fe3.delivery.mp.microsoft.com
+#0.0.0.0 fe3cr.delivery.mp.microsoft.com
+# 52.137.103.96
+# 93.184.221.240
+# 8.238.42.126
+# 2001:1900:232c:4f03::1fe
+# 2001:1900:232c:3013::1fe
+# 2606:2800:133:672:1e5f:2264:1854:1189
+#0.0.0.0 download.windowsupdate.com
+#0.0.0.0 www.download.windowsupdate.com
+# 52.137.103.96
+#0.0.0.0 au.download.windowsupdate.com # z.b. Securityupdates
+
+# Systemsettings.exe
+# 104.96.44.224
+0.0.0.0 cxcs.microsoft.net
 
 # USO Core Worker Process | usocoreworker.exe & taskhostw.exe
 # 52.142.119.134
@@ -10597,7 +10638,78 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1834.dspg2.akamai.net # Kaia Global Networks Ltd.
 0.0.0.0 a1093.g2.akamai.net
 0.0.0.0 a-0003.a-msedge.net
-#0.0.0.0 static-entertainment-neu-s-msn-com.akamaized.net # Tracker, wird allerdings zum Laden der MSN Seiten benötigt
+
+# Microsoft Edge | 20H2 Update
+# 204.79.197.219
+#0.0.0.0 edge.microsoft.com # Autofillservice
+# 152.199.21.175
+# 2606:2800:233:1cb7:261b:1f9c:2074:3c
+#0.0.0.0 edgewelcomecdn.microsoft.com
+# 104.83.120.32
+# 2a02:26f0:1b00:19b::2c1a
+#0.0.0.0 go.microsoft.com
+# 80.239.148.96
+# 2a02:26f0:1b00::5c7b:ef08
+0.0.0.0 img-prod-cms-rt-microsoft-com.akamaized.net
+# 104.96.36.190
+# 2a02:26f0:1700:183::37
+#0.0.0.0 mem.gfx.ms
+# 52.171.136.200
+0.0.0.0 microsoftedgewelcome.microsoft.com
+# 204.79.197.203
+0.0.0.0 ntp.msn.com # TelemetryDeviceID Tracking Cookie, Prefetch Domains und Service-worker.js
+# 80.239.148.97
+# 80.239.200.51
+#0.0.0.0 statics-marketingsites-wcus-ms-com.akamaized.net
+# 52.51.251.137
+# 52.18.150.20
+# 52.212.193.208
+# 54.75.9.158
+# 52.19.133.54
+# 52.48.45.48
+0.0.0.0 target.microsoft.com
+# 13.107.246.10
+0.0.0.0 wcpstatic.microsoft.com
+# 104.119.109.218
+# 2a02:26f0:1700:1b8::356e
+#0.0.0.0 www.microsoft.com
+# Aktualisierungen
+# 52.159.49.192
+# 40.81.30.53
+# 92.123.237.74
+# 2a02:26f0:1b00::5c7b:ef49
+# 2a02:26f0:1b00::5c7b:ef63
+#0.0.0.0 msedge.api.cdp.microsoft.com
+#0.0.0.0 msedge.f.tlu.dl.delivery.mp.microsoft.com
+# Angesprochene Identity_helper.exe unter 86.0.622.61
+
+# Microsoft Edge | Startseite MSN
+# 92.123.236.27
+# 92.123.236.112
+# 92.123.236.128
+# 92.123.236.130
+# 92.123.236.114
+# 92.123.236.107 usw.
+#0.0.0.0 assets.msn.com
+# 204.79.197.203
+#0.0.0.0 api.msn.com # Ganz wichtig... Wetter
+# 80.239.148.78
+# 80.239.148.88
+# 2a02:26f0:1b00::5c7b:ef33
+# 2a02:26f0:1b00::5c7b:ef43
+#0.0.0.0 img-s-msn-com.akamaized.net
+# 40.90.137.127
+login.live.com
+# 204.79.197.200
+# 2620:1ec:c11::200
+0.0.0.0 r.bing.com
+# Cookie Einwilligung
+# 104.20.185.68
+# 2606:4700:10::6814:b944
+# 2606:4700:10::6814:b844
+0.0.0.0 privacyportal.onetrust.com
+# 204.79.197.203
+#0.0.0.0 www.msn.com
 
 # Microsoft Internet Explorer
 0.0.0.0 otf.msn.com # Trackingpixel
@@ -10686,6 +10798,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 normandy.cdn.mozilla.net
 # Updatechecks für Browser, Thunderbird und Addons
 # 34.96.108.242
+# 13.32.240.118
 #0.0.0.0 ocsp.digicert.com
 #0.0.0.0 aus5.mozilla.org # Update.xml
 #0.0.0.0 versioncheck-bg.addons.mozilla.org
@@ -12195,6 +12308,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.contextweb.com
 0.0.0.0 ads.cpxadroit.com
 0.0.0.0 ads.creative-serving.com
+0.0.0.0 ads.cxoinsightme.com
 0.0.0.0 ads.ebrosia.de
 0.0.0.0 ads.escinteractive.com # Werbung
 0.0.0.0 ads.kiwys.com
@@ -12232,6 +12346,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adswrapme.click
 0.0.0.0 adt.reallifecam.com
 0.0.0.0 adtag.sphdigital.com
+0.0.0.0 adtarbo.eywamedia.com
 0.0.0.0 adternal.com
 0.0.0.0 adtrak.org
 0.0.0.0 adultcomix.biz
@@ -12308,6 +12423,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.clickaine.com
 0.0.0.0 api.clym-sdk.net
 0.0.0.0 api.content-ad.net
+0.0.0.0 api.coursehero.com
 0.0.0.0 api.crbn.in
 0.0.0.0 api.dec.sitefinity.com
 0.0.0.0 api.ictjob.de # GTM UA-86839601-21
@@ -12424,6 +12540,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bitonclick.com
 0.0.0.0 bizx.info
 0.0.0.0 bj1110.online
+0.0.0.0 blip.bizrate.com
 0.0.0.0 bongacams7.com # Tracking Script
 0.0.0.0 booking.hkexpress.com
 0.0.0.0 bookpadd.com
@@ -12446,6 +12563,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 c.hit.ua
 0.0.0.0 c.imedia.cz
 0.0.0.0 c.jsrdn.com
+0.0.0.0 c.lytics.io
 0.0.0.0 c.omsnative.de
 0.0.0.0 c.orjzy.com
 0.0.0.0 c.oznul.com
@@ -12501,6 +12619,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.districtm.ca # Verweis auf dmx.districtm.ca - Tracker / Ad Receiver
 0.0.0.0 cdn.empower.net
 0.0.0.0 cdn.enthusiast.gg # Prebid Script von Gamersheroes.com
+0.0.0.0 cdn.feathr.co
 0.0.0.0 cdn.findologic.com
 0.0.0.0 cdn.fourpercent.com
 0.0.0.0 cdn.gatustox.net
@@ -12516,6 +12635,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.iubenda.com
 0.0.0.0 cdn.jubna.com
 0.0.0.0 cdn.jubnaadserve.com
+0.0.0.0 cdn.klangoo.com
 0.0.0.0 cdn.lapalingo.com
 0.0.0.0 cdn.magnetcall.com
 0.0.0.0 cdn.mateti.net
@@ -12535,6 +12655,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.pushcrew.com
 0.0.0.0 cdn.radiantmediatechs.com
 0.0.0.0 cdn.rawgit.com
+0.0.0.0 cdn.rejoiner.com
 0.0.0.0 cdn.relappro.com
 0.0.0.0 cdn.revjet.com
 0.0.0.0 cdn.run-syndicate.com
@@ -12547,12 +12668,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.speakol.com
 0.0.0.0 cdn.speedcurve.com
 0.0.0.0 cdn.spylees.com
+0.0.0.0 cdn.stat-track.com
 0.0.0.0 cdn.static-fra.de
 0.0.0.0 cdn.steepto.com
 0.0.0.0 cdn.teamskeetimages.com
 0.0.0.0 cdn.tech426.com
 0.0.0.0 cdn.thisiswaldo.com
 0.0.0.0 cdn.threadloom.com
+0.0.0.0 cdn.tokopedia.net
 0.0.0.0 cdn.tpdads.com
 0.0.0.0 cdn.webclicks24.com
 0.0.0.0 cdn.www.cccpmo.com
@@ -12596,7 +12719,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 clix.superclix.de
 0.0.0.0 clk.rtpdn11.com
 0.0.0.0 clk.verblife-2.co
-0.0.0.0 clksite.com
 0.0.0.0 clkuk.tradedoubler.com
 0.0.0.0 clmcom.com
 0.0.0.0 cloud.typography.com
@@ -12630,6 +12752,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 concentleconse.site
 0.0.0.0 config.heasycouponsaccess.com
 0.0.0.0 config.seedtag.com
+0.0.0.0 connection.groupbycloud.com
 0.0.0.0 connexity.net
 0.0.0.0 consent-pref.trustarc.com # Cookie Nagscreen
 0.0.0.0 consent.cmp.gamesradar.com
@@ -12640,6 +12763,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 constintptr.com
 0.0.0.0 consumersweepstakes.online
 0.0.0.0 content.adunity.com
+0.0.0.0 content.maropost.com
 0.0.0.0 convertkit.com
 0.0.0.0 cookie-sync-desktop.yellowblue.io
 0.0.0.0 cookieinfoscript.com
@@ -12757,6 +12881,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 earandmarketing.com
 0.0.0.0 easycouponsaccess.com
 0.0.0.0 eatcells.com
+0.0.0.0 ec.walkme.com
 0.0.0.0 ecdn.analysis.fi
 0.0.0.0 echo.nws.press
 0.0.0.0 ed3.de # Revive Adserver
@@ -12819,6 +12944,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 floater.playstream.media
 0.0.0.0 flow.lavasoft.com
 0.0.0.0 fo-static.omnitagjs.com
+0.0.0.0 forms.m-pages.com
 0.0.0.0 fourpercent.com
 0.0.0.0 fr-campaign.gccdn.net
 0.0.0.0 free-download-manager.joydownload.com
@@ -12833,6 +12959,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 g.adspeed.net
 0.0.0.0 g.tmyzer.com
 0.0.0.0 gandalf-eu.segmentify.com
+0.0.0.0 gapi.beeketing.com
 0.0.0.0 gatustox.net
 0.0.0.0 gbucket.ch
 0.0.0.0 gcdn.galleria.co.kr
@@ -13062,6 +13189,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lessblog.pro
 0.0.0.0 letitbify.com
 0.0.0.0 level3ssl.optimicdn.com
+0.0.0.0 lib-us-1.brilliantcollector.com
 0.0.0.0 libs.aseads.com
 0.0.0.0 likemore-fe.go.mail.ru
 0.0.0.0 likemore-go.imgsmail.ru
@@ -13109,13 +13237,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 m.dr-datenschutz.de
 0.0.0.0 m.reachmax.cn
 0.0.0.0 m2d.m2.ai
+0.0.0.0 magnetapi.klangoo.com
 0.0.0.0 magnetic.t.domdex.com
+0.0.0.0 magnetrack.klangoo.com
 0.0.0.0 mahimeta.com
 0.0.0.0 mailbc.hanbiro.net
 0.0.0.0 main.pubexchange.com
 0.0.0.0 maketypefreshappclicks.icu
 0.0.0.0 man.vm5apis.com
 0.0.0.0 mantodea.mantisadnetwork.com
+0.0.0.0 marco.feathr.co
 0.0.0.0 market.space
 0.0.0.0 marketing.net.ocm.de
 0.0.0.0 markhor.organicfruitapps.com
@@ -13156,6 +13287,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 medienwoche.podigee.io
 0.0.0.0 meetinggear.com
 0.0.0.0 megadarky.ic.cz # Werbung
+0.0.0.0 mena-gmtdmp.mookie1.com
 0.0.0.0 meowpushnot.com
 0.0.0.0 meraxes-cdn.polarmobile.com
 0.0.0.0 metrics.gfycat.com
@@ -13174,6 +13306,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 money-quickly.com
 0.0.0.0 monorail-edge.shopifysvc.com
 0.0.0.0 mormont.gamer-network.net
+0.0.0.0 mpct1.maropost.com
 0.0.0.0 mprd.se
 0.0.0.0 mps.nbcuni.com
 0.0.0.0 mqwms.qxpress.asia
@@ -13182,6 +13315,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mtm.httptest.de # Matomo
 0.0.0.0 multinews.me
 0.0.0.0 mwzeom.zeotap.com
+0.0.0.0 mxl.connexity.net
 0.0.0.0 mybestmv.com
 0.0.0.0 mybrowseraddon.com
 0.0.0.0 n-cdn-origin.areyouahuman.com
@@ -13217,6 +13351,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 offers.tracking6666.xyz
 0.0.0.0 offoonguser.com
 0.0.0.0 olybethelp.zendesk.com
+0.0.0.0 olytics.omeda.com
 0.0.0.0 om.forgeofempires.com
 0.0.0.0 omappapi.awesomemotive.netdna-cdn.com
 0.0.0.0 onclickgenius.com
@@ -13227,6 +13362,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 openstat.net
 0.0.0.0 openx.einbock-internet.de
 0.0.0.0 opt.q-divisioncdn.de
+0.0.0.0 oqs.omeda.com
 0.0.0.0 orientaldaily.on.cc
 0.0.0.0 orionis.techradar.com
 0.0.0.0 output.nend.net
@@ -13236,9 +13372,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.errorception.com
 0.0.0.0 p.eruon.de # Piwik
 0.0.0.0 p.vtracy.de
-0.0.0.0 p220333.clksite.com
-0.0.0.0 p232207.clkcln.com
-0.0.0.0 p232207.clksite.com
 0.0.0.0 pa.rxthdr.com
 0.0.0.0 padslims.com
 0.0.0.0 pagiwp.com
@@ -13265,6 +13398,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 phoobsoo.net
 0.0.0.0 picstraffic.com
 0.0.0.0 pimmuter.com
+0.0.0.0 pingback.issuu.com
 0.0.0.0 pinkpeonyshop.qstore.id
 0.0.0.0 pipe.swisscom.com
 0.0.0.0 piwik.advantic.de
@@ -13287,6 +13421,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pixel-a.basis.net
 0.0.0.0 pixel-geo.prfct.co
 0.0.0.0 pixel.33across.com
+0.0.0.0 pixel.adacado.com
 0.0.0.0 pixel.anyclip.com
 0.0.0.0 pixel.ionos.de
 0.0.0.0 pixel.onaudience.com
@@ -13308,6 +13443,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pmzer.com
 0.0.0.0 polarmobile.com
 0.0.0.0 politads.com
+0.0.0.0 polo.feathr.co
 0.0.0.0 pool.turktelekom.iponweb.net
 0.0.0.0 poolgmsd.com
 0.0.0.0 pop.bid
@@ -13399,6 +13535,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rack-east.mobileadtrading.com
 0.0.0.0 ramp.purch.com
 0.0.0.0 ranks1.apserver.net
+0.0.0.0 rapi.walkme.com
 0.0.0.0 rbp.mxptint.net
 0.0.0.0 rcp.c.appier.net
 0.0.0.0 rddywd.com
@@ -13424,6 +13561,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 revealed2day.com
 0.0.0.0 revive.serveads.biz
 0.0.0.0 risedwoman.info
+0.0.0.0 rj2.rejoiner.com
 0.0.0.0 rk.revolvermaps.com
 0.0.0.0 rmsi-vermarktung.de
 0.0.0.0 rnorlexanderly.info
@@ -13483,6 +13621,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kiosked.com
 0.0.0.0 scripts.mediavine.com
 0.0.0.0 sdhfbvd.com
+0.0.0.0 sdk.beeketing.com
 0.0.0.0 sdk.repixel.co
 0.0.0.0 sdk.split.io
 0.0.0.0 sdk.streamrail.com
@@ -13656,8 +13795,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.mdn2015x3.com
 0.0.0.0 t.mftracking.com
 0.0.0.0 t.mplxtms.com
+0.0.0.0 t.myvisualiq.net
 0.0.0.0 t.powerreviews.com
 0.0.0.0 t.repixel.co
+0.0.0.0 t.stat-track.com
 0.0.0.0 t.trafmag.com
 0.0.0.0 t.uimserv.net
 0.0.0.0 t.visx.net
@@ -13740,6 +13881,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 track-eu.adformnet.akadns.net
 0.0.0.0 track.affiliate-b.com
 0.0.0.0 track.attributionapp.com
+0.0.0.0 track.beeketing.com
 0.0.0.0 track.cccpmo.com
 0.0.0.0 track.clickbooth.com
 0.0.0.0 track.clkmgtrack.com
@@ -13849,6 +13991,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 vop.sundaysky.com
 0.0.0.0 vpaid.springserve.net
 0.0.0.0 vsb92.tawk.to # Websocket Ping
+0.0.0.0 vt.myvisualiq.net
 0.0.0.0 vznrw-piwik.init-ag.de # Verbraucherzentrale Bayern e.V.
 0.0.0.0 w-it.m-t.io
 0.0.0.0 w.ad.style
@@ -13870,6 +14013,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 webcompanion.com
 0.0.0.0 webcontentassessor.com
 0.0.0.0 weborama.fr
+0.0.0.0 websdk.appsflyer.com
 0.0.0.0 webstats.tnaflix.com
 0.0.0.0 webtracking.trifels.de # rheinmain4family.de, frankfurt-tipp.de usw
 0.0.0.0 wekomix.com
@@ -22941,7 +23085,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
-# Paradox Interactive
+# Paradox Interactive AB
 # Battletech
 # Unity für Analytics, Dyndns für Iperfassung
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -23086,6 +23230,32 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamcdn-a.akamaihd.net # nochmal Grafiken
 #0.0.0.0 legal.paradoxplaza.com # Nutzungsbedingungen WEB
 
+# Surviving the Aftermath
+# 167.114.119.127
+# 167.114.103.79
+# 167.114.172.69
+# 151.101.114.217
+# 52.206.171.113
+# 54.144.197.183
+# 18.233.247.123
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 usage.trackjs.com
+0.0.0.0 capture.trackjs.com
+0.0.0.0 prod-telemetry.paradox-interactive.com
+#0.0.0.0 services.paradoxplaza.com
+#0.0.0.0 api.paradox-interactive.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
 # Tyranny
 0.0.0.0 pdxint.at
 #0.0.0.0 www.tyrannygame.com
@@ -23093,7 +23263,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 services.paradoxplaza.com
 #0.0.0.0 support.paradoxplaza.com
 0.0.0.0 paradox.zendesk.com
-0.0.0.0 fast.fonts.net
+#0.0.0.0 fast.fonts.net
 #0.0.0.0 res.cloudinary.com
 0.0.0.0 use.fontawesome.com
 #0.0.0.0 p5.zdassets.com # Stylesheetablage z.b. für Humblebundle
@@ -25183,6 +25353,22 @@ ff02::3 ip6-allhosts
 # 52.27.8.50
 0.0.0.0 p-5ea1-mainserver-1132673268.us-west-2.elb.amazonaws.com
 
+# Tactical Adventures
+# Solasta: Crown of the Magister
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # TaleWorlds Entertainment
 # Mount & Blade: Warband
 # s. Steam: General Directory Server
@@ -26912,12 +27098,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.xd.com # Ping, Produktname, ID, ProgrammID, Androidkennung, AliPay Name, QQ Adresse usw
 # Access KeyID, Ankündigungen, Statistiken, Highscores
 # 106.75.73.208
-0.0.0.0 prpr-muse-dash.peropero.net
+#0.0.0.0 prpr-muse-dash.peropero.net # News, zeitlich freigeschaltete Stages, Erfolge
 # Bilder
 # 101.227.0.137
 # 180.163.121.248
-0.0.0.0 file-prpr-muse-dash.peropero.net
-0.0.0.0 lc-ipdzczx0.cn-n1.lcfile.com
+#0.0.0.0 file-prpr-muse-dash.peropero.net
+#0.0.0.0 lc-ipdzczx0.cn-n1.lcfile.com
 0.0.0.0 chinacdnweb.qiniu.com.w.kunlunno.com
 # Sonstiges
 # 114.80.187.75

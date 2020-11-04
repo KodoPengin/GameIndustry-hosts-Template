@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 01.11.2020
+# Änderungsdatum: 04.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -8617,7 +8617,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
-# Paradox Interactive
+# Paradox Interactive AB
 # Battletech
 # Unity für Analytics, Dyndns für Iperfassung
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -8762,6 +8762,32 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamcdn-a.akamaihd.net # nochmal Grafiken
 #0.0.0.0 legal.paradoxplaza.com # Nutzungsbedingungen WEB
 
+# Surviving the Aftermath
+# 167.114.119.127
+# 167.114.103.79
+# 167.114.172.69
+# 151.101.114.217
+# 52.206.171.113
+# 54.144.197.183
+# 18.233.247.123
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 usage.trackjs.com
+0.0.0.0 capture.trackjs.com
+0.0.0.0 prod-telemetry.paradox-interactive.com
+#0.0.0.0 services.paradoxplaza.com
+#0.0.0.0 api.paradox-interactive.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
 # Tyranny
 0.0.0.0 pdxint.at
 #0.0.0.0 www.tyrannygame.com
@@ -8769,7 +8795,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 services.paradoxplaza.com
 #0.0.0.0 support.paradoxplaza.com
 0.0.0.0 paradox.zendesk.com
-0.0.0.0 fast.fonts.net
+#0.0.0.0 fast.fonts.net
 #0.0.0.0 res.cloudinary.com
 0.0.0.0 use.fontawesome.com
 #0.0.0.0 p5.zdassets.com # Stylesheetablage z.b. für Humblebundle
@@ -10859,6 +10885,22 @@ ff02::3 ip6-allhosts
 # 52.27.8.50
 0.0.0.0 p-5ea1-mainserver-1132673268.us-west-2.elb.amazonaws.com
 
+# Tactical Adventures
+# Solasta: Crown of the Magister
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # TaleWorlds Entertainment
 # Mount & Blade: Warband
 # s. Steam: General Directory Server
@@ -12588,12 +12630,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.xd.com # Ping, Produktname, ID, ProgrammID, Androidkennung, AliPay Name, QQ Adresse usw
 # Access KeyID, Ankündigungen, Statistiken, Highscores
 # 106.75.73.208
-0.0.0.0 prpr-muse-dash.peropero.net
+#0.0.0.0 prpr-muse-dash.peropero.net # News, zeitlich freigeschaltete Stages, Erfolge
 # Bilder
 # 101.227.0.137
 # 180.163.121.248
-0.0.0.0 file-prpr-muse-dash.peropero.net
-0.0.0.0 lc-ipdzczx0.cn-n1.lcfile.com
+#0.0.0.0 file-prpr-muse-dash.peropero.net
+#0.0.0.0 lc-ipdzczx0.cn-n1.lcfile.com
 0.0.0.0 chinacdnweb.qiniu.com.w.kunlunno.com
 # Sonstiges
 # 114.80.187.75
