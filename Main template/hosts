@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 04.11.2020
+# Änderungsdatum: 09.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -726,6 +726,7 @@ ff02::3 ip6-allhosts
 
 # FOXIT SOFTWARE INC.
 # PhantomPDF
+# 34.235.29.14
 0.0.0.0 globe-active.foxitservice.com
 0.0.0.0 globe-pis.foxitservice.com
 0.0.0.0 cws.connectedpdf.com
@@ -734,6 +735,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 logger.foxitcloud.com
 0.0.0.0 startpage.foxitsoftware.com
 0.0.0.0 ec2-34-226-94-139.compute-1.amazonaws.com
+0.0.0.0 cws-site-1191008954.us-east-1.elb.amazonaws.com
 # Ausgehender Support mit Google Analytics, Tagmanager und Affiliatekampange verseucht
 0.0.0.0 www.google-analytics.com # UA-6473166-12
 0.0.0.0 www.googletagmanager.com
@@ -1464,9 +1466,11 @@ ff02::3 ip6-allhosts
 # 52.216.232.61
 # 13.225.73.4
 # 34.231.194.216
+# 23.21.241.41
 #0.0.0.0 activate.glasswire.com
 #0.0.0.0 update.glasswire.com
 #0.0.0.0 www.glasswire.com # Nutzerstatisitken an Amazon AWS gekekoppelt
+0.0.0.0 ec2-23-21-241-41.compute-1.amazonaws.com
 0.0.0.0 58b222ebbb6cc6c8c8c9a46127ae3a3e.cloudfront.net
 
 # Sergey Serkov
@@ -1532,6 +1536,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.softwarenetz.nl
 0.0.0.0 www.softwarenetz.fr
 0.0.0.0 www.softwarenetz.es
+
+# Sophos Ltd.
+# Sophos Central Intercept X
+# Sophos Telemetry Submitter- }
+# 13.224.197.210
+# 54.192.85.185
+0.0.0.0 d1gfrkifd23qlt.cloudfront.net
+0.0.0.0 server-54-192-85-185.ams50.r.cloudfront.net
 
 # Stardock Corporation
 # Fences
@@ -2966,6 +2978,12 @@ ff02::3 ip6-allhosts
 # 216.21.13.15
 0.0.0.0 buitxcrnucyi.com
 0.0.0.0 www.buitxcrnucyi.com
+
+# Bullads.net
+# Ip/s blockieren:
+# 185.117.74.21
+0.0.0.0 bullads.net
+0.0.0.0 www.bullads.net
 
 # Buysellads.com & net
 0.0.0.0 srv.buysellads.com
@@ -7040,11 +7058,13 @@ ff02::3 ip6-allhosts
 #0.0.0.0 crl.godaddy.com
 
 # Google, LLC
+# 108.177.126.94
 # 173.194.222.94
 # 172.217.16.131
 # 216.58.206.3
 # 172.217.23.99
 # 216.58.208.99
+# 216.58.208.35
 #0.0.0.0 crl.pki.goog
 #0.0.0.0 ocsp.pki.goog
 #0.0.0.0 pki-goog.l.google.com
@@ -7057,16 +7077,19 @@ ff02::3 ip6-allhosts
 # 151.139.128.14
 # 2.17.140.5
 # 2.17.45.211
+# 23.213.164.6
 #0.0.0.0 www.intel.com
 #0.0.0.0 ocsp.intel.com
 #0.0.0.0 pki.intel.com
 #0.0.0.0 certificates.intel.com
 0.0.0.0 intel.az1.qualtrics.com
 0.0.0.0 zn5ydlsbwpgrsccsp-qps.siteintercept.qualtrics.com
+0.0.0.0 gameplayapi.intel.com
 
 # Letsencrypt.org
 # 2.21.76.105
 # 95.101.72.175
+# 88.221.223.35
 #0.0.0.0 ocsp.int-x3.letsencrypt.org
 
 # Microsoft Online Certificate Status Protocol
@@ -9650,6 +9673,7 @@ ff02::3 ip6-allhosts
 # Das Microsoft Betriebssystem absichern und überflüssige Funktionen zum Schweigenn bringen
 
 # Antimalware Service Executable | MsMpEng.exe | Smartscreen
+# 40.113.109.30
 # 40.85.78.63
 # 40.112.72.44
 # 40.113.97.222
@@ -10101,7 +10125,8 @@ ff02::3 ip6-allhosts
 
 # Systemsettings.exe
 # 104.96.44.224
-0.0.0.0 cxcs.microsoft.net
+# 23.196.209.236
+0.0.0.0 cxcs.microsoft.net # TipSet
 
 # USO Core Worker Process | usocoreworker.exe & taskhostw.exe
 # 52.142.119.134
@@ -10946,6 +10971,7 @@ login.live.com
 0.0.0.0 ctsu.creative.com
 0.0.0.0 ec2-54-169-123-93.ap-southeast-1.compute.amazonaws.com
 # Updates für Command
+# 13.227.255.24
 #0.0.0.0 files.creative.com
 #0.0.0.0 sbconnect.creative.com
 # Zertifikate
@@ -12023,7 +12049,9 @@ login.live.com
 # Deutscher kommerzieller Internet Austauschknoten
 
 # 80.81.193.108
+# 80.81.192.28
 #0.0.0.0 de-cix.fra.google.com
+#0.0.0.0 ae8.decix-fra9.netarch.akamai.com
 
 #
 # Cookie Hinweise
@@ -12192,6 +12220,7 @@ login.live.com
 #0.0.0.0 it.toolbox.com
 #0.0.0.0 paibopse.com
 #0.0.0.0 threadsphere.bid
+0.0.0.0 0i0i0i0.com
 0.0.0.0 0pixl.com
 0.0.0.0 10-81.s.cdn15.com
 0.0.0.0 10739-3.s.cdn15.com
@@ -12232,6 +12261,7 @@ login.live.com
 0.0.0.0 a.bestcontentprogram.top
 0.0.0.0 a.impactradius-go.com
 0.0.0.0 a.omappapi.com
+0.0.0.0 a.optimizesrv.com
 0.0.0.0 a.optmstr.com
 0.0.0.0 a.optnmnstr.com
 0.0.0.0 a.utraff.com
@@ -12532,6 +12562,7 @@ login.live.com
 0.0.0.0 bestitpromo.com
 0.0.0.0 beta-eue-1.steelcentral.net
 0.0.0.0 betano.com
+0.0.0.0 bgn2zqlce1eiya.icu
 0.0.0.0 bgstaging-a.akamaized.net
 0.0.0.0 bids.proper.io
 0.0.0.0 biltag.bilsyndication.com
@@ -12545,6 +12576,7 @@ login.live.com
 0.0.0.0 booking.hkexpress.com
 0.0.0.0 bookpadd.com
 0.0.0.0 boostingads.com
+0.0.0.0 borderoffenseantenna.com
 0.0.0.0 boudja.com
 0.0.0.0 brain.rvty.net # Heise.de
 0.0.0.0 brand.solvay.com
@@ -12815,6 +12847,7 @@ login.live.com
 0.0.0.0 d.omsnative.de
 0.0.0.0 d1j8v290qqvibb.cloudfront.net
 0.0.0.0 d24ak3f2b.top
+0.0.0.0 d2cmh8xu3ncrj2.cloudfront.net
 0.0.0.0 d5p.de17a.com
 0.0.0.0 d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com
 0.0.0.0 d8526382938814309666-t4400066239592907150.id.amgdgt.com
@@ -12838,6 +12871,7 @@ login.live.com
 0.0.0.0 de.sitestat.com
 0.0.0.0 debeatoswickkil.ml
 0.0.0.0 dec.azureedge.net # Collect v2 mit Verweis auf api.dec.sitefinity.com
+0.0.0.0 dejourned.club
 0.0.0.0 delivery.adam.rmsi.de
 0.0.0.0 delivery.forkcdn.com
 0.0.0.0 delivery.impressionmonster.com
@@ -12868,6 +12902,7 @@ login.live.com
 0.0.0.0 double-clickd.com
 0.0.0.0 doublepimpads.com
 0.0.0.0 download.gamesrv1.com
+0.0.0.0 drctslk.com
 0.0.0.0 ds-pr-bh.ybp.gysm.yahoodns.net
 0.0.0.0 dsfgp.admenhost.com
 0.0.0.0 dskyseconomic.info
@@ -12895,6 +12930,7 @@ login.live.com
 0.0.0.0 embed.tempestpremium.com
 0.0.0.0 engine.ecwid.com
 0.0.0.0 engine.widespace.com
+0.0.0.0 enkayijamal.club
 0.0.0.0 enormitteen.pro
 0.0.0.0 epeex.com
 0.0.0.0 epmads.com
@@ -12927,6 +12963,7 @@ login.live.com
 0.0.0.0 f.convertkit.com
 0.0.0.0 f8578e82bbd50609bb70.date
 0.0.0.0 faigroas.net
+0.0.0.0 faindianship.club
 0.0.0.0 fallsm.ndg.io
 0.0.0.0 fastmoney.mobi
 0.0.0.0 fc.webmasterpro.de # Counter
@@ -13044,6 +13081,7 @@ login.live.com
 0.0.0.0 hgbn1.com
 0.0.0.0 hgbnr.com
 0.0.0.0 hghit.com
+0.0.0.0 hif.to
 0.0.0.0 hipersushiads.com
 0.0.0.0 hits-i.iubenda.com
 0.0.0.0 hocgeese.com
@@ -13092,6 +13130,7 @@ login.live.com
 0.0.0.0 impactserving.com
 0.0.0.0 impactslam.com
 0.0.0.0 improving.duckduckgo.com
+0.0.0.0 in-page-push.com
 0.0.0.0 in.orangepie.biz
 0.0.0.0 in.oznul.com
 0.0.0.0 in.paycounter.com
@@ -13103,6 +13142,7 @@ login.live.com
 0.0.0.0 insights.dyn.archdaily.com # Trackingpixel
 0.0.0.0 insights.maestro.io
 0.0.0.0 insights.sitesearch360.com # Sessioncookies
+0.0.0.0 inspectorstrongerpill.com
 0.0.0.0 instant.page
 0.0.0.0 instantresp.com
 0.0.0.0 intelligenceadx.com
@@ -13122,6 +13162,7 @@ login.live.com
 0.0.0.0 issues.alticast.com
 0.0.0.0 ist5-1.filesor.com
 0.0.0.0 itm.ivitrack.com
+0.0.0.0 itnuzleafan.com
 0.0.0.0 ixf2-api.bc0a.com
 0.0.0.0 iyalc.com
 0.0.0.0 iyfnzgb.com
@@ -13160,11 +13201,13 @@ login.live.com
 0.0.0.0 jsn.24smi.net
 0.0.0.0 json.foxpush.com
 0.0.0.0 jubnaadserve.com
+0.0.0.0 jumpsite.vip
 0.0.0.0 k.r66net.com
 0.0.0.0 k77hof1z7k.com
 0.0.0.0 kampaaniad.optibet.ee
 0.0.0.0 katie.trktnc.com
 0.0.0.0 kayakm.comm
+0.0.0.0 kdjkfjekrkjer.xyz
 0.0.0.0 keapeiros.xyz
 0.0.0.0 kerumal.com
 0.0.0.0 keyupgrade.goodsetupforcontentsafefree.date
@@ -13302,6 +13345,7 @@ login.live.com
 0.0.0.0 mls.gomasterkey.com
 0.0.0.0 mnto.mhygig.com
 0.0.0.0 mobile-app-market-here1.info
+0.0.0.0 mobileadvertise.de
 0.0.0.0 mona.admanmedia.com
 0.0.0.0 money-quickly.com
 0.0.0.0 monorail-edge.shopifysvc.com
@@ -13326,6 +13370,7 @@ login.live.com
 0.0.0.0 n3-r2d2.piguiqproxy.com
 0.0.0.0 n3.cdn.adbetnet.com
 0.0.0.0 native.propellerclick.com
+0.0.0.0 ncediscou.fun
 0.0.0.0 newdonate.com
 0.0.0.0 newmayads.com
 0.0.0.0 newrrb.bid
@@ -13346,6 +13391,7 @@ login.live.com
 0.0.0.0 oblivki.biz
 0.0.0.0 ocular.pepper.com
 0.0.0.0 oe.wwa.wipe.de
+0.0.0.0 offerimage.com
 0.0.0.0 offers.bestclicks.xyz
 0.0.0.0 offers.hopa.com
 0.0.0.0 offers.tracking6666.xyz
@@ -13357,6 +13403,8 @@ login.live.com
 0.0.0.0 onclickgenius.com
 0.0.0.0 onclickprediction.com
 0.0.0.0 onetag-sys.com
+0.0.0.0 onmarshtompor.com
+0.0.0.0 onstunkyr.com
 0.0.0.0 op.cryptobrowser.site
 0.0.0.0 openimage.interpark.com
 0.0.0.0 openstat.net
@@ -13365,10 +13413,12 @@ login.live.com
 0.0.0.0 oqs.omeda.com
 0.0.0.0 orientaldaily.on.cc
 0.0.0.0 orionis.techradar.com
+0.0.0.0 oufauthy.net
 0.0.0.0 output.nend.net
 0.0.0.0 ox-i.majorgeeks.com
 0.0.0.0 ox-ui.gol-network.com
 0.0.0.0 oxa.lvz-service.de
+0.0.0.0 oyi9f1kbaj.com
 0.0.0.0 p.errorception.com
 0.0.0.0 p.eruon.de # Piwik
 0.0.0.0 p.vtracy.de
@@ -13396,6 +13446,7 @@ login.live.com
 0.0.0.0 pghbl1.pubgalaxy.com
 0.0.0.0 pgw.glbpay.com
 0.0.0.0 phoobsoo.net
+0.0.0.0 phooreew.net
 0.0.0.0 picstraffic.com
 0.0.0.0 pimmuter.com
 0.0.0.0 pingback.issuu.com
@@ -13452,6 +13503,7 @@ login.live.com
 0.0.0.0 portal.blau.de
 0.0.0.0 portal.solvay.com
 0.0.0.0 portedlysarcatc.info
+0.0.0.0 powerad.ai
 0.0.0.0 pp.lp4.io
 0.0.0.0 pprod-advantage-taxe.sigma.fr
 0.0.0.0 pqqep.hornymilfalone.com
@@ -13499,6 +13551,7 @@ login.live.com
 0.0.0.0 pushlinck.com
 0.0.0.0 pushmejs.com
 0.0.0.0 pushokey.com
+0.0.0.0 pushsar.com
 0.0.0.0 pushwhy.com
 0.0.0.0 pv.medialead.de
 0.0.0.0 pvpro.com
@@ -13560,6 +13613,7 @@ login.live.com
 0.0.0.0 rev4rtb.com
 0.0.0.0 revealed2day.com
 0.0.0.0 revive.serveads.biz
+0.0.0.0 rf.revolvermaps.com
 0.0.0.0 risedwoman.info
 0.0.0.0 rj2.rejoiner.com
 0.0.0.0 rk.revolvermaps.com
@@ -13617,6 +13671,7 @@ login.live.com
 0.0.0.0 sc.iasds01.com
 0.0.0.0 sc.trustpayglobal.com
 0.0.0.0 scene-front.lokaplatform.com
+0.0.0.0 screenshotfactory.com
 0.0.0.0 scripts.attributionapp.com
 0.0.0.0 scripts.kiosked.com
 0.0.0.0 scripts.mediavine.com
@@ -13633,6 +13688,8 @@ login.live.com
 0.0.0.0 secure-cdn.mplxtms.com
 0.0.0.0 secure-dcr.imrworldwide.com # Sessiontracking -> Facebook
 0.0.0.0 securetracker.org
+0.0.0.0 seespiracul.top
+0.0.0.0 seespiracul.top
 0.0.0.0 seg.ad.gt
 0.0.0.0 segmentnext-com.videoplayerhub.com
 0.0.0.0 segments-api-pro-yky7y5vtuq-ew.a.run.app
@@ -13775,6 +13832,7 @@ login.live.com
 0.0.0.0 sync.widespace.com
 0.0.0.0 sync01.engageya.com
 0.0.0.0 synchrobox.adswizz.com
+0.0.0.0 syndication.optimizesrv.com
 0.0.0.0 t-a8m80ov2dr.wc.yahoodns.net
 0.0.0.0 t-b8m80ov2dr.wc.yahoodns.net
 0.0.0.0 t-c8m80ov2dr.wc.yahoodns.net
@@ -13894,6 +13952,7 @@ login.live.com
 0.0.0.0 track.webgains.com
 0.0.0.0 track.youniversalmedia.com
 0.0.0.0 track1.aniview.com
+0.0.0.0 tracker.auskunft.de
 0.0.0.0 tracker.ffftrgf.com
 0.0.0.0 tracker.metricool.com
 0.0.0.0 tracker.nbcuas.com
@@ -13987,6 +14046,7 @@ login.live.com
 0.0.0.0 visitor-service-eu-central-1.tealiumiq.com
 0.0.0.0 vn.mmvpay.com
 0.0.0.0 vod.addevweb.com
+0.0.0.0 voltskegscurate.com
 0.0.0.0 volvejudgetneig.info
 0.0.0.0 vop.sundaysky.com
 0.0.0.0 vpaid.springserve.net
@@ -14082,7 +14142,6 @@ login.live.com
 0.0.0.0 www.bnserving.com
 0.0.0.0 www.brightonclick.com
 0.0.0.0 www.btserve.com
-0.0.0.0 www.bullads.net
 0.0.0.0 www.burstnet.com
 0.0.0.0 www.buzzonclick.com
 0.0.0.0 www.cccpmo.com
@@ -14107,6 +14166,7 @@ login.live.com
 0.0.0.0 www.dnzevkqpk.com
 0.0.0.0 www.dpbolvw.net
 0.0.0.0 www.eadv.it
+0.0.0.0 www.ecpms.net
 0.0.0.0 www.empiri.win
 0.0.0.0 www.etracker.de
 0.0.0.0 www.financial-infos.de # Trackingpixel und Werbung
@@ -14119,6 +14179,7 @@ login.live.com
 0.0.0.0 www.goodsetup4content.trade
 0.0.0.0 www.hansang.net
 0.0.0.0 www.helltraffic.com
+0.0.0.0 www.highprofitnetworks.com
 0.0.0.0 www.hitcpm.com
 0.0.0.0 www.hostadserver.com
 0.0.0.0 www.hotdogsandads.com
@@ -15122,9 +15183,6 @@ login.live.com
 0.0.0.0 ucppropagationservice.ubi.com
 
 # Valve Corporation | Valve Softworks
-# Steam: Client und Webseite
-0.0.0.0 www.google-analytics.com # Google Analytics auf so ziemlich jeder Seite, selbst in privaten und Ticketbereichen - ID: UA-33779068-1
-
 # Steam: Anmeldeserver
 # 155.133.249.196
 # 155.133.248.37
@@ -15254,11 +15312,19 @@ login.live.com
 # Beispiel für Breodcasting über Contentserver
 # https://cache5-ams1.steamcontent.com/broadcast/76561199005420507/7883999028056715455/segment/video/4/*.*
 
+# Steam: Bootstrapper - Beispiele einiger Endpunkte
+#0.0.0.0 162-254-198-18.valve.net
+#0.0.0.0 162-254-198-104.valve.net
+#0.0.0.0 162-254-198-130.valve.net
+#0.0.0.0 162-254-198-131.valve.net
+
 # Steam: CDN | Content Delivery Network
 # Block nicht empfohlen, aber möglich. Wirkt sich auf zahlreiche Drittanbiterseiten aus, die allesamt auf Steam verlinken
+# 2.16.106.88
 # 2.21.228.105
 # 190.98.152.34
 # 2.21.228.17
+# 80.239.200.19
 #0.0.0.0 steamcdn-a.akamaihd.net # Grafiken Erfolge, Produktgrafiken, Headerbilder, Vorschaubilder usw.
 
 # Steam: Chat
@@ -15283,6 +15349,9 @@ login.live.com
 # 23.62.113.19
 #0.0.0.0 steam-chat.com # Javascript WebUI, JSON, Miniprofile
 
+# Steam: Client und Webseite
+0.0.0.0 www.google-analytics.com # Google Analytics x3 - UA-33786258-1, UA-33779068-1 und UA-63631619-1
+
 # Steam: Client Update Service
 # 2.21.228.80
 # 155.133.250.108
@@ -15295,6 +15364,7 @@ login.live.com
 #0.0.0.0 client-download.steampowered.com
 
 # Steam: Clientkonfiguration
+# 80.239.200.27
 # 2.21.228.120
 # 2.21.228.73
 # 190.98.152.18
@@ -15368,6 +15438,7 @@ login.live.com
 
 # Steam: Beispiele für Produkt | Spieledownload | Depots
 # Komplette Liste ist ähnlich groß wie die der Mehrspielerserverlisten etwas weiter unten
+# 162.254.198.14
 # 87.245.208.52
 # 108.177.126.128
 # 155.133.250.67
@@ -15390,6 +15461,7 @@ login.live.com
 #0.0.0.0 cache3-ams1.steamcontent.com
 #0.0.0.0 cache54-fra1.steamcontent.com
 #0.0.0.0 cache8-ams1.steamcontent.com
+#0.0.0.0 cache1-sto1.steamcontent.com
 #0.0.0.0 cdn.highwinds.cs.steampowered.com # Depot Manifest
 # Neue Downloadserver seit Sept./Okt. 2020
 #0.0.0.0 cache1.hel-retn.steamcontent.com
@@ -16360,6 +16432,10 @@ login.live.com
 # s. Steam: General Directory Server
 
 # Volgarr the Viking
+# s. Steam: General Directory Server
+
+# Adventure Productions
+# Detective Gallo
 # s. Steam: General Directory Server
 
 # aeiowu
@@ -20143,6 +20219,43 @@ login.live.com
 # Clicker Guild
 #0.0.0.0 EFDE.playfabapi.com # Speicherstände
 
+# Freejam Ltd.
+# Robocraft
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 52.218.31.42
+# 99.80.114.94
+# 52.211.61.165
+# 88.150.159.132
+# 13.224.194.105
+# 52.17.104.102
+# 52.213.94.30
+# 52.218.106.18
+# s. Rubrik Kopierschutz / AntiCheat
+0.0.0.0 logs.freejamgames.com
+#0.0.0.0 services-1.servers.robocraftgame.com
+#0.0.0.0 chat-1.servers.robocraftgame.com
+#0.0.0.0 social-1.servers.robocraftgame.com
+#0.0.0.0 gameservices-1.servers.robocraftgame.com
+#0.0.0.0 lobby-1.servers.robocraftgame.com
+#0.0.0.0 auth-backend.freejamgames.com
+#0.0.0.0 pay.robocraftgame.com
+#0.0.0.0 images-pull.freejam.netdna-cdn.com
+#0.0.0.0 leaderboards.robocraftgame.com
+#0.0.0.0 robocraftstaticdata.s3.amazonaws.com
+#0.0.0.0 ec2-52-213-94-30.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-52-213-101-171.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-52-17-104-102.eu-west-1.compute.amazonaws.com
+#0.0.0.0 server-13-224-194-105.fra2.r.cloudfront.net
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
 # Frozen District und PlayWay S.A.
 # House Flipper
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -20415,7 +20528,11 @@ login.live.com
 0.0.0.0 script.google.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 perf-events.cloud.unity3d.com # Seit der letzten Überprüfung neu dabei
+0.0.0.0 perf-events.cloud.unity3d.com
+
+# GrabTheGames & Ratalaika Games S.L.
+# Devious Dungeon
+# s. Steam: General Directory Server
 
 # Graphite Lab
 # Hive Jump
@@ -22226,6 +22343,13 @@ login.live.com
 # Microids
 # Asterix & Obelix XXL 2
 # s. Steam: General Directory Server
+
+# Garfield Kart
+# 67.225.180.26
+# 67.225.180.24
+0.0.0.0 host6.unity3d.com
+0.0.0.0 assets2.unity3d.com
+0.0.0.0 connectiontester.unity3d.com
 
 # Yesterday Origins
 # s. Rubrik Kopierschutz / AntiCheat
@@ -25524,10 +25648,14 @@ login.live.com
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
+# 35.190.88.234
 # 35.241.52.229
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -25806,6 +25934,17 @@ login.live.com
 0.0.0.0 board.pinoklgames.com # Feedback
 
 # Phantom Trigger
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 

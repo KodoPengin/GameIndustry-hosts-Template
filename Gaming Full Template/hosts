@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 04.11.2020
+# Änderungsdatum: 09.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -654,9 +654,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ucppropagationservice.ubi.com
 
 # Valve Corporation | Valve Softworks
-# Steam: Client und Webseite
-0.0.0.0 www.google-analytics.com # Google Analytics auf so ziemlich jeder Seite, selbst in privaten und Ticketbereichen - ID: UA-33779068-1
-
 # Steam: Anmeldeserver
 # 155.133.249.196
 # 155.133.248.37
@@ -786,11 +783,19 @@ ff02::3 ip6-allhosts
 # Beispiel für Breodcasting über Contentserver
 # https://cache5-ams1.steamcontent.com/broadcast/76561199005420507/7883999028056715455/segment/video/4/*.*
 
+# Steam: Bootstrapper - Beispiele einiger Endpunkte
+#0.0.0.0 162-254-198-18.valve.net
+#0.0.0.0 162-254-198-104.valve.net
+#0.0.0.0 162-254-198-130.valve.net
+#0.0.0.0 162-254-198-131.valve.net
+
 # Steam: CDN | Content Delivery Network
 # Block nicht empfohlen, aber möglich. Wirkt sich auf zahlreiche Drittanbiterseiten aus, die allesamt auf Steam verlinken
+# 2.16.106.88
 # 2.21.228.105
 # 190.98.152.34
 # 2.21.228.17
+# 80.239.200.19
 #0.0.0.0 steamcdn-a.akamaihd.net # Grafiken Erfolge, Produktgrafiken, Headerbilder, Vorschaubilder usw.
 
 # Steam: Chat
@@ -815,6 +820,9 @@ ff02::3 ip6-allhosts
 # 23.62.113.19
 #0.0.0.0 steam-chat.com # Javascript WebUI, JSON, Miniprofile
 
+# Steam: Client und Webseite
+0.0.0.0 www.google-analytics.com # Google Analytics x3 - UA-33786258-1, UA-33779068-1 und UA-63631619-1
+
 # Steam: Client Update Service
 # 2.21.228.80
 # 155.133.250.108
@@ -827,6 +835,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 client-download.steampowered.com
 
 # Steam: Clientkonfiguration
+# 80.239.200.27
 # 2.21.228.120
 # 2.21.228.73
 # 190.98.152.18
@@ -900,6 +909,7 @@ ff02::3 ip6-allhosts
 
 # Steam: Beispiele für Produkt | Spieledownload | Depots
 # Komplette Liste ist ähnlich groß wie die der Mehrspielerserverlisten etwas weiter unten
+# 162.254.198.14
 # 87.245.208.52
 # 108.177.126.128
 # 155.133.250.67
@@ -922,6 +932,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cache3-ams1.steamcontent.com
 #0.0.0.0 cache54-fra1.steamcontent.com
 #0.0.0.0 cache8-ams1.steamcontent.com
+#0.0.0.0 cache1-sto1.steamcontent.com
 #0.0.0.0 cdn.highwinds.cs.steampowered.com # Depot Manifest
 # Neue Downloadserver seit Sept./Okt. 2020
 #0.0.0.0 cache1.hel-retn.steamcontent.com
@@ -1892,6 +1903,10 @@ ff02::3 ip6-allhosts
 # s. Steam: General Directory Server
 
 # Volgarr the Viking
+# s. Steam: General Directory Server
+
+# Adventure Productions
+# Detective Gallo
 # s. Steam: General Directory Server
 
 # aeiowu
@@ -5675,6 +5690,43 @@ ff02::3 ip6-allhosts
 # Clicker Guild
 #0.0.0.0 EFDE.playfabapi.com # Speicherstände
 
+# Freejam Ltd.
+# Robocraft
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 52.218.31.42
+# 99.80.114.94
+# 52.211.61.165
+# 88.150.159.132
+# 13.224.194.105
+# 52.17.104.102
+# 52.213.94.30
+# 52.218.106.18
+# s. Rubrik Kopierschutz / AntiCheat
+0.0.0.0 logs.freejamgames.com
+#0.0.0.0 services-1.servers.robocraftgame.com
+#0.0.0.0 chat-1.servers.robocraftgame.com
+#0.0.0.0 social-1.servers.robocraftgame.com
+#0.0.0.0 gameservices-1.servers.robocraftgame.com
+#0.0.0.0 lobby-1.servers.robocraftgame.com
+#0.0.0.0 auth-backend.freejamgames.com
+#0.0.0.0 pay.robocraftgame.com
+#0.0.0.0 images-pull.freejam.netdna-cdn.com
+#0.0.0.0 leaderboards.robocraftgame.com
+#0.0.0.0 robocraftstaticdata.s3.amazonaws.com
+#0.0.0.0 ec2-52-213-94-30.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-52-213-101-171.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-52-17-104-102.eu-west-1.compute.amazonaws.com
+#0.0.0.0 server-13-224-194-105.fra2.r.cloudfront.net
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
 # Frozen District und PlayWay S.A.
 # House Flipper
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -5947,7 +5999,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 script.google.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 perf-events.cloud.unity3d.com # Seit der letzten Überprüfung neu dabei
+0.0.0.0 perf-events.cloud.unity3d.com
+
+# GrabTheGames & Ratalaika Games S.L.
+# Devious Dungeon
+# s. Steam: General Directory Server
 
 # Graphite Lab
 # Hive Jump
@@ -7758,6 +7814,13 @@ ff02::3 ip6-allhosts
 # Microids
 # Asterix & Obelix XXL 2
 # s. Steam: General Directory Server
+
+# Garfield Kart
+# 67.225.180.26
+# 67.225.180.24
+0.0.0.0 host6.unity3d.com
+0.0.0.0 assets2.unity3d.com
+0.0.0.0 connectiontester.unity3d.com
 
 # Yesterday Origins
 # s. Rubrik Kopierschutz / AntiCheat
@@ -11056,10 +11119,14 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
+# 35.190.88.234
 # 35.241.52.229
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -11338,6 +11405,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 board.pinoklgames.com # Feedback
 
 # Phantom Trigger
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
