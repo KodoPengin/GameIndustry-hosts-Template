@@ -1539,7 +1539,7 @@ ff02::3 ip6-allhosts
 
 # Sophos Ltd.
 # Sophos Central Intercept X
-# Sophos Telemetry Submitter- }
+# Sophos Telemetry Submitter
 # 13.224.197.210
 # 54.192.85.185
 0.0.0.0 d1gfrkifd23qlt.cloudfront.net
