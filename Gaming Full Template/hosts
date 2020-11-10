@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 09.11.2020
+# Änderungsdatum: 10.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -6308,17 +6308,70 @@ ff02::3 ip6-allhosts
 
 # Hello Games
 # No Man’s Sky
-# Ip/s blockieren:
-# 34.235.76.2105
-# 34.232.158.1015
-# 54.210.178.455
-# 52.54.160.160
-# 3.95.84.175
 # 40.79.65.200
-0.0.0.0 api.gameanalytics.com
+# 40.127.226.74
+# 20.54.32.47
+# 44.236.210.51
 0.0.0.0 pc-nms-auth.nomanssky.com
+0.0.0.0 waws-prod-bn1-033.cloudapp.net
 0.0.0.0 prodpc-nmso-blobserve.azurewebsites.net
 0.0.0.0 prodpc-nmso-discoverypipeline.azurewebsites.net
+0.0.0.0 prodpc-nms-images.nomanssky.com
+# Onlinezwang mit Telemetrie verknüpft - Bei Bedarf für Mehrspielermodi und Onlinefunktionen freischalten
+# 34.218.159.2
+# 34.212.67.193
+# 44.241.93.30
+# 52.34.177.175
+0.0.0.0 a247c.playfabapi.com # Telemetry Events, Multiplayerserver, Clientlogin, Objectdata, Matchmaking, Partyrequests
+0.0.0.0 p-a247c-mainserver-800395549.us-west-2.elb.amazonaws.com
+# Microsoft Speech
+# 40.82.255.0
+0.0.0.0 westus.tts.speech.microsoft.com
+0.0.0.0 tts-ingress-prod7.westus.cloudapp.azure.com
+# Nochmal Telemetrie/Spyware
+# Ip/s blockieren:
+# 52.201.163.195
+# 54.156.235.193
+# 3.230.190.87
+# 34.235.76.210
+# 34.232.158.101
+# 54.210.178.45
+# 52.54.160.160
+# 3.95.84.175
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 ec2-54-156-235-193.compute-1.amazonaws.com
+0.0.0.0 ec2-3-230-190-87.compute-1.amazonaws.com
+# Mehrspielerserver
+# 51.136.18.233
+# 137.135.201.29
+# 52.167.1.193
+# 138.91.117.92
+# 40.74.72.97
+# 52.162.214.5
+# 52.175.55.156
+# 168.63.239.108
+# 23.97.97.114
+# 138.91.17.112
+# 40.115.66.5
+# 52.187.224.118
+# 104.42.219.41
+# 23.98.144.17
+# 168.61.145.218
+#0.0.0.0 pfmsqosprod.westus.cloudapp.azure.com # West US
+#0.0.0.0 xblcxplatqos-scus-9-18-2-0.cloudapp.net # South Central US
+#0.0.0.0 blcxplatqos-cus-9-18-2-0.cloudapp.net # Central US
+#0.0.0.0 pfmsqosprod.northcentralus.cloudapp.azure.com # North Central US
+#0.0.0.0 xblcxplatqos-eus-9-18-2-0.cloudapp.net # East US
+#0.0.0.0 fmsqosprod.eastus2.cloudapp.azure.com # East US 2
+#0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net # Brazil South
+#0.0.0.0 xblcxplatqos-neu-9-18-2-0.cloudapp.net # North Europe
+#0.0.0.0 pfmsqosprod.westeurope.cloudapp.azure.com # West Europe
+#0.0.0.0 xblcxplatqos-seas-9-18-2-0.cloudapp.net # South East Asia
+#0.0.0.0 pfmsqosprod.eastasia.cloudapp.azure.com # East Asia
+#0.0.0.0 pfmsqosprod.japanwest.cloudapp.azure.com # Japan West
+#0.0.0.0 xblcxplatqos-jae-9-18-2-0.cloudapp.net # Japan East
+#0.0.0.0 xblcxplatqos-ause-9-18-2-0.cloudapp.net # Australia South East
+#0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com # Australia East
 
 # Hello There Games
 # Teakwondo Grand Prix
