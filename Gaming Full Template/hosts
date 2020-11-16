@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 10.11.2020
+# Änderungsdatum: 16.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -9950,6 +9950,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 
 # Shenmue I & II
+# Ip/s blockieren:
+# 54.194.1.222
+# 108.128.20.34
+# 34.252.170.86
+# 34.246.129.184
+# 52.19.49.120
+# 52.214.131.46
 0.0.0.0 garry.sgaas.net
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 
@@ -10071,7 +10078,6 @@ ff02::3 ip6-allhosts
 # 172.217.18.162
 # 216.58.207.38
 # 216.58.207.66
-# 45.60.47.160
 # 172.217.18.110
 # 92.123.20.242
 # 2.19.46.25
@@ -10172,14 +10178,39 @@ ff02::3 ip6-allhosts
 # Yakuza Kiwami
 # Ip/s blockieren:
 # 52.44.13.74
+# 108.128.20.34
+# 54.194.1.222
+# 34.252.170.86
+# 34.246.129.184
+# 52.19.49.120
+# 52.214.131.46
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 0.0.0.0 garry.sgaas.net
 
 # Yakuza Kiwami 2
 # Ip/s blockieren:
 # 34.254.42.191
+# 52.44.13.74
+# 108.128.20.34
+# 54.194.1.222
+# 34.252.170.86
+# 34.246.129.184
+# 52.19.49.120
+# 52.214.131.46
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 0.0.0.0 garry.sgaas.net
+
+# Yakuza: Like a dragon
+# s. Rubrik Kopierschutz / AntiCheat
+# Ip/s blockieren:
+# 34.252.170.86
+# 52.19.49.120
+# 52.214.131.46
+# 54.194.1.222
+# 108.128.20.34
+# 34.246.129.184
+0.0.0.0 garry.sgaas.net
+0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 
 # SeithCG
 # Ghost of a Tale
