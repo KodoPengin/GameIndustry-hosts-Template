@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 16.11.2020
+# Änderungsdatum: 22.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1202,7 +1202,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 srv02.codefusion.technology
 #0.0.0.0 srv03.codefusion.technology
 #0.0.0.0 support.codefusion.technology
-# In neueren Titeln wurden für mich ersichtlich keine Zertifikate mehr abgefragt
 #0.0.0.0 ocsp2.globalsign.com
 #0.0.0.0 crl.globalsign.com
 
@@ -4560,6 +4559,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
+# Robo-Orders
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
 # Surviving in the forest
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -4580,6 +4594,10 @@ ff02::3 ip6-allhosts
 # s. Steam: General Directory Server
 
 # Slain: Back from Hell
+# s. Steam: General Directory Server
+
+# Digital Bento
+# A Salem Witch Trial - Murder Mystery
 # s. Steam: General Directory Server
 
 # DigitalDNA Games LLC
@@ -5186,10 +5204,12 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -5199,16 +5219,33 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Neoncers
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 stats.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Rocketcers
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # First Game Studio
@@ -7217,6 +7254,22 @@ ff02::3 ip6-allhosts
 # Door Kickers: Action Squad
 # s. Steam: General Directory Server
 0.0.0.0 www.google-analytics.com # Tracker alle paar Sekunden aktiv
+
+# Kindly Beast
+# Showdown Bandit
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Kinetic Games
 # Ip/s blockieren:
@@ -10490,6 +10543,9 @@ ff02::3 ip6-allhosts
 
 # 軒轅劍外傳穹之扉《The Gate of Firmament》
 # s. Steam: General Directory Server
+
+# 轩辕剑柒《Xuan-Yuan Sword VII》
+# s. Eintrag Steam: IP Checks
 
 # Softwaves Dist.
 # The Village

@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 16.11.2020
+# Änderungsdatum: 22.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -465,6 +465,16 @@ ff02::3 ip6-allhosts
 # Macrorit® Data Wiper
 0.0.0.0 www.macrorit.com
 0.0.0.0 macrorit.com
+
+# Balena
+# Balena Etcher
+# Ip/s blockieren:
+# 157.230.120.63
+# 107.20.209.223
+#0.0.0.0 balena.io
+#0.0.0.0 code.jquery.com # JQuery 3.5.1
+0.0.0.0 assets.balena.io # SVG, CSS, Schriften, verweidt auf api.balena-cloud.com mit der mp.min.js für's Tracking
+0.0.0.0 api.balena-cloud.com # Verknüpft mit Mixpanel api.balena-cloud.com/mixpanel/track/
 
 # Bandicam Company
 # Bandicam
@@ -1639,6 +1649,13 @@ ff02::3 ip6-allhosts
 # Update Herstellerliste
 #0.0.0.0 standards-oui.ieee.org
 
+# Techpowerup.com
+# NVCleanstall
+# 104.24.103.78
+# 66.165.247.234
+#0.0.0.0 gpu.me # Abgleich Treiberdatenbank mit Versionsnummern
+#0.0.0.0 www.techpowerup.com # Versioncheck
+
 # Tim Kosse
 # FileZilla
 0.0.0.0 ads.filezilla-project.org
@@ -1929,6 +1946,9 @@ ff02::3 ip6-allhosts
 
 # Ad-Stir
 0.0.0.0 bypass.ad-stir.com
+0.0.0.0 sync.ad-stir.com
+0.0.0.0 js.ad-stir.com
+0.0.0.0 ad.ad-stir.com
 
 # Adadvisor
 0.0.0.0 adadvisor.net
@@ -4184,6 +4204,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 api-iam.intercom.io
 0.0.0.0 widget.intercom.io
 
+# Intergi Entertainment
+0.0.0.0 cdn.intergi.com # Werbung - Aktive Amazon Kinesis, Tracking und PreBID Scripte auf resetera.com
+0.0.0.0 devcdn.intergi.com
+
 # Internet Assigned Numbers Authority | IANA
 # Mcast.net
 #0.0.0.0 igmp.mcast.net # Multistream Regulierungen
@@ -5211,6 +5235,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 aufeminin-e-d.openx.net
 0.0.0.0 automatad-d.openx.net
 0.0.0.0 carambola-d.openx.net
+0.0.0.0 cbsi-d.openx.net
 0.0.0.0 connatix-d.openx.net
 0.0.0.0 delivery-us-east-1.openx.net
 0.0.0.0 deviantart-d.openx.net
@@ -6057,6 +6082,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 tg.socdm.com
 0.0.0.0 frtn.socdm.com
 0.0.0.0 tg.dr.socdm.com
+0.0.0.0 ssl.socdm.com
+0.0.0.0 i.socdm.com
 
 # Sociomantic.com
 0.0.0.0 ap-sonar.sociomantic.com
@@ -6250,6 +6277,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cds-eu-1.taboola.com
 0.0.0.0 cds.taboola.com
 0.0.0.0 tls13.taboola.map.fastly.net
+0.0.0.0 sync.taboola.com
 
 # Tagcommander | Marketing und Budgetoptimierung
 0.0.0.0 cdn.tagcommander.com
@@ -6452,9 +6480,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 hit.api.useinsider.com
 
 # Usercentrics.eu
+# 35.190.14.188
 0.0.0.0 graphql.usercentrics.eu
 0.0.0.0 api.usercentrics.eu
 0.0.0.0 app.usercentrics.eu
+0.0.0.0 privacy-proxy.usercentrics.eu
 
 # Userreplay.net
 0.0.0.0 userreplay.net
@@ -7043,6 +7073,8 @@ ff02::3 ip6-allhosts
 # 151.101.14.133
 # 104.18.20.226
 # 104.18.21.226
+# 2606:4700::6812:14e2
+# 2606:4700::6812:15e2
 #0.0.0.0 crl.globalsign.net
 #0.0.0.0 ocsp.globalsign.com
 #0.0.0.0 ocsp2.globalsign.com
@@ -7154,6 +7186,7 @@ ff02::3 ip6-allhosts
 # 217.170.186.113
 # 46.29.101.82
 # 46.29.101.84
+# 80.158.6.0
 #0.0.0.0 ocsp.telesec.de
 #0.0.0.0 ocsp.serverpass.telesec.de
 #0.0.0.0 emig.ocsp.telesec.de
@@ -7782,7 +7815,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d-ipv6.mmapiws.com
 0.0.0.0 ie02.zopim.com
 0.0.0.0 ie12.zopim.com
-0.0.0.0 v2.zopim.com
+#0.0.0.0 v2.zopim.com # LiveChat Widget
 0.0.0.0 api.ravelin.net
 0.0.0.0 device.maxmind.com
 0.0.0.0 cdn.ravelin.net
@@ -8194,6 +8227,21 @@ ff02::3 ip6-allhosts
 # t-online.de, giga.de, spieletipps.de, kino.de, desired.de, spielaffe.de, kicker.de, 4players.de, pcgames.de, pcgameshardware.de, videogameszone.de, gamezone.de, gamesaktuell.de, buffed.de, golem.de uvw.
 0.0.0.0 d379964aymex2x.cloudfront.net
 
+# Schöffel Sportbekleidung GmbH inkl. japanischer Vertrieb über die SSK CORPORATION
+0.0.0.0 ping-dmp.xlisting.jp
+0.0.0.0 trck.schoeffel.com
+0.0.0.0 in.treasuredata.com
+0.0.0.0 log.codemarketing.cloud
+0.0.0.0 conf.codemarketing.cloud
+0.0.0.0 asset.codemarketing.cloud
+0.0.0.0 asia-northeast1-code-mc-cdp.cloudfunctions.net
+0.0.0.0 rssc.www.sskstores.jp
+0.0.0.0 cd.ladsp.com
+0.0.0.0 px.ladsp.com
+0.0.0.0 um.ladsp.com
+0.0.0.0 cd.valis-cpx.jp
+0.0.0.0 tag.ecbooster.jp
+
 # Soundcloud.com
 0.0.0.0 api.soundcloud.com # Tracker
 0.0.0.0 l9bjkkhaycw6f8f4.soundcloud.com
@@ -8563,6 +8611,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dalb.valuecommerce.com
 0.0.0.0 dalc.valuecommerce.com
 0.0.0.0 delivery.locari.jp
+0.0.0.0 discoveryplus.popin.cc
 0.0.0.0 flux-cdn.com # flux-g.com
 0.0.0.0 gather.ihani.co.kr
 0.0.0.0 hbw.adjust-net.jp
@@ -8600,6 +8649,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sankei2ad.durasite.net
 0.0.0.0 sherpa-server-arm-prd6.gacraft.jp # Websocket
 0.0.0.0 site.gnavi.co.jp
+0.0.0.0 sp.gmossp-sp.jp
 0.0.0.0 ssp.realclick.co.kr
 0.0.0.0 static.karte.io # Tracker Widget
 0.0.0.0 sync.addlv.smt.docomo.ne.jp
@@ -9506,6 +9556,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 firebaseremoteconfig.googleapis.com
 0.0.0.0 firebaseinstallations.googleapis.com
 
+# Google GMail
+# 172.217.22.5
+0.0.0.0 mail-ads.google.com
+
 # Google GStatic
 # 173.194.73.94
 # 172.217.21.195
@@ -9803,7 +9857,8 @@ ff02::3 ip6-allhosts
 
 # Weiterleitungen
 # 104.83.120.32
-#0.0.0.0 go.microsoft.com
+# 104.108.183.77
+#0.0.0.0 go.microsoft.com # u.A. HWID Requests & Weitergabe Gerätemetadaten via POST
 # 23.61.218.119
 #0.0.0.0 e11290.dspg.akamaiedge.net
 
@@ -12295,7 +12350,6 @@ login.live.com
 0.0.0.0 ad-store.sgp1.digitaloceanspaces.com
 0.0.0.0 ad.a-ads.com
 0.0.0.0 ad.ad-arata.com
-0.0.0.0 ad.ad-stir.com
 0.0.0.0 ad.adnet.de
 0.0.0.0 ad.adperium.com
 0.0.0.0 ad.adverticum.net
@@ -12663,7 +12717,6 @@ login.live.com
 0.0.0.0 cdn.impactserving.com
 0.0.0.0 cdn.impactslam.com
 0.0.0.0 cdn.innity.net
-0.0.0.0 cdn.intergi.com # Aktive Amazon Kinesis, Tracking und PreBID Scripte auf resetera.com
 0.0.0.0 cdn.ipromcloud.com
 0.0.0.0 cdn.iubenda.com
 0.0.0.0 cdn.jubna.com
@@ -12784,6 +12837,7 @@ login.live.com
 0.0.0.0 compass.adop.cc
 0.0.0.0 concentleconse.site
 0.0.0.0 config.heasycouponsaccess.com
+0.0.0.0 config.playwire.com # Videos verknüpft mit Pubmatic, Sonobi, Rubiconproject, Districtm uvm.
 0.0.0.0 config.seedtag.com
 0.0.0.0 connection.groupbycloud.com
 0.0.0.0 connexity.net
@@ -13101,7 +13155,6 @@ login.live.com
 0.0.0.0 i.imstks.com
 0.0.0.0 i.jsrdn.com
 0.0.0.0 i.sng.link
-0.0.0.0 i.socdm.com
 0.0.0.0 i18n.bnbstatic.com
 0.0.0.0 iabusprivacy.pmc.com
 0.0.0.0 ibclick.stream
@@ -13179,7 +13232,6 @@ login.live.com
 0.0.0.0 js-api.otherlevels.com
 0.0.0.0 js-ssl.neodatagroup.com
 0.0.0.0 js.ad-score.com
-0.0.0.0 js.ad-stir.com
 0.0.0.0 js.bestquickcontentfiles.com
 0.0.0.0 js.hs-analytics.net
 0.0.0.0 js.hs-banner.com
@@ -14083,7 +14135,7 @@ login.live.com
 0.0.0.0 wheelches.info
 0.0.0.0 whoami-web.prod.ps.axelspringer.de
 0.0.0.0 whoami.bhcont.com
-0.0.0.0 widget-mediator.zopim.com
+#0.0.0.0 widget-mediator.zopim.com # Livechat WSS
 0.0.0.0 widget.beop.io
 0.0.0.0 widget.cdn.vidyome.com
 0.0.0.0 widget.engageya.com
@@ -15732,7 +15784,6 @@ login.live.com
 #0.0.0.0 srv02.codefusion.technology
 #0.0.0.0 srv03.codefusion.technology
 #0.0.0.0 support.codefusion.technology
-# In neueren Titeln wurden für mich ersichtlich keine Zertifikate mehr abgefragt
 #0.0.0.0 ocsp2.globalsign.com
 #0.0.0.0 crl.globalsign.com
 
@@ -19090,6 +19141,21 @@ login.live.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
+# Robo-Orders
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
 # Surviving in the forest
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -19110,6 +19176,10 @@ login.live.com
 # s. Steam: General Directory Server
 
 # Slain: Back from Hell
+# s. Steam: General Directory Server
+
+# Digital Bento
+# A Salem Witch Trial - Murder Mystery
 # s. Steam: General Directory Server
 
 # DigitalDNA Games LLC
@@ -19716,10 +19786,12 @@ login.live.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -19729,16 +19801,33 @@ login.live.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Neoncers
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 stats.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Rocketcers
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # First Game Studio
@@ -21747,6 +21836,22 @@ login.live.com
 # Door Kickers: Action Squad
 # s. Steam: General Directory Server
 0.0.0.0 www.google-analytics.com # Tracker alle paar Sekunden aktiv
+
+# Kindly Beast
+# Showdown Bandit
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Kinetic Games
 # Ip/s blockieren:
@@ -25020,6 +25125,9 @@ login.live.com
 
 # 軒轅劍外傳穹之扉《The Gate of Firmament》
 # s. Steam: General Directory Server
+
+# 轩辕剑柒《Xuan-Yuan Sword VII》
+# s. Eintrag Steam: IP Checks
 
 # Softwaves Dist.
 # The Village
