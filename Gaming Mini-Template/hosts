@@ -9,11 +9,11 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Template für PC-Spiele - Mini-Version
-# Änderungsdatum: 12.09.2020
+# Änderungsdatum: 20.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
-# Hilfe: https://www.gameindustry.eu/hosts/faq.php
+# Hilfe: https://hosts.gameindustry.eu/faq/
 # Kontakt: https://www.gameindustry.eu/u/kontakt/
 # Steam: https://www.steamcommunity.com/groups/Penguindome
 #
@@ -47,6 +47,8 @@ ff02::3		ip6-allhosts
 # (Amazon.com, Inc.)
 # Blockieren: 52.94.229.182
 0.0.0.0 kinesis.us-east-1.amazonaws.com
+0.0.0.0 kinesis.us-west-2.amazonaws.com
+0.0.0.0 kinesis.ap-northeast-1.amazonaws.com
 
 # (Aspyr)
 # Blockieren: 54.148.251.172
@@ -83,7 +85,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 cgpromotion.blob.core.windows.net
 
 # (DeltaDNA, Ltd)
-# Blockieren: 31.3.232.184, 34.96.113.148, 78.129.129.136
+# Blockieren: 31.3.232.184, 34.96.113.148, 78.129.129.136, 2600:1901:0:15bb::
 0.0.0.0 balanced-collect.deltadna.net
 0.0.0.0 collect14010thrnb.deltadna.net # Thronebreaker: The Witcher Tales
 0.0.0.0 collect3515gvrnr.deltadna.net # Governor of Poker 3
@@ -94,10 +96,11 @@ ff02::3		ip6-allhosts
 0.0.0.0 collect9543hvjmp.deltadna.net # Hive Jump 
 0.0.0.0 collect13623ww19v.deltadna.net # WWE 2K19
 0.0.0.0 collect14853cntrl.deltadna.net # Control: Ultimate Edition
+0.0.0.0 collect16548ghstr.deltadna.net # Ghostrunner
 
 # (Epic Games, Inc.)
 # [UnrealEngine Analytics]
-# Dazugehörige IP-Adressen unter https://gameindustry.eu/firmenkatalog/epic-games-inc/
+# Dazugehörige IPv4-Adressen unter https://gameindustry.eu/firmenkatalog/epic-games-inc/
 0.0.0.0 et.epicgames.com
 0.0.0.0 et2.epicgames.com
 0.0.0.0 qos1.ol.epicgames.com
@@ -119,7 +122,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 ftp.fatshark.se
 
 # (GameAnalytics)
-# Blockieren: 3.208.241.25, 18.215.25.247, 34.232.158.101, 34.235.76.210, 52.54.160.160, 52.72.141.108, 54.85.112.35, 54.164.66.28, 54.210.167.166, 54.210.178.45, 52.73.89.97, 34.238.54.250
+# Dazugehörige IPv4-Adressen unter https://gameindustry.eu/firmenkatalog/gameanalytics/
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 api-us.gameanalytics.com
 0.0.0.0 gameanalytics.com
@@ -197,7 +200,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 prod.telemetry.ros.rockstargames.com
 
 # (Sega Games Co., Ltd.)
-# Blockieren: 52.48.186.45, 52.44.13.74, 34.252.170.86
+# Dazugehörige IPv4-Adressen unter https://www.gameindustry.eu/firmenkatalog/sega-games-co-ltd/
 0.0.0.0 garry.sgaas.net
 0.0.0.0 hull.sgaas.net
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
