@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 22.11.2020
+# Änderungsdatum: 23.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -921,6 +921,7 @@ ff02::3 ip6-allhosts
 # 155.133.248.29
 # 155.133.248.22
 # 155.133.248.19
+# 2a01:bc80:a:101:0:0:b919:b625
 #0.0.0.0 cache10-ams1.steamcontent.com
 #0.0.0.0 cache11-ams1.steamcontent.com
 #0.0.0.0 cache12-ams1.steamcontent.com
@@ -941,6 +942,18 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cache2-hel-retn.steamcontent.com
 #0.0.0.0 cache2-hrk-retn.steamcontent.com
 #0.0.0.0 cache2-svo-retn.steamcontent.com
+#0.0.0.0 cache5-par1.steamcontent.com
+#0.0.0.0 cache6-par1.steamcontent.com
+# Weitere Drittanbieter
+# 2a01:53c0:ff02:ffff:1dbc:b542:5ea:f787
+# 2a01:bc80:a:101:0:0:b919:b625
+# 2001:4de0:ac19:0:0:1:b:2a
+# 2600:1901:0:d9fc:0:0:0:0
+# 8.238.40.124
+#0.0.0.0 steam.naeu.qtlglb.com
+#0.0.0.0 f3b7q2p3.ssl.hwcdn.net
+#0.0.0.0 google.cdn.steampipe.steamcontent.com
+#0.0.0.0 level3.cdn.steampipe.steamcontent.com
 
 # Steam: Experimentelles Blockieren von Telemetrie, Spyware, Bloatware und Kommentaren - Nicht anwenderfreundlich
 #0.0.0.0 cdn.cloudflare.steamstatic.com
@@ -1090,6 +1103,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamstore-a.akamaihd.net # Produktgrafiken, Icons, JQuery Scripts, Alterskennzeichnung, Bundles, Subs, Avatare, CSS, Javascript, Clientgrafiken
 
 # Steam: Unkategorisiert
+# 2a02:26f0:105:0:0:0:216:16d3
 0.0.0.0 steampipe.akamaized.net
 
 # Steam: Weitere Drittanbieter
@@ -3935,6 +3949,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
+# Conatus Creative Inc.
+# River City Ransom: Underground
+# s. Steam: General Directory Server
+
 # Cornered Rat Software
 # World War II Online
 #0.0.0.0 secure.wwiionline.com
@@ -5646,8 +5664,12 @@ ff02::3 ip6-allhosts
 
 # Frontier Developments
 # Elite Dangerous
+# 52.17.149.223
+# 65.9.86.74
+# 52.218.112.130
 #0.0.0.0 api.zaonce.net # Eventlogging, MaschinenID, Anmeldetoken, Betriebssystem, Serverzeit & Check der Clientversion, CollectHardwareSurvey uvm.
 #0.0.0.0 hosting.zaonce.net # Launchernews nach Spracheinstellungen und Statuscheck
+#0.0.0.0 cdn.zaonce.net
 #0.0.0.0 launcher-4586754895.elitedangerous.com # CSS & Javascripts
 #0.0.0.0 frontier-drupal-elitedangerous.s3.amazonaws.com # Grafiken der News
 #0.0.0.0 cdn.zaonce.net # Manifest
@@ -6279,6 +6301,10 @@ ff02::3 ip6-allhosts
 
 # HandyGames
 # Sine Mora EX
+# s. Steam: General Directory Server
+
+# Hangzhou Winturn Network & Technology Co., Ltd.
+# Reignman
 # s. Steam: General Directory Server
 
 # Happinet
@@ -7659,6 +7685,10 @@ ff02::3 ip6-allhosts
 
 # Lonely Troops
 # Empire of the Gods
+# s. Steam: General Directory Server
+
+# Lupiesoft
+# The Reject Demon: Toko Chapter 0 — Prelude
 # s. Steam: General Directory Server
 
 # Lusorion Creatives
