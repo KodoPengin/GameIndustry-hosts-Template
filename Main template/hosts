@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 23.11.2020
+# Änderungsdatum: 24.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -7191,6 +7191,13 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ocsp.serverpass.telesec.de
 #0.0.0.0 emig.ocsp.telesec.de
 
+# Thawte
+# 93.184.220.29
+# 2a02:26f0:1700:1a3:0:0:0:201a
+#0.0.0.0 crl.thawte.com
+#0.0.0.0 ocsp.thawte.com
+#0.0.0.0 cs-g2-crl.thawte.com
+
 # Trustprovider
 # 151.139.128.14
 #0.0.0.0 ocsp.trust-provider.com
@@ -11467,7 +11474,7 @@ login.live.com
 0.0.0.0 promo.xhcdn.com
 
 #
-# Fakeseiten, Weiterleitungen, Adware, Werbekampangnen, Popups, Ransomware, Viren, Malwaredomains
+# Fakeseiten, Weiterleitungen, Adware, Werbekampangnen, Popups, Spoofing, Ransomware, Viren, Malwaredomains
 # Digitale Müllhalde und gefährliches Zeug
 
 # Ip/s blockieren:
@@ -11530,6 +11537,7 @@ login.live.com
 0.0.0.0 adsalesforce.com
 0.0.0.0 adsco.re
 0.0.0.0 adservd.com
+0.0.0.0 agenciafbi.ga
 0.0.0.0 agmermer.pro
 0.0.0.0 aiprvqqnhm.com
 0.0.0.0 all.fingersleep.bid
@@ -11547,6 +11555,7 @@ login.live.com
 0.0.0.0 assets.brosive.com
 0.0.0.0 atraff.com
 0.0.0.0 aukalerim.com
+0.0.0.0 authefbi.ga
 0.0.0.0 automationeventually.com
 0.0.0.0 auweelta.net
 0.0.0.0 avt.anpifondi.it
@@ -11612,6 +11621,7 @@ login.live.com
 0.0.0.0 cst.wpu.sh
 0.0.0.0 cvfo.bbazzurro.it
 0.0.0.0 cwro.zeladimaggio.it
+0.0.0.0 cyber-crime-fbi.org
 0.0.0.0 d.impactradius-event.com
 0.0.0.0 d6jfiirio372.com
 0.0.0.0 dashboard.honeygain.com
@@ -11649,6 +11659,84 @@ login.live.com
 0.0.0.0 factorcontest.com
 0.0.0.0 fatrvclgpnb.com
 0.0.0.0 faucetcrypto.com
+0.0.0.0 fbi-augustyn.pl
+0.0.0.0 fbi-bau.de
+0.0.0.0 fbi-belote.com
+0.0.0.0 fbi-biz.com
+0.0.0.0 fbi-c-d.com.co
+0.0.0.0 fbi-c.com.co
+0.0.0.0 fbi-cd.com.co
+0.0.0.0 fbi-fraud.com
+0.0.0.0 fbi-gov.network
+0.0.0.0 fbi-intel.com
+0.0.0.0 fbi-news.com
+0.0.0.0 fbi-ny.com
+0.0.0.0 fbi-official.com
+0.0.0.0 fbi-pay.com
+0.0.0.0 fbi-police.com
+0.0.0.0 fbi-unit.net
+0.0.0.0 fbi-usa.us
+0.0.0.0 fbi.ca
+0.0.0.0 fbi.camera
+0.0.0.0 fbi.cash
+0.0.0.0 fbi.com.jo
+0.0.0.0 fbi.health
+0.0.0.0 fbi.studio
+0.0.0.0 fbi.systems
+0.0.0.0 fbi.xn--mgbayh7gpa
+0.0.0.0 fbi0.com
+0.0.0.0 fbi058.com
+0.0.0.0 fbi2.com
+0.0.0.0 fbi2000.com
+0.0.0.0 fbi3262.live
+0.0.0.0 fbi7.cn
+0.0.0.0 fbi9.com
+0.0.0.0 fbi9.me
+0.0.0.0 fbi99.cn
+0.0.0.0 fbiagent.online
+0.0.0.0 fbiaustralia.com
+0.0.0.0 fbibau.de
+0.0.0.0 fbibau.us
+0.0.0.0 fbiboston.com.jo
+0.0.0.0 fbiboston.xn--mgbayh7gpa
+0.0.0.0 fbicyberdivision.com
+0.0.0.0 fbidefense.com
+0.0.0.0 fbienglish.com
+0.0.0.0 fbifraud.primebnkonline.com
+0.0.0.0 fbifrauddepartment.org
+0.0.0.0 fbigiftshop.shop
+0.0.0.0 fbiglobalgp.com
+0.0.0.0 fbigov.art
+0.0.0.0 fbigrantinvestigation.com
+0.0.0.0 fbihelp.org
+0.0.0.0 fbiigovv.com
+0.0.0.0 fbiinspectionunit.com
+0.0.0.0 fbikids.com
+0.0.0.0 fbilibrary.ml
+0.0.0.0 fbimaryland.org
+0.0.0.0 fbimaxwell.com
+0.0.0.0 fbimostwanted.info
+0.0.0.0 fbinews.ga
+0.0.0.0 fbinews.online
+0.0.0.0 fbinigeria.org
+0.0.0.0 fbioffice.ml
+0.0.0.0 fbiofficial.online
+0.0.0.0 fbione.com
+0.0.0.0 fbiopenthedoor.icu
+0.0.0.0 fbiorganisation.online
+0.0.0.0 fbiorganization.club
+0.0.0.0 fbipedophilerings.com
+0.0.0.0 fbiphoto.com
+0.0.0.0 fbipublicidad.com
+0.0.0.0 fbireport.us
+0.0.0.0 fbireserveco.biz
+0.0.0.0 fbispassport.gq
+0.0.0.0 fbiurl.com
+0.0.0.0 fbiusa.net
+0.0.0.0 fbiusagov.com
+0.0.0.0 fbiusagov.online
+0.0.0.0 fbiusgov.com
+0.0.0.0 fbiwarning.club
 0.0.0.0 feenotifyfriends.info
 0.0.0.0 fnayazchhum.com
 0.0.0.0 fnkyyrgraizy.com
@@ -11680,6 +11768,7 @@ login.live.com
 0.0.0.0 gwashiondevelhig.info
 0.0.0.0 hackapparatus.com
 0.0.0.0 happylifebab.com
+0.0.0.0 hdqkfbi.cn
 0.0.0.0 hdz.martexbiancheria.it
 0.0.0.0 hentaiplaytime.com
 0.0.0.0 herreperolsof.pro
@@ -11689,6 +11778,7 @@ login.live.com
 0.0.0.0 hugexdeal.com
 0.0.0.0 i.montlusa.top
 0.0.0.0 iatd.anpifondi.it
+0.0.0.0 ic-fbi.org
 0.0.0.0 iclwy.xyz
 0.0.0.0 ico.minently.com
 0.0.0.0 ifga.mangiadigusto.it
@@ -11697,6 +11787,7 @@ login.live.com
 0.0.0.0 images3.mobiapp-games.net
 0.0.0.0 includeinthebox.com
 0.0.0.0 inf1.fastdataxwe.info
+0.0.0.0 infofbi-unit.com
 0.0.0.0 infopicked.com
 0.0.0.0 inorbitad.com
 0.0.0.0 inpagepush.com
@@ -11707,6 +11798,7 @@ login.live.com
 0.0.0.0 iyfsearch.com
 0.0.0.0 jasonsvid.com
 0.0.0.0 jfdn.trendyproducts.it
+0.0.0.0 johnsonfbi.com
 0.0.0.0 jphwssfvoddoi.com
 0.0.0.0 jti.bbazzurro.it
 0.0.0.0 justmarriedvideo.com
@@ -11718,6 +11810,7 @@ login.live.com
 0.0.0.0 kts.visitstats.com
 0.0.0.0 kyqs.martexbiancheria.it
 0.0.0.0 lcfeed.com
+0.0.0.0 legalienfbi.com
 0.0.0.0 lenakatina.nl
 0.0.0.0 lgtbcaqkjo.bid
 0.0.0.0 libreriamedina.com
@@ -11787,11 +11880,13 @@ login.live.com
 0.0.0.0 pixel.trackverify.com
 0.0.0.0 pkdu.calltoarts.it
 0.0.0.0 pl15049477.passeura.com
+0.0.0.0 plapper-fbi.com
 0.0.0.0 pnya.istanbulhairsurgery.it
 0.0.0.0 polyfill.io
 0.0.0.0 pophahwot.com
 0.0.0.0 postlnk.com
 0.0.0.0 postsugar.com
+0.0.0.0 powerfulfbi.ninja
 0.0.0.0 prize3810.truefalserdr14.agency
 0.0.0.0 pt.protoawe.com
 0.0.0.0 pxlgnpgecom-a.akamaihd.net
@@ -11908,6 +12003,7 @@ login.live.com
 0.0.0.0 upcum.com
 0.0.0.0 updates.utyuytjn.com
 0.0.0.0 urlish.com
+0.0.0.0 us-fbigov.com
 0.0.0.0 us1.xvika.com
 0.0.0.0 usb.hextom.com
 0.0.0.0 usenetoffer.download
@@ -11929,6 +12025,7 @@ login.live.com
 0.0.0.0 vip.gorotora.com
 0.0.0.0 vipicmou.net
 0.0.0.0 viralshare.us
+0.0.0.0 virtualfbi.com
 0.0.0.0 vlua.istanbulhairsurgery.it
 0.0.0.0 vrewpywootyu.com
 0.0.0.0 vsvx.mondoribelle.it
@@ -12012,6 +12109,8 @@ login.live.com
 0.0.0.0 www.yukongoldinfo.com
 0.0.0.0 www1.watchmygirlfriend.to
 0.0.0.0 wzgt.granfondodelvolturno.it
+0.0.0.0 x-alienfbi.com
+0.0.0.0 xalienfbi.com
 0.0.0.0 xl-trk.com
 0.0.0.0 xml.explorads.com
 0.0.0.0 xqiqnxxy.com
@@ -12276,6 +12375,7 @@ login.live.com
 #0.0.0.0 it.toolbox.com
 #0.0.0.0 paibopse.com
 #0.0.0.0 threadsphere.bid
+#0.0.0.0 widget-mediator.zopim.com # Livechat WSS
 0.0.0.0 0i0i0i0.com
 0.0.0.0 0pixl.com
 0.0.0.0 10-81.s.cdn15.com
@@ -12860,6 +12960,7 @@ login.live.com
 0.0.0.0 core-api.bringhub.io
 0.0.0.0 corot-20c.com
 0.0.0.0 count.paycounter.com
+0.0.0.0 counter.theconversation.com
 0.0.0.0 courselfnorter.site
 0.0.0.0 cpmspace.com
 0.0.0.0 cqlupb.com
@@ -14128,6 +14229,7 @@ login.live.com
 0.0.0.0 webcontentassessor.com
 0.0.0.0 weborama.fr
 0.0.0.0 websdk.appsflyer.com
+0.0.0.0 webstatistik.ages.at
 0.0.0.0 webstats.tnaflix.com
 0.0.0.0 webtracking.trifels.de # rheinmain4family.de, frankfurt-tipp.de usw
 0.0.0.0 wekomix.com
@@ -14136,7 +14238,6 @@ login.live.com
 0.0.0.0 wheelches.info
 0.0.0.0 whoami-web.prod.ps.axelspringer.de
 0.0.0.0 whoami.bhcont.com
-#0.0.0.0 widget-mediator.zopim.com # Livechat WSS
 0.0.0.0 widget.beop.io
 0.0.0.0 widget.cdn.vidyome.com
 0.0.0.0 widget.engageya.com
@@ -14151,6 +14252,7 @@ login.live.com
 0.0.0.0 widgets.ad.style
 0.0.0.0 widgets.sprinklecontent.com
 0.0.0.0 wilwasharrabred.pro
+0.0.0.0 winbuzzer.matomo.cloud
 0.0.0.0 wintub.com
 0.0.0.0 winyourprize36.com
 0.0.0.0 wlbet3000.adsrv.eacdn.com
