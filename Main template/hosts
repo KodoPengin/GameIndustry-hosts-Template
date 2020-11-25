@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 24.11.2020
+# Änderungsdatum: 25.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1477,6 +1477,8 @@ ff02::3 ip6-allhosts
 # 13.225.73.4
 # 34.231.194.216
 # 23.21.241.41
+# 34.230.161.23
+# 2600:1f18:4252:6900:5733:f393:3d11:b73e
 #0.0.0.0 activate.glasswire.com
 #0.0.0.0 update.glasswire.com
 #0.0.0.0 www.glasswire.com # Nutzerstatisitken an Amazon AWS gekekoppelt
@@ -1554,6 +1556,42 @@ ff02::3 ip6-allhosts
 # 54.192.85.185
 0.0.0.0 d1gfrkifd23qlt.cloudfront.net
 0.0.0.0 server-54-192-85-185.ams50.r.cloudfront.net
+0.0.0.0 tf-edr-message-upload-eu-central-1-prod-bucket.s3.amazonaws.com
+# SophosUpdate
+#0.0.0.0 dci.sophosupd.com
+#0.0.0.0 d1.sophosupd.com
+# Scans sämtlicher Dateien auf eigenen Geräten und besuchte Adressen werden hier hochgeladen
+# 3.211.49.250
+# 3.220.18.7
+# 3.229.121.248
+# 3.230.219.150
+# 3.230.96.186
+# 3.92.218.87
+# 34.192.73.106
+# 34.193.238.15
+# 34.196.16.78
+# 34.205.200.246
+# 34.241.185.85
+# 34.248.104.71
+# 34.250.161.51
+# 34.251.129.168
+# 34.252.167.231
+# 35.173.87.46
+# 52.17.217.239
+# 52.200.98.133
+# 52.209.5.239
+# 52.212.108.118
+# 52.22.224.4
+# 52.220.11.99
+# 52.51.182.200
+# 52.71.191.168
+# 54.171.211.233
+# 54.171.78.103
+# 54.194.103.192
+# 54.194.195.212
+# 54.194.232.10
+#0.0.0.0 4.sophosxl.net # /lookup
+#0.0.0.0 http.00.a.sophosxl.net # /V3/01/xx.xx.xx.xx.ip/ - für XX eine eigene IP eintragen
 
 # Stardock Corporation
 # Fences
@@ -1594,6 +1632,8 @@ ff02::3 ip6-allhosts
 
 # Start10
 # 66.79.209.93
+# 66.79.209.82
+#0.0.0.0 activate.api.stardock.net
 #0.0.0.0 www.stardock.com
 #0.0.0.0 download.api.stardock.net # Token
 #0.0.0.0 cdn.stardock.us # Download
@@ -2525,6 +2565,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 simplora-recipe-transfer-scripts.s3.amazonaws.com
 0.0.0.0 ad099bddc3b362cf302797e3f53e91c0d.profile.nrt12-c3.cloudfront.net # Experimentelle AWS Cloudfront Antwort
 #0.0.0.0 s3.amazonaws.com
+0.0.0.0 s3-w.eu-central-1.amazonaws.com
 #0.0.0.0 s3-eu-west-1.amazonaws.com # Ablage CSS Files und CCC Adscript
 0.0.0.0 33xchange-1576862511.us-east-1.elb.amazonaws.com
 0.0.0.0 9dbd256a-default-ih-dd4d-36901406.eu-central-1.elb.amazonaws.com
@@ -2587,6 +2628,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 wildcard-ads-new-1653986885.useast-1.elb.amazonaws.com
 0.0.0.0 www.pc.error5587875531ademscomboclf3493.com.s3-website.eu-central-1.amazonaws.com
 0.0.0.0 xcmz7crlld.execute-api.eu-central-1.amazonaws.com
+0.0.0.0 redirect.prod.experiment.routing.cloudfront.aws.a2z.com # x.png
+0.0.0.0 aabbc1793aaac5c6d4f1bea56c1d3adcb.profile.sfo5-c1.cloudfront.net # test.png
 
 # Amazon-Adsystem und Drittanbietertracking und Metrics
 0.0.0.0 ir-de.amazon-adsystem.com
@@ -5536,11 +5579,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 rules.quantcount.com
 
 # Quantserve | Echtzeitwerbung und Nutzeranalyse
+# Ip/s blockieren:
+# 91.228.74.189
+# 91.228.74.226
+# 91.228.74.189
+# 91.228.74.133
+# usw
 0.0.0.0 pixel.quantserve.com
 0.0.0.0 segapi.quantserve.com
 0.0.0.0 edge.quantserve.com
 0.0.0.0 secure.quantserve.com
 0.0.0.0 cms.quantserve.com
+0.0.0.0 px2.px.quantserve.com
 
 # Quantummetric.com | Digitale Nutzeranaylse
 0.0.0.0 quantummetric.com
@@ -7036,6 +7086,7 @@ ff02::3 ip6-allhosts
 # CERTUM
 # 213.222.201.215
 # 108.161.187.37
+# 95.101.27.71
 #0.0.0.0 csca.ocsp.certum.pl
 #0.0.0.0 crl.certum.pl
 
@@ -7126,7 +7177,9 @@ ff02::3 ip6-allhosts
 
 # Microsoft Online Certificate Status Protocol
 # 104.18.24.243
+# 23.55.110.211
 #0.0.0.0 ocsp.msocsp.com
+#0.0.0.0 crl.microsoft.com
 
 # Sectigo / ehemals Comodoca CA
 # 151.139.128.14
@@ -7583,6 +7636,12 @@ ff02::3 ip6-allhosts
 
 # Dsgvo-Gesetz.de
 0.0.0.0 m.dsgvo-gesetz.de # Matomo Trackingpixel
+
+# DuckDuckGo.com
+# 20.50.163.153
+0.0.0.0 ac.duckduckgo.com
+0.0.0.0 improving.duckduckgo.com
+0.0.0.0 links.duckduckgo.com
 
 # DW.com
 0.0.0.0 commons.dw.com
@@ -9439,6 +9498,8 @@ ff02::3 ip6-allhosts
 
 # Google Doubleclick net & com
 # Ip/s blockieren:
+# 172.217.22.70
+# 74.125.133.155
 # 108.177.119.148
 # 173.194.76.157
 # 173.194.76.155
@@ -10067,6 +10128,7 @@ ff02::3 ip6-allhosts
 # 40.90.22.187
 # 52.114.132.91
 # 52.114.76.34
+# 168.62.58.130
 0.0.0.0 array104-prod.do.dsp.mp.microsoft.com
 0.0.0.0 array612-prod.do.dsp.mp.microsoft.com
 0.0.0.0 array613-prod.do.dsp.mp.microsoft.com
@@ -10080,6 +10142,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 kv401-prod.do.dsp.mp.microsoft.com
 0.0.0.0 v10.events.data.microsoft.com
 0.0.0.0 v20.events.data.microsoft.com
+0.0.0.0 skypedataprdcoleus13.cloudapp.net
 # 103.86.96.96
 # 40.80.145.78
 # 172.217.30.238
@@ -10829,6 +10892,7 @@ login.live.com
 # 52.27.206.225
 # 54.149.111.157
 # 52.43.79.30
+# 35.244.181.201
 0.0.0.0 balrog-aus5.r53-2.services.mozilla.com
 0.0.0.0 balrog-cloudfront.prod.mozaws.net
 0.0.0.0 prod.balrog.prod.cloudops.mozgcp.net
@@ -10894,6 +10958,7 @@ login.live.com
 # Diverses
 # 52.34.51.144
 # 54.192.86.49
+# 65.9.68.119
 0.0.0.0 self-repair.mozilla.org
 0.0.0.0 firefox.settings.services.mozilla.com # Browserbroker
 0.0.0.0 search.services.mozilla.com
@@ -12435,7 +12500,6 @@ login.live.com
 0.0.0.0 ab23e84117d41e7.com
 0.0.0.0 abellalist.com
 0.0.0.0 abp.mxptint.net
-0.0.0.0 ac.duckduckgo.com
 0.0.0.0 accede-throne.gdn
 0.0.0.0 accomplishedsettings.cdn-clound.club
 0.0.0.0 acds.prod.vidible.tv
@@ -13285,7 +13349,6 @@ login.live.com
 0.0.0.0 imp.pxf.io
 0.0.0.0 impactserving.com
 0.0.0.0 impactslam.com
-0.0.0.0 improving.duckduckgo.com
 0.0.0.0 in-page-push.com
 0.0.0.0 in.orangepie.biz
 0.0.0.0 in.oznul.com
@@ -15470,6 +15533,7 @@ login.live.com
 
 # Steam: Bootstrapper - Beispiele einiger Endpunkte
 #0.0.0.0 162-254-198-18.valve.net
+#0.0.0.0 162-254-198-44.valve.net
 #0.0.0.0 162-254-198-104.valve.net
 #0.0.0.0 162-254-198-130.valve.net
 #0.0.0.0 162-254-198-131.valve.net
@@ -15758,10 +15822,12 @@ login.live.com
 # Ip/s blockieren:
 # 172.217.12.206
 # 216.58.207.238
+# 216.58.212.136
 # 172.217.22.162
 # 216.58.211.6
 # 173.194.222.154
 0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 ssl-google-analytics.l.google.com
 0.0.0.0 pagead46.l.doubleclick.net
 0.0.0.0 static-doubleclick-net.l.google.com
 0.0.0.0 stats.l.doubleclick.net
@@ -15787,9 +15853,14 @@ login.live.com
 #0.0.0.0 store.steampowered.com # Altersverifizierung, Nutzungsbedinungen, Suche, Eventtracking, Broadcast, Accountmeldungen, Hover, Updatenews, API Anbindung, Beschreibungen & Ids für Produkte
 #0.0.0.0 steamstore-a.akamaihd.net # Produktgrafiken, Icons, JQuery Scripts, Alterskennzeichnung, Bundles, Subs, Avatare, CSS, Javascript, Clientgrafiken
 
+# Steam: Support
+# 104.18.11.128
+#0.0.0.0 support.steampowered.com
+
 # Steam: Unkategorisiert
 # 2a02:26f0:105:0:0:0:216:16d3
 0.0.0.0 steampipe.akamaized.net
+0.0.0.0 steamstats.valvesoftware.com
 
 # Steam: Weitere Drittanbieter
 # Livepipe.net - Trackingcookies, Werbung und Analytics eingebunden über Javascript
@@ -15803,7 +15874,9 @@ login.live.com
 0.0.0.0 youtube-ui.l.google.com
 0.0.0.0 www.google-analytics.com
 # Paypal Tracking - Aktiv im Warenkorb, auch ohne eingegebene Paypaldaten
+# 151.101.129.21
 #0.0.0.0 www.paypal.com # Logger, TagManager, Trackingcookies
+#0.0.0.0 www-fastly.glb.paypal.com
 0.0.0.0 t.paypal.com # Trackingpixel
 
 #
@@ -17079,7 +17152,7 @@ login.live.com
 #0.0.0.0 s3-us-west-2.amazonaws.com
 0.0.0.0 production-prolog.s3.amazonaws.com
 0.0.0.0 www.google-analytics.com
-0.0.0.0 hello.myfonts.net
+#0.0.0.0 hello.myfonts.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 www-google-analytics.l.google.com
@@ -18754,6 +18827,21 @@ login.live.com
 0.0.0.0 www.rhythmdestruction.com
 
 # Curve Digital
+# Autonauts
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # 10 Second Ninja X
 # s. Steam: General Directory Server
 
@@ -20349,19 +20437,53 @@ login.live.com
 
 # Frontier Developments
 # Elite Dangerous
+# 108.128.186.118
+# 13.227.219.107
+# 13.227.219.114
+# 152.199.21.2
+# 172.217.23.142
+# 176.34.71.218
+# 239.255.255.250
+# 2a05:d018:d09:dd00:c92c:7efc:737b:851f
+# 2a05:d018:d09:dd02:f045:ce2b:3c6c:a45e
+# 3.249.219.196
+# 3.250.69.214
+# 34.241.86.117
+# 34.242.85.159
+# 34.244.135.207
+# 34.244.199.143
+# 34.249.10.46
+# 34.250.167.166
+# 34.252.142.203
 # 52.17.149.223
-# 65.9.86.74
 # 52.218.112.130
+# 52.218.28.234
+# 52.30.223.76
+# 54.155.233.102
+# 54.171.227.136
+# 54.216.202.141
+# 54.240.168.114
+# 54.240.168.41
+# 65.9.86.74
+# 99.81.142.59
 #0.0.0.0 api.zaonce.net # Eventlogging, MaschinenID, Anmeldetoken, Betriebssystem, Serverzeit & Check der Clientversion, CollectHardwareSurvey uvm.
 #0.0.0.0 hosting.zaonce.net # Launchernews nach Spracheinstellungen und Statuscheck
-#0.0.0.0 cdn.zaonce.net
-#0.0.0.0 launcher-4586754895.elitedangerous.com # CSS & Javascripts
-#0.0.0.0 frontier-drupal-elitedangerous.s3.amazonaws.com # Grafiken der News
 #0.0.0.0 cdn.zaonce.net # Manifest
 #0.0.0.0 api.orerve.net # Serverschnittstelle, Upload Hardware bzw DirectX Daten
+#0.0.0.0 turn.orerve.net
+# Weitere Drittanbieter/Telemetrie
+0.0.0.0 s3-3-w.amazonaws.com
 0.0.0.0 www.google-analytics.com # UA-63308436-1
 #0.0.0.0 hello.myfonts.net
 0.0.0.0 stats.g.doubleclick.net # UA-63308436-1
+# Endpunkte
+#0.0.0.0 fra16s18-in-f14.1e100.net
+#0.0.0.0 server-54-240-168-41.ams54.r.cloudfront.net
+#0.0.0.0 server-13-227-219-107.ams54.r.cloudfront.net
+#0.0.0.0 ec2-34-250-167-166.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-34-249-10-46.eu-west-1.compute.amazonaws.com
+#0.0.0.0 prod-irc-i-0b1ebac797eefaf2c.orerve.net
+#0.0.0.0 frontier-drupal-elitedangerous.s3.amazonaws.com
 
 # Jurassic World Evolution
 # s. Rubrik Kopierschutz / AntiCheat
@@ -21533,6 +21655,9 @@ login.live.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 170fdbe261f5e85186a08817806feba2.cloudfront.net
 0.0.0.0 dfb957c193e8f98057bb6f530c2816a9.cloudfront.net
+
+# Ranger vs. Space Mutants
+# s. Steam: General Directory Server
 
 # IndieGala
 # Downward
@@ -25677,9 +25802,25 @@ login.live.com
 
 # Strange Loop Games
 # Eco
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
 #0.0.0.0 ecoauth.strangeloopgames.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+
+# Strategy First
+# Real Horror Stories - Ultimate Edition
+# 2a02:26f0:1700:782:0:0:0:11e2
+0.0.0.0 airdownload2.adobe.com
 
 # Strength in Numbers Studios, Inc
 # Skull Ball Heroes
@@ -27359,7 +27500,7 @@ login.live.com
 # Ingameeula und Formatierung
 0.0.0.0 www.shadowofwar.com # Seite zum Spiel
 #0.0.0.0 cdnjs.cloudflare.com
-0.0.0.0 hello.myfonts.net
+#0.0.0.0 hello.myfonts.net
 #0.0.0.0 fonts.googleapis.com
 # ShadowOfWar.exe *64
 # Theoretisch kann für Singleplayer alles blockiert werden

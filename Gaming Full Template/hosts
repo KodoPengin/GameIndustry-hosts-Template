@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 23.11.2020
+# Änderungsdatum: 25.11.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -785,6 +785,7 @@ ff02::3 ip6-allhosts
 
 # Steam: Bootstrapper - Beispiele einiger Endpunkte
 #0.0.0.0 162-254-198-18.valve.net
+#0.0.0.0 162-254-198-44.valve.net
 #0.0.0.0 162-254-198-104.valve.net
 #0.0.0.0 162-254-198-130.valve.net
 #0.0.0.0 162-254-198-131.valve.net
@@ -1073,10 +1074,12 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 172.217.12.206
 # 216.58.207.238
+# 216.58.212.136
 # 172.217.22.162
 # 216.58.211.6
 # 173.194.222.154
 0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 ssl-google-analytics.l.google.com
 0.0.0.0 pagead46.l.doubleclick.net
 0.0.0.0 static-doubleclick-net.l.google.com
 0.0.0.0 stats.l.doubleclick.net
@@ -1102,9 +1105,14 @@ ff02::3 ip6-allhosts
 #0.0.0.0 store.steampowered.com # Altersverifizierung, Nutzungsbedinungen, Suche, Eventtracking, Broadcast, Accountmeldungen, Hover, Updatenews, API Anbindung, Beschreibungen & Ids für Produkte
 #0.0.0.0 steamstore-a.akamaihd.net # Produktgrafiken, Icons, JQuery Scripts, Alterskennzeichnung, Bundles, Subs, Avatare, CSS, Javascript, Clientgrafiken
 
+# Steam: Support
+# 104.18.11.128
+#0.0.0.0 support.steampowered.com
+
 # Steam: Unkategorisiert
 # 2a02:26f0:105:0:0:0:216:16d3
 0.0.0.0 steampipe.akamaized.net
+0.0.0.0 steamstats.valvesoftware.com
 
 # Steam: Weitere Drittanbieter
 # Livepipe.net - Trackingcookies, Werbung und Analytics eingebunden über Javascript
@@ -1118,7 +1126,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 youtube-ui.l.google.com
 0.0.0.0 www.google-analytics.com
 # Paypal Tracking - Aktiv im Warenkorb, auch ohne eingegebene Paypaldaten
+# 151.101.129.21
 #0.0.0.0 www.paypal.com # Logger, TagManager, Trackingcookies
+#0.0.0.0 www-fastly.glb.paypal.com
 0.0.0.0 t.paypal.com # Trackingpixel
 
 #
@@ -2394,7 +2404,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 s3-us-west-2.amazonaws.com
 0.0.0.0 production-prolog.s3.amazonaws.com
 0.0.0.0 www.google-analytics.com
-0.0.0.0 hello.myfonts.net
+#0.0.0.0 hello.myfonts.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 www-google-analytics.l.google.com
@@ -4069,6 +4079,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.rhythmdestruction.com
 
 # Curve Digital
+# Autonauts
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # 10 Second Ninja X
 # s. Steam: General Directory Server
 
@@ -5664,19 +5689,53 @@ ff02::3 ip6-allhosts
 
 # Frontier Developments
 # Elite Dangerous
+# 108.128.186.118
+# 13.227.219.107
+# 13.227.219.114
+# 152.199.21.2
+# 172.217.23.142
+# 176.34.71.218
+# 239.255.255.250
+# 2a05:d018:d09:dd00:c92c:7efc:737b:851f
+# 2a05:d018:d09:dd02:f045:ce2b:3c6c:a45e
+# 3.249.219.196
+# 3.250.69.214
+# 34.241.86.117
+# 34.242.85.159
+# 34.244.135.207
+# 34.244.199.143
+# 34.249.10.46
+# 34.250.167.166
+# 34.252.142.203
 # 52.17.149.223
-# 65.9.86.74
 # 52.218.112.130
+# 52.218.28.234
+# 52.30.223.76
+# 54.155.233.102
+# 54.171.227.136
+# 54.216.202.141
+# 54.240.168.114
+# 54.240.168.41
+# 65.9.86.74
+# 99.81.142.59
 #0.0.0.0 api.zaonce.net # Eventlogging, MaschinenID, Anmeldetoken, Betriebssystem, Serverzeit & Check der Clientversion, CollectHardwareSurvey uvm.
 #0.0.0.0 hosting.zaonce.net # Launchernews nach Spracheinstellungen und Statuscheck
-#0.0.0.0 cdn.zaonce.net
-#0.0.0.0 launcher-4586754895.elitedangerous.com # CSS & Javascripts
-#0.0.0.0 frontier-drupal-elitedangerous.s3.amazonaws.com # Grafiken der News
 #0.0.0.0 cdn.zaonce.net # Manifest
 #0.0.0.0 api.orerve.net # Serverschnittstelle, Upload Hardware bzw DirectX Daten
+#0.0.0.0 turn.orerve.net
+# Weitere Drittanbieter/Telemetrie
+0.0.0.0 s3-3-w.amazonaws.com
 0.0.0.0 www.google-analytics.com # UA-63308436-1
 #0.0.0.0 hello.myfonts.net
 0.0.0.0 stats.g.doubleclick.net # UA-63308436-1
+# Endpunkte
+#0.0.0.0 fra16s18-in-f14.1e100.net
+#0.0.0.0 server-54-240-168-41.ams54.r.cloudfront.net
+#0.0.0.0 server-13-227-219-107.ams54.r.cloudfront.net
+#0.0.0.0 ec2-34-250-167-166.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-34-249-10-46.eu-west-1.compute.amazonaws.com
+#0.0.0.0 prod-irc-i-0b1ebac797eefaf2c.orerve.net
+#0.0.0.0 frontier-drupal-elitedangerous.s3.amazonaws.com
 
 # Jurassic World Evolution
 # s. Rubrik Kopierschutz / AntiCheat
@@ -6848,6 +6907,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 170fdbe261f5e85186a08817806feba2.cloudfront.net
 0.0.0.0 dfb957c193e8f98057bb6f530c2816a9.cloudfront.net
+
+# Ranger vs. Space Mutants
+# s. Steam: General Directory Server
 
 # IndieGala
 # Downward
@@ -10992,9 +11054,25 @@ ff02::3 ip6-allhosts
 
 # Strange Loop Games
 # Eco
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
 #0.0.0.0 ecoauth.strangeloopgames.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+
+# Strategy First
+# Real Horror Stories - Ultimate Edition
+# 2a02:26f0:1700:782:0:0:0:11e2
+0.0.0.0 airdownload2.adobe.com
 
 # Strength in Numbers Studios, Inc
 # Skull Ball Heroes
@@ -12674,7 +12752,7 @@ ff02::3 ip6-allhosts
 # Ingameeula und Formatierung
 0.0.0.0 www.shadowofwar.com # Seite zum Spiel
 #0.0.0.0 cdnjs.cloudflare.com
-0.0.0.0 hello.myfonts.net
+#0.0.0.0 hello.myfonts.net
 #0.0.0.0 fonts.googleapis.com
 # ShadowOfWar.exe *64
 # Theoretisch kann für Singleplayer alles blockiert werden
