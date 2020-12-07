@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 25.11.2020
+# Änderungsdatum: 07.12.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -223,6 +223,11 @@ ff02::3 ip6-allhosts
 # Adobetag
 0.0.0.0 adobetag.com
 0.0.0.0 www.adobetag.com
+
+# Adobe Primetime
+# Access Enabler, Authentication & Adobe DRM
+#0.0.0.0 sp.auth.adobe.com
+#0.0.0.0 entitlement.auth.adobe.com
 
 # Aiseesoft
 # Aiseesoft Video Converter
@@ -1472,6 +1477,7 @@ ff02::3 ip6-allhosts
 
 # SecureMix LLC
 # GlassWire
+# 13.32.240.50
 # 18.214.44.121
 # 52.216.232.61
 # 13.225.73.4
@@ -1479,6 +1485,7 @@ ff02::3 ip6-allhosts
 # 23.21.241.41
 # 34.230.161.23
 # 2600:1f18:4252:6900:5733:f393:3d11:b73e
+# 2600:9000:2204:d200:2:c2cb:ed00:93a1
 #0.0.0.0 activate.glasswire.com
 #0.0.0.0 update.glasswire.com
 #0.0.0.0 www.glasswire.com # Nutzerstatisitken an Amazon AWS gekekoppelt
@@ -1549,7 +1556,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.softwarenetz.fr
 0.0.0.0 www.softwarenetz.es
 
-# Sophos Ltd.
+# Sophos Ltd. | Thoma Bravo, LP
 # Sophos Central Intercept X
 # Sophos Telemetry Submitter
 # 13.224.197.210
@@ -2785,7 +2792,7 @@ ff02::3 ip6-allhosts
 
 # AMP Project mit Verkettung von Prebid Scripts
 # Nach Bedarf handhaben
-0.0.0.0 cdn.ampproject.org
+#0.0.0.0 cdn.ampproject.org
 0.0.0.0 3p.ampproject.net
 0.0.0.0 d-35343490523972114676.ampproject.net
 0.0.0.0 d-801284634654215236.ampproject.net
@@ -2819,6 +2826,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 d-26166146373321546350.ampproject.net
 #0.0.0.0 d-16364503842353983875.ampproject.net
 #0.0.0.0 d-19771283131990902164.ampproject.net
+0.0.0.0 log.amp.dev
+0.0.0.0 us-central1-amp-error-reporting.cloudfunctions.net
 
 # Amung.us
 0.0.0.0 amung.us
@@ -3573,6 +3582,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 rover.ebay.com
 0.0.0.0 adf0901f1861.cdn4.forter.com # Ebay
 0.0.0.0 1b6736374efb459da3fd2ff388aa6889-adf0901f1861.cdn.forter.com
+0.0.0.0 autotrack.ebay.com
+0.0.0.0 fdts.ebay-kleinanzeigen.de
 
 # Eclkmpsa
 0.0.0.0 eclkmpsa.com
@@ -4017,6 +4028,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 assets.getpocket.com
 0.0.0.0 email-assets.getpocket.com
 0.0.0.0 widgets.getpocket.com
+0.0.0.0 spocs.getpocket.com
 
 # Giga-abs.de
 0.0.0.0 go.giga-abs.de
@@ -4242,6 +4254,7 @@ ff02::3 ip6-allhosts
 # Intentiq
 0.0.0.0 sync.intentiq.com
 0.0.0.0 sync1.intentiq.com
+0.0.0.0 intentiq.com
 
 # Intercom.io
 0.0.0.0 api-iam.intercom.io
@@ -4534,6 +4547,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 rtp-static.marketo.com
 0.0.0.0 app-ab13.marketo.com
 0.0.0.0 app-ab11.marketo.com
+0.0.0.0 app-sj22.marketo.com
+0.0.0.0 app-abq.marketo.com
 
 # Mathtag.com
 # Ip/s blockieren:
@@ -5268,7 +5283,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 openadsnetwork.com
 
 # Openh264
-0.0.0.0 ciscobinary.openh264.org
+0.0.0.0 ciscobinary.openh264.org # OpenH264 Videocodec/DRM Plugin z.b. für Firefox
 
 # OpenX | Echtzeitwerbung
 0.0.0.0 33across-d.openx.net
@@ -5303,6 +5318,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 networkn-d.openx.net
 0.0.0.0 netzathleten-d.openx.net
 0.0.0.0 netzwelt-gmbh-d.openx.net
+0.0.0.0 ox-delivery-prod-europe-west3.openx.net
 0.0.0.0 ox-delivery-prod-1-europe-west1.openx.net
 0.0.0.0 pixfuture2-d.openx.net
 0.0.0.0 playwire-d.openx.net
@@ -5325,6 +5341,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 webedia-d.openx.net
 0.0.0.0 wikia-d.openx.net
 0.0.0.0 yieldlove-d.openx.net
+0.0.0.0 ziffdavis-d.openx.net
 
 # Opmnstr.com
 0.0.0.0 api.opmnstr.com
@@ -5930,7 +5947,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sb.scorecardresearch.com
 
 # Segment.io
-0.0.0.0 cdn.segment.com # Hinweis bei Crunchyroll beachten
+0.0.0.0 cdn.segment.com
 0.0.0.0 api.segment.io
 
 # Sekindo
@@ -6927,6 +6944,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ziffdavisinternational.com
 0.0.0.0 static.ziffdavis.com
 0.0.0.0 static.adziff.com
+0.0.0.0 cdn.ziffstatic.com
 
 # Zog
 0.0.0.0 zog.link
@@ -7087,6 +7105,7 @@ ff02::3 ip6-allhosts
 # 213.222.201.215
 # 108.161.187.37
 # 95.101.27.71
+# 184.86.103.196
 #0.0.0.0 csca.ocsp.certum.pl
 #0.0.0.0 crl.certum.pl
 
@@ -7096,7 +7115,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 crl.comodoca.com
 #0.0.0.0 ocsp.comodoca4.com
 
-# DigiCert Inc
+# DigiCert Inc. | Thoma Bravo, LP
 # 117.18.237.29
 # 192.16.58.8
 # 72.21.91.29
@@ -7244,7 +7263,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ocsp.serverpass.telesec.de
 #0.0.0.0 emig.ocsp.telesec.de
 
-# Thawte
+# Thawte Consulting
+# Gehört zu DigiCert Inc.
 # 93.184.220.29
 # 2a02:26f0:1700:1a3:0:0:0:201a
 #0.0.0.0 crl.thawte.com
@@ -7314,6 +7334,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 instagr.am
 0.0.0.0 publishing.kaloo.ga
 0.0.0.0 uobsoe.com
+
+# Adultswim.com
+0.0.0.0 geo.ngtv.io
+0.0.0.0 sstats.adultswim.com
+0.0.0.0 audience.adultswim.com
+0.0.0.0 bea4.adultswim.com
+0.0.0.0 telemetry.api.wmcdp.io
+0.0.0.0 logs.psm.wmcdp.io
+0.0.0.0 privacy.api.wmcdp.io
+0.0.0.0 identity.api.wmcdp.io
+0.0.0.0 d9esmwyn3ffr1.cloudfront.net
+0.0.0.0 d20kffh39acpue.cloudfront.net
+0.0.0.0 unified.adsafeprotected.com
+0.0.0.0 tag.placelocal.com
+0.0.0.0 adacus-cdn.placelocal.com
+0.0.0.0 truth.demdex.net
+0.0.0.0 sync.placelocal.com
+0.0.0.0 www.thetruth.com
 
 # Aldi Nord, Aldi Süd
 0.0.0.0 statistics.aldi-international.com # Consent Analytics, Piwik Trackingcookies vor Einwilligung des Nutzers gesetzt
@@ -7570,9 +7608,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 compwoch.ivwbox.de
 0.0.0.0 ssl-idgbusiness.met.vgwort.de
 
-# Crunchyroll
-0.0.0.0 cdn.segment.com # Javascript für umfangreiche und gestreute Analytics die dem Nutzer untergeschoben werden. Muss für Videokonsum de/aktiviert werden.
-
 # Cylex.de
 0.0.0.0 trk.uberall.com
 0.0.0.0 uberall.com
@@ -7612,6 +7647,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 dkuim.de
 0.0.0.0 tags.onscroll.com
 0.0.0.0 d.nativendo.de
+
+# DerStandard.at
+0.0.0.0 px.derstandard.at
+0.0.0.0 px.staticfiles.at
 
 # Disney.com & International
 0.0.0.0 analytics.disneyinternational.com
@@ -7955,6 +7994,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 at.iocnt.net
 0.0.0.0 script-at.iocnt.net
 0.0.0.0 irqs.iocnt.net
+
+# Lego.com & de
+0.0.0.0 npssurveyinvite.services.lego.com
+0.0.0.0 cs.analytics.lego.com
 
 # Lidl.de
 0.0.0.0 lidl.media01.eu
@@ -8333,6 +8376,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 ssl.1.damoh.aws.stern.de
 0.0.0.0 ssl.2.damoh.aws.stern.de
 0.0.0.0 ssl.3.damoh.aws.stern.de
+
+# Spiceworks.com
+0.0.0.0 gala.spiceworks.com # Snowplow Analytics
+0.0.0.0 px.spiceworks.com
+0.0.0.0 herald.spiceworks.com
+0.0.0.0 gekko.spiceworks.com
+0.0.0.0 clancy.spiceworks.com
 
 # Spiegel.de | SPON
 # Werbung & Cookiezwang
@@ -8977,7 +9027,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tab2.clickmon.co.kr
 0.0.0.0 click.clickmon.co.kr
 
-# Cnzz.com | Statistische Datenanalyse - Dienst gehört zu Umeng.com, siehe Android hosts
+# Cnzz.com | Statistische Datenanalyse - Gehört zu Umeng.com, siehe Android hosts
 0.0.0.0 z4.cnzz.com
 0.0.0.0 z6.cnzz.com
 0.0.0.0 z11.cnzz.com
@@ -9162,6 +9212,7 @@ ff02::3 ip6-allhosts
 # Nicovideo.jp
 0.0.0.0 ads.nicovideo.jp
 0.0.0.0 api.nicoad.nicovideo.jp
+0.0.0.0 res.ads.nicovideo.jp
 
 # Nikkei.com
 0.0.0.0 nkis.nikkei.com
@@ -9242,6 +9293,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ard.yahoo.co.jp
 0.0.0.0 b0.yahoo.co.jp
 0.0.0.0 b10.yahoo.co.jp
+0.0.0.0 b15.yahoo.co.jp
+0.0.0.0 b16.yahoo.co.jp
 0.0.0.0 b5.yahoo.co.jp
 0.0.0.0 b6.yahoo.co.jp
 0.0.0.0 b8.yahoo.co.jp
@@ -9250,11 +9303,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 b97.yahoo.co.jp
 0.0.0.0 im.ov.yahoo.co.jp
 0.0.0.0 logql.yahoo.co.jp
+0.0.0.0 logql21114.data.kks.ynwp.yahoo.co.jp
+0.0.0.0 logql9622.data.kks.ynwp.yahoo.co.jp
 0.0.0.0 privacy.yahoo.co.jp
+0.0.0.0 pvtag.yahoo.co.jp
+0.0.0.0 yads.yahoo.co.jp
 0.0.0.0 yads.yjtag.yahoo.co.jp
 0.0.0.0 ybx.yahoo.co.jp
 0.0.0.0 yjtag.yahoo.co.jp
-0.0.0.0 yads.yahoo.co.jp
 
 # Yimg.jp | Yahoo.co.jp
 0.0.0.0 yads.c.yimg.jp
@@ -9389,12 +9445,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 mc.yandex.ru
 0.0.0.0 share.yandex.ru
 #0.0.0.0 mirror.yandex.ru
-0.0.0.0 an.yandex.ru
+0.0.0.0 an.yandex.ru # JSTracer
 #0.0.0.0 yastatic.net # CSS Ablage und AdFOX Script
 0.0.0.0 yandex.ocsp-responder.com
 0.0.0.0 amc.yandex.ru
 0.0.0.0 http-check-headers.yandex.ru
 0.0.0.0 matchid.adfox.yandex.ru
+0.0.0.0 strm.yandex.ru # Logs
 
 #
 # Google, LLC
@@ -9619,10 +9676,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 p5-xcuk27iy7sqz2-lvtolymj4ju2ha3l-523822-i1-v6exp3.ds.metric.gstatic.com
 0.0.0.0 p5-xcuk27iy7sqz2-lvtolymj4ju2ha3l-523822-i2-v6exp3.v4.metric.gstatic.com
 
-# Google Firebase
+# Google Firebase & Firebaseapp
 0.0.0.0 firebaselogging.googleapis.com
 0.0.0.0 firebaseremoteconfig.googleapis.com
 0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 tveweb-appsvcs-aetnd-com-8ff57.firebaseapp.com
 
 # Google GMail
 # 172.217.22.5
@@ -9778,7 +9836,7 @@ ff02::3 ip6-allhosts
 # 74.125.171.250
 # 74.125.170.120
 # 172.217.10.46
-0.0.0.0 redirector.gvt1.com
+0.0.0.0 redirector.gvt1.com # WideWine Decryption Module Plugin Download z.b. für Firefox
 0.0.0.0 beacons.gcp.gvt2.com
 0.0.0.0 r2---sn-5go7yner.gvt1.com
 0.0.0.0 r2---sn-aigl6ned.gvt1.com
@@ -12342,6 +12400,118 @@ login.live.com
 0.0.0.0 trk.email.dynect.net
 
 #
+# Regionlocked
+# Webseiten mit regionalen Sperren die z.b. aus Deutschland oder anderen Ländern nicht erreichbar oder eingeschränkt sind
+
+# Britbox
+0.0.0.0 mybbc-analytics.files.bbci.co.uk
+
+# Crackle.com
+# Adblock Nagscreen
+#0.0.0.0 web-api-us.crackle.com
+0.0.0.0 fwlive.crackle.com
+0.0.0.0 cloudfront.loggly.com
+0.0.0.0 omns.crackle.com
+0.0.0.0 consent.trustarc.com
+# Adobe Visitor API & Marketing Cloud ist Pflicht auf der Seite
+0.0.0.0 assets.adobedtm.com
+
+# Crunchyroll.com
+# Werbung, Tracker und anderer Mist ist weitesgehend blockiert, Videos laufen nach kurzer Unterbrechung normal weiter
+# Für den Rest wird ein Adblocker benötigt
+#0.0.0.0 www.crunchyroll.com # /tracker?t=px&v=sm_120&k=443741
+#0.0.0.0 v.vrv.co # Untertitel
+0.0.0.0 www.ugdturner.com
+0.0.0.0 i.cdn.turner.com
+0.0.0.0 eec.crunchyroll.com # Track, analytics.js, Amplitude/Appboy und Segment.io
+0.0.0.0 sa.crunchyroll.com # analytics.min.js
+0.0.0.0 conduit.redfast.com
+0.0.0.0 8f2bfa24-f12a-458a-89ac-391b91f711e3.redfastlabs.com
+0.0.0.0 pbs.getpublica.com
+0.0.0.0 5fd74.v.fwmrm.net # Freewheel Adystem
+0.0.0.0 secure.insightexpressai.com
+0.0.0.0 load.exelator.com
+0.0.0.0 cdn.segment.com
+0.0.0.0 api.segment.io
+0.0.0.0 tag.placelocal.com
+0.0.0.0 sync.placelocal.com
+0.0.0.0 serve.truex.com
+#0.0.0.0 sa.etp-prod.com # analytics.min.js
+0.0.0.0 cr-eec.etp-prod.com
+0.0.0.0 csm-e-ellation-eb.geoloc.yospace.com
+0.0.0.0 beacons2.extremereach.io
+0.0.0.0 ads.stickyadstv.com
+0.0.0.0 d1rszqblq924lq.cloudfront.net
+0.0.0.0 www.yospace.com
+0.0.0.0 ir.surveywall-api.survata.com
+0.0.0.0 www.iab.net
+0.0.0.0 secure-gl.imrworldwide.com
+0.0.0.0 pixel.adsafeprotected.com
+0.0.0.0 go.onelink.me
+0.0.0.0 static.vrv.co
+0.0.0.0 gcdn.2mdn.net
+0.0.0.0 get.truex.com
+# Streamingserver, Werbung und Untertitel
+#0.0.0.0 v.vrv.co # Mit penetranter Werbung
+#0.0.0.0 ll.v.vrv.co # Mit weniger Werbung
+#0.0.0.0 a-vrv.akamaized.net
+
+# Foodnetwork.com
+0.0.0.0 18ivl0rjdhi5lrcmvn369ue0g.litix.io
+0.0.0.0 src.litix.io
+0.0.0.0 drwaiqwbfbh5tnyqhfr7dknnei.appsync-api.us-east-1.amazonaws.com
+0.0.0.0 count.api.pgs.io
+0.0.0.0 ads.freewheel.tv
+
+# NationalGeographic.com | Gehört zu Disney.com
+0.0.0.0 cdn.unid.go.com
+0.0.0.0 unid.go.com
+0.0.0.0 prod.gatekeeper.us-abc.symphony.edgedatg.go.com # Geodaten, IP & Browserkennung gehen an
+0.0.0.0 abc.go.com
+0.0.0.0 prod.gatekeeper.us-abc.symphony.edgedatg.com # Historytracking und Telemetrie
+
+# Ondemandkorea.com
+0.0.0.0 cdn.appsflyer.com
+0.0.0.0 banner.appsflyer.com
+0.0.0.0 ondemandkorea-d.openx.net
+0.0.0.0 brightcombid.marphezis.com
+0.0.0.0 c2shb.ssp.yahoo.com
+0.0.0.0 image8.pubmatic.com
+
+# Sciencechannel.com & Discovery.com
+0.0.0.0 iad02-event.spotxchange.com
+0.0.0.0 iad02-search.spotxchange.com
+0.0.0.0 den01-event.spotxchange.com
+0.0.0.0 den01-search.spotxchange.com
+0.0.0.0 event.spotxchange.com
+0.0.0.0 secure-gg.imrworldwide.com
+0.0.0.0 ttauri.livescience.com
+0.0.0.0 s-static.innovid.com
+0.0.0.0 dts.innovid.com
+0.0.0.0 s.innovid.com
+0.0.0.0 m1.torrenti.al
+0.0.0.0 x.mdhv.io
+0.0.0.0 pxl.iqm.com
+0.0.0.0 s.side3.zucks.net
+0.0.0.0 cr-pall.ladsp.com
+0.0.0.0 altice.hrzn-nxt.com
+0.0.0.0 cdn.id5-sync.com
+0.0.0.0 code.adsales.snidigital.com
+0.0.0.0 rtb.adentifi.com
+0.0.0.0 cr-p35.ladsp.jp
+0.0.0.0 adsd-sync.amanad.adtdp.com
+0.0.0.0 obo.moatads.com
+0.0.0.0 tfuu5214iv4t8c7oka365asfk.litix.io
+0.0.0.0 sni-ad-traffic.s3.amazonaws.com
+0.0.0.0 2ecd5.v.fwmrm.net
+0.0.0.0 stat.flashtalking.com
+#0.0.0.0 content-ausw2-ur-discovery1.uplynk.com
+#0.0.0.0 content-ausw1-ur-discovery1.uplynk.com
+#0.0.0.0 content-ause1-ur-discovery1.uplynk.com
+0.0.0.0 beacons2.extremereach.io
+0.0.0.0 cdn1.extremereach.io
+
+#
 # VPN-Dienste
 # VPN-Dienste und Clients
 
@@ -12428,7 +12598,7 @@ login.live.com
 # 23.50.56.123
 # 224.0.0.251
 #0.0.0.0 ads.a-static.com # Adblock Detektor bei pasteit.top
-#0.0.0.0 bilder-a.akamaihd.net
+#0.0.0.0 bilder-a.akamaihd.net Adplayer, IPD Ad Development Kit, Bugsnag usw
 #0.0.0.0 cdn.privacy-mgmt.com # Cookie Nagscreen z.b. bei Spiegel.de
 #0.0.0.0 cdn.threadsphere.bid
 #0.0.0.0 cdn.vthumbs.com
@@ -12454,6 +12624,7 @@ login.live.com
 0.0.0.0 1suyx9m.lmyiwaakn.com
 0.0.0.0 1ts20.top
 0.0.0.0 2468.go2cloud.org
+0.0.0.0 29773.v.fwmrm.net
 0.0.0.0 2an-hit-ren.com
 0.0.0.0 2d7bd9e6eb370143.com
 0.0.0.0 2rush.net
@@ -12533,6 +12704,7 @@ login.live.com
 0.0.0.0 adloox.com
 0.0.0.0 adlooxtracking.com
 0.0.0.0 adlucent.com
+0.0.0.0 adm.nbc.co
 0.0.0.0 admanager.pushfire.de
 0.0.0.0 admessage.support
 0.0.0.0 admin.qxpress.asia
@@ -12780,6 +12952,7 @@ login.live.com
 0.0.0.0 besthpath.club
 0.0.0.0 bestitpromo.com
 0.0.0.0 beta-eue-1.steelcentral.net
+0.0.0.0 beta.infopicked.com
 0.0.0.0 betano.com
 0.0.0.0 bgn2zqlce1eiya.icu
 0.0.0.0 bgstaging-a.akamaized.net
@@ -12799,6 +12972,7 @@ login.live.com
 0.0.0.0 boudja.com
 0.0.0.0 brain.rvty.net # Heise.de
 0.0.0.0 brand.solvay.com
+0.0.0.0 britepool.com
 0.0.0.0 bttrack.com
 0.0.0.0 builfico.de
 0.0.0.0 burdasty.tag.tagtool.de
@@ -12868,6 +13042,7 @@ login.live.com
 0.0.0.0 cdn.contentspread.net
 0.0.0.0 cdn.cookielaw.org
 0.0.0.0 cdn.districtm.ca # Verweis auf dmx.districtm.ca - Tracker / Ad Receiver
+0.0.0.0 cdn.elasticad.net
 0.0.0.0 cdn.empower.net
 0.0.0.0 cdn.enthusiast.gg # Prebid Script von Gamersheroes.com
 0.0.0.0 cdn.feathr.co
@@ -13024,6 +13199,7 @@ login.live.com
 0.0.0.0 core-api.bringhub.io
 0.0.0.0 corot-20c.com
 0.0.0.0 count.paycounter.com
+0.0.0.0 counter.snackly.co
 0.0.0.0 counter.theconversation.com
 0.0.0.0 courselfnorter.site
 0.0.0.0 cpmspace.com
@@ -13068,9 +13244,11 @@ login.live.com
 0.0.0.0 d1j8v290qqvibb.cloudfront.net
 0.0.0.0 d24ak3f2b.top
 0.0.0.0 d2cmh8xu3ncrj2.cloudfront.net
+0.0.0.0 d2lcoyv3ods5zz.cloudfront.net
 0.0.0.0 d5p.de17a.com
 0.0.0.0 d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com
 0.0.0.0 d8526382938814309666-t4400066239592907150.id.amgdgt.com
+0.0.0.0 dadsats.com
 0.0.0.0 dafloor.tidelinedata.io
 0.0.0.0 dap.digitalgov.gov # Universal Federated Analytics
 0.0.0.0 dashboard.insticator.com
@@ -13123,6 +13301,7 @@ login.live.com
 0.0.0.0 double-clickd.com
 0.0.0.0 doublepimpads.com
 0.0.0.0 download.gamesrv1.com
+0.0.0.0 draft.blogger.com
 0.0.0.0 drctslk.com
 0.0.0.0 ds-pr-bh.ybp.gysm.yahoodns.net
 0.0.0.0 dsfgp.admenhost.com
@@ -13137,6 +13316,7 @@ login.live.com
 0.0.0.0 earandmarketing.com
 0.0.0.0 easycouponsaccess.com
 0.0.0.0 eatcells.com
+0.0.0.0 ebm.native-x.io
 0.0.0.0 ec.walkme.com
 0.0.0.0 ecdn.analysis.fi
 0.0.0.0 echo.nws.press
@@ -13172,6 +13352,7 @@ login.live.com
 0.0.0.0 events.split.io # Metriken und Impressionen
 0.0.0.0 evergage.lottobirock.com
 0.0.0.0 evovasalup.com
+0.0.0.0 ex-k8s-v6.eastus.cloudapp.azure.com
 0.0.0.0 exchancetaur.info
 0.0.0.0 exchange.mediavine.com
 0.0.0.0 exityield.advertise.com
@@ -13393,6 +13574,7 @@ login.live.com
 0.0.0.0 jerkmate.com
 0.0.0.0 jf71qh5v14.com
 0.0.0.0 jg.revolvermaps.com
+0.0.0.0 jmbijk0eln255ipga9o1tnkgo.litix.io
 0.0.0.0 joophesh.com
 0.0.0.0 js-api.otherlevels.com
 0.0.0.0 js-ssl.neodatagroup.com
@@ -13452,6 +13634,7 @@ login.live.com
 0.0.0.0 level3ssl.optimicdn.com
 0.0.0.0 lib-us-1.brilliantcollector.com
 0.0.0.0 libs.aseads.com
+0.0.0.0 lightstep.medium.systems
 0.0.0.0 likemore-fe.go.mail.ru
 0.0.0.0 likemore-go.imgsmail.ru
 0.0.0.0 lindenlaugh.pro
@@ -13465,6 +13648,7 @@ login.live.com
 0.0.0.0 live.soapps.net
 0.0.0.0 livecheck2update.goodsetofforcontentperfect.stream
 0.0.0.0 liveintent.com
+0.0.0.0 liveramp.com
 0.0.0.0 ljpv.s4d.xyz
 0.0.0.0 llahnch259.com
 0.0.0.0 lmbf88.hypertrackeraff.com
@@ -13508,11 +13692,13 @@ login.live.com
 0.0.0.0 man.vm5apis.com
 0.0.0.0 mantodea.mantisadnetwork.com
 0.0.0.0 marco.feathr.co
+0.0.0.0 mariyadarg.fun
 0.0.0.0 market.space
 0.0.0.0 marketing.net.ocm.de
 0.0.0.0 markhor.organicfruitapps.com
 0.0.0.0 martafatass.pro
 0.0.0.0 marthastewart.com
+0.0.0.0 massariuscdn.com
 0.0.0.0 mastertag.q-sis.de
 0.0.0.0 masture.mobi
 0.0.0.0 match.ads.betweendigital.com
@@ -13551,6 +13737,7 @@ login.live.com
 0.0.0.0 mena-gmtdmp.mookie1.com
 0.0.0.0 meowpushnot.com
 0.0.0.0 meraxes-cdn.polarmobile.com
+0.0.0.0 merkleinc.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.ionos.de
 0.0.0.0 mftracking.imfast.io
@@ -13589,6 +13776,7 @@ login.live.com
 0.0.0.0 n3.cdn.adbetnet.com
 0.0.0.0 native.propellerclick.com
 0.0.0.0 ncediscou.fun
+0.0.0.0 netid.de
 0.0.0.0 newdonate.com
 0.0.0.0 newmayads.com
 0.0.0.0 newrrb.bid
@@ -13645,6 +13833,7 @@ login.live.com
 0.0.0.0 pagiwp.com
 0.0.0.0 pan.adraccoon.com
 0.0.0.0 park.above.com
+0.0.0.0 parrable.com
 0.0.0.0 parser.contentssl.com
 0.0.0.0 partners.olybetaffiliates.com
 0.0.0.0 partners.wfxtriggers.com
@@ -13759,6 +13948,7 @@ login.live.com
 0.0.0.0 pto.awecr.com
 0.0.0.0 pto.protoawe.com
 0.0.0.0 pub.sitetag.us
+0.0.0.0 pubcid.org
 0.0.0.0 public-prod-dspcookiematching.dmxleo.com
 0.0.0.0 public.profitwell.com
 0.0.0.0 public.servenobid.com
@@ -13776,7 +13966,6 @@ login.live.com
 0.0.0.0 pw.wpu.sh
 0.0.0.0 px.gamesrevenue.com
 0.0.0.0 px.gfycat.com
-0.0.0.0 px.spiceworks.com
 0.0.0.0 pxl.connexity.net
 0.0.0.0 pxlssl.ibpxl.com
 0.0.0.0 qa-share-data.protopie.io
@@ -13787,6 +13976,7 @@ login.live.com
 0.0.0.0 qstore.id
 0.0.0.0 qualigo.com
 0.0.0.0 quanta-wave.com
+0.0.0.0 quantum-advertising.com
 0.0.0.0 quick-speedtest.com
 0.0.0.0 quizer.fun
 0.0.0.0 qwepop.site
@@ -13917,6 +14107,7 @@ login.live.com
 0.0.0.0 serve.adworldmedia.com
 0.0.0.0 serve.clicknova.net
 0.0.0.0 served-by.pixfuture.com
+0.0.0.0 service.e-recht24.de # Matomo
 0.0.0.0 service.findologic.com
 0.0.0.0 service.maxymiser.net
 0.0.0.0 servicer.idealmedia.io
@@ -13927,6 +14118,7 @@ login.live.com
 0.0.0.0 sessions.bugsnag.com
 0.0.0.0 sftwrads.com
 0.0.0.0 share-data.protopie.io
+0.0.0.0 sharedid.org
 0.0.0.0 shareitpp.com
 0.0.0.0 sibautomation.com # Adroll
 0.0.0.0 sicteppojdwr.com
@@ -13948,6 +14140,7 @@ login.live.com
 0.0.0.0 smart-ads.biz
 0.0.0.0 smart-service-optimise.website
 0.0.0.0 smartcj.com
+0.0.0.0 smetrics.aetn.com
 0.0.0.0 socialstats.netgen.io
 0.0.0.0 solarwindscom.postaffiliatepro.com
 0.0.0.0 solutions.inet-logistics.com
@@ -14136,6 +14329,7 @@ login.live.com
 0.0.0.0 thesourceplus.sonymobile.com
 0.0.0.0 thisiswaldo.com
 0.0.0.0 threedrive.su
+0.0.0.0 thunderdom-v1.sftapi.com # GHacks Prebid und Werbung
 0.0.0.0 tinder4fuck.club
 0.0.0.0 tionscofferent.info
 0.0.0.0 tipico.com
@@ -14147,6 +14341,7 @@ login.live.com
 0.0.0.0 tools.impactbnd.com
 0.0.0.0 tortoise.proboards.com
 0.0.0.0 tp1jcgl644jk.com
+0.0.0.0 tpid_liveintent.com
 0.0.0.0 tps.doubleverify.com
 0.0.0.0 tps20231.doubleverify.com
 0.0.0.0 tr.blismedia.com
@@ -14186,6 +14381,7 @@ login.live.com
 0.0.0.0 tracking.pinflix.com
 0.0.0.0 tracking.tomsguide.com
 0.0.0.0 tracking8888.xyz
+0.0.0.0 trackquantx.adux.com
 0.0.0.0 tradingtracker.net
 0.0.0.0 traffic.adxprtz.com
 0.0.0.0 traffic.okfn.de # Piwik
@@ -14215,6 +14411,7 @@ login.live.com
 0.0.0.0 ueuodgnrhb.com
 0.0.0.0 uid.mavencoalition.io
 0.0.0.0 uim.tifbs.net
+0.0.0.0 uk-script.dotmetrics.net
 0.0.0.0 ulisses.pro
 0.0.0.0 ulukaris.com
 0.0.0.0 um.simpli.fi
@@ -14313,6 +14510,7 @@ login.live.com
 0.0.0.0 widget.tiledesk.com
 0.0.0.0 widget6.linkwithin.com
 0.0.0.0 widgets.ad.style
+0.0.0.0 widgets.sanivita.de
 0.0.0.0 widgets.sprinklecontent.com
 0.0.0.0 wilwasharrabred.pro
 0.0.0.0 winbuzzer.matomo.cloud
