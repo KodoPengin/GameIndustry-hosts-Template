@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 07.12.2020
+# Änderungsdatum: 16.12.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -2006,16 +2006,17 @@ ff02::3 ip6-allhosts
 # Adalliance.io
 # Ip/s blockieren:
 # 148.251.64.134
-0.0.0.0 hello.adalliance.io
-0.0.0.0 dmpstorage.adalliance.io
-0.0.0.0 weather.adalliance.io
-0.0.0.0 optout.adalliance.io
-0.0.0.0 aqt.adalliance.io
-0.0.0.0 tracking.adalliance.io
 0.0.0.0 adalliance-a.akamaihd.net
-0.0.0.0 datahub.adalliance.io
-0.0.0.0 mafo.adalliance.io
+0.0.0.0 aqt.adalliance.io
 0.0.0.0 bls-stage.adalliance.io
+0.0.0.0 datahub.adalliance.io
+0.0.0.0 dmpstorage.adalliance.io
+0.0.0.0 hello.adalliance.io
+0.0.0.0 mafo.adalliance.io
+0.0.0.0 optout.adalliance.io
+0.0.0.0 tracking.adalliance.io
+0.0.0.0 weather.adalliance.io
+0.0.0.0 zipservice.adalliance.io
 
 # Adap.tv
 0.0.0.0 sync.adap.tv
@@ -2563,6 +2564,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ws-fe.amazon-adsystem.com
 0.0.0.0 z-na.amazon-adsystem.com
 0.0.0.0 fls-eu.amazon.de
+0.0.0.0 fls-fe.amazon.co.jp
 0.0.0.0 aax-eu.amazon.de
 0.0.0.0 completion.amazon.co.uk # Produktvorschläge
 0.0.0.0 completion.amazon.co.jp
@@ -2784,6 +2786,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dx6ctphzljkf1.cloudfront.net # Golem.de
 0.0.0.0 dyfw24whmn0ln.cloudfront.net
 0.0.0.0 d2zl2n5iz2c0l7.cloudfront.net
+0.0.0.0 d2r1yp2w7bby2u.cloudfront.net
 
 # Amplitude.com
 0.0.0.0 api.amplitude.com
@@ -4357,6 +4360,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 7kqv8mugue.kameleoon.eu
 0.0.0.0 o1gbw4vvne.kameleoon.eu
 0.0.0.0 ttso23yjax.kameleoon.eu
+0.0.0.0 rmig7qw3qq.kameleoon.eu
 
 # Kelkoo Tracking
 0.0.0.0 s.kelkoogroup.net
@@ -5301,6 +5305,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 disqus-d.openx.net
 0.0.0.0 enthusiast-gaming-d.openx.net
 0.0.0.0 eu-u.openx.net
+0.0.0.0 ezoic-d.openx.net
 0.0.0.0 freestar-d.openx.net
 0.0.0.0 futurenet-d.openx.net
 0.0.0.0 ggsoftware-d.openx.net
@@ -5318,8 +5323,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 networkn-d.openx.net
 0.0.0.0 netzathleten-d.openx.net
 0.0.0.0 netzwelt-gmbh-d.openx.net
-0.0.0.0 ox-delivery-prod-europe-west3.openx.net
 0.0.0.0 ox-delivery-prod-1-europe-west1.openx.net
+0.0.0.0 ox-delivery-prod-europe-west3.openx.net
 0.0.0.0 pixfuture2-d.openx.net
 0.0.0.0 playwire-d.openx.net
 0.0.0.0 propermedia-d.openx.net
@@ -7890,6 +7895,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 cmp-cdn.golem.de # Cookie Nagscreen
 0.0.0.0 d379964aymex2x.cloudfront.net # SVM
 #0.0.0.0 account.golem.de # golem_testcookie /ping?callback=xxxxx
+0.0.0.0 d.ba-content.de
+0.0.0.0 c.ba-content.de
 
 # Gutefrage.de
 0.0.0.0 happyunicorns.gutefrage.net
@@ -8590,6 +8597,9 @@ ff02::3 ip6-allhosts
 
 # Wetter.com
 0.0.0.0 cs4.wettercomassets.com # Landingpage Werbung
+0.0.0.0 suggest.wettercomassets.com # IP-Hash
+0.0.0.0 static-radar.wettercomassets.com
+0.0.0.0 ct1.wettercomassets.com
 
 # Witt-weiden.de
 0.0.0.0 tp.witt-weiden.de # Otto Group Trackingscript
@@ -8820,6 +8830,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 taotao.qq.com
 0.0.0.0 v.gdt.qq.com
 0.0.0.0 visitor.crm2.qq.com
+0.0.0.0 qbwup.imtt.qq.com
 # Ip/s blockieren:
 # 167.89.115.54
 # Interne Messenger QQ News
@@ -8899,6 +8910,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bench.mig.tencent-cloud.net
 0.0.0.0 cube.weixinbridge.com # Report Data
 #0.0.0.0 wx.qlogo.cn # Avatare
+0.0.0.0 badjs.weixinbridge.com # Reports
 
 # 中国政府网_中央人民政府门户网站
 0.0.0.0 diag-wd.gridsumdissector.com
@@ -12598,8 +12610,7 @@ login.live.com
 # 23.50.56.123
 # 224.0.0.251
 #0.0.0.0 ads.a-static.com # Adblock Detektor bei pasteit.top
-#0.0.0.0 bilder-a.akamaihd.net Adplayer, IPD Ad Development Kit, Bugsnag usw
-#0.0.0.0 cdn.privacy-mgmt.com # Cookie Nagscreen z.b. bei Spiegel.de
+#0.0.0.0 cdn.privacy-mgmt.com # Cookie Nagscreen z.b. bei Spiegel.de, Capital.de usw
 #0.0.0.0 cdn.threadsphere.bid
 #0.0.0.0 cdn.vthumbs.com
 #0.0.0.0 clearload.bid # zwischengeschaltete Werbung ála Adf.ly
@@ -12641,6 +12652,7 @@ login.live.com
 0.0.0.0 550b3ikb9j.com
 0.0.0.0 564d28256cddaeba.com
 0.0.0.0 5baf1288cf.dl8.me
+0.0.0.0 5f3c395.ccm19.de
 0.0.0.0 6037648.global.siteimproveanalytics.io
 0.0.0.0 688012155290337.mateti.net
 0.0.0.0 77153ccfd0549f191.com
@@ -12668,6 +12680,7 @@ login.live.com
 0.0.0.0 a5apzj82.emltrk.com
 0.0.0.0 a767.dscg3.akamai.net
 0.0.0.0 a8672336.mnoova.com
+0.0.0.0 aanqylta.com
 0.0.0.0 ab23e84117d41e7.com
 0.0.0.0 abellalist.com
 0.0.0.0 abp.mxptint.net
@@ -12818,6 +12831,7 @@ login.live.com
 0.0.0.0 analytics.jst.ai
 0.0.0.0 analytics.mailmunch.co
 0.0.0.0 analytics.mailmunch.co.herokudns.com
+0.0.0.0 analytics.onionsearchengine.com
 0.0.0.0 analytics.ovh.com # Measure.js
 0.0.0.0 analytics.slashdotmedia.com
 0.0.0.0 analytics.sleeknote.com
@@ -12864,6 +12878,7 @@ login.live.com
 0.0.0.0 api.tidint.pro
 0.0.0.0 api.tiledesk.com
 0.0.0.0 api.userlike.com
+0.0.0.0 api.vanilla.futurecdn.net
 0.0.0.0 api.vicomi.com
 0.0.0.0 api.whizzco.com
 0.0.0.0 api.yieldlove-ad-serving.net
@@ -12903,6 +12918,7 @@ login.live.com
 0.0.0.0 async01.admantx.com
 0.0.0.0 at.iocnt.net
 0.0.0.0 ateoildim.club
+0.0.0.0 atf.containers.piwik.pro
 0.0.0.0 atlas.etahub.com
 0.0.0.0 atlas.r.akipam.com
 0.0.0.0 atonato.de # Werbeinblendung Golem.de
@@ -12957,6 +12973,7 @@ login.live.com
 0.0.0.0 bgn2zqlce1eiya.icu
 0.0.0.0 bgstaging-a.akamaized.net
 0.0.0.0 bids.proper.io
+0.0.0.0 bilder-a.akamaihd.net # Adplayer, Audience Verification, IPD Ad Development Kit, Bugsnag usw
 0.0.0.0 biltag.bilsyndication.com
 0.0.0.0 bin.bnbstatic.com
 0.0.0.0 binary.limited
@@ -13102,6 +13119,7 @@ login.live.com
 0.0.0.0 cdn.threadloom.com
 0.0.0.0 cdn.tokopedia.net
 0.0.0.0 cdn.tpdads.com
+0.0.0.0 cdn.undertone.com
 0.0.0.0 cdn.webclicks24.com
 0.0.0.0 cdn.www.cccpmo.com
 0.0.0.0 cdn.yldbt.com # Yieldbot
@@ -13219,6 +13237,7 @@ login.live.com
 0.0.0.0 cryptocoinsad.com
 0.0.0.0 cryptotab.net
 0.0.0.0 cryptowebpages.com
+0.0.0.0 cs.admanmedia.com
 0.0.0.0 cs.emxdgt.com
 0.0.0.0 cs.money
 0.0.0.0 cs.nex8.net
@@ -13250,6 +13269,7 @@ login.live.com
 0.0.0.0 d8526382938814309666-t4400066239592907150.id.amgdgt.com
 0.0.0.0 dadsats.com
 0.0.0.0 dafloor.tidelinedata.io
+0.0.0.0 dailyinterventioncongestion.com
 0.0.0.0 dap.digitalgov.gov # Universal Federated Analytics
 0.0.0.0 dashboard.insticator.com
 0.0.0.0 dashboard.tinypass.com
@@ -13314,6 +13334,7 @@ login.live.com
 0.0.0.0 e1.emxdgt.com
 0.0.0.0 e7393e33565ce805.com
 0.0.0.0 earandmarketing.com
+0.0.0.0 easy-bars.com
 0.0.0.0 easycouponsaccess.com
 0.0.0.0 eatcells.com
 0.0.0.0 ebm.native-x.io
@@ -13379,11 +13400,13 @@ login.live.com
 0.0.0.0 files.jubnaadserve.com
 0.0.0.0 filter.tab-technologies.com
 0.0.0.0 fingahvf.top
+0.0.0.0 firescorrelationprodigy.com
 0.0.0.0 fixgreatlycurrentfile.icu
 0.0.0.0 floater.playstream.media
 0.0.0.0 flow.lavasoft.com
 0.0.0.0 fo-static.omnitagjs.com
 0.0.0.0 forms.m-pages.com
+0.0.0.0 formulacountess.com
 0.0.0.0 fourpercent.com
 0.0.0.0 fr-campaign.gccdn.net
 0.0.0.0 free-download-manager.joydownload.com
@@ -13432,6 +13455,7 @@ login.live.com
 0.0.0.0 go-route.com
 0.0.0.0 go.automatad.com
 0.0.0.0 go.eu.bbelements.com
+0.0.0.0 go.ezodn.com
 0.0.0.0 go.mix5life.site
 0.0.0.0 go.oclasrv.com
 0.0.0.0 go.onclasrv.com
@@ -13450,6 +13474,7 @@ login.live.com
 0.0.0.0 grementessenti.info
 0.0.0.0 grey.erne.co
 0.0.0.0 grooksom.com
+0.0.0.0 groomaffections.com
 0.0.0.0 gs-goldbach.da-services.ch
 0.0.0.0 gscounters.us1.gigya.com
 0.0.0.0 gu.dyntrk.com
@@ -13466,6 +13491,7 @@ login.live.com
 0.0.0.0 haypaydig.club
 0.0.0.0 hb.adpone.com
 0.0.0.0 hb.emxdgt.com
+0.0.0.0 hb.undertone.com
 0.0.0.0 hb.vntsm.com # Admanager
 0.0.0.0 hclips-tn1.gfkey.com
 0.0.0.0 healte.de # Werbeinblendung z.B. bei Golem.de
@@ -13743,6 +13769,7 @@ login.live.com
 0.0.0.0 mftracking.imfast.io
 0.0.0.0 mgouoirpayddk.com
 0.0.0.0 mid.rkdms.com
+0.0.0.0 mignished-sility.com
 0.0.0.0 miklsoft.com
 0.0.0.0 ministedik.info
 0.0.0.0 mission.d2rr.trade
@@ -13809,6 +13836,7 @@ login.live.com
 0.0.0.0 onclickgenius.com
 0.0.0.0 onclickprediction.com
 0.0.0.0 onetag-sys.com
+0.0.0.0 onionadsplatform.com
 0.0.0.0 onmarshtompor.com
 0.0.0.0 onstunkyr.com
 0.0.0.0 op.cryptobrowser.site
@@ -13918,6 +13946,7 @@ login.live.com
 0.0.0.0 prd-collector-anon.playbuzz.com
 0.0.0.0 pre-usermatch.targeting.unrulymedia.com
 0.0.0.0 prebid-eu.creativecdn.com
+0.0.0.0 prebid.a-mo.net
 0.0.0.0 prebid.digitru.st
 0.0.0.0 prebid.districtm.ca
 0.0.0.0 prebid.smilewanted.com
@@ -13994,6 +14023,7 @@ login.live.com
 0.0.0.0 rabbit-affiliates.elb.myaffiliates.com
 0.0.0.0 rabbitent-static.casinomodule.com
 0.0.0.0 rack-east.mobileadtrading.com
+0.0.0.0 railroadtomato.com
 0.0.0.0 ramp.purch.com
 0.0.0.0 ranks1.apserver.net
 0.0.0.0 rapi.walkme.com
@@ -14152,6 +14182,7 @@ login.live.com
 0.0.0.0 spiffymachine.com
 0.0.0.0 spl.zeotap.com
 0.0.0.0 spot-01.trackingpro.pro
+0.0.0.0 squeezedthoughtfully.com
 0.0.0.0 sra.relemind.com
 0.0.0.0 srv.carbonads.net
 0.0.0.0 srv.clickfuse.com
@@ -14235,6 +14266,7 @@ login.live.com
 0.0.0.0 sync.1rx.io
 0.0.0.0 sync.adap.tv
 0.0.0.0 sync.adotmob.com
+0.0.0.0 sync.alphonso.tv
 0.0.0.0 sync.extend.tv
 0.0.0.0 sync.meazy.co
 0.0.0.0 sync.quantumdex.io
@@ -14324,6 +14356,7 @@ login.live.com
 0.0.0.0 textad.net
 0.0.0.0 tharbadir.com
 0.0.0.0 the-ethereum.bit-system.org
+0.0.0.0 thebestgame2020.com
 0.0.0.0 thecunning.xyz
 0.0.0.0 themes.trustpayglobal.com
 0.0.0.0 thesourceplus.sonymobile.com
@@ -14391,6 +14424,7 @@ login.live.com
 0.0.0.0 traintincre.fun
 0.0.0.0 trakclk.com
 0.0.0.0 trblocked.com
+0.0.0.0 tremblingkeyboardassistant.com
 0.0.0.0 tremembersy.site
 0.0.0.0 trk.vidible.tv
 0.0.0.0 trk3r.net
@@ -14433,6 +14467,7 @@ login.live.com
 0.0.0.0 use.edgefonts.net
 0.0.0.0 uselnk.com
 0.0.0.0 usma.cdnetworks.net
+0.0.0.0 usr.undertone.com
 0.0.0.0 usync.nexage.com
 0.0.0.0 ut.performax.cz
 0.0.0.0 uthorner.info
@@ -14452,6 +14487,7 @@ login.live.com
 0.0.0.0 versionsupport.onlinegoodsitefor-contentingu.trade
 0.0.0.0 via.placeholder.com
 0.0.0.0 vibecdn.forkcdn.com
+0.0.0.0 vid-adblocker.com
 0.0.0.0 vidapi.expepp.de
 0.0.0.0 video-library.showheroes.com
 0.0.0.0 video.onnetwork.tv
@@ -14708,6 +14744,7 @@ login.live.com
 0.0.0.0 www6.afsanalytics.com
 0.0.0.0 www9.afsanalytics.com
 0.0.0.0 wysasys.com
+0.0.0.0 wzrkt.com
 0.0.0.0 x.bidfilter.com
 0.0.0.0 xadsmart.com
 0.0.0.0 xd.adnz.co
@@ -14733,6 +14770,7 @@ login.live.com
 0.0.0.0 yjsei.bemobtrk.com
 0.0.0.0 youborafds01.com
 0.0.0.0 yourfreepdfconverternow.com
+0.0.0.0 yourwebbars.com
 0.0.0.0 youwins.mobi
 0.0.0.0 ytbp.my-working-flat.de
 0.0.0.0 ytimm.com # Stats Pornperfect & xtremeserve.xyz
