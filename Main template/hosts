@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 16.12.2020
+# Änderungsdatum: 26.12.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1808,9 +1808,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ustiming.org # 67.227.226.241
 #0.0.0.0 ocsp.rootg2.amazontrust.com
 #0.0.0.0 o.ss2.us
-0.0.0.0 sites.fastspring.com
-0.0.0.0 dxezhqhj7t42i.cloudfront.net
-0.0.0.0 dcnz2rrcot657.cloudfront.net
+#0.0.0.0 sites.fastspring.com
+#0.0.0.0 dxezhqhj7t42i.cloudfront.net
+#0.0.0.0 dcnz2rrcot657.cloudfront.net
 0.0.0.0 t3j2g9x7.stackpathcdn.com
 
 # Vuze
@@ -2513,6 +2513,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net # Steam GDS
 #0.0.0.0 a1843.g1.akamai.net # SteamCDN-A
 0.0.0.0 a1768.g1.akamai.net
+0.0.0.0 bilder-a.akamaihd.net # Adplayer, Audience Verification, IPD Ad Development Kit, Bugsnag usw
 
 # Akstat.io
 0.0.0.0 22f9d241.akstat.io
@@ -2729,6 +2730,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d2oa97wrxvxm7y.cloudfront.net
 0.0.0.0 d2p3zdq8vjvnxd.cloudfront.net
 0.0.0.0 d2s2jxtv35392n.cloudfront.net
+0.0.0.0 d2sbzwmcg5amr3.cloudfront.net
 0.0.0.0 d2ty8gaf6rmowa.cloudfront.net
 0.0.0.0 d2v9mhsiek5lbq.cloudfront.net
 0.0.0.0 d2wu036mkcz52n.cloudfront.net
@@ -5596,6 +5598,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zna3geekgi4zqwwfn-viacom.siteintercept.qualtrics.com
 0.0.0.0 az1.qualtrics.com
 0.0.0.0 zn4tkr5tyyboykso1-quora.siteintercept.qualtrics.com
+0.0.0.0 zn1ynnliufrct75cb-paypalxm.siteintercept.qualtrics.com # Paypal
 
 # Quantcount.com | Nutzeranalyse und Echtzeitwerbung
 0.0.0.0 rules.quantcount.com
@@ -8362,6 +8365,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.soundcloud.com # Tracker
 0.0.0.0 l9bjkkhaycw6f8f4.soundcloud.com
 
+# Sparkasse.de / Unterseiten
+# 185.85.0.144
+0.0.0.0 services.sparkasse-vor-ort.de
+0.0.0.0 module.sparkasse-muensterland-ost.de
+0.0.0.0 www.sparkasse.de # /frontend/setTrackingCookie.html?blz=xxxxxx
+
 # Spieletipps.de
 0.0.0.0 ssl.1.damoh.spieletipps.de # Videowerbung, verweist auf js.adscale.de
 0.0.0.0 ssl.2.damoh.spieletipps.de
@@ -8370,19 +8379,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 wrapper-api.sp-prod.net
 0.0.0.0 notice.sp-prod.net
 #0.0.0.0 lx56.spieletips.de # Playlist, m3u8 und ts Daten
-
-# Stackexchange.com & Stackoverflow.com
-0.0.0.0 clc.stackoverflow.com # Pixel
-0.0.0.0 qa.sockets.stackexchange.com # Websocket
-
-# Stern.de
-0.0.0.0 commsvc.stern.de # Böse Verbraucher haben Adblocker installiert Hinweis
-0.0.0.0 asset3.stern.de # dazugehörige Grafiken
-0.0.0.0 tracking.gj-mobile-services.de
-# Bei Bedarf einfach Einträge zu damoh/Schneevonmorgen löschen
-0.0.0.0 ssl.1.damoh.aws.stern.de
-0.0.0.0 ssl.2.damoh.aws.stern.de
-0.0.0.0 ssl.3.damoh.aws.stern.de
 
 # Spiceworks.com
 0.0.0.0 gala.spiceworks.com # Snowplow Analytics
@@ -8403,8 +8399,21 @@ ff02::3 ip6-allhosts
 # Square-enix-games.com & Unterseiten
 0.0.0.0 geoip.id.sqexeu.com # Geodatenerfassung bis auf 10km Umkreis + ipv4
 
+# Stackexchange.com & Stackoverflow.com
+0.0.0.0 clc.stackoverflow.com # Pixel
+0.0.0.0 qa.sockets.stackexchange.com # Websocket
+
 # Steamgifts.com | Gehostet auf Amazon S3 | Cloudfront
 #0.0.0.0 cdn.steamgifts.com # Prebid & Google Analytics Cookies
+
+# Stern.de
+0.0.0.0 commsvc.stern.de # Böse Verbraucher haben Adblocker installiert Hinweis
+0.0.0.0 asset3.stern.de # dazugehörige Grafiken
+0.0.0.0 tracking.gj-mobile-services.de
+# Bei Bedarf einfach Einträge zu damoh/Schneevonmorgen löschen
+0.0.0.0 ssl.1.damoh.aws.stern.de
+0.0.0.0 ssl.2.damoh.aws.stern.de
+0.0.0.0 ssl.3.damoh.aws.stern.de
 
 # Ströer Digital Group GmbH
 # Stroeerdigitalmedia.de
@@ -10894,13 +10903,14 @@ ff02::3 ip6-allhosts
 # 104.119.109.218
 # 2a02:26f0:1700:1b8::356e
 #0.0.0.0 www.microsoft.com
-# Aktualisierungen
+# Aktualisierungen | Component Updater
 # 52.159.49.192
 # 40.81.30.53
 # 92.123.237.74
 # 2a02:26f0:1b00::5c7b:ef49
 # 2a02:26f0:1b00::5c7b:ef63
 #0.0.0.0 msedge.api.cdp.microsoft.com
+#0.0.0.0 msedge.b.tlu.dl.delivery.mp.microsoft.com
 #0.0.0.0 msedge.f.tlu.dl.delivery.mp.microsoft.com
 # Angesprochene Identity_helper.exe unter 86.0.622.61
 
@@ -12661,6 +12671,8 @@ login.live.com
 0.0.0.0 820.joomsearch.com
 0.0.0.0 82o9v830.com
 0.0.0.0 89ca855a075f1d47c0a490ec8aa47d0c-100.s.section.io
+0.0.0.0 8ctihr3.thefaceduck.com
+0.0.0.0 8kardcr.thefaceduck.com
 0.0.0.0 a.b0e8.com
 0.0.0.0 a.bestcontentprogram.top
 0.0.0.0 a.impactradius-go.com
@@ -12803,6 +12815,7 @@ login.live.com
 0.0.0.0 aj1574.online
 0.0.0.0 akutapro.com
 0.0.0.0 algovid.com
+0.0.0.0 alli-ti-cod.com
 0.0.0.0 allrecipes.groceryserver.com # Geodaten
 0.0.0.0 allstarmediagroup.com
 0.0.0.0 alpha.inet-logistics.com
@@ -12973,7 +12986,6 @@ login.live.com
 0.0.0.0 bgn2zqlce1eiya.icu
 0.0.0.0 bgstaging-a.akamaized.net
 0.0.0.0 bids.proper.io
-0.0.0.0 bilder-a.akamaihd.net # Adplayer, Audience Verification, IPD Ad Development Kit, Bugsnag usw
 0.0.0.0 biltag.bilsyndication.com
 0.0.0.0 bin.bnbstatic.com
 0.0.0.0 binary.limited
@@ -13018,6 +13030,7 @@ login.live.com
 0.0.0.0 cardmrket.com
 0.0.0.0 cargill.dhr-platinum.com
 0.0.0.0 casedrop.com
+0.0.0.0 caywns3.thefaceduck.com
 0.0.0.0 cd-mob.com
 0.0.0.0 cdm.cursecdn.com
 0.0.0.0 cdn-0.d41.co
@@ -13245,7 +13258,9 @@ login.live.com
 0.0.0.0 cs.yellowblue.io
 0.0.0.0 cs02.xxx-hunt-er.xyz
 0.0.0.0 cs03.xxx-hunt-er.xyz
+0.0.0.0 cs10.alli-ti-cod.com
 0.0.0.0 cs502357.wpc.gammacdn.net
+0.0.0.0 cs53.face-push.com
 0.0.0.0 csecu.cdngp.net
 0.0.0.0 csm.cxpublic.com
 0.0.0.0 cstatic.weborama.fr
@@ -13270,6 +13285,7 @@ login.live.com
 0.0.0.0 dadsats.com
 0.0.0.0 dafloor.tidelinedata.io
 0.0.0.0 dailyinterventioncongestion.com
+0.0.0.0 danlt4f.thefaceduck.com
 0.0.0.0 dap.digitalgov.gov # Universal Federated Analytics
 0.0.0.0 dashboard.insticator.com
 0.0.0.0 dashboard.tinypass.com
@@ -13321,6 +13337,7 @@ login.live.com
 0.0.0.0 double-clickd.com
 0.0.0.0 doublepimpads.com
 0.0.0.0 download.gamesrv1.com
+0.0.0.0 dqealri.thefaceduck.com
 0.0.0.0 draft.blogger.com
 0.0.0.0 drctslk.com
 0.0.0.0 ds-pr-bh.ybp.gysm.yahoodns.net
@@ -13404,6 +13421,7 @@ login.live.com
 0.0.0.0 fixgreatlycurrentfile.icu
 0.0.0.0 floater.playstream.media
 0.0.0.0 flow.lavasoft.com
+0.0.0.0 fmtzo6x.thefaceduck.com
 0.0.0.0 fo-static.omnitagjs.com
 0.0.0.0 forms.m-pages.com
 0.0.0.0 formulacountess.com
@@ -13531,6 +13549,7 @@ login.live.com
 0.0.0.0 i18n.bnbstatic.com
 0.0.0.0 iabusprivacy.pmc.com
 0.0.0.0 ibclick.stream
+0.0.0.0 icinyex.thefaceduck.com
 0.0.0.0 icofx.ro
 0.0.0.0 id5-sync.com
 0.0.0.0 idaas-ext.cph.liveintent.com
@@ -13794,6 +13813,7 @@ login.live.com
 0.0.0.0 mxl.connexity.net
 0.0.0.0 mybestmv.com
 0.0.0.0 mybrowseraddon.com
+0.0.0.0 mzjcsda.thefaceduck.com
 0.0.0.0 n-cdn-origin.areyouahuman.com
 0.0.0.0 n-cdn.areyouahuman.com
 0.0.0.0 n.pc1ads.com
@@ -13970,6 +13990,7 @@ login.live.com
 0.0.0.0 promotions.lpage.co
 0.0.0.0 propeller-tracking.com
 0.0.0.0 provers.pro
+0.0.0.0 proxy.xceler8.io
 0.0.0.0 prstatics.com
 0.0.0.0 prwidgets.com
 0.0.0.0 psadsoob.com
@@ -14187,6 +14208,7 @@ login.live.com
 0.0.0.0 srv.carbonads.net
 0.0.0.0 srv.clickfuse.com
 0.0.0.0 ss3.zedo.com
+0.0.0.0 ssionsupre.fun
 0.0.0.0 ssl-market-east.smrtb.com
 0.0.0.0 ssl2.perquisite.net
 0.0.0.0 ssl2anyone3.com
@@ -14384,6 +14406,7 @@ login.live.com
 0.0.0.0 track-api.klickly.com
 0.0.0.0 track-eu.adformnet.akadns.net
 0.0.0.0 track.affiliate-b.com
+0.0.0.0 track.analitycs.net
 0.0.0.0 track.attributionapp.com
 0.0.0.0 track.beeketing.com
 0.0.0.0 track.cccpmo.com
@@ -14442,6 +14465,7 @@ login.live.com
 0.0.0.0 udarem.com
 0.0.0.0 udc-neb.kampyle.com
 0.0.0.0 ue55qnkvwwmu-a.akamaihd.net
+0.0.0.0 ueaggress.top
 0.0.0.0 ueuodgnrhb.com
 0.0.0.0 uid.mavencoalition.io
 0.0.0.0 uim.tifbs.net
@@ -14512,6 +14536,7 @@ login.live.com
 0.0.0.0 waust.at
 0.0.0.0 wb.messengerpeople.com # Heise.de
 0.0.0.0 wbk.in-berlin.de # Piwik
+0.0.0.0 wbxhrju.thefaceduck.com
 0.0.0.0 wc-tracking.lavasoft.com
 0.0.0.0 web-clients.mynativeplatform.com
 0.0.0.0 web-sdk.urbanairship.com
@@ -14558,14 +14583,17 @@ login.live.com
 0.0.0.0 wow.zamimg.com
 0.0.0.0 wpcomwidgets.com
 0.0.0.0 wpformb.com
+0.0.0.0 wqw5pob.thefaceduck.com
 0.0.0.0 ws1.rqtrk.eu
 0.0.0.0 ws3.rqtrk.eu
 0.0.0.0 wt1.rqtrk.eu
 0.0.0.0 wurfl.io
+0.0.0.0 ww2.vuedsply.com
 0.0.0.0 wwa.wipe.de
 0.0.0.0 wwsercher.biz
 0.0.0.0 wwv.scour.com
 0.0.0.0 www-thalia-de.ax4z.com
+0.0.0.0 www.03347b0e2c1321feb76e79ad81003e51.icu
 0.0.0.0 www.11teamsports.com
 0.0.0.0 www.12minuteaffiliate.com
 0.0.0.0 www.a10networks.com
@@ -14771,6 +14799,7 @@ login.live.com
 0.0.0.0 youborafds01.com
 0.0.0.0 yourfreepdfconverternow.com
 0.0.0.0 yourwebbars.com
+0.0.0.0 yourwownewz.com
 0.0.0.0 youwins.mobi
 0.0.0.0 ytbp.my-working-flat.de
 0.0.0.0 ytimm.com # Stats Pornperfect & xtremeserve.xyz
