@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 26.12.2020
+# Änderungsdatum: 01.01.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -2240,7 +2240,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 nbcu.demdex.net
 0.0.0.0 nexac.demdex.net
 0.0.0.0 nfl.demdex.net
-0.0.0.0 optimalpayments.demdex.net
+0.0.0.0 optimalpayments.demdex.net # Skrill
 0.0.0.0 pepsico.demdex.net
 0.0.0.0 postmedia.demdex.net
 0.0.0.0 px.demdex.net
@@ -12625,11 +12625,13 @@ login.live.com
 #0.0.0.0 cdn.vthumbs.com
 #0.0.0.0 clearload.bid # zwischengeschaltete Werbung ála Adf.ly
 #0.0.0.0 content.invisioncic.com # Scripts Malwarebytes Forum
+#0.0.0.0 geolocation.onetrust.com
 #0.0.0.0 img.purch.com
 #0.0.0.0 irc.gpbeta.com
 #0.0.0.0 isafe.pro # bei einigen Seiten zwischen Streamings geschaltet >.<
 #0.0.0.0 it.toolbox.com
 #0.0.0.0 paibopse.com
+#0.0.0.0 privacyportal-eu.onetrust.com
 #0.0.0.0 threadsphere.bid
 #0.0.0.0 widget-mediator.zopim.com # Livechat WSS
 0.0.0.0 0i0i0i0.com
@@ -12906,6 +12908,7 @@ login.live.com
 0.0.0.0 app.medyanetads.com
 0.0.0.0 app.n26.com
 0.0.0.0 app.playstream.media
+0.0.0.0 app.trustami.com
 0.0.0.0 appearedsoci.fun
 0.0.0.0 appfocus.go2cloud.org
 0.0.0.0 apps.meg.com
@@ -13132,6 +13135,7 @@ login.live.com
 0.0.0.0 cdn.threadloom.com
 0.0.0.0 cdn.tokopedia.net
 0.0.0.0 cdn.tpdads.com
+0.0.0.0 cdn.trustami.com
 0.0.0.0 cdn.undertone.com
 0.0.0.0 cdn.webclicks24.com
 0.0.0.0 cdn.www.cccpmo.com
@@ -13249,6 +13253,7 @@ login.live.com
 0.0.0.0 cryptobrowser.site
 0.0.0.0 cryptocoinsad.com
 0.0.0.0 cryptotab.net
+0.0.0.0 cryptotabbrowser.com
 0.0.0.0 cryptowebpages.com
 0.0.0.0 cs.admanmedia.com
 0.0.0.0 cs.emxdgt.com
@@ -13402,6 +13407,7 @@ login.live.com
 0.0.0.0 ezodn.com
 0.0.0.0 f.convertkit.com
 0.0.0.0 f8578e82bbd50609bb70.date
+0.0.0.0 facesnotebook.com
 0.0.0.0 faigroas.net
 0.0.0.0 faindianship.club
 0.0.0.0 fallsm.ndg.io
@@ -13453,7 +13459,6 @@ login.live.com
 0.0.0.0 geoip.network-n.com
 0.0.0.0 geolocation-db.com # Marathonfitness.de
 0.0.0.0 geolocation.1trust.app
-0.0.0.0 geolocation.onetrust.com
 0.0.0.0 geoservice.curse.com
 0.0.0.0 get.contentpass.net
 0.0.0.0 get.cryptobrowser.site
@@ -13923,6 +13928,7 @@ login.live.com
 0.0.0.0 piwik.tmptech.net
 0.0.0.0 piwik.wdv.de
 0.0.0.0 piwik.wp1098317.server-he.de
+0.0.0.0 pix.hyj.mobi
 0.0.0.0 pix.nbcuni.com
 0.0.0.0 pixel-a.basis.net
 0.0.0.0 pixel-geo.prfct.co
@@ -13975,7 +13981,6 @@ login.live.com
 0.0.0.0 presidery.info
 0.0.0.0 preskalyn.com
 0.0.0.0 prioritybeforehand.com
-0.0.0.0 privacyportal-eu.onetrust.com
 0.0.0.0 privymktg.com
 0.0.0.0 processing-api.klickly.com
 0.0.0.0 prod-ingestion.tracking.v2.yieldlove-ad-serving.net
@@ -14205,9 +14210,11 @@ login.live.com
 0.0.0.0 spot-01.trackingpro.pro
 0.0.0.0 squeezedthoughtfully.com
 0.0.0.0 sra.relemind.com
+0.0.0.0 sru4c3g1-029d275edc43d3a9ec1b8c8f4994657f8e139c07-am1.e.aa.online-metrix.net
 0.0.0.0 srv.carbonads.net
 0.0.0.0 srv.clickfuse.com
 0.0.0.0 ss3.zedo.com
+0.0.0.0 ssionsupre.fun
 0.0.0.0 ssionsupre.fun
 0.0.0.0 ssl-market-east.smrtb.com
 0.0.0.0 ssl2.perquisite.net
@@ -14400,6 +14407,7 @@ login.live.com
 0.0.0.0 tps.doubleverify.com
 0.0.0.0 tps20231.doubleverify.com
 0.0.0.0 tr.blismedia.com
+0.0.0.0 tr.cryptobrowser.site
 0.0.0.0 tr.lottoland.com
 0.0.0.0 tr.snapchat.com
 0.0.0.0 tr.zam.com
@@ -23540,7 +23548,11 @@ login.live.com
 0.0.0.0 script.google.com
 0.0.0.0 script.googleusercontent.com
 
-# Ninja Kiwi
+# Ninja Kiwi Ltd.
+# Anmerkung
+# Für verschiedene Produkte von Ninja Kiwi gilt Onlinezwang mitsamt Google Anbindung, da diverse Dinge immer dringend aus dem Internet nachgeladen werden "müssen"
+# Handhabung, auch der Telemetriedienste wie MOAB.* und Analytics.* bleiben jedem selbst überlassen.
+
 # Bloons Adventure Time TD
 # Ip/s blockieren:
 # 108.61.46.242
@@ -23551,23 +23563,29 @@ login.live.com
 # 104.20.203.55
 # UnityCrashHandler64.exe im Installationsverzeichnis löschen
 0.0.0.0 www.cartoonnetwork.com # Werbung
-0.0.0.0 api.ninjakiwi.com # u.a. Ingameshop
 0.0.0.0 analytics.ninjakiwi.com
-0.0.0.0 static-api.nkstatic.com # Werbung
-0.0.0.0 priority-static-api.nkstatic.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+# Integrierter Onlinezwang
+#0.0.0.0 static-api.nkstatic.com # Werbung
+0.0.0.0 priority-static-api.nkstatic.com
+# Optional
+#0.0.0.0 api.ninjakiwi.com # u.a. Ingameshop
 
 # Bloons TD Battles
 # s. Steam: General Directory Server
-#0.0.0.0 api.ninjakiwi.com
-0.0.0.0 priority-static-api.nkstatic.com
-#0.0.0.0 static-api.nkstatic.com # Werbung und Mehrspieler
 0.0.0.0 analytics.ninjakiwi.com
+0.0.0.0 moab.ninjakiwi.com # Ingame-Nutzertracking z.b. Turm platziert, Spiel gestartet usw mitsamt Infos zu Netzwerkfehlern
+#0.0.0.0 fonts.googleapis.com
+# Integrierter Onlinezwang
+#0.0.0.0 static-api.nkstatic.com # Grafiken, Javascripts wie JQuery, Bootstrap, Cookies, Scrhiften, Werbung, CSS, bootstrap_min.css
+0.0.0.0 priority-static-api.nkstatic.com
+# Optional
+#0.0.0.0 api.ninjakiwi.com # Geodaten, Leaderboards, Ingameshop, Einladungen - Preconnect auf analytics.ninjakiwi.com
 
 # Bloons TD 5
 # s. Steam: General Directory Server
@@ -23585,20 +23603,27 @@ login.live.com
 # 35.186.194.186
 # 35.241.26.53
 0.0.0.0 analytics.ninjakiwi.com
-#0.0.0.0 api.ninjakiwi.com
-#0.0.0.0 static-api.nkstatic.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
+#0.0.0.0 fonts.gstatic.com
+# Integrierter Onlinezwang
+#0.0.0.0 static-api.nkstatic.com # Appdocs, Settings, Schimpfwortliste, Patchnotesgrafiken, Cookies
+0.0.0.0 priority-static-api.nkstatic.com # Tägliche Herausforderungen
+# Optional
+#0.0.0.0 api.ninjakiwi.com # Zeit, Profilidentifier/Save, Einkäufe, Trophäen
 
 # SAS: Zombie Assault 4
 # s. Steam: General Directory Server
 0.0.0.0 analytics.ninjakiwi.com
-#0.0.0.0 static-api.nkstatic.com # Werbung und Mehrspieler
 #0.0.0.0 api.ninjakiwi.com
+# Integrierter Onlinezwang
+#0.0.0.0 static-api.nkstatic.com
 0.0.0.0 priority-static-api.nkstatic.com
+# Optional
+#0.0.0.0 api.ninjakiwi.com
 
 # NIS America, Inc.
 # Criminal Girls: Invite Only / クリミナルガールズ INVITATION

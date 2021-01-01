@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 25.11.2020
+# Änderungsdatum: 01.01.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -8527,7 +8527,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 script.google.com
 0.0.0.0 script.googleusercontent.com
 
-# Ninja Kiwi
+# Ninja Kiwi Ltd.
+# Anmerkung
+# Für verschiedene Produkte von Ninja Kiwi gilt Onlinezwang mitsamt Google Anbindung, da diverse Dinge immer dringend aus dem Internet nachgeladen werden "müssen"
+# Handhabung, auch der Telemetriedienste wie MOAB.* und Analytics.* bleiben jedem selbst überlassen.
+
 # Bloons Adventure Time TD
 # Ip/s blockieren:
 # 108.61.46.242
@@ -8538,23 +8542,29 @@ ff02::3 ip6-allhosts
 # 104.20.203.55
 # UnityCrashHandler64.exe im Installationsverzeichnis löschen
 0.0.0.0 www.cartoonnetwork.com # Werbung
-0.0.0.0 api.ninjakiwi.com # u.a. Ingameshop
 0.0.0.0 analytics.ninjakiwi.com
-0.0.0.0 static-api.nkstatic.com # Werbung
-0.0.0.0 priority-static-api.nkstatic.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+# Integrierter Onlinezwang
+#0.0.0.0 static-api.nkstatic.com # Werbung
+0.0.0.0 priority-static-api.nkstatic.com
+# Optional
+#0.0.0.0 api.ninjakiwi.com # u.a. Ingameshop
 
 # Bloons TD Battles
 # s. Steam: General Directory Server
-#0.0.0.0 api.ninjakiwi.com
-0.0.0.0 priority-static-api.nkstatic.com
-#0.0.0.0 static-api.nkstatic.com # Werbung und Mehrspieler
 0.0.0.0 analytics.ninjakiwi.com
+0.0.0.0 moab.ninjakiwi.com # Ingame-Nutzertracking z.b. Turm platziert, Spiel gestartet usw mitsamt Infos zu Netzwerkfehlern
+#0.0.0.0 fonts.googleapis.com
+# Integrierter Onlinezwang
+#0.0.0.0 static-api.nkstatic.com # Grafiken, Javascripts wie JQuery, Bootstrap, Cookies, Scrhiften, Werbung, CSS, bootstrap_min.css
+0.0.0.0 priority-static-api.nkstatic.com
+# Optional
+#0.0.0.0 api.ninjakiwi.com # Geodaten, Leaderboards, Ingameshop, Einladungen - Preconnect auf analytics.ninjakiwi.com
 
 # Bloons TD 5
 # s. Steam: General Directory Server
@@ -8572,20 +8582,27 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.241.26.53
 0.0.0.0 analytics.ninjakiwi.com
-#0.0.0.0 api.ninjakiwi.com
-#0.0.0.0 static-api.nkstatic.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
+#0.0.0.0 fonts.gstatic.com
+# Integrierter Onlinezwang
+#0.0.0.0 static-api.nkstatic.com # Appdocs, Settings, Schimpfwortliste, Patchnotesgrafiken, Cookies
+0.0.0.0 priority-static-api.nkstatic.com # Tägliche Herausforderungen
+# Optional
+#0.0.0.0 api.ninjakiwi.com # Zeit, Profilidentifier/Save, Einkäufe, Trophäen
 
 # SAS: Zombie Assault 4
 # s. Steam: General Directory Server
 0.0.0.0 analytics.ninjakiwi.com
-#0.0.0.0 static-api.nkstatic.com # Werbung und Mehrspieler
 #0.0.0.0 api.ninjakiwi.com
+# Integrierter Onlinezwang
+#0.0.0.0 static-api.nkstatic.com
 0.0.0.0 priority-static-api.nkstatic.com
+# Optional
+#0.0.0.0 api.ninjakiwi.com
 
 # NIS America, Inc.
 # Criminal Girls: Invite Only / クリミナルガールズ INVITATION
