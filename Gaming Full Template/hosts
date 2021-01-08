@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 01.01.2021
+# Änderungsdatum: 08.01.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -205,6 +205,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 i.ytimg.com
 #0.0.0.0 www.youtube.com
 #0.0.0.0 api.gog.com
+#0.0.0.0 cdn-api.gog.com
 #0.0.0.0 www.google.com
 #0.0.0.0 images.gog.com
 #0.0.0.0 images-1.gog.com
@@ -218,6 +219,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 broker.gog.com
 0.0.0.0 chat-broker.gog.com
 0.0.0.0 galaxy-client-reports.gog.com
+#0.0.0.0 productcard.gog-statics.com # CSS, JS und Schriften
+gameplay.gog.com
 # GoG Usertracking
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 static.doubleclick.net
@@ -226,30 +229,38 @@ ff02::3 ip6-allhosts
 0.0.0.0 googleads.g.doubleclick.net
 
 # GoG Galaxy 2.0 | Dabei seit 18.09.2019
-#0.0.0.0 cdn.gog.com # Downloadverzeichnis z.B. https://cdn.gog.com/open/galaxy/client/setup_galaxy_2.0.20.39.exe
+#0.0.0.0 cdn.gog.com
 #0.0.0.0 www.gogalaxy.com
 #0.0.0.0 webinstallers.gog.com
+0.0.0.0 marketing-sections.gog.com
 # Installation & Update
 #0.0.0.0 remote-config.gog.com
 #0.0.0.0 content-system.gog.com
 # Formatierung, Schriften und Bilder
 # 192.229.233.146
 # 152.89.163.155
+# 23.44.7.115
+# 117.18.237.93
+# 23.44.7.27
+# 152.199.43.138
 #0.0.0.0 gamesdb.gog.com
 #0.0.0.0 images.gog.com
 #0.0.0.0 images-1.gog.com
+#0.0.0.0 images-1.gog-statics.com
 #0.0.0.0 images-2.gog.com
 #0.0.0.0 images-2.gog.com
 #0.0.0.0 images-4.gog.com
 #0.0.0.0 www4-static.gog.com # Schriften, Javascripts, CSS
+#0.0.0.0 www4-static.gog-statics.com
 #0.0.0.0 galaxy-library.gog.com
 # Feed / Eigene Aktivitäten/ Bestenlisten/ Javascripts/ Warenkorb/ Nutzerdaten / SVG
 # 23.12.133.27
 # 152.89.163.155
-#0.0.0.0 embed.gog.com
+#0.0.0.0 embed.gog.com # Cookies, Nutzerdaten, Activity-Log, Wunschliste, Einkaufswagen, Produktseiten, Feeds usw
 # API
 # 23.12.133.27
 #0.0.0.0 api.gog.com # Zugangstoken
+#0.0.0.0 api.gogalaxy.com
 # Notifications / Pushnachrichten / Websocket
 # 193.59.178.226
 # 77.79.249.116
@@ -262,7 +273,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 external-accounts.gog.com
 # Freunde, Ameldung & Chat
 # 23.12.133.27
-#0.0.0.0 cfg.gog.com
+# 117.18.237.93
+# 23.205.220.147
+# 23.205.220.138
+# 23.44.7.89
+# 23.205.220.137
+#0.0.0.0 cfg.gog.come
 #0.0.0.0 auth.gog.com
 #0.0.0.0 users.gog.com
 #0.0.0.0 chat.gog.com
@@ -3593,6 +3609,41 @@ ff02::3 ip6-allhosts
 # s. Eintrag Steam: IP Checks
 
 # CD PROJEKT RED
+# Cyberpunk 2077
+# Das Spiel ist ohne Internet funktionstüchtig, allerdings besteht wenn zugelassen eine permanente Verbindung zu GOG inkl. Insights
+# Auth, Users 6 Remote werden für Clientanmeldung, Clientdownload oder diverse Spiele mit GOG Mehrspielerfunktion benötigt
+#0.0.0.0 remote-config.gog.com
+#0.0.0.0 auth.gog.com
+#0.0.0.0 users.gog.com
+0.0.0.0 static.cdprojektred.com
+0.0.0.0 insights-collector.gog.com
+0.0.0.0 galaxy-cp.gog.com
+0.0.0.0 notifications-pusher.gog.com
+0.0.0.0 galaxy-game-news.gog.com
+# Akamai - Serverendpunkte
+# 23.55.163.12
+# 23.55.163.39
+# 84.53.175.145
+# 23.213.161.152
+# 23.213.161.136
+# 23.55.163.23
+# 23.62.98.43
+0.0.0.0 a1973.dscb.akamai.net
+0.0.0.0 a23-55-163-20.deploy.static.akamaitechnologies.com
+0.0.0.0 a1847.b.akamai.net
+0.0.0.0 a72-247-178-8.deploy.static.akamaitechnologies.com
+0.0.0.0 a1948.b.akamai.net
+0.0.0.0 a72-247-178-33.deploy.static.akamaitechnologies.com
+0.0.0.0 a1829.b.akamai.net
+0.0.0.0 a72-247-178-26.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-55-163-12.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-55-163-39.deploy.static.akamaitechnologies.com
+0.0.0.0 a84-53-175-145.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-213-161-152.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-213-161-136.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-55-163-23.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-62-98-43.deploy.static.akamaitechnologies.com
+
 # GWENT: The Witcher Card Game
 # Ip/s blockieren:
 # 54.236.79.251

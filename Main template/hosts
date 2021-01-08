@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 01.01.2021
+# Änderungsdatum: 08.01.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1597,8 +1597,8 @@ ff02::3 ip6-allhosts
 # 54.194.103.192
 # 54.194.195.212
 # 54.194.232.10
-#0.0.0.0 4.sophosxl.net # /lookup
-#0.0.0.0 http.00.a.sophosxl.net # /V3/01/xx.xx.xx.xx.ip/ - für XX eine eigene IP eintragen
+0.0.0.0 4.sophosxl.net # /lookup
+0.0.0.0 http.00.a.sophosxl.net # /V3/01/xx.xx.xx.xx.ip/ - für XX eine eigene IP eintragen
 
 # Stardock Corporation
 # Fences
@@ -1985,6 +1985,7 @@ ff02::3 ip6-allhosts
 # ad4m.at
 # 35.190.94.1
 0.0.0.0 ad4m.at
+0.0.0.0 assets.ad4m.at
 
 # AD-srv.net
 0.0.0.0 ad.ad-srv.net
@@ -2076,6 +2077,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dmp.adform.net
 0.0.0.0 s1.adform.net
 0.0.0.0 track.adform.net
+0.0.0.0 files.adform.net
 
 # Adgrx.com
 0.0.0.0 cm.adgrx.com
@@ -2519,6 +2521,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 22f9d241.akstat.io
 0.0.0.0 0211c83e.akstat.io
 0.0.0.0 684dd30b.akstat.io # Metacritic
+0.0.0.0 684dd308.akstat.io # Techrepublic
 
 # Alephd
 0.0.0.0 pixel.alephd.com
@@ -2688,6 +2691,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 d135ltn6xbmgpi.cloudfront.net # Acdsee.com Grafiken
 0.0.0.0 a7a04ff9eca35d2ba0a3a863b0e0fa924.profile.icn50.cloudfront.net
 0.0.0.0 af4bcc94ad9dc09d085706145234f5565.profile.msp50.cloudfront.net
+0.0.0.0 s1yx966tga68s8.cloudfront.net # Adform.net
 0.0.0.0 d10lumateci472.cloudfront.net
 0.0.0.0 d11enq2rymy0yl.cloudfront.net
 0.0.0.0 d1225795gabrip.cloudfront.net
@@ -3049,6 +3053,11 @@ ff02::3 ip6-allhosts
 
 # BTrll.com
 0.0.0.0 geo-um.btrll.com
+
+# Bttrack.com
+0.0.0.0 bttrack.com
+0.0.0.0 api.bttrack.com
+0.0.0.0 cdn.bttrack.com
 
 # Buitxcrnucyi
 # Ip/s blockieren:
@@ -3730,16 +3739,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 visitorvoice.etracker.com
 0.0.0.0 code.etracker.com
 
-# EverestADS.net
-0.0.0.0 dco-assets.everestads.net
-
-# Everesttech.net | Analytics und Trendservice
+# Everesttech.net & EverestADS.net | Analytics und Trendservice
 0.0.0.0 ats.everesttech.net
 0.0.0.0 sync-tm.everesttech.net
 0.0.0.0 pixel.everesttech.net
 0.0.0.0 cm.everesttech.net
 0.0.0.0 rtd-tm.everesttech.net
 0.0.0.0 www.everestjs.net
+0.0.0.0 ads.everesttech.net
+0.0.0.0 dco-assets.everestads.net
 
 # Evyy.net
 0.0.0.0 incapsula.evyy.net
@@ -4418,6 +4426,7 @@ ff02::3 ip6-allhosts
 
 # Lead-alliance.net
 # 84.200.5.215
+0.0.0.0 www.lead-alliance.net
 0.0.0.0 c1.lead-alliance.net
 
 # Leadlab.click
@@ -5014,6 +5023,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam-3.nr-data.net
 0.0.0.0 bam-2.nr-data.net
 0.0.0.0 bam-1.nr-data.net
+0.0.0.0 bam-cell.nr-data.net
 
 # Nsstatic.com
 0.0.0.0 cdn.nsstatic.com
@@ -5332,6 +5342,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 propermedia-d.openx.net
 0.0.0.0 pubgalaxy-d.openx.net
 0.0.0.0 publisherdesk-d.openx.net
+0.0.0.0 reddit-d.openx.net
 0.0.0.0 rtb.openx.net
 0.0.0.0 ruptly-d.openx.net
 0.0.0.0 sbnationbidder-d.openx.net
@@ -5349,6 +5360,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wikia-d.openx.net
 0.0.0.0 yieldlove-d.openx.net
 0.0.0.0 ziffdavis-d.openx.net
+0.0.0.0 spiceworks-d.openx.net
 
 # Opmnstr.com
 0.0.0.0 api.opmnstr.com
@@ -5788,6 +5800,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 hal900015.redintelligence.net
 0.0.0.0 hal900021.redintelligence.net
 0.0.0.0 hal90004.redintelligence.net
+0.0.0.0 hal900017.redintelligence.net
+0.0.0.0 hal90003.redintelligence.net
 
 # Remintrex
 0.0.0.0 www.remintrex.com
@@ -6181,10 +6195,11 @@ ff02::3 ip6-allhosts
 
 # Sourceforge.net
 0.0.0.0 analytics.slashdotmedia.com
-#0.0.0.0 a.fsdn.com # Ablage CSS & Javascripts
+#0.0.0.0 a.fsdn.com # Ablage CSS & Javascripts, Werbebilder, Icons
 0.0.0.0 api.stack-sonar.com
 0.0.0.0 www.stack-sonar.com
 0.0.0.0 ml314.com
+0.0.0.0 c.sf-syn.com # Outbound Tracker
 
 # Sovrn.com | Onlinewerbung
 0.0.0.0 sovrn.com
@@ -6336,23 +6351,28 @@ ff02::3 ip6-allhosts
 0.0.0.0 t4ft.de
 
 # Taboola.com | Werbung, Publikumsaustausch
-0.0.0.0 cdn.taboola.com
-0.0.0.0 images.taboola.com
-0.0.0.0 trc.taboola.com
+0.0.0.0 15.taboola.com
+0.0.0.0 actions-am.taboola.com
+0.0.0.0 am-match.taboola.com
+0.0.0.0 am-vid-events.taboola.com
 0.0.0.0 api-s2s.taboola.com
 0.0.0.0 c2.taboola.com
-0.0.0.0 nr.taboola.com
-0.0.0.0 vidstat.taboola.com
-0.0.0.0 vidstatb.taboola.com
-0.0.0.0 imprammp.taboola.com
-0.0.0.0 convammp.taboola.com
-0.0.0.0 actions-am.taboola.com
-0.0.0.0 match.taboola.com
-0.0.0.0 popup.taboola.com
+0.0.0.0 cdn.taboola.com
 0.0.0.0 cds-eu-1.taboola.com
 0.0.0.0 cds.taboola.com
-0.0.0.0 tls13.taboola.map.fastly.net
+0.0.0.0 convammp.taboola.com
+0.0.0.0 images.taboola.com
+0.0.0.0 imprammp.taboola.com
+0.0.0.0 match.taboola.com
+0.0.0.0 nr.taboola.com
+0.0.0.0 popup.taboola.com
 0.0.0.0 sync.taboola.com
+0.0.0.0 tls13.taboola.map.fastly.net
+0.0.0.0 trc-events.taboola.com
+0.0.0.0 trc.taboola.com
+0.0.0.0 vidstat.taboola.com
+0.0.0.0 vidstatb.taboola.com
+0.0.0.0 wf.taboola.com
 
 # Tagcommander | Marketing und Budgetoptimierung
 0.0.0.0 cdn.tagcommander.com
@@ -6502,6 +6522,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 in.treasuredata.com
 0.0.0.0 tokyo.in.treasuredata.com
 0.0.0.0 cdp.in.treasuredata.com
+
+# Tremorhub.com
+0.0.0.0 p4dt2-mxfxd.ads.tremorhub.com
+0.0.0.0 bobomo.tremorhub.com
+0.0.0.0 taboola-supply-partners.tremorhub.com
 
 # Tribalfusion.com | Werbung und Trackingcookies | gehört zu exponential.com
 0.0.0.0 a.tribalfusion.com
@@ -6935,6 +6960,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.static.zdbb.net
 0.0.0.0 zdbb.net
 0.0.0.0 ns.zdbb.net
+0.0.0.0 jogger.zdbb.net
 
 # Zemanta
 0.0.0.0 b1sync.zemanta.com
@@ -7569,11 +7595,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.branch.io
 
 # CBS Interactive
-0.0.0.0 dw.cbsi.com
-0.0.0.0 saa.cbsi.com
 #0.0.0.0 at.cbsi.com # Geodaten
-0.0.0.0 production-cmp.isgprivacy.cbsi.com
+0.0.0.0 cmg1.cbsistatic.com
+0.0.0.0 dw.cbsi.com
 0.0.0.0 im.cbsileads.com # Trackingpixel
+0.0.0.0 production-cmp.isgprivacy.cbsi.com
+0.0.0.0 rev.cbsi.com
+0.0.0.0 saa.cbsi.com
 
 # Chip.de
 # Bitte Eintrag von "SchneeVonMorgen" beachten
@@ -8626,8 +8654,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.yahoo.com
 0.0.0.0 ads.yap.yahoo.com
 0.0.0.0 b.gemini.yahoo.com # Anzeigenweiterleitung
+0.0.0.0 beap-bc.yahoo.com # Impression Payload
 0.0.0.0 beap.gemini.yahoo.com
-0.0.0.0 beap-bc.yahoo.com
+0.0.0.0 c2shb.ssp.yahoo.com # Bidrequests
 0.0.0.0 cms.analytics.yahoo.com
 0.0.0.0 cookiex.ngd.yahoo.com
 0.0.0.0 csp.yahoo.com
@@ -8639,6 +8668,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 oao-js-tag.onemobile.yahoo.com # Adserve
 0.0.0.0 opus.analytics.yahoo.com
 0.0.0.0 pr-bh.ybp.yahoo.com
+0.0.0.0 pr.ybp.yahoo.com # Data Reverse Click Tracker
 0.0.0.0 service-dev.idsync.analytics.yahoo.com
 0.0.0.0 service.idsync.analytics.yahoo.com
 0.0.0.0 sp.analytics.yahoo.com
@@ -9621,7 +9651,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.mo.doubleclick.net
 0.0.0.0 adclick.g.doubleclick.net
 0.0.0.0 au.doubleclick.net
-0.0.0.0 bid.g.doubleclick.net
+0.0.0.0 bid.g.doubleclick.net # Impressiontracking mit Verweis auf GoogleADS, PageADS, Googlesyndication, Doubleclick und gcdn.2mdn.net
 0.0.0.0 cm.g.doubleclick.net
 0.0.0.0 dart.l.doubleclick.net
 0.0.0.0 de.doubleclick.net
@@ -9771,20 +9801,31 @@ ff02::3 ip6-allhosts
 0.0.0.0 ade.googlesyndication.com
 0.0.0.0 204dd7cc4ee1a8558273245c3ba4b658.safeframe.googlesyndication.com
 0.0.0.0 37e69cb49f56e4eee88ccda11dace41b.safeframe.googlesyndication.com
+0.0.0.0 39e2852fe77bad29af15d3b2ade0c3b8.safeframe.googlesyndication.com
 0.0.0.0 3c7938951c9ea2b36e13b31f83afe4c1.safeframe.googlesyndication.com
 0.0.0.0 5706de67b5124af46040c963f2f4fdec.safeframe.googlesyndication.com
 0.0.0.0 5e589fdaba4a3a368a7c5df60ce65248.safeframe.googlesyndication.com
 0.0.0.0 5e9853f8ccf36b3eff84bd9e91403059.safeframe.googlesyndication.com
+0.0.0.0 62a12700bdeefb92112035501e8dc363.safeframe.googlesyndication.com
 0.0.0.0 63cac3f823d4452b8674a2037e87ef74.safeframe.googlesyndication.com
+0.0.0.0 6b09e21fccb81d1971b38d0d84f33248.safeframe.googlesyndication.com
+0.0.0.0 76d2bc4332499c3940f6da8af37c0338.safeframe.googlesyndication.com
 0.0.0.0 83cb4cf83a63b352334449eb7c19b630.safeframe.googlesyndication.com
+0.0.0.0 96d80cafb2cc6ad351ea76aea0f55d37.safeframe.googlesyndication.com
 0.0.0.0 a00e70519b93be38ee133365461e48d3.safeframe.googlesyndication.com
 0.0.0.0 a0e9840ac9585533aa97d64913139e63.safeframe.googlesyndication.com
-0.0.0.0 b81add2f6cae820eb31f36e11c3e7e0b.safeframe.googlesyndication.com
-0.0.0.0 96d80cafb2cc6ad351ea76aea0f55d37.safeframe.googlesyndication.com
-0.0.0.0 6b09e21fccb81d1971b38d0d84f33248.safeframe.googlesyndication.com
-0.0.0.0 bb88ee5b85c699f7598bce8d0af21df6.safeframe.googlesyndication.com
-0.0.0.0 ebf6ec8c76bc3261c08e6966dd3828bb.safeframe.googlesyndication.com
+0.0.0.0 ab199ef2907dd24e2b00f0c13c8f722f.safeframe.googlesyndication.com
 0.0.0.0 b04229121c49a977f3f05e11a8f5ae5f.safeframe.googlesyndication.com
+0.0.0.0 b81add2f6cae820eb31f36e11c3e7e0b.safeframe.googlesyndication.com
+0.0.0.0 bb88ee5b85c699f7598bce8d0af21df6.safeframe.googlesyndication.com
+0.0.0.0 c437257cc42f728e4344bd1c32f3a2c3.safeframe.googlesyndication.com
+0.0.0.0 ebf6ec8c76bc3261c08e6966dd3828bb.safeframe.googlesyndication.com
+0.0.0.0 fda4bed8aedba9844bc32359d6ba66a0.safeframe.googlesyndication.com
+0.0.0.0 20befc9fcbf36dbc98d9a7b87dab0625.safeframe.googlesyndication.com
+0.0.0.0 05719ae181ceb8843fe45a21d5f8f088.safeframe.googlesyndication.com
+0.0.0.0 f1898ecc38ec17a3a320932757934ebf.safeframe.googlesyndication.com
+0.0.0.0 1b9db85f5d5f15808f584768e4f4474d.safeframe.googlesyndication.com
+0.0.0.0 d96bcdc30c1165ea8cc44dafa315565a.safeframe.googlesyndication.com
 
 # Google Tag Manager
 # 172.217.16.136
@@ -11716,7 +11757,6 @@ login.live.com
 0.0.0.0 bitbucket.org
 0.0.0.0 blissfulonline.com
 0.0.0.0 bnmjjwinf292.com
-0.0.0.0 bobomo.tremorhub.com
 0.0.0.0 butrefunronna.info
 0.0.0.0 buzz.mobiapp-games.net
 0.0.0.0 buzznow.co
@@ -12014,7 +12054,6 @@ login.live.com
 0.0.0.0 ovac.andreasestito.it
 0.0.0.0 owiw.dance-company.it
 0.0.0.0 p251644.infopicked.com
-0.0.0.0 p4dt2-mxfxd.ads.tremorhub.com
 0.0.0.0 packsonikolas.info
 0.0.0.0 palundrus.com
 0.0.0.0 pctuneupsoftwares.net
@@ -12497,7 +12536,6 @@ login.live.com
 0.0.0.0 banner.appsflyer.com
 0.0.0.0 ondemandkorea-d.openx.net
 0.0.0.0 brightcombid.marphezis.com
-0.0.0.0 c2shb.ssp.yahoo.com
 0.0.0.0 image8.pubmatic.com
 
 # Sciencechannel.com & Discovery.com
@@ -12653,6 +12691,7 @@ login.live.com
 0.0.0.0 2rush.net
 0.0.0.0 365dm.com
 0.0.0.0 365media.com
+0.0.0.0 37-201-147-50_s-2-19-194-154_ts-1609997214-clienttons-s.akamaihd.net
 0.0.0.0 39788f3ee241c9c77fa5-5f3f962c17f4c19066268fe915d96f9f.ssl.cf1.rackcdn.com
 0.0.0.0 400c883bf5448b1.com
 0.0.0.0 401-edd-684.mktoresp.com
@@ -12781,6 +12820,7 @@ login.live.com
 0.0.0.0 adscpm.site
 0.0.0.0 adserv.adbetnet.com
 0.0.0.0 adserve.mahimeta.com
+0.0.0.0 adserve.postrelease.com
 0.0.0.0 adserver.adreactor.com
 0.0.0.0 adserver.crane-hardware.de
 0.0.0.0 adserver.otm-r.com
@@ -13005,6 +13045,7 @@ login.live.com
 0.0.0.0 brain.rvty.net # Heise.de
 0.0.0.0 brand.solvay.com
 0.0.0.0 britepool.com
+0.0.0.0 btloader.com
 0.0.0.0 bttrack.com
 0.0.0.0 builfico.de
 0.0.0.0 burdasty.tag.tagtool.de
@@ -13066,12 +13107,12 @@ login.live.com
 0.0.0.0 cdn.blatungo.com
 0.0.0.0 cdn.blueconic.net
 0.0.0.0 cdn.broadstreetads.com
-0.0.0.0 cdn.bttrack.com
 0.0.0.0 cdn.byplay.net
 0.0.0.0 cdn.caprofitx.com
 0.0.0.0 cdn.carbonads.com
 0.0.0.0 cdn.clickfuse.com
 0.0.0.0 cdn.cmeden.com
+0.0.0.0 cdn.cohesionapps.com
 0.0.0.0 cdn.contentspread.net
 0.0.0.0 cdn.cookielaw.org
 0.0.0.0 cdn.districtm.ca # Verweis auf dmx.districtm.ca - Tracker / Ad Receiver
@@ -13321,6 +13362,7 @@ login.live.com
 0.0.0.0 deloton.com
 0.0.0.0 demetsik.com
 0.0.0.0 dev.lifesoftwares.com
+0.0.0.0 devntvassets-a.akamaihd.net
 0.0.0.0 dexchangeinc.com
 0.0.0.0 diapi.webgains.com
 0.0.0.0 diffuser-cdn.app-us1.com
@@ -13398,6 +13440,7 @@ login.live.com
 0.0.0.0 ex-k8s-v6.eastus.cloudapp.azure.com
 0.0.0.0 exchancetaur.info
 0.0.0.0 exchange.mediavine.com
+0.0.0.0 exezgmqxg6rqix7wtopa-pheode-78b5f8d0c-clientnsv4-s.akamaihd.net
 0.0.0.0 exityield.advertise.com
 0.0.0.0 experience.tinypass.com
 0.0.0.0 experto.eanalytics.de
@@ -13738,9 +13781,10 @@ login.live.com
 0.0.0.0 mahimeta.com
 0.0.0.0 mailbc.hanbiro.net
 0.0.0.0 main.pubexchange.com
+0.0.0.0 make.cohesionapps.com
 0.0.0.0 maketypefreshappclicks.icu
 0.0.0.0 man.vm5apis.com
-0.0.0.0 mantodea.mantisadnetwork.com
+0.0.0.0 mantodea.mantisadnetwork.com # Prebidscript bei Bleepingcomputer
 0.0.0.0 marco.feathr.co
 0.0.0.0 mariyadarg.fun
 0.0.0.0 market.space
@@ -13844,6 +13888,9 @@ login.live.com
 0.0.0.0 noteupgrade.onlinegoodsite2contenting.review
 0.0.0.0 ns-dnstest.spyoff.com
 0.0.0.0 ns1.secure.footprint.net
+0.0.0.0 ntvassets-a.akamaihd.net
+0.0.0.0 ntvcld-a.akamaihd.net
+0.0.0.0 ntvimg-a.akamaihd.net
 0.0.0.0 nvg.gpbeta.com
 0.0.0.0 o.wowreality.info
 0.0.0.0 oblivki.biz
@@ -13994,6 +14041,7 @@ login.live.com
 0.0.0.0 promos.fling.com # Random Adscript
 0.0.0.0 promotions.lpage.co
 0.0.0.0 propeller-tracking.com
+0.0.0.0 protected-by.clarium.io
 0.0.0.0 provers.pro
 0.0.0.0 proxy.xceler8.io
 0.0.0.0 prstatics.com
@@ -14457,6 +14505,8 @@ login.live.com
 0.0.0.0 trblocked.com
 0.0.0.0 tremblingkeyboardassistant.com
 0.0.0.0 tremembersy.site
+0.0.0.0 trial-eum-clientnsv4-s.akamaihd.net
+0.0.0.0 trial-eum-clienttons-s.akamaihd.net
 0.0.0.0 trk.vidible.tv
 0.0.0.0 trk3r.net
 0.0.0.0 trk98.hfjf.xyz
@@ -15226,6 +15276,7 @@ login.live.com
 #0.0.0.0 i.ytimg.com
 #0.0.0.0 www.youtube.com
 #0.0.0.0 api.gog.com
+#0.0.0.0 cdn-api.gog.com
 #0.0.0.0 www.google.com
 #0.0.0.0 images.gog.com
 #0.0.0.0 images-1.gog.com
@@ -15239,6 +15290,8 @@ login.live.com
 0.0.0.0 broker.gog.com
 0.0.0.0 chat-broker.gog.com
 0.0.0.0 galaxy-client-reports.gog.com
+#0.0.0.0 productcard.gog-statics.com # CSS, JS und Schriften
+gameplay.gog.com
 # GoG Usertracking
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 static.doubleclick.net
@@ -15247,30 +15300,38 @@ login.live.com
 0.0.0.0 googleads.g.doubleclick.net
 
 # GoG Galaxy 2.0 | Dabei seit 18.09.2019
-#0.0.0.0 cdn.gog.com # Downloadverzeichnis z.B. https://cdn.gog.com/open/galaxy/client/setup_galaxy_2.0.20.39.exe
+#0.0.0.0 cdn.gog.com
 #0.0.0.0 www.gogalaxy.com
 #0.0.0.0 webinstallers.gog.com
+0.0.0.0 marketing-sections.gog.com
 # Installation & Update
 #0.0.0.0 remote-config.gog.com
 #0.0.0.0 content-system.gog.com
 # Formatierung, Schriften und Bilder
 # 192.229.233.146
 # 152.89.163.155
+# 23.44.7.115
+# 117.18.237.93
+# 23.44.7.27
+# 152.199.43.138
 #0.0.0.0 gamesdb.gog.com
 #0.0.0.0 images.gog.com
 #0.0.0.0 images-1.gog.com
+#0.0.0.0 images-1.gog-statics.com
 #0.0.0.0 images-2.gog.com
 #0.0.0.0 images-2.gog.com
 #0.0.0.0 images-4.gog.com
 #0.0.0.0 www4-static.gog.com # Schriften, Javascripts, CSS
+#0.0.0.0 www4-static.gog-statics.com
 #0.0.0.0 galaxy-library.gog.com
 # Feed / Eigene Aktivitäten/ Bestenlisten/ Javascripts/ Warenkorb/ Nutzerdaten / SVG
 # 23.12.133.27
 # 152.89.163.155
-#0.0.0.0 embed.gog.com
+#0.0.0.0 embed.gog.com # Cookies, Nutzerdaten, Activity-Log, Wunschliste, Einkaufswagen, Produktseiten, Feeds usw
 # API
 # 23.12.133.27
 #0.0.0.0 api.gog.com # Zugangstoken
+#0.0.0.0 api.gogalaxy.com
 # Notifications / Pushnachrichten / Websocket
 # 193.59.178.226
 # 77.79.249.116
@@ -15283,7 +15344,12 @@ login.live.com
 0.0.0.0 external-accounts.gog.com
 # Freunde, Ameldung & Chat
 # 23.12.133.27
-#0.0.0.0 cfg.gog.com
+# 117.18.237.93
+# 23.205.220.147
+# 23.205.220.138
+# 23.44.7.89
+# 23.205.220.137
+#0.0.0.0 cfg.gog.come
 #0.0.0.0 auth.gog.com
 #0.0.0.0 users.gog.com
 #0.0.0.0 chat.gog.com
@@ -18614,6 +18680,41 @@ login.live.com
 # s. Eintrag Steam: IP Checks
 
 # CD PROJEKT RED
+# Cyberpunk 2077
+# Das Spiel ist ohne Internet funktionstüchtig, allerdings besteht wenn zugelassen eine permanente Verbindung zu GOG inkl. Insights
+# Auth, Users & Remote werden für Clientanmeldung, Clientdownload oder diverse Spiele mit GOG Mehrspielerfunktion benötigt
+#0.0.0.0 remote-config.gog.com
+#0.0.0.0 auth.gog.com
+#0.0.0.0 users.gog.com
+0.0.0.0 static.cdprojektred.com
+0.0.0.0 insights-collector.gog.com
+0.0.0.0 galaxy-cp.gog.com
+0.0.0.0 notifications-pusher.gog.com
+0.0.0.0 galaxy-game-news.gog.com
+# Akamai - Serverendpunkte
+# 23.55.163.12
+# 23.55.163.39
+# 84.53.175.145
+# 23.213.161.152
+# 23.213.161.136
+# 23.55.163.23
+# 23.62.98.43
+0.0.0.0 a1973.dscb.akamai.net
+0.0.0.0 a23-55-163-20.deploy.static.akamaitechnologies.com
+0.0.0.0 a1847.b.akamai.net
+0.0.0.0 a72-247-178-8.deploy.static.akamaitechnologies.com
+0.0.0.0 a1948.b.akamai.net
+0.0.0.0 a72-247-178-33.deploy.static.akamaitechnologies.com
+0.0.0.0 a1829.b.akamai.net
+0.0.0.0 a72-247-178-26.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-55-163-12.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-55-163-39.deploy.static.akamaitechnologies.com
+0.0.0.0 a84-53-175-145.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-213-161-152.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-213-161-136.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-55-163-23.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-62-98-43.deploy.static.akamaitechnologies.com
+
 # GWENT: The Witcher Card Game
 # Ip/s blockieren:
 # 54.236.79.251
