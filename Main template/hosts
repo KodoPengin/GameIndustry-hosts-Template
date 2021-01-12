@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 08.01.2021
+# Änderungsdatum: 12.01.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1597,8 +1597,8 @@ ff02::3 ip6-allhosts
 # 54.194.103.192
 # 54.194.195.212
 # 54.194.232.10
-0.0.0.0 4.sophosxl.net # /lookup
-0.0.0.0 http.00.a.sophosxl.net # /V3/01/xx.xx.xx.xx.ip/ - für XX eine eigene IP eintragen
+#0.0.0.0 4.sophosxl.net # /lookup
+#0.0.0.0 http.00.a.sophosxl.net # /V3/01/xx.xx.xx.xx.ip/ - für XX eine eigene IP eintragen
 
 # Stardock Corporation
 # Fences
@@ -12672,8 +12672,10 @@ login.live.com
 #0.0.0.0 privacyportal-eu.onetrust.com
 #0.0.0.0 threadsphere.bid
 #0.0.0.0 widget-mediator.zopim.com # Livechat WSS
+0.0.0.0 0.load14.biz
 0.0.0.0 0i0i0i0.com
 0.0.0.0 0pixl.com
+0.0.0.0 1.load14.biz
 0.0.0.0 10-81.s.cdn15.com
 0.0.0.0 10739-3.s.cdn15.com
 0.0.0.0 112-tzm-766.mktoresp.com
@@ -12684,36 +12686,45 @@ login.live.com
 0.0.0.0 1d6550b1238.trccmpnlnk.com
 0.0.0.0 1suyx9m.lmyiwaakn.com
 0.0.0.0 1ts20.top
+0.0.0.0 2.load14.biz
 0.0.0.0 2468.go2cloud.org
 0.0.0.0 29773.v.fwmrm.net
 0.0.0.0 2an-hit-ren.com
 0.0.0.0 2d7bd9e6eb370143.com
 0.0.0.0 2rush.net
+0.0.0.0 3.load14.biz
 0.0.0.0 365dm.com
 0.0.0.0 365media.com
 0.0.0.0 37-201-147-50_s-2-19-194-154_ts-1609997214-clienttons-s.akamaihd.net
 0.0.0.0 39788f3ee241c9c77fa5-5f3f962c17f4c19066268fe915d96f9f.ssl.cf1.rackcdn.com
+0.0.0.0 4.load14.biz
 0.0.0.0 400c883bf5448b1.com
 0.0.0.0 401-edd-684.mktoresp.com
 0.0.0.0 41df76c67812005c.com
 0.0.0.0 47f624b2e6c6072e.com
 0.0.0.0 4mads.com
 0.0.0.0 4plnk1.com
+0.0.0.0 5.load14.biz
 0.0.0.0 517pn6he9p5r.com
 0.0.0.0 550b3ikb9j.com
 0.0.0.0 564d28256cddaeba.com
 0.0.0.0 5baf1288cf.dl8.me
 0.0.0.0 5f3c395.ccm19.de
+0.0.0.0 6.load14.biz
 0.0.0.0 6037648.global.siteimproveanalytics.io
+0.0.0.0 676528u53u82k.tke-tambov.ru
 0.0.0.0 688012155290337.mateti.net
+0.0.0.0 7.load14.biz
 0.0.0.0 77153ccfd0549f191.com
 0.0.0.0 7a498ae3e2c04b14a5bf5a072a2fb770.apm.europe-west3.gcp.cloud.es.io
+0.0.0.0 8.load14.biz
 0.0.0.0 813-mam-392.mktoresp.com
 0.0.0.0 820.joomsearch.com
 0.0.0.0 82o9v830.com
 0.0.0.0 89ca855a075f1d47c0a490ec8aa47d0c-100.s.section.io
 0.0.0.0 8ctihr3.thefaceduck.com
 0.0.0.0 8kardcr.thefaceduck.com
+0.0.0.0 9.load14.biz
 0.0.0.0 a.b0e8.com
 0.0.0.0 a.bestcontentprogram.top
 0.0.0.0 a.impactradius-go.com
@@ -13036,6 +13047,7 @@ login.live.com
 0.0.0.0 bizx.info
 0.0.0.0 bj1110.online
 0.0.0.0 blip.bizrate.com
+0.0.0.0 bo.foerderkreismerz.de
 0.0.0.0 bongacams7.com # Tracking Script
 0.0.0.0 booking.hkexpress.com
 0.0.0.0 bookpadd.com
@@ -13401,6 +13413,7 @@ login.live.com
 0.0.0.0 easy-bars.com
 0.0.0.0 easycouponsaccess.com
 0.0.0.0 eatcells.com
+0.0.0.0 eayj.casaincatanzaro.it
 0.0.0.0 ebm.native-x.io
 0.0.0.0 ec.walkme.com
 0.0.0.0 ecdn.analysis.fi
@@ -13657,6 +13670,7 @@ login.live.com
 0.0.0.0 itm.ivitrack.com
 0.0.0.0 itnuzleafan.com
 0.0.0.0 ixf2-api.bc0a.com
+0.0.0.0 ixib.icefestival.it
 0.0.0.0 iyalc.com
 0.0.0.0 iyfnzgb.com
 0.0.0.0 j.amoad.com
@@ -13712,6 +13726,7 @@ login.live.com
 0.0.0.0 knowledgetags.yextpages.net
 0.0.0.0 krenovo.online
 0.0.0.0 kymirasite.pro
+0.0.0.0 kyw.nikamicra.fun
 0.0.0.0 kz1d.piguiqproxy.com
 0.0.0.0 l3.aaxads.com
 0.0.0.0 lab.blackpics.net # Verweist auf stats.hprofits.com
@@ -13750,6 +13765,8 @@ login.live.com
 0.0.0.0 load.fomo.com
 0.0.0.0 load.jsecoin.com
 0.0.0.0 load.sumo.com
+0.0.0.0 load14.biz
+0.0.0.0 load18.biz
 0.0.0.0 lockerdome.com
 0.0.0.0 log.ablyft.com
 0.0.0.0 log.bigroundass.net
@@ -13785,6 +13802,7 @@ login.live.com
 0.0.0.0 maketypefreshappclicks.icu
 0.0.0.0 man.vm5apis.com
 0.0.0.0 mantodea.mantisadnetwork.com # Prebidscript bei Bleepingcomputer
+0.0.0.0 marazzigcmod5.space
 0.0.0.0 marco.feathr.co
 0.0.0.0 mariyadarg.fun
 0.0.0.0 market.space
@@ -14027,6 +14045,7 @@ login.live.com
 0.0.0.0 premiumsrv.aniview.com
 0.0.0.0 presidery.info
 0.0.0.0 preskalyn.com
+0.0.0.0 presslayand-12.live
 0.0.0.0 prioritybeforehand.com
 0.0.0.0 privymktg.com
 0.0.0.0 processing-api.klickly.com
@@ -14047,6 +14066,7 @@ login.live.com
 0.0.0.0 prstatics.com
 0.0.0.0 prwidgets.com
 0.0.0.0 psadsoob.com
+0.0.0.0 psae.arwimac.pl
 0.0.0.0 pt.ptawe.com
 0.0.0.0 pto.awecr.com
 0.0.0.0 pto.protoawe.com
@@ -14406,6 +14426,7 @@ login.live.com
 0.0.0.0 tags.pagesix.com
 0.0.0.0 tags.relappro.com
 0.0.0.0 tags.wsj.com
+0.0.0.0 take-prizehere2.life
 0.0.0.0 takeyourprizesnow3.life
 0.0.0.0 talk4anyone.com
 0.0.0.0 targaubs.com
@@ -14756,6 +14777,7 @@ login.live.com
 0.0.0.0 www.olybet.ee
 0.0.0.0 www.onlineradarnews.com
 0.0.0.0 www.osysboostutils.club
+0.0.0.0 www.oxid.it
 0.0.0.0 www.partydeko.de
 0.0.0.0 www.passeura.com
 0.0.0.0 www.pbcake.com
@@ -14850,12 +14872,16 @@ login.live.com
 0.0.0.0 xml.tab-technologies.com
 0.0.0.0 xml.zeusadx.com
 0.0.0.0 xtremeserve.xyz
+0.0.0.0 xxnk.multikatalogslubny.pl
 0.0.0.0 xxx-hunt-er.xyz
+0.0.0.0 ybjo.forzaitaliapuglia.it
 0.0.0.0 yield.h5v.eu
 0.0.0.0 yjelm.instagirlsonline.com
 0.0.0.0 yjsei.bemobtrk.com
+0.0.0.0 you-have-won-a5rk.live
 0.0.0.0 youborafds01.com
 0.0.0.0 yourfreepdfconverternow.com
+0.0.0.0 yourtopprize.life
 0.0.0.0 yourwebbars.com
 0.0.0.0 yourwownewz.com
 0.0.0.0 youwins.mobi
@@ -14871,6 +14897,7 @@ login.live.com
 0.0.0.0 zagent1669.h-cdn.com
 0.0.0.0 zagent878.h-cdn.com
 0.0.0.0 zap.buzz
+0.0.0.0 zbf.marazzigcmod5.space
 0.0.0.0 zdravselhoz.com
 0.0.0.0 zdstatic.toolbox.com # Ziff Davis
 0.0.0.0 zen.yandex.ru
@@ -19393,6 +19420,30 @@ gameplay.gog.com
 # Facebook Anbindung
 # s. Steam: General Directory Server
 
+# SKYHILL
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+# 37.139.4.138
+# 217.107.219.65
+# 104.40.183.236
+# 151.101.14.214
+0.0.0.0 s2.lazybeargames.com
+0.0.0.0 www.mandragoragames.com
+0.0.0.0 cgpromotion.azurewebsites.net
+0.0.0.0 cgpromotion.blob.core.windows.net
+#0.0.0.0 api.twitch.tv
+
 # State of Mind
 0.0.0.0 cgpromotion.azurewebsites.net # Ingamewerbung
 
@@ -20092,6 +20143,23 @@ gameplay.gog.com
 0.0.0.0 gosgvaprod-qos01.ea.com
 0.0.0.0 gosprod-qos01.bio-dub.ea.com
 #0.0.0.0 eadpgs-blapp001.ea.com
+
+# Ellada Games
+# Niffelheim
+# s. Steam: General Directory Server
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Empty Clip Studios
 # Symphony
@@ -23386,8 +23454,8 @@ gameplay.gog.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
-# Morteshka
-# The Mooseman
+# MorfeoDev
+# Furious Angels
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
@@ -23402,6 +23470,27 @@ gameplay.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+
+# Morteshka
+# The Mooseman
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 80.88.87.98
+# 208.64.200.105
+# s. Steam: General Directory Server
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 www.morfeodev.com
 
 # Motion Twin
 # Dead Cells
@@ -23566,6 +23655,23 @@ gameplay.gog.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
+# NerdyBird Studios
+# Potion Commotion
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # NewProject
 # Idle Evolution
@@ -23808,6 +23914,10 @@ gameplay.gog.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.sfml-dev.org
 0.0.0.0 ipinfo.io
+
+# Numantian Games
+# Lords of Xulima
+# s. Steam: General Directory Server
 
 # NVLMaker
 # Soulslayer～灭魂·误佳期～
@@ -24326,8 +24436,26 @@ gameplay.gog.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# pixiv Inc.
+# VRoid Studio
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Playdius & Plug In Digital
 # Dead in Bermuda
@@ -24667,6 +24795,21 @@ gameplay.gog.com
 # Rainssong
 # Zasa - An AI Story
 0.0.0.0 airdownload2.adobe.com
+
+# Raiser Games
+# Goat of Duty
+# 172.217.22.78
+# 2a00:1450:4001:81c::200e
+# 107.23.222.133
+# 52.204.2.138
+# 2a01:bc80:5:101::9b85:fa35
+# 2a01:bc80:5:101::9b85:fa39
+# 2a01:bc80:5:100::9b85:fa0e
+# s. Eintrag Steam: IP Checks
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 www-google-analytics.l.google.com
 
 # Rake in Grass
 # Rampage Knights

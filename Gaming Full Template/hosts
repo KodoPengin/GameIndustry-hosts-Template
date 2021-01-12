@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 08.01.2021
+# Änderungsdatum: 12.01.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -3611,7 +3611,7 @@ gameplay.gog.com
 # CD PROJEKT RED
 # Cyberpunk 2077
 # Das Spiel ist ohne Internet funktionstüchtig, allerdings besteht wenn zugelassen eine permanente Verbindung zu GOG inkl. Insights
-# Auth, Users 6 Remote werden für Clientanmeldung, Clientdownload oder diverse Spiele mit GOG Mehrspielerfunktion benötigt
+# Auth, Users & Remote werden für Clientanmeldung, Clientdownload oder diverse Spiele mit GOG Mehrspielerfunktion benötigt
 #0.0.0.0 remote-config.gog.com
 #0.0.0.0 auth.gog.com
 #0.0.0.0 users.gog.com
@@ -4322,6 +4322,30 @@ gameplay.gog.com
 # Facebook Anbindung
 # s. Steam: General Directory Server
 
+# SKYHILL
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+# 37.139.4.138
+# 217.107.219.65
+# 104.40.183.236
+# 151.101.14.214
+0.0.0.0 s2.lazybeargames.com
+0.0.0.0 www.mandragoragames.com
+0.0.0.0 cgpromotion.azurewebsites.net
+0.0.0.0 cgpromotion.blob.core.windows.net
+#0.0.0.0 api.twitch.tv
+
 # State of Mind
 0.0.0.0 cgpromotion.azurewebsites.net # Ingamewerbung
 
@@ -5021,6 +5045,23 @@ gameplay.gog.com
 0.0.0.0 gosgvaprod-qos01.ea.com
 0.0.0.0 gosprod-qos01.bio-dub.ea.com
 #0.0.0.0 eadpgs-blapp001.ea.com
+
+# Ellada Games
+# Niffelheim
+# s. Steam: General Directory Server
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Empty Clip Studios
 # Symphony
@@ -8315,8 +8356,8 @@ gameplay.gog.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
-# Morteshka
-# The Mooseman
+# MorfeoDev
+# Furious Angels
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
@@ -8331,6 +8372,27 @@ gameplay.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+
+# Morteshka
+# The Mooseman
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 80.88.87.98
+# 208.64.200.105
+# s. Steam: General Directory Server
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 www.morfeodev.com
 
 # Motion Twin
 # Dead Cells
@@ -8495,6 +8557,23 @@ gameplay.gog.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
+# NerdyBird Studios
+# Potion Commotion
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # NewProject
 # Idle Evolution
@@ -8737,6 +8816,10 @@ gameplay.gog.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.sfml-dev.org
 0.0.0.0 ipinfo.io
+
+# Numantian Games
+# Lords of Xulima
+# s. Steam: General Directory Server
 
 # NVLMaker
 # Soulslayer～灭魂·误佳期～
@@ -9255,8 +9338,26 @@ gameplay.gog.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# pixiv Inc.
+# VRoid Studio
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Playdius & Plug In Digital
 # Dead in Bermuda
@@ -9596,6 +9697,21 @@ gameplay.gog.com
 # Rainssong
 # Zasa - An AI Story
 0.0.0.0 airdownload2.adobe.com
+
+# Raiser Games
+# Goat of Duty
+# 172.217.22.78
+# 2a00:1450:4001:81c::200e
+# 107.23.222.133
+# 52.204.2.138
+# 2a01:bc80:5:101::9b85:fa35
+# 2a01:bc80:5:101::9b85:fa39
+# 2a01:bc80:5:100::9b85:fa0e
+# s. Eintrag Steam: IP Checks
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 www-google-analytics.l.google.com
 
 # Rake in Grass
 # Rampage Knights
