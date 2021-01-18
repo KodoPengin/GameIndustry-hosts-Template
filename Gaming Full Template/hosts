@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 12.01.2021
+# Änderungsdatum: 18.01.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -3796,6 +3796,27 @@ gameplay.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
+# Clever Plays
+# Leap of Fate
+# Ip/s blockieren:
+# 3.95.70.162
+# 67.202.31.89
+# 34.195.177.63
+# 34.192.121.93
+# 3.94.27.207
+# 23.55.161.146
+# 23.55.161.147
+# 2.23.6.223
+# 2.23.6.201
+# 23.55.161.146
+# 23.55.161.177
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 b.scorecardresearch.com
+# Weitere Endpunkte je nach IP zuzuordnen
+0.0.0.0 ec2-52-201-163-195.compute-1.amazonaws.com
+0.0.0.0 a23-55-161-177.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-55-161-146.deploy.static.akamaitechnologies.com
+
 # Clickteam
 # Clickteam Fusion 2.5
 # s. Steam: General Directory Server
@@ -4170,10 +4191,24 @@ gameplay.gog.com
 # s. Eintrag Steam: IP Checks
 
 # Serial Cleaner
-0.0.0.0 api.uca.cloud.unity3d.com
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com # ältere Versionen mit api.uca.cloud.unity3d.com
 # s. Steam: General Directory Server
-0.0.0.0 freegeoip.net
+# Ip/s blockieren:
+# 104.26.11.194
+# 34.206.114.4
+0.0.0.0 api.ipstack.com # ältere Versionen mit freegeoip.net
 0.0.0.0 api.darksky.net
 
 # The Little Acre
@@ -4253,12 +4288,24 @@ gameplay.gog.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
-# Holy Potatoes! We’re in Space?! | Update 24.08.2018
+# Holy Potatoes! We’re in Space?!
 # Facebook Anbindung
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # Bei aktiver Mitwirkung auf die im Hauptmenü befindlichen Buttons
 0.0.0.0 www.google-analytics.com
+0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 stats.g.doubleclick.net
 
 # Holy Potatoes! What the Hell?!
@@ -4738,7 +4785,18 @@ gameplay.gog.com
 
 # Digital Tribe
 # Hyperdrive Massacre
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
 # s. Steam: General Directory Server
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -5184,6 +5242,7 @@ gameplay.gog.com
 # Rhythm World - Master Project
 # 101.200.56.49
 # 220.194.87.190
+# s. Steam: General Directory Server
 #0.0.0.0 exdstudio.net
 #0.0.0.0 cdn.bootcss.com
 #0.0.0.0 www.exdstudio.net
@@ -5846,6 +5905,9 @@ gameplay.gog.com
 0.0.0.0 t.trackedlink.net
 
 # Fruitbat Factory
+# Dungeon Girl
+# s. Steam: General Directory Server
+
 # 100% Orange Juice
 # s. Steam: General Directory Server
 
@@ -6451,6 +6513,21 @@ gameplay.gog.com
 # s. Steam: General Directory Server
 
 # HandyGames
+# Kill to Collect
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
 # Sine Mora EX
 # s. Steam: General Directory Server
 
@@ -8460,6 +8537,22 @@ gameplay.gog.com
 # 35.173.159.232
 0.0.0.0 datarouter.ol.epicgames.com
 
+# National Westminster Bank plc | NatWest Group.
+# Island Saver
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Nawia Games
 # Western 1849 Reloaded
 # s. Steam: General Directory Server
@@ -8830,6 +8923,11 @@ gameplay.gog.com
 # Yatagarasu Attack on Cataclysm
 # 133.208.182.78
 0.0.0.0 www7b.biglobe.ne.jp
+
+# Oskar Stålberg
+# Townscaper
+# 216.58.206.1
+0.0.0.0 script.google.com
 
 # Oddrok
 # Power Hover
@@ -9984,6 +10082,26 @@ gameplay.gog.com
 
 # Robert Alvarez
 # Isotiles - Isometric Puzzle Game
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Robot Squid
+# King of Crabs
+# 52.217.103.102
+# 139.162.177.166
+#0.0.0.0 koc_europe.robotsquid.com
+#0.0.0.0 s3.amazonaws.com
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -13127,12 +13245,23 @@ gameplay.gog.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # X.D. Network Inc.
-# Juicy Realm
+# 恶果之地 | Juicy Realm
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# s. Steam: General Directory Server
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# s. Steam: General Directory Server
 
-# Muse Dash
+# 喵斯快跑 | Muse Dash
 # 47.91.161.6
 # 207.38.86.247
 # Android auf PC Portierung mit Restbeständen
