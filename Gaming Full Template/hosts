@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 18.01.2021
+# Änderungsdatum: 26.01.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -2352,10 +2352,19 @@ gameplay.gog.com
 0.0.0.0 stats.artifexmundi.com
 0.0.0.0 am-crosspromo.azurewebsites.net
 
+# Noir Chronicles: City of Crime
+# 137.117.84.54
+# 168.62.224.13
+0.0.0.0 am-crosspromo.azurewebsites.net
+0.0.0.0 promo.artifexmundi.com
+0.0.0.0 stats.artifexmundi.com
+0.0.0.0 waws-prod-blu-003.cloudapp.net
+
 # Path of Sin: Greed
 # 137.117.84.54
 0.0.0.0 promo.artifexmundi.com
 0.0.0.0 am-crosspromo.azurewebsites.net
+0.0.0.0 waws-prod-blu-003.cloudapp.net
 
 # Ali Asfand
 # Rex
@@ -5485,6 +5494,22 @@ gameplay.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
+# Flying. Stone. Production
+# flChess
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # FOAM Entertainment
 # Riff Racer
 0.0.0.0 parseapi.back4app.com # Erfassung Betriebssystem/Version, Sprache, Spieleplattform, SteamID, Versionsnummer, Ingamenews, Coin Reward
@@ -5963,6 +5988,19 @@ gameplay.gog.com
 #0.0.0.0 EFDE.playfabapi.com # Speicherstände
 
 # Freejam Ltd.
+# Gamecraft
+# 95.101.27.158
+# 95.101.27.156
+# 2.23.6.217
+#0.0.0.0 steamuserimages-a.akamaihd.net
+#0.0.0.0 steamcdn-a.akamaihd.net
+#0.0.0.0 a1639.dscb.akamai.net
+# Ip/s blockieren:
+# 34.96.113.148
+# 35.241.7.82
+0.0.0.0 collect15303rcxty.deltadna.net
+0.0.0.0 engage15303rcxty.deltadna.net
+
 # Robocraft
 # 35.241.26.53
 # 35.186.194.186
@@ -10737,6 +10775,23 @@ gameplay.gog.com
 #0.0.0.0 steammima.metalwaltz.com
 
 # Shiro Games
+# Evoland Legendary Edition
+# 5.39.74.98
+# 208.64.200.105
+# 172.217.22.100
+# 216.58.208.40
+# s. Steam: General Directory Server
+0.0.0.0 launcher.shirogames.com
+0.0.0.0 launcher-admin.shirogames.com
+#0.0.0.0 master.shirogames.com
+0.0.0.0 mongo.shirogames.com
+#0.0.0.0 www.google.com
+0.0.0.0 www.googletagmanager.com
+
+# Evoland 2
+# 104.79.88.64
+0.0.0.0 airdownload2.adobe.com
+
 # Northgard
 # Einzelspielermodus
 # 5.39.74.98
@@ -11929,6 +11984,22 @@ gameplay.gog.com
 0.0.0.0 a279.dscq.akamai.net
 0.0.0.0 ghs.googlehosted.com
 0.0.0.0 e4578.dscb.akamaiedge.net
+
+# GARAGE: Bad Trip
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# s. Steam: General Directory Server
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Hello Neighbor
 0.0.0.0 www.google-analytics.com
