@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 26.01.2021
+# Änderungsdatum: 01.02.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -541,6 +541,9 @@ gameplay.gog.com
 
 # Epic Games Datarouter
 # Ip/s blockieren:
+# 34.238.69.47
+# 54.144.200.61
+# 107.23.37.44
 # 35.171.73.202
 # 52.203.187.25
 # 54.174.205.197
@@ -669,7 +672,7 @@ gameplay.gog.com
 0.0.0.0 sigma-elb-1893274496.us-east-1.elb.amazonaws.com
 0.0.0.0 ucppropagationservice.ubi.com
 
-# Valve Corporation | Valve Softworks
+# Valve Corporation | Valve Softworks | Steam Client
 # Steam: Anmeldeserver
 # 155.133.249.196
 # 155.133.248.37
@@ -1008,22 +1011,40 @@ gameplay.gog.com
 # Steam: IP Checks
 # Verpflichtende Callbacks, die allerdings blockiert werden können
 # Ip/s blockieren:
-# 2a01:bc80:a:100::b919:b602
-# 2a01:bc80:a:101::b919:b622
-# 2a01:bc80:4:101::a2fe:c42b
-# 2a01:bc80:7:100:0:0:9b85:f80c
-# 2a01:bc80:a:100:0:0:b919:b602
 # 2a01:bc80:1:103::a2fe:c60d
 # 2a01:bc80:1:104::a2fe:c64d
+# 2a01:bc80:4:100::a2fe:c40b
+# 2a01:bc80:4:101::a2fe:c42b
+# 2a01:bc80:5:100::9b85:fa02
+# 2a01:bc80:5:100::9b85:fa04
+# 2a01:bc80:5:100::9b85:fa05
+# 2a01:bc80:5:100::9b85:fa06
+# 2a01:bc80:5:100::9b85:fa07
+# 2a01:bc80:5:100::9b85:fa0c
+# 2a01:bc80:5:100::9b85:fa0f
+# 2a01:bc80:5:100::9b85:fa10
+# 2a01:bc80:5:101::9b85:fa23
+# 2a01:bc80:5:101::9b85:fa26
+# 2a01:bc80:5:101::9b85:fa28
+# 2a01:bc80:5:101::9b85:fa2a
+# 2a01:bc80:5:101::9b85:fa32
+# 2a01:bc80:5:101::9b85:fa33
+# 2a01:bc80:5:101::9b85:fa34
+# 2a01:bc80:5:101::9b85:fa36
+# 2a01:bc80:5:101::9b85:fa37
+# 2a01:bc80:5:101::9b85:fa38
 # 2a01:bc80:5:105::9b85:fa4b
 # 2a01:bc80:5:105::9b85:fa4c
 # 2a01:bc80:5:106::9b85:fa6b
 # 2a01:bc80:5:106::9b85:fa6c
 # 2a01:bc80:7:100::9b85:f80b
 # 2a01:bc80:7:100::9b85:f80c
-# 2a01:bc80:4:100::a2fe:c40b
-# 184.24.77.162
+# 2a01:bc80:7:100:0:0:9b85:f80c
+# 2a01:bc80:a:100::b919:b602
+# 2a01:bc80:a:100:0:0:b919:b602
+# 2a01:bc80:a:101::b919:b622
 # 184.24.77.156
+# 184.24.77.162
 0.0.0.0 ipv6check-http.steamcontent.com
 0.0.0.0 ipv6check-udp.steamcontent.com
 0.0.0.0 eu.http.ipv6check.akadns.net
@@ -1072,7 +1093,10 @@ gameplay.gog.com
 # 162.254.197.106
 # 155.133.250.108
 # 155.133.250.107
+# 23.55.110.71
+# 23.55.110.179
 #0.0.0.0 eu.client.steamcontent.akadns.net
+#0.0.0.0 media.steampowered.com
 
 # Steam: SteamService.exe
 # Digicert
@@ -1099,6 +1123,10 @@ gameplay.gog.com
 0.0.0.0 pagead46.l.doubleclick.net
 0.0.0.0 static-doubleclick-net.l.google.com
 0.0.0.0 stats.l.doubleclick.net
+
+# Steam: streaming_client.exe | RemotePlay
+# GetSDRConfig, Clientservice - NotifyRemotePacket, GetReplies, CreateSessions, Valve Partner
+#0.0.0.0 api.steampowered.com
 
 # Steam: Steamworks
 # 23.78.88.233
@@ -1163,6 +1191,10 @@ gameplay.gog.com
 
 # Kamu Game Security
 # HYDRA Easy Anti-Cheat
+# 13.224.194.113
+# 13.224.194.105
+# 13.224.194.73
+# 13.224.194.111
 # 52.208.101.73
 # 54.154.64.51
 # 52.208.50.24
@@ -1527,7 +1559,7 @@ gameplay.gog.com
 # 35.190.88.234
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -2366,6 +2398,10 @@ gameplay.gog.com
 0.0.0.0 am-crosspromo.azurewebsites.net
 0.0.0.0 waws-prod-blu-003.cloudapp.net
 
+# Time Mysteries 2: The Ancient Spectres
+0.0.0.0 am-crosspromo.azurewebsites.net
+0.0.0.0 stats.g.doubleclick.net
+
 # Ali Asfand
 # Rex
 # s. Steam: General Directory Server
@@ -2887,7 +2923,7 @@ gameplay.gog.com
 #0.0.0.0 users2.beamdog.com
 #0.0.0.0 ec2-01.beamdog.com
 
-# Behaviour Digital Inc.
+# Behaviour Interactive, Inc. | ehemals Starbreeze Studios
 # Dead by Daylight | Erneut überprüft 16.03.2020
 # s. Easy Anti-Cheat
 # 18.206.128.117
@@ -2922,12 +2958,20 @@ gameplay.gog.com
 # 99.81.42.103
 # 54.154.17.115
 # 54.154.174.178
-
 # Serveranbindung und News
 # 99.84.216.6
 # 99.84.254.92
 #0.0.0.0 latest.live.dbd.bhvronline.com # Serververbindung, Banstatus, Inventar, Shop etc
 #0.0.0.0 cdn.live.dbd.bhvronline.com # News
+
+# Warhammer 40,000: Eternal Crusade
+# s. Eintrag Steam: IP Checks
+# s. Rubrik Kopierschutz / AntiCheat
+0.0.0.0 wh40k-live-stashboard.appspot.com
+0.0.0.0 datarouter.ol.epicgames.com
+#0.0.0.0 eternalcrusade.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 api-5-10-10.live.virginia.wh40k.bhvronline.com
 
 # Beijing New Era Network Technology Co., Ltd.
 # 红石遗迹 - Red Obsidian Remnant
@@ -5837,6 +5881,9 @@ gameplay.gog.com
 # Metrics C:\Users\******\AppData\Local\Chromium\User Data
 # Websocketkommunikation
 
+# Walls in Dead
+# Crashpad Analytics
+
 # Frogames
 # Cosmophony
 0.0.0.0 www.bento-studio.com
@@ -6142,6 +6189,22 @@ gameplay.gog.com
 
 # GameNet
 # Destiny or Fate
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Gamera Game
+# Dyson Sphere Program
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
@@ -6601,6 +6664,21 @@ gameplay.gog.com
 # Ip/s blockieren:
 # 40.85.179.199
 0.0.0.0 ex-prod-k8s.eastus.cloudapp.azure.com
+
+# Windscape
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Headup Games und Kalypso Media Digital
 # The Inner World - The Last Wind Monk
@@ -8227,6 +8305,10 @@ gameplay.gog.com
 0.0.0.0 assets2.unity3d.com
 0.0.0.0 connectiontester.unity3d.com
 
+# XIII - Classic
+# 216.98.48.149
+0.0.0.0 gsconnect.ubisoft.com
+
 # Yesterday Origins
 # s. Rubrik Kopierschutz / AntiCheat
 
@@ -8266,6 +8348,10 @@ gameplay.gog.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
+# Might and Delight
+# Fables from the Den
+# s. Steam: General Directory Server
 
 # Mihai Morosanu
 # Castle Defender
@@ -8627,7 +8713,7 @@ gameplay.gog.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 amap.tentacle.work
 
-# Neocore Games
+# NeocoreGames
 # Deathtrap
 # Dasselbe wie immer...
 #0.0.0.0 auth.gog.com
@@ -8640,6 +8726,12 @@ gameplay.gog.com
 #0.0.0.0 neocoregames.com
 0.0.0.0 devblog.neocoregames.com
 #0.0.0.0 www.neocoregames.com
+
+# King Arthur: Knight's Tale
+# 54.184.116.112
+# 35.164.68.203
+# 35.162.214.5
+0.0.0.0 lrp81d5ffk.execute-api.us-west-2.amazonaws.com
 
 # Van Helsing Final Cut & Vorgänger
 # Keine Information auf Anfrage bekommen - Mails wurden ignoriert
@@ -9463,6 +9555,11 @@ gameplay.gog.com
 # Wooden Floor
 0.0.0.0 et.epicgames.com
 
+# Wooden Floor 2 - Resurrection
+# s. Eintrag Steam: IP Checks
+# 199.255.40.200
+0.0.0.0 et.epicgames.com
+
 # Pixelsplit Simulations
 # Funfair Ride Simulator 3
 # Ip/s blockieren:
@@ -9800,6 +9897,13 @@ gameplay.gog.com
 # 52.174.162.167
 0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com # Serverliste
 
+# West of Red
+# s. Steam: General Directory Server
+# 92.223.82.17
+# 172.65.231.130
+#0.0.0.0 gcash013.exitgames.com
+#0.0.0.0 gns-eu.exitgames.com
+
 # Radiance Games
 # Endless World
 # 35.241.26.53
@@ -9922,6 +10026,22 @@ gameplay.gog.com
 # Inhalt ist codiert. Zum Spielen wird nichts von beiden benötigt
 0.0.0.0 athena-v1.rebellion.co.uk
 0.0.0.0 nephelus-v1.rebellion.co.uk
+
+# Red Fox
+# Fight Angel Special Edition
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Red Hook Studios
 # Darkest Dungeon®
@@ -10152,6 +10272,10 @@ gameplay.gog.com
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
+# Rockin' Android
+# Diadra Empty
+# s. Steam: General Directory Server
+
 # Rockstar Games
 # Grand Theft Auto IV
 # SecuROM s. Rubrik Kopierschutz / AntiCheat
@@ -10329,6 +10453,21 @@ gameplay.gog.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+
+# Screenwave Media
+# Eagle Island
+# s. Steam: General Directory Server
+# Azure Playfab für Kontenbindung, Analytics und Onlinezwang
+# 35.166.219.76
+# 208.64.200.10
+# 52.40.143.66
+# 35.167.170.222
+# 35.167.210.197
+# 44.236.58.246
+# 52.42.24.207
+# 52.41.85.68
+#0.0.0.0 4664.playfabapi.com
+0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
 # SCS Software
 # American Truck Simulator
@@ -12869,6 +13008,7 @@ gameplay.gog.com
 # Cook, Serve, Delicious! 2!!
 # s. Steam: General Directory Server
 0.0.0.0 ping.yoyogames.com
+0.0.0.0 metricsforfriends.zachbarth.webfactional.com
 
 # Virtual Rage Studios LLC
 # The Crypts of Anak Shaba - VR
