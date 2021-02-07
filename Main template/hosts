@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 01.02.2021
+# Änderungsdatum: 07.02.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -724,6 +724,7 @@ ff02::3 ip6-allhosts
 # 103.86.96.100
 # 104.24.109.228
 # 172.67.143.132
+# 104.21.87.139
 # Englisch
 #0.0.0.0 flingtrainer.com # Updatechecks
 #0.0.0.0 www.flingtrainer.com
@@ -1221,6 +1222,9 @@ ff02::3 ip6-allhosts
 # Nvidia Webseite
 # 152.195.53.31
 
+#152.199.20.80
+0.0.0.0 cs1137261584.wpc.phicdn.net
+
 # NVidia Inspector
 0.0.0.0 download.orbmu2k.de # Updates
 
@@ -1579,6 +1583,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 dci.sophosupd.com
 #0.0.0.0 d1.sophosupd.com
 # Scans sämtlicher Dateien auf eigenen Geräten und besuchte Adressen werden hier hochgeladen
+# 52.50.118.135
+# 34.252.84.252
+# 52.19.19.59
 # 3.211.49.250
 # 3.220.18.7
 # 3.229.121.248
@@ -1610,6 +1617,21 @@ ff02::3 ip6-allhosts
 # 54.194.232.10
 #0.0.0.0 4.sophosxl.net # /lookup
 #0.0.0.0 http.00.a.sophosxl.net # /V3/01/xx.xx.xx.xx.ip/ - für XX eine eigene IP eintragen
+#0.0.0.0 http.sxl31.sophosxl.net
+# Weiteres
+# 54.194.195.212
+# 18.193.217.82
+# 3.122.107.170
+# 18.194.157.90
+# 3.120.15.169
+# 52.59.135.130
+# 18.184.53.79
+#0.0.0.0 su-9bb965f9f586.mcs-push-server-eu-central-1.prod.hydra.sophos.com
+#0.0.0.0 su-b0b78c3915ae.mcs-push-server-eu-central-1.prod.hydra.sophos.com
+#0.0.0.0 su-00750650dd1a.mcs-push-server-eu-central-1.prod.hydra.sophos.com
+#0.0.0.0 mcs-push-server-eu-central-1.prod.hydra.sophos.com
+#0.0.0.0 mcs2-cloudstation-eu-central-1.prod.hydra.sophos.com
+#0.0.0.0 mcs-spinnaker-123714397.eu-central-1.elb.amazonaws.com
 
 # Stardock Corporation
 # Fences
@@ -4562,6 +4584,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.m6r.eu
 0.0.0.0 tracking.m6r.eutracking.m6r.eu
 
+# Mailmunch.com
+0.0.0.0 analytics.mailmunch.co
+0.0.0.0 analytics.mailmunch.co.herokudns.com
+0.0.0.0 forms.mailmunch.co # UUID + Zeitstempel
+0.0.0.0 a.mailmunch.co
+
 # MakingGames
 0.0.0.0 www.makinggames.biz
 
@@ -6900,9 +6928,6 @@ ff02::3 ip6-allhosts
 # www.maxonclick.com
 0.0.0.0 www.maxonclick.com
 
-# www.msftconnecttest.com
-#0.0.0.0 www.msftconnecttest.com
-
 # www.onemillionactsofkindness.com
 0.0.0.0 www.onemillionactsofkindness.com
 
@@ -8757,11 +8782,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.duga.jp
 0.0.0.0 ad.hani.co.kr
 0.0.0.0 ad.i2idata.com
+0.0.0.0 ad.phaserep.com
 0.0.0.0 adex.ednplus.com
 0.0.0.0 adm.beimg.com
 0.0.0.0 admixer.co.kr
 0.0.0.0 ads.b10f.jp
 0.0.0.0 ads.priel.co.kr
+0.0.0.0 adx.turl.co.kr
 0.0.0.0 aff.jskyservices.com
 0.0.0.0 aml.valuecommerce.com
 0.0.0.0 ana2.tatsumi-sys.jp
@@ -8786,6 +8813,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 conf.f-tra.com
 0.0.0.0 corp.ninja.co.jp
 0.0.0.0 cr-p3.ladsp.jp
+0.0.0.0 counter.joins.com
 0.0.0.0 dalb.valuecommerce.com
 0.0.0.0 dalc.valuecommerce.com
 0.0.0.0 delivery.locari.jp
@@ -8806,6 +8834,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 j.zucks.net.zimg.jp
 0.0.0.0 js.shshuoshu.com
 0.0.0.0 js.spacenine.biz
+0.0.0.0 jtrackern.joins.com
 0.0.0.0 karte-park.ajinomoto.co.jp
 0.0.0.0 link.86uk.com
 0.0.0.0 linkback.contentsfeed.com
@@ -9060,6 +9089,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zz.bdstatic.com
 0.0.0.0 gsp0.baidu.com
 0.0.0.0 fex.bdstatic.com
+0.0.0.0 miao.baidu.com
 
 # Blozoo info & com
 0.0.0.0 rank.blozoo.com
@@ -9110,6 +9140,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 images.dable.io
 
 # Daum
+0.0.0.0 t1.daumcdn.net # ad.min.js
 #0.0.0.0 t1.search.daumcdn.net
 #0.0.0.0 t2.search.daumcdn.net
 #0.0.0.0 t3.search.daumcdn.net
@@ -9117,6 +9148,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 adimg.daumcdn.net
 0.0.0.0 wat.ad.daum.net
 0.0.0.0 wwebid.ad.daum.net
+0.0.0.0 aem-collector.daumkakao.io
+0.0.0.0 display.ad.daum.net
 
 # Deqwas.net
 0.0.0.0 kdex004.deqwas.net
@@ -9928,7 +9961,8 @@ ff02::3 ip6-allhosts
 # Windows 10 Hardening, Internet Explorer, Microsoft Edge, Shop, Bing, Skype, Kacheln, Office, Wetter, Karten uvm.
 # Das Microsoft Betriebssystem absichern und überflüssige Funktionen zum Schweigenn bringen
 
-# Antimalware Service Executable | MsMpEng.exe | Smartscreen
+# Antimalware Service Executable | MsMpEng.exe | mrt.exe | Smartscreen
+# 51.144.227.73
 # 40.113.109.30
 # 40.85.78.63
 # 40.112.72.44
@@ -9949,9 +9983,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 wdcp.microsoft.com
 
 # AppHostRegistrationVerifier.exe
+# 109.233.155.204
 0.0.0.0 share.microsoft.com
 0.0.0.0 maps.windows.com
 0.0.0.0 to-do.microsoft.com
+0.0.0.0 www.xing.com.gtm4p-xing.com.akadns.net
 
 # backgroundtransferhost.exe / backgroundtaskhost.exe / SearchUI.exe
 # 52.164.221.179
@@ -9977,20 +10013,30 @@ ff02::3 ip6-allhosts
 # Translator Analytics
 0.0.0.0 mobile.pipe.aria.microsoft.com # /Collector/3.0/
 
+# Callbacks Netzwerk De/Aktivierung inkl. On/Offline Darstellung
+0.0.0.0 dns.msftncsi.com
+0.0.0.0 iana.org
+0.0.0.0 example.org
+0.0.0.0 ipv4only.arpa
+0.0.0.0 client.wns.windows.com
+0.0.0.0 www.msftconnecttest.com
+0.0.0.0 ipv6.msftconnecttest.com # /connecttest.txt
+
 # Communication App
 0.0.0.0 sn2.settings.data.microsoft.com.akadns.net
 0.0.0.0 db5-ap.settings.data.microsoft.com.akadns.net
 0.0.0.0 hk2-eap.settings.data.microsoft.com.akadns.net
 
-# CompatTelRunner.exe
+# Microsoft Compatibility Telemetry | CompatTelRunner.exe
 # Ip/s blockieren:
 # 2.22.119.170
 # 40.77.226.249
 0.0.0.0 a1943.g2.akamai.net
 0.0.0.0 db5-ap.settings.data.microsoft.com.akadns.net
-
-# Connect Test
-0.0.0.0 ipv6.msftconnecttest.com # /connecttest.txt
+# 104.18.21.226
+# 93.184.220.29
+#0.0.0.0 cdn.globalsigncdn.com.cdn.cloudflare.net
+#0.0.0.0 cs9.wac.phicdn.net
 
 # Search and Cortana application, SearchUI.exe, SpeechRuntime.exe
 # Ip/s blockieren:
@@ -10154,15 +10200,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 self.events.data.microsoft.com
 0.0.0.0 self.events.data.onecollector.akadns.net
 
-# OneDrive Downloadoberfläche Web / Skype
-# Ip/s blockieren:
+# Microsoft OneDrive Downloadoberfläche Web / Skype
 # 52.114.7.37
+# 40.126.31.4
+# 40.126.13.1
+# 20.190.137.75
 0.0.0.0 browser.pipe.aria.microsoft.com # Collector
 0.0.0.0 a.lw.skype.com
 0.0.0.0 b.config.skype.com
 #0.0.0.0 api.push.svc.ms
 #0.0.0.0 6-api.pushp.svc.ms
 0.0.0.0 skyapi.onedrive.live.com
+0.0.0.0 www.tm.a.prd.aadg.akadns.net
+0.0.0.0 www.tm.a.prd.aadg.trafficmanager.net
 # Ip/s blockieren:
 # 13.107.4.52
 0.0.0.0 4-c-0003.c-msedge.net
@@ -10173,13 +10223,15 @@ ff02::3 ip6-allhosts
 # Runtimebroker.exe
 #0.0.0.0 displaycatalog.mp.microsoft.com
 
-# Windows Defender Smartscreen
+# Windows Defender SmartScreen | Smartscreen.exe
 # 23.37.43.27
 # 6.2.18362.1
 # 40.85.83.182
+# 104.18.21.226
 0.0.0.0 asia.smartscreen-prod.microsoft.com
 0.0.0.0 brazil.smartscreen-prod.microsoft.com
 0.0.0.0 canonicalizer.ucsuri.tcs
+#0.0.0.0 cdn.globalsigncdn.com.cdn.cloudflare.net
 # Checkapp wird z.b. für das Tool WinGET benötigt
 0.0.0.0 checkappexec.microsoft.com # Sogenannte Reputationsprüfung - Gibt Ordnerpfade, Zeitstempel, eindeutige ID's, Sprache u.m. weiter
 0.0.0.0 crl.uzto.netdna-cdn.com
@@ -10223,6 +10275,7 @@ ff02::3 ip6-allhosts
 # SystemSettings.exe
 # Ip/s blockieren:
 # 23.211.163.229
+# 2a02:26f0:1700:481::2c1a
 0.0.0.0 e3230.b.akamaiedge.net
 
 # Windows 10 Microsoft Store | WinStore.App.exe, svchost & services.exe
@@ -10257,7 +10310,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 logincdn.msauth.net
 
 # Svchost.exe
-# 40.90.137.122
+# 52.155.217.156
+# 0.90.137.122
 # 40.90.22.187
 # 52.114.132.91
 # 52.114.76.34
@@ -10268,6 +10322,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.content.prod.cms.msn.com
 0.0.0.0 cp401-prod.do.dsp.mp.microsoft.com
 0.0.0.0 disc401-prod.do.dsp.mp.microsoft.com
+0.0.0.0 db5eap.displaycatalog.md.mp.microsoft.com.akadns.net
 0.0.0.0 geo-prod.do.dsp.mp.microsoft.com
 0.0.0.0 geover-prod.do.dsp.mp.microsoft.com
 0.0.0.0 ipv4.login.msa.akadns6.net
@@ -10394,6 +10449,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 settingsfd-geo.trafficmanager.net
 
 # Verschiedenes Microsoft
+# 52.242.101.226
+# 13.74.179.117
+# 51.103.5.186
 # 137.117.144.39
 # 51.105.249.239
 # 40.90.22.191
@@ -10412,6 +10470,7 @@ ff02::3 ip6-allhosts
 # 52.114.158.91
 #0.0.0.0 statics-marketingsites-wcus-ms-com.akamaized.net # CSS
 0.0.0.0 alpha.telemetry.microsoft.com
+0.0.0.0 am3p.wns.windows.com
 0.0.0.0 analyticspixel.microsoft.com
 0.0.0.0 arc.msn.com.nsatc.net
 0.0.0.0 array606-prod.do.dsp.mp.microsoft.com
@@ -10438,6 +10497,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 diagnostics.support.microsoft.com
 0.0.0.0 disc801-prod.do.dsp.mp.microsoft.com
 0.0.0.0 emea1.notify.windows.com.akadns.net
+0.0.0.0 emea1.wns.notify.trafficmanager.net
 0.0.0.0 eu.vortex-win.data.microsoft.com
 0.0.0.0 fp.msedge.net
 0.0.0.0 g.msn.com.nsatc.net # Windows Spotlight Metadaten
@@ -10459,6 +10519,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 reports.wes.df.telemetry.microsoft.com
 0.0.0.0 settingsfd-prod-dub01-endpoint.trafficmanager.net
 0.0.0.0 skydrive.wns.windows.com
+0.0.0.0 sls.emea.update.microsoft.com.akadns.net
 0.0.0.0 sls.update.microsoft.com.nsatc.net
 0.0.0.0 sqm.df.telemetry.microsoft.com
 0.0.0.0 sqm.telemetry.microsoft.com
@@ -10478,7 +10539,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 winphone.wns.windows.com
 0.0.0.0 wns.notify.windows.com.akadns.net
 0.0.0.0 www.bingads.microsoft.com
-0.0.0.0 am3p.wns.windows.com
 
 # Visual Studio
 # Microsoft.ServiceHub.Controller.exe, vs_installershell.exe
@@ -10897,8 +10957,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 www.msn.com
 0.0.0.0 iecvlist.microsoft.com
 0.0.0.0 browser.events.data.msn.com # Collector
-0.0.0.0 alchemist.go2cloud.org # Anzeigen & Affiliate Linking
 #0.0.0.0 static-entertainment-neu-s-msn-com.akamaized.net # Trackingpixel, Schriften, CSS, Javascript
+#0.0.0.0 api.cdp.dsp.mp.microsoft.com.nsatc.net # Update
 # Ip/s blockieren:
 # 204.79.197.200
 0.0.0.0 any.edge.bing.com
@@ -10924,6 +10984,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1834.dspg2.akamai.net # Kaia Global Networks Ltd.
 0.0.0.0 a1093.g2.akamai.net
 0.0.0.0 a-0003.a-msedge.net
+# Trackingcookies, Referaltracking, Alliliate Werbung & Analytics auf der MSN Startseite
+0.0.0.0 alchemist.go2cloud.org
+0.0.0.0 cdn.rates.consumertrack.com
+0.0.0.0 products.gobankingrates.com
+0.0.0.0 click.linksynergy.com
+0.0.0.0 clkde.tradedoubler.com
+0.0.0.0 tracking.verbraucher-verifiziert.com
+0.0.0.0 www.krishetrk.com
+0.0.0.0 mediaforceltd.go2jump.org
+0.0.0.0 mediaforcepartners.go2cloud.org
+0.0.0.0 ctrwow-prod-analytics-socketserver.azurewebsites.net # Websocket
+0.0.0.0 ctrwow-prod-fingerprint-microservice.azurewebsites.net # Logs
+0.0.0.0 d16hdrba6dusey.cloudfront.net
+0.0.0.0 n6a0bs8rgb.execute-api.us-east-1.amazonaws.com
+0.0.0.0 www.flrtni.com
 
 # Microsoft Edge | 20H2 Update
 # 204.79.197.219
@@ -11031,7 +11106,7 @@ login.live.com
 # 35.244.181.201
 0.0.0.0 balrog-aus5.r53-2.services.mozilla.com
 0.0.0.0 balrog-cloudfront.prod.mozaws.net
-0.0.0.0 prod.balrog.prod.cloudops.mozgcp.net
+0.0.0.0 prod.balrog.prod.cloudops.mozgcp.net # Update.xml Endpunkt
 # Kacheln
 0.0.0.0 tiles-cloudfront.cdn.mozilla.net
 0.0.0.0 tiles.services.mozilla.com
@@ -11069,7 +11144,7 @@ login.live.com
 0.0.0.0 blocklist.addons.mozilla.org
 0.0.0.0 incoming-telemetry.thunderbird.net # Opt-Out mal anders
 0.0.0.0 www.mozilla.org.cdn.cloudflare.net
-0.0.0.0 prod.balrog.prod.cloudops.mozgcp.net
+0.0.0.0 prod.balrog.prod.cloudops.mozgcp.net # Update.xml Endpunkt
 # Ip/s blockieren:
 # 34.213.175.3
 0.0.0.0 crash-reports.mozilla.com # GeräteID, Addoninfos, Bioshersteller, Breakpaddaten, Zeistempel, Minidumpdatei, Speicherdaten uvm
@@ -11220,6 +11295,10 @@ login.live.com
 # 172.217.18.110
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-analytics.com
+# 52.222.141.35
+# 13.226.159.4
+# 13.35.13.129
+0.0.0.0 d1g01rogcfoqlg.cloudfront.net
 # 169.254.183.154
 # 52.76.78.119
 # 54.169.123.93
@@ -12722,7 +12801,6 @@ login.live.com
 # 66.225.197.197
 # 52.216.131.187
 # 104.74.74.55
-# 52.208.190.137
 # 207.158.22.134
 # 13.33.131.69
 # 80.239.254.201
@@ -12898,6 +12976,7 @@ login.live.com
 0.0.0.0 ads.yieldmo.com
 0.0.0.0 ads.youniversalnext.com
 0.0.0.0 ads18.unoadsrv.com
+0.0.0.0 ads2.uptobox.com
 0.0.0.0 ads62.unoadsrv.com
 0.0.0.0 adscpm.site
 0.0.0.0 adserv.adbetnet.com
@@ -12923,6 +13002,7 @@ login.live.com
 0.0.0.0 adv-adserver.com
 0.0.0.0 advantage-taxe.sigma.fr
 0.0.0.0 adventive.com
+0.0.0.0 adverdirect.com
 0.0.0.0 adversal.com
 0.0.0.0 advert.uloz.to
 0.0.0.0 advrich.com
@@ -12966,8 +13046,6 @@ login.live.com
 0.0.0.0 analytics.eip.telegraph.co.uk
 0.0.0.0 analytics.groupe-seb.com
 0.0.0.0 analytics.jst.ai
-0.0.0.0 analytics.mailmunch.co
-0.0.0.0 analytics.mailmunch.co.herokudns.com
 0.0.0.0 analytics.onionsearchengine.com
 0.0.0.0 analytics.ovh.com # Measure.js
 0.0.0.0 analytics.slashdotmedia.com
@@ -13053,6 +13131,7 @@ login.live.com
 0.0.0.0 assets.revcontent.com
 0.0.0.0 assets.thesourceplus.sonymobile.com
 0.0.0.0 assets.ubembed.com
+0.0.0.0 astancerta.fun
 0.0.0.0 async01.admantx.com
 0.0.0.0 at.iocnt.net
 0.0.0.0 ateoildim.club
@@ -13205,6 +13284,7 @@ login.live.com
 0.0.0.0 cdn.feathr.co
 0.0.0.0 cdn.findologic.com
 0.0.0.0 cdn.fourpercent.com
+0.0.0.0 cdn.fuseplatform.net
 0.0.0.0 cdn.gatustox.net
 0.0.0.0 cdn.geni.us # Linkshare
 0.0.0.0 cdn.gotraffic.net
@@ -13360,6 +13440,7 @@ login.live.com
 0.0.0.0 count.paycounter.com
 0.0.0.0 counter.snackly.co
 0.0.0.0 counter.theconversation.com
+0.0.0.0 country.adinplay.workers.dev
 0.0.0.0 courselfnorter.site
 0.0.0.0 cpmspace.com
 0.0.0.0 cqlupb.com
@@ -13448,6 +13529,7 @@ login.live.com
 0.0.0.0 devntvassets-a.akamaihd.net
 0.0.0.0 dexchangeinc.com
 0.0.0.0 diapi.webgains.com
+0.0.0.0 dicancele.fun
 0.0.0.0 diffuser-cdn.app-us1.com
 0.0.0.0 dig.ultimedia.com
 0.0.0.0 digidip.net
@@ -13473,6 +13555,7 @@ login.live.com
 0.0.0.0 ds-pr-bh.ybp.gysm.yahoodns.net
 0.0.0.0 dsfgp.admenhost.com
 0.0.0.0 dskyseconomic.info
+0.0.0.0 dtv5loup63fac.cloudfront.net
 0.0.0.0 dummy7.sslcs.cdngc.net
 0.0.0.0 dup.baidustatic.com
 0.0.0.0 duskiness.pl
@@ -13564,6 +13647,7 @@ login.live.com
 0.0.0.0 freegeoip.app
 0.0.0.0 freegeoip.io
 0.0.0.0 freegeoip.llll.ninja
+0.0.0.0 freychang.fun
 0.0.0.0 front.facetz.net
 0.0.0.0 frtfwlvwuw.com
 0.0.0.0 full-ruler.secure.yahoo.com
@@ -13995,6 +14079,7 @@ login.live.com
 0.0.0.0 om.forgeofempires.com
 0.0.0.0 omappapi.awesomemotive.netdna-cdn.com
 0.0.0.0 onclickgenius.com
+0.0.0.0 onclickperformance.com
 0.0.0.0 onclickprediction.com
 0.0.0.0 onetag-sys.com
 0.0.0.0 onionadsplatform.com
@@ -14122,6 +14207,7 @@ login.live.com
 0.0.0.0 processing-api.klickly.com
 0.0.0.0 prod-ingestion.tracking.v2.yieldlove-ad-serving.net
 0.0.0.0 prod-lb.redshell.io # Redshell Tracker
+0.0.0.0 prod.telemetry.tableausoftware.com
 0.0.0.0 prod.ups-eu-central-1.aolp-ds-prd.aws.oath.cloud
 0.0.0.0 prod.ups-eu-central-1.aolp-dsprd.aws.oath.cloud
 0.0.0.0 productmusics.com
@@ -14232,6 +14318,7 @@ login.live.com
 0.0.0.0 rp.gwallet.com
 0.0.0.0 rp.totafofesos1.com
 0.0.0.0 rpe.dymatrix.cloud
+0.0.0.0 rsafrwd.com
 0.0.0.0 rtc.dymatrix.cloud
 0.0.0.0 ru.vostok3.co
 0.0.0.0 rubiconcm.digitaleast.mobi
@@ -14263,6 +14350,7 @@ login.live.com
 0.0.0.0 s.visx.net
 0.0.0.0 s.yieldmo.com
 0.0.0.0 s.zkcdn.net
+0.0.0.0 s05.hostcontent.live
 0.0.0.0 s1-ssl.dmcdn.net
 0.0.0.0 s1.mediaad.org
 0.0.0.0 s2.static.cfgr3.com
@@ -14326,6 +14414,7 @@ login.live.com
 0.0.0.0 sjs.bizographics.com
 0.0.0.0 skeetads.com
 0.0.0.0 skim.clickaine.com
+0.0.0.0 skimegcolder.com
 0.0.0.0 skin.partydeko.de
 0.0.0.0 skinhub.com
 0.0.0.0 skkybrought.pro
@@ -14333,6 +14422,7 @@ login.live.com
 0.0.0.0 slack.sp1.convertro.com
 0.0.0.0 smallfiles-url12.netdna-ssl.com
 0.0.0.0 smart-ads.biz
+0.0.0.0 smart-masi.pro
 0.0.0.0 smart-service-optimise.website
 0.0.0.0 smartcj.com
 0.0.0.0 smetrics.aetn.com
@@ -14405,6 +14495,7 @@ login.live.com
 0.0.0.0 statistics.11880.com
 0.0.0.0 stats-dev.brid.tv
 0.0.0.0 stats.administrator.technology
+0.0.0.0 stats.dlgamer.com
 0.0.0.0 stats.heyoya.com
 0.0.0.0 stats.hprofits.com
 0.0.0.0 stats.warez-heaven.ws # Matomo
@@ -14727,6 +14818,7 @@ login.live.com
 0.0.0.0 winbuzzer.matomo.cloud
 0.0.0.0 wintub.com
 0.0.0.0 winyourprize36.com
+0.0.0.0 wirebasicexcite-5.live
 0.0.0.0 wlbet3000.adsrv.eacdn.com
 0.0.0.0 wlefbet.adsrv.eacdn.com
 0.0.0.0 wlt-twiago.adspirit.info
@@ -14779,6 +14871,7 @@ login.live.com
 0.0.0.0 www.cdn4ads.com
 0.0.0.0 www.chargeplatform.com
 0.0.0.0 www.cityindex.ae
+0.0.0.0 www.clarity.ms
 0.0.0.0 www.clickcease.com
 0.0.0.0 www.clickthruserver.com
 0.0.0.0 www.clkmg.com
@@ -16036,6 +16129,7 @@ gameplay.gog.com
 # De/aktivieren nach Bedarf
 #0.0.0.0 cloud-3.steamusercontent.com
 #0.0.0.0 steamcloud-eu.storage.googleapis.com
+# 108.177.119.128
 # 142.250.74.208
 # 20.238.118.132
 # 216.58.201.80
@@ -16178,11 +16272,14 @@ gameplay.gog.com
 #0.0.0.0 video.steamstatic.com
 
 # Steam: IP Checks
-# Verpflichtende Callbacks, die allerdings blockiert werden können
+# Von Valve eingeführte verpflichtende Callbacks im Steam-Client und UE4 Produkten, die allerdings blockiert werden können
 # Ip/s blockieren:
+# 184.24.77.156
+# 184.24.77.162
 # 2a01:bc80:1:103::a2fe:c60d
 # 2a01:bc80:1:104::a2fe:c64d
 # 2a01:bc80:4:100::a2fe:c40b
+# 2a01:bc80:4:100::a2fe:c40e
 # 2a01:bc80:4:101::a2fe:c42b
 # 2a01:bc80:5:100::9b85:fa02
 # 2a01:bc80:5:100::9b85:fa04
@@ -16193,12 +16290,16 @@ gameplay.gog.com
 # 2a01:bc80:5:100::9b85:fa0f
 # 2a01:bc80:5:100::9b85:fa10
 # 2a01:bc80:5:101::9b85:fa23
+# 2a01:bc80:5:101::9b85:fa24
+# 2a01:bc80:5:101::9b85:fa25
 # 2a01:bc80:5:101::9b85:fa26
 # 2a01:bc80:5:101::9b85:fa28
 # 2a01:bc80:5:101::9b85:fa2a
+# 2a01:bc80:5:101::9b85:fa31
 # 2a01:bc80:5:101::9b85:fa32
 # 2a01:bc80:5:101::9b85:fa33
 # 2a01:bc80:5:101::9b85:fa34
+# 2a01:bc80:5:101::9b85:fa35
 # 2a01:bc80:5:101::9b85:fa36
 # 2a01:bc80:5:101::9b85:fa37
 # 2a01:bc80:5:101::9b85:fa38
@@ -16212,8 +16313,6 @@ gameplay.gog.com
 # 2a01:bc80:a:100::b919:b602
 # 2a01:bc80:a:100:0:0:b919:b602
 # 2a01:bc80:a:101::b919:b622
-# 184.24.77.156
-# 184.24.77.162
 0.0.0.0 ipv6check-http.steamcontent.com
 0.0.0.0 ipv6check-udp.steamcontent.com
 0.0.0.0 eu.http.ipv6check.akadns.net
@@ -17036,6 +17135,9 @@ gameplay.gog.com
 # 52.88.46.75
 #0.0.0.0 prod-pc.wws-gs2.com # Onlinemodi, Statistiken und Funktionen
 #0.0.0.0 a46a2a13688f54b57bb35502a5acbc2c-2082727945.us-west-2.elb.amazonaws.com
+
+# Journey To The Savage Planet
+# s. Eintrag Steam: IP Checks
 
 # Ember
 # s. Steam: General Directory Server
@@ -18752,8 +18854,24 @@ gameplay.gog.com
 # Crashpad Analytics
 
 # CAPCOM Co., Ltd.
-# モンスターハンター：ワールド | MONSTER HUNTER: WORLD
+# モンスターハンター：ワールド | MONSTER HUNTER: WORLD + Iceborne DLC
 # s. Rubrik Kopierschutz / AntiCheat
+# 99.86.3.100
+# 99.86.3.93
+# 99.86.3.126
+# 99.86.3.109
+# 99.86.3.69
+# 99.86.3.4
+# 99.86.3.83
+# 99.86.3.21
+#0.0.0.0 dl.slg.capcom.jp
+#0.0.0.0 api.slg.capcom.jp
+# Playfab Onlinezwang
+# 44.239.215.153
+# 54.185.202.203
+# 54.148.229.118
+0.0.0.0 7402.playfabapi.com
+0.0.0.0 p-common-1-mainserver-720424357.us-west-2.elb.amazonaws.com
 
 # Dark Void™
 # SecuROM s. Rubrik Kopierschutz / AntiCheat
@@ -19154,6 +19272,12 @@ gameplay.gog.com
 # Die Adresse muss für's Onlinespiel aktiv bleiben. Für den Offlinemodus mit dem Parameter -NoMultiplayer kann die API abgeschaltet werden
 0.0.0.0 api.epicgames.dev # Anmeldetoken, SDKabgleich, Telemetrie, Matchmaking und nochmal als Websocket präsent
 
+# Valheim
+# Ip/s blockieren:
+# 172.217.218.138
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www-google-analytics.l.google.com
+
 # Cobra Mobile
 # iBomber Attack
 # s. Steam: General Directory Server
@@ -19318,12 +19442,10 @@ gameplay.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
-# Creepy Jar
+# Creepy Jar S.A.
 # Green Hell
-# Ip/s blockieren:
-# 35.241.26.53
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+# Zuletzt getestet 30.01.2021
+# UnityCrashHandler bleiben aktiv. Aktive Adressen der Unity Analytics wurden zum erneuten Testzeitpunkt nicht gefunden
 
 # Crema
 # Immortal Redneck
@@ -19440,12 +19562,14 @@ gameplay.gog.com
 # 35.241.52.229
 # 35.190.88.234
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 # s. Steam: General Directory Server
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # CWH Entertainment
 # NEONomicon
@@ -21512,6 +21636,27 @@ gameplay.gog.com
 # Crush your Enemies
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# Diluvion: Resubmerged
+# 23.55.110.183
+# 23.55.110.204
+# 23.55.110.196
+#0.0.0.0 remote-config.gog.com
+#0.0.0.0 auth.gog.com
+0.0.0.0 galaxy-log.gog.com
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # MachiaVillain
 0.0.0.0 www.machiavillain.com # Patchnotes
