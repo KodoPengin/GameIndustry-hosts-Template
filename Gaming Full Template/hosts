@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 01.02.2021
+# Änderungsdatum: 07.02.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -867,6 +867,7 @@ gameplay.gog.com
 # De/aktivieren nach Bedarf
 #0.0.0.0 cloud-3.steamusercontent.com
 #0.0.0.0 steamcloud-eu.storage.googleapis.com
+# 108.177.119.128
 # 142.250.74.208
 # 20.238.118.132
 # 216.58.201.80
@@ -1009,11 +1010,14 @@ gameplay.gog.com
 #0.0.0.0 video.steamstatic.com
 
 # Steam: IP Checks
-# Verpflichtende Callbacks, die allerdings blockiert werden können
+# Von Valve eingeführte verpflichtende Callbacks im Steam-Client und UE4 Produkten, die allerdings blockiert werden können
 # Ip/s blockieren:
+# 184.24.77.156
+# 184.24.77.162
 # 2a01:bc80:1:103::a2fe:c60d
 # 2a01:bc80:1:104::a2fe:c64d
 # 2a01:bc80:4:100::a2fe:c40b
+# 2a01:bc80:4:100::a2fe:c40e
 # 2a01:bc80:4:101::a2fe:c42b
 # 2a01:bc80:5:100::9b85:fa02
 # 2a01:bc80:5:100::9b85:fa04
@@ -1024,12 +1028,16 @@ gameplay.gog.com
 # 2a01:bc80:5:100::9b85:fa0f
 # 2a01:bc80:5:100::9b85:fa10
 # 2a01:bc80:5:101::9b85:fa23
+# 2a01:bc80:5:101::9b85:fa24
+# 2a01:bc80:5:101::9b85:fa25
 # 2a01:bc80:5:101::9b85:fa26
 # 2a01:bc80:5:101::9b85:fa28
 # 2a01:bc80:5:101::9b85:fa2a
+# 2a01:bc80:5:101::9b85:fa31
 # 2a01:bc80:5:101::9b85:fa32
 # 2a01:bc80:5:101::9b85:fa33
 # 2a01:bc80:5:101::9b85:fa34
+# 2a01:bc80:5:101::9b85:fa35
 # 2a01:bc80:5:101::9b85:fa36
 # 2a01:bc80:5:101::9b85:fa37
 # 2a01:bc80:5:101::9b85:fa38
@@ -1043,8 +1051,6 @@ gameplay.gog.com
 # 2a01:bc80:a:100::b919:b602
 # 2a01:bc80:a:100:0:0:b919:b602
 # 2a01:bc80:a:101::b919:b622
-# 184.24.77.156
-# 184.24.77.162
 0.0.0.0 ipv6check-http.steamcontent.com
 0.0.0.0 ipv6check-udp.steamcontent.com
 0.0.0.0 eu.http.ipv6check.akadns.net
@@ -1867,6 +1873,9 @@ gameplay.gog.com
 # 52.88.46.75
 #0.0.0.0 prod-pc.wws-gs2.com # Onlinemodi, Statistiken und Funktionen
 #0.0.0.0 a46a2a13688f54b57bb35502a5acbc2c-2082727945.us-west-2.elb.amazonaws.com
+
+# Journey To The Savage Planet
+# s. Eintrag Steam: IP Checks
 
 # Ember
 # s. Steam: General Directory Server
@@ -3583,8 +3592,24 @@ gameplay.gog.com
 # Crashpad Analytics
 
 # CAPCOM Co., Ltd.
-# モンスターハンター：ワールド | MONSTER HUNTER: WORLD
+# モンスターハンター：ワールド | MONSTER HUNTER: WORLD + Iceborne DLC
 # s. Rubrik Kopierschutz / AntiCheat
+# 99.86.3.100
+# 99.86.3.93
+# 99.86.3.126
+# 99.86.3.109
+# 99.86.3.69
+# 99.86.3.4
+# 99.86.3.83
+# 99.86.3.21
+#0.0.0.0 dl.slg.capcom.jp
+#0.0.0.0 api.slg.capcom.jp
+# Playfab Onlinezwang
+# 44.239.215.153
+# 54.185.202.203
+# 54.148.229.118
+0.0.0.0 7402.playfabapi.com
+0.0.0.0 p-common-1-mainserver-720424357.us-west-2.elb.amazonaws.com
 
 # Dark Void™
 # SecuROM s. Rubrik Kopierschutz / AntiCheat
@@ -3985,6 +4010,12 @@ gameplay.gog.com
 # Die Adresse muss für's Onlinespiel aktiv bleiben. Für den Offlinemodus mit dem Parameter -NoMultiplayer kann die API abgeschaltet werden
 0.0.0.0 api.epicgames.dev # Anmeldetoken, SDKabgleich, Telemetrie, Matchmaking und nochmal als Websocket präsent
 
+# Valheim
+# Ip/s blockieren:
+# 172.217.218.138
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www-google-analytics.l.google.com
+
 # Cobra Mobile
 # iBomber Attack
 # s. Steam: General Directory Server
@@ -4149,12 +4180,10 @@ gameplay.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
-# Creepy Jar
+# Creepy Jar S.A.
 # Green Hell
-# Ip/s blockieren:
-# 35.241.26.53
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+# Zuletzt getestet 30.01.2021
+# UnityCrashHandler bleiben aktiv. Aktive Adressen der Unity Analytics wurden zum erneuten Testzeitpunkt nicht gefunden
 
 # Crema
 # Immortal Redneck
@@ -4271,12 +4300,14 @@ gameplay.gog.com
 # 35.241.52.229
 # 35.190.88.234
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 # s. Steam: General Directory Server
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # CWH Entertainment
 # NEONomicon
@@ -6343,6 +6374,27 @@ gameplay.gog.com
 # Crush your Enemies
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# Diluvion: Resubmerged
+# 23.55.110.183
+# 23.55.110.204
+# 23.55.110.196
+#0.0.0.0 remote-config.gog.com
+#0.0.0.0 auth.gog.com
+0.0.0.0 galaxy-log.gog.com
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # MachiaVillain
 0.0.0.0 www.machiavillain.com # Patchnotes
