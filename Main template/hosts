@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 07.02.2021
+# Änderungsdatum: 10.02.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -906,11 +906,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 inmatrix.com # Was ist neu/Playernews
 
 # IoBIT
-# SystemCare, Uninstaller, DriverBooster usw.
+# SystemCare, Uninstaller, Driver Booster usw.
 # IObitLiveUpdate.exe, Setup.exe, Feedback.exe, ACS.exe, AutoUpdate.exe, AUpdate.exe, Suo12_StartupManager.exe, UninstallPromote.exe
+# 52.3.174.214
 # 32.230.163.22
 #0.0.0.0 update.iobit.com # Downloads
 0.0.0.0 ascstats.iobit.com # Produktaktivierung/Aktivierungsstatus, UID, Spracheinstellungen, Betriebssystem, Versionsnummer, Seriennummer, Firma u.m.
+0.0.0.0 stats-iobit-com.us-east-1.elasticbeanstalk.com
 0.0.0.0 download.iobit.com
 0.0.0.0 gs1.wpc.edgecastcdn.net # Programmupdates z.b. Driverbooster # 93.184.221.133
 #0.0.0.0 download.microsoft.com # Redist Download von Microsoft
@@ -1837,7 +1839,7 @@ ff02::3 ip6-allhosts
 # 67.231.106.116
 # 72.4.145.74
 # Synchronisation mit den Internetservern kann über Optionen deaktiviert werden
-0.0.0.0 www.vueminder.com
+#0.0.0.0 www.vueminder.com
 #0.0.0.0 ustiming.org # 67.227.226.241
 #0.0.0.0 ocsp.rootg2.amazontrust.com
 #0.0.0.0 o.ss2.us
@@ -1845,6 +1847,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 dxezhqhj7t42i.cloudfront.net
 #0.0.0.0 dcnz2rrcot657.cloudfront.net
 0.0.0.0 t3j2g9x7.stackpathcdn.com
+# Lizenzumstellung seit 2021 | Abgleich Produktschlüssel, Computername, Registriert auf, Produktbuild und Version
+#0.0.0.0 vueminderlicensingapi.azurewebsites.net
 
 # Vuze
 0.0.0.0 version.vuze.com
@@ -2934,6 +2938,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scdn.uc.atwola.com
 0.0.0.0 tacoda.at.atwola.com
 0.0.0.0 us.y.atwola.com
+0.0.0.0 jp.at.atwola.com
 
 # Audrte.com
 0.0.0.0 a.audrte.com
@@ -5387,7 +5392,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 rtb.openx.net
 0.0.0.0 ruptly-d.openx.net
 0.0.0.0 sbnationbidder-d.openx.net
+0.0.0.0 seesaa-d.openx.net
 0.0.0.0 snigel-d.openx.net # Computerbase.de
+0.0.0.0 spiceworks-d.openx.net
 0.0.0.0 spot-im-d.openx.net
 0.0.0.0 stroer-d.openx.net
 0.0.0.0 titangate-d.openx.net
@@ -5401,7 +5408,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 wikia-d.openx.net
 0.0.0.0 yieldlove-d.openx.net
 0.0.0.0 ziffdavis-d.openx.net
-0.0.0.0 spiceworks-d.openx.net
 
 # Opmnstr.com
 0.0.0.0 api.opmnstr.com
@@ -5598,23 +5604,24 @@ ff02::3 ip6-allhosts
 
 # Pubmatic | Onlinewerbung
 0.0.0.0 ads.pubmatic.com
+0.0.0.0 aktrack.pubmatic.com
+0.0.0.0 aud-lhr.pubmatic.com
+0.0.0.0 aud.pubmatic.com
 0.0.0.0 gads.pubmatic.com
 0.0.0.0 hbopenbid.pubmatic.com
-0.0.0.0 vid.pubmatic.com
+0.0.0.0 hbopenbid22000nf.pubmatic.com
 0.0.0.0 image2.pubmatic.com
-0.0.0.0 simage2.pubmatic.com
 0.0.0.0 image4.pubmatic.com
-0.0.0.0 simage4.pubmatic.com
 0.0.0.0 image6.pubmatic.com
-0.0.0.0 simage6.pubmatic.com
-0.0.0.0 sshowads.pubmatic.com
-0.0.0.0 aktrack.pubmatic.com
+0.0.0.0 pug-lhr.pubmatic.com
 0.0.0.0 pugm-lhr.pubmatic.com
 0.0.0.0 pugm22000nf.pubmatic.com
+0.0.0.0 simage2.pubmatic.com
+0.0.0.0 simage4.pubmatic.com
+0.0.0.0 simage6.pubmatic.com
 0.0.0.0 spug22000nf.pubmatic.com
-0.0.0.0 pug-lhr.pubmatic.com
-0.0.0.0 aud-lhr.pubmatic.com
-0.0.0.0 hbopenbid22000nf.pubmatic.com
+0.0.0.0 sshowads.pubmatic.com
+0.0.0.0 vid.pubmatic.com
 
 # Pubnub.com | Streamingdienst
 0.0.0.0 ps6.pubnub.com
@@ -6322,9 +6329,6 @@ ff02::3 ip6-allhosts
 # Stake7.com
 0.0.0.0 cdn.stake7.com
 0.0.0.0 www.stake7.com
-
-# Starfieldtech.com
-0.0.0.0 ocsp.starfieldtech.com
 
 # Stayfriends
 0.0.0.0 acl.stayfriends.de
@@ -7278,6 +7282,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 crl.sectigo.com
 
 # Starfield Technologies
+# 52.222.137.79
 #0.0.0.0 o.ss2.us
 #0.0.0.0 ocsp.starfieldtech.com
 #0.0.0.0 crl.starfieldtech.com
@@ -8701,6 +8706,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 eu-central-1.onemobile.yahoo.com
 0.0.0.0 fc.yahoo.com
 0.0.0.0 geo.yahoo.com
+0.0.0.0 jill.fc.yahoo.com
 0.0.0.0 ir2.beap.gemini.yahoo.com
 0.0.0.0 na.ads.yahoo.com
 0.0.0.0 oao-js-tag.onemobile.yahoo.com # Adserve
@@ -8784,6 +8790,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.i2idata.com
 0.0.0.0 ad.phaserep.com
 0.0.0.0 adex.ednplus.com
+0.0.0.0 adjp.apacact.verizonmedia.com
 0.0.0.0 adm.beimg.com
 0.0.0.0 admixer.co.kr
 0.0.0.0 ads.b10f.jp
@@ -8791,13 +8798,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 adx.turl.co.kr
 0.0.0.0 aff.jskyservices.com
 0.0.0.0 aml.valuecommerce.com
+0.0.0.0 an.cmertv.com
 0.0.0.0 ana2.tatsumi-sys.jp
+0.0.0.0 anymind360.com
 0.0.0.0 api.popin.cc
 0.0.0.0 api.primecaster.net
 0.0.0.0 asset.f-tra.com
 0.0.0.0 atype.jp
 0.0.0.0 b.ranking.apis.sankei-digital.co.jp
 0.0.0.0 banner.themediaplanets.com
+0.0.0.0 bannerfarm.aolp.jp
 0.0.0.0 beacon.watch.impress.co.jp
 0.0.0.0 blackhole.m.jd.com # UTM Campaign
 0.0.0.0 bs.nakanohito.jp
@@ -8812,10 +8822,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 cms.tanx.com
 0.0.0.0 conf.f-tra.com
 0.0.0.0 corp.ninja.co.jp
-0.0.0.0 cr-p3.ladsp.jp
 0.0.0.0 counter.joins.com
+0.0.0.0 cr-p3.ladsp.jp
 0.0.0.0 dalb.valuecommerce.com
 0.0.0.0 dalc.valuecommerce.com
+0.0.0.0 deliver.ads2.iid.jp
 0.0.0.0 delivery.locari.jp
 0.0.0.0 discoveryplus.popin.cc
 0.0.0.0 flux-cdn.com # flux-g.com
@@ -8846,7 +8857,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 mediaweaver.jp
 0.0.0.0 mercury.jd.com # Trackingpixel
 0.0.0.0 oms.dowjoneson.com
+0.0.0.0 pb.ladsp.com
 0.0.0.0 pics.dmm.com
+0.0.0.0 prebid-asia.creativecdn.com
 0.0.0.0 proparm.jp
 0.0.0.0 publish.gacraft.jp
 0.0.0.0 rb.infox.sg
@@ -8865,8 +8878,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 tangankanan.net
 0.0.0.0 theta.sogoucdn.com
 0.0.0.0 tk.iogous.com
+0.0.0.0 toys.quant.jp
 0.0.0.0 track.cross-system.com
 0.0.0.0 tracker.kantan-access.com
+0.0.0.0 uu.quant.jp
 0.0.0.0 v.admaster.com.cn
 0.0.0.0 wisteria-js.excite.co.jp
 0.0.0.0 www.onemilliondollar.hk.cn
@@ -9249,6 +9264,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.service.kugou.com
 0.0.0.0 adsfile.bssdlbig.kugou.com
 
+# Line Corporation
+# LINE
+# Updater
+# nelo2-log erfasst u.A. den eigenen Computernamen, Installations bzw Ordnerpfade inkl. Windows Accountnamen, Systemdaten, Zeitstempel
+# 203.104.153.91
+#0.0.0.0 desktop.line-scdn.net
+#0.0.0.0 nelo2-col.linecorp.com
+
 # Logly.co.jp
 0.0.0.0 l.logly.co.jp
 0.0.0.0 b.logly.co.jp
@@ -9624,6 +9647,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 chart.googleapis.com
 #0.0.0.0 apis.google.com
 0.0.0.0 automate-prod.storage.googleapis.com
+0.0.0.0 clouderrorreporting.googleapis.com
 
 # Google Appspot.com
 0.0.0.0 amp-error-reporting.appspot.com
@@ -10013,7 +10037,7 @@ ff02::3 ip6-allhosts
 # Translator Analytics
 0.0.0.0 mobile.pipe.aria.microsoft.com # /Collector/3.0/
 
-# Callbacks Netzwerk De/Aktivierung inkl. On/Offline Darstellung
+# NCSI - Callbacks Nettzwerkverbindungsanzeige
 0.0.0.0 dns.msftncsi.com
 0.0.0.0 iana.org
 0.0.0.0 example.org
@@ -10272,11 +10296,13 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 51.136.37.147
 
-# SystemSettings.exe
+# Einstellungen | SystemSettings.exe
 # Ip/s blockieren:
 # 23.211.163.229
+# 65.55.42.20
 # 2a02:26f0:1700:481::2c1a
 0.0.0.0 e3230.b.akamaiedge.net
+0.0.0.0 x1ds.gtm.xboxlive.com
 
 # Windows 10 Microsoft Store | WinStore.App.exe, svchost & services.exe
 # 2.19.104.253
@@ -10958,6 +10984,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 iecvlist.microsoft.com
 0.0.0.0 browser.events.data.msn.com # Collector
 #0.0.0.0 static-entertainment-neu-s-msn-com.akamaized.net # Trackingpixel, Schriften, CSS, Javascript
+# 40.67.252.175
+# 40.125.120.53
 #0.0.0.0 api.cdp.dsp.mp.microsoft.com.nsatc.net # Update
 # Ip/s blockieren:
 # 204.79.197.200
@@ -11170,6 +11198,8 @@ login.live.com
 # 52.34.51.144
 # 54.192.86.49
 # 65.9.68.119
+# 52.32.204.93
+# 2600:9000:21a2:3e00:a:da5e:7900:93a1
 0.0.0.0 self-repair.mozilla.org
 0.0.0.0 firefox.settings.services.mozilla.com # Browserbroker
 0.0.0.0 search.services.mozilla.com
@@ -11180,6 +11210,8 @@ login.live.com
 0.0.0.0 mitmdetection.services.mozilla.com
 0.0.0.0 content-signature-2.cdn.mozilla.net
 0.0.0.0 prod-tp.sumo.mozit.cloud
+0.0.0.0 fennec-catalog-cdn.prod.mozaws.net
+0.0.0.0 firefox-settings-attachments.cdn.mozilla.net
 # Anmeldung im Firefox und Thunderbird über Amazon AWS
 # Telemetrie während der Anmeldung - https://accounts.firefox.com/metrics
 # 34.210.168.158
@@ -12835,6 +12867,11 @@ login.live.com
 0.0.0.0 1d6550b1238.trccmpnlnk.com
 0.0.0.0 1suyx9m.lmyiwaakn.com
 0.0.0.0 1ts20.top
+0.0.0.0 1xbetbk6.com
+0.0.0.0 1xbetbk7.com
+0.0.0.0 1xbetbk8.com
+0.0.0.0 1xbetbk9.com
+0.0.0.0 1xbetcom.mobi
 0.0.0.0 2.load14.biz
 0.0.0.0 2468.go2cloud.org
 0.0.0.0 29773.v.fwmrm.net
@@ -13170,6 +13207,7 @@ login.live.com
 0.0.0.0 banners.askmecca.com
 0.0.0.0 bcdn.grmtas.com
 0.0.0.0 bd202457b.com
+0.0.0.0 be-api.us.archive.org
 0.0.0.0 be7f5dd1-ef00-4a87-857e-0a03b46c2965.static.pub.wix-code.com
 0.0.0.0 bea4.v.fwmrm.net
 0.0.0.0 beacon.errorception.com
@@ -13189,6 +13227,7 @@ login.live.com
 0.0.0.0 betano.com
 0.0.0.0 bgn2zqlce1eiya.icu
 0.0.0.0 bgstaging-a.akamaized.net
+0.0.0.0 bid.underdog.media
 0.0.0.0 bids.proper.io
 0.0.0.0 biltag.bilsyndication.com
 0.0.0.0 bin.bnbstatic.com
@@ -13437,6 +13476,7 @@ login.live.com
 0.0.0.0 coperledsinhe.info
 0.0.0.0 core-api.bringhub.io
 0.0.0.0 corot-20c.com
+0.0.0.0 cors-anywhere.herokuapp.com
 0.0.0.0 count.paycounter.com
 0.0.0.0 counter.snackly.co
 0.0.0.0 counter.theconversation.com
@@ -13833,6 +13873,7 @@ login.live.com
 0.0.0.0 j.mrpdata.net
 0.0.0.0 j.zoe.zucks.net
 0.0.0.0 jadserve.postrelease.com
+0.0.0.0 jbjutserver.xyz
 0.0.0.0 jerkmate.com
 0.0.0.0 jf71qh5v14.com
 0.0.0.0 jg.revolvermaps.com
@@ -13896,6 +13937,7 @@ login.live.com
 0.0.0.0 letitbify.com
 0.0.0.0 level3ssl.optimicdn.com
 0.0.0.0 lib-us-1.brilliantcollector.com
+0.0.0.0 lib.ads4g.pl
 0.0.0.0 libs.aseads.com
 0.0.0.0 lightstep.medium.systems
 0.0.0.0 likemore-fe.go.mail.ru
@@ -14288,6 +14330,8 @@ login.live.com
 0.0.0.0 reddleops.pro
 0.0.0.0 redirect.madsack-adcenter.de
 0.0.0.0 redirect2719.ws
+0.0.0.0 refbanners.com
+0.0.0.0 refpa.top
 0.0.0.0 regularplants.com
 0.0.0.0 regulationprivilegescan.top
 0.0.0.0 relandssymphoking.info
@@ -14718,6 +14762,7 @@ login.live.com
 0.0.0.0 um3.eqads.com
 0.0.0.0 universal.iperceptions.com
 0.0.0.0 untappedwealth.com
+0.0.0.0 unverserve.xyz
 0.0.0.0 updates.installshield.com
 0.0.0.0 upvid.eu
 0.0.0.0 upx.provenpixel.com
@@ -14760,6 +14805,7 @@ login.live.com
 0.0.0.0 vidyome-com.cdn.vidyome.com
 0.0.0.0 virallupdates.com
 0.0.0.0 visitor-service-eu-central-1.tealiumiq.com
+0.0.0.0 visitor.fiftyt.com
 0.0.0.0 vn.mmvpay.com
 0.0.0.0 vod.addevweb.com
 0.0.0.0 voltskegscurate.com
@@ -15020,6 +15066,7 @@ login.live.com
 0.0.0.0 x.bidfilter.com
 0.0.0.0 xadsmart.com
 0.0.0.0 xd.adnz.co
+0.0.0.0 xf1lef1lex.com
 0.0.0.0 xfreehdvideos.com
 0.0.0.0 xk6n.amgload.net
 0.0.0.0 xlanding.pw
@@ -16542,8 +16589,10 @@ gameplay.gog.com
 #0.0.0.0 srv02.codefusion.technology
 #0.0.0.0 srv03.codefusion.technology
 #0.0.0.0 support.codefusion.technology
+# Je nach Produkt Abfragen an Globalsign oder Starfield Tech Zertifikate
 #0.0.0.0 ocsp2.globalsign.com
 #0.0.0.0 crl.globalsign.com
+#0.0.0.0 o.ss2.us
 
 # SecuROM
 # Wieder ein Kopierschutzmechanismus von Sony - veraltet - Server sind teils je nach Produkt nicht erreichbar.
@@ -23084,6 +23133,7 @@ gameplay.gog.com
 
 # KOEI TECMO GAMES CO., LTD.
 # デッド オア アライブ エクストリーム ヴィーナス バケーション | DEAD OR ALIVE Xtreme Venus Vacation
+# 52.193.203.95
 # 54.64.247.206
 # 54.64.247.206
 # 52.68.151.118
@@ -23095,6 +23145,20 @@ gameplay.gog.com
 #0.0.0.0 game.doaxvv.com
 #0.0.0.0 api01.doaxvv.com
 #0.0.0.0 api.doaxvv.com
+
+# デッド オア アライブ エクストリーム ヴィーナス バケーション | DEAD OR ALIVE Xtreme Venus Vacation | japanische Version
+# 54.248.53.45
+# 54.65.226.117
+# 210.57.59.41
+# 210.57.59.59
+# 210.57.59.58
+# 210.57.59.51
+# 210.57.59.58
+# 2403:e800:e803:c::d239:3b03
+#0.0.0.0 api.doax-venusvacation.jp
+#0.0.0.0 cdn01.doax-venusvacation.jp
+#0.0.0.0 a1822.dscd.akamai.net
+#0.0.0.0 a1768.g1.akamai.net
 
 # NOBUNAGA'S AMBITION: Sphere of Influence
 # N14PKLauncher.exe & NOBU14PK.exe mit Facebookanbindung, N14FaceTool.exe
