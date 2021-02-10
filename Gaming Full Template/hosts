@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 07.02.2021
+# Änderungsdatum: 10.02.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1280,8 +1280,10 @@ gameplay.gog.com
 #0.0.0.0 srv02.codefusion.technology
 #0.0.0.0 srv03.codefusion.technology
 #0.0.0.0 support.codefusion.technology
+# Je nach Produkt Abfragen an Globalsign oder Starfield Tech Zertifikate
 #0.0.0.0 ocsp2.globalsign.com
 #0.0.0.0 crl.globalsign.com
+#0.0.0.0 o.ss2.us
 
 # SecuROM
 # Wieder ein Kopierschutzmechanismus von Sony - veraltet - Server sind teils je nach Produkt nicht erreichbar.
@@ -7822,6 +7824,7 @@ gameplay.gog.com
 
 # KOEI TECMO GAMES CO., LTD.
 # デッド オア アライブ エクストリーム ヴィーナス バケーション | DEAD OR ALIVE Xtreme Venus Vacation
+# 52.193.203.95
 # 54.64.247.206
 # 54.64.247.206
 # 52.68.151.118
@@ -7833,6 +7836,20 @@ gameplay.gog.com
 #0.0.0.0 game.doaxvv.com
 #0.0.0.0 api01.doaxvv.com
 #0.0.0.0 api.doaxvv.com
+
+# デッド オア アライブ エクストリーム ヴィーナス バケーション | DEAD OR ALIVE Xtreme Venus Vacation | japanische Version
+# 54.248.53.45
+# 54.65.226.117
+# 210.57.59.41
+# 210.57.59.59
+# 210.57.59.58
+# 210.57.59.51
+# 210.57.59.58
+# 2403:e800:e803:c::d239:3b03
+#0.0.0.0 api.doax-venusvacation.jp
+#0.0.0.0 cdn01.doax-venusvacation.jp
+#0.0.0.0 a1822.dscd.akamai.net
+#0.0.0.0 a1768.g1.akamai.net
 
 # NOBUNAGA'S AMBITION: Sphere of Influence
 # N14PKLauncher.exe & NOBU14PK.exe mit Facebookanbindung, N14FaceTool.exe
