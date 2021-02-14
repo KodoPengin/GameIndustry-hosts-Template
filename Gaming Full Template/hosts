@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 10.02.2021
+# Änderungsdatum: 14.02.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -495,6 +495,9 @@ gameplay.gog.com
 # 3.222.153.230
 # 3.227.104.71
 # 34.228.176.58
+# 54.242.72.161
+# 52.6.71.146
+# 52.22.147.232
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-prod.ak.epicgames.com
 #0.0.0.0 tracking.epicgames.com # Javascript, Pageview, Trackingpixel - aktiviert sich auf ziemlich jeder Seite mit aktuellen Daten und Aufnahme von Einzelschritten
@@ -503,6 +506,7 @@ gameplay.gog.com
 #0.0.0.0 accounts.launcher-website-prod07.ol.epicgames.com # Funnelanalytics - Unterseite für Freundeverbindungen, Anfragen, Vorschläge
 0.0.0.0 tracking-website-prod07-epic-96184209.us-east-1.elb.amazonaws.com
 0.0.0.0 tracking-website-prod07-epic-961842049.us-east-1.elb.amazonaws.com
+0.0.0.0 eulatracking-svc-prod06-pub-1257580502.us-east-1.elb.amazonaws.com
 0.0.0.0 sentry.io # Monitoring und Errortracking
 # Drittanbieter
 # 216.58.205.238
@@ -816,10 +820,14 @@ gameplay.gog.com
 # 190.98.152.34
 # 2.21.228.17
 # 80.239.200.19
+# 23.55.110.140
+# 23.55.110.155
 #0.0.0.0 steamcdn-a.akamaihd.net # Grafiken Erfolge, Produktgrafiken, Headerbilder, Vorschaubilder usw.
+#0.0.0.0 scdn.akamai.steamstatic.com # Clientdownload
 
 # Steam: Chat
 #0.0.0.0 bc1-tuk1.chat.steamcontent.com
+# 23.14.242.145
 # 172.227.166.174
 # 104.108.78.51
 # 2.17.182.211
@@ -1031,8 +1039,10 @@ gameplay.gog.com
 # 2a01:bc80:5:101::9b85:fa24
 # 2a01:bc80:5:101::9b85:fa25
 # 2a01:bc80:5:101::9b85:fa26
+# 2a01:bc80:5:101::9b85:fa27
 # 2a01:bc80:5:101::9b85:fa28
 # 2a01:bc80:5:101::9b85:fa2a
+# 2a01:bc80:5:101::9b85:fa30
 # 2a01:bc80:5:101::9b85:fa31
 # 2a01:bc80:5:101::9b85:fa32
 # 2a01:bc80:5:101::9b85:fa33
@@ -1269,6 +1279,7 @@ gameplay.gog.com
 
 # Denuvo Anti-Tamper
 # Anwendungsschutz, Schutz gegen Manipulation und Kopierschutz
+# 54.72.220.34
 # 52.17.173.247
 # 52.208.190.137
 # 52.49.218.253
@@ -2637,9 +2648,23 @@ gameplay.gog.com
 
 # Axolot Games
 # Raft
-0.0.0.0 cdp.cloud.unity3d.com
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
-#0.0.0.0 analytics.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 www.google-analytics.com
+#0.0.0.0 support.redbeetinteractive.com
+0.0.0.0 p3.zdassets.com
+0.0.0.0 p18.zdassets.com
 
 # Back to basics Gaming
 # Ampersand
@@ -4010,7 +4035,7 @@ gameplay.gog.com
 0.0.0.0 metrics.ol.epicgames.com
 0.0.0.0 api.stathat.com
 # Die Adresse muss für's Onlinespiel aktiv bleiben. Für den Offlinemodus mit dem Parameter -NoMultiplayer kann die API abgeschaltet werden
-0.0.0.0 api.epicgames.dev # Anmeldetoken, SDKabgleich, Telemetrie, Matchmaking und nochmal als Websocket präsent
+#0.0.0.0 api.epicgames.dev # Anmeldetoken, SDKabgleich, Telemetrie, Matchmaking und nochmal als Websocket präsent
 
 # Valheim
 # Ip/s blockieren:
@@ -4252,6 +4277,25 @@ gameplay.gog.com
 
 # 10 Second Ninja X
 # s. Steam: General Directory Server
+
+# For the King
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 108.177.127.153
+# 54.84.43.128
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 ironoakgames00.appspot.com
+#0.0.0.0 api.epicgames.dev
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Human: Fall flat
 # Ip/s blockieren:
@@ -5699,6 +5743,32 @@ gameplay.gog.com
 # s. Steam: General Directory Server
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+
+# Foulball Hangover
+# Hydroneer
+# s. Eintrag Steam: IP Checks
+0.0.0.0 adservice.google.com
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 ext.chtbl.com
+0.0.0.0 sc-static.net
+0.0.0.0 static.ads-twitter.com
+0.0.0.0 analytics.tiktok.com
+0.0.0.0 q.quora.com
+0.0.0.0 ct.pinterest.com
+0.0.0.0 web.chtbl.com
+0.0.0.0 api.amplitude.com
+0.0.0.0 alb.reddit.com
+0.0.0.0 tr.snapchat.com
+0.0.0.0 t.co
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 www.datadoghq-browser-agent.com
+0.0.0.0 www.facebook.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 sf19-scmcdn-va.ibytedtos.com
+0.0.0.0 cdn.siftscience.com
+0.0.0.0 analytics.twitter.com
+0.0.0.0 hexagon-analytics.com
+0.0.0.0 www-google-analytics.l.google.com
 
 # Fluffy Friends
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -7908,10 +7978,15 @@ gameplay.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
+# ANUBIS ZONE OF THE ENDERS: M∀RS : M∀RS / アヌビス ゾーン・オブ・エンダーズ : マーズ
+# s. Rubrik Kopierschutz / AntiCheat
+#0.0.0.0 legal.konami.com
+0.0.0.0 www.googletagmanager.com # ID: GTM-TX2ZLR3
+
 # ZONE OF THE ENDERS THE 2nd RUNNER : M∀RS / アヌビス ゾーン・オブ・エンダーズ : マーズ
 # s. Rubrik Kopierschutz / AntiCheat
 #0.0.0.0 legal.konami.com
-0.0.0.0 www.googletagmanager.com # ID: GTM-TX2ZLR3 verbunden mit Google Analytics
+0.0.0.0 www.googletagmanager.com # ID: GTM-TX2ZLR3
 #0.0.0.0 cdn.ampproject.org
 0.0.0.0 adservice.google.com
 
@@ -8835,6 +8910,36 @@ gameplay.gog.com
 #0.0.0.0 gsp-auw003-se11.gamesparks.net
 
 # NEOWIZ
+# DJMAX RESPECT V
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+# 52.192.230.152
+# 99.86.3.29
+# 99.86.3.88
+# 52.78.210.233
+# 13.227.219.4
+# 23.55.161.66
+# 23.55.161.74
+# 104.16.18.94
+# 13.113.113.87
+# 2606:4700::6810:125e
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+#0.0.0.0 api.mdmx.pmang.cloud
+#0.0.0.0 adminfront.mdmx.pmang.cloud
+#0.0.0.0 mdmx-ott.akamaized.net
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
 # Skul: The Hero Slayer
 # Ip/s blockieren:
 # 35.241.26.53
@@ -9570,7 +9675,7 @@ gameplay.gog.com
 # 52.54.163.232
 # 3.227.34.162
 # s. Eintrag Steam: IP Checks
-0.0.0.0 api.epicgames.dev # Wird für Onlinefunktionen benötigt
+#0.0.0.0 api.epicgames.dev # Wird für Onlinefunktionen benötigt
 0.0.0.0 metrics.ol.epicgames.com
 0.0.0.0 stun-1-nat.ol.epicgames.com
 0.0.0.0 stun-2-nat.ol.epicgames.com
@@ -10162,6 +10267,21 @@ gameplay.gog.com
 0.0.0.0 api.gameanalytics.com
 # s. Steam: General Directory Server
 
+# Revere Heaven Love People Innovation Technology Co., Ltd.
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # RewindApp
 # Archery Blast
 # Ip/s blockieren:
@@ -10639,6 +10759,22 @@ gameplay.gog.com
 0.0.0.0 api.games2gether.com
 
 # Motorsport Manager
+0.0.0.0 garry.sgaas.net
+0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
+
+# Persona 4 Golden
+# s. Steam: General Directory Server
+# s. Rubrik Kopierschutz / AntiCheat
+# Ip/s blockieren:
+# 208.64.200.105
+# 52.17.173.247
+# 52.208.190.137
+# 52.49.218.253
+# 52.18.94.153
+# 54.194.195.183
+# 52.49.61.71
+# 54.72.220.34
+# 34.247.207.198
 0.0.0.0 garry.sgaas.net
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 
@@ -11321,7 +11457,23 @@ gameplay.gog.com
 0.0.0.0 cdp.cloud.unity3d.com
 # s. Steam: General Directory Server
 
-# Square Enix
+# SQUARE ENIX CO., LTD.
+# ドラゴンクエストライバルズ エース | DRAGON QUEST RIVALS Ace
+# 222.158.245.226
+# 151.101.230.205
+# 125.0.145.216
+# 216.58.197.238
+# 74.125.203.156
+# 124.150.158.171
+# 208.64.200.105
+# s. Steam: General Directory Server
+#0.0.0.0 lobby.dqrivals.com
+#0.0.0.0 cache.dqrivals.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 stats.g.doubleclick.net
+#0.0.0.0 support.jp.square-enix.com
+
 # Battlestations Pacific
 # Beinhaltet Games for Windows Live
 #0.0.0.0 go.microsoft.com # fwlink/?LinkID=100146 verweist auf nächste Adresse
@@ -12521,7 +12673,7 @@ gameplay.gog.com
 # 104.26.7.104
 # 74.201.103.215
 # 74.201.103.217
-0.0.0.0 api.epicgames.dev # Onlinemodi, Telemetrie, Matchmaking, Anmeldung, Websocket Heartbeat
+#0.0.0.0 api.epicgames.dev # Onlinemodi, Telemetrie, Matchmaking, Anmeldung, Websocket Heartbeat
 0.0.0.0 metrics.ol.epicgames.com # Telemetrie, Heartbeat
 0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
 0.0.0.0 art.tripwirecdn.com # Logo im PNG FOrmat
