@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 14.02.2021
+# Änderungsdatum: 17.02.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1930,6 +1930,12 @@ gameplay.gog.com
 # .ez Games
 # Riaaf the spider
 # s. Steam: General Directory Server
+
+# Abbey Games
+# Godhood
+# Ip/s blockieren:
+# 83.217.75.199
+0.0.0.0 ingame.abbeygames.com
 
 # Act 3 Games, LLC
 # The Fidelio Incident
@@ -6595,8 +6601,10 @@ gameplay.gog.com
 # 158.177.236.84
 # Diverses
 # 172.65.204.172
+# 205.185.216.10
 #0.0.0.0 spectrum-patch-ipv4.pathofexile.com
 0.0.0.0 5c3e588941d14ffb8518633c807228b9.pacloudflare.com
+#0.0.0.0 cds.p7p4m6s5.hwcdn.net
 # News, Links für Mikrotransaktionen
 #0.0.0.0 web.poecdn.com
 # Datenuploaad Telemetrie
@@ -9370,11 +9378,20 @@ gameplay.gog.com
 # Project Hospital
 # Eintrag zu Unity Technologies beachten
 # Ip/s blockieren:
+# 35.241.26.53
 # 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 perf-events.cloud.unity3d.com
 
 # Pablo Vidaurre Sanz
 # Tokyo Warfare
@@ -10268,6 +10285,7 @@ gameplay.gog.com
 # s. Steam: General Directory Server
 
 # Revere Heaven Love People Innovation Technology Co., Ltd.
+# Neko Papala
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
