@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 14.02.2021
+# Änderungsdatum: 17.02.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -881,7 +881,7 @@ ff02::3 ip6-allhosts
 # 108.59.8.244
 0.0.0.0 data.icecreamapps.com # Versionsnummer, Dev?, Spracheinstellungen, Betriebssystem, Betriebssystemversionsnummer, Auflösung, DPI, Scalefaktor, Installationsnr, Starts
 
-# IDM Computer Solutions
+# IDM Computer Solutions, Inc.
 # Ultraedit
 #0.0.0.0 licensing.ultraedit.com # Wie der Name schon sagt, Lizenzüberprüfung
 #0.0.0.0 licensing2.ultraedit.com
@@ -926,6 +926,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 idb.iobit.com # Registrierung
 # Wird für DriverBooster benötigt
 #0.0.0.0 www.cd4o.com
+# 152.199.20.140
 # 52.58.15.198
 # 93.184.221.133
 # 3.221.65.213
@@ -933,6 +934,7 @@ ff02::3 ip6-allhosts
 # 52.72.228.80
 0.0.0.0 db-api-production-proxy.eu-central-1.elasticbeanstalk.com
 #0.0.0.0 gs1.wpc.edgecastcdn.net # Treiberdownload
+#0.0.0.0 cs833182181.wpc.etacdn.net
 0.0.0.0 www-iobit-com.us-east-1.elasticbeanstalk.com
 0.0.0.0 iobit-license.us-east-1.elasticbeanstalk.com
 0.0.0.0 db-api-stats.us-east-1.elasticbeanstalk.com
@@ -1234,8 +1236,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 events-lon1.gfe.nvidia.com
 # Nvidia Webseite
 # 152.195.53.31
-
-#152.199.20.80
+# NVDisplay.Container.exe
+# 152.199.20.80
 0.0.0.0 cs1137261584.wpc.phicdn.net
 
 # NVidia Inspector
@@ -1901,8 +1903,8 @@ ff02::3 ip6-allhosts
 # 162.144.66.67
 # 151.139.236.246
 # 216.239.32.21
-0.0.0.0 subca.ocsp-certum.com
-0.0.0.0 wosign-csca.ocsp-certum.com
+#0.0.0.0 subca.ocsp-certum.com
+#0.0.0.0 wosign-csca.ocsp-certum.com
 0.0.0.0 www.yamicsoft.com
 0.0.0.0 myexternalip.com # Abfrage der eigenen IP aaus dem Programm heraus
 
@@ -2542,6 +2544,7 @@ ff02::3 ip6-allhosts
 # Akamai Technologies
 # 2.22.117.192
 # 104.74.137.57
+# 23.55.161.66
 0.0.0.0 amp.akamaized.net
 0.0.0.0 statics-marketingsites-neu-ms-com.akamaized.net
 0.0.0.0 e6653.dscf.akamaiedge.net
@@ -7188,11 +7191,14 @@ ff02::3 ip6-allhosts
 #0.0.0.0 crl.sca1b.amazontrust.com
 #0.0.0.0 ocsp.sca1b.amazontrust.com
 
-# CERTUM
+# Asseco Poland S.A. | Certum.eu/pl
 # 213.222.201.215
 # 108.161.187.37
 # 95.101.27.71
 # 184.86.103.196
+#0.0.0.0 cscasha2.ocsp-certum.com
+#0.0.0.0 subca.ocsp-certum.com
+#0.0.0.0 wosign-csca.ocsp-certum.com
 #0.0.0.0 csca.ocsp.certum.pl
 #0.0.0.0 crl.certum.pl
 
@@ -7463,6 +7469,9 @@ ff02::3 ip6-allhosts
 # Anisearch.com
 0.0.0.0 analytics.anisearch.com
 
+# AOK.de
+0.0.0.0 apiproxy.aok.de
+
 # Augsburger-Allgemeine.de
 0.0.0.0 test.augsburger-allgemeine.de
 
@@ -7629,6 +7638,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ssl.2.damoh.aws.brigitte.de
 0.0.0.0 ssl.3.damoh.aws.brigitte.de
 0.0.0.0 commsvc.brigitte.de
+0.0.0.0 baseendpoint.brigitte.de
 
 # Bunte.de
 0.0.0.0 burdastu.tag.tagtool.de
@@ -8402,6 +8412,11 @@ ff02::3 ip6-allhosts
 
 # Rubikon.news
 0.0.0.0 stats.rubikon.news
+
+# Runtastic.com
+0.0.0.0 cdn.matomo.cloud
+0.0.0.0 runtastic.matomo.cloud
+0.0.0.0 rbt.runtastic.com
 
 # SchneeVonMorgen
 # Tracker, Impressions, Werbung & Werbemanagement z.b. bei Chip.de oder Golem.de Videos vorgeschaltet. Videos sind in der hosts für entsprechende Seiten generell abgeschaltet
@@ -10294,10 +10309,10 @@ ff02::3 ip6-allhosts
 # 2.16.28.102
 0.0.0.0 bf.smartscreen.microsoft.com
 0.0.0.0 c.urs.microsoft.com
-0.0.0.0 cscasha2.ocsp-certum.com
+#0.0.0.0 cscasha2.ocsp-certum.com
+#0.0.0.0 subca.ocsp-certum.com
 0.0.0.0 e16646.g.akamaiedge.net
 0.0.0.0 e6913.dscx.akamaiedge.net
-0.0.0.0 subca.ocsp-certum.com
 0.0.0.0 telemetry.urs.microsoft.com
 0.0.0.0 urs.microsoft.com
 0.0.0.0 w.apprep.smartscreen.microsoft.com
@@ -10312,6 +10327,7 @@ ff02::3 ip6-allhosts
 
 # Einstellungen | SystemSettings.exe
 # Ip/s blockieren:
+# 96.6.15.33
 # 23.211.163.229
 # 65.55.42.20
 # 2a02:26f0:1700:481::2c1a
@@ -10480,7 +10496,8 @@ ff02::3 ip6-allhosts
 # Systemsettings.exe
 # 104.96.44.224
 # 23.196.209.236
-0.0.0.0 cxcs.microsoft.net # TipSet
+# 23.211.163.229
+#0.0.0.0 cxcs.microsoft.net # TipSet
 
 # USO Core Worker Process | usocoreworker.exe & taskhostw.exe
 # 52.142.119.134
@@ -12833,6 +12850,10 @@ login.live.com
 # Newsletter
 # 52.10.102.247
 0.0.0.0 spgo.io
+# Zwischengeschaltete OAuth Weiterleitungen auf nordaccount.com
+#0.0.0.0 zwyr157wwiu6eior.com
+#0.0.0.0 auth.zwyr157wwiu6eior.com
+#0.0.0.0 nordaccount.com
 
 #
 # Unsortiertes Zeugs
@@ -13318,6 +13339,7 @@ login.live.com
 0.0.0.0 cdn.adpicker.net
 0.0.0.0 cdn.adsfactor.net
 0.0.0.0 cdn.adspirit.de
+0.0.0.0 cdn.adt348.net
 0.0.0.0 cdn.apvdr.com
 0.0.0.0 cdn.betgorebysson.club
 0.0.0.0 cdn.bidfilter.com
@@ -13411,6 +13433,7 @@ login.live.com
 0.0.0.0 cdn3.bestcontentprogram.top
 0.0.0.0 cdn4ads.com
 0.0.0.0 cdn7.rocks
+0.0.0.0 cdnondemand.org
 0.0.0.0 cdnx.onnetwork.tv
 0.0.0.0 certakes.com
 0.0.0.0 cf.cdn.inmobi.com
@@ -13435,6 +13458,7 @@ login.live.com
 0.0.0.0 clicvortex.com
 0.0.0.0 client.mutinycdn.com
 0.0.0.0 client.swpcld.com
+0.0.0.0 clientcdn.pushengage.com
 0.0.0.0 clients.beliefmedia.com # Analytics Owa Tracker
 0.0.0.0 clix.superclix.de
 0.0.0.0 clk.rtpdn11.com
@@ -13449,6 +13473,7 @@ login.live.com
 0.0.0.0 cm.steepto.com
 0.0.0.0 cmp.network-n.com # Google Personalisierung & Partner
 0.0.0.0 cmp.tech426.com
+0.0.0.0 cmp.utopia.de
 0.0.0.0 cmpsp.hobbyconsolas.com
 0.0.0.0 cmpv2.macworld.com
 0.0.0.0 cn.asq.com
@@ -13728,6 +13753,7 @@ login.live.com
 0.0.0.0 geolocation-db.com # Marathonfitness.de
 0.0.0.0 geolocation.1trust.app
 0.0.0.0 geoservice.curse.com
+0.0.0.0 get.bestoffer21.info
 0.0.0.0 get.contentpass.net
 0.0.0.0 get.cryptobrowser.site
 0.0.0.0 get.optad360.io
@@ -14198,6 +14224,7 @@ login.live.com
 0.0.0.0 piwik.cloud-monitoring.org
 0.0.0.0 piwik.develth.com
 0.0.0.0 piwik.elk-wue.de
+0.0.0.0 piwik.lwl.org
 0.0.0.0 piwik.martensmedien.de
 0.0.0.0 piwik.mx-hosting.net
 0.0.0.0 piwik.pcgamingwiki.com
@@ -14565,6 +14592,7 @@ login.live.com
 0.0.0.0 stats2.clicktracks.com
 0.0.0.0 stats3.unrulymedia.com
 0.0.0.0 statserv.net
+0.0.0.0 stay-notified.xyz
 0.0.0.0 stc.fx.fastcontentdelivery.com
 0.0.0.0 std.wpcdn.pl
 0.0.0.0 steadfastsystem.com
@@ -14798,6 +14826,7 @@ login.live.com
 0.0.0.0 usync.nexage.com
 0.0.0.0 ut.performax.cz
 0.0.0.0 uthorner.info
+0.0.0.0 utopia.pushengage.com
 0.0.0.0 v.adup-tech.com
 0.0.0.0 v.amoad.com
 0.0.0.0 v.wpimg.pl
@@ -17256,6 +17285,12 @@ gameplay.gog.com
 # .ez Games
 # Riaaf the spider
 # s. Steam: General Directory Server
+
+# Abbey Games
+# Godhood
+# Ip/s blockieren:
+# 83.217.75.199
+0.0.0.0 ingame.abbeygames.com
 
 # Act 3 Games, LLC
 # The Fidelio Incident
@@ -21921,8 +21956,10 @@ gameplay.gog.com
 # 158.177.236.84
 # Diverses
 # 172.65.204.172
+# 205.185.216.10
 #0.0.0.0 spectrum-patch-ipv4.pathofexile.com
 0.0.0.0 5c3e588941d14ffb8518633c807228b9.pacloudflare.com
+#0.0.0.0 cds.p7p4m6s5.hwcdn.net
 # News, Links für Mikrotransaktionen
 #0.0.0.0 web.poecdn.com
 # Datenuploaad Telemetrie
@@ -24696,11 +24733,20 @@ gameplay.gog.com
 # Project Hospital
 # Eintrag zu Unity Technologies beachten
 # Ip/s blockieren:
+# 35.241.26.53
 # 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 perf-events.cloud.unity3d.com
 
 # Pablo Vidaurre Sanz
 # Tokyo Warfare
@@ -25594,6 +25640,7 @@ gameplay.gog.com
 # s. Steam: General Directory Server
 
 # Revere Heaven Love People Innovation Technology Co., Ltd.
+# Neko Papala
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
