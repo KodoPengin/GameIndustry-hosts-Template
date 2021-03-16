@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 17.02.2021
+# Änderungsdatum: 16.03.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1207,6 +1207,9 @@ gameplay.gog.com
 
 # Kamu Game Security
 # HYDRA Easy Anti-Cheat
+# 52.214.72.35
+# 99.80.177.7
+# 104.21.8.54
 # 13.224.194.113
 # 13.224.194.105
 # 13.224.194.73
@@ -1229,6 +1232,12 @@ gameplay.gog.com
 # 13.224.253.51
 #0.0.0.0 download.eac-cdn.com
 #0.0.0.0 download-eu.eac-cdn.com
+# 52.30.0.45
+# 54.77.198.229
+# 52.214.106.241
+# 52.19.140.217
+# 34.253.251.88
+# 34.246.207.230
 # 52.214.98.198
 # 52.16.155.35
 # 13.224.253.95
@@ -1261,6 +1270,8 @@ gameplay.gog.com
 0.0.0.0 hydra.easyanticheat.net
 0.0.0.0 hydra-eu-lb-618151913.eu-west-1.elb.amazonaws.com
 #0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
+# 13.226.159.67
+# 13.224.193.6
 # 13.227.243.70
 # 13.225.78.66
 # 99.84.104.44
@@ -1936,6 +1947,7 @@ gameplay.gog.com
 # Ip/s blockieren:
 # 83.217.75.199
 0.0.0.0 ingame.abbeygames.com
+0.0.0.0 subsites.abbeygames.com
 
 # Act 3 Games, LLC
 # The Fidelio Incident
@@ -7663,10 +7675,17 @@ gameplay.gog.com
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
 
 # Tropico 6 | Aktualisiert 29.03.2019
@@ -10218,6 +10237,26 @@ gameplay.gog.com
 0.0.0.0 athena-v1.rebellion.co.uk
 0.0.0.0 nephelus-v1.rebellion.co.uk
 
+# Zombie Army 4: Dead War
+# s. Rubrik Kopierschutz / AntiCheat
+# Ip/s blockieren:
+# 138.68.117.110
+# 139.59.199.85
+# 46.101.64.59
+# 23.21.231.124
+0.0.0.0 launcher-content.rebellion.co.uk
+#0.0.0.0 nephelus.rebellion.net
+0.0.0.0 content2.webdev.rebellion.co.uk
+#0.0.0.0 athena.rebellion.net
+0.0.0.0 reb.to # replaced goo.gl
+0.0.0.0 api.epicgames.dev # Datarouter Tracking, Websocket, Heartbeat, Telemetrie und Onlinezwang
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www-google-analytics.l.google.com
+# 104.74.103.35
+# 23.55.163.58
+#0.0.0.0 store.steampowered.com
+#0.0.0.0 steambroadcast.akamaized.net
+
 # Red Fox
 # Fight Angel Special Edition
 # Ip/s blockieren:
@@ -11205,8 +11244,16 @@ gameplay.gog.com
 
 # Sigma Team Inc.
 # Alien Shooter TD
+# Ip/s blockieren:
+# 172.217.4.196
+# 208.64.200.105
+# 142.250.186.36
 # s. Steam: General Directory Server
-0.0.0.0 www.google-analytics.com
+#0.0.0.0 www.google.com
+0.0.0.0 www.sigma-team.ru
+0.0.0.0 a1737.b.akamai.net
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 fra24s04-in-f4.1e100.net
 
 # SIGONO INC.
 # OPUS: The Day We Found Earth
