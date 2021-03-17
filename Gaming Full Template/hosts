@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 16.03.2021
+# Änderungsdatum: 17.03.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1560,6 +1560,23 @@ gameplay.gog.com
 # Satellite
 # s. Steam: General Directory Server
 
+# 101XP
+# The Life and Suffering of Sir Brante
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# s. Steam: General Directory Server
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # 10tons Ltd
 # JYDGE
 # s. Steam: General Directory Server
@@ -1574,6 +1591,9 @@ gameplay.gog.com
 # s. Steam: General Directory Server
 # 54.225.115.127
 0.0.0.0 10tonsnews.the10tons.com
+
+# Tesla Force
+# s. Steam: General Directory Server
 
 # 11 Bit Studios
 # Anomaly Warzone Earth
@@ -2306,6 +2326,21 @@ gameplay.gog.com
 0.0.0.0 cdp.cloud.unity3d.com
 # s. Steam: General Directory Server
 
+# Outer Wilds
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Anshar Studios
 # Telefrag VR
 # Ip/s blockieren:
@@ -2715,6 +2750,10 @@ gameplay.gog.com
 # Attack Of Insects
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# Bad Vices Games
+# Sexual Void
+# s. Eintrag Steam: IP Checks
 
 # Baked Games
 # Hotel Dracula
@@ -3855,6 +3894,22 @@ gameplay.gog.com
 0.0.0.0 www.google-analytics.com
 
 # Choice Provisions
+# Runner3
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# s. Steam: General Directory Server
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Tharsis
 #0.0.0.0 totallychoice.com # einfacher CSV Newsfeed
 
@@ -5527,9 +5582,6 @@ gameplay.gog.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # FireFly Studios
-# Stronghold Crusader II
-#0.0.0.0 login.strongholdkingdoms.com # Anmeldung
-
 # Space Colony
 # s. Steam: General Directory Server
 # 52.3.66.119
@@ -5538,6 +5590,12 @@ gameplay.gog.com
 0.0.0.0 d1ztm8591kdhlc.cloudfront.net # Launchergrafiken
 #0.0.0.0 fonts.googleapis.com # Schriften
 0.0.0.0 dd3d3xat3pnw0.cloudfront.net # Launcher Lokalisierung
+
+# Stronghold Crusader II
+#0.0.0.0 login.strongholdkingdoms.com # Anmeldung
+
+# Stronghold: Warlords
+# s. Steam: General Directory Server
 
 # Firehawk Studios
 ## Colorcers
@@ -6369,6 +6427,27 @@ gameplay.gog.com
 # s. Steam: General Directory Server
 0.0.0.0 config.uca.cloud.unity3d.com
 
+# Giant Global
+# Pascal’s Wager: Definitive Edition
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+# 47.246.43.225
+# 47.246.43.228
+# 103.104.170.24
+#0.0.0.0 channel.sdk.mobileztgame.com
+#0.0.0.0 pw.ztgame.com.cn
+
 # GIANTY Inc.
 # GOKEN | Aktualisiert 09.03.2019
 # Ip/s blockieren:
@@ -6804,6 +6883,11 @@ gameplay.gog.com
 # s. Steam: General Directory Server
 
 # Headup Games
+# Dead Age 2
+# Info: https://docs.unity3d.com/Manual/ManagedCodeDebugging.html
+# Ip/s blockieren:
+# 225.0.0.222
+
 # Onikira - Demon Killer
 # Ip/s blockieren:
 # 40.85.179.199
@@ -7236,6 +7320,24 @@ gameplay.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 #0.0.0.0 www.google.com
+
+# Iceberg Interactive
+# Star Dynasties
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 34.107.181.14
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 userreporting.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Iceflake Studios
 # Race Arcade
@@ -7757,6 +7859,11 @@ gameplay.gog.com
 # Space Engineers
 0.0.0.0 api.gameanalytics.com # Tracking
 #0.0.0.0 mirror.keenswh.com # Ingamenews
+
+# Kendra
+# Rope Cow - Rope it to The Cow Ep 1
+# 116.202.12.3
+0.0.0.0 www.ropecow.com
 
 # KHB-Soft
 # Linea, the Game
@@ -8775,8 +8882,34 @@ gameplay.gog.com
 
 # Movie Games S.A. & PlayWay S.A.
 # Lust for Darkness
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# Lust from Beyond
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # The Beast Inside
 # Ip/s blockieren:
@@ -11124,6 +11257,9 @@ gameplay.gog.com
 0.0.0.0 etsource.epicgames.com
 
 # NEKOPARA Vol. 2 + Patch
+# s. Steam: General Directory Server
+
+# NEKOPARA Vol. 4
 # s. Steam: General Directory Server
 
 # Sergej110
@@ -14163,6 +14299,72 @@ gameplay.gog.com
 # s. Steam: General Directory Server
 #0.0.0.0 steamcloud-eu-ams.storage.googleapis.com
 #0.0.0.0 steamcloudams2.blob.core.windows.net
+
+# 神田川JET GIRLS | Kandagawa Jet Girls
+# 103.10.124.101
+# 103.10.124.45
+# 103.10.125.146
+# 103.10.125.162
+# 139.45.193.10
+# 143.131.179.64
+# 143.131.179.65
+# 143.131.179.67
+# 143.131.179.68
+# 143.131.179.70
+# 143.131.179.71
+# 143.131.179.72
+# 143.131.179.73
+# 146.66.155.34
+# 146.66.155.36
+# 153.254.86.167
+# 153.254.86.182
+# 155.133.226.68
+# 155.133.230.51
+# 155.133.230.52
+# 155.133.232.98
+# 155.133.233.98
+# 155.133.233.99
+# 155.133.235.18
+# 155.133.235.34
+# 155.133.238.163
+# 155.133.239.19
+# 155.133.239.25
+# 155.133.245.34
+# 155.133.245.35
+# 155.133.246.50
+# 155.133.246.67
+# 155.133.248.50
+# 155.133.248.53
+# 155.133.249.162
+# 155.133.249.194
+# 155.133.252.52
+# 155.133.252.68
+# 155.133.253.38
+# 155.133.253.54
+# 155.133.255.163
+# 155.133.255.98
+# 162.254.192.66
+# 162.254.192.67
+# 162.254.193.72
+# 162.254.193.73
+# 162.254.195.70
+# 162.254.195.86
+# 162.254.196.36
+# 162.254.196.82
+# 162.254.197.178
+# 162.254.198.100
+# 162.254.199.178
+# 162.254.199.5
+# 185.25.182.66
+# 185.25.182.68
+# 185.25.183.162
+# 185.25.183.178
+# 190.217.33.50
+# 190.217.33.66
+# 205.185.194.50
+# 205.185.194.51
+# 205.196.6.66
+# 205.196.6.68
 
 # SENRAN KAGURA Bon Appétit! - Full Course
 # s. Steam: General Directory Server
