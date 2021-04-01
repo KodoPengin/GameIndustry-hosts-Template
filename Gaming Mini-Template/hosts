@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Template für PC-Spiele - Mini-Version
-# Änderungsdatum: 20.11.2020
+# Änderungsdatum: 22.03.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -49,6 +49,12 @@ ff02::3		ip6-allhosts
 0.0.0.0 kinesis.us-east-1.amazonaws.com
 0.0.0.0 kinesis.us-west-2.amazonaws.com
 0.0.0.0 kinesis.ap-northeast-1.amazonaws.com
+
+# (Amplitude, Inc.)
+# Dazugehörige IPv4-Adressen & weitere Infos unter https://gameindustry.eu/firmenkatalog/amplitude-inc/
+0.0.0.0 api.amplitude.com
+0.0.0.0 cdn.amplitude.com
+0.0.0.0 ec2-52-26-54-44.us-west-2.compute.amazonaws.com 
 
 # (Aspyr)
 # Blockieren: 54.148.251.172
@@ -100,7 +106,7 @@ ff02::3		ip6-allhosts
 
 # (Epic Games, Inc.)
 # [UnrealEngine Analytics]
-# Dazugehörige IPv4-Adressen unter https://gameindustry.eu/firmenkatalog/epic-games-inc/
+# Dazugehörige IPv4-Adressen & weitere Infos unter https://gameindustry.eu/firmenkatalog/epic-games-inc/
 0.0.0.0 et.epicgames.com
 0.0.0.0 et2.epicgames.com
 0.0.0.0 qos1.ol.epicgames.com
@@ -122,7 +128,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 ftp.fatshark.se
 
 # (GameAnalytics)
-# Dazugehörige IPv4-Adressen unter https://gameindustry.eu/firmenkatalog/gameanalytics/
+# Dazugehörige IPv4-Adressen & weitere Infos https://gameindustry.eu/firmenkatalog/gameanalytics/
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 api-us.gameanalytics.com
 0.0.0.0 gameanalytics.com
@@ -200,7 +206,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 prod.telemetry.ros.rockstargames.com
 
 # (Sega Games Co., Ltd.)
-# Dazugehörige IPv4-Adressen unter https://www.gameindustry.eu/firmenkatalog/sega-games-co-ltd/
+# Dazugehörige IPv4-Adressen & weitere Infos https://www.gameindustry.eu/firmenkatalog/sega-games-co-ltd/
 0.0.0.0 garry.sgaas.net
 0.0.0.0 hull.sgaas.net
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com

@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
-# Änderungsdatum: 11.08.2020
+# Änderungsdatum: 01.04.2020
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -42,6 +42,9 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 
+# Android
+0.0.0.0 connectivitycheck.android.com
+
 # 360dialog
 0.0.0.0 rt.360dialog.io
 
@@ -69,6 +72,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads30.adcolony.com
 0.0.0.0 androidads23.adcolony.com
 0.0.0.0 wd.adcolony.com
+0.0.0.0 wd.adcolony.xyz
 0.0.0.0 events3alt.adcolony.com
 0.0.0.0 events3.adcolony.com
 0.0.0.0 adc3-assets.adcolony.com
@@ -82,6 +86,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 view.adjust.com
 0.0.0.0 app.adjust.com
 0.0.0.0 app.adjust.io
+0.0.0.0 s2s.adjust.com
+
+# Admix
+0.0.0.0 geoip5m1y07.admix.in
+0.0.0.0 ssp.admix.in
 
 # Adsafeprotected
 0.0.0.0 pixel.adsafeprotected.com
@@ -94,6 +103,7 @@ ff02::3 ip6-allhosts
 # Adsmoloco
 0.0.0.0 tr-eu.adsmoloco.com
 0.0.0.0 cdn-f.adsmoloco.com
+0.0.0.0 tr-us.adsmoloco.com
 
 # Akamai
 0.0.0.0 e12930.dsckd.akamaiedge.com
@@ -105,9 +115,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com
 0.0.0.0 elb-p-sa-dls-ew1-1752418205.eu-west-1.elb.amazonaws.com
 0.0.0.0 fe-pew1-ext-openapi-lb-547958838.eu-west-1.elb.amazonaws.com
+0.0.0.0 dszw6uu4t9.execute-api.us-east-1.amazonaws.com
 
 # Amplitude
 0.0.0.0 api.amplitude.com
+0.0.0.0 api2.amplitude.com
 
 # Apsalar.com
 0.0.0.0 ad.apsalar.com
@@ -133,6 +145,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 prod-a.applovin.com
 0.0.0.0 assets.applovin.com
 0.0.0.0 pdn.applovin.com
+0.0.0.0 prod-ms.applovin.com
+0.0.0.0 stage-a.applovin.com
 
 # Appnext.com
 0.0.0.0 admin.appnext.com
@@ -149,6 +163,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 app.appsflyer.com
 0.0.0.0 api.appsflyer.com
 0.0.0.0 fvalid.appsflyer.com
+0.0.0.0 gcdsdk.appsflyer.com
+0.0.0.0 conversions.appsflyer.com
+0.0.0.0 inapps.appsflyer.com
+0.0.0.0 onelink.appsflyer.com
+0.0.0.0 launches.appsflyer.com
 
 # Appspot
 0.0.0.0 rs-xpromotion.appspot.com
@@ -163,6 +182,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 auth2.ff.avast.com
 0.0.0.0 feed.ff.avast.com
 0.0.0.0 streamback.ff.avast.com
+0.0.0.0 streambackns1.ff.avast.com
 0.0.0.0 au.ff.avast.com
 0.0.0.0 device-control.ff.avast.com
 0.0.0.0 shepherd.ff.avast.com
@@ -170,6 +190,9 @@ ff02::3 ip6-allhosts
 
 # Bayctrk.com
 0.0.0.0 auto.bayctrk.com
+
+# Branch.io
+0.0.0.0 cdn.branch.io
 
 # Bricknet
 0.0.0.0 analytics-prod-ingress.bricknet.com
@@ -182,6 +205,7 @@ ff02::3 ip6-allhosts
 
 # Chartboost
 0.0.0.0 live.chartboost.com
+0.0.0.0 ssp-events.chartboost.com
 0.0.0.0 a2.chartboost.com
 0.0.0.0 a3.chartboost.com
 0.0.0.0 t2.chartboost.com
@@ -199,6 +223,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 d3mps5l7sa9aih.cloudfront.net # Idle Knight
 0.0.0.0 d3azwz0fcakc5.cloudfront.net
 0.0.0.0 d1iskralo6mo11.cloudfront.net
+
+# CrashEye
+0.0.0.0 rp.crasheye.cn
 
 # Crashlytics
 # 204.236.237.188, 23.21.44.21, 50.19.223.4
@@ -224,7 +251,7 @@ ff02::3 ip6-allhosts
 # Exitgames
 0.0.0.0 ns.exitgames.com
 
-# Facebook
+# Facebook, Inc.
 # 185.60.216.15, 31.13.92.10
 0.0.0.0 graph.facebook.com
 0.0.0.0 b-graph.facebook.com
@@ -242,6 +269,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 chat.cdn.whatsapp.net
 #0.0.0.0 static.whatsapp.net
 #0.0.0.0 mmx-ds.cdn.whatsapp.net
+0.0.0.0 privatestats.whatsapp.net
 
 # Flurry | Yahoo
 # 87.248.118.23
@@ -328,6 +356,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 alt8-mtalk.google.com
 0.0.0.0 alt8.mobile-gtalk.l.google.com
 # Werbung & Tracking
+0.0.0.0 userlocation.googleapis.com
 # 172.217.22.98, 172.217.16.162, 172.217.18.98
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 static.doubleclick.net
@@ -338,7 +367,9 @@ ff02::3 ip6-allhosts
 # 172.217.22.8, 172.217.22.72
 0.0.0.0 96d80cafb2cc6ad351ea76aea0f55d37.safeframe.googlesyndication.com
 0.0.0.0 ad.doubleclick.net
+0.0.0.0 googleads4.g.doubleclick.net
 0.0.0.0 dart.l.doubleclick.net
+0.0.0.0 cm.g.doubleclick.net
 0.0.0.0 pagead-googlehosted.l.google.com
 0.0.0.0 analytics.google.com
 0.0.0.0 ssl.google-analytics.com
@@ -349,6 +380,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 ade.googlesyndication.com
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 adssettings.google.com
 0.0.0.0 doubleclick.net 
@@ -360,6 +392,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s-usc1c-nss-269.firebaseio.com
 0.0.0.0 firebaseremoteconfig.googleapis.com
 0.0.0.0 firebasestorage.googleapis.com
+0.0.0.0 firebaseinstallations.googleapis.com
 # Google App-measurement
 # 216.58.207.46
 0.0.0.0 app-measurement.com
@@ -442,6 +475,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 pm-gateway.supersonicads.com
 0.0.0.0 rv-gateway.supersonicads.com
 0.0.0.0 iab-imp-gateway.supersonicads.com
+0.0.0.0 guc-api.sonic-us.supersonicads.com
+0.0.0.0 outcome-cdn.supersonicads.com
 
 # Kochava
 0.0.0.0 control.kochava.com
@@ -460,6 +495,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 cd.lenzmx.com
 0.0.0.0 rd.lenzmx.com
 0.0.0.0 tracking.lenzmx.com
+
+# Liftoff
+0.0.0.0 adexp.liftoff.io
+0.0.0.0 impression-east.liftoff.io
 
 # Limelight Networks
 #0.0.0.0 sammetazrt.hs.llnwd.net # Samsung Downloader
@@ -486,7 +525,6 @@ ff02::3 ip6-allhosts
 # Microsoft Windows.net & Azurewebsites
 # 104.209.197.87
 0.0.0.0 ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net
-0.0.0.0 ffg-analyticsk3nvxfne4dp4s.azurewebsites.net
 0.0.0.0 ffg-analytics-functions3nvxfne4dp4s.azurewebsites.net
 # Microsoft Skype
 0.0.0.0 config.edge.skype.com
@@ -527,6 +565,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 shavar.prod.mozaws.net
 0.0.0.0 balrog-cloudfront.prod.mozaws.net
 0.0.0.0 olympia.prod.mozaws.net
+0.0.0.0 prod.detectportal.prod.cloudops.mozgcp.net
+0.0.0.0 detectportal.firefox.com
 
 # NR-Data
 0.0.0.0 bam.nr-data.com
@@ -573,6 +613,7 @@ ff02::3 ip6-allhosts
 # SafeDK
 0.0.0.0 config.safedk.com
 0.0.0.0 api.safedk.com
+0.0.0.0 edge.safedk.com
 
 # (Samsung Electronics Co., Ltd.)
 0.0.0.0 dc.dqa.samsung.com
@@ -627,6 +668,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 placements.tapjoy.com
 0.0.0.0 content.tapjoy.com
 0.0.0.0 ws.tapjoyads.com
+0.0.0.0 bid.tapjoy.com
+0.0.0.0 rpc-tapjoy-com-lb-1378811527.us-east-1.elb.amazonaws.com
+0.0.0.0 tapjoy-com-lb-vpc-332546193.us-east-1.elb.amazonaws
 
 # Taptica.com
 0.0.0.0 clk.taptica.com
@@ -715,11 +759,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn-store-icons-highwinds-prd.unityads.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 auiopt.unityads.unity3d.com
-0.0.0.0 ads-gameconfiguration.unityads.unity3d.com
+0.0.0.0 ads-gameconfiguration.unityads.unity3d.com
 0.0.0.0 sdkdiagnostics.prd.mz.internal.unity3d.com
-0.0.0.0 nginx-auction-prdgcp.adsx.unityads.unity3d.com
 0.0.0.0 cdn-creatives-highwindsprd.unityads.unity3d.com
 0.0.0.0 cdn-store-icons-highwindsprd.unityads.unity3d.com
+0.0.0.0 adserver.unityads.unity3d.com
+0.0.0.0 ads-brand-postback.unityads.unity3d.com
+0.0.0.0 nginx-auction-prd-gcp.adsx.unityads.unity3d.com
+0.0.0.0 ads-game-configuration.unityads.unity3d.com
+0.0.0.0 cdn-creatives-akamaistls-prd.unityads.unity3d.com
+0.0.0.0 cdn-store-icons-akamai-ord.unityads.unity3d.com
 
 # Upltv
 0.0.0.0 ads-sdk.upltv.com
@@ -782,3 +831,27 @@ ff02::3 ip6-allhosts
 0.0.0.0 logs1204.xiti.com
 0.0.0.0 api.ipify.org
 0.0.0.0 gllto.glpals.com
+0.0.0.0 events.fgol.mobi
+0.0.0.0 wins.isprog.com
+0.0.0.0 k.isprog.com
+0.0.0.0 sdk-api.hqmonitor.io
+0.0.0.0 iapverificator2.beresnev.games
+0.0.0.0 ip-api.com
+0.0.0.0 static.hyprmx.com
+0.0.0.0 o315582.ingest.sentry.io
+0.0.0.0 statgw.devtodev.com
+0.0.0.0 sensors.yodo1api.com
+0.0.0.0 mega.ikame.vn
+0.0.0.0 splash.unity.cn
+0.0.0.0 matrix.dailyinnovation.biz
+0.0.0.0 server.bidstack.com
+0.0.0.0 evt.mxplay.com
+0.0.0.0 beacons3.gvt2.com
+0.0.0.0 beacons4.gvt2.com
+0.0.0.0 api.leanplum.com
+0.0.0.0 www.leanplum.com
+0.0.0.0 agd-policy.nhn.com
+0.0.0.0 adam.gslb.toastoven.net
+0.0.0.0 eh.supermembers.net
+0.0.0.0 a1522.w73.akamai.net
+0.0.0.0 events-dre.op.hicloud.com.edgekey.net

@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 17.03.2021
+# Änderungsdatum: 01.04.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -220,7 +220,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 chat-broker.gog.com
 0.0.0.0 galaxy-client-reports.gog.com
 #0.0.0.0 productcard.gog-statics.com # CSS, JS und Schriften
-gameplay.gog.com
+0.0.0.0 gameplay.gog.com
 # GoG Usertracking
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 static.doubleclick.net
@@ -406,8 +406,14 @@ gameplay.gog.com
 # Epic Games Launcher
 # Angaben zum Epic Games Launcher sind nicht komplett und stellen nur einen Teilauszug der getätigten Verbindungen dar
 # Achtung! Zur Anmeldung wird einmalig die tracking.epicgames.com benötigt - Den Analyticszwang gab es in Vorgängerversionen noch nicht
+# 54.159.7.98
+# 3.211.138.87
+# 52.22.227.150
+# 50.16.103.4
 # 46.51.241.187
 # 198.217.251.251
+# 34.234.9.227
+# 65.9.83.39
 #0.0.0.0 lightswitch-public-service-prod06.ol.epicgames.com
 #0.0.0.0 priceengine-public-service-ecomprod01.ol.epicgames.com
 #0.0.0.0 account-public-service-prod03.ol.epicgames.com
@@ -418,7 +424,7 @@ gameplay.gog.com
 #0.0.0.0 epicgames.com # Login
 #0.0.0.0 www.unrealengine.com
 #0.0.0.0 eulatracking-public-service-prod06.ol.epicgames.com
-0.0.0.0 qos1.ol.epicgames.com
+#0.0.0.0 qos1.ol.epicgames.com
 0.0.0.0 qos2.ol.epicgames.com
 0.0.0.0 qos3.ol.epicgames.com
 0.0.0.0 qos4.ol.epicgames.com
@@ -441,10 +447,16 @@ gameplay.gog.com
 0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
 0.0.0.0 metrics.ol.epicgames.com
 # Downloads
+# 65.9.83.109
 # 55.222.155.195
 # 143.204.89.36
 # 13.224.195.35
 # 13.227.219.27
+# 65.9.83.64
+# 65.9.73.55
+# 65.9.76.182
+# 65.9.83.116
+# 65.9.83.3
 #0.0.0.0 epicgames-download1.akamaized.net
 #0.0.0.0 download.epicgames.com
 #0.0.0.0 download2.epicgames.com
@@ -452,6 +464,9 @@ gameplay.gog.com
 #0.0.0.0 download4.epicgames.com
 #0.0.0.0 dvo2b19ndqhsb.cloudfront.net
 #0.0.0.0 d1z9autcf703pk.cloudfront.net
+#0.0.0.0 d3jcvwdlexg1ul.cloudfront.net
+#0.0.0.0 d2vryputvprrok.cloudfront.net
+#0.0.0.0 static-assets-prod.unrealengine.com
 # Warenkorb
 # 184.73.115.165
 # 54.68.228.72
@@ -484,6 +499,10 @@ gameplay.gog.com
 #0.0.0.0 cdn2.unrealengine.com # Seitenkateogrien nach Autor, Datum, Beschreibung, Links, Titel usw
 #0.0.0.0 static-assets-prod.epicgames.com # Javascripts, CSS, Schriften, Bilder
 # Analytics, Affiliate und Geodatenerfassung
+# 54.158.82.37
+# 52.22.160.221
+# 35.153.174.108
+# 34.192.176.27
 # 52.20.219.23
 # 50.17.125.216
 # 34.228.118.104
@@ -508,6 +527,11 @@ gameplay.gog.com
 0.0.0.0 tracking-website-prod07-epic-961842049.us-east-1.elb.amazonaws.com
 0.0.0.0 eulatracking-svc-prod06-pub-1257580502.us-east-1.elb.amazonaws.com
 0.0.0.0 sentry.io # Monitoring und Errortracking
+# Nicht zugeordnet
+# 23.45.96.219
+0.0.0.0 talon-website-prod.ak.epicgames.com
+0.0.0.0 talon-service-prod.ak.epicgames.com
+0.0.0.0 talon-service-v4-prod.ak.epicgames.com
 # Drittanbieter
 # 216.58.205.238
 # 216.58.208.33
@@ -532,52 +556,32 @@ gameplay.gog.com
 #0.0.0.0 r3---sn-4g5ednld.googlevideo.com
 #0.0.0.0 cdnjs.cloudflare.com
 0.0.0.0 events.elev.io # Supportwebseite
-0.0.0.0 clientstream-ga.launchdarkly.com
-0.0.0.0 events.launchdarkly.com
+# 13.248.151.210
+# 76.223.31.44
+# 151.101.114.217
+# 52.87.79.132
+# 54.88.39.88
+# 54.86.9.34
+#0.0.0.0 app.launchdarkly.com
+#0.0.0.0 clientstream-ga.launchdarkly.com
+#0.0.0.0 events.launchdarkly.com
+#0.0.0.0 clientstream.launchdarkly.com
 0.0.0.0 d1dxcvubdbe4ji.cloudfront.net
 # Webseite Anmeldung Captcha
 # 34.253.77.237
 # 13.227.156.28
 # 13.227.134.216
+# 104.16.169.131
+# 104.18.25.64
+#0.0.0.0 hcaptcha.com
+#0.0.0.0 assets.hcaptcha.com
 #0.0.0.0 prod-ireland.arkoselabs.com
 #0.0.0.0 cdn.arkoselabs.com
+#0.0.0.0 cdn.arkoselabs.com.cdn.cloudflare.net
 #0.0.0.0 epic-games-api.arkoselabs.com
 
 # Epic Games Datarouter
-# Ip/s blockieren:
-# 34.238.69.47
-# 54.144.200.61
-# 107.23.37.44
-# 35.171.73.202
-# 52.203.187.25
-# 54.174.205.197
-# 23.20.51.18
-# 52.202.29.207
-# 52.204.176.69
-# 52.205.79.197
-# 52.205.159.66
-# 52.205.225.13
-# 52.206.180.56
-# 52.205.228.116
-# 54.83.181.125
-# 52.205.225.225
-# 52.205.232.82
-# 18.204.170.203
-# 52.203.170.168
-# 52.203.40.63
-# 52.2.163.36
-# 34.231.134.110
-# 52.7.165.73
-# 3.211.205.226
-# 34.199.71.4
-# 34.233.184.163
-# 52.4.1.167
-# 52.45.123.19
-# 35.170.111.251
-# 52.86.67.197
-# 54.174.50.66
-# 54.209.114.12
-# 34.194.76.214
+# Ipv4/6 Adressen - https://gameindustry.eu/firmenkatalog/epic-games-inc/
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 datarouter-prod.ak.epicgames.com
@@ -727,6 +731,7 @@ gameplay.gog.com
 #0.0.0.0 cm1-scl1.cm.steampowered.com
 
 # Steam: API
+# 96.16.130.74
 # 23.78.88.233
 # 104.73.230.192
 # 184.86.38.254
@@ -911,6 +916,7 @@ gameplay.gog.com
 # Steam: Cloudflare
 # 104.18.24.217
 # 104.18.25.217
+# 2606:4700::6812:18d9
 #0.0.0.0 community.cloudflare.steamstatic.com # Sounds, CSS Dateien, Javascript, Emoticons, Icons, Grafiken Sammelkarten
 #0.0.0.0 cdn.cloudflare.steamstatic.com # Grafiken der Bibliothek - Erfolge, Teaser für Bilder und Filmchen
 #0.0.0.0 store.cloudflare.steamstatic.com # Javascript, CSS, Schriften, Webseitengrafiken
@@ -1019,48 +1025,7 @@ gameplay.gog.com
 
 # Steam: IP Checks
 # Von Valve eingeführte verpflichtende Callbacks im Steam-Client und UE4 Produkten, die allerdings blockiert werden können
-# Ip/s blockieren:
-# 184.24.77.156
-# 184.24.77.162
-# 2a01:bc80:1:103::a2fe:c60d
-# 2a01:bc80:1:104::a2fe:c64d
-# 2a01:bc80:4:100::a2fe:c40b
-# 2a01:bc80:4:100::a2fe:c40e
-# 2a01:bc80:4:101::a2fe:c42b
-# 2a01:bc80:5:100::9b85:fa02
-# 2a01:bc80:5:100::9b85:fa04
-# 2a01:bc80:5:100::9b85:fa05
-# 2a01:bc80:5:100::9b85:fa06
-# 2a01:bc80:5:100::9b85:fa07
-# 2a01:bc80:5:100::9b85:fa0c
-# 2a01:bc80:5:100::9b85:fa0f
-# 2a01:bc80:5:100::9b85:fa10
-# 2a01:bc80:5:101::9b85:fa23
-# 2a01:bc80:5:101::9b85:fa24
-# 2a01:bc80:5:101::9b85:fa25
-# 2a01:bc80:5:101::9b85:fa26
-# 2a01:bc80:5:101::9b85:fa27
-# 2a01:bc80:5:101::9b85:fa28
-# 2a01:bc80:5:101::9b85:fa2a
-# 2a01:bc80:5:101::9b85:fa30
-# 2a01:bc80:5:101::9b85:fa31
-# 2a01:bc80:5:101::9b85:fa32
-# 2a01:bc80:5:101::9b85:fa33
-# 2a01:bc80:5:101::9b85:fa34
-# 2a01:bc80:5:101::9b85:fa35
-# 2a01:bc80:5:101::9b85:fa36
-# 2a01:bc80:5:101::9b85:fa37
-# 2a01:bc80:5:101::9b85:fa38
-# 2a01:bc80:5:105::9b85:fa4b
-# 2a01:bc80:5:105::9b85:fa4c
-# 2a01:bc80:5:106::9b85:fa6b
-# 2a01:bc80:5:106::9b85:fa6c
-# 2a01:bc80:7:100::9b85:f80b
-# 2a01:bc80:7:100::9b85:f80c
-# 2a01:bc80:7:100:0:0:9b85:f80c
-# 2a01:bc80:a:100::b919:b602
-# 2a01:bc80:a:100:0:0:b919:b602
-# 2a01:bc80:a:101::b919:b622
+# Dazugehörige IP-Adressen unter https://gameindustry.eu/firmenkatalog/valve-corporation/#SteamIPChecks
 0.0.0.0 ipv6check-http.steamcontent.com
 0.0.0.0 ipv6check-udp.steamcontent.com
 0.0.0.0 eu.http.ipv6check.akadns.net
@@ -1183,7 +1148,7 @@ gameplay.gog.com
 # 172.217.16.150
 # 172.217.22.110
 #0.0.0.0 i.ytimg.com
-0.0.0.0 youtube-ui.l.google.com
+#0.0.0.0 youtube-ui.l.google.com
 0.0.0.0 www.google-analytics.com
 # Paypal Tracking - Aktiv im Warenkorb, auch ohne eingegebene Paypaldaten
 # 151.101.129.21
@@ -1207,78 +1172,18 @@ gameplay.gog.com
 
 # Kamu Game Security
 # HYDRA Easy Anti-Cheat
-# 52.214.72.35
-# 99.80.177.7
-# 104.21.8.54
-# 13.224.194.113
-# 13.224.194.105
-# 13.224.194.73
-# 13.224.194.111
-# 52.208.101.73
-# 54.154.64.51
-# 52.208.50.24
-# 104.28.2.249
-# 52.208.34.241
-# 104.28.3.249
-# 52.213.88.159
-# 52.17.156.231
+# Dazugehörige IP-Adressen unter https://gameindustry.eu/artikel/easy-anti-cheat/
 #0.0.0.0 download-alt.easyanticheat.net
 #0.0.0.0 gossip.easyanticheat.net
 #0.0.0.0 gossip-eu-classic-lb-1736877676.eu-west-1.elb.amazonaws.com
 #0.0.0.0 ec2-52-208-50-24.eu-west-1.compute.amazonaws.com
 #0.0.0.0 gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com
-# 83.136.255.42
-# 13.224.253.24
-# 13.224.253.51
 #0.0.0.0 download.eac-cdn.com
 #0.0.0.0 download-eu.eac-cdn.com
-# 52.30.0.45
-# 54.77.198.229
-# 52.214.106.241
-# 52.19.140.217
-# 34.253.251.88
-# 34.246.207.230
-# 52.214.98.198
-# 52.16.155.35
-# 13.224.253.95
-# 18.202.204.190
-# 34.247.170.6
-# 83.136.255.42
-# 54.72.32.34
-# 52.212.74.240
-# 34.250.198.73
-# 3.248.158.34
-# 34.243.114.117
-# 54.72.125.159
-# 63.35.141.150
-# 34.252.27.171
-# 52.213.93.234
-# 52.211.226.163
-# 18.202.15.14
-# 52.211.13.181
-# 52.31.15.241
-# 52.49.103.188
-# 34.250.168.20
-# 52.49.227.150
-# 54.154.17.115
-# 54.194.149.37
-# 34.249.9.1
-# 52.208.78.105
-# 34.255.142.199
-# 54.194.210.187
-# 54.229.129.174
 0.0.0.0 hydra.easyanticheat.net
 0.0.0.0 hydra-eu-lb-618151913.eu-west-1.elb.amazonaws.com
 #0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
-# 13.226.159.67
-# 13.224.193.6
-# 13.227.243.70
-# 13.225.78.66
-# 99.84.104.44
-# 99.84.104.69
-# 13.32.43.71
-# 13.35.253.117
-# 143.204.214.19
+#0.0.0.0 hydra.easyanticheat.netgamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
 0.0.0.0 d168vncdejh91z.cloudfront.net
 
 # Sony DADC, Irdeto Access B.V., Nasper Mediengruppe
@@ -1381,7 +1286,13 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
@@ -1399,7 +1310,13 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -1460,7 +1377,13 @@ gameplay.gog.com
 #0.0.0.0 down.qq.com
 
 # Ring of Elysium
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 down.qq.com
 #0.0.0.0 tgscp.mainconn.gamesafe.qq.com
 #0.0.0.0 tqm.gamebaby.qq.com
@@ -1487,7 +1410,13 @@ gameplay.gog.com
 # 35.241.52.229
 # Die 39.37.162.223 wird als Cloudablage für Speicherstände genutzt
 0.0.0.0 stats.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -1534,6 +1463,26 @@ gameplay.gog.com
 #0.0.0.0 www.illusion.jp # Downloadberechtigung
 #0.0.0.0 up.illusion.jp # Up/Download von Charakteren
 
+# 云wind
+# 女神驾到
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+# 111.231.66.165
+# 203.205.224.59
+#0.0.0.0 game.savedata.fyorz.com
+0.0.0.0 j1b3yju9.tweb.sched.ovscdns.com
+
 # Носков Сергей
 # 35MM
 0.0.0.0 stats.unity3d.com
@@ -1549,16 +1498,34 @@ gameplay.gog.com
 # 5 Lives Studios
 # Satellite Reign
 0.0.0.0 icanhazip.com # erfasste Nutzerip
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 mm.unet.unity3d.com # Multiplayer auf Unityservern? ~.~
 
 # 7DOTS
 # These nights in Cairo
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # 7DOTS, Angry games & RuVN
 # Satellite
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # 101XP
 # The Life and Suffering of Sir Brante
@@ -1567,7 +1534,13 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -1579,7 +1552,13 @@ gameplay.gog.com
 
 # 10tons Ltd
 # JYDGE
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
 # 52.72.141.108
 # 54.164.66.28
@@ -1588,12 +1567,24 @@ gameplay.gog.com
 0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
 
 # Spellspire
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # 54.225.115.127
 0.0.0.0 10tonsnews.the10tons.com
 
 # Tesla Force
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # 11 Bit Studios
 # Anomaly Warzone Earth
@@ -1602,7 +1593,13 @@ gameplay.gog.com
 0.0.0.0 11bitstudios.com
 
 # Beat Cop
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
@@ -1655,7 +1652,13 @@ gameplay.gog.com
 # 35.241.26.53
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Off-Road Drive
 0.0.0.0 go.1c-softclub.ru
@@ -1741,8 +1744,60 @@ gameplay.gog.com
 # s. Rubrik Kopierschutz / AntiCheat
 # 143.204.202.59
 # 34.234.19.21
+# 18.234.5.223
+# 52.204.28.194
+# 34.202.206.150
+# 13.227.69.112
+# 13.227.69.72
+# 13.227.69.116
+# 3.209.124.197
+# 54.235.171.242
+# 3.92.101.22
+# 34.197.7.46
+# 54.172.165.189
+# 34.200.42.162
+# 52.3.141.17
+# 52.201.157.142
+# 34.236.197.234
+# 34.225.218.122
+# 3.91.127.255
+# 54.205.208.180
+# 13.227.69.9
+# 13.227.69.72
+# 34.225.210.130
+# 50.19.61.192
+# 3.225.206.247
+# 52.204.239.183
+# 3.225.125.26
+# 52.44.74.179
+# 107.21.201.48
+# 54.234.81.101
+# 138.91.17.112
+# 23.98.144.17
+# 51.136.18.233
+# 52.187.224.118
+# 74.201.106.168
+# 74.201.106.132
 0.0.0.0 cdn.services.gearboxsoftware.com
 0.0.0.0 discovery.services.gearboxsoftware.com
+#0.0.0.0 account.services.gearboxsoftware.com
+#0.0.0.0 hermes.services.gearboxsoftware.com
+#0.0.0.0 chat.services.gearboxsoftware.com
+#0.0.0.0 fellowship.services.gearboxsoftware.com
+#0.0.0.0 d10zutxas1s022.cloudfront.net
+#0.0.0.0 d10zutxas1s022.cloudfront.net
+#0.0.0.0 odyssey.services.gearboxsoftware.com
+#0.0.0.0 zeppelin.services.gearboxsoftware.com
+#0.0.0.0 maw.services.gearboxsoftware.com
+#0.0.0.0 maw.services.gearboxsoftware.com
+#0.0.0.0 maw.services.gearboxsoftware.com
+#0.0.0.0 news.services.gearboxsoftware.com
+#0.0.0.0 tribego.services.gearboxsoftware.com
+#0.0.0.0 mercury.services.gearboxsoftware.com
+#0.0.0.0 xblcxplatqos-jae-9-18-2-0.cloudapp.net
+#0.0.0.0 xblcxplatqos-scus-9-18-2-0.cloudapp.net
+#0.0.0.0 pfmsqosprod.westeurope.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com
 
 # Mafia II: Definitive Edition 2020
 # 192.81.242.131
@@ -1754,7 +1809,13 @@ gameplay.gog.com
 # Ip/s blockieren:
 # 208.64.200.105
 0.0.0.0 2kgprgapp3.2kgames.t2.corp
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # 192.81.242.130
 # 192.81.242.131
 #0.0.0.0 0eaa48923bc27d93552bf100519bbf7b.my.2k.com
@@ -1883,7 +1944,13 @@ gameplay.gog.com
 # Bitcoin Tycoon Mining Simulation Game
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # 505 Games
 # Abzû
@@ -1922,7 +1989,13 @@ gameplay.gog.com
 # s. Eintrag Steam: IP Checks
 
 # Ember
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Underworld Ascendant
 # Ip/s blockieren:
@@ -1960,7 +2033,13 @@ gameplay.gog.com
 
 # .ez Games
 # Riaaf the spider
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Abbey Games
 # Godhood
@@ -2003,7 +2082,13 @@ gameplay.gog.com
 #0.0.0.0 singularity-pc-live.lsg.mmp3.demonware.net
 
 # Transformers™: Fall of Cybertron™
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # Multiplayer
 #0.0.0.0 wfc2-pc-auth.prod.demonware.net
 #0.0.0.0 wfc2-pc-lobby.prod.demonware.net
@@ -2031,14 +2116,32 @@ gameplay.gog.com
 
 # Adult Swim Games
 # Death's Gambit
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Volgarr the Viking
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Adventure Productions
 # Detective Gallo
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # aeiowu
 # TumbleSeed
@@ -2075,13 +2178,25 @@ gameplay.gog.com
 
 # Momodora: Reverie Under the Moonlight
 0.0.0.0 www.google-analytics.com # id, game initializations und einiges anderes mehr
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Murasaki
 # Wohl ehemalige Patchnotes. Seite ist nicht mehr existent. Adressen bereits verschachtelt im Configmenü aufgerufen
 0.0.0.0 members.jcom.home.ne.jp
 0.0.0.0 maintenance.zaq.ne.jp
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # One Way Heroics
 #0.0.0.0 silsec.sakura.ne.jp
@@ -2092,7 +2207,13 @@ gameplay.gog.com
 # 208.64.200.105
 # 151.139.241.29
 0.0.0.0 ping.yoyogames.com # Pingback Funktion - Yoyogames ist GameMaker Studio
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Akamurasaki Games
 # きりたんvsカニたん -ずんだもちを防衛せよ！-
@@ -2115,15 +2236,39 @@ gameplay.gog.com
 # Tokyo Xanadu eX+
 # Ip/s blockieren:
 # 208.64.200.105
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Alawar Entertainment
 # Dark Angels: Masquerade of Shadows
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Alawar Premium
 # Beholder 2
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -2133,11 +2278,19 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.241.52.229
 # 35.190.88.234
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -2172,7 +2325,13 @@ gameplay.gog.com
 
 # Alexander Byzov
 # Microcosmum: survival of cells
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Alexander Goodwin
 # Mechanism
@@ -2181,7 +2340,13 @@ gameplay.gog.com
 
 # Aleksandr Golovkin
 # Territory Idle
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Alexey Glinskiy
 # DeepFear
@@ -2216,7 +2381,13 @@ gameplay.gog.com
 
 # Alientrap
 # Apotheon
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Alister Software & Back to Basic Gaming
 # Star Chronicles: Delta Quadrant
@@ -2228,7 +2399,13 @@ gameplay.gog.com
 
 # Almost Human Games
 # Legend of Grimrock II
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Alper Gonen
 # Lost Daughter
@@ -2282,7 +2459,13 @@ gameplay.gog.com
 
 # Angry games, RuVN
 # Neighboring Islands
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Ankama Games
 # WAKFU
@@ -2324,7 +2507,13 @@ gameplay.gog.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Outer Wilds
 # Ip/s blockieren:
@@ -2360,10 +2549,22 @@ gameplay.gog.com
 
 # Arc System Works Co.,Ltd.
 # Battle Fantasia -Revised Edition-
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # CHAOS CODE -NEW SIGN OF CATASTROPHE-
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # KILL la KILL -IF
 # Valve Tracking und Google
@@ -2415,7 +2616,13 @@ gameplay.gog.com
 
 # Armnomads
 # Cubway
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 prd-lender.cdp.internal.unity3d.com
@@ -2479,7 +2686,41 @@ gameplay.gog.com
 
 # Ali Asfand
 # Rex
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
+
+# Asmodee Digital
+# Gloomhaven
+# Ip/s blockieren:
+# 37.97.173.216
+# 54.68.109.50
+# 54.68.218.77
+# 52.11.190.197
+# 44.230.19.200, 44.240.104.59
+# 44.235.193.223
+# 44.241.77.10
+# 44.235.106.219
+# 44.238.66.70
+0.0.0.0 api.amplitude.com
+0.0.0.0 ldns.co
+
+# Arkham Horror: Mother’s Embrace
+# Ip/s blockieren:
+# 34.218.96.104
+# 44.242.24.237
+# 35.155.166.209
+# 35.167.210.48
+# 52.35.102.127
+# 54.70.182.48
+# 52.12.28.12
+# 44.238.193.139
+# 54.148.207.83
+0.0.0.0 api.amplitude.com
 
 # Aspyr Media, INC.
 # >observer_
@@ -2591,7 +2832,13 @@ gameplay.gog.com
 # 35.186.194.186
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Pizza Connection 3 inkl. GoG Schnüffelei
 # siehe Eintrag Good old Games
@@ -2600,7 +2847,13 @@ gameplay.gog.com
 0.0.0.0 api.taiga.io
 
 # Twickles
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -2609,7 +2862,13 @@ gameplay.gog.com
 
 # Atara Games
 # Trianguluv
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 stats.unity3d.com
 
 # ATLUS USA
@@ -2637,7 +2896,13 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.241.52.229
 # 35.190.88.234
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
@@ -2730,7 +2995,13 @@ gameplay.gog.com
 0.0.0.0 em-mintage-1.appspot.com
 
 # Germ Wars
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.backtobasicsgaming.com
 #0.0.0.0 static.parastorage.com # Javascripts z.b. auch bei Deviantart benutzt
 0.0.0.0 frog.wix.com
@@ -2812,7 +3083,13 @@ gameplay.gog.com
 #0.0.0.0 frpg2-steam-ope.fromsoftware.jp
 
 # DARK SOULS™: Prepare To Die™ Edition
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # DARK SOULS™: REMASTERED
 # 35.163.21.226
@@ -2903,7 +3180,13 @@ gameplay.gog.com
 # SD GUNDAM G GENERATION CROSS RAYS
 # Ip/s blockieren:
 # 35.186.241.36
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 cosmos.channel.or.jp
 0.0.0.0 test.cosmos.channel.or.jp
 0.0.0.0 36.241.186.35.bc.googleusercontent.com
@@ -2925,10 +3208,22 @@ gameplay.gog.com
 # s. Rubrik Kopierschutz / AntiCheat
 
 # Tales of Symphonia
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Tales of Zestiria
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Tekken VII
 # s. Rubrik Kopierschutz / AntiCheat
@@ -2951,7 +3246,13 @@ gameplay.gog.com
 
 # Bacq Stellan
 # Blue Snake Adventures
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Based on the Play
 # Resequenced
@@ -2995,7 +3296,13 @@ gameplay.gog.com
 
 # Batterystaple Games
 # 20XX
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # BCH waves studio
 # Sisters in hotel
@@ -3011,7 +3318,13 @@ gameplay.gog.com
 
 # Baldur’s Gate II: Enhanced Edition
 # Mehrspielermodi über Amazon AWS
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # 52.39.37.2
 #0.0.0.0 users2.beamdog.com
 #0.0.0.0 ec2-01.beamdog.com
@@ -3234,7 +3547,13 @@ gameplay.gog.com
 0.0.0.0 obt2-us-diagnostic-worker.qcapi.net
 
 # Rage
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Rage 2
 # 13.350.253.49
@@ -3277,16 +3596,34 @@ gameplay.gog.com
 
 # Biart Company LLC
 # Depth Hunter 2: Deep Dive
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Big Fat Alien
 # Beep
 0.0.0.0 eqlauncher.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Big Fat Simulations Inc.
 # Airport Madness 4
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 airdownload2.adobe.com
 0.0.0.0 www.bigfatsimulations.com
 
@@ -3308,7 +3645,13 @@ gameplay.gog.com
 
 # Big Sandwich Games
 # Hoard
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Big Sugar
 # Valfaris
@@ -3325,7 +3668,13 @@ gameplay.gog.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Bitlock Studio
 # Protect Me
@@ -3334,16 +3683,34 @@ gameplay.gog.com
 
 # Bit Golem
 # Robot Squad Simulator 2017
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Bit Planet Games, LLC
 # The Battle of Sol
 0.0.0.0 thebattleofsol.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Bitbox S.L.
 # Scourge: Outbreak
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Bitten Toast Games Inc.
 # Garden Paws
@@ -3373,7 +3740,13 @@ gameplay.gog.com
 
 # BJGAMEIND
 # Neoballs
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
@@ -3396,12 +3769,24 @@ gameplay.gog.com
 # Ip/s blockieren:
 # 52.72.141.108
 0.0.0.0 api.gameanalytics.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
 
 # Black Dog Publishing
 # Tales from the Void
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 script.google.com
 0.0.0.0 script.googleusercontent.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -3414,7 +3799,13 @@ gameplay.gog.com
 # Black Maple Games
 # Craft the World
 # Twitter, Facebook
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 itunes.apple.com
 
 # BlankMediaGames
@@ -3523,7 +3914,13 @@ gameplay.gog.com
 
 # Blyts
 # Kelvin and the Infamous Machine
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Bohemia Interactive
 # Arma 3
@@ -3545,7 +3942,13 @@ gameplay.gog.com
 # 31.214.160.226
 # 31.214.160.106
 # 37.10.124.242
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # 145.239.8.133
 #0.0.0.0 arma31.battleye.com
 #0.0.0.0 ns3081506.ip-145-239-8.eu
@@ -3579,7 +3982,13 @@ gameplay.gog.com
 
 # Brave Bunny
 # Curvatron
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Brilliant Game Studios
 # Ultimate Epic Battle Simulator
@@ -3621,19 +4030,37 @@ gameplay.gog.com
 
 # Bryan Tabor
 # Bird Game
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # BTNcafe
 # Mold on Pizza
 # dauerhafte Onlineverbindung zwecks Statistiken bzw. Herkunftsland, Plattform, Grafikkarte/Hersteller, Angaben zu Levelabschnitten, Zeit, Schwierigkeitsgrad, Spracheinstellungen usw.
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 mopdserver.btncafe.com
 
 # Buddy Productions GmbH
 # Bud Spencer & Terence Hill - Slaps And Beans
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Bug-meister production
 # Click and Fight
@@ -3665,7 +4092,13 @@ gameplay.gog.com
 # Butterscotch Senanigans
 # Crashlands
 # Amazonaws, Quantserve, Google, Google Analytics, GStatic, GoogleTagManager, Bandcamp, Imgix Anbindung
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 id.bscotch.net
 #0.0.0.0 bit.ly
 0.0.0.0 www.crashlands.net
@@ -3712,7 +4145,13 @@ gameplay.gog.com
 #0.0.0.0 e11290.dspg.akamaiedge.net
 #0.0.0.0 a104-83-120-32.deploy.static.akamaitechnologies.com
 #0.0.0.0 download.gfwl.xboxlive.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # バイオハザード RE:2 | RESIDENT EVIL 2 / BIOHAZARD RE:2
 # s. Rubrik Kopierschutz / AntiCheat
@@ -3764,7 +4203,13 @@ gameplay.gog.com
 
 # Cats Who Play
 # The Cat! Porfirio's Adventure
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # CBE Software
 # Someday You’ll Return
@@ -3830,7 +4275,13 @@ gameplay.gog.com
 #0.0.0.0 users.gog.com
 0.0.0.0 presence.gog.com
 #0.0.0.0 multiplayer.gog.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # Webseiten gefüllt mit Google Analytics, GoogleAdServices, Serving-sys, Doubleclick, Linkedin, GWallet, Twitter, Facebook, Rfihub
 #0.0.0.0 cdprojektred.com
 #0.0.0.0 static.cdprojektred.com
@@ -3858,7 +4309,13 @@ gameplay.gog.com
 # Charyb Games
 # Take Thy Throne
 0.0.0.0 charyb.com # Ingamenews
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 api.steampowered.com # Stats
 0.0.0.0 widgets.gamejolt.com
 0.0.0.0 indiegamestand.com
@@ -3867,7 +4324,13 @@ gameplay.gog.com
 
 # Chasing Carrots
 # Pressure Overdrive
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Cheesecake Dev
 # Internet Cafe Simulator
@@ -3900,7 +4363,13 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -3930,7 +4399,13 @@ gameplay.gog.com
 
 # CI Games S.A.
 # Alien Rage - Unlimited
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Sniper Ghost Warrior III
 # s. Rubrik Kopierschutz / AntiCheat
@@ -3997,7 +4472,13 @@ gameplay.gog.com
 
 # Clickteam
 # Clickteam Fusion 2.5
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 oogaboogawooga.clickteam.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 indiegames.clickteam.com
@@ -4038,7 +4519,13 @@ gameplay.gog.com
 
 # Grid II
 # Onlinezwang | Bei Bedarf Egonet aktivieren
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 prod.egonet.codemasters.com
 
 # F1 RACE STARS™
@@ -4054,7 +4541,13 @@ gameplay.gog.com
 #0.0.0.0 idleps18.djartsgames.ca # UserID, Changelog, Zeitstempel, Plattform, NetzwerkID, News, Gold pro Sekunde, Truhenloot
 
 # Idle Champions of the Forgotten Realms
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # 52.3.229.210
 # 34.201.1.45
 # 54.90.89.93
@@ -4118,7 +4611,13 @@ gameplay.gog.com
 
 # Cobra Mobile
 # iBomber Attack
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Coconut Island Games
 # 中国式家长 / Chinese Parents
@@ -4174,7 +4673,13 @@ gameplay.gog.com
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -4183,11 +4688,23 @@ gameplay.gog.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Merchant of the Skies
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Cold Beam Games
 # Beat Hazard
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 ocsp.msocsp.com
 0.0.0.0 ws.audioscrobbler.com
 
@@ -4217,7 +4734,13 @@ gameplay.gog.com
 
 # Conatus Creative Inc.
 # River City Ransom: Underground
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Cornered Rat Software
 # World War II Online
@@ -4252,7 +4775,13 @@ gameplay.gog.com
 # http://www.grimdawn.com/public/localization/localization.txt
 # Download von Sprachen geht ebenfalls über die www. Pfade stehen in der Textdatei
 0.0.0.0 www.grimdawn.com # Zusätzlich über die crashreporter.exe | Automatisch hochgeladene Crashreports | Domain+crashreport.php
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Crazy Monkey Studios
 # Guns, Gore & Cannoli
@@ -4266,7 +4795,13 @@ gameplay.gog.com
 
 # Creaky Corpse Ltd
 # March of the Living
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Creative Freaks Inc.
 # Gochi-Show!
@@ -4294,7 +4829,13 @@ gameplay.gog.com
 
 # Crimson Duck Studios
 # Torch Cave I, II & Sleengster
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Crunching Koalas
 # Elderborn
@@ -4304,20 +4845,26 @@ gameplay.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
-# CryTek
+# CryTek GmbH
 # Hunt: Showdown
-# hunt.exe
-# s. Easy Anti-Cheat
-# GameLauncher.exe
-#0.0.0.0 ocsp.godaddy.com
-#0.0.0.0 hup.www.vivox.com
-#0.0.0.0 capi1-lv-lw-wc.huntshowdown.com # bleibt während der Spielesession aktiv
-#0.0.0.0 proxy.hup.vivox.com
+# 104.74.103.35
+# 70.42.199.109
 # 70.42.62.134
-# Externe Links aus dem Hauptmenü heraus
-#0.0.0.0 feedback.huntshowdown.com # Feedback mitsamt Tracking von Mixpanel, Uservoice und Google Analytics
-#0.0.0.0 www.youtube.com # Videos
-#0.0.0.0 steamcommunity.com # Statistiken
+# 23.82.8.70
+# 207.244.76.162
+# 198.7.61.104
+# 207.244.94.44
+# s. Rubrik Kopierschutz / AntiCheat
+0.0.0.0 log1-lv-lw-wc.huntshowdown.com
+#0.0.0.0 hup.www.vivox.com
+#0.0.0.0 proxy.hup.vivox.com
+#0.0.0.0 stun.vivox.com
+#0.0.0.0 echo2.vivox.com
+0.0.0.0 watson.vivox.com
+#0.0.0.0 feedback.huntshowdown.com
+#0.0.0.0 xboxlive-primary.huntshowdown.com
+#0.0.0.0 capi1-lv-lw-wc.huntshowdown.com
+#0.0.0.0 capi2-lv-lw-wc.huntshowdown.com
 
 # Crytivo
 # The Universim
@@ -4329,7 +4876,13 @@ gameplay.gog.com
 # Curious Panda Games
 # Rhythm Destruction
 # Statistikabfragen für Highscorelisten & komplett mitgesendeter Newsfeed
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.rhythmdestruction.com
 
 # Curve Digital
@@ -4349,7 +4902,13 @@ gameplay.gog.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # 10 Second Ninja X
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # For the King
 # Ip/s blockieren:
@@ -4382,7 +4941,13 @@ gameplay.gog.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 ec2-34-216-100-9.us-west-2.compute.amazonaws.com
 0.0.0.0 208-64.200.105.steampowered.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
@@ -4405,7 +4970,13 @@ gameplay.gog.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com # ältere Versionen mit api.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
 # 104.26.11.194
 # 34.206.114.4
@@ -4420,7 +4991,13 @@ gameplay.gog.com
 # 35.190.88.234
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -4441,12 +5018,24 @@ gameplay.gog.com
 
 # Cyber Rhino Studios
 # Gryphon Knight Epic
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # D3 PUBLISHER
 # Google Analytics auf der Steam Shopseite ID UA-52932266-44 gehört zu dogenzaka-lab.com
 # Nightshade
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # SG/ZH: School Girl/Zombie Hunter
 # Ip/s blockieren:
@@ -4463,7 +5052,13 @@ gameplay.gog.com
 #0.0.0.0 www.barotraumagame.com # Ingamenews
 
 # Bounty Train
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 public.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -4555,7 +5150,13 @@ gameplay.gog.com
 
 # Ken Follett's The Pillars of the Earth
 # 104.40.183.236
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 cgpromotion.azurewebsites.net
 0.0.0.0 cgpromotion.blob.core.windows.net
 
@@ -4570,7 +5171,13 @@ gameplay.gog.com
 
 # Silence
 # Facebook Anbindung
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # SKYHILL
 # Ip/s blockieren:
@@ -4607,6 +5214,50 @@ gameplay.gog.com
 0.0.0.0 cgpromotion.blob.core.windows.net
 0.0.0.0 blob.am5prdstr12a.store.core.windows.net
 0.0.0.0 waws-prod-am2-027.cloudapp.net
+
+# Valhalla Hills
+# s. Eintrag Steam: IP Checks
+# Ip/s blockieren:
+# 52.218.49.97
+# 52.218.25.130,52.218.56.194
+# 52.218.62.186
+# 52.218.41.114
+# 52.218.28.154
+# 52.218.106.58
+# 52.218.88.226
+# 52.218.106.178
+# 52.218.29.34
+# 52.218.112.98
+# 52.218.105.209
+# 52.218.104.209
+# 52.218.89.130
+# 52.218.20.57
+# 52.218.88.242
+# 52.218.91.114
+# 52.218.60.250
+# 50.16.19.45
+# 3.211.236.15
+# 23.21.140.195
+# 3.228.246.32
+# 54.156.246.168
+# 3.213.219.122
+# 18.235.147.141
+# 34.238.69.47
+# 52.2.141.88
+# 52.22.195.160
+# 54.88.200.120
+# 3.94.135.152
+# 52.206.16.179
+# 54.86.43.143
+# 23.22.237.26
+# 52.23.27.246
+# 75.101.250.82
+# 54.167.14.174
+# 52.72.55.27
+# 3.231.246.124
+0.0.0.0 valhallahills.s3.amazonaws.com
+0.0.0.0 etsource.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Witch It
 #0.0.0.0 www.witchit.com # Versionscheck und Eventinfos
@@ -4655,7 +5306,13 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -4667,15 +5324,33 @@ gameplay.gog.com
 
 # David Wehle
 # The first Tree
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Daybreak Game Company
 # PAYDAY™ The Heist
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Deathly Ideas
 # TZOMPANTLI
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Deck13 & WhisperGames
 # Wartile
@@ -4692,7 +5367,13 @@ gameplay.gog.com
 0.0.0.0 production.connected.dsvolition.com
 
 # Dead Island Retro Revenge
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Homefront: The Revolution
 # 104.197.46.164
@@ -4769,7 +5450,13 @@ gameplay.gog.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Saints Row IV
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 sr3.hydra.agoragames.com
 
 # Trainz: A new era
@@ -4795,32 +5482,74 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.241.26.53
 # 54.200.220.40
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Degica
 # Castle of Shikigami 式神の城
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # ゲーム天国 CruisinMix | Game Tengoku CruisinMix
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # DELTAZEAL
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # RPGMaker VX Ace
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Shmups Skill Test シューティング技能検定
 #0.0.0.0 steamcloudlrsuswest.blob.core.windows.net # Statistiken
 
 # XIIZEAL
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Degica & Chara-Ani
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Devolver Digital
 # Enter the Gungeon
@@ -4841,7 +5570,22 @@ gameplay.gog.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Hotline Miami
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
+
+# Loop Hero
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # SCUM
 # s. Easy Anti-Cheat
@@ -4855,7 +5599,13 @@ gameplay.gog.com
 # 194.110.240.211
 # 77.79.249.113
 # 172.227.167.198
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 nat-detection.gog.com
 0.0.0.0 notifications-pusher-aws.gog.com
 #0.0.0.0 auth.gog.com
@@ -4878,7 +5628,13 @@ gameplay.gog.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # The Red Strings Club
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Weedcraft Inc
 # Ip/s blockieren:
@@ -4896,7 +5652,13 @@ gameplay.gog.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
@@ -4948,7 +5710,13 @@ gameplay.gog.com
 
 # Dharker Studio
 # Negligee: Love Stories
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Digerati Distribution
 # The Coma: Recut
@@ -4959,14 +5727,32 @@ gameplay.gog.com
 0.0.0.0 852d9d8bb32e82e505d63b5dd4b1e6e1.cloudfront.net
 
 # Monster Slayers
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Slain: Back from Hell
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Digital Bento
 # A Salem Witch Trial - Murder Mystery
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # DigitalDNA Games LLC
 # Death Toll
@@ -4993,7 +5779,13 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -5004,7 +5796,13 @@ gameplay.gog.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Kings of Kung Fu
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Shaolin vs Wutang
 0.0.0.0 api.gameanalytics.com
@@ -5019,7 +5817,13 @@ gameplay.gog.com
 
 # Disney Interactive
 # Disney Epic Mickey II
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Tron: Evolution
 #0.0.0.0 go.microsoft.com
@@ -5029,11 +5833,23 @@ gameplay.gog.com
 
 # DNZY Games
 # Zombie Wars: Invasion
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # DotEmu
 # Pang
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # DOT Entertainment | Name wurde zu KNP gändert
 # Undead
@@ -5051,10 +5867,22 @@ gameplay.gog.com
 
 # Double Eleven
 # Pixel Junk™ Monsters Ultimate
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Pixel Junk™ Shooter Ultimate
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Draw Distance
 # Vampire: The Masquerade - Coteries of New York
@@ -5064,7 +5892,13 @@ gameplay.gog.com
 # Steampunk Tower 2
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Dreamlands
 # The Risers
@@ -5091,7 +5925,13 @@ gameplay.gog.com
 # Nachfrage wurde ingnoriert/gelöscht
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 aws.dryginstudios.com
 0.0.0.0 www.google-analytics.com
 # 174.142.76.237
@@ -5101,7 +5941,13 @@ gameplay.gog.com
 # The cursed Crusade
 # Ip/s blockieren:
 # 208.64.200.105
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Ductape studio
 # Summer Sale
@@ -5111,7 +5957,13 @@ gameplay.gog.com
 # AudioSurf
 # Übertragen wird die gesamte Homepage inklusiv Google-Analytics
 # Gesammelt wird z.b. Auflösungs,-Fenstereinstellungen, Sprache, Architektur usw...
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.audio-surf.com
 0.0.0.0 www.audiosurfthegame.com # Upload von Songinfos an E-Mail gekoppelt
@@ -5125,7 +5977,13 @@ gameplay.gog.com
 # Bloody Boobs
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Eastshade Studios
 # Eastshade
@@ -5173,7 +6031,13 @@ gameplay.gog.com
 
 # Elden Pixels
 # Alwa's Awakening
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Electronic Arts
 # ActivationUI.exe
@@ -5309,7 +6173,13 @@ gameplay.gog.com
 
 # Ellada Games
 # Niffelheim
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
@@ -5326,7 +6196,13 @@ gameplay.gog.com
 
 # Empty Clip Studios
 # Symphony
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 leaderboards.symphonygame.com
 0.0.0.0 symphonyleaderboards.cloudapp.net
 
@@ -5343,7 +6219,10 @@ gameplay.gog.com
 # Entrada Interactive LLC
 # Miscreated
 # EasyAntiCheat Anbindung
-# 34.248.147.236, 52.209.117.231, 52.210.44.74, 209.50.52.127
+# 34.248.147.236
+# 52.209.117.231
+# 52.210.44.74
+# 209.50.52.127
 #0.0.0.0 download-eu.eac-cdn.com
 # Gameserver
 #0.0.0.0 hosted-by.i3d.net # Gameserver
@@ -5363,7 +6242,13 @@ gameplay.gog.com
 
 # Eridanus Studio
 # One Against The Galaxy
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 chromereader-pa.googleapis.com
 
 # ErayTek
@@ -5412,7 +6297,13 @@ gameplay.gog.com
 #0.0.0.0 data.manowarcorsair.com # Patchnotes.csv
 
 # Victory At Sea
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Examined Interactive
 # Ping
@@ -5421,7 +6312,13 @@ gameplay.gog.com
 
 # Excalibur Games
 # Dad Quest
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Shoppe Keep 2
 # Crashanalytics, Erfassung von Hard und Software sowie IPerfassung
@@ -5445,7 +6342,13 @@ gameplay.gog.com
 # Rhythm World - Master Project
 # 101.200.56.49
 # 220.194.87.190
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 exdstudio.net
 #0.0.0.0 cdn.bootcss.com
 #0.0.0.0 www.exdstudio.net
@@ -5456,7 +6359,13 @@ gameplay.gog.com
 
 # Fabio Cunha
 # Robot Warriors
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -5536,7 +6445,13 @@ gameplay.gog.com
 0.0.0.0 helpdesk.fatshark.se
 0.0.0.0 patch.fatsharkgames.com
 0.0.0.0 support.jitbit.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.vermintide.com
 
 # Warhammer: Vermintide II
@@ -5558,7 +6473,13 @@ gameplay.gog.com
 #0.0.0.0 cdn.fatsharkgames.se # Telemetrie, Liveticker, News etc
 #0.0.0.0 5107.playfabapi.com
 0.0.0.0 5fs-crashify.s3-accelerate.amazonaws.com # Crashlogs
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Fellow Traveller
 # Orwell: Keeping an Eye On You
@@ -5569,7 +6490,13 @@ gameplay.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 
 # Orwell: Ignorance is Strength
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 us7.api.mailchimp.com # Deaktivieren um Newsletter zu nutzen
 
 # Think of the Children
@@ -5583,7 +6510,13 @@ gameplay.gog.com
 
 # FireFly Studios
 # Space Colony
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # 52.3.66.119
 #0.0.0.0 login.strongholdkingdoms.com # API & HTMLausgabe
 #0.0.0.0 maxcdn.bootstrapcdn.com # Bootswatch 3.3.2 Script
@@ -5595,7 +6528,13 @@ gameplay.gog.com
 #0.0.0.0 login.strongholdkingdoms.com # Anmeldung
 
 # Stronghold: Warlords
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Firehawk Studios
 ## Colorcers
@@ -5678,7 +6617,13 @@ gameplay.gog.com
 # Flat Earth Games
 # Towncraft
 # Spiel und Webseite/n
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 d3spquiph2sexc.cloudfront.net
 0.0.0.0 capture.trackjs.com
 0.0.0.0 usage.trackjs.com
@@ -5710,7 +6655,13 @@ gameplay.gog.com
 # FOAM Entertainment
 # Riff Racer
 0.0.0.0 parseapi.back4app.com # Erfassung Betriebssystem/Version, Sprache, Spieleplattform, SteamID, Versionsnummer, Ingamenews, Coin Reward
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Focus Home Entertainment
 # A Plague Tale: Innocence
@@ -5741,21 +6692,45 @@ gameplay.gog.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Blood Bowl: Chaos Edition
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 bble1.cyanide-studio.com
 
 # Bound by Flame
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Call of Cthulhu®
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Cities XXL
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Contrast
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Etherium
 # 216.146.43.70
@@ -5780,7 +6755,13 @@ gameplay.gog.com
 
 # Farming Simulator 2013
 # inlusive many tracking stuff on their website
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.farming-simulator.com
 0.0.0.0 media.farming-simulator.com
 #0.0.0.0 ssl.gstatic.com
@@ -5799,7 +6780,13 @@ gameplay.gog.com
 0.0.0.0 metropolis.deck13.org # Optionaler Onlinemodus
 
 # The Technomancer
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Vampyr
 0.0.0.0 datarouter.ol.epicgames.com
@@ -5812,11 +6799,23 @@ gameplay.gog.com
 
 # Foot in the Box, LLC
 # Alchemist Penguin
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # For Kids
 # Feeding the Monster
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -6046,7 +7045,13 @@ gameplay.gog.com
 # 35.190.88.234
 # 35.241.52.229
 # Kein Fehler, das erste Spiel mit gleichzeitig aktiver API und CDP von Unity
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -6082,11 +7087,23 @@ gameplay.gog.com
 # Twitter, Facebook
 #0.0.0.0 s3.amazonaws.com
 #0.0.0.0 aws.amazon.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Frogware
 # Magrunner: Dark Pulse
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # s. Eintrag Steam: IP Checks
 
 # Frontier Developments
@@ -6157,13 +7174,31 @@ gameplay.gog.com
 
 # Fruitbat Factory
 # Dungeon Girl
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # 100% Orange Juice
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Sora
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Forever Entertainment S. A.
 # Cat on a Diet
@@ -6199,15 +7234,33 @@ gameplay.gog.com
 0.0.0.0 forever-entertainment.com
 
 # Teddy Floppy Ear: Kayaking & Teddy Floppy Ear: Mountain Adventure
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 games.forever-entertainment.com
 0.0.0.0 teddyfloppyear.forever-entertainment.com
 
 # The Mahjong Huntress
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Timberman
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Fox Dawn
 # Clicker Guild
@@ -6413,7 +7466,7 @@ gameplay.gog.com
 #0.0.0.0 a771.dscq.akamai.net # Lets Encrypt
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www-google-analytics.l.google.com
-0.0.0.0 pki-goog.l.google.com
+#0.0.0.0 pki-goog.l.google.com
 
 # Gearbox Publishing
 # Bulletstorm: Full Clip Edition
@@ -6424,7 +7477,13 @@ gameplay.gog.com
 
 # Geckoo1337
 # Theorem
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 
 # Giant Global
@@ -6462,14 +7521,32 @@ gameplay.gog.com
 
 # Ghost_RUS Games
 # Loot Box Simulator 20!8
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Ghostlight LTD
 # Mary Skelter: Nightmares
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Sorcery Saga: Curse of the Great Curry God
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # GiKugikuGame
 # Piopupu
@@ -6571,7 +7648,13 @@ gameplay.gog.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Oh...Sir! The Hollywood Roast
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 1136b0fc7377c6211173282a3992a814.cloudfront.net
@@ -6589,7 +7672,13 @@ gameplay.gog.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Zombie Night Terror | Update 04.08.2018
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 script.google.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -6597,7 +7686,13 @@ gameplay.gog.com
 
 # GrabTheGames & Ratalaika Games S.L.
 # Devious Dungeon
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Graphite Lab
 # Hive Jump
@@ -6618,7 +7713,13 @@ gameplay.gog.com
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 main-backend-100065934.us-east-1.elb.amazonaws.com
 0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Green Man Gaming Publishing
 # War Tech Fighters
@@ -6659,7 +7760,13 @@ gameplay.gog.com
 # Twitter, Youtube, Facebook, Googlevideo
 0.0.0.0 scores.grimm-bros.com
 0.0.0.0 dragonfinsoup.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Grinding Gear Games
 # Path of Exile inkl. Steam Version
@@ -6737,7 +7844,13 @@ gameplay.gog.com
 # Registrierung Hetzner Server, Facebookanbindung
 # 138.201.198.174
 0.0.0.0 www.cossacks3.com # Ingamenews
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Guerrilla Bandit
 # ZombieRun
@@ -6771,7 +7884,13 @@ gameplay.gog.com
 # Youtube, Facebook, GGPHT, GStatic
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Deep Space Waifu: Justice
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -6796,7 +7915,13 @@ gameplay.gog.com
 # Hammer Glass Studio
 # Ruzar - The Life Stone
 0.0.0.0 config.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Hamsters Gaming
@@ -6823,7 +7948,13 @@ gameplay.gog.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Evil Bank Manager
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -6834,7 +7965,13 @@ gameplay.gog.com
 
 # HanbitSoft Inc.
 # Hellgate
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # HandyGames
 # Kill to Collect
@@ -6853,11 +7990,23 @@ gameplay.gog.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Sine Mora EX
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Hangzhou Winturn Network & Technology Co., Ltd.
 # Reignman
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Happinet
 # Hyakki Castle
@@ -6868,19 +8017,43 @@ gameplay.gog.com
 # Harebrained Holdings
 # Shadowrun Returns
 0.0.0.0 ssl.google-analytics.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Haydee Interactive
 # Haydee
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # He Saw
 # Blue Estate
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Headless Wizard
 # Blood Streets
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Headup Games
 # Dead Age 2
@@ -6913,14 +8086,35 @@ gameplay.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
-# Headup und WhisperGames
+# Headup Games und WhisperGames
+# Cardaclysm
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Truberbrook
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -6937,7 +8131,13 @@ gameplay.gog.com
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -7037,7 +8237,13 @@ gameplay.gog.com
 # Tempest: Pirate Action RPG
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Strategy & Tactics: Wargame Collection
 0.0.0.0 gamestats.herocraft.com
@@ -7068,7 +8274,13 @@ gameplay.gog.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Hexwar Games
 # 1775: Rebellion
@@ -7090,7 +8302,13 @@ gameplay.gog.com
 
 # HIKARI FIELD
 # 爱上火车-Pure Station- Maitetsu:Pure Station
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Hinterland Studio Inc.
 # The long Dark | Aktualisiert 28.02.2019
@@ -7102,7 +8320,13 @@ gameplay.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 #0.0.0.0 thelongdark.com # Ingamenews
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Hobibit
 # Star Boss
@@ -7151,7 +8375,13 @@ gameplay.gog.com
 #0.0.0.0 firestone-main.holydaygames.org
 
 # Holiday City
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
 # 35.241.26.53, 35.186.194.186, 35.190.88.234, 35.241.52.229
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
@@ -7172,7 +8402,13 @@ gameplay.gog.com
 0.0.0.0 holydaycity.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 ec2-35-162-118-172.us-west-2.compute.amazonaws.com
 0.0.0.0 magpole.eus
 
@@ -7218,12 +8454,24 @@ gameplay.gog.com
 
 # Hovgaard Games
 # Startup Company
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com
 
 # HuaYiGame
 # 末日方舟 - Delivery from the Pain
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 
@@ -7237,7 +8485,13 @@ gameplay.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -7248,7 +8502,13 @@ gameplay.gog.com
 # Forager
 # 162.125.66.1
 # 2620:100:6022:1::a27d:4201
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # Dropbox für im Spiel integrierte Fankunst
 0.0.0.0 www.dropbox.com
 0.0.0.0 www.dropbox-dns.com
@@ -7280,7 +8540,13 @@ gameplay.gog.com
 0.0.0.0 www.hydro-games.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # HyperReuts
 # Evolvation
@@ -7313,7 +8579,13 @@ gameplay.gog.com
 
 # H2 Interactive Co., Ltd.
 # Caladrius Blaze
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Ice Code Games
 # Deep Blue 3D Maze
@@ -7347,14 +8619,26 @@ gameplay.gog.com
 
 # Idea Factory International
 # Amnesia™: Memories
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Cyberdimension Neptunia: 4 Goddesses Online | 四女神オンライン CYBER DIMENSION NEPTUNE | 四女神ONLINE 幻次元遊戲戰機少女
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # DATE A LIVE: Rio Reincarnation
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # iDev Games
 # iGrow Game
@@ -7362,7 +8646,13 @@ gameplay.gog.com
 
 # iEntertainment Network Inc
 # WarBirds - World War II Combat Aviation
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 arnalist.warbirdsiii.com # Multiplayer
 
 # IMGN.PRO
@@ -7377,7 +8667,13 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
@@ -7398,7 +8694,13 @@ gameplay.gog.com
 # 34.224.36.137
 # 52.72.205.91
 # 52.4.95.228
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com
 0.0.0.0 server.idreams.pl
 0.0.0.0 idreams.herokuapp.com
@@ -7406,7 +8708,13 @@ gameplay.gog.com
 
 # INSIDE SYSTEM
 # 魔神少女エピソード | The Legend of Dark Witch
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Interactive Stone
 # Gray Dawn
@@ -7427,7 +8735,13 @@ gameplay.gog.com
 # Crashpad Analytics
 
 # Mutants Must Die!
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # NeonGalaxy Wars
 # Websocket
@@ -7440,7 +8754,13 @@ gameplay.gog.com
 0.0.0.0 dfb957c193e8f98057bb6f530c2816a9.cloudfront.net
 
 # Ranger vs. Space Mutants
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # IndieGala
 # Downward
@@ -7473,7 +8793,13 @@ gameplay.gog.com
 
 # IonFX Studios
 # Miasmata
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Ionized Games
 # CAT Interstellar
@@ -7492,14 +8818,32 @@ gameplay.gog.com
 # Insel Games Ltd.
 # The Onion Knights
 0.0.0.0 api.redshell.io
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # InterAction studios
 # Chicken Invaders V
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
+
+# InterSol OOO
+# Mystery Loss
+# Ip/s blockieren:
+# 104.84.56.144
+0.0.0.0 airdownload2.adobe.com
 
 # Introversion Software
-# Scanner Sombre | Aktualisiert 24.09.2019
+# Scanner Sombre
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
@@ -7580,16 +8924,34 @@ gameplay.gog.com
 
 # JAST USA
 # Sonicomi
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # JDM4iK
 # J.U.R : Japan Underground Racing
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # JMJ Interactive
 # Akihabara - Feel the Rhythm
 0.0.0.0 scoreserver.klikgamer.com # erklärt sich von selbst
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Joey Drew Studios Inc.
 # Bendy and the Ink Machine
@@ -7605,6 +8967,11 @@ gameplay.gog.com
 # Ip/s blockieren:
 # 143.95.78.239
 0.0.0.0 crackedmountain.com # Erfassung des Spielerfortschritts
+
+# JoyMasher
+# Odallus: The Dark Call
+0.0.0.0 keyo.me
+0.0.0.0 www.keyo.me
 
 # Jujubee S.A.
 # KURSK
@@ -7686,16 +9053,44 @@ gameplay.gog.com
 # Server ist Pflicht, Onlinezwang
 #0.0.0.0 shopr-data-1300366939.cos.accelerate.myqcloud.com
 
+# KADOKAWA GAMES, LTD.
+# GOD WARS The Complete Legend
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Kagura Games
 # Leviathan ~A Survival RPG~
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Kakao Games Europe B.V.
 # Blackdesert Online
 # Für "xcoranahost.xem, xigncode, Steam launcher, blackdesert.exe"
 # 5.79.111.36
 # 52.78.210.233
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 origin.gamecdn.blackdesertonline.com
 #0.0.0.0 akamai-gamecdn.blackdesertonline.com
 #0.0.0.0 api.blackdesertonline.com
@@ -7713,11 +9108,23 @@ gameplay.gog.com
 0.0.0.0 airdownload2.adobe.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www-google-analytics.l.google.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
-# Kalypso Media Digital
+# Kalypso Media Group GmbH
 # Blood Knights
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Crookz - The Big Heist
 0.0.0.0 launcher01.kalypsomedia.com # Spracheinstellungen, GUID, Versionsnummer, Programmname, IDS
@@ -7770,8 +9177,36 @@ gameplay.gog.com
 
 # Railway Empire
 # Bei aktivem Mitwirken Verbindungen zu Facebook, e-mailit.com, avocet.io, adnxs, cpx.to, audrte.com, Google Analytics, Livefyre
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com # alle paar Sekunden aktiv
+
+# Spacebase Startopia
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+# 217.172.184.73
+0.0.0.0 launcher01.kalypsomedia.com
+0.0.0.0 kalypsolauncher.com
+# Mehrspielermodus
+# 82.165.136.129
+#0.0.0.0 dungeonsmp.kalypsolauncher.com
+matchmaking.realmforgestudios.com
 
 # Sudden Strike IV | Aktualisiert 14.03.2019
 # Ip/s blockieren:
@@ -7873,17 +9308,35 @@ gameplay.gog.com
 
 # Khokhlov
 # Nyan Destroyer
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # КиКо
 # Star Advent
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # KillHouse Games
 # Door Kickers: Action Squad
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com # Tracker alle paar Sekunden aktiv
 
 # Kindly Beast
@@ -7947,7 +9400,13 @@ gameplay.gog.com
 
 # Klabater
 # Apocalipsis
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Klei Entertainment
 # Don't Starve
@@ -7957,7 +9416,13 @@ gameplay.gog.com
 # 35.164.83.215
 # 99.84.138.184
 0.0.0.0 metric.kleientertainment.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 kleianalyticsfrontend.elasticbeanstalk.com
 0.0.0.0 d21wmy1ql1e52r.cloudfront.net
 # Extern mit Mitwirkung des Nutzers, größtenteils für Formatierung der eigenen Webseiten
@@ -8008,7 +9473,13 @@ gameplay.gog.com
 # Invisible Inc.
 # Ip/s blockieren:
 # 34.211.23.135
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 metric.kleientertainment.com
 0.0.0.0 kleianalyticsfrontend.elasticbeanstalk.com
 
@@ -8024,7 +9495,13 @@ gameplay.gog.com
 0.0.0.0 perf-events.cloud.unity3d.com
 
 # Shank
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # KOEI TECMO GAMES CO., LTD.
 # デッド オア アライブ エクストリーム ヴィーナス バケーション | DEAD OR ALIVE Xtreme Venus Vacation
@@ -8057,7 +9534,13 @@ gameplay.gog.com
 
 # NOBUNAGA'S AMBITION: Sphere of Influence
 # N14PKLauncher.exe & NOBU14PK.exe mit Facebookanbindung, N14FaceTool.exe
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Konami Digital Entertainment Co., Ltd.
 # METAL GEAR SURVIVE V: The Phantom Pain
@@ -8149,7 +9632,13 @@ gameplay.gog.com
 
 # Ktulhu Solutions
 # Metropolis: Lux Obscura
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -8201,7 +9690,13 @@ gameplay.gog.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Lcc Studio
 # WW Fantasy
@@ -8228,6 +9723,10 @@ gameplay.gog.com
 # Pic Guesser
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# LGDC
+# Nystagmus
+# s. Eintrag Steam: IP Checks
 
 # Libredia Entertainment
 # Bohemian Killing
@@ -8271,7 +9770,13 @@ gameplay.gog.com
 # Cliff Empire
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # LLC Blini Games
 # Lovecrafts Untold Stories
@@ -8281,7 +9786,13 @@ gameplay.gog.com
 # Lofty Sky Entertainment Inc.
 # Shuyan Saga™
 # Facebook Anbindung
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 # Über das Spiel aufgerufene Webseiten
@@ -8310,11 +9821,23 @@ gameplay.gog.com
 
 # Lonely Troops
 # Empire of the Gods
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Lupiesoft
 # The Reject Demon: Toko Chapter 0 — Prelude
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Lusorion Creatives
 # Azulgar Star Commanders
@@ -8326,7 +9849,13 @@ gameplay.gog.com
 
 # Love Conquers All Games
 # Ladykiller in a Bind
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 ladykillerinabind.com # Updatecheck für Linux, Max, Windows
 
 # M2H
@@ -8369,7 +9898,13 @@ gameplay.gog.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Madmind Studio
 # Agony
@@ -8381,10 +9916,22 @@ gameplay.gog.com
 # MAGES. Inc.
 # BULLET SOUL INFINITE BURST
 # gilt für Launcher.exe & BulletSoulIBWin.exe
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # BULLET SOUL / バレットソウル - 弾魂 -
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Magitech Games
 # Shield Impact
@@ -8407,7 +9954,13 @@ gameplay.gog.com
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -8455,7 +10008,13 @@ gameplay.gog.com
 
 # Marvelous
 # ヴァルキリードライヴ ビクニ | VALKYRIE DRIVE -BHIKKHUNI-
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # MassDiGI
 # Ophidia
@@ -8474,7 +10033,13 @@ gameplay.gog.com
 
 # Matt Roszak
 # Epic Battle Fantasy 4
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Mature Games
 # Hentai Neighbors
@@ -8529,7 +10094,13 @@ gameplay.gog.com
 
 # Merge Games & IV Productions
 # Cast of the Seven Godsends - Redux
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Metal Fox
 # Inaccessible world
@@ -8546,11 +10117,23 @@ gameplay.gog.com
 
 # Metalhead Software Inc.
 # Super Mega Baseball: Extra Innings
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Metanet Software Inc.
 # N++
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 dojo.nplusplus.ninja
 
 # MFAFB Games LLC
@@ -8570,11 +10153,23 @@ gameplay.gog.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Ricochet Kills: Noir
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Microids
 # Asterix & Obelix XXL 2
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Garfield Kart
 # 67.225.180.26
@@ -8617,7 +10212,13 @@ gameplay.gog.com
 # 35.241.52.229
 # 208.64.200.105
 0.0.0.0 ssl.google-analytics.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
@@ -8629,7 +10230,13 @@ gameplay.gog.com
 
 # Might and Delight
 # Fables from the Den
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Mihai Morosanu
 # Castle Defender
@@ -8701,7 +10308,13 @@ gameplay.gog.com
 
 # Mikhail Melnikov
 # Cubic
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -8715,7 +10328,13 @@ gameplay.gog.com
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Milestone S.r.l.
 # Generell bei "online.milestone.it" Erfassung/Verarbeitung von Accountdaten, Statistiken, Produktname, Spielfortschritt, Einstellungen, Challenges uvm
@@ -8771,7 +10390,13 @@ gameplay.gog.com
 
 # MoaCube
 # Solstice
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Modus Games
 # Extinction
@@ -8861,7 +10486,13 @@ gameplay.gog.com
 # 35.241.52.229
 # 80.88.87.98
 # 208.64.200.105
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -8936,7 +10567,13 @@ gameplay.gog.com
 # 永遠消失的幻想鄉 ～ The Disappearing of Gensokyo
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # NA
 # Vector 36
@@ -8983,11 +10620,23 @@ gameplay.gog.com
 
 # Nawia Games
 # Western 1849 Reloaded
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Ndemic Creations
 # Plague Inc: Evolved
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 l.ndemiccreations.com
 0.0.0.0 s.ndemiccreations.com # Aktivieren für Multiplayer und Statistiken
 0.0.0.0 s-cdn.ndemiccreations.com
@@ -8999,17 +10648,41 @@ gameplay.gog.com
 # NedoStudio
 # Qvabllock
 # Crashpad Analytics
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Neko Entertainment
 # Crouching Pony Hidden Dragon
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Replay - VHS is not dead
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Storm
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # NEKO WORKs
 # Monmusu
@@ -9163,7 +10836,13 @@ gameplay.gog.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 www.googletagmanager.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 bs.serving-sys.com
 #0.0.0.0 www.nexon.com
 #0.0.0.0 www.google.com # www.google+Länderkennung
@@ -9182,7 +10861,13 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
@@ -9243,7 +10928,13 @@ gameplay.gog.com
 #0.0.0.0 api.ninjakiwi.com # u.a. Ingameshop
 
 # Bloons TD Battles
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 analytics.ninjakiwi.com
 0.0.0.0 moab.ninjakiwi.com # Ingame-Nutzertracking z.b. Turm platziert, Spiel gestartet usw mitsamt Infos zu Netzwerkfehlern
 #0.0.0.0 fonts.googleapis.com
@@ -9254,7 +10945,13 @@ gameplay.gog.com
 #0.0.0.0 api.ninjakiwi.com # Geodaten, Leaderboards, Ingameshop, Einladungen - Preconnect auf analytics.ninjakiwi.com
 
 # Bloons TD 5
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 analytics.ninjakiwi.com
 #0.0.0.0 static-api.nkstatic.com
 #0.0.0.0 api.ninjakiwi.com
@@ -9282,7 +10979,13 @@ gameplay.gog.com
 #0.0.0.0 api.ninjakiwi.com # Zeit, Profilidentifier/Save, Einkäufe, Trophäen
 
 # SAS: Zombie Assault 4
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 analytics.ninjakiwi.com
 #0.0.0.0 api.ninjakiwi.com
 # Integrierter Onlinezwang
@@ -9293,7 +10996,13 @@ gameplay.gog.com
 
 # NIS America, Inc.
 # Criminal Girls: Invite Only / クリミナルガールズ INVITATION
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # ラングリッサーI&II | Langrisser I & II
 # Ip/s blockieren:
@@ -9311,15 +11020,33 @@ gameplay.gog.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
 # Operation Abyss: New Tokyo Legacy
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Strangers of Sword City
 # Ip/s blockieren:
 # 208.64.200.105
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # 深夜廻 Yomawari: Midnight Shadows
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Nitrome
 # Bomb Chicken
@@ -9349,7 +11076,13 @@ gameplay.gog.com
 
 # Nordic Games
 # Red Faction®: Armageddon™
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Northway Games
 # Rebuild III: Gangs of Deadsville
@@ -9376,12 +11109,24 @@ gameplay.gog.com
 
 # Numantian Games
 # Lords of Xulima
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # NVLMaker
 # Soulslayer～灭魂·误佳期～
 0.0.0.0 open.bakery.moe
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Nyu Media
 # Yatagarasu Attack on Cataclysm
@@ -9395,12 +11140,24 @@ gameplay.gog.com
 
 # Oddrok
 # Power Hover
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # OGPlanet
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # Das Produkt wurde abgeschaltet
 # 202.213.198.230
 0.0.0.0 id.ogplanet.com
@@ -9423,7 +11180,13 @@ gameplay.gog.com
 # Forbidden Clicker Party
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # OnFire Games
 # Ultimate Spinner Simulator - Unstress Yourself
@@ -9432,7 +11195,13 @@ gameplay.gog.com
 
 # Onyx Lute
 # Glass Masquerade
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # OpenArl
 # Path of Building
@@ -9551,7 +11320,13 @@ gameplay.gog.com
 
 # PanGuoJun
 # Flower Design
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -9574,7 +11349,13 @@ gameplay.gog.com
 # Panoramik Inc
 # Forge of Gods
 # Zumindest die steamtinyarmy Adresse muß aktiv zum Spielen sein. Evtl. die Dev Adressen auch
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.gameanalytics.com
 #0.0.0.0 steamtinyarmypanoramic.appspot.com
 0.0.0.0 sdknode-1.devtodev.com
@@ -9589,7 +11370,13 @@ gameplay.gog.com
 # 35.190.88.234
 # 35.241.52.229
 # 35.227.252.150
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -9656,7 +11443,13 @@ gameplay.gog.com
 #0.0.0.0 www.europauniversalis4.com
 
 # Hearts of Iron IV
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 services.paradoxplaza.com
 #0.0.0.0 forumcontent.paradoxplaza.com
 #0.0.0.0 api.paradoxplaza.com
@@ -9707,7 +11500,13 @@ gameplay.gog.com
 
 # Magicka I
 #0.0.0.0 api.paradoxplaza.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 s3.amazonaws.com
 
 # Magicka II
@@ -9832,7 +11631,13 @@ gameplay.gog.com
 
 # peevasseeq games
 # Call of Bitcoin
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Perfect World Entertainment
 # Livelock
@@ -9877,7 +11682,13 @@ gameplay.gog.com
 
 # Permadeath
 # Planet Centauri
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Petroglyph Games Inc.
 # 8-Bit Armies
@@ -9889,7 +11700,13 @@ gameplay.gog.com
 # 52.216.8.173
 # 52.217.40.190
 # 70.32.91.32
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 RTSCoordBalancer-325549666.us-east-1.elb.amazonaws.com
 #0.0.0.0 s3.amazonaws.com
 #0.0.0.0 www.8bitarmies.com
@@ -9938,7 +11755,13 @@ gameplay.gog.com
 # Playdius & Plug In Digital
 # Dead in Bermuda
 0.0.0.0 config.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Dead In Vinland
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -9949,7 +11772,13 @@ gameplay.gog.com
 
 # PlayFlock
 # Insanity Clicker | Update 04.09.2018
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 insanity.playflock.com # Canvas Output und SteamID, Spracheinstellungen, Projektbezeichnung, Auflösung maximum und eingestellte Auflösung
 0.0.0.0 airdownload2.adobe.com
 #0.0.0.0 error-default.playflock.com
@@ -9963,7 +11792,13 @@ gameplay.gog.com
 # 52.51.97.198
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Playsaurus
 # Clicker Heroes I
@@ -9977,7 +11812,13 @@ gameplay.gog.com
 0.0.0.0 www.ngads.com
 
 # Clicker Heroes II
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 api.steampowered.com # Währung, Land
 0.0.0.0 airdownload2.adobe.com
 0.0.0.0 lb1.cloudstonegame.com
@@ -9986,7 +11827,13 @@ gameplay.gog.com
 
 # PlayWay S.A.
 # Car Mechanic Simulator 2015
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Farm Manager 2018
 # Gleicht sämtliche Ingametexte mit Google Servern ab... Unity wie gewohnt Hard/Softwareanalytics
@@ -10005,7 +11852,13 @@ gameplay.gog.com
 
 # The Way
 # Spiel basiert auf einer Java-Applikation/Javaw.exe
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # UBoat
 # Ip/s blockieren:
@@ -10022,6 +11875,25 @@ gameplay.gog.com
 0.0.0.0 14.181.107.34.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 userreporting.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Playway S.A. und Rejected Games
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 216.58.212.174
+# 2a00:1450:4001:82b::200e
+0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -10055,7 +11927,13 @@ gameplay.gog.com
 # PolarityFlow
 # Sky Mercenaries
 # Twitter, Youtube, Facebook
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.polarityflow.com
 #0.0.0.0 cdn.jsdelivr.net
@@ -10078,7 +11956,13 @@ gameplay.gog.com
 
 # Positech Games
 # Big Pharma
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # PotatoIndustries
 # RollingBall
@@ -10089,7 +11973,13 @@ gameplay.gog.com
 
 # Poysky Productions
 # Regions Of Ruin
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -10165,7 +12055,13 @@ gameplay.gog.com
 
 # PRODUCTION PENCIL
 # Paradise Cleaning!
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Project Moon
 # Lobotomy Corporation | Monster Management Simulation
@@ -10211,7 +12107,13 @@ gameplay.gog.com
 
 # Quiet River
 # Zup! Zero
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Racing Bros
 # Blood Feed
@@ -10241,7 +12143,13 @@ gameplay.gog.com
 0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com # Serverliste
 
 # West of Red
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # 92.223.82.17
 # 172.65.231.130
 #0.0.0.0 gcash013.exitgames.com
@@ -10298,7 +12206,13 @@ gameplay.gog.com
 
 # Rake in Grass
 # Rampage Knights
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Random Seed Games
 # TIMEframe | Aktualisiert 27.02.2019
@@ -10306,7 +12220,13 @@ gameplay.gog.com
 # 35.241.26.53
 # 35.186.194.186
 # 208.64.200.105
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -10317,7 +12237,13 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -10343,6 +12269,13 @@ gameplay.gog.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Rebellion
+# Evil Genius 2
+# s. Rubrik Kopierschutz / AntiCheat
+0.0.0.0 launcher-content.rebellion.co.uk
+0.0.0.0 athena.rebellion.net
+0.0.0.0 nephelus.rebellion.net
+0.0.0.0 reb.to
+
 # Sniper Elite III
 # Launcher und Webseite
 0.0.0.0 se3-content.rebellion.co.uk
@@ -10362,7 +12295,13 @@ gameplay.gog.com
 0.0.0.0 launcher-content.rebellion.co.uk
 
 # Sniper Elite: Zombie Army
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Strange Brigade
 0.0.0.0 launcher-content.rebellion.co.uk # Werbung und Javascripts
@@ -10382,7 +12321,7 @@ gameplay.gog.com
 0.0.0.0 content2.webdev.rebellion.co.uk
 #0.0.0.0 athena.rebellion.net
 0.0.0.0 reb.to # replaced goo.gl
-0.0.0.0 api.epicgames.dev # Datarouter Tracking, Websocket, Heartbeat, Telemetrie und Onlinezwang
+#0.0.0.0 api.epicgames.dev # Datarouter Tracking, Websocket, Heartbeat, Telemetrie und Onlinezwang
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www-google-analytics.l.google.com
 # 104.74.103.35
@@ -10411,7 +12350,13 @@ gameplay.gog.com
 # Anonyme Nutzerstatistiken
 0.0.0.0 metric.kleientertainment.com
 #0.0.0.0 darkestdungeon.us7.list-manage.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 ocsp.digicert.com
 # Via Klick auf deren Mailicon unten rechts im Hauptmenü
 0.0.0.0 stats.g.doubleclick.net
@@ -10454,7 +12399,13 @@ gameplay.gog.com
 # Reverb Publishing
 # Beatbuddy: Tale of the Guardians
 0.0.0.0 api.gameanalytics.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Revere Heaven Love People Innovation Technology Co., Ltd.
 # Neko Papala
@@ -10644,7 +12595,13 @@ gameplay.gog.com
 
 # Rocket-Engine Co.,Ltd.
 # Trouble Witches Origin - Ep. 1 - Daughters of Amalgam -
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # ROCKFISH Games
 # EVERSPACE™
@@ -10653,7 +12610,13 @@ gameplay.gog.com
 
 # Rockin' Android
 # Diadra Empty
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Rockstar Games
 # Grand Theft Auto IV
@@ -10743,7 +12706,13 @@ gameplay.gog.com
 
 # Rogue Earth LLC
 # Eterium
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # rokaplay und Maple Whispering Limited
 # Stranded Sails - Entdecker der verfluchten Inseln
@@ -10804,7 +12773,13 @@ gameplay.gog.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Hell Girls
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -10835,7 +12810,13 @@ gameplay.gog.com
 
 # Screenwave Media
 # Eagle Island
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # Azure Playfab für Kontenbindung, Analytics und Onlinezwang
 # 35.166.219.76
 # 208.64.200.10
@@ -10876,7 +12857,13 @@ gameplay.gog.com
 
 # Seaven Studio
 # Ethan: Meteor Hunter
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 steamcloud-eu.storage.googleapis.com
 
 # Secret Location Inc.
@@ -10901,21 +12888,45 @@ gameplay.gog.com
 # Bayonetta
 0.0.0.0 garry.sgaas.net
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Binary Domain
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Catherine Classic
 # Ip/s blockieren:
 # 208.64.200.105
 # 52.48.186.45
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 garry.sgaas.net
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 
 # Castle of Illusion
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Company of Heroes 2
 # Ip/s blockieren:
@@ -10925,7 +12936,13 @@ gameplay.gog.com
 # 104.74.146.55
 # 34.252.170.86
 # 52.71.53.175
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 coh2-api.reliclink.com # Serveranbindung
 #0.0.0.0 reliclink0-coh2-api-746245276.us-east-1.elb.amazonaws.com
 0.0.0.0 garry.sgaas.net # SEGA Analytics
@@ -10938,7 +12955,13 @@ gameplay.gog.com
 #0.0.0.0 static-cdn.jtvnw.net
 
 # Dungeon of the Endless™
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com
 #0.0.0.0 forums.amplitude-studios.com
 
@@ -10953,7 +12976,13 @@ gameplay.gog.com
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 
 # Persona 4 Golden
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # s. Rubrik Kopierschutz / AntiCheat
 # Ip/s blockieren:
 # 208.64.200.105
@@ -10988,7 +13017,13 @@ gameplay.gog.com
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 
 # The Typing of The Dead: Overkill
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Total War: Attila
 # inklusiv Youtube, Google, Twitter, Facebook und anderem Zeugs
@@ -11033,7 +13068,13 @@ gameplay.gog.com
 # Launcher.exe
 # 45.60.47.160
 0.0.0.0 hull.sgaas.net # IP Adresse, Sprache, Zeitzone
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 launcher-v3.totalwar.com # Werbung verbunden mit Youtube
 0.0.0.0 w8yywdf.x.incapdns.net
 0.0.0.0 launcher-analytics.totalwar.com
@@ -11082,7 +13123,7 @@ gameplay.gog.com
 #0.0.0.0 academy.totalwar.com
 #0.0.0.0 content.totalwar.com
 0.0.0.0 www.googletagmanager.com
-0.0.0.0 unpkg.com
+#0.0.0.0 unpkg.com # Grafik/Scriptablage auch für andere Ressourcen
 #0.0.0.0 maxcdn.bootstrapcdn.com
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 secure-ds.serving-sys.com
@@ -11103,7 +13144,13 @@ gameplay.gog.com
 # 64.233.167.156
 # 82.199.68.72
 # Launcher / Inhalte wurden hier abgeschaltet
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 launcher-v3.totalwar.com
 0.0.0.0 launcher-v3-content.totalwar.com
 # Tracker/Analytics/Cookies
@@ -11142,12 +13189,18 @@ gameplay.gog.com
 #0.0.0.0 academy.totalwar.com
 #0.0.0.0 cdn.creative-assembly.com
 # Unnötiges Zeug
-0.0.0.0 unpkg.com # Globales Content Netzwerk
+#0.0.0.0 unpkg.com # Globales Content Netzwerk
 #0.0.0.0 s3-eu-west-1.amazonaws.com # Ablage für Stylesheets u.m.
 #0.0.0.0 fonts.gstatic.com # Schriften
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 bam.nr-data.net
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Two Point Hospital | Update 12.03.2019
 # Ip/s blockieren:
@@ -11239,7 +13292,13 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 galaxy-log.gog.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -11250,17 +13309,35 @@ gameplay.gog.com
 
 # Sekai Project
 # Clannad
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # NEKOPALIVE
 # Nimmt zu Programmstart DirectX Daten auf
 0.0.0.0 etsource.epicgames.com
 
 # NEKOPARA Vol. 2 + Patch
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # NEKOPARA Vol. 4
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Sergej110
 # Combat Raccoon
@@ -11302,7 +13379,13 @@ gameplay.gog.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 94d63cbf92082237b86267ffd4cacc64.cloudfront.net
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Shanghai JingCai Computer Software Development Co., Ltd
 # Metal Waltz: Anime tank girls
@@ -11317,7 +13400,13 @@ gameplay.gog.com
 # 208.64.200.105
 # 172.217.22.100
 # 216.58.208.40
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 launcher.shirogames.com
 0.0.0.0 launcher-admin.shirogames.com
 #0.0.0.0 master.shirogames.com
@@ -11384,7 +13473,13 @@ gameplay.gog.com
 # 172.217.4.196
 # 208.64.200.105
 # 142.250.186.36
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 www.google.com
 0.0.0.0 www.sigma-team.ru
 0.0.0.0 a1737.b.akamai.net
@@ -11400,10 +13495,22 @@ gameplay.gog.com
 
 # Silicon Echo
 # The First Spark
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # The Safeguard Garrison
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Silver Dollar Games
 # Ip/s blockieren:
@@ -11426,7 +13533,13 @@ gameplay.gog.com
 
 # Size Five Games
 # The Swindle
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Skip32
 # Celtabula
@@ -11435,7 +13548,13 @@ gameplay.gog.com
 
 # Skyboy Games
 # Ookibloks
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Slitherine Ltd.
 # Empires Apart
@@ -11450,7 +13569,13 @@ gameplay.gog.com
 #0.0.0.0 www.matrixgames.com # Werbung/CSS Formatierung des Launchers
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.slitherine.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Warhammer 40,000: Gladius - Relics of War
 # autorun.exe
@@ -11529,14 +13654,32 @@ gameplay.gog.com
 
 # SOEDESCO Publishing
 # Wuppo
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # SOFTSTAR ENTERTAINMENT INC.
 # 天使帝國四《Empire of Angels IV》
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # 軒轅劍外傳穹之扉《The Gate of Firmament》
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # 轩辕剑柒《Xuan-Yuan Sword VII》
 # s. Eintrag Steam: IP Checks
@@ -11552,13 +13695,25 @@ gameplay.gog.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Dear RED - Extended
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Hexoscope
 0.0.0.0 airdownload2.adobe.com
 
 # Just Hero
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Langoth
 # Ip/s blockieren:
@@ -11582,7 +13737,13 @@ gameplay.gog.com
 
 # Somi, Zero Rock Entertainment
 # Replica
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Sony Interactive Entertainment
 # Horizon Zero Dawn™ Complete Edition
@@ -11600,7 +13761,13 @@ gameplay.gog.com
 
 # Spaceboy Games
 # HackyZack
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Spawn Point OSK
 # Army of Squirrels
@@ -11609,12 +13776,24 @@ gameplay.gog.com
 
 # Specialbit Studio
 # The Last Dream: Developer’s Edition
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Spiderling Studios
 # Besiege
 # 104.20.17.242
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 icanhazip.com
 # Mehrspielermodi konnten nicht getestet werden
 #0.0.0.0 ms.spiderlinggames.co.uk
@@ -11624,7 +13803,13 @@ gameplay.gog.com
 
 # Spike Chunsoft Co., Ltd.
 # 428 〜封鎖された渋谷で〜
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Crystar
 # Ip/s blockieren:
@@ -11656,7 +13841,13 @@ gameplay.gog.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # SQUARE ENIX CO., LTD.
 # ドラゴンクエストライバルズ エース | DRAGON QUEST RIVALS Ace
@@ -11667,7 +13858,13 @@ gameplay.gog.com
 # 74.125.203.156
 # 124.150.158.171
 # 208.64.200.105
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 lobby.dqrivals.com
 #0.0.0.0 cache.dqrivals.com
 0.0.0.0 www.google-analytics.com
@@ -11685,7 +13882,13 @@ gameplay.gog.com
 #0.0.0.0 res.cloudinary.com
 
 # Deus Ex: The Fall
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # DRAGON QUEST® XI: Echoes of an Elusive Age™ - Digital Edition of Light
 # s. Rubrik Kopierschutz / AntiCheat
@@ -11694,7 +13897,18 @@ gameplay.gog.com
 # Launcher
 0.0.0.0 rome.eu.square-enix.com
 #0.0.0.0 embedlogin-membership.square-enix.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+# 50.19.236.143
+# 185.215.129.70
+# 162.247.242.21
+# 151.101.114.110
+# 185.215.128.64
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 weblet.square-enix.com # Profilseite
 0.0.0.0 connect-dev.eidos.co.uk
 0.0.0.0 eu.square-enix.com
@@ -11703,7 +13917,7 @@ gameplay.gog.com
 # Aufgerufene Profilseite
 # Ip/s blockieren:
 # 151.101.10.109
-# 1720.217.194.97
+# 172.217.194.97
 # 74.125.68.97
 # 172.217.160.46
 0.0.0.0 www.googletagmanager.com # GTM-5JHHGDL
@@ -11713,7 +13927,13 @@ gameplay.gog.com
 
 # FINAL FANTASY XII THE ZODIAC AGE
 # s. Rubrik Kopierschutz / AntiCheat
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # FINAL FANTASY XV WINDOWS EDITION
 # s. Rubrik Kopierschutz / AntiCheat
@@ -11726,7 +13946,13 @@ gameplay.gog.com
 # Goetia
 # Ip/s blockieren:
 # 208.64.200.105
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Hitman GO: Definitive Edition
 # 172.217.16.132
@@ -11755,10 +13981,22 @@ gameplay.gog.com
 #0.0.0.0 ocsp.digicert.com # Zertifikat
 
 # Lara Croft and the Guardian of Light
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Life is Strange
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 lis.os.eidos.com
 
 # Life is Strange 2
@@ -11792,6 +14030,15 @@ gameplay.gog.com
 #0.0.0.0 steamcloud-eu-ams.storage.googleapis.com
 #0.0.0.0 steamcloudams2.blob.core.windows.net
 
+# Outriders
+# s. Rubrik Kopierschutz / AntiCheat
+# 31.31.168.30
+# 52.40.143.66
+# 45.60.65.134
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
+#0.0.0.0 swhjatq.x.incapdns.net
+0.0.0.0 crashreporter2.peoplecanfly.com
+
 # Rise of the Tomb Raider
 #0.0.0.0 tr2.os.eidos.com
 # s. Rubrik Kopierschutz / AntiCheat
@@ -11809,11 +14056,18 @@ gameplay.gog.com
 # Shadow of the Tomb Raider
 # s. Rubrik Kopierschutz / AntiCheat
 # Social Network Anbindung mitsamt weiteren Trackern und Analytics
-# SOTTR.exe | Onlineserver hier abgeschaltet | IP und die Tr11 bei Bedarf aktivieren
-# Ip/s blockieren:
 # 52.70.146.197
-0.0.0.0 tr11v6.os.eidos.com
+# 45.60.65.134
+# 69.88.149.135
+# 69.88.149.139
+#0.0.0.0 tr11v6.os.eidos.com # Onlineserver bei Bedarf abschalten
 0.0.0.0 hydra.cdn.sqexeu.com # Port 10672
+0.0.0.0 dkifbup.x.incapdns.net
+#0.0.0.0 eidos.https.internapcdn.net
+# 13.32.23.16
+# 13.226.156.116
+#0.0.0.0 ocsp.sca1b.amazontrust.com
+#0.0.0.0 o.ss2.us
 
 # The Awesome Adventures of Captain Spirit
 # s. Rubrik Kopierschutz / AntiCheat
@@ -11866,7 +14120,13 @@ gameplay.gog.com
 # Ashes of the Singularity: Escalation
 # Launcher mit Youtube, Twitter, Twitch, Facebookanbindungen
 #0.0.0.0 swupdate.stardock.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 certificates.godaddy.com
 #0.0.0.0 crl.godaddy.com
 #0.0.0.0 ocsp.godaddy.com
@@ -11889,7 +14149,13 @@ gameplay.gog.com
 # Offworld Trading Company
 # Launcher
 #0.0.0.0 swupdate.stardock.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 ocsp.godaddy.com
 #0.0.0.0 crl.godaddy.com
 # Webseiten aus dem Launcher heraus
@@ -11910,7 +14176,13 @@ gameplay.gog.com
 #0.0.0.0 ico-reb.stardock.com # Multiplayer
 
 # Sorcerer King: Rivals
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 skrivals-api-tachyon.stardock.net
 
 # Star Control: Origins
@@ -11945,7 +14217,13 @@ gameplay.gog.com
 # StarSystemStudios™
 # The Quest for Achievements
 # Twitter, Youtube, Facebook, Google Analytics - bei aktivem Seitenauf
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com
 #0.0.0.0 twitter.com
 #0.0.0.0 www.youtube.com
@@ -11961,7 +14239,13 @@ gameplay.gog.com
 # Stolen Couch Games
 # Ichi
 # Facebook & Twitter
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.stolencouchgames.com
 
 # Stompy Bot Productions
@@ -11969,6 +14253,23 @@ gameplay.gog.com
 #0.0.0.0 d1c35vk9nap180.cloudfront.net
 #0.0.0.0 proxy.heavygear.com
 #0.0.0.0 ocsp.int-x3.letsencrypt.org
+
+# Stray Fawn Studio und WhisperGames
+# Niche - a genetics survival game
+# Devotion
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Strange Loop Games
 # Eco
@@ -11992,6 +14293,10 @@ gameplay.gog.com
 # 2a02:26f0:1700:782:0:0:0:11e2
 0.0.0.0 airdownload2.adobe.com
 
+# Streembit Ltd.
+# Subverse
+# s. Eintrag Steam: IP Checks
+
 # Strength in Numbers Studios, Inc
 # Skull Ball Heroes
 # Adressen werden zur Nutzung beide benötigt!
@@ -12000,13 +14305,25 @@ gameplay.gog.com
 
 # Striped Rocket
 # Loading
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # StudioMDHR Entertainment Inc.
 # Cuphead
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Studio Nanafushi
 # DEAD OR SCHOOL
@@ -12061,7 +14378,13 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
@@ -12095,8 +14418,19 @@ gameplay.gog.com
 
 # Surprise Attack
 # Oscura: Lost Light
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.gameanalytics.com
+
+# Western Press
+# 35.241.52.229
+0.0.0.0 stats.unity3d.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 
 # Suspicious Developments
 # Morphblade
@@ -12132,7 +14466,13 @@ gameplay.gog.com
 
 # TaleWorlds Entertainment
 # Mount & Blade: Warband
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 warbandmain.taleworlds.com # Serverliste/Multiplayer
 
 # Tamasenco
@@ -12156,7 +14496,13 @@ gameplay.gog.com
 # Tasharen Entertainment Inc.
 # Windward
 # IP Erkennung
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 server.tasharen.com
 0.0.0.0 ipinfo.io # Benötigt für die Herkunftserkennung im Multiplayer
 0.0.0.0 icanhazip.com # im Einzelspieler-Modus aktiv
@@ -12175,11 +14521,23 @@ gameplay.gog.com
 
 # Tate Multimedia
 # Kao the Kangaroo: Round 2
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Team17 Digital Ltd
 # Alien Breed: Impact
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Aven Colony
 0.0.0.0 datarouter.ol.epicgames.com
@@ -12221,15 +14579,40 @@ gameplay.gog.com
 #0.0.0.0 6e.58.26a9.ip4.static.sl-reverse.com # Indien
 #0.0.0.0 gcsel002.exitgames.com # Korea
 
+# Main Assembly
+# s. Eintrag Steam: IP Checks
+# Ip/s blockieren:
+# 52.72.253.177
+# 3.88.125.241
+# 54.86.132.239
+# 52.2.106.18
+# 35.173.108.10
+# 107.22.182.60
+# 3.228.249.51
+# 52.2.106.18
+0.0.0.0 api.gameanalytics.com
+
 # My time at Portia
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Overcooked
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Overcooked! 2
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -12238,7 +14621,13 @@ gameplay.gog.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # The Escapists
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 www.escapistgame.com # Bestenlisten
 
 # Worms Clan Wars
@@ -12246,26 +14635,56 @@ gameplay.gog.com
 #0.0.0.0 www.wormsclanwars.com # Statistiken
 #0.0.0.0 crl.godaddy.com
 #0.0.0.0 ocsp.godaddy.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Worms Ultimate Mayhem
 #0.0.0.0 www.team17.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Worms W.M.D.
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 ads.t17service.com
 0.0.0.0 worms-wmd-pc.t17service.com
 0.0.0.0 livewmdirc.team17.com
 0.0.0.0 google-analytics.com
 
 # Worms World Party Remastered
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 eb9q4.team17.com # Spielserver
 
 # Team Cherry
 # Hollow Knight
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Team Flow
 # Run or Die
@@ -12337,7 +14756,13 @@ gameplay.gog.com
 # Youtube, Facebook, Twitter, Instagram
 
 # The Arcade Crew & Maple Whispering Limited
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # The Brotherhood & Daedalic Entertainment
 # Cayne
@@ -12349,7 +14774,13 @@ gameplay.gog.com
 0.0.0.0 www-google-analytics.l.google.com
 
 # Stasis
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # The Behemoth
 # Castle Crashers
@@ -12363,7 +14794,13 @@ gameplay.gog.com
 
 # The Digital Lounge
 # Another World – 20th Anniversary Edition
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # The Fun Pimps Entertainment LLC
 # 7 days to die
@@ -12389,13 +14826,42 @@ gameplay.gog.com
 # The Quantum Astrophysicists Guild
 # Tumblestone
 # 54.162.179.194 # Freier Key für Freunde
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 stats.unity3d.com
+
+# The Young Socratics
+# Odyssey - The Story of Science
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 stats.unity3d.com
 
 # Thick & Thin
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Thiemo Bolder, ONEMANGAMES
 # Artificial Defense
@@ -12486,7 +14952,13 @@ gameplay.gog.com
 0.0.0.0 tqa_pc-gds.thqonline.net
 #0.0.0.0 www.thqnordic.com
 # 94.130.252.65 # Multiplayer
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 redmine.thqnordic.com # Bugtracker
 0.0.0.0 server2.thqonline.net # evtl. nur Betaserver?
 
@@ -12520,8 +14992,24 @@ gameplay.gog.com
 0.0.0.0 wreckfest.sp.backtrace.io
 
 # tinyBuild, LLC
+# Cartel Tycoon
+# 35.165.244.106, 54.186.210.221, 52.1.5.25, 107.23.100.155, 54.149.13.193, 13.226.159.127, 142.250.185.234, 2.21.228.217
+#0.0.0.0 app-catalog.patchkit.net
+#0.0.0.0 api.epicgames.dev
+0.0.0.0 d-mqtk8dh9ba.execute-api.us-west-2.amazonaws.com
+0.0.0.0 fra16s53-in-f10.1e100.net
+0.0.0.0 a2-21-228-217.deploy.static.akamaitechnologies.com
+0.0.0.0 server-13-226-159-127.dus51.r.cloudfront.net
+0.0.0.0 ec2-54-149-13-193.us-west-2.compute.amazonaws.com
+
 # Clustertruck
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Community Inc
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -12529,7 +15017,13 @@ gameplay.gog.com
 
 # Dungelot: Shattered Lands
 # Google, Facebook & Twitter Verbindungen bei aktivem Aufruf
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Fearless Fantasy
 # Ip/s blockieren:
@@ -12552,7 +15046,13 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -12602,7 +15102,13 @@ gameplay.gog.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Spoiler Alert
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Stage Presence
 # 35.241.26.53
@@ -12624,6 +15130,87 @@ gameplay.gog.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
+# Totally Reliable Delivery Service
+# 54.186.145.204
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 52.24.177.168
+# 5.8.70.139
+# 5.8.70.141
+# 5.188.110.5
+# 5.188.110.10
+# 5.188.239.6
+# 5.188.239.12
+# 92.38.165.230
+# 92.38.165.231
+# 92.38.191.5
+# 92.38.191.6
+# 94.237.2.169
+# 94.237.40.188
+# 94.237.110.185
+# 94.237.110.187
+# 146.185.221.6
+# 146.185.221.7
+# 152.44.41.239
+# 169.38.88.113
+# 169.38.88.120
+# 169.54.101.108
+# 169.54.101.112
+# 172.65.231.130
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 41dcf.playfabapi.com
+0.0.0.0 logs-01.loggly.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 www-google-analytics.l.google.com
+# Mehrspielerserver
+#0.0.0.0 gctok021.exitgames.com
+#0.0.0.0 gctok009.exitgames.com
+#0.0.0.0 gcsc100.exitgames.com
+#0.0.0.0 gcsc106.exitgames.com
+#0.0.0.0 gcsp002.exitgames.com
+#0.0.0.0 gcsp009.exitgames.com
+#0.0.0.0 gcsel002.exitgames.com
+#0.0.0.0 gcsel003.exitgames.com
+#0.0.0.0 gckha001.exitgames.com
+#0.0.0.0 gckha002.exitgames.com
+#0.0.0.0 94-237-2-169.sg-sin1.upcloud.host
+#0.0.0.0 94-237-40-188.nl-ams1.upcloud.host
+#0.0.0.0 94-237-110-185.nl-ams1.upcloud.host
+#0.0.0.0 94-237-110-187.nl-ams1.upcloud.host
+#0.0.0.0 gcmel001.exitgames.com
+#0.0.0.0 gcmel002.exitgames.com
+#0.0.0.0 152-44-41-239.us-chi1.upcloud.host
+#0.0.0.0 71.58.26a9.ip4.static.sl-reverse.com
+#0.0.0.0 78.58.26a9.ip4.static.sl-reverse.com
+#0.0.0.0 6c.65.36a9.ip4.static.sl-reverse.com
+#0.0.0.0 70.65.36a9.ip4.static.sl-reverse.com
+#0.0.0.0 ns-eu.exitgames.com
+#0.0.0.0 ns.exitgames.com
+
+# Waking
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Tiny Pixel
 # Boss Defiance
@@ -12651,7 +15238,13 @@ gameplay.gog.com
 
 # Thomas Happ Games LLC
 # Axiom Verge
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Thorium
 # Undermine
@@ -12676,7 +15269,13 @@ gameplay.gog.com
 # Thunder Lotus Games
 # Jotun: Valhalla Edition
 # Ingameanbindung Steamstore # store.akamai.steamstatic.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Sundered
 # GoogleApi, Google, Recaptcha
@@ -12761,14 +15360,26 @@ gameplay.gog.com
 
 # Toplitz Productions
 # Farmer's Dynasty
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Farming Giant
 0.0.0.0 update.actalogic.com
 
 # Topware Interactive & ACE
 # Two Worlds II / HD
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 secure.zuxxez.com
 #0.0.0.0 ocsp.comodoca.com
 #0.0.0.0 crl.comodoca.com
@@ -12779,7 +15390,13 @@ gameplay.gog.com
 #0.0.0.0 fonts.googleapis.com
 
 # Two Worlds II HD - Call of Tenebrae
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 steamapi.topware.com # Ingameshop
 
 # Vendetta - Curse of Raven's Cry
@@ -12833,7 +15450,13 @@ gameplay.gog.com
 
 # Trese Brothers
 # Star Traders: Frontiers
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com
 
 # Trichotomy
@@ -12957,7 +15580,13 @@ gameplay.gog.com
 
 # Assassin's Creed® Odyssey
 # Die MSR, Public WS und Mercury werden für Onlinefunktionen wie Fotos und tägliche Quests benötigt, bedeutet aber auch Dauertraffic im Hintergrund
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 msr-public-ubiservices.ubi.com
 #0.0.0.0 public-ubiservices.ubi.com # Cloud
 #0.0.0.0 public-ws-ubiservices.ubi.com
@@ -12967,7 +15596,13 @@ gameplay.gog.com
 #0.0.0.0 static8.ubi.com
 
 # Assassin's Creed® Origins | Steamversion
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 ubistatic2-a.akamaihd.net
 #0.0.0.0 msr-public-ubiservices.ubi.com
 #0.0.0.0 ubiservices.cdn.ubi.com
@@ -12983,12 +15618,24 @@ gameplay.gog.com
 # 185.38.21.84
 # 216.98.48.133
 # Einträge gelten nur zusammen mit dem UPLay Launcher
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 storage.ubi.com
 0.0.0.0 onlineconfigservice.ubi.com
 
 # South Park™: The Stick of Truth™ | Steamversion
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Silent Hunter® III
 0.0.0.0 gsconnect.ubisoft.com # Mehrspielermodus seitens Ubisoft abgeschaltet
@@ -13094,7 +15741,13 @@ gameplay.gog.com
 
 # UFO Interactive Games
 # Raiden V: Director's Cut | 雷電 V Director's Cut | 雷電V:導演剪輯版
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Ultima Games
 # Gift To Humanity | Aktualisiert 26.02.2019
@@ -13146,9 +15799,19 @@ gameplay.gog.com
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
+# UmaikiGames
+# Skellboy Refractured
+# UnityCrashHandler64.exe
+
 # United Soft Media
 # Catan Universe
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 stats.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -13190,15 +15853,19 @@ gameplay.gog.com
 0.0.0.0 uca.cloud.unity3d.com
 0.0.0.0 sdk-diagnostics.prd.mz.internal.unity3d.com
 0.0.0.0 auction.unityads.unity3d.com
-0.0.0.0 nginx-auction-prdgcp.adsx.unityads.unity3d.com
 0.0.0.0 cdn-creatives-highwindsprd.unityads.unity3d.com
 0.0.0.0 auiopt.unityads.unity3d.com
 0.0.0.0 cdn-store-icons-highwindsprd.unityads.unity3d.com
 0.0.0.0 httpkafka.unityads.unity3d.com
 0.0.0.0 publisher-config.unityads.unity3d.com
-0.0.0.0 ads-gameconfiguration.unityads.unity3d.com
 0.0.0.0 ecommerce.iap.unity3d.com
 0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 nginx-auction-prd-gcp.adsx.unityads.unity3d.com
+0.0.0.0 ads-game-configuration.unityads.unity3d.com
+0.0.0.0 cdn-creatives-akamaistls-prd.unityads.unity3d.com
+0.0.0.0 cdn-store-icons-akamai-ord.unityads.unity3d.com
+0.0.0.0 ads-brand-postback.unityads.unity3d.com
+0.0.0.0 adserver.unityads.unity3d.com
 # Zuständig für Schnüffelei in Spielen
 # Erfasste Daten werden je nach Nutzerherkunft an USC "z.b. Usa", EUW "z.b. Deutschland"" oder APE "z.b. Japan" von der Perf-Events aus weitergeleitet. Ips gehören dazu.
 # Ip/s blockieren:
@@ -13271,18 +15938,36 @@ gameplay.gog.com
 
 # Unfold Games
 # Darq
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 stats.unity3d.com
 
 # Upper Class Walrus
 # Fort Meow
 # + Facebook & Twitter
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.surpriseattackgames.com
 
 # upjers GmbH
 # Idle Kingdom Builder
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 up-trans-web1.wavecloud.de
 #0.0.0.0 idlekingdombuilder.upjers.com # Savegame, Zeitstempel, sämtliche Ingametexte, erfasste GeräteID, UUID
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -13293,7 +15978,13 @@ gameplay.gog.com
 0.0.0.0 up-partner.com
 
 # My Little Farmies
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
 # 23.211.1.74
 0.0.0.0 airdownload2.adobe.com
@@ -13305,7 +15996,7 @@ gameplay.gog.com
 0.0.0.0 ug-appserver.appspot.com # DailySeed Token? Übermittelter Zeitstempel
 # Streaminganbindung
 #0.0.0.0 mixer.com # Streamingdienst 1
-0.0.0.0 unpkg.com # Werbung
+#0.0.0.0 unpkg.com # Werbung
 #0.0.0.0 api.twitch.tv # Streamingdienst 2
 #0.0.0.0 id.twitch.tv
 #0.0.0.0 passport.twitch.tv
@@ -13320,7 +16011,13 @@ gameplay.gog.com
 # Vector Unit
 # Riptide GP: Renegade
 # Twitter, Facebook
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 vectorunit-rgpr.appspot.com
 0.0.0.0 vectorunit-cloud.appspot.com
 
@@ -13350,11 +16047,17 @@ gameplay.gog.com
 # 172.217.18.163
 # 143.204.98.107
 0.0.0.0 www.google-analytics.com # Usertracking
-0.0.0.0 pki-goog.l.google.com
+#0.0.0.0 pki-goog.l.google.com
 0.0.0.0 airdownload2.adobe.com # nochmal Usertracking
 0.0.0.0 e4578.dscb.akamaiedge.net # AdobeAIR
 0.0.0.0 dljfuxfdiar5z.cloudfront.net # Grafiken für Ingamewerbung Banner
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 server-143-204-98-107.fra50.r.cloudfront.net
 0.0.0.0 fra15s46-in-f8.1e100.net
 0.0.0.0 fra15s29-in-f3.1e100.net
@@ -13362,7 +16065,13 @@ gameplay.gog.com
 
 # The Banner Saga II
 # Über das Spiel direkt aufgerufen
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 stoicstudio.com # News
 0.0.0.0 www.google-analytics.com # ID, Spracheinstellungen, Monitoreinstellungen & diverse andere Daten
 0.0.0.0 airdownload2.adobe.com
@@ -13428,7 +16137,13 @@ gameplay.gog.com
 0.0.0.0 www.vertigogaming.net
 
 # Cook, Serve, Delicious! 2!!
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 ping.yoyogames.com
 0.0.0.0 metricsforfriends.zachbarth.webfactional.com
 
@@ -13501,7 +16216,13 @@ gameplay.gog.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Dungeon Creepster, Pain Train und Phantom Soldier
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 
@@ -13559,7 +16280,13 @@ gameplay.gog.com
 
 # Walter Machado
 # UBERMOSH Vol.5
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Warcave, Crazy Monkey Studios
 # War Party
@@ -13569,7 +16296,13 @@ gameplay.gog.com
 # 35.190.88.234
 # 35.241.52.229
 # 74.125.200.100
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-analytics.com # UA-26276791-10
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -13661,7 +16394,13 @@ gameplay.gog.com
 
 # Wayward Prophet
 # World's Dawn
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Wb Games
 # Injustice™ 2
@@ -13743,18 +16482,33 @@ gameplay.gog.com
 # 35.190.88.234
 # 35.241.52.229
 # 172.217.25.110
-# s. Steam: General Directory Server
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 www.google-analytics.com
+0.0.0.0 www-google-analytics.l.google.com
 
 # Weixi Studio
 # Blood Code
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Whalegun
 # UTOPIA 9 - A Volatile Vacation
@@ -13785,7 +16539,13 @@ gameplay.gog.com
 # 35.241.26.53
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -13795,7 +16555,13 @@ gameplay.gog.com
 
 # Winged Cloud
 # Sakura Clicker
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Winking Entertainment
 # Heroine Anthem Zero -Sacrifice-
@@ -13884,7 +16650,13 @@ gameplay.gog.com
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -13912,7 +16684,13 @@ gameplay.gog.com
 # Sonstiges
 # 114.80.187.75
 0.0.0.0 tinychinacdnweb.qiniu.com.w.kunlunno.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Xander’s Corgi Arcade
 # Corgi Warlock
@@ -13923,7 +16701,13 @@ gameplay.gog.com
 
 # Xbox Game Studios | Microsoft Corporation | Microsoft Games
 # Deadlight
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Gears 5
 # Achtung! Außer der Anmelde und Registrierung wurden sämtliche Onlinefunktionen, Telemetrie und Datenerfassung deaktiviert
@@ -14037,7 +16821,13 @@ gameplay.gog.com
 0.0.0.0 notification-prod.svc.gearsofwar.net
 
 # Halo: Spartan Assault
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Halo: The Masterchief Collection
 # s. Rubrik Kopierschutz / AntiCheat
@@ -14162,12 +16952,18 @@ gameplay.gog.com
 0.0.0.0 communitysiteswest.azureedge.net
 #0.0.0.0 oss.maxcdn.com # HTML5SHIV
 0.0.0.0 assets.juicer.io
-0.0.0.0 unpkg.com
+#0.0.0.0 unpkg.com
 #0.0.0.0 code.jquery.com
 0.0.0.0 www.google-analytics.com
 
 # Ori and the Blind Forest
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 0.0.0.0 ori.rtep.msgamestudios.com
 
 # Ori and the Blind Forest: Definitive Edition
@@ -14296,7 +17092,13 @@ gameplay.gog.com
 # Ip/s blockieren:
 # 216.58.207.208
 # 40.68.232.16
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 steamcloud-eu-ams.storage.googleapis.com
 #0.0.0.0 steamcloudams2.blob.core.windows.net
 
@@ -14367,15 +17169,33 @@ gameplay.gog.com
 # 205.196.6.68
 
 # SENRAN KAGURA Bon Appétit! - Full Course
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Xitilon
 # Nogibator: Way Of Legs
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # XSEED Games & Marvelous USA, Inc.
 # SENRAN KAGURA SHINOVI VERSUS
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # デモンエクスマキナ | DAEMON X MACHINA
 # Ip/s blockieren:
@@ -14406,7 +17226,13 @@ gameplay.gog.com
 
 # YDKR
 # DPS Idle
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Yiming
 # Zombie Flick | 僵尸快打
@@ -14434,7 +17260,13 @@ gameplay.gog.com
 
 # Zachtronics
 # Infinifactory
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # ZA/UM
 # Disco Elysium
@@ -14457,7 +17289,13 @@ gameplay.gog.com
 # Ip/s blockieren:
 # 207.38.86.247
 0.0.0.0 nulyu.zachtronics.webfactional.com
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # Zakos Games
 # Shonen Idle Z
@@ -14515,7 +17353,13 @@ gameplay.gog.com
 
 # Zoo Corporation
 # Princess Kaguya: Legend of the Moon Warrior
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
 
 # ZoopTEK
 # Super Cat Herding: Totally Awesome Edition
@@ -14532,4 +17376,10 @@ gameplay.gog.com
 
 # ZOV GAME STUDIO
 # To The Light
-# s. Steam: General Directory Server
+# 208.64.200.105
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 208-64-200-105.steampowered.com
+0.0.0.0 a1737.b.akamai.net
