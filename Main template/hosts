@@ -357,7 +357,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 atom.io # Releaseabgleich
 #0.0.0.0 atom-installer.github.com # Downloadquellen
 #0.0.0.0 raw.githubusercontent.com
-0.0.0.0 avatars.githubusercontent.com
+#0.0.0.0 avatars.githubusercontent.com
 # Telemetrie / Metrics
 #0.0.0.0 central.github.com # Ping und Download von Github Software
 0.0.0.0 david-dm.org # mectrics.svg
