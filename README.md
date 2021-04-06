@@ -34,7 +34,7 @@ Supporting german, english and japanese language
 # Attention! Some programs can cause trouble:
 Since I specify connections per product and thus also duplicate entries and strict block "critical" processes (e.g. Windows Spyware, some activation services), it's difficult sometimes. Manufacturers do not like this approach, take the initiative and the hosts will be deleted from your system or will be strongly modified without a hint.<br>
 - Kaspsersky Internet Security requires an exception rule
-- Microsoft Windows Defender exception requires an exception rule
+- Microsoft Windows Defender requires an exception rule
 - IoBIT Driver Booster deletes mostly every AWS entry
 - WiseCare also modify the hosts
 - Malwarebytes makes false statements when certain entries are in the file and changes the hosts as well
