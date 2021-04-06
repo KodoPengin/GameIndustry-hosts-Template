@@ -31,9 +31,9 @@ Source: <a href="https://www.gameindustry.eu/downloads/">GameIndustry Downloads<
 
 Supporting german, english and japanese language
 
-# Cons - Some programs can cause trouble:
-Since I specify connections per product and thus also duplicate entries, block critical processes (e.g. Windows Spyware, some activation services), it's difficult sometimes. Manufacturers do not like this approach and take the initiative and the hosts will be deleted from your system or strongly modified without a hint<br><br>
-- For Kaspsersky Internet Security requires an exception rule
+# Attention! Some programs can cause trouble:
+Since I specify connections per product and thus also duplicate entries and strict block "critical" processes (e.g. Windows Spyware, some activation services), it's difficult sometimes. Manufacturers do not like this approach and take the initiative and the hosts will be deleted from your system or strongly modified without a hint.<br>
+- Kaspsersky Internet Security requires an exception rule
 - Microsoft Windows Defender exception requires an exception rule
 - IoBIT Driver Booster deletes mostly every AWS entry
 - WiseCare also modify the hosts
