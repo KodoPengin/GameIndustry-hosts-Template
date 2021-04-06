@@ -38,7 +38,7 @@ Since I specify connections per product and thus also duplicate entries and stri
 - IoBIT Driver Booster deletes mostly every AWS entry
 - WiseCare also modify the hosts
 - Malwarebytes makes false statements when certain entries are in the file and changes the hosts as well
-<br>
+
 If you use any of these programs, you should look carefully which rights they take, which and why error messages are displayed and which files they can modified.
 
 # Installation for Windows and other systems:
