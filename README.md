@@ -32,7 +32,7 @@ Source: <a href="https://www.gameindustry.eu/downloads/">GameIndustry Downloads<
 Supporting german, english and japanese language
 
 # Attention! Some programs can cause trouble:
-Since I specify connections per product and thus also duplicate entries and strict block "critical" processes (e.g. Windows Spyware, some activation services), it's difficult sometimes. Manufacturers do not like this approach and take the initiative and the hosts will be deleted from your system or strongly modified without a hint.<br>
+Since I specify connections per product and thus also duplicate entries and strict block "critical" processes (e.g. Windows Spyware, some activation services), it's difficult sometimes. Manufacturers do not like this approach, take the initiative and the hosts will be deleted from your system or will be strongly modified without a hint.<br>
 - Kaspsersky Internet Security requires an exception rule
 - Microsoft Windows Defender exception requires an exception rule
 - IoBIT Driver Booster deletes mostly every AWS entry
@@ -40,6 +40,8 @@ Since I specify connections per product and thus also duplicate entries and stri
 - Malwarebytes makes false statements when certain entries are in the file and changes the hosts as well
 
 If you use any of these programs, you should look carefully which rights they take, which and why error messages are displayed and which files they can modified.
+
+Safety does not automatically mean safety in the way we as end users imagine it. Especially since manufacturers and publisher who promise us security often work to their own advantage.
 
 # Installation for Windows and other systems:
 Windows: %SystemRoot%\System32\drivers\etc\hosts<br>
