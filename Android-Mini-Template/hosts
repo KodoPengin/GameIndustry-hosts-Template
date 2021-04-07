@@ -105,8 +105,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn-f.adsmoloco.com
 0.0.0.0 tr-us.adsmoloco.com
 
-# Akamai
+# Akamai Technologies
 0.0.0.0 e12930.dsckd.akamaiedge.com
+0.0.0.0 e9659.dspg.akamaiedge.com
+0.0.0.0 a1522.w73.akamai.net
+0.0.0.0 e27573.b.akamaiedge.net
 
 # Amazon Cloud Service | AWS
 0.0.0.0 lion-www.s3.amazonaws.com
@@ -825,7 +828,7 @@ ff02::3 ip6-allhosts
 
 # Unsortiert
 0.0.0.0 2mdn.net 
-0.0.0.0 a1522.w73.akamai.net
+
 0.0.0.0 adam.gslb.toastoven.net
 0.0.0.0 ads.adsymptotic.com
 0.0.0.0 ads.mdotm.com
@@ -839,10 +842,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 beacons3.gvt2.com
 0.0.0.0 beacons4.gvt2.com
 0.0.0.0 config.eastus-ssp.appgwv2.inmobi.com
-0.0.0.0 dartmotif.net 
-0.0.0.0 e9659.dspg.akamaiedge.com
+0.0.0.0 dartmotif.net
 0.0.0.0 eh.supermembers.net
 0.0.0.0 events-dre.op.hicloud.com.edgekey.net
+0.0.0.0 sdkserver-dre.op.hicloud.com.edgekey.net
 0.0.0.0 events.fgol.mobi
 0.0.0.0 evt.mxplay.com
 0.0.0.0 f.aduwant.com
