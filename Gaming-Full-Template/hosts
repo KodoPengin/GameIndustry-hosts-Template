@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 01.04.2021
+# Änderungsdatum: 07.04.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -3866,7 +3866,7 @@ ff02::3 ip6-allhosts
 # 37.244.28.104
 # Zusätzliche alle Launcher Verbindungen
 #0.0.0.0 eu.actual.battle.net
-0.0.0.0 nydus.battle.net
+#0.0.0.0 nydus.battle.net
 #0.0.0.0 eu.launcher.battle.net
 #0.0.0.0 EU.depot.battle.net
 
@@ -8143,70 +8143,11 @@ ff02::3 ip6-allhosts
 
 # Hello Games
 # No Man’s Sky
-# 40.79.65.200
-# 40.127.226.74
-# 20.54.32.47
-# 44.236.210.51
-0.0.0.0 pc-nms-auth.nomanssky.com
-0.0.0.0 waws-prod-bn1-033.cloudapp.net
-0.0.0.0 prodpc-nmso-blobserve.azurewebsites.net
-0.0.0.0 prodpc-nmso-discoverypipeline.azurewebsites.net
-0.0.0.0 prodpc-nms-images.nomanssky.com
-# Onlinezwang mit Telemetrie verknüpft - Bei Bedarf für Mehrspielermodi und Onlinefunktionen freischalten
-# 34.218.159.2
-# 34.212.67.193
-# 44.241.93.30
-# 52.34.177.175
-0.0.0.0 a247c.playfabapi.com # Telemetry Events, Multiplayerserver, Clientlogin, Objectdata, Matchmaking, Partyrequests
-0.0.0.0 p-a247c-mainserver-800395549.us-west-2.elb.amazonaws.com
-# Microsoft Speech
-# 40.82.255.0
-0.0.0.0 westus.tts.speech.microsoft.com
-0.0.0.0 tts-ingress-prod7.westus.cloudapp.azure.com
-# Nochmal Telemetrie/Spyware
-# Ip/s blockieren:
-# 52.201.163.195
-# 54.156.235.193
-# 3.230.190.87
-# 34.235.76.210
-# 34.232.158.101
-# 54.210.178.45
-# 52.54.160.160
-# 3.95.84.175
-0.0.0.0 api.gameanalytics.com
-0.0.0.0 ec2-54-156-235-193.compute-1.amazonaws.com
-0.0.0.0 ec2-3-230-190-87.compute-1.amazonaws.com
-# Mehrspielerserver
-# 51.136.18.233
-# 137.135.201.29
-# 52.167.1.193
-# 138.91.117.92
-# 40.74.72.97
-# 52.162.214.5
-# 52.175.55.156
-# 168.63.239.108
-# 23.97.97.114
-# 138.91.17.112
-# 40.115.66.5
-# 52.187.224.118
-# 104.42.219.41
-# 23.98.144.17
-# 168.61.145.218
-#0.0.0.0 pfmsqosprod.westus.cloudapp.azure.com # West US
-#0.0.0.0 xblcxplatqos-scus-9-18-2-0.cloudapp.net # South Central US
-#0.0.0.0 blcxplatqos-cus-9-18-2-0.cloudapp.net # Central US
-#0.0.0.0 pfmsqosprod.northcentralus.cloudapp.azure.com # North Central US
-#0.0.0.0 xblcxplatqos-eus-9-18-2-0.cloudapp.net # East US
-#0.0.0.0 fmsqosprod.eastus2.cloudapp.azure.com # East US 2
-#0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net # Brazil South
-#0.0.0.0 xblcxplatqos-neu-9-18-2-0.cloudapp.net # North Europe
-#0.0.0.0 pfmsqosprod.westeurope.cloudapp.azure.com # West Europe
-#0.0.0.0 xblcxplatqos-seas-9-18-2-0.cloudapp.net # South East Asia
-#0.0.0.0 pfmsqosprod.eastasia.cloudapp.azure.com # East Asia
-#0.0.0.0 pfmsqosprod.japanwest.cloudapp.azure.com # Japan West
-#0.0.0.0 xblcxplatqos-jae-9-18-2-0.cloudapp.net # Japan East
-#0.0.0.0 xblcxplatqos-ause-9-18-2-0.cloudapp.net # Australia South East
-#0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com # Australia East
+# 40.71.11.147
+#0.0.0.0 merged-nms-auth.nomanssky.com
+#0.0.0.0 merged-nms-discovery.nomanssky.com
+#0.0.0.0 merged-nms-blobserve.nomanssky.com
+#0.0.0.0 waws-prod-blu-175.cloudapp.net
 
 # Hello There Games
 # Teakwondo Grand Prix
@@ -9206,7 +9147,7 @@ ff02::3 ip6-allhosts
 # Mehrspielermodus
 # 82.165.136.129
 #0.0.0.0 dungeonsmp.kalypsolauncher.com
-#0.0.0.0 matchmaking.realmforgestudios.com
+0.0.0.0 matchmaking.realmforgestudios.com
 
 # Sudden Strike IV | Aktualisiert 14.03.2019
 # Ip/s blockieren:
@@ -10899,6 +10840,43 @@ ff02::3 ip6-allhosts
 0.0.0.0 script.google.com
 0.0.0.0 script.googleusercontent.com
 
+# NIMBLE NEURON CORPORATION
+# Eternal Return: Black Survival
+# 143.204.101.172
+# 13.248.189.207
+# 54.89.139.187
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+# 34.197.4.75
+# 35.173.108.10
+# 52.86.216.161
+# 52.72.206.79
+# 52.54.255.164
+# 52.72.253.177
+# 54.227.248.76
+# 34.202.37.51
+# 54.86.132.239
+# 54.175.170.211
+# 54.156.196.212
+# 3.88.125.241
+#0.0.0.0 d1wkxvul68bth9.cloudfront.net
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+#0.0.0.0 bser-gamedb-release.bser.io
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+#0.0.0.0 a72c43761149afc32.awsglobalaccelerator.com
+
 # Ninja Kiwi Ltd.
 # Anmerkung
 # Für verschiedene Produkte von Ninja Kiwi gilt Onlinezwang mitsamt Google Anbindung, da diverse Dinge immer dringend aus dem Internet nachgeladen werden "müssen"
@@ -11847,6 +11825,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Train Mechanic Simulator 2017
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -12554,7 +12543,19 @@ ff02::3 ip6-allhosts
 
 # Rival Games Ltd
 # Thief of Thieves
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
@@ -14031,7 +14032,25 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamcloudams2.blob.core.windows.net
 
 # Outriders
-# s. Rubrik Kopierschutz / AntiCheat
+# Hydra Ipv4/Adressen - https://gameindustry.eu/artikel/easy-anti-cheat/
+# Gesamtüberblick - https://gameindustry.eu/search/?suchbegriff=Outriders&suche
+#0.0.0.0 hydra.easyanticheat.net
+#0.0.0.0 download.eac-cdn.com
+#0.0.0.0 download-alt.easyanticheat.net
+#0.0.0.0 gossip.easyanticheat.net
+#0.0.0.0 d168vncdejh91z.cloudfront.net
+#0.0.0.0 see-madness.os.eidos.com
+#0.0.0.0 cerberus-front.easyanticheat.net
+#0.0.0.0 swhjatq.x.incapdns.net
+#0.0.0.0 928F6.playfabapi.com
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
+#0.0.0.0 p-9cbf7-mainserver-356580755.us-west-2.elb.amazonaws.com
+#0.0.0.0 see-madness-cdn.os.eidos.com
+#0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
+#0.0.0.0 gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com
+
+# Outriders DEMO
+# Hydra Ipv4/Adressen - https://gameindustry.eu/artikel/easy-anti-cheat/
 # 31.31.168.30
 # 52.40.143.66
 # 45.60.65.134
@@ -14519,7 +14538,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
 
-# Tate Multimedia
+# Tate Multimedia S.A.
 # Kao the Kangaroo: Round 2
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
@@ -14528,6 +14547,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
+
+# Steel Rats™
+# Dazugehörige IP-Adressen unter https://gameindustry.eu/firmenkatalog/epic-games-inc/
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 ec2-52-23-27-246.compute-1.amazonaws.com
+0.0.0.0 ec2-54-209-147-245.compute-1.amazonaws.com
 
 # Team17 Digital Ltd
 # Alien Breed: Impact
@@ -15037,7 +15063,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.flox.cc
 0.0.0.0 airdownload2.adobe.com
 0.0.0.0 a279.dscq.akamai.net
-0.0.0.0 ghs.googlehosted.com
+#0.0.0.0 ghs.googlehosted.com
 0.0.0.0 e4578.dscb.akamaiedge.net
 
 # GARAGE: Bad Trip
