@@ -537,7 +537,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 b639c.playfabapi.com
 0.0.0.0 769c.playfabapi.com
 0.0.0.0 f2ecb.playfabapi.com # Idle Factory
-#0.0.0.0 dc4bb.playfabapi.com # AdVentureAges
 0.0.0.0 cdn.playfab.com
 # Microsoft Windows.net & Azurewebsites
 # 104.209.197.87
@@ -838,6 +837,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.nexage.com
 0.0.0.0 adsenseformobileapps.com
 0.0.0.0 agd-policy.nhn.com
+0.0.0.0 api.armorgames.com # Soda Dungeon
 0.0.0.0 api.ipify.org
 0.0.0.0 api.leanplum.com
 0.0.0.0 app-router.leancloud.cn
