@@ -116,6 +116,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 elb-p-sa-dls-ew1-1752418205.eu-west-1.elb.amazonaws.com
 0.0.0.0 fe-pew1-ext-openapi-lb-547958838.eu-west-1.elb.amazonaws.com
 0.0.0.0 dszw6uu4t9.execute-api.us-east-1.amazonaws.com
+0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
 # Amplitude
 0.0.0.0 api.amplitude.com
@@ -525,14 +526,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 tigger-citadel.touchtype-fluency.com
 0.0.0.0 oneclient.sfx.ms
 # Microsoft Azure Playfab
+# Playfab kombiniert Onlinezwang von Spielen und Programmen mit Analytics und Telemetrie
 0.0.0.0 59d2c.playfabapi.com
 0.0.0.0 b639c.playfabapi.com
 0.0.0.0 769c.playfabapi.com
+0.0.0.0 f2ecb.playfabapi.com # Idle Fatory
 0.0.0.0 cdn.playfab.com
 # Microsoft Windows.net & Azurewebsites
 # 104.209.197.87
 0.0.0.0 ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net
-0.0.0.0 ffg-analytics-functions3nvxfne4dp4s.azurewebsites.net
+0.0.0.0 ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 # Microsoft Skype
 0.0.0.0 config.edge.skype.com
 
