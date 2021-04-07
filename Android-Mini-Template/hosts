@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
-# Änderungsdatum: 01.04.2021
+# Änderungsdatum: 07.04.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -234,6 +234,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 reports.crashlytics.com
 0.0.0.0 crashlytics.l.google.com
 0.0.0.0 crashlytics2.l.google.com
+0.0.0.0 firebase-settings.crashlytics.com
 
 # Crittercism
 0.0.0.0 api.crittercism.com
@@ -247,6 +248,8 @@ ff02::3 ip6-allhosts
 
 # DeltaDNA Analytics
 0.0.0.0 collect4739mgndm.deltadna.net
+0.0.0.0 balanced-engage.deltadna.net
+0.0.0.0 engage17070dvntr.deltadna.net
 
 # Exitgames
 0.0.0.0 ns.exitgames.com
@@ -506,6 +509,10 @@ ff02::3 ip6-allhosts
 # Lnk
 0.0.0.0 lnk8.cn
 0.0.0.0 lnk0.com
+
+# Logz
+0.0.0.0 listener.logz.io
+0.0.0.0 listener-group.logz-data.com
 
 # Measuremmentapi
 0.0.0.0 measurementapi.com
@@ -783,6 +790,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dsp.api.vungle.com
 0.0.0.0 ads.api.vungle.com
 0.0.0.0 cdn-lb.vungle.com
+0.0.0.0 vungle2-cdn-prod.s3.amazonaws.com
 
 # Webtrekk
 0.0.0.0 geid.wbtrk.net
@@ -813,45 +821,47 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.api.yyapi.net
 
 # Unsortiert
-0.0.0.0 rm.aarki.net
-0.0.0.0 soma.smaato.net
-0.0.0.0 ads.adsymptotic.com
-0.0.0.0 ox-d.mobile.servedbyopenx.com
-0.0.0.0 ads.mdotm.com
-0.0.0.0 secure.fastclick.net
-0.0.0.0 adsenseformobileapps.com
 0.0.0.0 2mdn.net 
-0.0.0.0 dartmotif.net 
-0.0.0.0 app-router.leancloud.cn
+0.0.0.0 a1522.w73.akamai.net
+0.0.0.0 adam.gslb.toastoven.net
+0.0.0.0 ads.adsymptotic.com
+0.0.0.0 ads.mdotm.com
 0.0.0.0 ads.nexage.com
-0.0.0.0 f.aduwant.com
-0.0.0.0 e9659.dspg.akamaiedge.com
-0.0.0.0 aviaotpusk.ru # Highscorelisten
-0.0.0.0 s.go-mpulse.net
-0.0.0.0 logs1204.xiti.com
+0.0.0.0 adsenseformobileapps.com
+0.0.0.0 agd-policy.nhn.com
 0.0.0.0 api.ipify.org
-0.0.0.0 gllto.glpals.com
-0.0.0.0 events.fgol.mobi
-0.0.0.0 wins.isprog.com
-0.0.0.0 k.isprog.com
-0.0.0.0 sdk-api.hqmonitor.io
-0.0.0.0 iapverificator2.beresnev.games
-0.0.0.0 ip-api.com
-0.0.0.0 static.hyprmx.com
-0.0.0.0 o315582.ingest.sentry.io
-0.0.0.0 statgw.devtodev.com
-0.0.0.0 sensors.yodo1api.com
-0.0.0.0 mega.ikame.vn
-0.0.0.0 splash.unity.cn
-0.0.0.0 matrix.dailyinnovation.biz
-0.0.0.0 server.bidstack.com
-0.0.0.0 evt.mxplay.com
+0.0.0.0 api.leanplum.com
+0.0.0.0 app-router.leancloud.cn
+0.0.0.0 aviaotpusk.ru # Highscorelisten
 0.0.0.0 beacons3.gvt2.com
 0.0.0.0 beacons4.gvt2.com
-0.0.0.0 api.leanplum.com
-0.0.0.0 www.leanplum.com
-0.0.0.0 agd-policy.nhn.com
-0.0.0.0 adam.gslb.toastoven.net
+0.0.0.0 config.eastus-ssp.appgwv2.inmobi.com
+0.0.0.0 dartmotif.net 
+0.0.0.0 e9659.dspg.akamaiedge.com
 0.0.0.0 eh.supermembers.net
-0.0.0.0 a1522.w73.akamai.net
 0.0.0.0 events-dre.op.hicloud.com.edgekey.net
+0.0.0.0 events.fgol.mobi
+0.0.0.0 evt.mxplay.com
+0.0.0.0 f.aduwant.com
+0.0.0.0 gllto.glpals.com
+0.0.0.0 iapverificator2.beresnev.games
+0.0.0.0 ip-api.com
+0.0.0.0 k.isprog.com
+0.0.0.0 logs1204.xiti.com
+0.0.0.0 matrix.dailyinnovation.biz
+0.0.0.0 mega.ikame.vn
+0.0.0.0 o315582.ingest.sentry.io
+0.0.0.0 ox-d.mobile.servedbyopenx.com
+0.0.0.0 rm.aarki.net
+0.0.0.0 s.go-mpulse.net
+0.0.0.0 sdk-api.hqmonitor.io
+0.0.0.0 secure.fastclick.net
+0.0.0.0 sensors.yodo1api.com
+0.0.0.0 server.bidstack.com
+0.0.0.0 soma.smaato.net
+0.0.0.0 splash.unity.cn
+0.0.0.0 statgw.devtodev.com
+0.0.0.0 static.hyprmx.com
+0.0.0.0 track.atom-data.io
+0.0.0.0 wins.isprog.com
+0.0.0.0 www.leanplum.com
