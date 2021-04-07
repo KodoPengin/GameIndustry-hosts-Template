@@ -9,11 +9,11 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Androidspiele und Programme - Komplette Version
-# Änderungsdatum: 08.08.2020
+# Änderungsdatum: 07.04.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
-# Hilfe: https://www.gameindustry.eu/hosts/faq.php
+# Hilfe: https://hosts.gameindustry.eu/faq/
 # Kontakt: https://www.gameindustry.eu/u/kontakt/
 # Steam: https://www.steamcommunity.com/groups/Penguindome
 #
@@ -28,7 +28,7 @@
 #
 # ---Ab hier kopieren ---
 
-# Adobe
+# Adobe, Inc.
 # Adobe Acrobat Reader
 0.0.0.0 graph.facebook.com
 0.0.0.0 ims-na1.adobelogin.com
@@ -58,11 +58,15 @@
 0.0.0.0 settings.crashlytics.com
 0.0.0.0 device-control.ff.avast.com
 
-# Abfallwirtschaftsgesellschaft des Kreises Warendorf mbH 
+# Abfallwirtschaftsgesellschaft des Kreises Warendorf GmbH 
 # Tonnennticker Pro
 # 91.102.137.86
 #0.0.0.0 krwaf-abfallapp.regioit.de # Kategorienamen, Orte, Straßen, Termine, Abholbezirke
 0.0.0.0 www.borgholzhausen.de # Werbebanner unter Aktuelles
+0.0.0.0 geocoderproxy.appspark-sevices.de
+#0.0.0.0 csi.gstatic.com
+0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 app-measurement.com
 
 # Bling Bling Games GmbH
 # Idle Tycoon: Space Colony
@@ -317,13 +321,32 @@
 # Huawei Swype
 0.0.0.0 api-swype.swypeconnect.com
 
+# Hyper Hippo
+# Adventure Ages
+# Mit Onlinezwang verknüpfte Analytics
+#0.0.0.0 p-hyper-hippo-mainserver-815458781.us-west-2.elb.amazonaws.com
+#0.0.0.0 dc4bb.playfabapi.com
+0.0.0.0 ms.applvn.com
+0.0.0.0 rt.applovin.com
+0.0.0.0 d.applovin.com
+0.0.0.0 d.applvn.com
+0.0.0.0 screenzilla.helpshift.com
+0.0.0.0 launches.appsflyer.com
+0.0.0.0 engage17070dvntr.deltadna.net
+0.0.0.0 collect17070dvntr.deltadna.net
+0.0.0.0 ecommerce.iap.unity3d
+0.0.0.0 hyperhippo.ssl.hwcdn.net
+0.0.0.0 in.appcenter.ms
+0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 graph.facebook.com
+
 # iKame Games
 # Idle Prison Tycoon
 0.0.0.0 graph.facebook.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 config.unityads.unity3d.com
 0.0.0.0 ecommerce.iap.unity3d.com
-0.0.0.0 init.supersonicads.com # 
+0.0.0.0 init.supersonicads.com
 0.0.0.0 outcome-ssp.supersonicads.com
 0.0.0.0 supersonicads-a.akamaihd.net
 0.0.0.0 cdp.cloud.unity3d.com
