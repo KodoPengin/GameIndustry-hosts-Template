@@ -58,12 +58,12 @@
 0.0.0.0 settings.crashlytics.com
 0.0.0.0 device-control.ff.avast.com
 
-# Abfallwirtschaftsgesellschaft des Kreises Warendorf GmbH 
+# Abfallwirtschaftsgesellschaft des Kreises Warendorf mbH 
 # Tonnennticker Pro
 # 91.102.137.86
 #0.0.0.0 krwaf-abfallapp.regioit.de # Kategorienamen, Orte, Straßen, Termine, Abholbezirke
 0.0.0.0 www.borgholzhausen.de # Werbebanner unter Aktuelles
-0.0.0.0 geocoderproxy.appspark-sevices.de
+0.0.0.0 geocoderproxy.appspark-services.de
 #0.0.0.0 csi.gstatic.com
 0.0.0.0 firebaseinstallations.googleapis.com
 0.0.0.0 app-measurement.com
