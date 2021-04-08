@@ -43,6 +43,9 @@ If you use any of these programs, you should look carefully which rights they ta
 
 Safety does not automatically mean safety in the way we as end users imagine it. Especially since manufacturers and publisher who promise us security often work to their own advantage.
 
+# Bugs, Mistakes, questions:
+Even me is not perfect and there may be wrong entries or spelling mistakes. If so, do not hesitate to contact me ASAP - Please open a ticket, contact me in Steam or about my website<br>
+
 # Installation for Windows and other systems:
 Windows: %SystemRoot%\System32\drivers\etc\hosts<br>
 Linux: /etc/hosts<br>
