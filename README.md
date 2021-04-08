@@ -43,9 +43,6 @@ If you use any of these programs, you should look carefully which rights they ta
 
 Safety does not automatically mean safety in the way we as end users imagine it. Especially since manufacturers and publisher who promise us security often work to their own advantage.
 
-# Bugs, Mistakes, questions:
-Even me is not perfect and there may be wrong entries or spelling mistakes. If so, do not hesitate to contact me ASAP - Please open a ticket, contact me in Steam or about my website<br>
-
 # Installation for Windows and other systems:
 Windows: %SystemRoot%\System32\drivers\etc\hosts<br>
 Linux: /etc/hosts<br>
@@ -53,6 +50,9 @@ Android: /etc/hosts (a symbolic link to /system/etc/hosts)
 
 # Hints:
 Careful with using entries. Some may be strict and many services may not work
+
+# Bugs, Mistakes, questions:
+Even me is not perfect and there may be wrong entries or spelling mistakes. If so, do not hesitate to contact me ASAP - Please open a ticket, contact me in Steam or about my website. Corrections (if needed) are quickly implemented.
 
 # Copyright, Support & License
 It's a single project. Creating and maintaining the list has taken several years a lot of money and have build alone from scratch.<br><br>
