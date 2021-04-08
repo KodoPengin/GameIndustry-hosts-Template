@@ -321,7 +321,7 @@
 # Huawei Swype
 0.0.0.0 api-swype.swypeconnect.com
 
-# Hyper Hippo
+# Hyper Hippo Productions Ltd.
 # Adventure Ages
 # Mit Onlinezwang verknüpfte Analytics
 #0.0.0.0 p-hyper-hippo-mainserver-815458781.us-west-2.elb.amazonaws.com
@@ -334,7 +334,7 @@
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 engage17070dvntr.deltadna.net
 0.0.0.0 collect17070dvntr.deltadna.net
-0.0.0.0 ecommerce.iap.unity3d
+0.0.0.0 ecommerce.iap.unity3d.com
 0.0.0.0 hyperhippo.ssl.hwcdn.net
 0.0.0.0 in.appcenter.ms
 0.0.0.0 firebaseinstallations.googleapis.com
@@ -732,6 +732,22 @@
 0.0.0.0 ecommerce.iap.unity3d.com
 0.0.0.0 app-measurement.com
 0.0.0.0 sessions.bugsnag.com
+
+# WAZZAPPS
+# Idle Streamer
+0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 api2.amplitude.com
+0.0.0.0 app-measurement.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 inapps.appsflyer.om
+0.0.0.0 conversions.appsflyer.com
+0.0.0.0 launches.appsflyer.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 stat.ad.wazzapps.org
+0.0.0.0 api.wazzapps.com
 
 # YT3 - Youtube Downloader
 0.0.0.0 adimpression.startappservice.com
