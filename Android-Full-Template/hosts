@@ -773,3 +773,13 @@
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 ecommerce.iap.unity3d.com
 0.0.0.0 googleads.g.doubleclick.net
+
+# ZPLAY Games
+# Hamster Maze
+0.0.0.0 graph.facebook.com
+0.0.0.0 conversions.appsflyer.com
+0.0.0.0 app-measurement.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 launches.appsflyer.com
