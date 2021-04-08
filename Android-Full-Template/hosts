@@ -506,7 +506,7 @@
 
 # Lion Studios
 # Cash, Inc.
-# {- Zeitangaben für einzelne Idlebalken laufen serverseitig | Onlinezwang mit Telemetrie -}
+# Zeitangaben für einzelne Idlebalken laufen serverseitig | Onlinezwang mit Telemetrie
 0.0.0.0 config.safedk.com
 0.0.0.0 api.safedk.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -537,6 +537,59 @@
 0.0.0.0 alegrium.helpshift.com
 #0.0.0.0 lbadv.alegrium.com
 #0.0.0.0 lbmarie.alegrium.com
+
+# Lion Studios
+# Girl Genius!
+0.0.0.0 a.applovin.com
+0.0.0.0 ads-game-onfiguration.unityads.unity3d.com
+0.0.0.0 ads.api.vungle.com
+0.0.0.0 adx.g.doubleclick.net
+0.0.0.0 alb-aws-fr-bswx-2-1673521430.eu-central-1.elb.amazonaws.com
+0.0.0.0 analytics.rayjump.com
+0.0.0.0 app-adjust.com
+0.0.0.0 app-measurement.com
+0.0.0.0 assets-share.dspunion.com
+0.0.0.0 auction.unityads.unity3d.com
+0.0.0.0 auiopt.unityads.unity3d.com
+0.0.0.0 aws-fr.bidswitch.net
+0.0.0.0 cdn-creatives-akamaistls-prd.unityads.unity3d.com
+0.0.0.0 cdn-f-adsmoloco.com
+0.0.0.0 cdn2.inner-active.mobi
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 d.applovin.com
+0.0.0.0 d.applvn.com
+0.0.0.0 d2dwuodowqpv4g.cloudfront.net
+0.0.0.0 event.inner-active.mobi
+0.0.0.0 events-lb-1299892453.us-east-1.elb.amazonaws.com
+0.0.0.0 exchange-elb-1566059120.us-east-1.elb.amazonaws.com
+0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 graph.facebook.com
+0.0.0.0 huracan-936647329.us-east-1.elb.amazonaws.com
+0.0.0.0 impression.appsflyer.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 ms.applovin.com
+0.0.0.0 ms.applvn.com
+0.0.0.0 networksdk.ssacdn.com
+0.0.0.0 newplayable.dspunion.com
+0.0.0.0 nginx-auction-prd-gcp.adsx.unityads.unity3d.com
+0.0.0.0 oasis-track-alb-442894360.us-west-2.elb.amazonaws.com
+0.0.0.0 outcome-ssp.supersonicads.com
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 prod-ms.applovin.com
+0.0.0.0 publisher-config.unityads.unity3d.com
+0.0.0.0 rt.applovin.com
+0.0.0.0 sdk-events.inner-active.mobi
+0.0.0.0 spalsh.unity.cn
+0.0.0.0 star.c10r.facebook.com
+0.0.0.0 tr-eu.adsmoloco.com
+0.0.0.0 track.libii.cn
+0.0.0.0 track.oasis.magictavern.com
+0.0.0.0 tracking-vektor-lb-2010006827.eu-west-1.elb.amazonaws.com
+0.0.0.0 tracking.prd.mz.internal.unity3d.com
+0.0.0.0 vector-eu-west-1.aonix.com
+0.0.0.0 web.facebook.com
+0.0.0.0 wv.inner-active.mobi
 
 # Making Fun, Inc.
 # Eternium
@@ -783,6 +836,12 @@
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 stat.ad.wazzapps.org
 0.0.0.0 api.wazzapps.com
+
+# Wetpalm
+# Brain Challenge
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 app-measurement.com
 
 # YT3 - Youtube Downloader
 0.0.0.0 adimpression.startappservice.com
