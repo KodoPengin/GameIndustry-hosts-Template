@@ -799,15 +799,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 auiopt.unityads.unity3d.com
 0.0.0.0 ads-gameconfiguration.unityads.unity3d.com
-0.0.0.0 sdkdiagnostics.prd.mz.internal.unity3d.com
 0.0.0.0 cdn-creatives-highwindsprd.unityads.unity3d.com
-0.0.0.0 cdn-store-icons-highwindsprd.unityads.unity3d.com
 0.0.0.0 adserver.unityads.unity3d.com
 0.0.0.0 ads-brand-postback.unityads.unity3d.com
 0.0.0.0 nginx-auction-prd-gcp.adsx.unityads.unity3d.com
 0.0.0.0 ads-game-configuration.unityads.unity3d.com
 0.0.0.0 cdn-creatives-akamaistls-prd.unityads.unity3d.com
-0.0.0.0 cdn-store-icons-akamai-ord.unityads.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 cdn-store-icons-akamai-prd.unityads.unity3d.com
 
