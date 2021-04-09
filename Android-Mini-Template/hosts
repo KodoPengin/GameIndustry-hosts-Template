@@ -404,6 +404,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 ade.googlesyndication.com
 0.0.0.0 www.googletagmanager.com
+0.0.0.0 www.googletagservices.com
 0.0.0.0 adssettings.google.com
 0.0.0.0 doubleclick.net 
 0.0.0.0 doubleclick.com 
@@ -807,6 +808,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads-game-configuration.unityads.unity3d.com
 0.0.0.0 cdn-creatives-akamaistls-prd.unityads.unity3d.com
 0.0.0.0 cdn-store-icons-akamai-ord.unityads.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 cdn-store-icons-akamai-prd.unityads.unity3d.com
 
 # Upltv
 0.0.0.0 ads-sdk.upltv.com
@@ -861,7 +864,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adtrack1.midasplayer.com
 0.0.0.0 agd-policy.nhn.com
 0.0.0.0 api.armorgames.com # Soda Dungeon
-0.0.0.0 api.armorgamesstudios.com # Soda Dungeon 2
+0.0.0.0 api.armorgamesstudios.com # Soda Dungeon
 0.0.0.0 api.ipify.org
 0.0.0.0 api.leanplum.com
 0.0.0.0 app-router.leancloud.cn
