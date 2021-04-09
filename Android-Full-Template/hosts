@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Androidspiele und Programme - Komplette Version
-# Änderungsdatum: 08.04.2021
+# Änderungsdatum: 09.04.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -739,6 +739,27 @@
 0.0.0.0 firebaseinstallations.googleapis.com
 0.0.0.0 digitalassetlinks.googleapis.com
 
+# Rockbite Games
+# Sandship: Crafting Factory
+0.0.0.0 inapps.appsflyer.com
+0.0.0.0 launches.appsflyer.com
+0.0.0.0 conversions.appsflyer.com
+0.0.0.0 gcdsdk.appsflyer.com
+0.0.0.0 scontent-dus1-1.xx.fbcdn.net
+0.0.0.0 crashlytics2.l.google.com
+0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 star.c10r.facebook.com
+0.0.0.0 app-measurement.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 sandship-news.s3.us-west-1.amazonaws.com
+0.0.0.0 ss-news-gateway.svc.rockbitegames.com
+0.0.0.0 rockbite.helpshift.com
+0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 firebaseremoteconfig.googleapis.com
+0.0.0.0 www.googletagservices.com
+0.0.0.0 tpc.googlesyndicytion.com
+
 # SEGA
 # Sonic Dash
 0.0.0.0 ads.mopub.com
@@ -777,6 +798,50 @@
 0.0.0.0 api.ipify.org
 0.0.0.0 sdk.yolanda.hk
 0.0.0.0 www.youduoyun.com # Hilfeseiten
+
+# STORMX Co., Ltd.
+# Foodpia Tycoon - Idle restaurant
+0.0.0.0 httpkafka.unityads.unity3d.com
+0.0.0.0 841f20eada1de78d939f5f84b3f65502-1712114959.us-west-2.elb.amazonaws.com
+0.0.0.0 adc-ad-assets.adtilt.com
+0.0.0.0 adc3-launch.adcolony.com
+0.0.0.0 ads-game-configuration.unityads.unity3d.com
+0.0.0.0 ads.api.vungle.com
+0.0.0.0 ads30.adcolonly.com
+0.0.0.0 api.vungle.com
+0.0.0.0 app-measurement.com
+0.0.0.0 auioppt.unityads.unity3d.com
+0.0.0.0 c3d-cdn.adcolony.com
+0.0.0.0 cdn-creatives-akamaistls-prd.unityads.unity3d.com
+0.0.0.0 cdn-store-icons-akamai.prd.unityads.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 d.applovin.com
+0.0.0.0 d.applvn.com
+0.0.0.0 dy7k5kb54aar.cloudfront.net
+0.0.0.0 e10204.dsca.akamaiedge.net
+0.0.0.0 e3422.dscd.akamaiedge.net
+0.0.0.0 e5019.e2.akamaiedge.net
+0.0.0.0 events3alt.adcolony.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 metrics.sdkbox.com
+0.0.0.0 ms.applovin.com
+0.0.0.0 ms.applvn.com
+0.0.0.0 nginx-auction-prd-gcp.adsx.unityads.unity3d.com
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 prod-ms.applovin.com
+0.0.0.0 publisher-config.unityads.unity3d.com
+0.0.0.0 r5---sn.h0jeened.googlevideo.com
+0.0.0.0 r5.sn-h0jeened.googlevideo.com
+0.0.0.0 rt.applovin.com
+0.0.0.0 rt.applvn.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 spire.aarki.net
+0.0.0.0 ssl-cdn.adccdn.net.c.frootprint.net
+0.0.0.0 vungle2-cdn-prod.s3.amazonaws.com
+0.0.0.0 wd.adcolony.com
+0.0.0.0 webview.unityads.unity3d.com
+0.0.0.0 z.moatads.com
 
 # SwiftKey
 # SwiftKey-Tastatur
