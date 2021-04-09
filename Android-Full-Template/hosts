@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Androidspiele und Programme - Komplette Version
-# Änderungsdatum: 09.04.2021
+# Änderungsdatum: 10.04.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -371,18 +371,37 @@
 0.0.0.0 events.iap.unity3d.com
 0.0.0.0 t.appsflyer.com
 
-# Idle Planet Miner
-0.0.0. t.appsflyer.com
+# Iron Horse Games LLC
+# Tap Tap Dig 2
+0.0.0.0 outcome-ssp.supersonicads.com
+0.0.0.0 app-measurement.com
+0.0.0.0 connect.tapjoy.com
+0.0.0.0 conversions.appsflyer.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 cdp.coloud.unity3d.com
+0.0.0.0 ssl.google-analytics.com
 0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdn-store-icons-akamai-prd.unityads.unity3d.com
+0.0.0.0 launches.appsflyer.com
 0.0.0.0 ecommerce.iap.unity3d.com
-0.0.0.0 connect.tapjoy.com
-0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 pool.ntp.org
-0.0.0.0 connect.tapjoy.com
-0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 gcdsdk.appsflyer.com
+0.0.0.0 outcome-cdn.supersonicads.com
+0.0.0.0 auiopt.unityads.unity3d.com
+0.0.0.0 cdn-creatives-akamaistls-prd.unityads.unity3d.com
+0.0.0.0 iab-imp-gateway.supersonicads.com
+0.0.0.0 www.googletagservices.com
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 auction.unityads.unity3d.com
+0.0.0.0 tracking.prd.mz.internal.unity3d.com
+0.0.0.0 httpkafka.unityads.unity3d.com
+0.0.0.0 ads-game-configuration.unityads.unity3d.com
+0.0.0.0 publisher-config.unityads.unity3d.com
+0.0.0.0 webview.unityads.unity3d.com
 0.0.0.0 config.unityads.unity3d.com
-0.0.0.0 t.appsflyer.com
-0.0.0.0 sessions.bugsnag.com
+0.0.0.0 pm-gateway.supersonicads.com
+0.0.0.0 networksdk.ssacdn.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 
 # J2 Interactive
 # MX Player
@@ -419,7 +438,6 @@
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 hades.getsocial.im
 0.0.0.0 init.supersonicads.com
-0.0.0.0 outcome-ssp.supersonicads.com
 0.0.0.0 api.ipstack.com
 0.0.0.0 apilayer.net
 0.0.0.0 ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
@@ -427,7 +445,8 @@
 0.0.0.0 conversions.appsflyer.com
 0.0.0.0 settings.crashlytics.com
 
-# Idle Miner Tycoon
+# Kolibri Games GmbH
+# Idle Miner Tycoon: Mine & Money Clicker Management
 0.0.0.0 hades.getsocial.im
 0.0.0.0 e.crashlytics.com
 0.0.0.0 app-measurement.com
@@ -813,7 +832,7 @@
 0.0.0.0 auioppt.unityads.unity3d.com
 0.0.0.0 c3d-cdn.adcolony.com
 0.0.0.0 cdn-creatives-akamaistls-prd.unityads.unity3d.com
-0.0.0.0 cdn-store-icons-akamai.prd.unityads.unity3d.com
+0.0.0.0 cdn-store-icons-akamai-prd.unityads.unity3d.com
 0.0.0.0 config.unityads.unity3d.com
 0.0.0.0 d.applovin.com
 0.0.0.0 d.applvn.com
@@ -871,6 +890,20 @@
 0.0.0.0 ads.mopub.com
 #0.0.0.0 www.googleapis.com
 #0.0.0.0 securetoken.googleapis.com
+
+# Tech Tree Games
+# Idle Planet Miner
+0.0.0. t.appsflyer.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 connect.tapjoy.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 pool.ntp.org
+0.0.0.0 connect.tapjoy.com
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 t.appsflyer.com
+0.0.0.0 sessions.bugsnag.com
 
 # upjers GmbH
 # My free farm 2
