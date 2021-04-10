@@ -755,6 +755,38 @@
 0.0.0.0 404.playrix.com
 0.0.0.0 township-cdn-cf.playrix.com
 
+# Playsaurus
+# Clicker Heroes
+# Cloudspeicher Savedgames3 nach Bedarf handhaben
+0.0.0.0 clickerheroes-savedgames3-747864888.us-east-1.elb.amazonaws.com
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 data.flurry.com
+0.0.0.0 flury-ycpi.b.yahoodns.net
+0.0.0.0 init.supersonicads.com
+0.0.0.0 outcome-ssp.supersonicads.com
+0.0.0.0 app.adjust.com
+0.0.0.0 networksdk.ssacdn.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 wd.adcolony.com
+0.0.0.0 wd.adcolony.xyz
+0.0.0.0 adc3-launch.adcolony.com
+0.0.0.0 c4d-cdn.adcolony.com
+0.0.0.0 events3.adcolony.com
+0.0.0.0 events3alt.adcolony.com
+0.0.0.0 ads-ad-assets.adtilt.com
+0.0.0.0 ssl-cdn.adccdn.net.c.footprint.net
+0.0.0.0 tracking.prd.mz.internal.unity3d.com
+0.0.0.0 auction.unityads.unity3d.com
+0.0.0.0 auiopt.unityads.unity3d.com
+0.0.0.0 cdn-store-icons-akamai-prd.unityads.unity3d.com
+0.0.0.0 cdn-creatives-akamaistls-prd.unityads.unity3d.com
+0.0.0.0 nginx-auction-prd-gcp.adsx.unityads.unity3d.com
+0.0.0.0 ads-game-configuration.unityads.unity3d.com
+0.0.0.0 publisher-config.unityads.unity3d.com
+0.0.0.0 webview.unityads.unity3d.com
+0.0.0.0 e3422.dscd.akamaiedge.net
+0.0.0.0 a1818.dscw27.akamai.net
+
 # RaphaelW
 # JA Sensei - Japanisch lernen
 #0.0.0.0 www.japan-activator.com
