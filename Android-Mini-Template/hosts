@@ -108,12 +108,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn-f-adsmoloco.com
 
 # Akamai Technologies
+0.0.0.0 a1522.w73.akamai.net
+0.0.0.0 a1818.dscw27.akamai.net
+0.0.0.0 e12930.dsckd.akamaiedge.com
+0.0.0.0 e27573.b.akamaiedge.net
+0.0.0.0 e3422.dscd.akamaiedge.net
+0.0.0.0 e9659.dspg.akamaiedge.com
 0.0.0.0 events-dre.op.hicloud.com.edgekey.net
 0.0.0.0 sdkserver-dre.op.hicloud.com.edgekey.net
-0.0.0.0 e12930.dsckd.akamaiedge.com
-0.0.0.0 e9659.dspg.akamaiedge.com
-0.0.0.0 a1522.w73.akamai.net
-0.0.0.0 e27573.b.akamaiedge.net
 
 # Amazon Cloud Service | AWS
 0.0.0.0 alb-aws-fr-bswx-2-1673521430.eu-central-1.elb.amazonaws.com
@@ -298,6 +300,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.flurry.com
 0.0.0.0 adlog.flurry.com
 0.0.0.0 ads.flurry.com
+0.0.0.0 flury-ycpi.b.yahoodns.net
 
 # Fyber
 0.0.0.0 service.fyber.com
