@@ -28,12 +28,6 @@
 #
 # Achtung! Unity-Endpunkte sind wieder nach Anwenderherkunft gegliedert
 # Info https://hosts.gameindustry.eu und https://gameindustry.eu/firmenkatalog/unity-technologies-aps/
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
-0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com # Europa
-0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com # USA
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com # ASIA/Japan
-0.0.0.0 53.26.241.35.bc.googleusercontent.com
-0.0.0.0 186.194.186.35.bc.googleusercontent.com
 #
 # ---Ab hier kopieren ---
 
@@ -71,8 +65,8 @@
 # Tonnennticker Pro
 # 91.102.137.86
 #0.0.0.0 krwaf-abfallapp.regioit.de # Kategorienamen, Orte, Straßen, Termine, Abholbezirke
-0.0.0.0 www.borgholzhausen.de # Werbebanner unter Aktuelles
-0.0.0.0 geocoderproxy.appspark-services.de
+0.0.0.0 www.borgholzhausen.de # Werbebanner
+#0.0.0.0 geocoderproxy.appspark-services.de
 #0.0.0.0 csi.gstatic.com
 0.0.0.0 firebaseinstallations.googleapis.com
 0.0.0.0 app-measurement.com
