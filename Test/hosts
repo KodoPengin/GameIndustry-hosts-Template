@@ -1,0 +1,10 @@
+# Just some experimental stuff
+
+# Android NCSI / Internet-Verbindungsanzeige
+0.0.0.0 connectivitycheck.android.com
+0.0.0.0 example.org
+0.0.0.0 ip4only.arpa
+
+# Googlekram
+0.0.0.0 cryptauthdevicesync.googleapis.com
+0.0.0.0 deviceintegritytokens-pa.googleapis.com
