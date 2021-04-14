@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
-# Änderungsdatum: 10.04.2021
+# Änderungsdatum: 14.04.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -400,13 +400,14 @@
 0.0.0.0 www.googleadservices.com
 0.0.0.0 chromefeedcontentsuggestions-pa.googleapis.com
 0.0.0.0 partnerad.l.doubleclick.net
-# Google Firebase
+# Google Firebase Analytics
 0.0.0.0 s-usc1c-nss-269.firebaseio.com
 0.0.0.0 firebaseremoteconfig.googleapis.com
 0.0.0.0 firebasestorage.googleapis.com
 0.0.0.0 firebaseinstallations.googleapis.com
 0.0.0.0 nmdp-b86eb-users-ko.firebaseio.com
-# Google App-measurement
+0.0.0.0 firebaselogging-pa.googleapis.com
+# Google App-Measurement
 # 216.58.207.46
 0.0.0.0 app-measurement.com
 # Google Downloads 
