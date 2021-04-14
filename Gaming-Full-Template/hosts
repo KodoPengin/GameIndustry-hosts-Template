@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 07.04.2021
+# Änderungsdatum: 14.04.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -5260,7 +5260,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Witch It
-#0.0.0.0 www.witchit.com # Versionscheck und Eventinfos
+# 85.214.170.103
+#0.0.0.0 master.witchit.com
+#0.0.0.0 h2923769.stratoserver.net
 
 # Dagestan Technology
 # Ip/s blockieren:
@@ -5357,6 +5359,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.google-analytics.com
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
+
+# Deck13, WhisperGames, DANGEN Entertainment, Mayflower Entertainment
+# CodeCross
+# Telemetrie, Callbacks/Hardwaredaten | Spiel läuft auf NWJS Basis mitsamt Crashpad Analytics
+# 142.250.186.131
+#0.0.0.0 update.googleapis.com
+0.0.0.0 redirector.gvt1.com
+#0.0.0.0 dl.google.com
+#0.0.0.0 www.google.com
 
 # Deep Silver
 # Agents of Mayhem
@@ -7473,6 +7484,7 @@ ff02::3 ip6-allhosts
 # s. Rubrik Kopierschutz / AntiCheat
 
 # We Happy Few
+# 52.27.241.128
 0.0.0.0 static.compulsiongames.com
 
 # Geckoo1337
@@ -8506,7 +8518,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
-# Hyper Hippo Games
+# Hyper Hippo Productions Ltd.
 # AdVenture Capitalist
 #0.0.0.0 CA87.playfabapi.com
 #0.0.0.0 hyperhippo.ssl.hwcdn.net
@@ -11868,23 +11880,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Playway S.A. und Rejected Games
+# Mr. Prepper
 # Ip/s blockieren:
-# 35.241.26.53
-# 35.186.194.186
-# 35.190.88.234
-# 35.241.52.229
+# 142.250.74.206
 # 216.58.212.174
 # 2a00:1450:4001:82b::200e
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-analytics.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
-0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 53.26.241.35.bc.googleusercontent.com
-0.0.0.0 186.194.186.35.bc.googleusercontent.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
 
 # POCKET PAIR, Inc.
 # Craftopia

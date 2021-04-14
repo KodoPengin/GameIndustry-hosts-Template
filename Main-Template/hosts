@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 07.04.2021
+# Änderungsdatum: 14.04.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1798,7 +1798,6 @@ ff02::3 ip6-allhosts
 # 104.26.1.229
 # 104.28.16.127
 # 172.67.196.103
-# 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
@@ -9608,7 +9607,10 @@ ff02::3 ip6-allhosts
 # nelo2-log erfasst u.A. den eigenen Computernamen, Installations bzw Ordnerpfade inkl. Windows Accountnamen, Systemdaten, Zeitstempel
 # 203.104.153.91
 #0.0.0.0 desktop.line-scdn.net
-#0.0.0.0 nelo2-col.linecorp.com
+0.0.0.0 nelo2-col.linecorp.com # Log
+0.0.0.0 sentry-uit.line-apps.com # CSP Report
+#0.0.0.0 timeline.line.me # Timeline mit UTM Tracking
+#0.0.0.0 access.line.me # OAuth
 
 # Logly.co.jp
 0.0.0.0 l.logly.co.jp
@@ -10299,287 +10301,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
 
 # Google Youtube / Werbung
-# Beispiel: Ein paar Videoserver
-0.0.0.0 manifest.googlevideo.com
-0.0.0.0 r1---sn-25glen7y.googlevideo.com
-0.0.0.0 r1---sn-25glenez.googlevideo.com
-0.0.0.0 r1---sn-4.4g5ednek.googlevideo.com
-0.0.0.0 r1---sn-4g5e6ne6.googlevideo.com
-0.0.0.0 r1---sn-4g5e6nez.googlevideo.com
-0.0.0.0 r1---sn-4g5e6nl6.googlevideo.com
-0.0.0.0 r1---sn-4g5e6ns6.googlevideo.com
-0.0.0.0 r1---sn-4g5e6ns7.googlevideo.com
-0.0.0.0 r1---sn-4g5e6nsy.googlevideo.com
-0.0.0.0 r1---sn-4g5e6nz7.googlevideo.com
-0.0.0.0 r1---sn-4g5e6nzz.googlevideo.com
-0.0.0.0 r1---sn-4g5edne6.googlevideo.com
-0.0.0.0 r1---sn-4g5edned.googlevideo.com
-0.0.0.0 r1---sn-4g5ednll.googlevideo.com
-0.0.0.0 r1---sn-4g5ednly.googlevideo.com
-0.0.0.0 r1---sn-4g5ednsd.googlevideo.com
-0.0.0.0 r1---sn-4g5ednse.googlevideo.com
-0.0.0.0 r1---sn-4g5ednsk.googlevideo.com
-0.0.0.0 r1---sn-4g5ednsl.googlevideo.com
-0.0.0.0 r1---sn-4g5ednsr.googlevideo.com
-0.0.0.0 r1---sn-4gxx-25gel.googlevideo.com
-0.0.0.0 r1---sn-a5mlrn7d.googlevideo.com
-0.0.0.0 r1---sn-h0jeen76.googlevideo.com
-0.0.0.0 r1---sn-h0jeened.googlevideo.com
-0.0.0.0 r1---sn-h0jeenle.googlevideo.com
-0.0.0.0 r1---sn-h0jeln7e.googlevideo.com
-0.0.0.0 r1---sn-h0jeln7l.googlevideo.com
-0.0.0.0 r1---sn-npoeenez.googlevideo.com
-0.0.0.0 r1.sn-4g5e6ne6.googlevideo.com
-0.0.0.0 r1.sn-4g5e6nez.googlevideo.com
-0.0.0.0 r1.sn-4g5e6nl6.googlevideo.com
-0.0.0.0 r1.sn-4g5e6ns6.googlevideo.com
-0.0.0.0 r1.sn-4g5e6ns7.googlevideo.com
-0.0.0.0 r1.sn-4g5e6nsy.googlevideo.com
-0.0.0.0 r1.sn-4g5e6nz7.googlevideo.com
-0.0.0.0 r1.sn-4g5e6nzz.googlevideo.com
-0.0.0.0 r1.sn-4g5edne6.googlevideo.com
-0.0.0.0 r1.sn-4g5edned.googlevideo.com
-0.0.0.0 r1.sn-4g5ednek.googlevideo.com
-0.0.0.0 r1.sn-4g5ednll.googlevideo.com
-0.0.0.0 r1.sn-4g5ednly.googlevideo.com
-0.0.0.0 r1.sn-4g5ednsd.googlevideo.com
-0.0.0.0 r1.sn-4g5ednse.googlevideo.com
-0.0.0.0 r1.sn-4g5ednsl.googlevideo.com
-0.0.0.0 r1.sn-4g5ednsr.googlevideo.com
-0.0.0.0 r1.sn-h0jeen76.googlevideo.com
-0.0.0.0 r1.sn-h0jeened.googlevideo.com
-0.0.0.0 r1.sn-h0jeenle.googlevideo.com
-0.0.0.0 r1.sn-h0jeln7e.googlevideo.com
-0.0.0.0 r1.sn-h0jeln7l.googlevideo.com
-0.0.0.0 r10---sn-4g5ednzz.googlevideo.com
-0.0.0.0 r10---sn-4gxx-25gel.googlevideo.com
-0.0.0.0 r10.sn-4g5ednzz.googlevideo.com
-0.0.0.0 r11---sn-4g5ednzz.googlevideo.com
-0.0.0.0 r11---sn-4gxx-25ge7.googlevideo.com
-0.0.0.0 r11.sn-4g5ednzz.googlevideo.com
-0.0.0.0 r15---sn-4g5ednzz.googlevideo.com
-0.0.0.0 r15.sn-4g5ednzz.googlevideo.com
-0.0.0.0 r16---sn-4gxx-25ge7.googlevideo.com
-0.0.0.0 r2---sn-25ge7nsd.googlevideo.com
-0.0.0.0 r2---sn-4g5e6ney.googlevideo.com
-0.0.0.0 r2---sn-4g5e6nez.googlevideo.com
-0.0.0.0 r2---sn-4g5e6nl7.googlevideo.com
-0.0.0.0 r2---sn-4g5e6ns6.googlevideo.com
-0.0.0.0 r2---sn-4g5e6nsk.googlevideo.com
-0.0.0.0 r2---sn-4g5e6nsy.googlevideo.com
-0.0.0.0 r2---sn-4g5e6nsz.googlevideo.com
-0.0.0.0 r2---sn-4g5e6nzl.googlevideo.com
-0.0.0.0 r2---sn-4g5edn7y.googlevideo.com
-0.0.0.0 r2---sn-4g5edned.googlevideo.com
-0.0.0.0 r2---sn-4g5ednee.googlevideo.com
-0.0.0.0 r2---sn-4g5ednld.googlevideo.com
-0.0.0.0 r2---sn-4g5ednle.googlevideo.com
-0.0.0.0 r2---sn-4g5ednls.googlevideo.com
-0.0.0.0 r2---sn-4g5ednly.googlevideo.com
-0.0.0.0 r2---sn-4g5ednse.googlevideo.com
-0.0.0.0 r2---sn-4g5ednzz.googlevideo.com
-0.0.0.0 r2---sn-5hne6n7z.googlevideo.com
-0.0.0.0 r2---sn-h0jeen76.googlevideo.com
-0.0.0.0 r2---sn-h0jeener.googlevideo.com
-0.0.0.0 r2---sn-h0jeln7e.googlevideo.com
-0.0.0.0 r2---sn-hp57kn6e.googlevideo.com
-0.0.0.0 r2.sn-4g5e6ney.googlevideo.com
-0.0.0.0 r2.sn-4g5e6nez.googlevideo.com
-0.0.0.0 r2.sn-4g5e6nl7.googlevideo.com
-0.0.0.0 r2.sn-4g5e6ns6.googlevideo.com
-0.0.0.0 r2.sn-4g5e6nsk.googlevideo.com
-0.0.0.0 r2.sn-4g5e6nsy.googlevideo.com
-0.0.0.0 r2.sn-4g5e6nsz.googlevideo.com
-0.0.0.0 r2.sn-4g5e6nzl.googlevideo.com
-0.0.0.0 r2.sn-4g5edn7y.googlevideo.com
-0.0.0.0 r2.sn-4g5edned.googlevideo.com
-0.0.0.0 r2.sn-4g5ednee.googlevideo.com
-0.0.0.0 r2.sn-4g5ednld.googlevideo.com
-0.0.0.0 r2.sn-4g5ednle.googlevideo.com
-0.0.0.0 r2.sn-4g5ednls.googlevideo.com
-0.0.0.0 r2.sn-4g5ednly.googlevideo.com
-0.0.0.0 r2.sn-4g5ednse.googlevideo.com
-0.0.0.0 r2.sn-4g5ednzz.googlevideo.com
-0.0.0.0 r2.sn-h0jeen76.googlevideo.com
-0.0.0.0 r2.sn-h0jeener.googlevideo.com
-0.0.0.0 r2.sn-h0jeln7e.googlevideo.com
-0.0.0.0 r2.sn-hp57kn6e.googlevideo.com
-0.0.0.0 r3---sn-4g5e6nl7.googlevideo.com
-0.0.0.0 r3---sn-4g5e6nld.googlevideo.com
-0.0.0.0 r3---sn-4g5e6nle.googlevideo.com
-0.0.0.0 r3---sn-4g5e6nsk.googlevideo.com
-0.0.0.0 r3---sn-4g5e6nsr.googlevideo.com
-0.0.0.0 r3---sn-4g5e6nsy.googlevideo.com
-0.0.0.0 r3---sn-4g5e6nsz.googlevideo.com
-0.0.0.0 r3---sn-4g5e6nze.googlevideo.com
-0.0.0.0 r3---sn-4g5e6nzs.googlevideo.com
-0.0.0.0 r3---sn-4g5e6nzz.googlevideo.com
-0.0.0.0 r3---sn-4g5edne6.googlevideo.com
-0.0.0.0 r3---sn-4g5edne7.googlevideo.com
-0.0.0.0 r3---sn-4g5edned.googlevideo.com
-0.0.0.0 r3---sn-4g5ednee.googlevideo.com
-0.0.0.0 r3---sn-4g5ednld.googlevideo.com
-0.0.0.0 r3---sn-4g5ednll.googlevideo.com
-0.0.0.0 r3---sn-4g5ednls.googlevideo.com
-0.0.0.0 r3---sn-4g5edns6.googlevideo.com
-0.0.0.0 r3---sn-4g5ednsd.googlevideo.com
-0.0.0.0 r3---sn-4g5ednss.googlevideo.com
-0.0.0.0 r3---sn-4g5ednsz.googlevideo.com
-0.0.0.0 r3---sn-4g5ednz7.googlevideo.com
-0.0.0.0 r3---sn-4g5ednzz.googlevideo.com
-0.0.0.0 r3---sn-4gxx-25gel.googlevideo.com
-0.0.0.0 r3---sn-gxuog0-n8ve.googlevideo.com
-0.0.0.0 r3---sn-h0jeenle.googlevideo.com
-0.0.0.0 r3---sn-h0jeln7l.googlevideo.com
-0.0.0.0 r3---sn-ug5onuxajv-gxms.googlevideo.com
-0.0.0.0 r3.sn-4g5e6nl7.googlevideo.com
-0.0.0.0 r3.sn-4g5e6nld.googlevideo.com
-0.0.0.0 r3.sn-4g5e6nle.googlevideo.com
-0.0.0.0 r3.sn-4g5e6nsk.googlevideo.com
-0.0.0.0 r3.sn-4g5e6nsr.googlevideo.com
-0.0.0.0 r3.sn-4g5e6nsy.googlevideo.com
-0.0.0.0 r3.sn-4g5e6nsz.googlevideo.com
-0.0.0.0 r3.sn-4g5e6nze.googlevideo.com
-0.0.0.0 r3.sn-4g5e6nzs.googlevideo.com
-0.0.0.0 r3.sn-4g5e6nzz.googlevideo.com
-0.0.0.0 r3.sn-4g5edne6.googlevideo.com
-0.0.0.0 r3.sn-4g5edne7.googlevideo.com
-0.0.0.0 r3.sn-4g5edned.googlevideo.com
-0.0.0.0 r3.sn-4g5ednee.googlevideo.com
-0.0.0.0 r3.sn-4g5ednld.googlevideo.com
-0.0.0.0 r3.sn-4g5ednll.googlevideo.com
-0.0.0.0 r3.sn-4g5ednls.googlevideo.com
-0.0.0.0 r3.sn-4g5edns6.googlevideo.com
-0.0.0.0 r3.sn-4g5ednsd.googlevideo.com
-0.0.0.0 r3.sn-4g5ednss.googlevideo.com
-0.0.0.0 r3.sn-4g5ednsz.googlevideo.com
-0.0.0.0 r3.sn-4g5ednz7.googlevideo.com
-0.0.0.0 r3.sn-4g5ednzz.googlevideo.com
-0.0.0.0 r3.sn-h0jeln7l.googlevideo.com
-0.0.0.0 r4---sn-25ge7nsk.googlevideo.com
-0.0.0.0 r4---sn-4g5e6nez.googlevideo.com
-0.0.0.0 r4---sn-4g5e6ns6.googlevideo.com
-0.0.0.0 r4---sn-4g5e6nss.googlevideo.com
-0.0.0.0 r4---sn-4g5e6nzs.googlevideo.com
-0.0.0.0 r4---sn-4g5ednek.googlevideo.com
-0.0.0.0 r4---sn-4g5edney.googlevideo.com
-0.0.0.0 r4---sn-4g5ednld.googlevideo.com
-0.0.0.0 r4---sn-4g5ednly.googlevideo.com
-0.0.0.0 r4---sn-4g5edns6.googlevideo.com
-0.0.0.0 r4---sn-4g5edns7.googlevideo.com
-0.0.0.0 r4---sn-4g5ednsd.googlevideo.com
-0.0.0.0 r4---sn-4g5ednsk.googlevideo.com
-0.0.0.0 r4---sn-4g5ednsy.googlevideo.com
-0.0.0.0 r4---sn-4g5ednz7.googlevideo.com
-0.0.0.0 r4---sn-4g5ednzs.googlevideo.com
-0.0.0.0 r4---sn-4g5ednzz.googlevideo.com
-0.0.0.0 r4---sn-4gxx-25gee.googlevideo.com
-0.0.0.0 r4---sn-h0jeened.googlevideo.com
-0.0.0.0 r4---sn-h0jeln7e.googlevideo.com
-0.0.0.0 r4---sn-h0jeln7l.googlevideo.com
-0.0.0.0 r4---sn-h0jeln7r.googlevideo.com
-0.0.0.0 r4.sn-4g5e6nez.googlevideo.com
-0.0.0.0 r4.sn-4g5e6ns6.googlevideo.com
-0.0.0.0 r4.sn-4g5e6nss.googlevideo.com
-0.0.0.0 r4.sn-4g5e6nzs.googlevideo.com
-0.0.0.0 r4.sn-4g5ednek.googlevideo.com
-0.0.0.0 r4.sn-4g5edney.googlevideo.com
-0.0.0.0 r4.sn-4g5ednld.googlevideo.com
-0.0.0.0 r4.sn-4g5ednly.googlevideo.com
-0.0.0.0 r4.sn-4g5edns6.googlevideo.com
-0.0.0.0 r4.sn-4g5edns7.googlevideo.com
-0.0.0.0 r4.sn-4g5ednsd.googlevideo.com
-0.0.0.0 r4.sn-4g5ednsk.googlevideo.com
-0.0.0.0 r4.sn-4g5ednsy.googlevideo.com
-0.0.0.0 r4.sn-4g5ednz7.googlevideo.com
-0.0.0.0 r4.sn-4g5ednzs.googlevideo.com
-0.0.0.0 r4.sn-4g5ednzz.googlevideo.com
-0.0.0.0 r4.sn-h0jeened.googlevideo.com
-0.0.0.0 r4.sn-h0jeln7e.googlevideo.com
-0.0.0.0 r4.sn-h0jeln7l.googlevideo.com
-0.0.0.0 r4.sn-h0jeln7r.googlevideo.com
-0.0.0.0 r5---sn-4g5e6n7k.googlevideo.com
-0.0.0.0 r5---sn-4g5e6n7r.googlevideo.com
-0.0.0.0 r5---sn-4g5e6ney.googlevideo.com
-0.0.0.0 r5---sn-4g5e6nls.googlevideo.com
-0.0.0.0 r5---sn-4g5e6ns6.googlevideo.com
-0.0.0.0 r5---sn-4g5e6ns7.googlevideo.com
-0.0.0.0 r5---sn-4g5e6nsk.googlevideo.com
-0.0.0.0 r5---sn-4g5e6nss.googlevideo.com
-0.0.0.0 r5---sn-4g5e6nsy.googlevideo.com
-0.0.0.0 r5---sn-4g5e6nsz.googlevideo.com
-0.0.0.0 r5---sn-4g5e6nz7.googlevideo.com
-0.0.0.0 r5---sn-4g5e6nze.googlevideo.com
-0.0.0.0 r5---sn-4g5e6nzl.googlevideo.com
-0.0.0.0 r5---sn-4g5edn7s.googlevideo.com
-0.0.0.0 r5---sn-4g5ednly.googlevideo.com
-0.0.0.0 r5---sn-4g5edns6.googlevideo.com
-0.0.0.0 r5---sn-4g5ednsd.googlevideo.com
-0.0.0.0 r5---sn-4g5ednsl.googlevideo.com
-0.0.0.0 r5---sn-4g5ednsr.googlevideo.com
-0.0.0.0 r5---sn-4g5ednsy.googlevideo.com
-0.0.0.0 r5---sn-4g5ednsz.googlevideo.com
-0.0.0.0 r5---sn-4g5ednzz.googlevideo.com
-0.0.0.0 r5---sn-h0jeenek.googlevideo.com
-0.0.0.0 r5---sn-h0jeln7k.googlevideo.com
-0.0.0.0 r5---sn-hp57yn7y.googlevideo.com
-0.0.0.0 r5---sn-i3b7kn7d.googlevideo.com
-0.0.0.0 r5---sn-npoe7nes.googlevideo.com
-0.0.0.0 r5.sn-4g5e6n7k.googlevideo.com
-0.0.0.0 r5.sn-4g5e6n7r.googlevideo.com
-0.0.0.0 r5.sn-4g5e6ney.googlevideo.com
-0.0.0.0 r5.sn-4g5e6nls.googlevideo.com
-0.0.0.0 r5.sn-4g5e6ns6.googlevideo.com
-0.0.0.0 r5.sn-4g5e6ns7.googlevideo.com
-0.0.0.0 r5.sn-4g5e6nsk.googlevideo.com
-0.0.0.0 r5.sn-4g5e6nss.googlevideo.com
-0.0.0.0 r5.sn-4g5e6nsy.googlevideo.com
-0.0.0.0 r5.sn-4g5e6nsz.googlevideo.com
-0.0.0.0 r5.sn-4g5e6nz7.googlevideo.com
-0.0.0.0 r5.sn-4g5e6nze.googlevideo.com
-0.0.0.0 r5.sn-4g5e6nzl.googlevideo.com
-0.0.0.0 r5.sn-4g5edn7s.googlevideo.com
-0.0.0.0 r5.sn-4g5ednly.googlevideo.com
-0.0.0.0 r5.sn-4g5edns6.googlevideo.com
-0.0.0.0 r5.sn-4g5ednsd.googlevideo.com
-0.0.0.0 r5.sn-4g5ednsl.googlevideo.com
-0.0.0.0 r5.sn-4g5ednsr.googlevideo.com
-0.0.0.0 r5.sn-4g5ednsy.googlevideo.com
-0.0.0.0 r5.sn-4g5ednsz.googlevideo.com
-0.0.0.0 r5.sn-4g5ednzz.googlevideo.com
-0.0.0.0 r5.sn-h0jeenek.googlevideo.com
-0.0.0.0 r5.sn-h0jeln7k.googlevideo.com
-0.0.0.0 r5.sn-hp57yn7y.googlevideo.com
-0.0.0.0 r6---sn-25ge7nsl.googlevideo.com
-0.0.0.0 r6---sn-4g5e6nes.googlevideo.com
-0.0.0.0 r6---sn-4g5e6nez.googlevideo.com
-0.0.0.0 r6---sn-4g5edn7e.googlevideo.com
-0.0.0.0 r6---sn-4g5edne7.googlevideo.com
-0.0.0.0 r6---sn-4g5ednee.googlevideo.com
-0.0.0.0 r6---sn-4g5ednek.googlevideo.com
-0.0.0.0 r6---sn-4g5edney.googlevideo.com
-0.0.0.0 r6---sn-4g5ednll.googlevideo.com
-0.0.0.0 r6---sn-h0jeen76.googlevideo.com
-0.0.0.0 r6---sn-h0jeln7k.googlevideo.com
-0.0.0.0 r6---sn-i3belnez.googlevideo.com
-0.0.0.0 r6---sn-npoe7n76.googlevideo.com
-0.0.0.0 r6---sn-npoeene7.googlevideo.com
-0.0.0.0 r6---sn-ug5onuxajv-gxme.googlevideo.com
-0.0.0.0 r6---sn-ug5onuxaxjvh-n8v6.googlevideo.com
-0.0.0.0 r6.sn-4g5e6nez.googlevideo.com
-0.0.0.0 r6.sn-4g5edn7e.googlevideo.com
-0.0.0.0 r6.sn-4g5edne7.googlevideo.com
-0.0.0.0 r6.sn-4g5ednee.googlevideo.com
-0.0.0.0 r6.sn-4g5ednek.googlevideo.com
-0.0.0.0 r6.sn-4g5edney.googlevideo.com
-0.0.0.0 r6.sn-4g5ednll.googlevideo.com
-0.0.0.0 r6.sn-h0jeln7k.googlevideo.com
-0.0.0.0 r8---sn-4g5ednzz.googlevideo.com
-0.0.0.0 r8---sn-n02xgoxufvg3-2gbs.googlevideo.com
-0.0.0.0 r8.sn-4g5ednzz.googlevideo.com
-0.0.0.0 r8.sn-n02xgoxufvg3-2gbs.googlevideo.com
-0.0.0.0 r9---sn-4gxx-25gel.googlevideo.com
-0.0.0.0 r9---sn-4gxx-25gy.googlevideo.com
+# Beispiele: Ein paar Video/Werbeserver
+# Empfohlen? Adblocker wie U-Block Origin und Co
+#0.0.0.0 r1---sn-npoeenez.googlevideo.com
+#0.0.0.0 r1---sn-4g5ednsk.googlevideo.com
+#0.0.0.0 r1---sn-a5mlrn7d.googlevideo.com
+#0.0.0.0 r3---sn-gxuog0-n8ve.googlevideo.com
+#0.0.0.0 r3---sn-ug5onuxajv-gxms.googlevideo.com
+#0.0.0.0 r5---sn-i3b7kn7d.googlevideo.com
+#0.0.0.0 r5---sn-npoe7nes.googlevideo.com
+#0.0.0.0 r6---sn-npoe7n76.googlevideo.com
+#0.0.0.0 r6---sn-i3belnez.googlevideo.com
+#0.0.0.0 r6---sn-npoeene7.googlevideo.com
+#0.0.0.0 r6---sn-ug5onuxajv-gxme.googlevideo.com
+#0.0.0.0 r6---sn-ug5onuxaxjvh-n8v6.googlevideo.com
 
 # Anderes Zeug auf Youtube
 # 172.217.162.14
@@ -11928,6 +11663,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 af.opera.com
 0.0.0.0 crashstats-collector.opera.com
 # Opera_autoupdate.exe & Installer.exe
+# 37.228.108.133
+# 107.167.110.218
 # 185.26.182.124
 # 82.145.216.20
 # 82.145.216.19
@@ -11939,6 +11676,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 download3.operacdn.com
 #0.0.0.0 autoupdate.geo.opera.com # Prüft Länderzugehörigkeit und gibt Setup raus
 #0.0.0.0 us-autoupdate.opera.com
+#0.0.0.0 us-download.opera.com
 #0.0.0.0 eu-autoupdate.opera.com
 #0.0.0.0 eu2-autoupdate.opera.com
 # Opera Diverses
@@ -13524,6 +13262,8 @@ ff02::3 ip6-allhosts
 # 80.239.254.201
 # 23.50.56.123
 # 224.0.0.251
+0.0.0.0 novasdk.oss-cn-beijing.aliyuncs.com
+0.0.0.0 ad.mobnv.com
 #0.0.0.0 ads.a-static.com # Adblock Detektor bei pasteit.top
 #0.0.0.0 cdn.privacy-mgmt.com # Cookie Nagscreen z.b. bei Spiegel.de Capital.de usw
 #0.0.0.0 cdn.threadsphere.bid
@@ -21650,7 +21390,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Witch It
-#0.0.0.0 www.witchit.com # Versionscheck und Eventinfos
+# 85.214.170.103
+#0.0.0.0 master.witchit.com
+#0.0.0.0 h2923769.stratoserver.net
 
 # Dagestan Technology
 # Ip/s blockieren:
@@ -21747,6 +21489,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.google-analytics.com
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
+
+# Deck13, WhisperGames, DANGEN Entertainment, Mayflower Entertainment
+# CodeCross
+# Telemetrie, Callbacks/Hardwaredaten | Spiel läuft auf NWJS Basis mitsamt Crashpad Analytics
+# 142.250.186.131
+#0.0.0.0 update.googleapis.com
+0.0.0.0 redirector.gvt1.com
+#0.0.0.0 dl.google.com
+#0.0.0.0 www.google.com
 
 # Deep Silver
 # Agents of Mayhem
@@ -23863,6 +23614,7 @@ ff02::3 ip6-allhosts
 # s. Rubrik Kopierschutz / AntiCheat
 
 # We Happy Few
+# 52.27.241.128
 0.0.0.0 static.compulsiongames.com
 
 # Geckoo1337
@@ -24896,7 +24648,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
-# Hyper Hippo Games
+# Hyper Hippo Productions Ltd.
 # AdVenture Capitalist
 #0.0.0.0 CA87.playfabapi.com
 #0.0.0.0 hyperhippo.ssl.hwcdn.net
@@ -28258,23 +28010,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Playway S.A. und Rejected Games
+# Mr. Prepper
 # Ip/s blockieren:
-# 35.241.26.53
-# 35.186.194.186
-# 35.190.88.234
-# 35.241.52.229
+# 142.250.74.206
 # 216.58.212.174
 # 2a00:1450:4001:82b::200e
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-analytics.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
-0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 53.26.241.35.bc.googleusercontent.com
-0.0.0.0 186.194.186.35.bc.googleusercontent.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
 
 # POCKET PAIR, Inc.
 # Craftopia
