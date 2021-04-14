@@ -8,8 +8,9 @@
 # Erhöhter Schutz vor Spyware, Advertising, Analytics, Tracking in Spielen
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
-# Version: Template für Androidspiele und Programme - Komplette Version
-# Änderungsdatum: 10.04.2021
+# Version: Template für Androidspiele und Programme - Spezifisch
+# Kombinierbar mit dem Hosts Mini-Template für Androidspiele und Programme
+# Änderungsdatum: 14.04.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -96,7 +97,6 @@
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 abtest.cpcphone.com
-0.0.0.0 app-measurement.com
 0.0.0.0 app-measurement.com
 0.0.0.0 update.usdget.com
 0.0.0.0 topdata.usdget.com
@@ -279,6 +279,7 @@
 0.0.0.0 alt6-mtalk.google.com
 0.0.0.0 alt7-mtalk.google.com
 0.0.0.0 alt8-mtalk.google.com
+0.0.0.0 app-measurement.com
 
 # Google LLC - Crashlytics
 0.0.0.0 e.crashlytics.com
