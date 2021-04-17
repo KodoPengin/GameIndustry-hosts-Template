@@ -1,6 +1,6 @@
 # Just some experimental penguin stuff
 
-# Aktualisiert: 16.04.2021
+# Aktualisiert: 17.04.2021
 
 # Android NCSI / Internet-Verbindungsanzeige
 0.0.0.0 connectivitycheck.android.com
@@ -13,5 +13,6 @@
 
 # Fitnesszeug
 0.0.0.0 api-cms.mobihealthplus.com
+0.0.0.0 link.mobihealthplus.com
 0.0.0.0 apidis.period-calendar.com
 0.0.0.0 d2vfeg8cq5421.cloudfront.net
