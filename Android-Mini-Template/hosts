@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Kombinierbar mit dem Hosts Template für Androidspiele und Programme - Spezifisch
-# Änderungsdatum: 14.04.2021
+# Änderungsdatum: 17.04.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -239,6 +239,7 @@
 0.0.0.0 crashlytics.l.google.com
 0.0.0.0 crashlytics2.l.google.com
 0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 crashlyticsreports-pa.googleapis.com
 
 # Crittercism
 0.0.0.0 api.crittercism.com
@@ -422,6 +423,7 @@
 0.0.0.0 supl.google.com
 0.0.0.0 connectivitycheck.gstatic.com
 0.0.0.0 sb.l.google.com
+0.0.0.0 redirector.gvt1.com
 
 # Haloapps.com
 0.0.0.0 i.haloapps.com
