@@ -1,6 +1,6 @@
 # Just some experimental penguin stuff
 
-# Aktualisiert: 17.04.2021
+# Aktualisiert: 18.04.2021
 
 # Android NCSI / Internet-Verbindungsanzeige
 0.0.0.0 connectivitycheck.android.com
@@ -11,8 +11,9 @@
 0.0.0.0 cryptauthdevicesync.googleapis.com
 0.0.0.0 deviceintegritytokens-pa.googleapis.com
 
-# Fitnesszeug
+# Programme der Leap Fitness Group
 0.0.0.0 api-cms.mobihealthplus.com
+0.0.0.0 cdncms-backend.mobihealthplus.com
 0.0.0.0 link.mobihealthplus.com
 0.0.0.0 apidis.period-calendar.com
 0.0.0.0 ad.period-calendar.com
