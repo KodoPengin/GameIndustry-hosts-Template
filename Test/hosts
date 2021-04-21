@@ -1,6 +1,6 @@
 # Just some experimental penguin stuff
 
-# Aktualisiert: 18.04.2021
+# Aktualisiert: 22.04.2021
 
 # Android NCSI / Internet-Verbindungsanzeige
 0.0.0.0 connectivitycheck.android.com
@@ -18,3 +18,6 @@
 0.0.0.0 apidis.period-calendar.com
 0.0.0.0 ad.period-calendar.com
 0.0.0.0 d2vfeg8cq5421.cloudfront.net
+
+# Div. Zeug
+0.0.0.0 etl.harrybuy.com
