@@ -10,6 +10,7 @@
 # Googlekram
 0.0.0.0 cryptauthdevicesync.googleapis.com
 0.0.0.0 deviceintegritytokens-pa.googleapis.com
+0.0.0.0 lamssettings-pa.googleapis.com
 
 # Programme der Leap Fitness Group
 0.0.0.0 api-cms.mobihealthplus.com
