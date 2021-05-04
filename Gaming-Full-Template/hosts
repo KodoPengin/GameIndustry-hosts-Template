@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 14.04.2021
+# Änderungsdatum: 04.05.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -88,7 +88,11 @@ ff02::3 ip6-allhosts
 
 # Blizzard Entertainment, Inc.
 # Battle.net Desktop App
-# Analytics, Tracking, Trackingpixel, Trackingcookies
+# Analytics, Tracking, Trackingpixel, Trackingcookies, Drittanbieterdienste
+# 8.238.30.254
+# 178.79.244.32
+# 142.250.185.206
+# 24.105.29.76
 # 173.194.153.56
 # 172.217.16.174
 # 172.217.18.110
@@ -126,6 +130,7 @@ ff02::3 ip6-allhosts
 # 52.51.95.18
 # 2.17.45.162
 0.0.0.0 www.google-analytics.com # UA-50249600-2
+0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.googletagmanager.com # GTM-589KTQ
 0.0.0.0 stats.g.doubleclick.net # UA-50249600-5
 0.0.0.0 cm.g.doubleclick.net
@@ -141,6 +146,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 jssdkcdns.mparticle.com
 0.0.0.0 www.facebook.com
 0.0.0.0 identity.mparticle.com
+0.0.0.0 geolocation.onetrust.com
 # Shop, News, Werbung bei Bedarf de/aktivieren
 #0.0.0.0 bnetcmsus-a.akamaihd.net # Werbepopup im Launcher, Newsgrafiken
 #0.0.0.0 cache-cms-ext-eu.battle.net # Werbung, Bannerrotation
@@ -151,22 +157,60 @@ ff02::3 ip6-allhosts
 # Benötigte Verbindungen
 #0.0.0.0 bneteu-a.akamaihd.net
 #0.0.0.0 eu.patch.battle.net
-#0.0.0.0 eu.cdn.blizzard.com
 #0.0.0.0 us.patch.battle.net
 #0.0.0.0 EU.depot.battle.net
-#0.0.0.0 blzprofile.akamaized.net
 #0.0.0.0 eu.profile.blizzard.com
 #0.0.0.0 eu.launcher.battle.net
+#0.0.0.0 eu.battle.net
+#0.0.0.0 blzprofile.akamaized.net
 #0.0.0.0 level3.blizzard.com
-# Optional
+#0.0.0.0 download.blizzard.com.c.footprint.net
+# CDN, etc
+# 137.221.106.24
+# 178.79.244.13
+# 178.79.244.99
+# 178.79.244.21
+#0.0.0.0 us-legal.battle.net
+#0.0.0.0 blizzard-dl.vo.llnwd.net
+#0.0.0.0 eu.cdn.blizzard.com
+# APIs
+# 37.244.28.18
+#0.0.0.0 eu.api.blizzard.com
 #0.0.0.0 api.overwatchleague.com
-# Versteckte Hardware Survey
+# Versteckte Hardware Survey bzw Datenklau durch die SystemSurvey.exe
+# Das Verhalten und die Datei wurde nachträglich auch in Diablo2 Classic integriert | Datei kann gelöscht werden
 # Ip/s blockieren:
 # 24.105.29.24
 # 54.77.237.127
 # 185.60.115.31
 # 24.105.29.76
 0.0.0.0 iir.blizzard.com
+# Blizzard Agent
+# 37.244.28.19
+# 24.105.29.76
+# 37.244.28.30
+# 137.221.64.5
+# 137.221.106.19
+# 137.221.64.7
+# 137.221.64.6
+# 137.221.64.1
+# 137.221.64.2
+# 8.238.29.126
+# 8.241.82.126
+# 8.238.36.126
+# 8.241.78.254
+# 8.238.69.126
+# 8.238.127.254
+# 67.26.137.254
+# 8.238.35.254
+# 8.241.78.126
+0.0.0.0 telemetry-in.battle.net
+#0.0.0.0 eu.version.battle.net
+#0.0.0.0 eu.patch.battle.net
+#0.0.0.0 cdn.blizzard.com
+#0.0.0.0 us.patch.battle.net
+#0.0.0.0 cdn.blizzard.com
+#0.0.0.0 download.blizzard.com.c.footprint.net
 
 # Battle.net Klassik
 # 5.42.181.30 # IPbereich von bis 5.42.181.**
@@ -880,6 +924,7 @@ ff02::3 ip6-allhosts
 # De/aktivieren nach Bedarf
 #0.0.0.0 cloud-3.steamusercontent.com
 #0.0.0.0 steamcloud-eu.storage.googleapis.com
+# 142.250.185.80
 # 108.177.119.128
 # 142.250.74.208
 # 20.238.118.132
@@ -909,6 +954,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamcloud-saopaulo.storage.googleapis.com
 #0.0.0.0 steamcloud-sg.s3.dualstack.ap-southeast-1.amazonaws.com
 #0.0.0.0 steamcloud-singapore.storage.googleapis.com
+#0.0.0.0 steamcloud-sydney.storage.googleapis.com
 #0.0.0.0 steamcloud-taiwan.storage.googleapis.com
 #0.0.0.0 steamcloudsaopaulo.blob.core.windows.net
 #0.0.0.0 steamcloudsg.blob.core.windows.net
@@ -1208,6 +1254,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 srv03.codefusion.technology
 #0.0.0.0 support.codefusion.technology
 # Je nach Produkt Abfragen an Globalsign oder Starfield Tech Zertifikate
+# 65.9.69.181
 #0.0.0.0 ocsp2.globalsign.com
 #0.0.0.0 crl.globalsign.com
 #0.0.0.0 o.ss2.us
@@ -3864,11 +3911,19 @@ ff02::3 ip6-allhosts
 # 37.244.54.10
 # 178.79.244.138
 # 37.244.28.104
+# 24.105.29.76
+# 178.79.245.204
+# 178.79.244.50
+# 178.79.245.171
+# 37.244.28.103
+# 37.244.32.207
 # Zusätzliche alle Launcher Verbindungen
-#0.0.0.0 eu.actual.battle.net
 #0.0.0.0 nydus.battle.net
 #0.0.0.0 eu.launcher.battle.net
 #0.0.0.0 EU.depot.battle.net
+#0.0.0.0 eu.actual.battle.net
+0.0.0.0 telemetry-in.battle.net
+#0.0.0.0 blizzard-dl.vo.llnwd.net
 
 # Overwatch
 # 127.0.0.1
@@ -5364,6 +5419,7 @@ ff02::3 ip6-allhosts
 # CodeCross
 # Telemetrie, Callbacks/Hardwaredaten | Spiel läuft auf NWJS Basis mitsamt Crashpad Analytics
 # 142.250.186.131
+# 142.250.186.67
 #0.0.0.0 update.googleapis.com
 0.0.0.0 redirector.gvt1.com
 #0.0.0.0 dl.google.com
@@ -8156,10 +8212,12 @@ ff02::3 ip6-allhosts
 # Hello Games
 # No Man’s Sky
 # 40.71.11.147
+# 104.42.219.41
 #0.0.0.0 merged-nms-auth.nomanssky.com
 #0.0.0.0 merged-nms-discovery.nomanssky.com
 #0.0.0.0 merged-nms-blobserve.nomanssky.com
 #0.0.0.0 waws-prod-blu-175.cloudapp.net
+#0.0.0.0 pfmsqosprod.westus.cloudapp.azure.com
 
 # Hello There Games
 # Teakwondo Grand Prix
@@ -10180,6 +10238,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+
+# Michael Shoots
+# Mech Merc Company
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Might and Delight
 # Fables from the Den
@@ -16386,23 +16460,60 @@ ff02::3 ip6-allhosts
 
 # Mortal Kombat 11
 # s. Rubrik Kopierschutz / AntiCheat
-# Für Offlinemodus und alles abschalten
-# 35.170.104.108
-# 52.216.163.77
-0.0.0.0 event.wbinsights.com # Fingerprint/Analytics und Heartbeat
-0.0.0.0 int-api.wbagora.com
-0.0.0.0 next-api.wbagora.com
-#0.0.0.0 s3.amazonaws.com # Ort der eigentlichen Eula
-# Onlinemodus | De/aktivieren nach Bedarf
-#0.0.0.0 mk11-api.wbagora.com # Spieldatenkonfiguration, Anmeldung, Eulaverweis, Werbung, Krypta, Items, Dlc Codes, Shopaufruf, Spielerfortschritt und Standort, Statistiken
-#0.0.0.0 us-east-1-mk11-realtime-1.wbagora.com # Onlinekämpfe
-# Zertifikate
-# 72.21.91.29
-# 188.121.36.239
-# 104.18.20.226
-#0.0.0.0 cs9.wac.phicdn.net
-#0.0.0.0 ocsp.godaddy.com.akadns.net
-#0.0.0.0 cdn.globalsigncdn.com.cdn.cloudflare.net
+# Für Offlinemodi kann alles deaktiviert werden
+# Mädchen für alles mitsamt Eula
+# 52.217.100.4
+# 54.152.54.246
+# 3.90.130.30
+# 54.146.18.212
+# 52.204.50.3
+# 52.4.68.109
+# 35.170.183.187
+# 52.204.50.3
+# 54.146.44.120
+# 52.4.107.116
+# 52.217.78.28
+# 52.216.97.19
+# 50.19.43.141
+# Spieldatenkonfiguration, Anmeldung, Eulaverweis, Werbung, Krypta, Items, Dlc Codes, Shopaufruf, Spielerfortschritt und Standort, Statistiken# Spieldatenkonfiguration, Anmeldung, Eulaverweis, Werbung, Krypta, Items, Dlc Codes, Shopaufruf, Spielerfortschritt und Standort, Statistiken
+#0.0.0.0 mk11-api.wbagora.com
+#0.0.0.0 wb-agora-hydra-file-storage-mk11.s3.amazonaws.com
+#0.0.0.0 s3.amazonaws.com
+# Server
+# 3.82.131.186
+# 18.205.98.8
+# 50.19.55.200
+# 3.93.133.59
+# 35.170.95.216
+# 3.213.80.82
+# 35.172.40.119
+# 34.231.58.183
+#0.0.0.0 us-east-1-mk11-realtime-1.wbagora.com
+#0.0.0.0 us-east-1-mk11-realtime-2.wbagora.com
+#0.0.0.0 us-east-1-mk11-realtime-3.wbagora.com
+#0.0.0.0 us-east-1-mk11-realtime-4.wbagora.com
+#0.0.0.0 us-east-1-mk11-realtime-5.wbagora.com
+#0.0.0.0 us-east-1-mk11-realtime-6.wbagora.com
+#0.0.0.0 us-east-1-mk11-realtime-7.wbagora.com
+#0.0.0.0 us-east-1-mk11-realtime-8.wbagora.com
+# Weiterführende Telemetrie
+# 54.167.19.122
+# 52.6.230.7
+# 52.200.69.197
+# 54.225.221.237
+# 3.81.204.184
+# 52.86.38.253
+# 3.82.164.250
+# 50.17.88.93
+0.0.0.0 event.wbinsights.com
+# Verschiedene Endpunkte
+0.0.0.0 ec2-3-90-130-30.compute-1.amazonaws.com
+0.0.0.0 ec2-52-6-230-7.compute-1.amazonaws.com
+0.0.0.0 ec2-35-172-40-119.compute-1.amazonaws.com
+0.0.0.0 ec2-54-225-221-237.compute-1.amazonaws.com
+0.0.0.0 ec2-52-86-38-253.compute-1.amazonaws.com
+0.0.0.0 ec2-35-172-40-119.compute-1.amazonaws.com
+0.0.0.0 ec2-3-82-164-250.compute-1.amazonaws.com
 
 # Washbear Studio
 # Parkasaurus
