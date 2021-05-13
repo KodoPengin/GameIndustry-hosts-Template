@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 04.05.2021
+# Änderungsdatum: 13.05.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -414,11 +414,12 @@ ff02::3 ip6-allhosts
 #0.0.0.0 lvlt.cdn.ea.com # Content/Downloadserver
 #0.0.0.0 gateway.ea.com # Displayname/Sichtbarkeit/letzte Logindaten/ID
 #0.0.0.0 origin-a.akamaihd.net # Download aktueller Clientversion
+#0.0.0.0 originassets.akamaized.net # Produktbilder
 # Apis sind abgesehen von Kernfunktionen ebenfalls für die gezeigten Shopangebote/Details zuständig
 #0.0.0.0 api1.origin.com # Autopatch, Produktzuordnungen, Authorisierungen, Länder Bannliste, Währung, Kaufdatum, Erfassung der Spielstarts, Multiplayerids, Spielsitzungen, Spielzeitdauer etc
 #0.0.0.0 api2.origin.com # Spielzeit, IP-Erfassung/Geodaten
 #0.0.0.0 api3.origin.com # SpielID's, MultiplayerID, letzte Spielsitzung und Zeitstempel
-0.0.0.0 api4.origin.com # Telemetrie
+#0.0.0.0 api4.origin.com # Telemetrie - leider verzahnt mit anderen Darstellungs/funktionen
 # Spieledaten wie z.b. Cover, Seitenzuordnungen, Spieleinfos etc
 #0.0.0.0 data1.origin.com
 #0.0.0.0 data2.origin.com
@@ -725,7 +726,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ucppropagationservice.ubi.com
 
 # Valve Corporation | Valve Softworks | Steam Client
-# Steam: Anmeldeserver
+# Steam: Anmeldeserver | https und wss Protokoll
 # 155.133.249.196
 # 155.133.248.37
 # 162.254.193.74
@@ -760,19 +761,30 @@ ff02::3 ip6-allhosts
 #0.0.0.0 CM04-STO.cm.steampowered.com
 #0.0.0.0 CM05-IAD.cm.steampowered.com
 #0.0.0.0 cm1-ams1.cm.steampowered.com
+#0.0.0.0 cm1-dfw1.cm.steampowered.com
 #0.0.0.0 cm1-fra1.cm.steampowered.com
 #0.0.0.0 cm1-iad1.cm.steampowered.com
+#0.0.0.0 cm1-lax1.cm.steampowered.com
+#0.0.0.0 cm1-ord1.cm.steampowered.com
+#0.0.0.0 cm1-scl1.cm.steampowered.com
+#0.0.0.0 cm1-syd1.cm.steampowered.com
+#0.0.0.0 cm2-dfw1.cm.steampowered.com
 #0.0.0.0 cm2-fra1.cm.steampowered.com
+#0.0.0.0 cm2-lax1.cm.steampowered.com
+#0.0.0.0 cm2-ord1.cm.steampowered.com
+#0.0.0.0 cm2-syd1.cm.steampowered.com
 #0.0.0.0 cm2-vie1.cm.steampowered.com
 #0.0.0.0 cm3-ams1.cm.steampowered.com
 #0.0.0.0 cm3-fra1.cm.steampowered.com
+#0.0.0.0 cm3-lax1.cm.steampowered.com
 #0.0.0.0 cm4-ams1.cm.steampowered.com
 #0.0.0.0 cm4-fra1.cm.steampowered.com
+#0.0.0.0 cm4-lax1.cm.steampowered.com
 #0.0.0.0 cm5-ams1.cm.steampowered.com
+#0.0.0.0 cm5-lax1.cm.steampowered.com
 #0.0.0.0 cm6-ams1.cm.steampowered.com
-#0.0.0.0 cm2-lax1.cm.steampowered.com
+#0.0.0.0 cm6-lax1.cm.steampowered.com
 #0.0.0.0 cm6-ord1.cm.steampowered.com
-#0.0.0.0 cm1-scl1.cm.steampowered.com
 
 # Steam: API
 # 96.16.130.74
@@ -1122,8 +1134,10 @@ ff02::3 ip6-allhosts
 # 155.133.250.107
 # 23.55.110.71
 # 23.55.110.179
+# 20.150.66.4
 #0.0.0.0 eu.client.steamcontent.akadns.net
 #0.0.0.0 media.steampowered.com
+0.0.0.0 blob.syd26prdstr02a.store.core.windows.net
 
 # Steam: SteamService.exe
 # Digicert
@@ -1133,6 +1147,7 @@ ff02::3 ip6-allhosts
 # Steam: SteamWebhelper.exe
 0.0.0.0 limited-prod.giphy.map.fastly.net
 # Ip/s blockieren:
+# 151.101.12.193
 # 151.101.112.193
 # 172.217.12.206
 # 190.61.17.9
@@ -1150,6 +1165,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pagead46.l.doubleclick.net
 0.0.0.0 static-doubleclick-net.l.google.com
 0.0.0.0 stats.l.doubleclick.net
+0.0.0.0 ipv4.imgur.map.fastly.net
 
 # Steam: streaming_client.exe | RemotePlay
 # GetSDRConfig, Clientservice - NotifyRemotePacket, GetReplies, CreateSessions, Valve Partner
@@ -1241,6 +1257,7 @@ ff02::3 ip6-allhosts
 
 # Denuvo Anti-Tamper
 # Anwendungsschutz, Schutz gegen Manipulation und Kopierschutz
+# 52.51.106.62
 # 54.72.220.34
 # 52.17.173.247
 # 52.208.190.137
@@ -4242,6 +4259,17 @@ ff02::3 ip6-allhosts
 
 # バイオハザード7 | Resident Evil VII
 0.0.0.0 game.residentevil.net
+
+# バイオハザード ヴィレッジ | Resident Evil Village
+# s. Rubrik Kopierschutz / AntiCheat
+# 52.84.129.126
+0.0.0.0 mmr.rebe.capcom.com
+0.0.0.0 mtm.rebe.capcom.com
+0.0.0.0 mtms.rebe.capcom.com
+0.0.0.0 hjm.rebe.capcom.com
+0.0.0.0 pubsub.googleapis.com
+0.0.0.0 selector.gs.capcom.com
+0.0.0.0 c379418fd6100691807f32f274ebe9ce.cloudfront.net
 
 # Cardboard Keep
 # Warden: Melody of the Undergrowth
