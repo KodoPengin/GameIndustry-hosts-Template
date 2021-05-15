@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Template für PC-Spiele - Mini-Version
-# Änderungsdatum: 22.03.2021
+# Änderungsdatum: 15.05.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -280,11 +280,12 @@ ff02::3		ip6-allhosts
 0.0.0.0 config.unityads.unity3d.com
 # Zuständig für Schnüffelei in Spielen
 # Erfasste Daten werden je nach Nutzerherkunft an USC "z.b. Usa", EUW "z.b. Deutschland"" oder APE "z.b. Japan" von der Perf-Events aus weitergeleitet. Ips gehören dazu.
-# Blockieren: 35.190.78.8, 34.107.181.14, 35.241.52.229, 35.186.194.186, 35.241.26.53, 35.190.88.234, 35.190.78.8
+# Blockieren: 35.227.244.186, 35.190.78.8, 34.107.181.14, 35.241.52.229, 35.186.194.186, 35.241.26.53, 35.190.88.234, 35.190.78.8
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -296,6 +297,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 150.252.227.35.bc.googleusercontent.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.244.227.35.bc.googleusercontent.com
 # Data-Optout leitet auf Analytics mitsamt Übergabeparameter/Token weiter. Dazu gehören ProgrammID, UserID, GeräteID
 # Außerdem Einstellungen zu de/aktivierten Analytics, Optout ja/nein, Report erlaubt ja/nein
 # Bei Bedarf de/aktivieren
