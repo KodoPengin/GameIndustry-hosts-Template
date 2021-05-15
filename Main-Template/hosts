@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 13.05.2021
+# Änderungsdatum: 15.05.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -10686,6 +10686,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.checkappexec.microsoft.com # erhobene Telemetriedaten bei jeder Programminstallation inkl. Aufnahme was installiert wird
 0.0.0.0 unitedkingdom.smartscreen-prod.microsoft.com
 0.0.0.0 unitedstates.smartscreen-prod.microsoft.com
+# 52.164.226.245
 # 13.75.235.119
 # 23.97.153.169
 # 13.80.7.77
@@ -16810,7 +16811,7 @@ ff02::3 ip6-allhosts
 # 34.230.177.100
 # 34.202.75.252
 0.0.0.0 vpc-prod-heartbeat-439069019.us-east-1.elb.amazonaws.com
-0.0.0.0 heartbeat.dm.origin.com # Wird bei VPN benötigt, warum auch immer...
+0.0.0.0 heartbeat.dm.origin.com # Wird zum Login mit VPN benötigt, warum auch immer,- Sonst Block...
 0.0.0.0 pin-river.data.ea.com
 0.0.0.0 gosca18.ea.com
 0.0.0.0 pin-em.data.ea.com
@@ -17238,6 +17239,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cm6-ord1.cm.steampowered.com
 
 # Steam: API
+# 2.16.212.48
 # 96.16.130.74
 # 23.78.88.233
 # 104.73.230.192
@@ -17387,6 +17389,7 @@ ff02::3 ip6-allhosts
 # De/aktivieren nach Bedarf
 #0.0.0.0 cloud-3.steamusercontent.com
 #0.0.0.0 steamcloud-eu.storage.googleapis.com
+# 173.194.221.128
 # 142.250.185.80
 # 108.177.119.128
 # 142.250.74.208
@@ -17431,12 +17434,14 @@ ff02::3 ip6-allhosts
 #0.0.0.0 store.cloudflare.steamstatic.com # Javascript, CSS, Schriften, Webseitengrafiken
 
 # Steam: Community
+# 84.53.187.17
 # 104.115.82.107
 # 104.73.230.192
 # 190.98.152.19
 # 23.10.118.254
 #0.0.0.0 steamcommunity.com # eigene ID, GruppenID, Freunde, Abzeichen, News, Diskussionen, Miniprofil, Profil und Ökonomie
 #0.0.0.0 steamcommunity-a.akamaihd.net # Emoticons, Bilder, Abzeichen, Skins
+#0.0.0.0 community.akamai.steamstatic.com
 
 # Steam: Controller Konfiguration
 # 95.101.142.155
@@ -17453,6 +17458,8 @@ ff02::3 ip6-allhosts
 
 # Steam: Beispiele für Produkt | Spieledownload | Depots
 # Komplette Liste ist ähnlich groß wie die der Mehrspielerserverlisten etwas weiter unten
+# 87.245.223.11
+# 87.245.208.50
 # 162.254.198.14
 # 87.245.208.52
 # 108.177.126.128
@@ -17482,7 +17489,9 @@ ff02::3 ip6-allhosts
 # Neue Downloadserver seit Sept./Okt. 2020
 #0.0.0.0 cache1.hel-retn.steamcontent.com
 #0.0.0.0 cache1-hrk-retn.steamcontent.com
+#0.0.0.0 cache2-hrk-retn.steamcontent.com
 #0.0.0.0 cache1-svo-retn.steamcontent.com
+#0.0.0.0 cache1-hel-retn.steamcontent.com
 #0.0.0.0 cache2-hel-retn.steamcontent.com
 #0.0.0.0 cache2-hrk-retn.steamcontent.com
 #0.0.0.0 cache2-svo-retn.steamcontent.com
@@ -20709,6 +20718,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-52-200-123-101.compute-1.amazonaws.com
 
 # バイオハザード7 | Resident Evil VII
+# 40.74.124.164
 0.0.0.0 game.residentevil.net
 
 # バイオハザード ヴィレッジ | Resident Evil Village
@@ -23984,16 +23994,20 @@ ff02::3 ip6-allhosts
 # Gamera Game
 # Dyson Sphere Program
 # Ip/s blockieren:
+# 35.227.244.186
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 186.244.227.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -24495,13 +24509,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Evil Bank Manager
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# Ip/s blockieren:
+# 35.227.244.186
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 14.181.107.34.bc.googleusercontent.com
+0.0.0.0 186.244.227.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -26033,6 +26056,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 
 # Konami Digital Entertainment Co., Ltd.
+# GetsuFumaDen: Undying Moon
+# 23.13.247.80
+#0.0.0.0 legal.konami.com # Pflicht und mit Google Tagmanager verknüpft
+#0.0.0.0 e3472.f.akamaiedge.net
+#0.0.0.0 a23-13-247-80.deploy.static.akamaitechnologies.com
+0.0.0.0 www.googletagmanager.com # TrackingID: GTM-TX2ZLR3
+0.0.0.0 www-googletagmanager.l.google.com
+# 173.194.222.153
+# 74.125.131.153
+# 64.233.165.153
+0.0.0.0 getsufu-konalyze.appspot.com
+0.0.0.0 lu-in-f153.1e100.net
+0.0.0.0 lg-in-f153.1e100.net
+
 # METAL GEAR SURVIVE V: The Phantom Pain
 # s. Rubrik Kopierschutz / AntiCheat
 0.0.0.0 mgstpp-game.konamionline.com # Onlineserver
@@ -28448,12 +28485,16 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
+# 35.227.244.186
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 186.244.227.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -32450,6 +32491,7 @@ ff02::3 ip6-allhosts
 # Zuständig für Schnüffelei in Spielen
 # Erfasste Daten werden je nach Nutzerherkunft an USC "z.b. Usa", EUW "z.b. Deutschland"" oder APE "z.b. Japan" von der Perf-Events aus weitergeleitet. Ips gehören dazu.
 # Ip/s blockieren:
+# 35.227.244.186
 # 35.190.78.8
 # 34.107.181.14
 # 35.241.52.229
@@ -32460,6 +32502,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -32471,6 +32514,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 150.252.227.35.bc.googleusercontent.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.244.227.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 # Data-Optout leitet auf Analytics mitsamt Übergabeparameter/Token weiter. Dazu gehören ProgrammID, UserID, GeräteID
 # Außerdem Einstellungen zu de/aktivierten Analytics, Optout ja/nein, Report erlaubt ja/nein
 # Bei Bedarf de/aktivieren
@@ -32489,21 +32534,21 @@ ff02::3 ip6-allhosts
 
 # Subnautica: Below Zero
 # Ip/s blockieren:
-# 34.197.205.214
-# 35.186.194.186
-# 35.241.26.53
-# 52.219.24.9
-# 172.104.25.177
-0.0.0.0 matomo.unknownworlds.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 perf-events.cloud.unity3d.com
-0.0.0.0 us-east-1-a.route.herokuapp.com
+# 65.9.58.204
+# 45.79.228.142
+# 172.104.209.232
+# 172.104.215.92
+# 13.224.194.203
+# 65.9.58.95
+0.0.0.0 dkli3tbfz4zj3.cloudfront.net # u.A. auch Bilder auf der Homepage
+0.0.0.0 snexpansion.unknownworlds.com
+0.0.0.0 analytics.unknownworlds.com
+0.0.0.0 economy.unknownworlds.com
+0.0.0.0 li1327-142.members.linode.com
+0.0.0.0 li1925-92.members.linode.com
+0.0.0.0 ec2-100-26-26-91.compute-1.amazonaws.com
 0.0.0.0 subnautica.unknownworlds.com
-0.0.0.0 uwese.herokuapp.com
-#0.0.0.0 s3-us-west-1.amazonaws.com
-# 45.56.91.134
-#0.0.0.0 snexpansion.unknownworlds.com # Feedback
+0.0.0.0 subnauticaerrors.com
 
 # Unnyhog
 # UnnyWorld
