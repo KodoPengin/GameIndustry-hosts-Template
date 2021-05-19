@@ -29,8 +29,10 @@
 #
 # --- Ab hier kopieren ---
 
-# Android
+# Android NCSI / Internet-Verbindungsanzeige
 0.0.0.0 connectivitycheck.android.com
+0.0.0.0 example.org
+0.0.0.0 ipv4only.arpa
 
 # 360dialog
 0.0.0.0 rt.360dialog.io
