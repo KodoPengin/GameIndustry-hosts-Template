@@ -1,11 +1,7 @@
 # Just some experimental penguin stuff
+# Entries are integrated into the main files after testing
 
 # Aktualisiert: 19.05.2021
-
-# Android NCSI / Internet-Verbindungsanzeige
-0.0.0.0 connectivitycheck.android.com
-0.0.0.0 example.org
-0.0.0.0 ipv4only.arpa
 
 # Googlekram
 0.0.0.0 cryptauthdevicesync.googleapis.com
@@ -33,3 +29,5 @@
 0.0.0.0 e25691.a.akamaiedge.net
 0.0.0.0 e11942.a.akamaiedge.net
 0.0.0.0 a1810.b.akamai.net
+0.0.0.0 tracker-api.my.com
+0.0.0.0 r.my.com
