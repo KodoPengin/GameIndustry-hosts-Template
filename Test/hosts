@@ -1,6 +1,6 @@
 # Just some experimental penguin stuff
 
-# Aktualisiert: 22.04.2021
+# Aktualisiert: 19.05.2021
 
 # Android NCSI / Internet-Verbindungsanzeige
 0.0.0.0 connectivitycheck.android.com
@@ -22,3 +22,10 @@
 
 # Div Zeug
 0.0.0.0 etl.harrybuy.com
+0.0.0.0 pangolin16.isnssdk.com
+0.0.0.0 startup.mobile.webvisor.com
+0.0.0.0 sf-tb-sg.ibytedtos.com
+0.0.0.0 sf16-muse-va.ibytedtos.com
+0.0.0.0 e25689.dscb.akamaiedge.net
+0.0.0.0 e25691.a.akamaiedge.net
+0.0.0.0 e11942.a.akamaiedge.net

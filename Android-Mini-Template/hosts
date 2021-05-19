@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Kombinierbar mit dem Hosts Template für Androidspiele und Programme - Spezifisch
-# Änderungsdatum: 17.04.2021
+# Änderungsdatum: 19.05.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -227,6 +227,7 @@
 0.0.0.0 d39hwpl5gxli7h.cloudfront.net
 0.0.0.0 d3azwz0fcakc5.cloudfront.net
 0.0.0.0 dzpu6za66svjl.cloudfront.net
+0.0.0.0 d1cye4mftov9xe.cloudfront.net
 
 # CrashEye
 0.0.0.0 rp.crasheye.cn
@@ -726,6 +727,10 @@
 0.0.0.0 bkcommdata.v.qq.com # Mac Adresse, Gerätemodell, Imei, Imsi, GUID, GeräteID uvm
 0.0.0.0 android.rqd.qq.com
 0.0.0.0 bkvv.video.qq.com # IP Adresse, Position, GUID
+0.0.0.0 test.ark.qq.com
+0.0.0.0 pingma.qq.com
+0.0.0.0 log.ptlogin2.tencent-cloud.com
+0.0.0.0 log1.wtlogin.qq.com
 # Weixin
 # 203.205.235.26, 203.205.235.98, 203.205.137.234
 #0.0.0.0 dldir1.qq.com
