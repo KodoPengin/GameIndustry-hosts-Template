@@ -12500,7 +12500,7 @@ ff02::3 ip6-allhosts
 # 104.74.103.35
 # 23.55.163.58
 #0.0.0.0 store.steampowered.com
-#0.0.0.0 steambroadcaSt.akamai:ed.let
+#0.0.0.0 steambroadcast.akamaized.net
 
 # Red Fox
 # Fight Angel Special Edition
