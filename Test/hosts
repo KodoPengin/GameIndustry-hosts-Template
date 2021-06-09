@@ -1,33 +1,15 @@
 # Just some experimental penguin stuff
 # Entries are integrated into the main files after testing
 
-# Aktualisiert: 19.05.2021
+# Aktualisiert: 09.06.2021
 
 # Googlekram
 0.0.0.0 cryptauthdevicesync.googleapis.com
 0.0.0.0 deviceintegritytokens-pa.googleapis.com
 0.0.0.0 lamssettings-pa.googleapis.com
 
-# Programme der Leap Fitness Group
-0.0.0.0 api-cms.mobihealthplus.com
-0.0.0.0 cdncms-backend.mobihealthplus.com
-0.0.0.0 link.mobihealthplus.com
-0.0.0.0 apidis.period-calendar.com
-0.0.0.0 ad.period-calendar.com
-0.0.0.0 d2vfeg8cq5421.cloudfront.net
-
 # Div Zeug
 0.0.0.0 etl.harrybuy.com
-0.0.0.0 pangolin16.isnssdk.com
-0.0.0.0 startup.mobile.webvisor.com
-0.0.0.0 sf-tb-sg.ibytedtos.com
-0.0.0.0 sf16-muse-va.ibytedtos.com
-0.0.0.0 dm16-alisg.byteoversea.com
-0.0.0.0 api16-access-sg.pangle.io
-0.0.0.0 e64820.a.akamaiedge.net
-0.0.0.0 e25689.dscb.akamaiedge.net
-0.0.0.0 e25691.a.akamaiedge.net
-0.0.0.0 e11942.a.akamaiedge.net
-0.0.0.0 a1810.b.akamai.net
 0.0.0.0 tracker-api.my.com
 0.0.0.0 r.my.com
+0.0.0.0 logs.ironsrc.mobi
