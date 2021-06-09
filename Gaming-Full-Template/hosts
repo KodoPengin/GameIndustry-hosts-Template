@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 01.06.2021
+# Änderungsdatum: 09.06.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -359,7 +359,7 @@ ff02::3 ip6-allhosts
 # 34.230.177.100
 # 34.202.75.252
 0.0.0.0 vpc-prod-heartbeat-439069019.us-east-1.elb.amazonaws.com
-0.0.0.0 heartbeat.dm.origin.com # Wird zum Login mit VPN benötigt, warum auch immer,- Sonst Block...
+0.0.0.0 heartbeat.dm.origin.com # Wird zum Login mit VPN benötigt - Sonst Blockieren...
 0.0.0.0 pin-river.data.ea.com
 0.0.0.0 gosca18.ea.com
 0.0.0.0 pin-em.data.ea.com
@@ -407,7 +407,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dirtybits.api.origin.com # ?
 #0.0.0.0 use.typekit.net # Wird für das Aufrufen der Newslettereinstellungen benötigt
 # Für Funktionalität benötigt
-#0.0.0.0 origin-a.akamaihd.net # Download Clientsoftware
 #0.0.0.0 signin.ea.com
 #0.0.0.0 accounts.ea.com
 #0.0.0.0 secure.download.dm.origin.com
@@ -3048,6 +3047,36 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.google-analytics.com # GA-ID: UA-15218270-18
 0.0.0.0 stats.g.doubleclick.net
 
+# Awaken Realms Digital
+# Tainted Grail: Conquest
+# Ip/s blockieren:
+# 52.3.91.251
+# 35.161.12.27
+# 34.107.181.14
+# 35.190.78.8
+# 35.161.12.27
+# 52.3.91.251
+# 35.241.52.229
+# 35.227.244.186
+# 50.16.218.217
+0.0.0.0 api.ipify.org
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 api.ingest.marketing.gamesight.io
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 userreporting.cloud.unity3d.com
+0.0.0.0 ec2-52-3-91-251.compute-1.amazonaws.com
+0.0.0.0 ec2-35-161-12-27.us-west-2.compute.amazonaws.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 186.244.227.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+
 # Axolot Games
 # Raft
 # Ip/s blockieren:
@@ -4516,6 +4545,31 @@ ff02::3 ip6-allhosts
 
 # Sniper Ghost Warrior Contracts
 # s. Rubrik Kopierschutz / AntiCheat
+
+# Sniper Ghost Warrior Contracts 2
+# Ip/s blockieren:
+# 54.187.151.174
+# 52.25.28.180
+# 44.232.25.27
+# 54.69.73.155
+# 52.13.240.100
+# 44.241.14.193
+# 35.166.142.167
+# 52.32.181.204
+# 34.213.228.223
+# 52.25.28.180
+# 35.166.142.167
+# 54.190.230.201
+0.0.0.0 34962.playfabapi.com
+0.0.0.0 ec2-44-232-25-27.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-54-69-73-155.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-52-13-240-100.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-44-241-14-193.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-35-166-142-167.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-52-32-181-204.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-34-213-228-223.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-52-25-28-180.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-54-190-230-201.us-west-2.compute.amazonaws.com
 
 # Cleversan Software
 # Epic Clicker Journey
@@ -7203,8 +7257,8 @@ ff02::3 ip6-allhosts
 # Facebook Anbindung
 0.0.0.0 farabel.com
 0.0.0.0 www.frogames.com
-0.0.0.0 itch.io # Ablage für Grafiken
-0.0.0.0 img.itch.io
+#0.0.0.0 itch.io # Ablage für Grafiken
+#0.0.0.0 img.itch.io
 #0.0.0.0 static.itch.io # CSS
 #0.0.0.0 www.dailymotion.com # Videoplattform
 
@@ -11899,6 +11953,27 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
+# Pixeye Games
+# Until We Die
+# Ip/s blockieren:
+# 142.250.75.14
+# 216.58.208.193
+# 54.209.84.18
+# 52.84.174.96
+# 52.32.46.219
+0.0.0.0 pixeye.games
+0.0.0.0 logs-01.loggly.com
+0.0.0.0 analytics.pgncs.notion.so
+0.0.0.0 api.pgncs.notion.so
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.244.227.35.bc.googleusercontent.com
+0.0.0.0 186.244.227.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+
 # pixiv Inc.
 # VRoid Studio
 # Ip/s blockieren:
@@ -13877,7 +13952,7 @@ ff02::3 ip6-allhosts
 # Sold Out
 # Mechwarrior 5: Mercenaries
 # Achtung! Datarouter Telemetrie und erzwungener Onlinemodus - Wird für andere Spiele benötigt
-# oder Produkte sind nur zur Hälfte nutzbar. Verfahren nach Bedarf. Backend von Epic? Amazon AWS
+# oder Produkte sind nur zur Hälfte nutzbar. Verfahren nach Bedarf.
 # 13.33.211.108
 # 52.228.84.34
 # 18.210.235.32
@@ -15668,6 +15743,15 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ocsp.comodoca.com
 
 # Torn Banner Studios
+# Chivalry: Medieval Warfare
+# 104.26.13.245
+# 107.20.168.184
+# 142.250.186.35
+# 104.16.168.35
+#0.0.0.0 fonts.gstatic.com
+#0.0.0.0 ajax.cloudflare.com
+#0.0.0.0 tornbanner.com
+
 # Mirage: Arcane Warfare
 #0.0.0.0 368420-backend.tornbanner.net # Server
 0.0.0.0 etsource.epicgames.com # Usertracking der tbl-win64-shipping
@@ -15769,6 +15853,9 @@ ff02::3 ip6-allhosts
 # Sprachchat
 0.0.0.0 mt1p.www.vivox.com
 0.0.0.0 mt1p-mim-f5.vivox.com
+
+# Maneater
+# s. Rubrik Kopierschutz / AntiCheat
 
 # Red Orchestra 2: Heroes of Stalingrad - Singleplayer
 # 66.150.121.248
