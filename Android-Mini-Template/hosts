@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Kombinierbar mit dem Hosts Template für Androidspiele und Programme - Spezifisch
-# Änderungsdatum: 19.05.2021
+# Änderungsdatum: 09.06.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -105,6 +105,12 @@
 0.0.0.0 e9659.dspg.akamaiedge.com
 0.0.0.0 events-dre.op.hicloud.com.edgekey.net
 0.0.0.0 sdkserver-dre.op.hicloud.com.edgekey.net
+0.0.0.0 e64820.a.akamaiedge.net
+0.0.0.0 e25689.dscb.akamaiedge.net
+0.0.0.0 e25691.a.akamaiedge.net
+0.0.0.0 e11942.a.akamaiedge.net
+0.0.0.0 e11942.api3.akamaiedge.net
+0.0.0.0 a1810.b.akamai.net
 
 # Amazon Cloud Service | AWS
 0.0.0.0 alb-aws-fr-bswx-2-1673521430.eu-central-1.elb.amazonaws.com
@@ -828,6 +834,10 @@
 
 # WeCloud
 0.0.0.0 advclick.wecloud.io
+
+# Webvisor
+0.0.0.0 startup.mobile.webvisor.com
+0.0.0.0 u.startup.mobile.webvisor.com
 
 # www.startcap.info
 0.0.0.0 www.startcap.info
