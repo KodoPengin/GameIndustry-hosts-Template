@@ -25,7 +25,7 @@
 #0.0.0.0 module.zdf.de
 #0.0.0.0 cdn-gl.imrworldwide.com
 0.0.0.0 d2926jmvsihu4k.cloudfront.net
-#0.0.0.0 d1ajagcdjussx5.cloudfront.net
+0.0.0.0 d1ajagcdjussx5.cloudfront.net
 #0.0.0.0 d29sshy11yr8a1.cloudfront.net
 #0.0.0.0 e8383.e6.akamaiedge.net
 0.0.0.0 secure-eu.nmrodam.com
