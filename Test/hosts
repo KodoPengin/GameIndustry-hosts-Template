@@ -18,7 +18,7 @@
 0.0.0.0 de.ioam.de
 0.0.0.0 config.ioam.de
 0.0.0.0 logs.1407.xiti.com
-0.0.0.0 zdf-heute-cdn.live.cellular.de
+#0.0.0.0 zdf-heute-cdn.live.cellular.de
 #0.0.0.0 cdn-gl.imrworldwide.com
 #0.0.0.0 d1ajagcdjussx5.cloudfront.net
 #0.0.0.0 d2926jmvsihu4k.cloudfront.net
