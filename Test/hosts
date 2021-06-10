@@ -14,6 +14,13 @@
 0.0.0.0 r.my.com
 0.0.0.0 logs.ironsrc.mobi
 
+# Line
+0.0.0.0 nelo2-col.linecorp.com
+0.0.0.0 vos.line-scdn.net
+0.0.0.0 obs.line-scdn.net
+0.0.0.0 gwg.line.naver.jp
+0.0.0.0 cix.line.apps.com
+
 # ZDF Heute App
 #0.0.0.0 a773.w4.akamai.net
 #0.0.0.0 api.zdf.de
