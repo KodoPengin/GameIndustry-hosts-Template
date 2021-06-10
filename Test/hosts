@@ -18,8 +18,8 @@
 #0.0.0.0 a773.w4.akamai.net
 #0.0.0.0 api.zdf.de
 #0.0.0.0 cdn-gl.imrworldwide.com
+#0.0.0.0 code.jquery.com
 #0.0.0.0 d1ajagcdjussx5.cloudfront.net
-#0.0.0.0 e8383.e6.akamaiedge.net
 #0.0.0.0 e8383.e6.akamaiedge.net
 #0.0.0.0 module.zdf.de
 #0.0.0.0 www.zdf.de
@@ -27,6 +27,7 @@
 #0.0.0.0 zdfheute-stories-tap.zdf.de
 #0.0.0.0 zdfvodnone-vh.akamaihd.net
 0.0.0.0 app.adjust.com
+0.0.0.0 cds.s5x3j6q5.hwcdn.net
 0.0.0.0 census.eu-central-1.nielsencollections.com
 0.0.0.0 config.ioam.de
 0.0.0.0 crashlyticsreports-pa.googleapis.com
@@ -35,6 +36,7 @@
 0.0.0.0 de.ioam.de
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 graph.facebook.com
+0.0.0.0 iframely.shorthand.com
 0.0.0.0 logs.1407.xiti.com
 0.0.0.0 logs1407.xiti.com
 0.0.0.0 script.ioam.de
@@ -66,3 +68,4 @@
 0.0.0.0 wvf7rbc2tzi1sdmhwte834svl9jt41623312013.uaid.nmrodam.com
 0.0.0.0 xuh9v58bdssznita9emq9hgy4q9yd1623313102.uaid.nmrodam.com
 0.0.0.0 xyjatzrxxpoy5bkd6156v3wxmvlt11623313346.uaid.nmrodam.com
+0.0.0.0 8unoelsgly2bwr9c3mzeymv2kkcq31623327148.uaid.nmrodam.com
