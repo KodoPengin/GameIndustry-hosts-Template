@@ -591,7 +591,7 @@
 # Mopub
 0.0.0.0 ads.mopub.com
 
-# Mozilla Corporation
+# Mozilla Corporation | Mobilgeräte
 0.0.0.0 balrog-cloudfront.prod.mozaws.net
 0.0.0.0 blocklists.settings.services.mozilla.com
 0.0.0.0 content-signature.cdn.mozilla.net
@@ -657,7 +657,7 @@
 0.0.0.0 api.safedk.com
 0.0.0.0 edge.safedk.com
 
-# (Samsung Electronics Co., Ltd.)
+# Samsung Electronics Co., Ltd.
 0.0.0.0 dc.dqa.samsung.com
 0.0.0.0 de.dqa.samsung.com
 0.0.0.0 dls.di.atlas.samsung.com
@@ -740,7 +740,7 @@
 0.0.0.0 pingma.qq.com
 0.0.0.0 log.ptlogin2.tencent-cloud.com
 0.0.0.0 log1.wtlogin.qq.com
-# Weixin
+# Weixin / WeChat
 # 203.205.235.26, 203.205.235.98, 203.205.137.234
 #0.0.0.0 dldir1.qq.com
 0.0.0.0 support.weixin.qq.com
@@ -781,7 +781,7 @@
 0.0.0.0 ulogs.umengcloud.com
 0.0.0.0 plbslog.umeng.com
 
-# Unity Technologies ApS
+# Unity Technologies ApS | Mobilgeräte
 # 69.106.175.42, 35.241.26.53, 35.186.194.186, 35.241.22.100, 69.16.175.10
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 config.unityads.unity3d.com
