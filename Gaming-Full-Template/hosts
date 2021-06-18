@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 09.06.2021
+# Änderungsdatum: 18.06.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1265,6 +1265,10 @@ ff02::3 ip6-allhosts
 #0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
 #0.0.0.0 hydra.easyanticheat.netgamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
 0.0.0.0 d168vncdejh91z.cloudfront.net
+# Beispiel weitere Endpunkte
+#0.0.0.0 server-99-86-4-28.fra6.r.cloudfront.net
+#0.0.0.0 ec2-18-203-24-251.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-34-246-243-49.eu-west-1.compute.amazonaws.com
 
 # Sony DADC, Irdeto Access B.V., Nasper Mediengruppe
 # Denuvo Anti-Cheat
@@ -5207,6 +5211,15 @@ ff02::3 ip6-allhosts
 
 # Barotrauma
 # 104.27.146.140
+# 104.21.76.91
+# 155.133.248.50
+# 155.133.248.52
+# 35.242.251.130
+# 34.235.49.255
+# 151.101.114.49
+# 34.102.176.152
+# 142.250.74.198
+# Tracker werden über das Spiel erreichbare externe Wiki und die Datenschutzrichtlinie geladen. Webseite auf Wix
 #0.0.0.0 www.barotraumagame.com # Ingamenews
 
 # Bounty Train
@@ -9375,6 +9388,9 @@ ff02::3 ip6-allhosts
 # 92.38.154.8
 # 52.174.162.167
 0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com
+# Zeug & Endpunkt
+0.0.0.0 beast.realmforgestudios.com
+0.0.0.0 business-24-134-234-53.pool2.vodafone-ip.de
 
 # Vikings - Wolves of Midgard
 # Facebook Anbindung
@@ -9682,6 +9698,7 @@ ff02::3 ip6-allhosts
 # Konami Digital Entertainment Co., Ltd.
 # GetsuFumaDen: Undying Moon
 # 23.13.247.80
+# 104.109.74.217
 #0.0.0.0 legal.konami.com # Pflicht und mit Google Tagmanager verknüpft
 #0.0.0.0 e3472.f.akamaiedge.net
 #0.0.0.0 a23-13-247-80.deploy.static.akamaitechnologies.com
@@ -9690,7 +9707,7 @@ ff02::3 ip6-allhosts
 # 173.194.222.153
 # 74.125.131.153
 # 64.233.165.153
-0.0.0.0 getsufu-konalyze.appspot.com
+#0.0.0.0 getsufu-konalyze.appspot.com # Zwangsverknüpft mit den Nutzungsbedinungen, danach egal.
 0.0.0.0 lu-in-f153.1e100.net
 0.0.0.0 lg-in-f153.1e100.net
 
@@ -13881,6 +13898,60 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
+# SmileGate RPG, Inc.
+# Lost Ark
+# Achtung, es handelt sich nicht um den kompletten Bestand z.b. sind Endpunkte über Amazon Elastic Compute Cloud EC2 nicht aufgeführt
+# s. Rubrik Kopierschutz / AntiCheat
+# fd00:696e:6974:6578::2d:21
+# 54.235.184.117
+# 23.21.205.229
+# 54.235.184.117
+# 23.23.104.250
+# 18.235.200.69
+# 34.202.203.13
+# fd00:696e:6974:6578::30:d
+# 54.156.246.108
+# 54.235.184.117
+# 54.162.240.234
+# 3.225.100.235
+# 54.197.247.80
+# 34.195.5.136
+# 34.195.68.255
+# 52.23.37.7
+# 34.197.132.157
+# 3.217.106.88
+# 54.175.162.96
+# 54.164.212.220
+# 34.195.5.136
+# 54.84.164.177
+# 54.84.202.53
+# 54.164.214.219
+# 3.209.180.253
+# 2406:da00:ff00::22ed:1db4
+# fd00:696e:6974:6578::30:1b
+# 2406:da00:ff00::3e2:d26
+# 185.151.204.201
+# 93.184.220.29
+# 151.139.128.14
+# 3.125.209.123
+# 18.198.77.130
+# 18.198.248.227
+# 3.66.78.156
+# 3.65.238.7
+# 35.157.203.227
+#0.0.0.0 cs9.wac.phicdn.net
+#0.0.0.0 ocsp.sectigo.com
+#0.0.0.0 crl.comodoca.com
+#0.0.0.0 google.com
+#0.0.0.0 service.maestro.us-east-1.social.games.a2z.com
+#0.0.0.0 azevm7mcof9i3-ats.iot.us-east-1.amazonaws.com
+0.0.0.0 api.ipify.org
+0.0.0.0 s2s.adjust.com
+0.0.0.0 elb097307-934924932.us-east-1.elb.amazonaws.com
+0.0.0.0 eu-central.lostark.games.aws.dev
+0.0.0.0 ludy-public-lb-c66d7f664e901264.elb.eu-central-1.amazonaws.com
+0.0.0.0 lostark.game.gate8.com
+
 # Snail Games USA
 # Dark and Light
 # 45.75.18.33
@@ -13953,6 +14024,7 @@ ff02::3 ip6-allhosts
 # Mechwarrior 5: Mercenaries
 # Achtung! Datarouter Telemetrie und erzwungener Onlinemodus - Wird für andere Spiele benötigt
 # oder Produkte sind nur zur Hälfte nutzbar. Verfahren nach Bedarf.
+# 54.147.109.137
 # 13.33.211.108
 # 52.228.84.34
 # 18.210.235.32
@@ -15214,8 +15286,8 @@ ff02::3 ip6-allhosts
 # 78.47.139.87
 # 94.130.198.230
 # 116.203.12.197
-0.0.0.0 gu.services.thqonline.net
-0.0.0.0 uaa.services.thqonline.net
+#0.0.0.0 gu.services.thqonline.net
+#0.0.0.0 uaa.services.thqonline.net
 0.0.0.0 static.230.198.130.94.clients.your-server.de
 0.0.0.0 static.197.12.203.116.clients.your-server.de
 0.0.0.0 static.87.139.47.78.clients.your-server.de
@@ -15245,14 +15317,26 @@ ff02::3 ip6-allhosts
 0.0.0.0 o313068.ingest.sentry.io
 
 # Die Gilde III
+# 239.255.255.250
 # 176.9.91.194
-# http://176.9.91.194:5080/gds/TG3/01/rpc
+# 78.74.49.118
+# 78.47.49.117
+# http://176.9.91.194:5080/gds/TG3/01/rpc oder 78.74.49.118:5080/gds/TG3/01/rpc
 0.0.0.0 tqa_pc-gds.thqonline.net
+0.0.0.0 o313068.ingest.sentry.io # Erstellte Minidumps zu Spielstart gehen hierhin
 # Für Onlinespiel benötigt
 # 78.47.139.87
 # 116.203.12.197
-0.0.0.0 gu.services.thqonline.net
-0.0.0.0 uaa.services.thqonline.net
+#0.0.0.0 uaa.services.thqonline.net # Mehrspieler Anmeldung
+#0.0.0.0 gu.services.thqonline.net # Serverlist, Heartbeat
+# 94.130.198.244
+# 94.130.252.66
+#0.0.0.0 nat2.thqonline.net
+# Endpunkte
+#0.0.0.0 static.244.198.130.94.clients.your-server.de
+#0.0.0.0 static.66.252.130.94.clients.your-server.de
+#0.0.0.0 static.87.139.47.78.clients.your-server.de
+#0.0.0.0 static.197.12.203.116.clients.your-server.de
 
 # Fade to Silence
 # Umfrage im Hauptmenü | Wer Google/Docs benötigt beide Adressen mitsamt Gstatic aktiv lassen
