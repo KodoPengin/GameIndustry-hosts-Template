@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 18.06.2021
+# Änderungsdatum: 24.06.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -2000,7 +2000,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -2500,6 +2500,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 native.adscale.de
 0.0.0.0 trx.adscale.de
 
+# Adsco
+0.0.0.0 adsco.re
+0.0.0.0 lcl0zoxt7fxa.l4.adsco.re
+0.0.0.0 loq6b3axl0fc.n4.adsco.re
+0.0.0.0 loq6b3axl0fc.s4.adsco.re
+0.0.0.0 rleuof7rl02s.l4.adsco.re
+0.0.0.0 rleuof7rl02s.n4.adsco.re
+0.0.0.0 c.adsco.re
+0.0.0.0 adsco.re
+0.0.0.0 6.adsco.re
+0.0.0.0 4.adsco.re
+
 # Adserver.cc
 0.0.0.0 outdoor-broker.adserver.cc
 
@@ -2872,7 +2884,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 d163w5bauk02b4.cloudfront.net # Chip.de
 0.0.0.0 d17fy28x8ov4h8.cloudfront.net # Dailymail
 0.0.0.0 d18dhv6xwmvh4j.cloudfront.net
-0.0.0.0 d1bqktvj79b0wh.cloudfront.net
+0.0.0.0 d1a3jb5hjny5s4.cloudfront.net
+0.0.0.0 d1bqktvj79b0wh.cloudfront.net0.0.0.0 d1a3jb5hjny5s4.cloudfront.net
 0.0.0.0 d1dli2tyorled9.cloudfront.net
 0.0.0.0 d1er90t4t0ta7c.cloudfront.net
 0.0.0.0 d1g1a818mvww4w.cloudfront.net
@@ -7375,6 +7388,14 @@ ff02::3 ip6-allhosts
 # CounterStrike CS:GO
 # Scam, Abzocke und Gambleseiten für den beliebten Shooter CS:GO der Valve Corporation
 
+0.0.0.0 csgo500.org
+0.0.0.0 worldbast.com
+0.0.0.0 bolocase.com
+0.0.0.0 csgpremier.com
+0.0.0.0 myawward.com
+0.0.0.0 cscyberplay.com
+0.0.0.0 battle-cup.com
+0.0.0.0 rankedxcs.com
 0.0.0.0 bitskins.com
 0.0.0.0 cloudcsgo.com
 0.0.0.0 counterluck.com
@@ -7473,6 +7494,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 steamanalyst.com
 0.0.0.0 stonefire.io
 0.0.0.0 winaskin.com
+0.0.0.0 csgo-faster.xyz
+0.0.0.0 csgo-runs.xyz
+0.0.0.0 cs-heet.xyz
+0.0.0.0 cs-runs.xyz
+0.0.0.0 cs-runes.xyz
+0.0.0.0 csgo-joke.xyz
+0.0.0.0 csgo-runes.xyz
+0.0.0.0 cs-diva.xyz
+0.0.0.0 cs-joke.xyz
+0.0.0.0 cs-select.xyz
+0.0.0.0 csgo-faster.xyz
+0.0.0.0 csgo-dark.xyz
+0.0.0.0 csgo-code.xyz
+0.0.0.0 csgo-phase.xyz
 
 #
 # Zertifikate
@@ -7493,6 +7528,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ocsp.sca1b.amazontrust.com
 
 # Asseco Poland S.A. | Certum.eu/pl
+# 104.126.37.48
 # 213.222.201.215
 # 108.161.187.37
 # 95.101.27.71
@@ -7593,6 +7629,7 @@ ff02::3 ip6-allhosts
 # 2.21.76.105
 # 95.101.72.175
 # 88.221.223.35
+# 23.45.105.185
 #0.0.0.0 ocsp.int-x3.letsencrypt.org
 #0.0.0.0 r3.o.lencr.org # OCSP
 
@@ -10568,7 +10605,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 assets.msn.com
 #0.0.0.0 img-s-msn-com.akamaized.net
 #0.0.0.0 ecn.dev.virtualearth.net # Windows 10 Kartendaten
-#0.0.0.0 www.bing.com # Sichmaschine
+#0.0.0.0 www.bing.com # Suchmaschine und Newsanzeige
+0.0.0.0 browser.events.data.msn.com
 
 # Footprint | svchost.exe
 # 8.253.207.121
@@ -12328,6 +12366,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 cgi.sexlist.com
 
 # Stripchat
+0.0.0.0 img.strpst.com
+0.0.0.0 stripchat.com
+0.0.0.0 cdn.strpst.com
 0.0.0.0 st.stripcdn.com
 0.0.0.0 cdn.stripst.com
 0.0.0.0 go.stripchat.com
@@ -12431,7 +12472,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.2mdnsys.com
 0.0.0.0 ads.onlinevideoconverter.com
 0.0.0.0 adsalesforce.com
-0.0.0.0 adsco.re
 0.0.0.0 adservd.com
 0.0.0.0 agenciafbi.ga
 0.0.0.0 agmermer.pro
@@ -13480,7 +13520,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 37-201-147-50_s-2-19-194-154_ts-1609997214-clienttons-s.akamaihd.net
 0.0.0.0 39788f3ee241c9c77fa5-5f3f962c17f4c19066268fe915d96f9f.ssl.cf1.rackcdn.com
 0.0.0.0 3r1kwxcd.top
-0.0.0.0 4.adsco.re
 0.0.0.0 4.load14.biz
 0.0.0.0 400c883bf5448b1.com
 0.0.0.0 401-edd-684.mktoresp.com
@@ -13497,7 +13536,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 56887516a3d780190946bf9f36d1aea049fb9ec2029d140a7281b34c.trk.sensic.net
 0.0.0.0 5baf1288cf.dl8.me
 0.0.0.0 5f3c395.ccm19.de
-0.0.0.0 6.adsco.re
 0.0.0.0 6.load14.biz
 0.0.0.0 6037648.global.siteimproveanalytics.io
 0.0.0.0 676528u53u82k.tke-tambov.ru
@@ -13518,10 +13556,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 9.load14.biz
 0.0.0.0 a-fds.youborafds01.com
 0.0.0.0 a.b0e8.com
+0.0.0.0 a.benonblkd.xyz
 0.0.0.0 a.bestcontentprogram.top
 0.0.0.0 a.df-srv.de
 0.0.0.0 a.impactradius-go.com
 0.0.0.0 a.jimdo.com
+0.0.0.0 a.montkpl.top
 0.0.0.0 a.omappapi.com
 0.0.0.0 a.optimizesrv.com
 0.0.0.0 a.optmstr.com
@@ -13641,7 +13681,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads18.unoadsrv.com
 0.0.0.0 ads2.uptobox.com
 0.0.0.0 ads62.unoadsrv.com
-0.0.0.0 adsco.re
 0.0.0.0 adscpm.site
 0.0.0.0 adserv.adbetnet.com
 0.0.0.0 adserve.mahimeta.com
@@ -13690,6 +13729,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 agre.crosscert.com
 0.0.0.0 ahgdsply.com
 0.0.0.0 aj1574.online
+0.0.0.0 akemeast.club
 0.0.0.0 akutapro.com
 0.0.0.0 algovid.com
 0.0.0.0 alli-ti-cod.com
@@ -13809,6 +13849,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 app.n26.com
 0.0.0.0 app.playstream.media
 0.0.0.0 app.trustami.com
+0.0.0.0 app.xordem.com.br
 0.0.0.0 appearedsoci.fun
 0.0.0.0 appfocus.go2cloud.org
 0.0.0.0 apps.meg.com
@@ -13864,6 +13905,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ayhhg.com # Verweis auf log.bigroundass.net
 0.0.0.0 azure-assets-prod.vicomi.com
 0.0.0.0 b-m.xyz
+0.0.0.0 b.bestcontentfood.top
 0.0.0.0 b.bestcontentprogram.top
 0.0.0.0 b.bnrsis.com
 0.0.0.0 b.dombnrs.com
@@ -13887,6 +13929,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 banners-hw.trafficfactory.biz
 0.0.0.0 banners.askmecca.com
 0.0.0.0 basicapp.online
+0.0.0.0 bb.hdpornpictures.net
 0.0.0.0 bcdn.grmtas.com
 0.0.0.0 bch.alchimiafoodlab.it
 0.0.0.0 bd202457b.com
@@ -13900,6 +13943,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 beerpay.io
 0.0.0.0 beholder.xyz
 0.0.0.0 beiven.pw
+0.0.0.0 beklefkiom.com
 0.0.0.0 benchmark.1e100cdn.net
 0.0.0.0 best1265.myprizebox7.live
 0.0.0.0 best2020-games-web1.com
@@ -13965,7 +14009,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 bwlexomipaipi.xyz
 0.0.0.0 byaqcsehcj.com
 0.0.0.0 byeej.com
-0.0.0.0 c.adsco.re
 0.0.0.0 c.conversionlogic.net
 0.0.0.0 c.datpix.net
 0.0.0.0 c.evidon.com
@@ -13983,6 +14026,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 c5x8i7c7.ssl.hwcdn.net
 0.0.0.0 ca432853280e21f681b68fc319b1302712a1f4a0.xyz
 0.0.0.0 call.netzathleten-media.de
+0.0.0.0 camo.githubusercontent.com
 0.0.0.0 campaign.bet3000.com
 0.0.0.0 campsplus.ru
 0.0.0.0 caradstag.casa
@@ -14067,6 +14111,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.mutinyhq.com
 0.0.0.0 cdn.nativery.com
 0.0.0.0 cdn.ndg.io
+0.0.0.0 cdn.noapai.name
 0.0.0.0 cdn.onnetwork.tv
 0.0.0.0 cdn.parrable.com
 0.0.0.0 cdn.perfdrive.com
@@ -14129,6 +14174,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cebj.ecolio.it
 0.0.0.0 census.eu-west-1.nielsencollections.com
 0.0.0.0 certakes.com
+0.0.0.0 cessyntactu.fun
 0.0.0.0 cf.cdn.inmobi.com
 0.0.0.0 cfjump.ergoflex.com.au
 0.0.0.0 cftn.pornhits.com
@@ -14170,6 +14216,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 clix.superclix.de
 0.0.0.0 clk.rtpdn11.com
 0.0.0.0 clk.verblife-2.co
+0.0.0.0 clknrtrg.pro
 0.0.0.0 clkuk.tradedoubler.com
 0.0.0.0 clmcom.com
 0.0.0.0 cloud-apk.store
@@ -14207,6 +14254,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 collector.xhamster.one
 0.0.0.0 coltagainst.pro
 0.0.0.0 com-date.info
+0.0.0.0 cometmaster.com
 0.0.0.0 comfortlessweave.com
 0.0.0.0 commen.club
 0.0.0.0 commercialvalue.org
@@ -14305,6 +14353,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 d.jumpnews.pro
 0.0.0.0 d.lemonpi.io
 0.0.0.0 d.omsnative.de
+0.0.0.0 d.rejcinews.pro
+0.0.0.0 d.rejcinews.pro
 0.0.0.0 d1ac2du043ydir.cloudfront.net
 0.0.0.0 d1j8v290qqvibb.cloudfront.net
 0.0.0.0 d24ak3f2b.top
@@ -14366,7 +14416,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 difi.picchu.it
 0.0.0.0 dig.ultimedia.com
 0.0.0.0 digidip.net
+0.0.0.0 discovernative.com
 0.0.0.0 disparagethence.com
+0.0.0.0 disputumn.website
 0.0.0.0 distoryrussion.info
 0.0.0.0 djlf.costruiamonovella.it
 0.0.0.0 dm.hybrid.ai
@@ -14388,6 +14440,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 dominionprotectioncandle.com
 0.0.0.0 doseofporn.com
 0.0.0.0 dosliggooor.com
+0.0.0.0 dota2-lefts.xyz
+0.0.0.0 dota2-round.xyz
+0.0.0.0 dota2left.xyz
+0.0.0.0 dota2lists.xyz
 0.0.0.0 dothbognib.com
 0.0.0.0 double-clickd.com
 0.0.0.0 doublepimpads.com
@@ -14595,7 +14651,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 gnoriyari.club
 0.0.0.0 gnr.misscommercio.it
 0.0.0.0 go-route.com
+0.0.0.0 go.ashhgo.com
 0.0.0.0 go.automatad.com
+0.0.0.0 go.cm-trk3.com
+0.0.0.0 go.cm-trk5.com
+0.0.0.0 go.dmzjmp.com
 0.0.0.0 go.etoro.com
 0.0.0.0 go.eu.bbelements.com
 0.0.0.0 go.ezodn.com
@@ -14609,6 +14669,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 go.rcvlink.com
 0.0.0.0 go.schjmp.com
 0.0.0.0 go.siemonster.com
+0.0.0.0 go.tmrjmp.com
 0.0.0.0 go1.aniview.com
 0.0.0.0 goaciptu.net
 0.0.0.0 gomain2.pro
@@ -14704,6 +14765,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 id5-sync.com
 0.0.0.0 idaas-ext.cph.liveintent.com
 0.0.0.0 idat.production.ippen.space
+0.0.0.0 idateforay.club
 0.0.0.0 iddjpop.com
 0.0.0.0 idg.blueconic.net
 0.0.0.0 ie8eamus.com
@@ -14852,7 +14914,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 larrenpicture.pro
 0.0.0.0 latestsocial.com
 0.0.0.0 lb3.mediarithmics.com
-0.0.0.0 lcl0zoxt7fxa.l4.adsco.re
 0.0.0.0 ldrtrack.com
 0.0.0.0 ldsa.l-iw.de # Verweist auf ad13.adfarm1.adition.com und cdn.cxense.com
 0.0.0.0 leaderhistliness.info
@@ -14901,6 +14962,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 logs1413.xiti.com # NDR TV
 0.0.0.0 loka-cdn.akamaized.net
 0.0.0.0 loka-materials.akamaized.net
+0.0.0.0 lologhfd.com
 0.0.0.0 lon3vdr.sterlingdatarooms.com
 0.0.0.0 lottoland.evergage.com
 0.0.0.0 lovelybingo.com
@@ -14946,6 +15008,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 martafatass.pro
 0.0.0.0 marthastewart.com
 0.0.0.0 massariuscdn.com
+0.0.0.0 masterbate.pro
 0.0.0.0 mastertag.q-sis.de
 0.0.0.0 masture.mobi
 0.0.0.0 match.ads.betweendigital.com
@@ -14989,6 +15052,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 meetinggear.com
 0.0.0.0 meetsourhig.biz
 0.0.0.0 megadarky.ic.cz # Werbung
+0.0.0.0 memesfunny.org
 0.0.0.0 mena-gmtdmp.mookie1.com
 0.0.0.0 mentcomm.fun
 0.0.0.0 meowpushnot.com
@@ -15036,6 +15100,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mx130-csgo.muitadica.com
 0.0.0.0 mxl.connexity.net
 0.0.0.0 mybestmv.com
+0.0.0.0 mybetterdl.com
 0.0.0.0 mybrowseraddon.com
 0.0.0.0 myqualifica.fun
 0.0.0.0 mzjcsda.thefaceduck.com
@@ -15064,6 +15129,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 nexxtv-events.servicebus.windows.net
 0.0.0.0 ngp4.intnotif.club
 0.0.0.0 ngus.picchu.it
+0.0.0.0 nhyey.misrepress.website
 0.0.0.0 nicemostapp.biz
 0.0.0.0 nietalless.site
 0.0.0.0 nlfi.casavacanzarelax.it
@@ -15073,6 +15139,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 nomadtual7.live
 0.0.0.0 notbad-ads.com
 0.0.0.0 noteupgrade.onlinegoodsite2contenting.review
+0.0.0.0 notify.bugsnag.com
 0.0.0.0 novasdk.oss-cn-beijing.aliyuncs.com
 0.0.0.0 ns-dnstest.spyoff.com
 0.0.0.0 ns1.secure.footprint.net
@@ -15085,6 +15152,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 nwea.foracaicampania.it
 0.0.0.0 nyadra.com
 0.0.0.0 nzpttu.dynamodb8581.site
+0.0.0.0 o-2736.cloudtraff.com
 0.0.0.0 o.wowreality.info
 0.0.0.0 o2.nonstoppartner.net
 0.0.0.0 o6tz3yatqic8xindhgae3kqbyzoaz1616475698.nuid.nmrodam.com
@@ -15098,6 +15166,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 offers.tracking6666.xyz
 0.0.0.0 offoonguser.com
 0.0.0.0 ofgogoatan.com
+0.0.0.0 ojvcm.misrepress.website
 0.0.0.0 okaido.site
 0.0.0.0 olybethelp.zendesk.com
 0.0.0.0 olytics.omeda.com
@@ -15145,6 +15214,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 p0.mycdn.co
 0.0.0.0 p1dxvifvew5z9drnl4ezp5fz7insi1616475815.nuid.nmrodam.com
 0.0.0.0 p203248.mybetterdl.com
+0.0.0.0 p242.nonewnews.name
+0.0.0.0 p242.nonewnews.name
 0.0.0.0 p251644.infopicked.com
 0.0.0.0 p40238.mycdn.co
 0.0.0.0 pa.rxthdr.com
@@ -15269,6 +15340,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 prebid.smilewanted.com
 0.0.0.0 prefmgr-cookie.truste-svc.net
 0.0.0.0 premiumsrv.aniview.com
+0.0.0.0 premiumvertising.com
 0.0.0.0 presidery.info
 0.0.0.0 preskalyn.com
 0.0.0.0 presslayand-12.live
@@ -15473,6 +15545,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sc.iasds01.com
 0.0.0.0 sc.trustpayglobal.com
 0.0.0.0 scene-front.lokaplatform.com
+0.0.0.0 sciencem.club
 0.0.0.0 screenshotfactory.com
 0.0.0.0 script.clickadilla.com
 0.0.0.0 scripts.attributionapp.com
@@ -15567,6 +15640,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sru4c3g1-029d275edc43d3a9ec1b8c8f4994657f8e139c07-am1.e.aa.online-metrix.net
 0.0.0.0 srv.carbonads.net
 0.0.0.0 srv.clickfuse.com
+0.0.0.0 srv.vivaclix.com
 0.0.0.0 srxo.liviacorsetti.it
 0.0.0.0 ss3.zedo.com
 0.0.0.0 ssionsupre.fun
@@ -15658,6 +15732,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sumo.com
 0.0.0.0 superjuryger.site
 0.0.0.0 supermetrics.idevaffiliate.com
+0.0.0.0 superonclick.com
 0.0.0.0 support.adult.xyz
 0.0.0.0 support2.cdnetworks.net
 0.0.0.0 sw.wpush.org
@@ -15834,11 +15909,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 track.pricespider.com
 0.0.0.0 track.sitetag.us
 0.0.0.0 track.trkpros.com
+0.0.0.0 track.vivaclix.com
 0.0.0.0 track.wg-aff.com
 0.0.0.0 track.xdisctracking.pw
 0.0.0.0 track.youniversalmedia.com
 0.0.0.0 track1.aniview.com
 0.0.0.0 tracker.auskunft.de
+0.0.0.0 tracker.euroweb.net
 0.0.0.0 tracker.ffftrgf.com
 0.0.0.0 tracker.metricool.com
 0.0.0.0 tracker.nbcuas.com
@@ -15857,6 +15934,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tracking.tomsguide.com
 0.0.0.0 tracking8888.xyz
 0.0.0.0 trackquantx.adux.com
+0.0.0.0 tracrauma-notional.icu
 0.0.0.0 tradingtracker.net
 0.0.0.0 traffic.adxprtz.com
 0.0.0.0 traffic.okfn.de # Piwik
@@ -15892,8 +15970,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 turktelekom.geo.iponweb.net
 0.0.0.0 tuttogermania.it
 0.0.0.0 tvmitbier.com
+0.0.0.0 twinrdsrv.com
 0.0.0.0 u.jimcdn.com
 0.0.0.0 u0.extreme-dm.com
+0.0.0.0 u3y8v8u3.ackcdn.net
 0.0.0.0 u6q3y7w9.ssl.hwcdn.net
 0.0.0.0 uajp.whitecomo.it
 0.0.0.0 ub.finanzfrage.net # Tracker
@@ -15949,6 +16029,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v2.skeettools.com
 0.0.0.0 v3.fstats.xyz
 0.0.0.0 va.tawk.to
+0.0.0.0 vast.adsturn.com
 0.0.0.0 vast.onnetwork.tv
 0.0.0.0 vawpro.vm5apis.com
 0.0.0.0 vdr.sterlingdatarooms.com
@@ -15964,8 +16045,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 vid-adblocker.com
 0.0.0.0 vidapi.expepp.de
 0.0.0.0 video-library.showheroes.com
+0.0.0.0 video.dmzjmp.com
 0.0.0.0 video.onnetwork.tv
 0.0.0.0 video.unrulymedia.com
+0.0.0.0 vidsply.com
 0.0.0.0 vidyome-com.cdn.vidyome.com
 0.0.0.0 virallupdates.com
 0.0.0.0 visitor-service-eu-central-1.tealiumiq.com
@@ -16019,6 +16102,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 webtracking.trifels.de # rheinmain4family.de, frankfurt-tipp.de usw
 0.0.0.0 wekomix.com
 0.0.0.0 welcome.unibet.ee
+0.0.0.0 weodp.misrepress.website
 0.0.0.0 weshareabundance.com
 0.0.0.0 whalecashads.com
 0.0.0.0 wheelches.info
@@ -16059,7 +16143,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 wpformb.com
 0.0.0.0 wqw5pob.thefaceduck.com
 0.0.0.0 wrongwhencompletedivide.live
+0.0.0.0 ws.sc-apps.com
 0.0.0.0 wurfl.io
+0.0.0.0 ww2.sqidsply.com
 0.0.0.0 ww2.vuedsply.com
 0.0.0.0 wwa.wipe.de
 0.0.0.0 wwsercher.biz
@@ -16170,6 +16256,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.markmypath.com
 0.0.0.0 www.marpalsac.com.pe
 0.0.0.0 www.megakickass.com
+0.0.0.0 www.memesfunny.org
 0.0.0.0 www.mgouoirpayddk.com
 0.0.0.0 www.mintdevtest.com
 0.0.0.0 www.movcpm.com # Verweis auf Terraclicks
@@ -16189,6 +16276,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.partydeko.de
 0.0.0.0 www.passeura.com
 0.0.0.0 www.pbcake.com
+0.0.0.0 www.performancetrustednetwork.com
 0.0.0.0 www.piwik.bayern.de
 0.0.0.0 www.pizzaandads.com
 0.0.0.0 www.platincasino.com
@@ -16213,6 +16301,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.samfloy.com
 0.0.0.0 www.sbmdsfld.com
 0.0.0.0 www.searchwinner.site
+0.0.0.0 www.securely-send.com
 0.0.0.0 www.sejonghakdang.org
 0.0.0.0 www.shieldsquare.com
 0.0.0.0 www.sicteppojdwr.com
@@ -16227,6 +16316,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.swisscom.ch
 0.0.0.0 www.swoop-amp.com
 0.0.0.0 www.swpsvc.com
+0.0.0.0 www.tamgrt.com
 0.0.0.0 www.technical-service.net
 0.0.0.0 www.teens.net
 0.0.0.0 www.telefonica-partner.de
@@ -16260,6 +16350,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.wp.pl
 0.0.0.0 www.xadsmart.com
 0.0.0.0 www.xn--nhmaschine-q5a.org
+0.0.0.0 www.xordem.com.br
 0.0.0.0 www.yuyucollection.com.sg
 0.0.0.0 www.zergnet.com
 0.0.0.0 www1.belboon.de # Adtracking verweist auf akipam.com
@@ -16342,6 +16433,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.realtime-bid.com
 0.0.0.0 xml.revrtb.net
 0.0.0.0 xml.tab-technologies.com
+0.0.0.0 xml.trafficmoose.com
 0.0.0.0 xml.zeusadx.com
 0.0.0.0 xqny.perlaluce.it
 0.0.0.0 xtremeserve.xyz
@@ -17932,7 +18024,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -17955,7 +18047,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -17971,7 +18063,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -17994,7 +18086,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -18016,7 +18108,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -18131,7 +18223,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18151,7 +18243,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18169,7 +18261,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -18240,7 +18332,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -18306,7 +18398,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -18333,7 +18425,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -18350,7 +18442,7 @@ ff02::3 ip6-allhosts
 # Fall of Light | Aktualisiert: 15.03.2019
 # 35.241.26.53
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
@@ -18379,7 +18471,7 @@ ff02::3 ip6-allhosts
 # 216.58.208.46
 # 216.58.211.110
 # 40.76.47.124
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -18398,7 +18490,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-analytics.com # UA-117120801-4
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -18703,7 +18795,7 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 # 35.190.78.8
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -18801,7 +18893,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -18859,7 +18951,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 
 # La Mulana II
@@ -18928,7 +19020,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.241.26.53
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -18962,7 +19054,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -18984,7 +19076,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -19003,7 +19095,7 @@ ff02::3 ip6-allhosts
 # 34.252.114.68
 # 52.174.162.167
 # 172.217.194.138
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -19056,7 +19148,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -19071,7 +19163,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -19115,7 +19207,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -19183,7 +19275,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -19198,7 +19290,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -19220,7 +19312,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -19342,7 +19434,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com # EUROPA
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com # USA
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com # ASIEN
@@ -19445,7 +19537,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.google-analytics.com
 0.0.0.0 d3lwh93x96tiiu.cloudfront.net
 0.0.0.0 cdn.auth0.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -19485,7 +19577,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 cs977204322.wpc.edgecastcdn.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -19514,7 +19606,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -19604,7 +19696,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -19700,7 +19792,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -19881,7 +19973,7 @@ ff02::3 ip6-allhosts
 # UnityCrashHandler64.exe im Hauptverzeichnis löschen
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -19993,7 +20085,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # 50.87.248.11
@@ -20017,7 +20109,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 
 # The Wizards who fell in a hole
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -20365,7 +20457,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -20389,7 +20481,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -20448,7 +20540,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -20554,7 +20646,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 www-google-analytics.l.google.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -20741,7 +20833,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 # 67.225.180.24
 # 67.225.180.25
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21011,7 +21103,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 logs-01.loggly.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21089,7 +21181,7 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 # 35.190.78.8
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21119,7 +21211,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21195,7 +21287,7 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 # 31.182.60.150
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21214,7 +21306,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21406,7 +21498,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -21425,7 +21517,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21454,7 +21546,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21499,7 +21591,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p-a126-mainserver-896310517.us-west-2.elb.amazonaws.com
 0.0.0.0 2vnci0fr6d.execute-api.us-east-1.amazonaws.com
 0.0.0.0 perf-events.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -21666,7 +21758,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21696,7 +21788,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 ironoakgames00.appspot.com
 #0.0.0.0 api.epicgames.dev
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21709,7 +21801,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.241.26.53
 0.0.0.0 hff.terahard.org
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -21736,7 +21828,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21772,7 +21864,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21862,7 +21954,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 cgpromotion.azurewebsites.net
 0.0.0.0 cgpromotion.blob.core.windows.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21876,7 +21968,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21902,7 +21994,7 @@ ff02::3 ip6-allhosts
 # 52.166.80.100
 # 104.40.183.236
 # 194.67.211.171
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21920,7 +22012,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 # 52.166.80.100
 # 104.40.183.236
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -21968,7 +22060,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -22053,7 +22145,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -22102,7 +22194,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -22189,7 +22281,7 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 # 35.190.78.8
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -22244,7 +22336,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -22361,7 +22453,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -22443,7 +22535,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -22467,7 +22559,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.186.194.186
 # 35.241.26.53
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -22494,7 +22586,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -22585,7 +22677,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -22791,7 +22883,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -22818,7 +22910,7 @@ ff02::3 ip6-allhosts
 # 208.64.71.50
 # 34.95.76.217
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -22984,7 +23076,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23062,7 +23154,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23128,7 +23220,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 # 34.95.76.217
 # 104.20.16.242
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23175,7 +23267,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -23199,7 +23291,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -23224,7 +23316,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23342,7 +23434,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23357,7 +23449,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23377,7 +23469,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23395,7 +23487,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23442,7 +23534,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23673,7 +23765,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23688,7 +23780,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23703,7 +23795,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23718,7 +23810,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23733,7 +23825,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23748,7 +23840,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23763,7 +23855,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23778,7 +23870,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23793,7 +23885,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23808,7 +23900,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23823,7 +23915,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -23857,7 +23949,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -24114,7 +24206,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ec2-52-213-101-171.eu-west-1.compute.amazonaws.com
 #0.0.0.0 ec2-52-17-104-102.eu-west-1.compute.amazonaws.com
 #0.0.0.0 server-13-224-194-105.fra2.r.cloudfront.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -24177,7 +24269,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -24214,7 +24306,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -24231,7 +24323,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -24248,7 +24340,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -24303,7 +24395,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -24327,7 +24419,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 
 # Ghost_RUS Games
 # Loot Box Simulator 20!8
@@ -24373,7 +24465,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -24388,7 +24480,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -24409,7 +24501,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 galaxy-log.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -24445,7 +24537,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -24538,7 +24630,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -24551,7 +24643,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -24640,7 +24732,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -24717,7 +24809,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -24744,7 +24836,7 @@ ff02::3 ip6-allhosts
 # 34.107.181.14
 # 35.190.78.8
 # 2600:1901:0:e37d::
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -24799,7 +24891,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -24891,7 +24983,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -24912,7 +25004,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -24934,7 +25026,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25030,7 +25122,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25055,7 +25147,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25124,7 +25216,7 @@ ff02::3 ip6-allhosts
 # Firestone Idle RPG
 # Ip/s blockieren:
 # 35.190.78.8, 35.241.26.53, 35.186.194.186, 35.190.88.234, 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25146,7 +25238,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
 # 35.241.26.53, 35.186.194.186, 35.190.88.234, 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25183,7 +25275,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25254,7 +25346,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25363,7 +25455,7 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 # 34.107.181.14
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25438,7 +25530,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25613,7 +25705,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 # 35.190.88.234
 # 52.55.16.22
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -25630,7 +25722,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.241.52.229
 # 35.190.88.234
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25742,7 +25834,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.241.52.229
 # 35.190.88.234
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25758,7 +25850,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25772,7 +25864,7 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25797,7 +25889,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25822,7 +25914,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25902,7 +25994,7 @@ ff02::3 ip6-allhosts
 # 216.58.212.238
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -25924,7 +26016,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25954,7 +26046,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -25977,7 +26069,7 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 # 35.190.78.8
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -26023,7 +26115,7 @@ ff02::3 ip6-allhosts
 # 216.58.212.176
 # 216.58.206.16
 # 142.250.74.206
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -26111,7 +26203,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -26128,7 +26220,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 # 35.190.78.8
 # 2600:1901:0:e37d::
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -26467,7 +26559,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 # 208.64.200.105
@@ -26515,7 +26607,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -26592,7 +26684,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -26670,7 +26762,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -26741,7 +26833,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -26762,7 +26854,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 #0.0.0.0 validate.playgenuine.net # DRM
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -26779,7 +26871,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -26828,7 +26920,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -26862,7 +26954,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -26979,7 +27071,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.241.26.53
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -27001,7 +27093,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -27015,7 +27107,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -27056,7 +27148,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -27175,7 +27267,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 # 13.91.89.255
 # 13.91.191.179
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -27263,7 +27355,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -27289,7 +27381,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -27314,7 +27406,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -27329,7 +27421,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -27405,7 +27497,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -27575,7 +27667,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 api.mdmx.pmang.cloud
 #0.0.0.0 adminfront.mdmx.pmang.cloud
 #0.0.0.0 mdmx-ott.akamaized.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -27590,7 +27682,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -27604,7 +27696,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -27679,7 +27771,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -27696,7 +27788,7 @@ ff02::3 ip6-allhosts
 # 31.3.237.180
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -27736,7 +27828,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 #0.0.0.0 bser-gamedb-release.bser.io
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -27762,7 +27854,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.cartoonnetwork.com # Werbung
 0.0.0.0 analytics.ninjakiwi.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -27813,7 +27905,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 0.0.0.0 analytics.ninjakiwi.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
@@ -27858,7 +27950,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -27901,7 +27993,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -28089,7 +28181,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.186.194.186
 # 35.241.26.53
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -28132,7 +28224,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.186.194.186
 # 35.241.26.53
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -28150,7 +28242,7 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 # 35.190.78.8
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -28183,7 +28275,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -28226,7 +28318,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -28409,7 +28501,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 api.paradox-interactive.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -28464,7 +28556,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 api.twitch.tv
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -28573,7 +28665,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -28610,7 +28702,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -28719,7 +28811,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -28745,7 +28837,7 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 # 34.107.181.14
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -28773,7 +28865,7 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 # 35.227.244.186
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -28789,6 +28881,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 accounts.pixiv.net.cdn.cloudflare.net
 0.0.0.0 accounts.pixiv.net
 0.0.0.0 s.pximg.net
+# Ingamenews - Dasselbe wie Google Docs
+# https://docs.qq.com/sheet/DWkRuVFhBSWNibm5Q?tab=BB08J2
+# 203.205.254.103
+#0.0.0.0 docs.qq.com
 
 # Pocketwatch Games
 # Tooth and Tail
@@ -28884,7 +28980,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -28920,7 +29016,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29006,7 +29102,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29043,7 +29139,7 @@ ff02::3 ip6-allhosts
 # 52.32.33.213
 # 76.223.29.204
 # 152.89.163.155
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29121,7 +29217,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29136,7 +29232,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29213,7 +29309,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29291,7 +29387,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29307,7 +29403,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29322,7 +29418,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29337,7 +29433,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29352,7 +29448,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29367,7 +29463,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29398,7 +29494,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29418,7 +29514,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 # 35.190.88.234
 # 52.220.179.77
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29438,7 +29534,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 # 35.190.78.8
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29473,7 +29569,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29573,7 +29669,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # Ip/s blockieren:
@@ -29619,7 +29715,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.google-analytics.com # UA-59066187-26
 #0.0.0.0 form.asana.com
 #0.0.0.0 stranded-sails.rokapublish.de
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29688,7 +29784,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -29766,7 +29862,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -30103,7 +30199,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 
 # Warhammer 40,000: Dawn of War III
 # s. Rubrik Kopierschutz / AntiCheat
@@ -30189,7 +30285,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 galaxy-log.gog.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -30238,7 +30334,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -30322,7 +30418,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.241.26.53
 # 172.217.17.46
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -30407,7 +30503,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -30693,7 +30789,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 52.55.162.139
 0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -30797,7 +30893,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -30813,7 +30909,7 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 # 208.64.200.105
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -31094,7 +31190,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -31260,7 +31356,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -31277,7 +31373,7 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 #0.0.0.0 ecoauth.strangeloopgames.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -31333,7 +31429,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -31385,7 +31481,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -31400,7 +31496,7 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 # 185.14.184.48
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -31453,7 +31549,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -31483,7 +31579,7 @@ ff02::3 ip6-allhosts
 # 104.26.6.7
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -31554,7 +31650,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -31564,7 +31660,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Golf with your friends
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -31711,7 +31807,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -31815,7 +31911,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -31849,7 +31945,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -31910,7 +32006,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -31996,7 +32092,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32070,7 +32166,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32127,7 +32223,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32159,7 +32255,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ipinfo.io
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32200,7 +32296,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 41dcf.playfabapi.com
 0.0.0.0 logs-01.loggly.com
 0.0.0.0 www.google-analytics.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32238,7 +32334,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32254,7 +32350,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32292,7 +32388,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32327,7 +32423,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32352,7 +32448,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32379,7 +32475,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32460,7 +32556,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32474,7 +32570,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -32608,7 +32704,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 0.0.0.0 us-east-1-a.route.herokuapp.com # Werbung, Promocodes, Statistiken
 0.0.0.0 cloud-save-backup.herokuapp.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32811,7 +32907,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32826,7 +32922,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -32926,8 +33022,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -33167,7 +33263,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 # 216.58.211.142
 # 104.197.31.39
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -33221,7 +33317,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -33237,7 +33333,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -33252,7 +33348,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -33293,7 +33389,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -33308,7 +33404,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -33359,7 +33455,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -33473,7 +33569,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -33555,7 +33651,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -33577,7 +33673,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -33611,7 +33707,7 @@ ff02::3 ip6-allhosts
 # 172.217.18.110
 # 172.217.22.1
 # 52.3.66.119
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -33637,7 +33733,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -33745,7 +33841,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -34150,7 +34246,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -34166,7 +34262,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -34299,7 +34395,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -34333,7 +34429,7 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 api.gameanalytics.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -34366,7 +34462,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 galaxy-log.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -34406,7 +34502,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
