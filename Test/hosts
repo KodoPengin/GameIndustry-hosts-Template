@@ -16,6 +16,7 @@
 0.0.0.0 tracker-api.my.com
 0.0.0.0 r.my.com
 0.0.0.0 logs.ironsrc.mobi
+0.0.0.0 weed-inc-api.metamoki.com
 0.0.0.0 collect16512wdncq.deltadna.net
 0.0.0.0 engage16512wdncq.deltadna.net
 0.0.0.0 balanced-collect.deltadna.net
@@ -28,5 +29,4 @@
 0.0.0.0 nelo2-col.linecorp.com
 0.0.0.0 vos.line-scdn.net
 0.0.0.0 obs.line-scdn.net
-#0.0.0.0 gwg.line.naver.jp
 0.0.0.0 cix.line.apps.com
