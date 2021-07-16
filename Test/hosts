@@ -7,12 +7,22 @@
 0.0.0.0 cryptauthdevicesync.googleapis.com
 0.0.0.0 deviceintegritytokens-pa.googleapis.com
 0.0.0.0 lamssettings-pa.googleapis.com
+0.0.0.0 mobilemaps-pa-gz.googleapis.com
+0.0.0.0 ulp1p-pa.googleapis.com
+0.0.0.0 geller-pa.googleapis.com
 
 # Div Zeug
 0.0.0.0 etl.harrybuy.com
 0.0.0.0 tracker-api.my.com
 0.0.0.0 r.my.com
 0.0.0.0 logs.ironsrc.mobi
+0.0.0.0 ozy9dqfbil.execute-api.us-east-1.amazonaws.com
+0.0.0.0 collect16512wdncq.deltadna.net
+0.0.0.0 balanced-collect.deltadna.net
+0.0.0.0 gllto1.glpals.com
+0.0.0.0 gllto.glpals.com.cdn.cloudflare.net
+0.0.0.0 api.adgem.com
+0.0.0.0 iploc-api.mangoo-games.com
 
 # Line
 0.0.0.0 nelo2-col.linecorp.com
