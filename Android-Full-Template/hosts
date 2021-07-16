@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Spezifisch
 # Kombinierbar mit dem Hosts Mini-Template für Androidspiele und Programme
-# Änderungsdatum: 09.06.2021
+# Änderungsdatum: 16.07.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -704,6 +704,9 @@
 0.0.0.0 api.amplitude.com
 0.0.0.0 app-measurement.com
 0.0.0.0 graph.facebook.com
+0.0.0.0 collect16512wdncq.deltadna.net
+0.0.0.0 engage16512wdncq.deltadna.net
+0.0.0.0 balanced-collect.deltadna.net
 
 # Moon+
 # Moon+ Reader
