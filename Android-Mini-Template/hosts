@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Kombinierbar mit dem Hosts Template für Androidspiele und Programme - Spezifisch
-# Änderungsdatum: 10.06.2021
+# Änderungsdatum: 16.07.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -77,6 +77,7 @@
 0.0.0.0 app.adjust.io
 0.0.0.0 app-adjust.com
 0.0.0.0 s2s.adjust.com
+0.0.0.0 app.adjust.net.in
 
 # Admix
 0.0.0.0 geoip5m1y07.admix.in
