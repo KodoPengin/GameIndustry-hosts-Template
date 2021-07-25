@@ -33,7 +33,7 @@ Supporting german, english and japanese language
 
 # Screenshot:
 <p float="left">
-<img src="https://www.gameindustry.eu/images/git/host_setup.webp" alt="Main page" width="400" height="363">
+<img src="https://www.gameindustry.eu/images/git/host_setup.webp" alt="Gi-HostsInstaller">
 </p>
 
 # Attention! Some programs can cause trouble:
