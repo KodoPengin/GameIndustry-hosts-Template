@@ -31,11 +31,6 @@ Source: <a href="https://www.gameindustry.eu/downloads/">GameIndustry Downloads<
 
 Supporting german, english and japanese language
 
-# Latest Screenshot:
-<p float="left">
-<img src="https://www.gameindustry.eu/images/git/host_setup.webp" alt="Gi-HostsInstaller">
-</p>
-
 # Attention! Some programs can cause trouble:
 Since I specify connections per product and thus also duplicate entries and strict block "critical" processes (e.g. Windows Spyware, some activation services), it's difficult sometimes. Manufacturers do not like this approach, take the initiative and the hosts will be deleted from your system or will be strongly modified without a hint.<br>
 - Kaspsersky Internet Security requires an exception rule
