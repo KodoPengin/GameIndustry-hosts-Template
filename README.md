@@ -14,16 +14,19 @@ This unique hosts offer an enhanced privacy to protect users from tracking, spyw
 - Android Full-Template: Blocked telemetry, advertising, game analytics, spyware and unnecessary connections for several Android products. Product related without exception
 
 # Special features:
-- Entries for over 1300 games
-- Over 25000 lines
+- Works on any device. System-wide
+- Blocked entries for over 1500 games and the most important gaming-clients of this time
+- Over 31000 lines
 - Regularly updated
 - Entries for Software, games, websites and IoT
-- Modular design
+- Privacy breaking tech companies like Facebook are blocked
+- A large part of the outgoing connections from Windows (xx) and Microsoft games were blocked
+- Strict and no exceptions for big companies
+- Modular design - Take entries you need
 - All entries are categorized by Product names, Publisher, website & company names
 - Comments and additional information for several entries (german language)
 - All products are seperated, to show consumers which things belong to which product
 - Additional Ipv4 and Ipv6 entries to block them in your firewall
-- Strict and no exceptions for big technology companys
 
 # Bonus:
 A host file setup was created for easy use. Start your setup, choose one template and install.<br>
@@ -33,7 +36,7 @@ Supporting german, english and japanese language
 
 # Latest Screenshot:
 <p float="left">
-<img src="https://www.gameindustry.eu/images/git/hostsetup.webp" alt="Gi-HostsInstaller">
+<img src="https://www.gameindustry.eu/images/git/h_setup0721.webp" alt="Gi-HostsInstaller">
 </p>
 
 # Attention! Some programs can cause trouble:
