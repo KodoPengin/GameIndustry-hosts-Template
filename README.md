@@ -70,3 +70,6 @@ Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a> and
 Steam Group & Support: <a href="https://steamcommunity.com/groups/penguindome/">Spyware in Spielen? Nein danke!</a>
 
 License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons by-nc-sa 4.0</a>
+
+# A word to the people who have nothing to show for themselves
+Imposters and thiefs like "Chef-Koch" can go to hell. Using other people's work with own name is the lowest
