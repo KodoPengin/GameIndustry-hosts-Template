@@ -31,7 +31,7 @@ Source: <a href="https://www.gameindustry.eu/downloads/">GameIndustry Downloads<
 
 Supporting german, english and japanese language
 
-# Screenshot:
+# Latest Screenshot:
 <p float="left">
 <img src="https://www.gameindustry.eu/images/git/host_setup.webp" alt="Gi-HostsInstaller">
 </p>
