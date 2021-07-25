@@ -71,5 +71,11 @@ Steam Group & Support: <a href="https://steamcommunity.com/groups/penguindome/">
 
 License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons by-nc-sa 4.0</a>
 
-# A word to the people who have nothing to show for themselves
-Imposters and thiefs like "Chef-Koch" can go to hell. Using other people's work with own name is the lowest
+# Copycats and thiefs
+Imposters and thiefs like "Chef-Koch" can go to hell. Using other people's work and passes off other people's work as own creation is the lowest. Especially then if act too stupidly.
+
+There are not for nothing notes about licenses and copyrights on my published content.
+
+Reports can posted here or via the indicated contact options.
+
+Thanks
