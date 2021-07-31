@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 07.07.2021
+# Änderungsdatum: 01.08.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -3005,11 +3005,78 @@ ff02::3 ip6-allhosts
 
 # AutoAttack Games
 # Legion TD 2
-# Onlinezwang
+# 44.239.129.245
+# 34.213.228.223
+# 104.18.24.217
+# 34.213.228.223
+# 54.216.41.64
+# 34.249.101.95
+# 35.227.244.186
+# 23.55.161.199
+# 35.227.244.184
+# 208.97.140.245
+# 172.65.231.130
+# 34.213.228.223
+# 216.239.35.12
+# 92.38.154.68
+# 17.253.108.253
+# 35.227.244.186
+# 35.241.52.229
+# 151.101.112.193
+# 139.45.193.10
+# 155.133.255.162
+# 155.133.235.18
+# 155.133.235.34
+# 155.133.252.69
+# 103.10.124.100
+# 162.254.197.36
+# 162.254.192.69
+# 155.133.248.53
+# 146.66.155.34
+# 185.25.182.69
+# 155.133.246.67
+# 162.254.196.82
+# 103.10.125.154
+# 162.254.195.70
+# 155.133.233.99
+# 162.254.198.43
+# 155.133.230.66
+# 162.254.199.170
+# 185.25.183.178
+# 205.185.194.52
+# 155.133.232.98
+# 155.133.253.38
+# 155.133.238.162
+# 153.254.86.166
+# 162.254.193.100
+# 155.133.249.178
+# 205.196.6.68
+# 103.10.125.162
+# 155.133.252.36
+# 190.217.33.34
+# 155.133.239.19
+# 155.133.245.35
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 stats.unity3d.com
-0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 #0.0.0.0 9092.playfabapi.com # Leaderboard, Cloudscript, Währung, Sprache, gebannt ja/nein, letzter Login, Herkunft z.b. Steam, SteamID, Nutzername, Displayname ingame, Geodaten Längen & Breitengrade
+#0.0.0.0 hydra.legiontd2.com
+#0.0.0.0 time.google.com
+#0.0.0.0 time-osx.g.aaplimg.com
+#0.0.0.0 cdn.cloudflare.steamstatic.com
+#0.0.0.0 i.imgur.com
+#0.0.0.0 ns-eu.exitgames.com
+#0.0.0.0 gcams078.exitgames.com
+#0.0.0.0 ec2-34-213-228-223.us-west-2.compute.amazonaws.com
+#0.0.0.0 ec2-54-216-41-64.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-34-249-101-95.eu-west-1.compute.amazonaws.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+#0.0.0.0 cdn.akamai.steamstatic.com
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
 # Automaton
 # Deceit
@@ -5242,6 +5309,22 @@ ff02::3 ip6-allhosts
 # 52.198.49.195
 #0.0.0.0 ec2-52-198-49-195.ap-northeast-1.compute.amazonaws.com # Server Endpunkt
 
+# Cyber Keks
+# Hentai Coloring, Hentai Pussy 2, Pussy 3
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Cyber Rhino Studios
 # Gryphon Knight Epic
 # 208.64.200.105
@@ -5530,6 +5613,22 @@ ff02::3 ip6-allhosts
 # 52.85.246.229
 0.0.0.0 dji22ijeurkhd.cloudfront.net
 0.0.0.0 ping.yoyogames.com
+
+# Dark Illusions Entertainment, LLC
+# Guardians of Greyrock
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Darril Arts s.r.l
 # Remothered: Tormented Fathers
@@ -6269,16 +6368,26 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 # 208.64.71.50
 # 34.95.76.217
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
-0.0.0.0 ldns.co
 0.0.0.0 games.eekllc.com
-0.0.0.0 steamdatasuite.com
+0.0.0.0 ldns.co
+0.0.0.0 emqx.anzuinfra.com
+0.0.0.0 l3.anzuinfra.com
+0.0.0.0 l3-markup.anzu.io
+0.0.0.0 caps-server.anzu.io
+0.0.0.0 events.anzuinfra.com
+0.0.0.0 l1-1.anzu.io
+0.0.0.0 logic.anzuinfra.com
+0.0.0.0 creatives.sascdn.com
+0.0.0.0 www10.smartadserver.com
 
 # Elden Pixels
 # Alwa's Awakening
@@ -9126,6 +9235,22 @@ ff02::3 ip6-allhosts
 #0.0.0.0 xblcxplatqos-jae-9-18-2-0.cloudapp.net # JapanEast
 #0.0.0.0 xblcxplatqos-ause-9-18-2-0.cloudapp.net # AustraliaSoutheast
 #0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com # AustraliaEast
+
+# IR Studio
+# Hentai Halloween
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Jadon Barnes
 # Aktive UnityCrashHandler64.exe
@@ -12918,6 +13043,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
+# Robot Entertainment, Inc.
+# Orcs Must Die! 3
+# Ip/s blockieren:
+# 34.198.225.240
+# 35.169.8.30
+# 18.213.40.51
+# 54.166.73.165
+# 52.2.194.52
+# 52.0.77.239
+# 52.55.203.38
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 ec2-52-55-203-38.compute-1.amazonaws.com
+0.0.0.0 ec2-52-0-77-239.compute-1.amazonaws.com
+0.0.0.0 ec2-52-2-194-52.compute-1.amazonaws.com
+0.0.0.0 ec2-54-166-73-165.compute-1.amazonaws.com
+0.0.0.0 ec2-18-213-40-51.compute-1.amazonaws.com
+0.0.0.0 ec2-34-198-225-240.compute-1.amazonaws.com
+
 # Robot Squid
 # King of Crabs
 # 52.217.103.102
@@ -13669,6 +13812,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
+# SekaiFrieden
+# Epido
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Sekai Project
 # Clannad
 # 208.64.200.105
@@ -13720,6 +13879,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Draw_Love | Aktualisiert 26.02.2019
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Golden Fever
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -14109,15 +14283,18 @@ ff02::3 ip6-allhosts
 # Mechwarrior 5: Mercenaries
 # Achtung! Datarouter Telemetrie und erzwungener Onlinemodus - Wird für andere Spiele benötigt
 # oder Produkte sind nur zur Hälfte nutzbar. Verfahren nach Bedarf.
-# 54.147.109.137
-# 13.33.211.108
-# 52.228.84.34
-# 18.210.235.32
 # 54.163.75.56
 # 54.209.8.117
 # 54.205.78.237
 # 35.168.145.110
 # 35.174.129.193
+# 52.228.84.34
+# 54.161.191.212
+# 2.16.107.73
+# 54.230.96.97
+# 18.210.235.32
+# 13.33.211.108
+# 54.147.109.137
 #0.0.0.0 api.epicgames.dev
 0.0.0.0 mw5xplay.azurewebsites.net
 0.0.0.0 hosts.mw5xplay.azurewebsites.net
@@ -14125,6 +14302,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 9eu8txazwd.execute-api.us-west-2.amazonaws.com
 0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
 0.0.0.0 ec2-18-210-235-32.compute-1.amazonaws.com
+0.0.0.0 a2-16-107-73.deploy.static.akamaitechnologies.com
+0.0.0.0 ec2-54-161-191-212.compute-1.amazonaws.com
 
 # Sometimes You
 # Cranium Conundrum
@@ -14836,7 +15015,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 172.217.17.97
 # 172.217.14.238
-0.0.0.0 googlehosted.l.googleusercontent.com
+#0.0.0.0 googlehosted.l.googleusercontent.com
 0.0.0.0 script.google.com
 
 # SUNFISH Co., Ltd.
@@ -16205,7 +16384,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gamelift.us-east-1.amazonaws.com
 0.0.0.0 gamelift.sa-east-1.amazonaws.com
 0.0.0.0 ap-southeast-2-storm.ubi.com
-0.0.0.0 s3-1-w.amazonaws.com
+#0.0.0.0 s3-1-w.amazonaws.com
 #0.0.0.0 useast1-public-im.aws-ubiservices.ubi.com
 #0.0.0.0 useast1-public.aws-ubiservices.ubi.com
 0.0.0.0 provisioning-blue.public-prodservices-us-east-1.aws-storm.ubi.com
