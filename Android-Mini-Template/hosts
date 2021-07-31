@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Kombinierbar mit dem Hosts Template für Androidspiele und Programme - Spezifisch
-# Änderungsdatum: 16.07.2021
+# Änderungsdatum: 01.08.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -71,13 +71,14 @@
 # Adcrops.net
 0.0.0.0 t.adcrops.net
 
-# Adjust.com & io
+# Adjust.com, io, world
 0.0.0.0 view.adjust.com
 0.0.0.0 app.adjust.com
 0.0.0.0 app.adjust.io
 0.0.0.0 app-adjust.com
 0.0.0.0 s2s.adjust.com
 0.0.0.0 app.adjust.net.in
+0.0.0.0 app.adjust.world
 
 # Admix
 0.0.0.0 geoip5m1y07.admix.in
@@ -237,7 +238,7 @@
 0.0.0.0 d39hwpl5gxli7h.cloudfront.net
 0.0.0.0 d3azwz0fcakc5.cloudfront.net
 0.0.0.0 dzpu6za66svjl.cloudfront.net
-0.0.0.0 d1cye4mftov9xe.cloudfront.net
+0.0.0.0 d1cye4mftov9xe.cloudfront.net # Line Messenger
 
 # CrashEye
 0.0.0.0 rp.crasheye.cn
@@ -266,6 +267,7 @@
 0.0.0.0 collect4739mgndm.deltadna.net
 0.0.0.0 balanced-engage.deltadna.net
 0.0.0.0 engage17070dvntr.deltadna.net
+0.0.0.0 engage16512wdncq.deltadna.net
 0.0.0.0 collect17070dvntr.deltadna.net
 
 # Exitgames
@@ -356,6 +358,7 @@
 #0.0.0.0 people-pa.googleapis.com # Zuständig für Synchronisation von Kalender und Kontakten
 0.0.0.0 reminders-pa.googleapis.com
 0.0.0.0 playgateway-pa.googleapis.com
+0.0.0.0 play-fe.googleapis.com
 0.0.0.0 notifications-pa.googleapis.com
 0.0.0.0 speechs3proto2-pa.googleapis.com
 0.0.0.0 cryptauthenrollment.googleapis.com
@@ -495,6 +498,7 @@
 0.0.0.0 www.ssacdn.com
 0.0.0.0 networksdk.ssacdn.com
 0.0.0.0 v.ssacdn.com
+0.0.0.0 logs.ironsrc.mobi
 # SuperSonic ADS
 # 52.20.131.127, 13.225.78.15, 13.225.78.6, 143.204.101.81, 54.240.168.74, 52.20.219.15, 52.20.60.144, 104.124.11.24
 0.0.0.0 pixel-tracking.sonic-us.supersonicads.com
@@ -880,6 +884,7 @@
 0.0.0.0 assets-share.dspunion.com
 0.0.0.0 aviaotpusk.ru # Highscorelisten
 0.0.0.0 aws-fr.bidswitch.net
+0.0.0.0 beacons.gvt2.com
 0.0.0.0 beacons3.gvt2.com
 0.0.0.0 beacons4.gvt2.com
 0.0.0.0 collector.githubapp.com
@@ -920,6 +925,7 @@
 0.0.0.0 track.atom-data.io
 0.0.0.0 track.libii.cn
 0.0.0.0 track.oasis.magictavern.com
+0.0.0.0 tracker-api.my.com
 0.0.0.0 vector-eu-west-1.aonix.com
 0.0.0.0 wins.isprog.com
 0.0.0.0 www.leanplum.com
