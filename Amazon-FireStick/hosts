@@ -1,0 +1,141 @@
+#   ____                      ___           _           _                          
+#  / ___| __ _ _ __ ___   ___|_ _|_ __   __| |_   _ ___| |_ _ __ _   _   ___ _   _ 
+# | |  _ / _` | '_ ` _ \ / _ \| || '_ \ / _` | | | / __| __| '__| | | | / _ \ | | |
+# | |_| | (_| | | | | | |  __/| || | | | (_| | |_| \__ \ |_| |  | |_| ||  __/ |_| |
+#  \____|\__,_|_| |_| |_|\___|___|_| |_|\__,_|\__,_|___/\__|_|   \__, (_)___|\__,_|
+#                                                                |___/             
+#
+# Erhöhter Schutz vor Spyware, Advertising, Analytics, Tracking in Spielen
+# Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
+#
+# Version: Amazon FireStick und App-Verbindungen
+# Kombinierbar mit anderen Host Templates
+# Änderungsdatum: 01.08.2021
+#
+# Diese Datei stammt von https://www.gameindustry.eu
+# Kontaktmail: noreply@gameindustry.eu
+# Hilfe: https://hosts.gameindustry.eu/faq/
+# Kontakt: https://www.gameindustry.eu/u/kontakt/
+# Steam: https://www.steamcommunity.com/groups/Penguindome
+#
+# Lizenz: CC BY-NC-SA 4.0
+# https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
+#
+# License: CC BY-NC-SA 4.0
+# https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en
+#
+# Es ist gestattet, die host Dateien für nicht-kommerzielle Zwecke zu verwenden,
+# solange auf angemessene Urheber/Rechteangaben mitsamt Link verwiesen wird.
+#
+# Achtung! Unity-Endpunkte sind wieder nach Anwenderherkunft gegliedert
+# Info https://hosts.gameindustry.eu und https://gameindustry.eu/firmenkatalog/unity-technologies-aps/
+#
+# ---Ab hier kopieren ---
+
+# Amazon Firestick
+#0.0.0.0 amazonadsi-a.akamaihd.net # App Download
+#0.0.0.0 api.amazon.com
+#0.0.0.0 api.amazon.de
+#0.0.0.0 ecx.images-amazon.com # App Bilder
+#0.0.0.0 firebat-25-aftmm-271593.eu.api.amazonvideo.com # Prime Bereich
+#0.0.0.0 images-na.ssl-images-amazon.com
+#0.0.0.0 ktpx-eu.amazon.com # Bedienelemente
+#0.0.0.0 m.media-amazon.com
+#0.0.0.0 mas-ext-eu.amazon.com # Querverweise Apps
+#0.0.0.0 prime.amazon.eu
+#0.0.0.0 softwareupdates.amazon.com # Firmware Updates
+#0.0.0.0 spectrum.s3.amazonaws.com
+#0.0.0.0 www.amazon.co.uk
+#0.0.0.0 www.amazon.com
+#0.0.0.0 www.amazon.de
+0.0.0.0 aax-eu.amazon-adsystem.com
+0.0.0.0 ab2xb7ra6e44.eu.api.amazonvideo.com
+0.0.0.0 aca-livecards-service-eu.amazon.com
+0.0.0.0 aftv-25-amazon-aftmm-4.eu.api.amazonvideo.com
+0.0.0.0 alexa.amazon.de
+0.0.0.0 api.eu.amazonalexa.com
+0.0.0.0 appstore-tv-prod-eu.amazon.com
+0.0.0.0 arcus-uswest.amazon.com
+0.0.0.0 aviary.amazon.com
+0.0.0.0 aviary.amazon.de
+0.0.0.0 avs-alexa-18-eu.amazon.com
+0.0.0.0 cdws.eu-west-1.amazonaws.com
+0.0.0.0 cognito-identity.us-east-1.amazonaws.com
+0.0.0.0 cortana-gateway.amazon.com
+0.0.0.0 cs-ext-eu.amazon.com
+0.0.0.0 d21m0ezw6fosyw.cloudfront.net
+0.0.0.0 d2dybwdjii0mza.cloudfront.net
+0.0.0.0 d3h5bk8iotgjvw.cloudfront.net
+0.0.0.0 dcape-na.amazon.com
+0.0.0.0 det-ta-g7g.amazon.com
+0.0.0.0 device-metrics-us.amazon.com
+0.0.0.0 digprjsurvey.amazon.eu
+0.0.0.0 dp-discovery-na-ext.amazon.com
+0.0.0.0 dp-gw-na.amazon.com
+0.0.0.0 fireoscaptiveportal.com # Pingback
+0.0.0.0 firetvcaptiveportal.com # Pingback
+0.0.0.0 firs-ta-g7g.amazon.com
+0.0.0.0 fls-eu.amazon.com
+0.0.0.0 idc-service-oz-eu.amazon.com
+0.0.0.0 kraken-measurements.s3-external-1.amazonaws.com
+0.0.0.0 msh.amazon.co.uk
+0.0.0.0 prod.amazoncrl.com
+0.0.0.0 sessions.prod.bugs.firebat.prime-video.amazon.dev
+0.0.0.0 tap-events-kinesis-max-size-breach.s3-external-1.amazonaws.com
+0.0.0.0 u03lw25r9l.execute-api.us-east-1.amazonaws.com
+0.0.0.0 unagi-eu.amazon.com
+0.0.0.0 unagi-na.amazon.com # Sprachaufnahme / Alexa
+0.0.0.0 wl.amazon-dss.com
+
+# Streaming
+#0.0.0.0 api.eu-west-1.aiv-delivery.net
+#0.0.0.0 s3-dub-2.cf.dash.row.aiv-cdn.net
+#0.0.0.0 cf-trickplay.aux.pv-cdn.net
+
+# Firestick - Diverse Apps
+0.0.0.0 api.auth.adobe.com
+0.0.0.0 zwyr157wwiu6eior.com # NordVPN
+
+# Anixe
+#0.0.0.0 media.anixe.net
+#0.0.0.0 stream2.anixe.net
+#0.0.0.0 anixehd.tv
+#0.0.0.0 www.anixehd.tv
+
+# ARD
+#0.0.0.0 api.ardmediathek.de
+#0.0.0.0 images.ardmediathek.de
+#0.0.0.0 img.ardmediathek.de
+0.0.0.0 d29sshy11yr8a1.cloudfront.net # NMRodam.com
+0.0.0.0 de-config-preproduction.sensic.net
+0.0.0.0 ece7aa1b679aa248fa07a7b1ad5dbe3e1272291c12b64bd4bb962c1a.trk.sensic.net
+0.0.0.0 f0eb13bf4790cc8e407a980d65145dd0f480ff6465a8d1739c66ed4b.trk.sensic.net
+0.0.0.0 image.ard.de
+0.0.0.0 secure-eu.nmrodam.com
+
+# Arte
+#0.0.0.0 api-cdn.arte.tv
+0.0.0.0 geoloc.arte.tv
+#0.0.0.0 api.arte.tv
+0.0.0.0 logs1136.xiti.com
+0.0.0.0 mesure.streaming.estat.com
+0.0.0.0 auth.estat.com
+
+# DW
+#0.0.0.0 api.dw.com
+#0.0.0.0 dwhlsondemand-vh.akamaihd.net
+#0.0.0.0 static.dw.com
+#0.0.0.0 tvdownloaddw-a.akamaihd.net
+0.0.0.0 app-measurement.com
+0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 logs1242.xiti.com
+
+# Viddler
+#0.0.0.0 subtitles.cdn-ec.viddler.com
+#0.0.0.0 thumbs.cdn-ec.viddler.com
+
+# ZDF
+#0.0.0.0 zdf-cdn.live.cellular.de
+#0.0.0.0 www.zdf.de
+#0.0.0.0 api.zdf.de
+#0.0.0.0 zdfvodnone-vh.akamaihd.net
