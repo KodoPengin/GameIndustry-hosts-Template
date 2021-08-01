@@ -12156,7 +12156,7 @@ ff02::3 ip6-allhosts
 # 54.149.111.157
 # 52.43.79.30
 # 35.244.181.201
-0.0.0.0 balrog-aus5.r53-2.services.mozilla.com
+#0.0.0.0 balrog-aus5.r53-2.services.mozilla.com # Abhängigkeit aus5.mozilla.org
 0.0.0.0 balrog-cloudfront.prod.mozaws.net
 0.0.0.0 prod.balrog.prod.cloudops.mozgcp.net # Update.xml Endpunkt
 # Kacheln
