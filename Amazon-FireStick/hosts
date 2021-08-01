@@ -69,14 +69,15 @@
 0.0.0.0 digprjsurvey.amazon.eu
 0.0.0.0 dp-discovery-na-ext.amazon.com
 0.0.0.0 dp-gw-na.amazon.com
+0.0.0.0 endeavour.amazon.com
 0.0.0.0 fireoscaptiveportal.com # Pingback
 0.0.0.0 firetvcaptiveportal.com # Pingback
 0.0.0.0 firs-ta-g7g.amazon.com
 0.0.0.0 fls-eu.amazon.com
 0.0.0.0 idc-service-oz-eu.amazon.com
+0.0.0.0 kinesis.us-east-1.amazonaws.com
 0.0.0.0 kraken-measurements.s3-external-1.amazonaws.com
 0.0.0.0 mads-eu.amazon.com
-0.0.0.0 mas-ext-eu.amazon.com
 0.0.0.0 msh.amazon.co.uk
 0.0.0.0 prod.amazoncrl.com
 0.0.0.0 sessions.prod.bugs.firebat.prime-video.amazon.dev
