@@ -91,7 +91,7 @@
 
 # Firestick - Diverse Apps
 0.0.0.0 api.auth.adobe.com
-0.0.0.0 zwyr157wwiu6eior.com # NordVPN
+#0.0.0.0 zwyr157wwiu6eior.com # NordVPN Auth
 
 # Anixe
 #0.0.0.0 media.anixe.net
