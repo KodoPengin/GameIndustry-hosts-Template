@@ -12158,7 +12158,7 @@ ff02::3 ip6-allhosts
 # 35.244.181.201
 #0.0.0.0 balrog-aus5.r53-2.services.mozilla.com # Abhängigkeit aus5.mozilla.org
 0.0.0.0 balrog-cloudfront.prod.mozaws.net
-0.0.0.0 prod.balrog.prod.cloudops.mozgcp.net # Update.xml Endpunkt
+#0.0.0.0 prod.balrog.prod.cloudops.mozgcp.net # Update.xml Endpunkt
 # Kacheln
 0.0.0.0 tiles-cloudfront.cdn.mozilla.net
 0.0.0.0 tiles.services.mozilla.com
@@ -12198,7 +12198,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 blocklist.addons.mozilla.org
 0.0.0.0 incoming-telemetry.thunderbird.net # Opt-Out mal anders
 #0.0.0.0 www.mozilla.org.cdn.cloudflare.net
-0.0.0.0 prod.balrog.prod.cloudops.mozgcp.net # Update.xml Endpunkt
+#0.0.0.0 prod.balrog.prod.cloudops.mozgcp.net # Update.xml Endpunkt
 # Ip/s blockieren:
 # 34.213.175.3
 0.0.0.0 crash-reports.mozilla.com # GeräteID, Addoninfos, Bioshersteller, Breakpaddaten, Zeistempel, Minidumpdatei, Speicherdaten uvm
