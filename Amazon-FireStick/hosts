@@ -75,6 +75,7 @@
 0.0.0.0 fls-eu.amazon.com
 0.0.0.0 idc-service-oz-eu.amazon.com
 0.0.0.0 kraken-measurements.s3-external-1.amazonaws.com
+0.0.0.0 mads-eu.amazon.com
 0.0.0.0 msh.amazon.co.uk
 0.0.0.0 prod.amazoncrl.com
 0.0.0.0 sessions.prod.bugs.firebat.prime-video.amazon.dev
