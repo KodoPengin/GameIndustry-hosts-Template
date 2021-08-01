@@ -846,7 +846,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 kh.google.com # Metadaten
 #0.0.0.0 geo0.ggpht.com # Streetviewdaten
 #0.0.0.0 www.google.com # Config, Vorschläge, Suchergebnisse, Maps, Fotometadaten
-0.0.0.0 play.googleapis.com # Log - Erfassung Versionsnummer, Headseterfassung, Betriebssystemm, Sprache, Batteriestatusu der Controller, Grafikkarte, Programmversion von Earth
+# Die play.googleapis.com wird leider auch bei Android für den Playstore benötigt. Bei Bedarf de/aktivieren
+#0.0.0.0 play.googleapis.com # Log - Erfassung Versionsnummer, Headseterfassung, Betriebssystemm, Sprache, Batteriestatus der Controller, Grafikkarte, Programmversion von Earth
 0.0.0.0 clients2.google.com # Empfang der Crashpad Logs
 
 # Tilt Brush
