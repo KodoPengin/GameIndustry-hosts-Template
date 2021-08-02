@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Spezifisch
 # Kombinierbar mit dem Hosts Mini-Template für Androidspiele und Programme
-# Änderungsdatum: 01.08.2021
+# Änderungsdatum: 02.08.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -290,15 +290,11 @@
 0.0.0.0 ads.api.vungle.com
 
 # Google LLC
-0.0.0.0 playatoms-pa.googleapis.com
 0.0.0.0 datamixer-pa.googleapis.com
 0.0.0.0 instantmessaging-pa.googleapis.com
 0.0.0.0 mobilemaps-pa.googleapis.com
-#0.0.0.0 play.googleapis.com
 0.0.0.0 cloudconfig.googleapis.com
-0.0.0.0 android.clients.google.com # Ingamekäufe
 0.0.0.0 phonedeviceverification-pa.googleapis.com
-#0.0.0.0 android.googleapis.com # Wird für Playstoreanbindung benötigt
 0.0.0.0 digitalassetlinks.googleapis.com
 0.0.0.0 mtalk.google.com
 0.0.0.0 alt1-mtalk.google.com
@@ -315,6 +311,12 @@
 0.0.0.0 e.crashlytics.com
 0.0.0.0 settings.crashlytics.com
 0.0.0.0 reports.crashlytics.com
+
+# Google LLC - Playstore
+0.0.0.0 android.clients.google.com # Ingamekäufe
+#0.0.0.0 android.googleapis.com # Wird für Playstoreanbindung benötigt
+#0.0.0.0 playatoms-pa.googleapis.com
+#0.0.0.0 play.googleapis.com
 
 # Green Panda Games
 # Idle Royale Tycoon - Incremental Merge Battle Game

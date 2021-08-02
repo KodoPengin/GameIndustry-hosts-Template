@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Kombinierbar mit dem Hosts Template für Androidspiele und Programme - Spezifisch
-# Änderungsdatum: 01.08.2021
+# Änderungsdatum: 02.08.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -331,38 +331,33 @@
 
 # Google LLC
 # 216.58.206.14
-0.0.0.0 android.clients.google.com # Bestandteil von Ingamekäufen/Bezahlhistorie
-#0.0.0.0 play.googleapis.com
 0.0.0.0 history.google.com
 # API/s
 # 172.217.23.106, 216.58.206.10
-#0.0.0.0 www.googleapis.com
-#0.0.0.0 securetoken.googleapis.com
 #0.0.0.0 android.googleapis.com # Benötigt für die Angebote im Playstore
-#0.0.0.0 www.googleapis.com # Synchronisation
-0.0.0.0 growth-pa.googleapis.com
-0.0.0.0 safebrowsing.googleapis.com
-0.0.0.0 footprints-pa.googleapis.com
-0.0.0.0 chromesyncpasswords-pa.googleapis.com
-0.0.0.0 mdh-pa.googleapis.com
-0.0.0.0 clientservices.googleapis.com
-0.0.0.0 digitalassetlinks.googleapis.com
-0.0.0.0 playatoms-pa.googleapis.com
-0.0.0.0 datamixer-pa.googleapis.com
-0.0.0.0 instantmessaging-pa.googleapis.com
-0.0.0.0 mobilemaps-pa.googleapis.com
-0.0.0.0 cloudconfig.googleapis.com
-0.0.0.0 firebaseremoteconfig.googleapis.com
-0.0.0.0 phonedeviceverification-pa.googleapis.com
-0.0.0.0 myphonenumbers-pa.googleapis.com
 #0.0.0.0 people-pa.googleapis.com # Zuständig für Synchronisation von Kalender und Kontakten
-0.0.0.0 reminders-pa.googleapis.com
-0.0.0.0 playgateway-pa.googleapis.com
-0.0.0.0 play-fe.googleapis.com
-0.0.0.0 notifications-pa.googleapis.com
-0.0.0.0 speechs3proto2-pa.googleapis.com
+#0.0.0.0 securetoken.googleapis.com
+#0.0.0.0 www.googleapis.com
+#0.0.0.0 www.googleapis.com # Synchronisation
+0.0.0.0 chromesyncpasswords-pa.googleapis.com
+0.0.0.0 clientservices.googleapis.com
+0.0.0.0 cloudconfig.googleapis.com
 0.0.0.0 cryptauthenrollment.googleapis.com
+0.0.0.0 datamixer-pa.googleapis.com
+0.0.0.0 digitalassetlinks.googleapis.com
+0.0.0.0 firebaseremoteconfig.googleapis.com
+0.0.0.0 footprints-pa.googleapis.com
+0.0.0.0 growth-pa.googleapis.com
 0.0.0.0 infinitedata-pa.googleapis.com
+0.0.0.0 instantmessaging-pa.googleapis.com
+0.0.0.0 mdh-pa.googleapis.com
+0.0.0.0 mobilemaps-pa.googleapis.com
+0.0.0.0 myphonenumbers-pa.googleapis.com
+0.0.0.0 notifications-pa.googleapis.com
+0.0.0.0 phonedeviceverification-pa.googleapis.com
+0.0.0.0 reminders-pa.googleapis.com
+0.0.0.0 safebrowsing.googleapis.com
+0.0.0.0 speechs3proto2-pa.googleapis.com
 # MessageNet
 0.0.0.0 mtalk.google.com
 0.0.0.0 alt1-mtalk.google.com
@@ -381,6 +376,12 @@
 0.0.0.0 alt7.mobile-gtalk.l.google.com
 0.0.0.0 alt8-mtalk.google.com
 0.0.0.0 alt8.mobile-gtalk.l.google.com
+# Playstore
+0.0.0.0 android.clients.google.com # Bestandteil von Ingamekäufen/Bezahlhistorie
+#0.0.0.0 play.googleapis.com
+#0.0.0.0 play-fe.googleapis.com
+#0.0.0.0 playatoms-pa.googleapis.com
+0.0.0.0 playgateway-pa.googleapis.com
 # Werbung & Tracking
 0.0.0.0 userlocation.googleapis.com
 # 172.217.22.98, 172.217.16.162, 172.217.18.98
