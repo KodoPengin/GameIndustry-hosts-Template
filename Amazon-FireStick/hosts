@@ -29,7 +29,7 @@
 #
 # ---Ab hier kopieren ---
 
-# Amazon Firestick
+# Amazon Firestick TV
 #0.0.0.0 ab2xb7ra6e44.eu.api.amazonvideo.com
 #0.0.0.0 amazonadsi-a.akamaihd.net # App Download
 #0.0.0.0 api.amazon.com
@@ -80,6 +80,7 @@
 0.0.0.0 mads-eu.amazon.com
 0.0.0.0 msh.amazon.co.uk
 0.0.0.0 prod.amazoncrl.com
+0.0.0.0 remoteconfig-eu.amazon.com
 0.0.0.0 sessions.prod.bugs.firebat.prime-video.amazon.dev
 0.0.0.0 tap-events-kinesis-max-size-breach.s3-external-1.amazonaws.com
 0.0.0.0 todo-ta-g7g.amazon.com
