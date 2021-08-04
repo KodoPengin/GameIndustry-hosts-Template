@@ -94,10 +94,11 @@
 0.0.0.0 unagi-na.amazon.com # Sprachaufnahme / Alexa
 0.0.0.0 wl.amazon-dss.com
 
-# Streaming
+# Streaming, Teaser usw.
 #0.0.0.0 api.eu-west-1.aiv-delivery.net
 #0.0.0.0 cf-trickplay.aux.pv-cdn.net
 #0.0.0.0 s3-dub-2.cf.dash.row.aiv-cdn.net
+#0.0.0.0 s3-dub-2.cf.trailer.row.aiv-cdn.net
 #0.0.0.0 s3-dub-2.cf.videorolls.row.aiv-cdn.net
 #0.0.0.0 ters.eu-west-1.aiv-delivery.net
 
