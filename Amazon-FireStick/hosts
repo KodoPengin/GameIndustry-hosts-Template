@@ -39,6 +39,7 @@
 #0.0.0.0 firebat.api.amazonvideo.com # Prime Inhalte Synchronisation 
 #0.0.0.0 images-na.ssl-images-amazon.com
 #0.0.0.0 ktpx-eu.amazon.com # Bedienelemente
+#0.0.0.0 ktpx-naws-eu.amazon.com
 #0.0.0.0 m.media-amazon.com
 #0.0.0.0 mas-ext-eu.amazon.com # Querverweise Apps
 #0.0.0.0 prime.amazon.eu
