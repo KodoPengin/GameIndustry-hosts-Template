@@ -74,6 +74,7 @@
 0.0.0.0 firetvcaptiveportal.com # Pingback
 0.0.0.0 firs-ta-g7g.amazon.com
 0.0.0.0 fls-eu.amazon.com
+0.0.0.0 ftvr-na.amazon.com
 0.0.0.0 idc-service-oz-eu.amazon.com
 0.0.0.0 kinesis.us-east-1.amazonaws.com
 0.0.0.0 kraken-measurements.s3-external-1.amazonaws.com
