@@ -94,7 +94,7 @@
 0.0.0.0 unagi-na.amazon.com # Sprachaufnahme / Alexa
 0.0.0.0 wl.amazon-dss.com
 
-# Streaming, Teaser usw.
+# Firestick - Streaming, Teaser usw.
 #0.0.0.0 api.eu-west-1.aiv-delivery.net
 #0.0.0.0 cf-trickplay.aux.pv-cdn.net
 #0.0.0.0 s3-dub-2.cf.dash.row.aiv-cdn.net
@@ -102,7 +102,9 @@
 #0.0.0.0 s3-dub-2.cf.videorolls.row.aiv-cdn.net
 #0.0.0.0 ters.eu-west-1.aiv-delivery.net
 
-# Firestick - Diverse Apps
+# Firestick - Drittanbieter
+
+# Diverses
 0.0.0.0 api.auth.adobe.com
 #0.0.0.0 zwyr157wwiu6eior.com # NordVPN Auth
 
