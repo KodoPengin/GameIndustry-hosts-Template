@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Spezifisch
 # Kombinierbar mit dem Hosts Mini-Template für Androidspiele und Programme
-# Änderungsdatum: 02.08.2021
+# Änderungsdatum: 06.08.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -974,6 +974,23 @@
 0.0.0.0 bibo.api.swiftkey.com
 
 # Tapps Games
+# Bid Wars: Pawn Empire
+0.0.0.0 31891.content.swrve.com
+0.0.0.0 prod.gameservices.forhumans.games
+0.0.0.0 31891.identity.swrve.com
+0.0.0.0 sdk-api-v1.singular.net
+0.0.0.0 exceptions.singular.net
+0.0.0.0 content-cdn.swrve.com
+0.0.0.0 31891.api.swrve.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 app-measurement.com
+0.0.0.0 events.appsflyer.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 firebaseremoteconfig.googleapis.com
+0.0.0.0 userlocation.googleapis.com
+
 # Illuminati
 0.0.0.0 events.appsflyer.com
 0.0.0.0 firebaseremoteconfig.googleapis.com
