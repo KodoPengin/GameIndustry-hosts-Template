@@ -21997,7 +21997,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a72-247-178-8.deploy.static.akamaitechnologies.com
 0.0.0.0 a1948.b.akamai.net
 0.0.0.0 a72-247-178-33.deploy.static.akamaitechnologies.com
-0.0.0.0 a1829.b.akamai.net
+#0.0.0.0 a1829.b.akamai.net # auth.gog.com
 0.0.0.0 a72-247-178-26.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-55-163-12.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-55-163-39.deploy.static.akamaitechnologies.com
