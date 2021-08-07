@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 05.08.2021
+# Änderungsdatum: 07.08.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -2689,6 +2689,7 @@ ff02::3 ip6-allhosts
 # 104.74.137.57
 # 23.55.161.66
 #0.0.0.0 a1843.g1.akamai.net # SteamCDN-A
+#0.0.0.0 a1883.b.akamai.net # api.gog.com
 #0.0.0.0 a1964.r.akamai.net # Stern.de
 0.0.0.0 159-48-53-219_s-2-21-242-244_ts-1626723834-clienttons-s.akamaihd.net
 0.0.0.0 37-201-147-50_s-2-19-194-154_ts-1609997214-clienttons-s.akamaihd.net
@@ -2699,7 +2700,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1819.b.akamai.net
 0.0.0.0 a1822.dscd.akamai.net
 0.0.0.0 a1825.b.akamai.net
-0.0.0.0 a1883.b.akamai.net
 0.0.0.0 a1895.b.akamai.net
 0.0.0.0 a1898.b.akamai.net
 0.0.0.0 a1914.dscb.akamai.net
@@ -12492,6 +12492,7 @@ ff02::3 ip6-allhosts
 # Pornoseiten und Affiliates
 # Geblockte Weiterleitungen, Affiliates und mehr
 
+#0.0.0.0 cdn37804682.ahacdn.me
 0.0.0.0 12007250.pix-cdn.org
 0.0.0.0 3npsgv2sx5.com
 0.0.0.0 994ot5rkpch2.com
@@ -12523,6 +12524,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 b2pk.com
 0.0.0.0 banners.adultfriendfinder.com
 0.0.0.0 banners.tubeadvertising.eu
+0.0.0.0 banroads.com
 0.0.0.0 bate.cum-shows.net
 0.0.0.0 bd202457b.com
 0.0.0.0 bngpt.com
@@ -12547,8 +12549,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn2.pubexchange.com
 0.0.0.0 cdn3.bestcontentprovider.top
 0.0.0.0 cdn3.bestcontentsite.top
-0.0.0.0 cdn37804682.ahacdn.me
-0.0.0.0 cdn53833466.ahacdn.me
 0.0.0.0 ck.jads.co
 0.0.0.0 clipsex.online
 0.0.0.0 clit9.sextracker.com
@@ -12589,6 +12589,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 javhdbest.com
 0.0.0.0 js.click-plus.net
 0.0.0.0 knutenegros.pro
+0.0.0.0 kookporn.com
 0.0.0.0 ladsips.com
 0.0.0.0 loc.sexymilfspics.com
 0.0.0.0 log.perfecttitspics.com
@@ -12601,8 +12602,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 mmoframes.com
 0.0.0.0 momsonincestporn.me
 0.0.0.0 mptentry.com
+0.0.0.0 nativewpsh.com
 0.0.0.0 nextmovs.com
+0.0.0.0 nugh2om.txxx.com
 0.0.0.0 p.zetadeo.com
+0.0.0.0 pn.itiger.online
 0.0.0.0 pornlink.co
 0.0.0.0 pornpicvip.com
 0.0.0.0 poweredby.jads.co
@@ -12622,6 +12626,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.simply-hentai.com
 0.0.0.0 teartee.com
 0.0.0.0 thesexscene.com
+0.0.0.0 tn.porntop.com
 0.0.0.0 trk.blmte.com
 0.0.0.0 ts.clickadilla.com
 0.0.0.0 userputraf.traffic-gate.com
@@ -12631,16 +12636,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.holdemgroup.net
 0.0.0.0 www.madcpms.com
 0.0.0.0 www.topdisplaynetwork.com
-0.0.0.0 www.wazazu.com
 0.0.0.0 www.visit-x.net
+0.0.0.0 www.wazazu.com
 0.0.0.0 x.sexhd.pics # Piwik
 0.0.0.0 x4i6u4n6.ssl.hwcdn.net
 0.0.0.0 youzoojizz.top
 
-# Ahcdn.com | Videostreaming
+# Ahcdn.com/me | Videostreaming/Teaser
+#0.0.0.0 cdn37804682.ahacdn.me
 #0.0.0.0 ip50693630.ahcdn.com
-#0.0.0.0 ip78766492.ahcdn.com
 #0.0.0.0 ip62819791.ahcdn.com
+#0.0.0.0 ip78766492.ahcdn.com
+0.0.0.0 cdn53833466.ahacdn.me
 
 # Analitits.com
 0.0.0.0 analitits.com
@@ -15053,6 +15060,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ealcandi.club
 0.0.0.0 ealthetime.biz
 0.0.0.0 earandmarketing.com
+0.0.0.0 earchmess.fun
 0.0.0.0 earneydisti.fun
 0.0.0.0 easeaccept.biz
 0.0.0.0 easy-bars.com
@@ -15794,6 +15802,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ns-dnstest.spyoff.com
 0.0.0.0 ns1.secure.footprint.net
 0.0.0.0 nsternsc.top
+0.0.0.0 ntiveandi.biz
 0.0.0.0 ntvpwpush.com
 0.0.0.0 nvg.gpbeta.com
 0.0.0.0 nwea.foracaicampania.it
@@ -15851,10 +15860,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 orkonavariet.biz
 0.0.0.0 ositionandia.biz
 0.0.0.0 ositioninyv.biz
+0.0.0.0 oteasigni.biz
 0.0.0.0 otmmrkes9mkiiklrmatjgp4bsb93v1625678177.nuid.nmrodam.com
 0.0.0.0 ottomdisede.club
 0.0.0.0 oudv.femrent.it
 0.0.0.0 oufauthy.net
+0.0.0.0 oulddev.biz
 0.0.0.0 oupaumul.net
 0.0.0.0 oure.restartme.it
 0.0.0.0 output.nend.net
@@ -15883,6 +15894,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pa.rxthdr.com
 0.0.0.0 pabionak.net
 0.0.0.0 padslims.com
+0.0.0.0 pagerankcafe.com
 0.0.0.0 pagiwp.com
 0.0.0.0 pan.adraccoon.com
 0.0.0.0 paniniservizi.it
@@ -17200,6 +17212,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.tab-technologies.com
 0.0.0.0 xml.trafficmoose.com
 0.0.0.0 xml.zeusadx.com
+0.0.0.0 xn--drrautomattest-vpb.de
 0.0.0.0 xordem.com.br
 0.0.0.0 xqny.perlaluce.it
 0.0.0.0 xtremeserve.xyz
