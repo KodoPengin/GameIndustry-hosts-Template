@@ -566,6 +566,8 @@
 #0.0.0.0 code.jquery.com
 0.0.0.0 41DC.playfabapi.com
 0.0.0.0 a.applovin.com
+0.0.0.0 adc3-launch.adcolony.com
+0.0.0.0 ads30.adcolony.com
 0.0.0.0 analytics.kongregate.io
 0.0.0.0 app.adjust.com
 0.0.0.0 bam-cell.nr-data.net
@@ -596,6 +598,7 @@
 0.0.0.0 networksdk.ssacdn.com
 0.0.0.0 newrelic.map.fastly.net
 0.0.0.0 outcome-ssp.supersonicads.com
+0.0.0.0 pixel-tracking.sonic-us.supersonicads.com
 0.0.0.0 platform.ssacdn.com
 0.0.0.0 res1.applovin.com
 0.0.0.0 rt.applovin.com
