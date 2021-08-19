@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Kombinierbar mit dem Hosts Template für Androidspiele und Programme - Spezifisch
-# Änderungsdatum: 02.08.2021
+# Änderungsdatum: 20.08.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -930,3 +930,4 @@
 0.0.0.0 vector-eu-west-1.aonix.com
 0.0.0.0 wins.isprog.com
 0.0.0.0 www.leanplum.com
+0.0.0.0 napps-1.com
