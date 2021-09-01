@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 07.08.2021
+# Änderungsdatum: 01.09.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -148,11 +148,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 identity.mparticle.com
 0.0.0.0 geolocation.onetrust.com
 # Shop, News, Werbung bei Bedarf de/aktivieren
-#0.0.0.0 bnetcmsus-a.akamaihd.net # Werbepopup im Launcher, Newsgrafiken
+#0.0.0.0 bnetcmsus-a.akamaihd.net # Werbepopup im Launcher & Webseite, Newsgrafiken, Thumbs usw.
 #0.0.0.0 cache-cms-ext-eu.battle.net # Werbung, Bannerrotation
 #0.0.0.0 nydus.battle.net # Geodatenerfassung - für den Shop benötigt
-# Launcher News & Werbung
+# Launcher News, Webseite & Werbung
 #0.0.0.0 blznews.akamaized.net # News
+0.0.0.0 blzmedia-a.akamaihd.net # Blizzard Entertainment UTM Tracking, Test Cookie
 #0.0.0.0 news.blizzard.com # News
 # Benötigte Verbindungen
 #0.0.0.0 bneteu-a.akamaihd.net
@@ -474,8 +475,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 qos4.ol.epicgames.com
 #0.0.0.0 songbird.cardinalcommerce.com
 0.0.0.0 merchantpool1.epicgames.com # Angeschlossen an Microsoft Dynamics 365 Fraud Protection
-# Bei neueren Titeln ist die API mit Telemetrie und Onlinezwang verknüpft
+# Bei neueren Titeln ist die API mit Telemetrie und Onlinezwang in Spielen verknüpft
+# Api mitsamt Endpunkten - Für reines Einzelspielervergnügen ohne Schnüffelei - Dieste stillschalten
 # Diesselbe Adresse als WSS für Heartbeat Telemetrie - Mehr Info unter dem Firmeneintrag zu Epic Games, Inc.
+# 3.217.15.178
+# 54.146.107.62
+# 54.146.103.168
 # 34.225.36.75
 # 52.20.216.246
 # 34.239.197.18
@@ -487,8 +492,13 @@ ff02::3 ip6-allhosts
 # 3.123.128.174
 # 3.121.217.224
 # 3.227.34.162
-#0.0.0.0 api.epicgames.dev # Wird für Onlinefunktionen z.b. Mehrspieler benötigt
+#0.0.0.0 api.epicgames.dev
 0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w5.befa.live.use1a.on.epicgames.com
 0.0.0.0 metrics.ol.epicgames.com
 # Downloads
 # 65.9.83.109
@@ -964,15 +974,8 @@ ff02::3 ip6-allhosts
 # 216.58.207.80
 # 172.217.22.16
 # 173.194.73.128
-#0.0.0.0 steamcloud-eu-ams.storage.googleapis.com
-#0.0.0.0 steamcloud-ugc.storage.googleapis.com
-#0.0.0.0 steamcloudams.blob.core.windows.net
-#0.0.0.0 steamcloudams2.blob.core.windows.net
-#0.0.0.0 steamclouddub.blob.core.windows.net
-#0.0.0.0 steamcloudfrankfurt.blob.core.windows.net
-#0.0.0.0 steamcloudlrsuswest.blob.core.windows.net
-#0.0.0.0 steamclouduseast.blob.core.windows.net
 #0.0.0.0 steamcloud-br.s3.dualstack.sa-east-1.amazonaws.com
+#0.0.0.0 steamcloud-eu-ams.storage.googleapis.com
 #0.0.0.0 steamcloud-eu-fra.storage.googleapis.com
 #0.0.0.0 steamcloud-finland.storage.googleapis.com
 #0.0.0.0 steamcloud-saopaulo.storage.googleapis.com
@@ -980,8 +983,17 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamcloud-singapore.storage.googleapis.com
 #0.0.0.0 steamcloud-sydney.storage.googleapis.com
 #0.0.0.0 steamcloud-taiwan.storage.googleapis.com
+#0.0.0.0 steamcloud-ugc.storage.googleapis.com
+#0.0.0.0 steamcloudams.blob.core.windows.net
+#0.0.0.0 steamcloudams2.blob.core.windows.net
+#0.0.0.0 steamclouddub.blob.core.windows.net
+#0.0.0.0 steamcloudfrankfurt.blob.core.windows.net
+#0.0.0.0 steamcloudlrsuswest.blob.core.windows.net
 #0.0.0.0 steamcloudsaopaulo.blob.core.windows.net
 #0.0.0.0 steamcloudsg.blob.core.windows.net
+#0.0.0.0 steamclouduseast.blob.core.windows.net
+0.0.0.0 steamcloud-dub.s3.dualstack.eu-west-1.amazonaws.com
+0.0.0.0 steamcloud-frf.s3.dualstack.eu-central-1.amazonaws.com
 
 # Steam: Cloudflare
 # 104.18.24.217
@@ -1031,6 +1043,7 @@ ff02::3 ip6-allhosts
 # 155.133.248.22
 # 155.133.248.19
 # 2a01:bc80:a:101:0:0:b919:b625
+#0.0.0.0 cache1-sto1.steamcontent.com
 #0.0.0.0 cache10-ams1.steamcontent.com
 #0.0.0.0 cache11-ams1.steamcontent.com
 #0.0.0.0 cache12-ams1.steamcontent.com
@@ -1039,10 +1052,15 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cache15-ams1.steamcontent.com
 #0.0.0.0 cache18-ams1.steamcontent.com
 #0.0.0.0 cache2-ams1.steamcontent.com
+#0.0.0.0 cache2-iad1.steamcontent.com
+#0.0.0.0 cache2-lax1.steamcontent.com
+#0.0.0.0 cache25-iad1.steamcontent.com
+#0.0.0.0 cache26-iad1.steamcontent.com
 #0.0.0.0 cache3-ams1.steamcontent.com
+#0.0.0.0 cache4-lax1.steamcontent.com
+#0.0.0.0 cache5-iad1.steamcontent.com
 #0.0.0.0 cache54-fra1.steamcontent.com
 #0.0.0.0 cache8-ams1.steamcontent.com
-#0.0.0.0 cache1-sto1.steamcontent.com
 #0.0.0.0 cdn.highwinds.cs.steampowered.com # Depot Manifest
 # Neue Downloadserver seit Sept./Okt. 2020
 #0.0.0.0 cache1.hel-retn.steamcontent.com
@@ -3166,7 +3184,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.google-analytics.com
 #0.0.0.0 support.redbeetinteractive.com
 0.0.0.0 p3.zdassets.com
-0.0.0.0 p18.zdassets.com
+#0.0.0.0 p18.zdassets.com # CSS z.b. bei Yubiko
 
 # Back to basics Gaming
 # Ampersand
@@ -8172,7 +8190,7 @@ ff02::3 ip6-allhosts
 # 172.65.204.172
 # 205.185.216.10
 #0.0.0.0 spectrum-patch-ipv4.pathofexile.com
-0.0.0.0 5c3e588941d14ffb8518633c807228b9.pacloudflare.com
+#0.0.0.0 5c3e588941d14ffb8518633c807228b9.pacloudflare.com
 #0.0.0.0 cds.p7p4m6s5.hwcdn.net
 # News, Links für Mikrotransaktionen
 #0.0.0.0 web.poecdn.com
@@ -16380,6 +16398,32 @@ ff02::3 ip6-allhosts
 0.0.0.0 storage.ubi.com
 0.0.0.0 onlineconfigservice.ubi.com
 
+# Far Cry 5
+# Vorsicht, Einträge auch für andere Ubisoft-Titel gültig
+# *\Ubisoft Game Launcher\UplayCrashReporter.exe löschen
+#0.0.0.0 public-ws-ubiservices.ubi.com
+#0.0.0.0 msr-public-ubiservices.ubi.com
+# PVP und KOOP optional | Bei Bedarf de/aktivieren
+#0.0.0.0 lb-prod-mm-traversal.ubisoft.com
+#0.0.0.0 ncsa-storm.ubi.com
+#0.0.0.0 emea-storm.ubi.com
+#0.0.0.0 apac-storm.ubi.com
+#0.0.0.0 ap-southeast-2-storm.ubi.com
+#0.0.0.0 provisioning-blue.public-prodservices-us-east-1.aws-storm.ubi.com
+#0.0.0.0 provisioning-blue.public-prodservices-eu-central-1.aws-storm.ubi.com
+# Shop
+#0.0.0.0 mercury.ubi.com
+#0.0.0.0 sigma.ubi.com
+# Rest
+# uplaywebcore.exe
+#0.0.0.0 ess.ubi.com
+#0.0.0.0 cascade-api-proxy.ubisoft.com
+#0.0.0.0 overlay.cdn.ubisoft.com
+#0.0.0.0 nimbus.ubisoft.com
+#0.0.0.0 avcvysejs1-3.algolianet.com
+#0.0.0.0 avcvysejs1-dsn.algolia.net
+#0.0.0.0 ubistatic-a.akamaihd.net
+
 # South Park™: The Stick of Truth™ | Steamversion
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
@@ -16438,13 +16482,14 @@ ff02::3 ip6-allhosts
 #0.0.0.0 s3-1-w.amazonaws.com
 #0.0.0.0 useast1-public-im.aws-ubiservices.ubi.com
 #0.0.0.0 useast1-public.aws-ubiservices.ubi.com
-0.0.0.0 provisioning-blue.public-prodservices-us-east-1.aws-storm.ubi.com
-0.0.0.0 provisioning-blue.public-prodservices-eu-central-1.aws-storm.ubi.com
 # PVP und KOOP optional | Bei Bedarf de/aktivieren
 0.0.0.0 lb-az-rdv-tgt-prod.ubisoft.com
-0.0.0.0 ncsa-storm.ubi.com
-0.0.0.0 emea-storm.ubi.com
-0.0.0.0 apac-storm.ubi.com
+#0.0.0.0 ncsa-storm.ubi.com
+#0.0.0.0 emea-storm.ubi.com
+#0.0.0.0 apac-storm.ubi.com
+#0.0.0.0 ap-southeast-2-storm.ubi.com
+#0.0.0.0 provisioning-blue.public-prodservices-us-east-1.aws-storm.ubi.com
+#0.0.0.0 provisioning-blue.public-prodservices-eu-central-1.aws-storm.ubi.com
 # Weitere ipv4 Adressen
 # 54.252.246.227
 # 54.169.183.27
@@ -16473,9 +16518,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 msr-public-ubiservices.ubi.com
 #0.0.0.0 ocsp.comodoca.com
 #0.0.0.0 ubisoft-orbit-savegames.s3.amazonaws.com # Cloud für Speicherstände
-0.0.0.0 provisioning-blue.public-prodservices-us-east-1.aws-storm.ubi.com #52.73.177.5
+#0.0.0.0 provisioning-blue.public-prodservices-us-east-1.aws-storm.ubi.com #52.73.177.5
 0.0.0.0 cerberus-eu-lb-776396454.eu-west-1.elb.amazonaws.com #34.240.166.252
-0.0.0.0 lb-prod-mm-traversal.ubisoft.com #216.98.58.9
+#0.0.0.0 lb-prod-mm-traversal.ubisoft.com #216.98.58.9
 #0.0.0.0 lb-rdv-grwl.ubisoft.com #216.98.58.6 # Onlinezugriff Freunde und Profil
 
 # Tom Clancy’s The Division™
@@ -18202,4 +18247,3 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
