@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Spezifisch
 # Kombinierbar mit dem Hosts Mini-Template für Androidspiele und Programme
-# Änderungsdatum: 19.08.2021
+# Änderungsdatum: 01.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -71,6 +71,22 @@
 #0.0.0.0 csi.gstatic.com
 0.0.0.0 firebaseinstallations.googleapis.com
 0.0.0.0 app-measurement.com
+
+# BHome
+# Idle Arks
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 app-measurement.com
+0.0.0.0 inapps.appsflyer.com
+0.0.0.0 launches.appsflyer.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 connect.tapjoy.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 dia61g5mt4kny.cloudfront.net
+0.0.0.0 splash.unity.cn
 
 # Bling Bling Games GmbH
 # Idle Tycoon: Space Colony
@@ -348,6 +364,21 @@
 0.0.0.0 webview.unityads.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d
 0.0.0.0 a1822.dscd.akamai.net
+
+# Idle Mastermind
+0.0.0.0 outcome-ssp.supersonicads.com
+0.0.0.0 pm-gateway.supersonicads.com
+0.0.0.0 networksdk.ssacdn.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 logs.ironsrc.mobi
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 app-measurement.com
+0.0.0.0 launches.appsflyer.com
+0.0.0.0 connect.tapjoy.com
+0.0.0.0 www.facebook.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
 
 # Halfbrick Studios
 # Fruit Ninja®
