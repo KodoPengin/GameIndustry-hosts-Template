@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Kombinierbar mit dem Hosts Template für Androidspiele und Programme - Spezifisch
-# Änderungsdatum: 20.08.2021
+# Änderungsdatum: 01.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -820,6 +820,7 @@
 0.0.0.0 cdn-creatives-akamaistls-prd.unityads.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 cdn-store-icons-akamai-prd.unityads.unity3d.com
+0.0.0.0 events.mz.unity3d.com
 
 # Upltv
 0.0.0.0 ads-sdk.upltv.com
