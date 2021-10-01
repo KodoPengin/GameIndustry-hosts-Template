@@ -76,17 +76,27 @@
 # Idle Arks
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 init.supersonicads.com
+0.0.0.0 iab-imp-gateway.supersonicads.com
+0.0.0.0 outcome-cdn.supersonicads.com
+0.0.0.0 pm-gateway.supersonicads.com
+0.0.0.0 networksdk.ssacdn.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 app-measurement.com
 0.0.0.0 inapps.appsflyer.com
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 graph.facebook.com
 0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 fireoscaptiveportal.com
 0.0.0.0 connect.tapjoy.com
 0.0.0.0 config.unityads.unity3d.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 dia61g5mt4kny.cloudfront.net
 0.0.0.0 splash.unity.cn
+0.0.0.0 events.mz.unity3d.com
+0.0.0.0 auiopt.unityads.unity3d.com
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 wins.isprog.com
+0.0.0.0 k.isprog.com
 
 # Bling Bling Games GmbH
 # Idle Tycoon: Space Colony
