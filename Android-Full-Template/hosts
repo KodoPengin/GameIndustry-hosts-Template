@@ -380,11 +380,14 @@
 0.0.0.0 pm-gateway.supersonicads.com
 0.0.0.0 networksdk.ssacdn.com
 0.0.0.0 init.supersonicads.com
+0.0.0.0 iab-imp-gateway.supersonicads.com
 0.0.0.0 logs.ironsrc.mobi
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 app-measurement.com
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 connect.tapjoy.com
+0.0.0.0 ws.tapjoyads.com
+0.0.0.0 placements.tapjoy.com
 0.0.0.0 www.facebook.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
