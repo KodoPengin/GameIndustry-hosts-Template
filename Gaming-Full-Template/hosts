@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 01.09.2021
+# Änderungsdatum: 06.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -88,130 +88,70 @@ ff02::3 ip6-allhosts
 
 # Blizzard Entertainment, Inc.
 # Battle.net Desktop App
-# Analytics, Tracking, Trackingpixel, Trackingcookies, Drittanbieterdienste
-# 8.238.30.254
-# 178.79.244.32
-# 142.250.185.206
-# 24.105.29.76
-# 173.194.153.56
-# 172.217.16.174
-# 172.217.18.110
-# 80.252.91.52
-# 72.247.153.48
-# 37.244.28.30
-# 178.79.244.134
-# 37.244.28.102
-# 137.221.106.19
-# 72.247.153.56
-# 72.247.153.49
-# 37.244.28.111
-# 72.247.153.169
-# 37.244.28.102
-# 104.124.11.66
-# 37.244.28.103
-# 67.27.157.126
-# 72.247.153.48
-# 8.248.121.254
-# 172.217.22.72
 # 37.244.28.104
-# 24.105.29.76
-# 63.34.238.32
-# 157.240.27.35
-# 151.101.114.133
-# 172.217.18.2
-# 54.229.91.186
-# 151.101.130.133
-# 52.206.2.145
-# 151.101.66.133
-# 157.240.27.27
-# 104.108.172.240
-# 104.124.11.8
-# 178.79.245.171
-# 52.51.95.18
-# 2.17.45.162
-0.0.0.0 www.google-analytics.com # UA-50249600-2
-0.0.0.0 www-google-analytics.l.google.com
-0.0.0.0 www.googletagmanager.com # GTM-589KTQ
-0.0.0.0 stats.g.doubleclick.net # UA-50249600-5
-0.0.0.0 cm.g.doubleclick.net
-0.0.0.0 bs.serving-sys.com
-0.0.0.0 telemetry-in.battle.net
-0.0.0.0 match.adsrvr.org
-0.0.0.0 jssdks.mparticle.com
-0.0.0.0 col.eum-appdynamics.com
-0.0.0.0 a8270235338.cdn.optimizely.com
-0.0.0.0 connect.facebook.net
-0.0.0.0 logx.optimizely.com
-0.0.0.0 cookiesync.mparticle.com
-0.0.0.0 jssdkcdns.mparticle.com
-0.0.0.0 www.facebook.com
-0.0.0.0 identity.mparticle.com
-0.0.0.0 geolocation.onetrust.com
-# Shop, News, Werbung bei Bedarf de/aktivieren
-#0.0.0.0 bnetcmsus-a.akamaihd.net # Werbepopup im Launcher & Webseite, Newsgrafiken, Thumbs usw.
-#0.0.0.0 cache-cms-ext-eu.battle.net # Werbung, Bannerrotation
-#0.0.0.0 nydus.battle.net # Geodatenerfassung - für den Shop benötigt
-# Launcher News, Webseite & Werbung
-#0.0.0.0 blznews.akamaized.net # News
-0.0.0.0 blzmedia-a.akamaihd.net # Blizzard Entertainment UTM Tracking, Test Cookie
-#0.0.0.0 news.blizzard.com # News
-# Benötigte Verbindungen
-#0.0.0.0 bneteu-a.akamaihd.net
-#0.0.0.0 eu.patch.battle.net
-#0.0.0.0 us.patch.battle.net
-#0.0.0.0 EU.depot.battle.net
-#0.0.0.0 eu.profile.blizzard.com
-#0.0.0.0 eu.launcher.battle.net
-#0.0.0.0 eu.battle.net
-#0.0.0.0 blzprofile.akamaized.net
-#0.0.0.0 level3.blizzard.com
-#0.0.0.0 download.blizzard.com.c.footprint.net
-# CDN, etc
-# 137.221.106.24
-# 178.79.244.13
-# 178.79.244.99
-# 178.79.244.21
-#0.0.0.0 us-legal.battle.net
-#0.0.0.0 blizzard-dl.vo.llnwd.net
-#0.0.0.0 eu.cdn.blizzard.com
-# APIs
-# 37.244.28.18
-#0.0.0.0 eu.api.blizzard.com
-#0.0.0.0 api.overwatchleague.com
-# Versteckte Hardware Survey bzw Datenklau durch die SystemSurvey.exe
-# Das Verhalten und die Datei wurde nachträglich auch in Diablo2 Classic integriert | Datei kann gelöscht werden
-# Ip/s blockieren:
-# 24.105.29.24
-# 54.77.237.127
-# 185.60.115.31
-# 24.105.29.76
-0.0.0.0 iir.blizzard.com
-# Blizzard Agent
-# 37.244.28.19
-# 24.105.29.76
-# 37.244.28.30
-# 137.221.64.5
-# 137.221.106.19
-# 137.221.64.7
-# 137.221.64.6
+#0.0.0.0 nydus.battle.net # Geodatenerfassung, leitet mittlerweile auf content-ui.battle.net um
+# 13.225.87.67
+0.0.0.0 content-ui.battle.net # Google TagManager, ID GTM-NCPDGC4, News, Redirects, Bootstrap, Callbacks
+# 2.22.242.139
+# 143.204.214.140
+0.0.0.0 a711.dscd.akamai.net
+0.0.0.0 d9qcypg7o58bv.cloudfront.net
+# Agent.exe
 # 137.221.64.1
 # 137.221.64.2
-# 8.238.29.126
-# 8.241.82.126
-# 8.238.36.126
-# 8.241.78.254
-# 8.238.69.126
-# 8.238.127.254
-# 67.26.137.254
-# 8.238.35.254
-# 8.241.78.126
-0.0.0.0 telemetry-in.battle.net
-#0.0.0.0 eu.version.battle.net
-#0.0.0.0 eu.patch.battle.net
+# 137.221.64.3
+# 137.221.64.4
+# 137.221.64.5
+# 137.221.64.6
+# 137.221.64.7
+# 137.221.64.8
 #0.0.0.0 cdn.blizzard.com
-#0.0.0.0 us.patch.battle.net
-#0.0.0.0 cdn.blizzard.com
+# 8.238.32.126
+# 8.240.196.254
+# 8.241.11.126
+# 8.248.115.254
+# 8.249.119.254
+# 8.249.129.254
+# 8.253.95.121
+# 8.238.30.254
+# 67.27.157.126
+# 8.241.123.126
+# 8.238.36.254
+# 67.27.159.126
 #0.0.0.0 download.blizzard.com.c.footprint.net
+# 37.244.28.30
+# 37.244.28.19
+#0.0.0.0 eu.patch.battle.net
+#0.0.0.0 eu.version.battle.net
+# Battle.net.exe
+# 37.244.28.102
+# 37.244.54.10
+# 37.244.28.103
+# 37.244.28.30
+# 37.244.28.187
+#0.0.0.0 eu.battle.net
+#0.0.0.0 eu.actual.battle.net
+#0.0.0.0 eu.launcher.battle.net
+#0.0.0.0 eu.patch.battle.net
+#0.0.0.0 eu.api.blizzard.com
+# 137.221.106.102
+# 137.221.106.121
+# 137.221.106.103
+#0.0.0.0 us.battle.net
+#0.0.0.0 us.api.blizzard.com
+#0.0.0.0 us.launcher.battle.net
+#0.0.0.0 bnetcmsus-a.akamaihd.net # Thumbnails
+#0.0.0.0 blz-contentstack-images.akamaized.net # Grafiken
+#0.0.0.0 level3.blizzard.com # Patch
+#0.0.0.0 us-legal.battle.net # USK Bewertung
+#0.0.0.0 images.blz-contentstack.com
+# Spyware & Tracker
+# 24.105.29.76
+0.0.0.0 telemetry-in.battle.net
+# 173.194.76.113
+0.0.0.0 www.google-analytics.com # ID UA-50249600-138, UA-50249600-2 und Analytics_GaID UA-50249600-139
+0.0.0.0 ws-in-f113.1e100.net
+0.0.0.0 www.googletagmanager.com # ID GTM-NCPDGC4
 
 # Battle.net Klassik
 # 5.42.181.30 # IPbereich von bis 5.42.181.**
@@ -779,6 +719,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cm1-ams1.cm.steampowered.com # Amsterdam
 #0.0.0.0 cm1-dfw1.cm.steampowered.com # Dallas
 #0.0.0.0 cm1-fra1.cm.steampowered.com
+#0.0.0.0 cm1-fra2.cm.steampowered.com
 #0.0.0.0 cm1-gru1.cm.steampowered.com # Sao Paulo
 #0.0.0.0 cm1-iad1.cm.steampowered.com
 #0.0.0.0 cm1-lax1.cm.steampowered.com
@@ -787,6 +728,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cm1-syd1.cm.steampowered.com
 #0.0.0.0 cm2-dfw1.cm.steampowered.com
 #0.0.0.0 cm2-fra1.cm.steampowered.com
+#0.0.0.0 cm2-fra2.cm.steampowered.com
 #0.0.0.0 cm2-hkg1.cm.steampowered.com # Hong Kong
 #0.0.0.0 cm2-lax1.cm.steampowered.com
 #0.0.0.0 cm2-ord1.cm.steampowered.com
@@ -4106,6 +4048,33 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 
 # Blizzard Entertainment, Inc.
+# Diablo II: Resurrected
+# Zusätzlich alle Launcher Verbindungen
+# Infrastruktur von D2R ist komplett auf Google Usercontent ausgelegt. Ipv4 können selbst nachverfolgt werden
+# Spielserver
+# 37.244.28.80
+# 37.244.28.180
+# 137.221.106.188
+# 37.244.54.10
+# 137.221.105.152
+# 117.52.35.45
+# 117.52.35.79
+#0.0.0.0 ams1a-d2r-rclient.classic.blizzard.com
+#0.0.0.0 ams1b-d2r-rclient.classic.blizzard.com
+#0.0.0.0 las1b-d2r-rclient.diablo2.blizzard.com
+#0.0.0.0 icn1a-d2r-rclient.classic.blizzard.com
+#0.0.0.0 eu.actual.battle.net # Europa
+#0.0.0.0 us.actual.battle.net # Amerika
+#0.0.0.0 kr.actual.battle.net # Asien
+0.0.0.0 cn-test.actual.battle.net
+0.0.0.0 loc.actual.battle.net
+0.0.0.0 test.actual.battle.net
+# 37.244.28.104
+#0.0.0.0 nydus.battle.net
+# 34.117.122.6
+#0.0.0.0 prod.depot.battle.net
+#0.0.0.0 6.122.117.34.bc.googleusercontent.com
+
 # Diablo III
 # 127.0.0.1
 # 80.239.210.154
@@ -4118,7 +4087,7 @@ ff02::3 ip6-allhosts
 # 178.79.245.171
 # 37.244.28.103
 # 37.244.32.207
-# Zusätzliche alle Launcher Verbindungen
+# Zusätzlich alle Launcher Verbindungen
 #0.0.0.0 nydus.battle.net
 #0.0.0.0 eu.launcher.battle.net
 #0.0.0.0 EU.depot.battle.net
@@ -4134,7 +4103,7 @@ ff02::3 ip6-allhosts
 # 37.244.54.10
 # 37.244.21.52
 # 185.60.115.232
-# Zusätzliche alle Launcher Verbindungen
+# Zusätzlich alle Launcher Verbindungen
 #0.0.0.0 eu.actual.battle.net
 #0.0.0.0 eu.battle.net
 #0.0.0.0 cdn.blz-contentstack.com
@@ -17658,7 +17627,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gssv-auth-prod.xboxlive.com
 0.0.0.0 gssv.xboxlive.com
 # Weitere Funktionen
-0.0.0.0 userpresence.xboxlive.com
+0.0.0.0 userpresence.xboxlive.com # Heartbeat / Online Status
 #0.0.0.0 profile.xboxlive.com
 #0.0.0.0 images-eds.xboxlive.com # Profilbild XBox
 0.0.0.0 privacy.xboxlive.com # "Gemutete" Spieler
@@ -17746,7 +17715,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 xsts.auth.xboxlive.com.akadns.net
 #0.0.0.0 account.live.com
 # Weitere Funktionen
-0.0.0.0 userpresence.xboxlive.com # Heartbeat
+0.0.0.0 userpresence.xboxlive.com # Heartbeat / Online Status
 #0.0.0.0 profile.xboxlive.com # Spielername, ID, HostID, Avatarbild, Spielerpunkte, Gesponsorter Nutzer ja/nein
 #0.0.0.0 sessiondirectory.xboxlive.com # Correlation ID
 #0.0.0.0 achievements.xboxlive.com # Erfolge
@@ -17869,11 +17838,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 vortex.data.microsoft.com
 0.0.0.0 web.vortex.data.microsoft.com
 0.0.0.0 telemetry.undeadlabs.live
-0.0.0.0 userpresence.xboxlive.com
+0.0.0.0 userpresence.xboxlive.com # Heartbeat / Online Status
 # Microsoft Netzwerk
 #0.0.0.0 title.mgt.xboxlive.com # Wird für den Mehrspielermodus benötigt
 # Bilder, Formatierung, CSS, Javascripts
-0.0.0.0 dlassets-ssl.xboxlive.com
+#0.0.0.0 dlassets-ssl.xboxlive.com
 #0.0.0.0 images-eds.xboxlive.com
 # XBOX Profilfunktionen
 #0.0.0.0 achievements.xboxlive.com # Erfolge
