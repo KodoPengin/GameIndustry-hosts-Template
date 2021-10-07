@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Spezifisch
 # Kombinierbar mit dem Hosts Mini-Template für Androidspiele und Programme
-# Änderungsdatum: 01.10.2021
+# Änderungsdatum: 07.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -85,6 +85,7 @@
 0.0.0.0 inapps.appsflyer.com
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 graph.facebook.com
+0.0.0.0 www.facebook.com
 0.0.0.0 firebaseinstallations.googleapis.com
 0.0.0.0 fireoscaptiveportal.com
 0.0.0.0 connect.tapjoy.com
@@ -97,6 +98,18 @@
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 wins.isprog.com
 0.0.0.0 k.isprog.com
+0.0.0.0 ads.api.vungle.com
+0.0.0.0 ms.applvn.com
+0.0.0.0 d.applvn.com
+0.0.0.0 a.applvn.com
+0.0.0.0 rt.applvn.com
+0.0.0.0 ms.applovin.com
+0.0.0.0 d.applovin.com
+0.0.0.0 a.applovin.com
+0.0.0.0 rt.applovin.com
+0.0.0.0 sdk-events.inner-active.mobi
+0.0.0.0 wv.inner-active.mobi
+0.0.0.0 cdn2.inner-active.mobi
 
 # Bling Bling Games GmbH
 # Idle Tycoon: Space Colony
