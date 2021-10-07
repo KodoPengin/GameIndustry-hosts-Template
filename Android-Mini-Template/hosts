@@ -355,6 +355,7 @@
 0.0.0.0 mobilemaps-pa.googleapis.com
 0.0.0.0 myphonenumbers-pa.googleapis.com
 0.0.0.0 notifications-pa.googleapis.com
+0.0.0.0 performanceparameters.googleapis.com
 0.0.0.0 phonedeviceverification-pa.googleapis.com
 0.0.0.0 reminders-pa.googleapis.com
 0.0.0.0 safebrowsing.googleapis.com
