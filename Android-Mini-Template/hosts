@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Kombinierbar mit dem Hosts Template für Androidspiele und Programme - Spezifisch
-# Änderungsdatum: 01.10.2021
+# Änderungsdatum: 07.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -67,6 +67,7 @@
 0.0.0.0 adc3-assets.adcolony.com
 0.0.0.0 c4d-cdn.adcolony.com
 0.0.0.0 adc-launch.adcolony.com
+0.0.0.0 androidads4-1.adcolony.com
 
 # Adcrops.net
 0.0.0.0 t.adcrops.net
