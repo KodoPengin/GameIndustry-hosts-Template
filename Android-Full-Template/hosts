@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Spezifisch
 # Kombinierbar mit dem Hosts Mini-Template für Androidspiele und Programme
-# Änderungsdatum: 07.10.2021
+# Änderungsdatum: 08.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -31,6 +31,27 @@
 # Info https://hosts.gameindustry.eu und https://gameindustry.eu/firmenkatalog/unity-technologies-aps/
 #
 # ---Ab hier kopieren ---
+
+# 4fan studio games
+# Dungeon: Age of Heroes
+0.0.0.0 app-measurement.com
+0.0.0.0 track.tenjin.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 networkask.ssacdn.com
+0.0.0.0 platform.ssacdn.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 outcome-ssp.supersonicads.com
+0.0.0.0 pm-gateway.supersonicads.com
+0.0.0.0 rv-gateway.supersonicads.com
+0.0.0.0 iab-imp-gateway.supersonicads.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 tool.abtestreal.com
+0.0.0.0 events.mz.unity3d.com
+0.0.0.0 logs.ironsrc.mobi
+0.0.0.0 auiopt.unityads.unity3d.com
+0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 arena.dungeon-mobile.com # Online/PVP
 
 # Adobe, Inc.
 # Adobe Acrobat Reader
