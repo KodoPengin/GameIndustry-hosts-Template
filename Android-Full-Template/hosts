@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Spezifisch
 # Kombinierbar mit dem Hosts Mini-Template für Androidspiele und Programme
-# Änderungsdatum: 08.10.2021
+# Änderungsdatum: 11.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -412,6 +412,7 @@
 # Idle Mastermind
 0.0.0.0 outcome-ssp.supersonicads.com
 0.0.0.0 pm-gateway.supersonicads.com
+0.0.0.0 pixel-tracking.sonic-us.supersonicads.com
 0.0.0.0 networksdk.ssacdn.com
 0.0.0.0 init.supersonicads.com
 0.0.0.0 iab-imp-gateway.supersonicads.com
@@ -426,6 +427,8 @@
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 track.atom-data.io
+0.0.0.0 o92387.ingest.sentry.io
 
 # Halfbrick Studios
 # Fruit Ninja®
