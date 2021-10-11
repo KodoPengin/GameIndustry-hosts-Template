@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 06.10.2021
+# Änderungsdatum: 11.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -88,6 +88,8 @@ ff02::3 ip6-allhosts
 
 # Blizzard Entertainment, Inc.
 # Battle.net Desktop App
+# 74.125.140
+#0.0.0.0 dl.google.com
 # 37.244.28.104
 #0.0.0.0 nydus.battle.net # Geodatenerfassung, leitet mittlerweile auf content-ui.battle.net um
 # 13.225.87.67
@@ -679,6 +681,8 @@ ff02::3 ip6-allhosts
 
 # Valve Corporation | Valve Softworks | Steam Client
 # Steam: Anmeldeserver | https und wss Protokoll
+# 155.133.252.39
+# 185.25.182.76
 # 205.185.194.197
 # 205.196.6.75
 # 153.254.86.163
@@ -724,7 +728,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cm1-iad1.cm.steampowered.com
 #0.0.0.0 cm1-lax1.cm.steampowered.com
 #0.0.0.0 cm1-ord1.cm.steampowered.com # Chicago
+#0.0.0.0 cm1-par1.cm.steampowered.com
 #0.0.0.0 cm1-scl1.cm.steampowered.com # Santiago
+#0.0.0.0 cm1-sto2.cm.steampowered.com
 #0.0.0.0 cm1-syd1.cm.steampowered.com
 #0.0.0.0 cm2-dfw1.cm.steampowered.com
 #0.0.0.0 cm2-fra1.cm.steampowered.com
@@ -5601,6 +5607,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 dji22ijeurkhd.cloudfront.net
 0.0.0.0 ping.yoyogames.com
 
+# DANGEN Entertainment
+# Lost Ruins
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Dark Illusions Entertainment, LLC
 # Guardians of Greyrock
 # Ip/s blockieren:
@@ -5889,9 +5911,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 
 # Devolver Digital
-# Enter the Gungeon
-0.0.0.0 api.uca.cloud.unity3d.com
+# Death's Door
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # GORN
 # Ip/s blockieren:
@@ -10922,6 +10955,14 @@ ff02::3 ip6-allhosts
 #0.0.0.0 dead-cells.com
 #0.0.0.0 ip64.ip-178-32-123.eu
 
+# Movie Games S.A. & HeartBeat Games
+# Gas Station Simulator
+# Weitere Adressen unter https://www.gameindustry.eu/firmenkatalog/epic-games-inc/
+# Ip/s blockieren:
+# 54.87.107.53
+0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 ec2-54-87-107-53.compute-1.amazonaws.com
+
 # Movie Games S.A. & PlayWay S.A.
 # Lust for Darkness
 # Ip/s blockieren:
@@ -15231,6 +15272,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-54-209-147-245.compute-1.amazonaws.com
 
 # Team17 Digital Ltd
+# Age of Darkness: Final Stand
+# Ip/s blockieren:
+# 34.96.113.148
+0.0.0.0 collect24230gfdrk.deltadna.net
+0.0.0.0 balanced-collect.deltadna.net
+0.0.0.0 148.113.96.34.bc.googleusercontent.com
+# 173.194.76.108
+# 173.194.76.109
+# 34.96.113.148
+#0.0.0.0 smtp.gmail.com # Feedback Formular
+0.0.0.0 ws-in-f109.1e100.net # SmtP Endpunkt 1
+0.0.0.0 ws-in-f108.1e100.net # SmtP Endpunkt 2
+
 # Alien Breed: Impact
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
