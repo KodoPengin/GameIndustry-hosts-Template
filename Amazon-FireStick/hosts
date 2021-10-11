@@ -10,7 +10,7 @@
 #
 # Version: Amazon FireStick und App-Verbindungen
 # Kombinierbar mit anderen Host Templates und PI-Hole
-# Änderungsdatum: 04.08.2021
+# Änderungsdatum: 11.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -44,15 +44,17 @@
 #0.0.0.0 mas-ext-eu.amazon.com # Querverweise Apps
 #0.0.0.0 prime.amazon.eu
 #0.0.0.0 softwareupdates.amazon.com # Firmware Updates
-#0.0.0.0 spectrum.s3.amazonaws.com
+#0.0.0.0 spectrum.s3.amazonaws.com # Startseite
 #0.0.0.0 www.amazon.co.uk
 #0.0.0.0 www.amazon.com
 #0.0.0.0 www.amazon.de
+0.0.0.0 982b762063fc2544cee0e2dcd38ecc8013de47c88bca28ae25044c4da969ba8.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 aax-eu.amazon-adsystem.com
 0.0.0.0 aca-livecards-service-eu.amazon.com
-0.0.0.0 andr-25-aftmm-0.api.amazonvideo.com
 0.0.0.0 aftv-25-amazon-aftmm-4.eu.api.amazonvideo.com
 0.0.0.0 alexa.amazon.de
+0.0.0.0 andr-25-aftmm-0.api.amazonvideo.com
+0.0.0.0 andr-25-aftmm-633004410.api.amazonvideo.com
 0.0.0.0 api.eu.amazonalexa.com
 0.0.0.0 appstore-tv-prod-eu.amazon.com
 0.0.0.0 arcus-uswest.amazon.com
@@ -63,8 +65,10 @@
 0.0.0.0 cognito-identity.us-east-1.amazonaws.com
 0.0.0.0 cortana-gateway.amazon.com
 0.0.0.0 cs-ext-eu.amazon.com
+0.0.0.0 d1s31zyz7dcc2d.cloudfront.net
 0.0.0.0 d21m0ezw6fosyw.cloudfront.net
 0.0.0.0 d2dybwdjii0mza.cloudfront.net
+0.0.0.0 d3a510xmpll7o6.cloudfront.net
 0.0.0.0 d3h5bk8iotgjvw.cloudfront.net
 0.0.0.0 dcape-na.amazon.com
 0.0.0.0 det-ta-g7g.amazon.com
@@ -72,7 +76,9 @@
 0.0.0.0 digprjsurvey.amazon.eu
 0.0.0.0 dp-discovery-na-ext.amazon.com
 0.0.0.0 dp-gw-na.amazon.com
+0.0.0.0 drive.amazonaws.com
 0.0.0.0 endeavour.amazon.com
+0.0.0.0 eu.prism.digital.amazon.dev
 0.0.0.0 fireoscaptiveportal.com # Pingback
 0.0.0.0 firetvcaptiveportal.com # Pingback
 0.0.0.0 firs-ta-g7g.amazon.com
@@ -107,6 +113,7 @@
 # Diverses
 0.0.0.0 api.auth.adobe.com
 #0.0.0.0 zwyr157wwiu6eior.com # NordVPN Auth
+0.0.0.0 api.dkyweipsds.com
 
 # Anixe
 #0.0.0.0 media.anixe.net
