@@ -1,17 +1,31 @@
 # Just some experimental penguin stuff
-# Entries will be integrated into the main files after testing
+# Entries will be integrated into the main files after testing... sooner or later :]
+# New entries captured from Android 11
 
-# Aktualisiert: 10.06.2021
+# Aktualisiert: 12.10.2021
 
-# Googlekram
+# Amazon.com, Inc.
+0.0.0.0 d2c3tmv7yw6ejm.cloudfront.net
+0.0.0.0 d3ieick982x8tp.cloudfront.net
+0.0.0.0 k8s-analysis-lighthou-3f73de8e48-416670195.us-east-1.elb.amazonaws.com
+
+# Google, LLC
 0.0.0.0 cryptauthdevicesync.googleapis.com
 0.0.0.0 deviceintegritytokens-pa.googleapis.com
 0.0.0.0 lamssettings-pa.googleapis.com
 0.0.0.0 mobilemaps-pa-gz.googleapis.com
 0.0.0.0 ulp1p-pa.googleapis.com
 0.0.0.0 geller-pa.googleapis.com
+0.0.0.0 play-lh.googleusercontent.com
 
-# Div Zeug
+# Microsoft Corporation
+0.0.0.0 onedscolprdeus00.eastus.cloudapp.azure.com
+0.0.0.0 onedscolprdneu04.northeurope.cloudapp.azure.com
+0.0.0.0 onedscolprdneu05.northeurope.cloudapp.azure.com
+0.0.0.0 onedscolprdcus09.centralus.cloudapp.azure.com
+0.0.0.0 self.events.data.microsoft.com # Telemetry already blocked in other published files
+
+# Misc Stuff
 0.0.0.0 etl.harrybuy.com
 0.0.0.0 tracker-api.my.com
 0.0.0.0 r.my.com
@@ -20,8 +34,17 @@
 0.0.0.0 gllto.glpals.com.cdn.cloudflare.net
 0.0.0.0 api.adgem.com
 0.0.0.0 iploc-api.mangoo-games.com
+0.0.0.0 config.rcs.mnc003.mcc262.pub.3gppnetwork.org
+0.0.0.0 px-conf.perimeterx.net
+0.0.0.0 px-conf-ipv.perimeterx.net
+0.0.0.0 collector-pxikkul2rm.perimeterx.net
+0.0.0.0 mobile-apps-test.booking.com
+0.0.0.0 c.riskified.com
+0.0.0.0 weighted-autoendpoint.prod.mozaws.net
+0.0.0.0 gos-api.gos-gsp.io
+0.0.0.0 gos-api-pew1-b.gos-gsp.io
 
-# Line
+# Line Corporation
 0.0.0.0 nelo2-col.linecorp.com
 0.0.0.0 vos.line-scdn.net
 0.0.0.0 obs.line-scdn.net
