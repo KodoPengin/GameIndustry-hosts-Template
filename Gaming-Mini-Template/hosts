@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Template für PC-Spiele - Mini-Version
-# Änderungsdatum: 15.05.2021
+# Änderungsdatum: 13.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -66,6 +66,11 @@ ff02::3		ip6-allhosts
 0.0.0.0 metrics.avalanchestudios.com
 0.0.0.0 tracking2.avalanchestudios.com
 0.0.0.0 oldtracking.avalanchestudios.com
+
+# (Backtrace I/O, Inc.)
+# Blockieren: 54.167.181.158, 192.46.238.25
+0.0.0.0 events.backtrace.io
+0.0.0.0 submit.backtrace.io
 
 # (Bandai NAMCO Entertainment)
 # Blockieren: 35.241.58.78, 35.186.241.36
