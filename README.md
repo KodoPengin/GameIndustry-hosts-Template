@@ -6,6 +6,9 @@ Business analytics, spyware, tracking cookies in games and clients and thus part
 
 This unique hosts offer an enhanced privacy to protect users from tracking, spyware, malware, advertising and redirections in games, on websites and in regulary programs.
 
+# Notice to Valve Corporation's GDS connections - Oct. 2021
+This service seems to be finally obsolete. Entries can be ignored for now. I try to delete them step by step and re-check related products again.
+
 # Host versions
 - Main Template: software, websites, drivers, technology companys, gaming clients, games and more
 - Gaming Mini-Template: Blocked most common game analytics, spyware and advertising services in PC games. Nothing else
