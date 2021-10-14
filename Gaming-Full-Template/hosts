@@ -18230,16 +18230,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
-# Zachtronics
-# Infinifactory
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # ZA/UM
 # Disco Elysium
 # Ip/s blockieren:
@@ -18256,18 +18246,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
-
-# SHENZHEN I/O
-# Ip/s blockieren:
-# 207.38.86.247
-0.0.0.0 nulyu.zachtronics.webfactional.com
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 
 # Zakos Games
 # Shonen Idle Z
@@ -18325,13 +18303,7 @@ ff02::3 ip6-allhosts
 
 # Zoo Corporation
 # Princess Kaguya: Legend of the Moon Warrior
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+0.0.0.0 stats.unity3d.com
 
 # ZoopTEK
 # Super Cat Herding: Totally Awesome Edition
@@ -18348,9 +18320,4 @@ ff02::3 ip6-allhosts
 
 # ZOV GAME STUDIO
 # To The Light
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
+# Google Crashpad
