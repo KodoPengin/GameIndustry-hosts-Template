@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 11.10.2021
+# Änderungsdatum: 14.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1139,6 +1139,7 @@ ff02::3 ip6-allhosts
 
 # Marcin Szeniak
 # BCUninstaller
+# 2.18.233.62
 # 91.239.246.114
 # 151.101.244.133
 # 199.34.228.53
@@ -1146,6 +1147,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 klocmansoftware.weebly.com # Feed Kontaktformular mit Google Analytics UA-7870337-1 und Snowplow Tracker
 #0.0.0.0 raw.githubusercontent.com # Updatecheck & Versionshistorie
 #0.0.0.0 github.map.fastly.net # Endpoint
+#0.0.0.0 13678.dscb.akamaiedge.net
 
 # MusicBee
 #0.0.0.0 getmusicbee.com # Updatecheck
@@ -1402,7 +1404,7 @@ ff02::3 ip6-allhosts
 # CCleaner64.exe
 # Ip/s blockieren:
 # 72.21.81.240
-0.0.0.0 cs11.wpc.v0cdn.net
+#0.0.0.0 cs11.wpc.v0cdn.net # tlu.dl.delivery.mp.microsoft.com
 0.0.0.0 analytics.ff.avast.com
 0.0.0.0 ipm-provider.ff.avast.com
 0.0.0.0 license.piriform.com # Aktivierungscheck/Server/Seriennummer
@@ -2928,6 +2930,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 9dbd256a-default-ih-dd4d-36901406.eu-central-1.elb.amazonaws.com
 0.0.0.0 9dbd256a-default-trx-2d0e-496170222.eu-central-1.elb.amazonaws.com
 0.0.0.0 a10abac5d1e9b11ea8d990e43aad44f4-1031692812.us-east-1.elb.amazonaws.com
+0.0.0.0 a1173f6f9942011ea98e20a74a8f5e27-1685968323.eu-west-1.elb.amazonaws.com
 0.0.0.0 a2963af13702f11ea8e280ea4befdfff-375410077.us-east-1.elb.amazonaws.com
 0.0.0.0 aa-agkn-com-https-1893222849.eu-west-2.elb.amazonaws.com
 0.0.0.0 aabbc1793aaac5c6d4f1bea56c1d3adcb.profile.sfo5-c1.cloudfront.net # test.png
@@ -2984,6 +2987,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 match-1943069928.euwest-1.elb.amazonaws.com
 0.0.0.0 matomo-wpmudev-1288779782.us-east-2.elb.amazonaws.com
 0.0.0.0 n3k5k32e00.execute-api.eu-central-1.amazonaws.com # Geodaten & Browsererfassung
+0.0.0.0 narev-nats-426500897.us-east-1.elb.amazonaws.com
 0.0.0.0 nginx-eucl1-ext-prod-a-2061165432.eucentral-1.elb.amazonaws.com
 0.0.0.0 p13nlog-1106815646.us-east-1.elb.amazonaws.com
 0.0.0.0 p3epspumangb5dvijf52er7wdi.appsync-api.us-east-1.amazonaws.com
@@ -12156,7 +12160,7 @@ ff02::3 ip6-allhosts
 # 51.105.249.228
 # 52.247.37.26
 # 52.147.198.201
-0.0.0.0 cs11.wpc.v0cdn.net
+#0.0.0.0 cs11.wpc.v0cdn.net # tlu.dl.delivery.mp.microsoft.com
 0.0.0.0 dmd.metaservices.microsoft.com.akadns.net
 0.0.0.0 am3p.wns.notify.windows.com.akadns.net
 0.0.0.0 skypedataprdcoleus16.cloudapp.net
@@ -12255,13 +12259,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 statics.teams.cdn.office.net
 
 # Windows 11 - widgets.exe & msedgewebview2.exe | zu Systemstart aktiver Prozess
+# Microsoft Web Experience Pack
 # Ip/s blockieren:
+# 131.253.33.219
 # 131.253.33.203
 # 204.79.197.203
 # 204.79.197.219
 0.0.0.0 a-0003.a-msedge.net
 0.0.0.0 a-0003.dc-msedge.net
 0.0.0.0 a-0016.a-msedge.net
+0.0.0.0 a-0016.dc-msedge.net
 # 52.184.220.11
 #0.0.0.0 api.cdp.dsp.mp.microsoft.com.nsatc.net # Microsoft Edge Update
 
@@ -14802,6 +14809,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 direct.apus.tech
 0.0.0.0 live.primis.tech
 0.0.0.0 servboost.tech
+0.0.0.0 sommelier.futurehybrid.tech
 0.0.0.0 subscribe.pushnetwork.tech
 0.0.0.0 techfreenow.tech
 0.0.0.0 video.primis.tech
@@ -14933,6 +14941,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 g.memuro.xyz
 0.0.0.0 hostarino.xyz
 0.0.0.0 iclwy.xyz
+0.0.0.0 ilrlqmaq.xyz
 0.0.0.0 jbjutserver.xyz
 0.0.0.0 jdmsdyuoltpgby.xyz
 0.0.0.0 kdjkfjekrkjer.xyz
@@ -14981,6 +14990,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 unwillian.xyz
 0.0.0.0 v3.fstats.xyz
 0.0.0.0 videodownload4k.xyz
+0.0.0.0 vwlpmaunyldn.xyz
 0.0.0.0 webaid.xyz
 0.0.0.0 xtremeserve.xyz
 0.0.0.0 xxx-hunt-er.xyz
@@ -16423,6 +16433,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 easynetworkincome.myperpetualsites.com
 0.0.0.0 easyquickremoval.com
 0.0.0.0 eatcells.com
+0.0.0.0 eaterenhanced.com
 0.0.0.0 ec.walkme.com
 0.0.0.0 ec2eu-de-1-vpc-20170223-lb-1195306822.eu-west-1.elb.amazonaws.com
 0.0.0.0 ecdn.analysis.fi
@@ -17004,6 +17015,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ls.getresponse.com
 0.0.0.0 lto-fallback.connectaserver.de
 0.0.0.0 lucky-cases.com
+0.0.0.0 lukomol.com
 0.0.0.0 lux.speedcurve.com
 0.0.0.0 lwlink3.linkwithin.com
 0.0.0.0 m.adup-tech.com
@@ -17689,6 +17701,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 solutions.inet-logistics.net
 0.0.0.0 sonata-notifications.taptapnetworks.com
 0.0.0.0 sovrn.apxlv.com
+0.0.0.0 spamvariationswithin.com
 0.0.0.0 sparks.ipowow.com
 0.0.0.0 special-alerts.com
 0.0.0.0 spiffymachine.com
@@ -17948,6 +17961,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 topgreatxoffers.com
 0.0.0.0 tornado-networks.com
 0.0.0.0 tortoise.proboards.com
+0.0.0.0 torturegratified.com
+0.0.0.0 torturegratified.com
 0.0.0.0 totentacruelor.com
 0.0.0.0 tour.eplay.com
 0.0.0.0 touroumu.com
@@ -17974,6 +17989,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 track.bruceleadx2.com
 0.0.0.0 track.buzz-track.com
 0.0.0.0 track.cccpmo.com
+0.0.0.0 track.cj.akadns.net
 0.0.0.0 track.clickbooth.com
 0.0.0.0 track.clkmgtrack.com
 0.0.0.0 track.contently.com
@@ -18043,6 +18059,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 trustworthytopmost.com
 0.0.0.0 trustyfine.com
 0.0.0.0 trx-hub.com
+0.0.0.0 trybulgingcoefficient.com
 0.0.0.0 ts.homemadevids.net
 0.0.0.0 tse2.mm.bing.net
 0.0.0.0 tsusercontent.com
@@ -18589,6 +18606,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zdstatic.toolbox.com # Ziff Davis
 0.0.0.0 zenhomes.cdn.adglare.net
 0.0.0.0 zenhomes.engine.adglare.net
+0.0.0.0 zerodestructive.com
 0.0.0.0 zezukadose.com
 0.0.0.0 zoopsame.com
 0.0.0.0 zuphaims.com
@@ -19561,6 +19579,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cm6-ams1.cm.steampowered.com
 #0.0.0.0 cm6-lax1.cm.steampowered.com
 #0.0.0.0 cm6-ord1.cm.steampowered.com
+#0.0.0.0 cm1-eze1.cm.steampowered.com
 
 # Steam: API
 # 2.16.212.48
@@ -29351,6 +29370,49 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
+# META Publishing
+# HordeCore
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Pathfinder: Wrath of the Righteous
+# Datenerfassung optional auswählbar - 89.17.52.236 gehört zur FeedbackAPI
+# Ip/s blockieren:
+# 89.17.52.236
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Metalhead Software Inc.
 # Super Mega Baseball: Extra Innings
 # 208.64.200.105
@@ -31356,6 +31418,26 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Tormented Souls
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -35010,6 +35092,26 @@ ff02::3 ip6-allhosts
 #0.0.0.0 368420-backend.tornbanner.net # Server
 0.0.0.0 etsource.epicgames.com # Usertracking der tbl-win64-shipping
 #0.0.0.0 goo.gl
+
+# Toukana Interactive
+# Dorfromantik
+# Ip/s blockieren:
+# 54.167.181.158
+# 192.46.238.25
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 events.backtrace.io
+0.0.0.0 submit.backtrace.io
 
 # Tower Up Studios
 # Bloody Mice
