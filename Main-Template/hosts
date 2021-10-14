@@ -668,6 +668,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 www2.deepl.com
 #0.0.0.0 www.deepl.com
 0.0.0.0 s.deepl.com
+0.0.0.0 ff8d28cacfe549d280afa21886239fe4.pacloudflare.com
 # 172.217.21.206
 # 216.58.207.74
 # 216.58.207.67
@@ -2965,6 +2966,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 easy-redirects.s3-eu-west-1.amazonaws.com
 0.0.0.0 ec2-52-214-207-196.eu-west-1.compute.amazonaws.com
 0.0.0.0 ec2-52-38-234-14.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-52-38-31-225.us-west-2.compute.amazonaws.com
 0.0.0.0 ec2-54-213-253-147.us-west-2.compute.amazonaws.com
 0.0.0.0 eks-2-unified-591377374.eu-west-1.elb.amazonaws.com
 0.0.0.0 elb-aws-fr-clickdistrict-1651093077.eu-central-1.elb.amazonaws.com
@@ -12251,21 +12253,26 @@ ff02::3 ip6-allhosts
 0.0.0.0 e8652.dscx.akamaiedge.net
 
 # Windows 11 - Microsoft Teams
-# Telemetrie aktiv zu Beginn von Windows 11. Teams eingenistet in der Taskleiste
+# Telemetrie aktiv zu Beginn von Windows 11. Teams eingenistet in der Taskleiste. Handeln nach Bedarf
 # https://teams.events.data.microsoft.com/Collector/3.0/?qsp=true&content-type=application%2Fbond-compact-binary&client-id=NO_AUTH&sdk-version=ACT-Web-JS-2.5.0&x-apikey=xxxxx
 # https://teams.events.data.microsoft.com/OneCollector/1.0/
 0.0.0.0 teams.events.data.microsoft.com
 0.0.0.0 teams.live.com
 0.0.0.0 statics.teams.cdn.office.net
 
+# Windows 11 - msedge.exe - Microsoft Edge
+# Ip/s blockieren:
+# 2.16.107.120
+0.0.0.0 deff.nelreports.net
+
 # Windows 11 - widgets.exe & msedgewebview2.exe | zu Systemstart aktiver Prozess
-# Microsoft Web Experience Pack
+# Microsoft Web Experience Pack deinstallieren
 # Ip/s blockieren:
 # 131.253.33.219
 # 131.253.33.203
 # 204.79.197.203
 # 204.79.197.219
-0.0.0.0 a-0003.a-msedge.net
+#0.0.0.0 a-0003.a-msedge.net # api.msn.com
 0.0.0.0 a-0003.dc-msedge.net
 0.0.0.0 a-0016.a-msedge.net
 0.0.0.0 a-0016.dc-msedge.net
@@ -12278,6 +12285,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.current.a.prd.aadg.akadns.net
 # Weitergabe von Metadaten. Siehe AkamaiGhost u. Weiterleitungen unter Windows 10
 #0.0.0.0 e11290.dspg.akamaiedge.net # go.microsoft.com
+# 20.67.183.221
+# 20.54.110.249
+# Frontdoor? Backdoor?
+0.0.0.0 neu.frontdoor.licensing.commerce.microsoft.com
+0.0.0.0 neu-displaycatalogrp.frontdoor.bigcatalog.commerce.microsoft.com
+
+# Windows 11 - wwahost.exe - Store und ANmeldung
+#0.0.0.0 logincdn.msauth.net
+#0.0.0.0 sparkcdneus2.azureedge.net
+0.0.0.0 0.0.0.0 canvas-cdn-prod.azureedge.net
+#0.0.0.0 ocsp.digicert.com
+#0.0.0.0 storeedgefd.dsx.mp.microsoft.com
+#0.0.0.0 login.live.com
+#0.0.0.0 client.hip.live.com
+#0.0.0.0 scu.client.hip.live.com # Captcha, Gifs
+#0.0.0.0 logincdn.msauth.net
+#0.0.0.0 displaycatalog.mp.microsoft.com
+#0.0.0.0 store-images.s-microsoft.com
 
 #
 # Soziale Netzwerke und Communitys
@@ -16580,7 +16605,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 feed.mikle.com
 0.0.0.0 feedads.feedblitz.com
 0.0.0.0 ferniewebcam.com
-0.0.0.0 ff8d28cacfe549d280afa21886239fe4.pacloudflare.com
 0.0.0.0 ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 0.0.0.0 ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net
 0.0.0.0 fgddl9szdof7.com
@@ -37056,16 +37080,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
-# Zachtronics
-# Infinifactory
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # ZA/UM
 # Disco Elysium
 # Ip/s blockieren:
@@ -37082,18 +37096,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
-
-# SHENZHEN I/O
-# Ip/s blockieren:
-# 207.38.86.247
-0.0.0.0 nulyu.zachtronics.webfactional.com
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 
 # Zakos Games
 # Shonen Idle Z
@@ -37151,13 +37153,7 @@ ff02::3 ip6-allhosts
 
 # Zoo Corporation
 # Princess Kaguya: Legend of the Moon Warrior
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+0.0.0.0 stats.unity3d.com
 
 # ZoopTEK
 # Super Cat Herding: Totally Awesome Edition
@@ -37174,9 +37170,4 @@ ff02::3 ip6-allhosts
 
 # ZOV GAME STUDIO
 # To The Light
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
+# Google Crashpad
