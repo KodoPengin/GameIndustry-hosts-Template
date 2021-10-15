@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 14.10.2021
+# Änderungsdatum: 15.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -2485,6 +2485,76 @@ ff02::3 ip6-allhosts
 0.0.0.0 a92-122-200-118.deploy.static.akamaitechnologies.com
 0.0.0.0 airdownload2.adobe.com
 0.0.0.0 amanita-design.net
+
+# Amazon.com, Inc. / Amazon Games
+# New Worlds
+# Einträge zu in New Worlds enhaltener Easy AntiCheat Software sind unter der Kategorie Kopierschutz zu finden
+# Sonstiges
+# 18.66.107.191, 18.66.242.78, 18.66.107.55, 52.217.65.220, 52.217.201.201
+#0.0.0.0 d2c74t4zimux3r.cloudfront.net # Steam_App_ID.1063730.json
+0.0.0.0 s3-w.us-east-1.amazonaws.com
+# STS - AWS Identity und Access Management
+# 54.239.24.200, 54.239.16.72
+#0.0.0.0 sts.us-east-1.amazonaws.com
+#0.0.0.0 sts.amazonaws.com
+# Kinesis - Echtzeitanalysse, BigData und Verknüfpung zu anderen AWS Diensten
+# 52.119.211.247, 3.24.227.244, 3.123.12.204, 3.123.12.195, 3.24.227.249, 18.229.220.157, 34.223.45.95, 3.91.171.226
+0.0.0.0 kinesis.ap-southeast-2.amazonaws.com
+0.0.0.0 kinesis.sa-east-1.amazonaws.com
+0.0.0.0 kinesis.eu-central-1.amazonaws.com
+0.0.0.0 kinesis.us-west-2.amazonaws.com
+0.0.0.0 kinesis.us-east-1.amazonaws.com
+# Metadata personaHost
+# 54.146.208.115, 54.89.165.9, 35.174.93.31, 35.173.107.183, 34.207.45.121
+#0.0.0.0 service.maestro.us-east-1.social.games.a2z.com # personaHostV2, Sessiondaten
+#0.0.0.0 client.us-east-1.social.games.a2z.com # personaHost
+#0.0.0.0 client.entitlementservice.amazongames.com
+# DynamoDB - PING / Callbacks
+# 52.94.17.24, 52.119.226.188, 52.94.13.34, 52.94.10.24, 52.94.7.6, 52.94.17.30, 52.119.224.126, 52.94.10.82, 52.94.7.10, 52.94.13.28, 52.94.7.78
+0.0.0.0 dynamodb.ap-southeast-2.amazonaws.com
+0.0.0.0 dynamodb.eu-central-1.amazonaws.com
+0.0.0.0 dynamodb.us-east-1.amazonaws.com
+0.0.0.0 dynamodb.us-west-2.amazonaws.com
+0.0.0.0 dynamodb.sa-east-1.amazonaws.com
+# Marketingtiles / Werbung / Ankündigungen
+# 52.92.144.186, 52.218.176.33, 3.229.133.91, 34.204.164.210
+0.0.0.0 ags-nw-cms.s3.us-west-2.amazonaws.com
+#0.0.0.0 client.catalogservice.amazongames.com # IngameShop
+# Assets
+# 65.9.71.91, 18.66.122.79, 18.66.122.76
+#0.0.0.0 assets.ctfassets.net
+# Vivox Sprachchat
+# 52.28.150.142
+0.0.0.0 anwxp0euc1.www.vivox.com # /api2/viv_get_prelogin.php
+0.0.0.0 www5-anwxp0euc1-elb-741467932.eu-central-1.elb.amazonaws.com
+0.0.0.0 watson.vivox.com
+# Beginn Mehrspieler / Charakterauswahl / Erstellung etc
+#0.0.0.0 ags-javelin-remote-config.s3.amazonaws.com # Konfigurationsets für Kinesis, RegionID, ProduktID, CognitoID, WorldID
+# EU Central
+#0.0.0.0 2mfrik7h83.execute-api.us-east-1.amazonaws.com # AuthStack
+#0.0.0.0 u433g9r00c.execute-api.eu-central-1.amazonaws.com # LoginGateway
+#0.0.0.0 8otrnl8e8d.execute-api.eu-central-1.amazonaws.com # JavelinGateway V2
+#0.0.0.0 d1w0bfy6smo4d1.cloudfront.net # JavelinGateway Cloudfront & Credentials/Logininfo, Charaktere, Serverlisten usw.
+# SA East
+#0.0.0.0 kqqt5twsi7.execute-api.us-east-1.amazonaws.com # AuthStack
+#0.0.0.0 j4n6whncmi.execute-api.sa-east-1.amazonaws.com # LoginGateway
+#0.0.0.0 ei4rb8pwvd.execute-api.sa-east-1.amazonaws.com # JavelinGateway V2
+#0.0.0.0 d1cjlmzk0xrm0z.cloudfront.net # JavelinGateway Cloudfront & Credentials/Logininfo, Charaktere, Serverlisten usw.
+# US East
+#0.0.0.0 0prplal5u1.execute-api.us-east-1.amazonaws.com # AuthStack
+#0.0.0.0 eudbjx6mig.execute-api.us-east-1.amazonaws.com # LoginGateway
+#0.0.0.0 3khxmonavl.execute-api.us-east-1.amazonaws.com # JavelinGateway V2
+#0.0.0.0 d2oeuvxi3kfsrw.cloudfront.net # JavelinGateway Cloudfront & Credentials/Logininfo, Charaktere, Serverlisten usw.
+# US West
+#0.0.0.0 q8hqllbg6k.execute-api.us-east-1.amazonaws.com # AuthStack
+#0.0.0.0 v7irlu1nrl.execute-api.us-west-2.amazonaws.com # LoginGateway
+#0.0.0.0 mwsyzhfoe5.execute-api.us-west-2.amazonaws.com # JavelinGateway V2
+#0.0.0.0 d3bj4csovi1fe8.cloudfront.net # JavelinGateway Cloudfront & Credentials/Logininfo, Charaktere, Serverlisten usw.
+# AP Southeast
+#0.0.0.0 hhf8nn71vb.execute-api.us-east-1.amazonaws.com # AuthStack
+#0.0.0.0 ep1m9qoir8.execute-api.ap-southeast-2.amazonaws.com # LoginGateway
+#0.0.0.0 9jlv7mxmw1.execute-api.ap-southeast-2.amazonaws.com # JavelinGateway V2
+#0.0.0.0 de4mfzk9wkelz.cloudfront.net # JavelinGateway Cloudfront & Credentials/Logininfo, Charaktere, Serverlisten usw.
 
 # Anatoly Konstantinov
 # Hoo-Boy
@@ -18195,16 +18265,6 @@ ff02::3 ip6-allhosts
 # Protokolliert sämtliche Szenendaten und Entscheidungen des Spielers, dazu "normale" Standardanalytics
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-
-# YDKR
-# DPS Idle
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 
 # Yiming
 # Zombie Flick | 僵尸快打
