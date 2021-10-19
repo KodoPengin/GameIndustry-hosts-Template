@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 15.10.2021
+# Änderungsdatum: 19.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -125,7 +125,12 @@ ff02::3 ip6-allhosts
 # 37.244.28.19
 #0.0.0.0 eu.patch.battle.net
 #0.0.0.0 eu.version.battle.net
+# 114.108.158.203
+# 110.45.217.198
+# 117.52.158.94
+#0.0.0.0 blizzard.gcdn.cloudn.co.kr
 # Battle.net.exe
+# 3.124.104.118
 # 37.244.28.102
 # 37.244.54.10
 # 37.244.28.103
@@ -136,6 +141,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 eu.launcher.battle.net
 #0.0.0.0 eu.patch.battle.net
 #0.0.0.0 eu.api.blizzard.com
+#0.0.0.0 oauth.battle.net
 # 137.221.106.102
 # 137.221.106.121
 # 137.221.106.103
@@ -680,6 +686,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 ucppropagationservice.ubi.com
 
 # Valve Corporation | Valve Softworks | Steam Client
+# Dazugehörige Infos unter https://gameindustry.eu/firmenkatalog/valve-corporation/#GoogleCaptive
+# Steam: Captive Portal und Google
+0.0.0.0 gstatic.com
+
 # Steam: Anmeldeserver | https und wss Protokoll
 # 155.133.252.39
 # 185.25.182.76
@@ -1246,6 +1256,7 @@ ff02::3 ip6-allhosts
 
 # Denuvo Anti-Tamper
 # Anwendungsschutz, Schutz gegen Manipulation und Kopierschutz
+# 63.33.167.102
 # 54.171.209.26
 # 52.51.106.62
 # 54.72.220.34
@@ -4129,6 +4140,9 @@ ff02::3 ip6-allhosts
 # Zusätzlich alle Launcher Verbindungen
 # Infrastruktur von D2R ist komplett auf Google Usercontent ausgelegt. Ipv4 können selbst nachverfolgt werden
 # Spielserver
+# 24.105.29.76
+# 34.145.211.81
+# 137.221.106.88
 # 37.244.28.80
 # 37.244.28.180
 # 137.221.106.188
@@ -4138,6 +4152,7 @@ ff02::3 ip6-allhosts
 # 117.52.35.79
 #0.0.0.0 ams1a-d2r-rclient.classic.blizzard.com
 #0.0.0.0 ams1b-d2r-rclient.classic.blizzard.com
+#0.0.0.0 las1a-d2r-rclient.diablo2.blizzard.com
 #0.0.0.0 las1b-d2r-rclient.diablo2.blizzard.com
 #0.0.0.0 icn1a-d2r-rclient.classic.blizzard.com
 #0.0.0.0 eu.actual.battle.net # Europa
@@ -4146,6 +4161,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 cn-test.actual.battle.net
 0.0.0.0 loc.actual.battle.net
 0.0.0.0 test.actual.battle.net
+# 24.105.29.76
+0.0.0.0 telemetry-in.battle.net
+# Weitere Endpunkte
+#0.0.0.0 81.211.145.34.bc.googleusercontent.com
 # 37.244.28.104
 #0.0.0.0 nydus.battle.net
 # 34.117.122.6
@@ -14726,8 +14745,14 @@ ff02::3 ip6-allhosts
 #0.0.0.0 download.microsoft.com
 
 # Deus Ex: Mankind Divided
-#0.0.0.0 dxng.os.eidos.com
+# s. Rubrik Kopierschutz / AntiCheat
+# 185.215.128.11
+# 185.215.129.12
+# 151.101.113.137
+#0.0.0.0 dxng.os.eidos.com # Gameevents, Ingamemails, Karten, Nutzerprofile, Callbacks, Anmeldung, Infocast, Transaktionen und DLCabgleich
+0.0.0.0 lbmtl.os.eidos.com
 #0.0.0.0 res.cloudinary.com
+0.0.0.0 cloudinary.map.fastly.net
 
 # Deus Ex: The Fall
 # 208.64.200.105
@@ -14740,6 +14765,7 @@ ff02::3 ip6-allhosts
 
 # DRAGON QUEST® XI: Echoes of an Elusive Age™ - Digital Edition of Light
 # s. Rubrik Kopierschutz / AntiCheat
+# s. Eintrag Steam: IP Checks
 
 # Final Fantasy VII
 # Launcher
@@ -14909,8 +14935,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 crashreporter2.peoplecanfly.com
 
 # Rise of the Tomb Raider
-#0.0.0.0 tr2.os.eidos.com
 # s. Rubrik Kopierschutz / AntiCheat
+#0.0.0.0 tr2.os.eidos.com
+#0.0.0.0 tr2.eidos.com
 
 # Newsletter
 #0.0.0.0 xmail.square-enix.com
@@ -14923,20 +14950,18 @@ ff02::3 ip6-allhosts
 #0.0.0.0 orangelotushd.os.eidos.com
 
 # Shadow of the Tomb Raider
-# s. Rubrik Kopierschutz / AntiCheat
 # Social Network Anbindung mitsamt weiteren Trackern und Analytics
-# 52.70.146.197
-# 45.60.65.134
-# 69.88.149.135
-# 69.88.149.139
+# 35.237.73.195
+# 23.21.136.154
+# 52.73.51.72
+# 34.193.66.129
+# 34.74.108.158
+# 34.192.4.46
 #0.0.0.0 tr11v6.os.eidos.com # Onlineserver bei Bedarf abschalten
-0.0.0.0 hydra.cdn.sqexeu.com # Port 10672
 0.0.0.0 dkifbup.x.incapdns.net
 #0.0.0.0 eidos.https.internapcdn.net
-# 13.32.23.16
-# 13.226.156.116
-#0.0.0.0 ocsp.sca1b.amazontrust.com
-#0.0.0.0 o.ss2.us
+# Ipv4/6 Adressen & Adressen - https://gameindustry.eu/firmenkatalog/epic-games-inc/
+#0.0.0.0 api.epicgames.dev
 
 # The Awesome Adventures of Captain Spirit
 # s. Rubrik Kopierschutz / AntiCheat
@@ -14945,7 +14970,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 promenade.os.eidos.com # Fest im Spiel verankert
 0.0.0.0 hmsniper.os.eidos.com
 0.0.0.0 dxbreach.os.eidos.com
-0.0.0.0 dxng.os.eidos.com
+#0.0.0.0 dxng.os.eidos.com
 # Mit Klick auf die Datenschutzvereinbarung "Webseite öffnen"
 #0.0.0.0 weblet.square-enix.com
 0.0.0.0 www.googletagmanager.com
@@ -14957,6 +14982,21 @@ ff02::3 ip6-allhosts
 
 # Thief IV
 #0.0.0.0 t4.os.eidos.com
+
+# Tomb Raider
+# Ipv4/6 Adressen & Adressen - https://gameindustry.eu/firmenkatalog/epic-games-inc/
+# 3.224.106.254
+# 54.196.1.227
+# 3.81.244.9
+# 185.215.129.23
+# 185.215.128.23
+# 185.215.128.21
+# 34.238.231.187
+#0.0.0.0 tras.os.eidos.com
+#0.0.0.0 api.epicgames.dev
+#0.0.0.0 accounts.epicgames.com
+#0.0.0.0 static-assets-prod.unrealengine.com
+#0.0.0.0 tracking.epicgames.com # Siehe Epic Games Launcher
 
 # Square Enix & Forever Entertainment S.A.
 # Fear Effect Sedna
