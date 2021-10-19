@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 15.10.2021
+# Änderungsdatum: 19.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -668,7 +668,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 www2.deepl.com
 #0.0.0.0 www.deepl.com
 0.0.0.0 s.deepl.com
-0.0.0.0 ff8d28cacfe549d280afa21886239fe4.pacloudflare.com
+# Endpunkte
+#0.0.0.0 ff8d28cacfe549d280afa21886239fe4.pacloudflare.com
+#0.0.0.0 733868e706dd40d3a4a0588fc39b3df8.pacloudflare.com
 # 172.217.21.206
 # 216.58.207.74
 # 216.58.207.67
@@ -919,6 +921,8 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 108.59.8.244
 0.0.0.0 data.icecreamapps.com # Versionsnummer, Dev?, Spracheinstellungen, Betriebssystem, Betriebssystemversionsnummer, Auflösung, DPI, Scalefaktor, Installationsnr, Starts
+# 104.18.31.182
+#0.0.0.0 ocsp.comodoca.com.cdn.cloudflare.net
 
 # IDM Computer Solutions, Inc.
 # Ultraedit
@@ -2932,6 +2936,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 9dbd256a-default-trx-2d0e-496170222.eu-central-1.elb.amazonaws.com
 0.0.0.0 a10abac5d1e9b11ea8d990e43aad44f4-1031692812.us-east-1.elb.amazonaws.com
 0.0.0.0 a1173f6f9942011ea98e20a74a8f5e27-1685968323.eu-west-1.elb.amazonaws.com
+0.0.0.0 a123d7dd52c7a40f9a11a8fd09e2f24b-1254019139.us-east-1.elb.amazonaws.com
 0.0.0.0 a2963af13702f11ea8e280ea4befdfff-375410077.us-east-1.elb.amazonaws.com
 0.0.0.0 aa-agkn-com-https-1893222849.eu-west-2.elb.amazonaws.com
 0.0.0.0 aabbc1793aaac5c6d4f1bea56c1d3adcb.profile.sfo5-c1.cloudfront.net # test.png
@@ -3120,6 +3125,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d22z575k8abudv.cloudfront.net
 0.0.0.0 d24n15hnbwhuhn.cloudfront.net
 0.0.0.0 d2528hoa8g0iaj.cloudfront.net
+0.0.0.0 d26adrx9c3n0mq.cloudfront.net
 0.0.0.0 d2849lw36e7cot.cloudfront.net
 0.0.0.0 d29neki5kckb2d.cloudfront.net
 0.0.0.0 d2e1wye93a9yxe.cloudfront.net
@@ -3901,6 +3907,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dynamic.par.vip.prod.criteo.com
 0.0.0.0 gbc1.nl.eu.criteo.com
 0.0.0.0 gbc3.fr.eu.criteo.com
+0.0.0.0 gbc5.nl.eu.criteo.com
 0.0.0.0 gbc7.nl.eu.criteo.com
 0.0.0.0 gem.gbc.criteo.com
 0.0.0.0 gum.am5.vip.prod.criteo.com
@@ -5840,6 +5847,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mboxedge37.tt.omtrdc.net
 0.0.0.0 microsoftmscompoc.tt.omtrdc.net
 0.0.0.0 nbcume.sc.omtrdc.net
+0.0.0.0 nbcuni.com.ssl.sc.omtrdc.net
 0.0.0.0 nvda.d2.sc.omtrdc.net # NVidia
 0.0.0.0 nvidia.tt.omtrdc.net
 0.0.0.0 shueisha1.sc.omtrdc.net
@@ -6105,6 +6113,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sbnationbidder-d.openx.net
 0.0.0.0 seesaa-d.openx.net
 0.0.0.0 snigel-d.openx.net # Computerbase.de
+0.0.0.0 softonic-d.openx.net
 0.0.0.0 spiceworks-d.openx.net
 0.0.0.0 spot-im-d.openx.net
 0.0.0.0 stroer-d.openx.net
@@ -6825,6 +6834,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 o407470.ingest.sentry.io
 0.0.0.0 o418887.ingest.sentry.io
 0.0.0.0 o435357.ingest.sentry.io
+0.0.0.0 o49094.ingest.sentry.io
 0.0.0.0 o52056.ingest.sentry.io
 0.0.0.0 o8337.ingest.sentry.io
 0.0.0.0 o83571.ingest.sentry.io
@@ -8150,6 +8160,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 wosign-csca.ocsp-certum.com
 
 # Comodo CA
+# Gehört zur Beteiligungsgesellschaft Francisco Partners | Hauptfirma ist die NSO Gruppe, bekannt für Staatstrojaner wie Pegasus
 # 151.139.128.14
 #0.0.0.0 ocsp.comodoca.com
 #0.0.0.0 crl.comodoca.com
@@ -12280,6 +12291,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 api.cdp.dsp.mp.microsoft.com.nsatc.net # Microsoft Edge Update
 
 # Windows 11 - Unsortiertes
+0.0.0.0 geo.va-v.livepersonk.akadns.net
+0.0.0.0 va.v.liveperson.net
 # 20.190.159.132
 # 2.16.212.108
 0.0.0.0 www.current.a.prd.aadg.akadns.net
@@ -12291,7 +12304,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 neu.frontdoor.licensing.commerce.microsoft.com
 0.0.0.0 neu-displaycatalogrp.frontdoor.bigcatalog.commerce.microsoft.com
 
-# Windows 11 - wwahost.exe - Store und ANmeldung
+# Windows 11 - wwahost.exe oder - Store und Anmeldung
 #0.0.0.0 logincdn.msauth.net
 #0.0.0.0 sparkcdneus2.azureedge.net
 0.0.0.0 0.0.0.0 canvas-cdn-prod.azureedge.net
@@ -12347,6 +12360,7 @@ ff02::3 ip6-allhosts
 # Webseite/n und Dienste gesperrt wegen Cambridge Analytica, permanentem Tracking und Spyware, millionenfacher Verstoß gegen Privatsphäre
 # der Nutzer, Verkauf von Nutzerdaten, Tracking von Androidnutzern, Ignorieren von Sicherheitslücken uvm.
 # Weitere Dienste und Plattformen Instagram, Whatsapp & Co werden in Zukunft zur Blockliste hinzugefügt bzw. ergänzt
+# Kurz gesagt, keine Daten für Facebook Kampangne
 # Ip/s blockieren:
 # 185.60.217.28
 # 157.240.194.27
@@ -12601,6 +12615,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 instagram.fsin9-1.fna.fbcdn.net
 0.0.0.0 l.instagram.com
 0.0.0.0 platform.instagram.com
+0.0.0.0 scontent.cdninstagram.com
 0.0.0.0 scontent-atl3-2.cdninstagram.com
 0.0.0.0 scontent-dus1-1.xx.fbcdn.net
 0.0.0.0 scontent-dus1-1.cdninstagram.com
@@ -14648,6 +14663,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 backetrut.pro
 0.0.0.0 baconaces.pro
 0.0.0.0 butheptesitrew.pro
+0.0.0.0 chykohija.pro
 0.0.0.0 clknrtrg.pro
 0.0.0.0 coallminhee.pro
 0.0.0.0 coltagainst.pro
@@ -14934,6 +14950,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ailiopunsus.xyz
 0.0.0.0 ajrequestion.xyz
 0.0.0.0 all-brain-company.xyz
+0.0.0.0 associalbde.xyz
+0.0.0.0 associalunb.xyz
 0.0.0.0 authenticprizes.xyz
 0.0.0.0 averalzaedsk.xyz
 0.0.0.0 axejvxcfvq.xyz
@@ -14964,11 +14982,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 ezf.dalanaya.xyz
 0.0.0.0 funyidence.xyz
 0.0.0.0 g.memuro.xyz
+0.0.0.0 getinclinarss.xyz
 0.0.0.0 hostarino.xyz
 0.0.0.0 iclwy.xyz
+0.0.0.0 ihwfqfhtl.xyz
 0.0.0.0 ilrlqmaq.xyz
 0.0.0.0 jbjutserver.xyz
 0.0.0.0 jdmsdyuoltpgby.xyz
+0.0.0.0 kdanxmiirxh.xyz
 0.0.0.0 kdjkfjekrkjer.xyz
 0.0.0.0 keapeiros.xyz
 0.0.0.0 kvilhypwtelaos.xyz
@@ -14976,6 +14997,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ljpv.s4d.xyz
 0.0.0.0 ljrshdrbbmwae.xyz
 0.0.0.0 log.xtremeserve.xyz
+0.0.0.0 loptyinterva.xyz
 0.0.0.0 lucentshow.xyz
 0.0.0.0 medvrloiqxsv.xyz
 0.0.0.0 mmdpliraus.xyz
@@ -14983,12 +15005,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 music-sec.xyz
 0.0.0.0 n1272adserv.xyz
 0.0.0.0 networks-site.xyz
+0.0.0.0 oewdfyhdfq.xyz
 0.0.0.0 offers.bestclicks.xyz
 0.0.0.0 offers.tracking6666.xyz
 0.0.0.0 pushpad.xyz
 0.0.0.0 quicklesvad.xyz
 0.0.0.0 rbsqotkf.xyz
 0.0.0.0 redir.flowwiththetide.xyz
+0.0.0.0 redirectify.xyz
 0.0.0.0 relapayssia.xyz
 0.0.0.0 retcherruny.xyz
 0.0.0.0 revolumnety.xyz
@@ -14996,6 +15020,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s.maldini.xyz
 0.0.0.0 schargesee.xyz
 0.0.0.0 slightists.xyz
+0.0.0.0 spectserjol.xyz
 0.0.0.0 ssissmongo.xyz
 0.0.0.0 st.mobee.xyz
 0.0.0.0 static.adult.xyz
@@ -15493,6 +15518,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 2cnjuh34jbhub.com
 0.0.0.0 2d7bd9e6eb370143.com
 0.0.0.0 2e3b618057a1.cdn4.forter.com
+0.0.0.0 2llmonds4ehcr93nb.com
 0.0.0.0 2rush.net
 0.0.0.0 3629693.notify6.com
 0.0.0.0 365dm.com
@@ -15510,6 +15536,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 4rt6auqet2rx.com
 0.0.0.0 4srdef7xto9vbiieaynxc9ac8m9jk1616475628.nuid.nmrodam.com
 0.0.0.0 517pn6he9p5r.com
+0.0.0.0 517s61.reminews.com
 0.0.0.0 5418.allow-to-continue.com
 0.0.0.0 550b3ikb9j.com
 0.0.0.0 564d28256cddaeba.com
@@ -15554,6 +15581,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a2g-secure.com
 0.0.0.0 a5apzj82.emltrk.com
 0.0.0.0 a8672336.mnoova.com
+0.0.0.0 a97adde81b00f2ca4.awsglobalaccelerator.com
 0.0.0.0 aaa.artefact.com
 0.0.0.0 aanqylta.com
 0.0.0.0 ab23e84117d41e7.com
@@ -15800,6 +15828,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.navigateto.net # Search Encrypt
 0.0.0.0 api.opinary.com
 0.0.0.0 api.pushnami.com
+0.0.0.0 api.radar.cloudflare.com
 0.0.0.0 api.retargetly.com
 0.0.0.0 api.rnet.plus
 0.0.0.0 api.sail-personalize.com
@@ -15839,6 +15868,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 art19.com
 0.0.0.0 as.innity.com
 0.0.0.0 as.travelbook.de
+0.0.0.0 asgclick.com
 0.0.0.0 aslaironer.com
 0.0.0.0 asn.advolution.de
 0.0.0.0 asoursuls.com
@@ -15941,9 +15971,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 biltag.bilsyndication.com
 0.0.0.0 binary.limited
 0.0.0.0 bitonclick.com
+0.0.0.0 blastcahs.com
 0.0.0.0 blinn.beredskabdanmark.dk
 0.0.0.0 blip.bizrate.com
 0.0.0.0 blissfulonline.com
+0.0.0.0 blockadsnot.com
 0.0.0.0 bma-ghost.s3.us-east-2.amazonaws.com
 0.0.0.0 bnc1m.com
 0.0.0.0 bncloudfl.com
@@ -16001,6 +16033,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 calm-cabbage-a9umxyb6jlwq9ypiv5av5m12.herokudns.com
 0.0.0.0 campaign.bet3000.com
 0.0.0.0 capsuledaily.com
+0.0.0.0 capture.analytics.hbwrapper
 0.0.0.0 cardiwersg.com
 0.0.0.0 cardmrket.com
 0.0.0.0 cargill.dhr-platinum.com
@@ -16172,6 +16205,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 claim-your-prise6.life
 0.0.0.0 cldloadz.com
 0.0.0.0 clearonclick.com
+0.0.0.0 clerrrep.com
 0.0.0.0 clerrrep.com
 0.0.0.0 click.cptrack.de
 0.0.0.0 click.expmediadirect1.com
@@ -16469,6 +16503,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 edgesecretion.com
 0.0.0.0 edgystrangleconcentrate.com
 0.0.0.0 effectivelyreport.com
+0.0.0.0 efully.info
 0.0.0.0 egcc918s.com
 0.0.0.0 eggs-content.kinkoid.com
 0.0.0.0 eikegolehem.com
@@ -16737,6 +16772,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 groomaffections.com
 0.0.0.0 gs-goldbach.da-services.ch
 0.0.0.0 gscounters.us1.gigya.com
+0.0.0.0 gstatic.com # Google Captive
 0.0.0.0 gtm-cn-4590x3tmp03.gtm-a2b4.com
 0.0.0.0 gunnersalmighty.com
 0.0.0.0 gussame.com
@@ -16786,6 +16822,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hgbnr.com
 0.0.0.0 hghit.com
 0.0.0.0 hh-content.com
+0.0.0.0 hidelen.com
 0.0.0.0 hif.to
 0.0.0.0 hilltopgo.com
 0.0.0.0 hipersushiads.com
@@ -16827,6 +16864,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ifrm.camdough.com
 0.0.0.0 ii.alatest.com
 0.0.0.0 ilovemakingpics.com
+0.0.0.0 ilusors.com
 0.0.0.0 ilxhsgd.com
 0.0.0.0 image.ard.de # Trackingpixel und Browserdaten
 0.0.0.0 imagepory.themaven.net
@@ -16888,6 +16926,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 isondled.net
 0.0.0.0 issues.alticast.com
 0.0.0.0 ist5-1.filesor.com
+0.0.0.0 itemolgaer.com
 0.0.0.0 itgiblean.com
 0.0.0.0 itineraryupper.com
 0.0.0.0 itm.ivitrack.com
@@ -17381,6 +17420,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pixel.ionos.de
 0.0.0.0 pixel.placed.com
 0.0.0.0 pixel.pzkie.com
+0.0.0.0 pixel.saberconsciente.com.br
 0.0.0.0 pixel.trackverify.com
 0.0.0.0 pixel.yext-pub.com
 0.0.0.0 pixels.truvidplayer.com
@@ -17427,6 +17467,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 prebid.digitru.st
 0.0.0.0 prebid.districtm.ca
 0.0.0.0 prebid.flux-analytics.com
+0.0.0.0 predictiondexchange.com
 0.0.0.0 prefmgr-cookie.truste-svc.net
 0.0.0.0 premiumvertising.com
 0.0.0.0 preskalyn.com
@@ -17461,6 +17502,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pto.protoawe.com
 0.0.0.0 ptoumsid.net
 0.0.0.0 ptoushoa.com
+0.0.0.0 pub.admanmedia.com
 0.0.0.0 public-prod-dspcookiematching.dmxleo.com
 0.0.0.0 public.profitwell.com
 0.0.0.0 public.servenobid.com
@@ -17541,7 +17583,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 red.vtracy.de
 0.0.0.0 redirect.madsack-adcenter.de
 0.0.0.0 redirect2719.ws
-0.0.0.0 redirectify.xyz
 0.0.0.0 redrhino-static.casinomodule.com
 0.0.0.0 refbanners.com
 0.0.0.0 referral.crypto.com
@@ -18006,6 +18047,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 track-ext.solidgate.com
 0.0.0.0 track.afcpatrk.com
 0.0.0.0 track.affiliate-b.com
+0.0.0.0 track.affiliate-wg.com
 0.0.0.0 track.analitycs.net
 0.0.0.0 track.arcade.cash
 0.0.0.0 track.attributionapp.com
@@ -18212,6 +18254,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wachipho.net
 0.0.0.0 wallpapersfacts.com
 0.0.0.0 wargaming-affiliate.affise.com
+0.0.0.0 wargaming-affiliate.g2afse.com
 0.0.0.0 washedinmate.com
 0.0.0.0 watch-video.net
 0.0.0.0 watchcensorbully.com
@@ -18423,6 +18466,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.lapalingo.com
 0.0.0.0 www.lasagneandands.com
 0.0.0.0 www.leser-werden.de
+0.0.0.0 www.linkconnector.com
 0.0.0.0 www.linkfame.com
 0.0.0.0 www.liqwid.net
 0.0.0.0 www.livinghome.es
@@ -18975,7 +19019,12 @@ ff02::3 ip6-allhosts
 # 37.244.28.19
 #0.0.0.0 eu.patch.battle.net
 #0.0.0.0 eu.version.battle.net
+# 114.108.158.203
+# 110.45.217.198
+# 117.52.158.94
+#0.0.0.0 blizzard.gcdn.cloudn.co.kr
 # Battle.net.exe
+# 3.124.104.118
 # 37.244.28.102
 # 37.244.54.10
 # 37.244.28.103
@@ -18986,6 +19035,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 eu.launcher.battle.net
 #0.0.0.0 eu.patch.battle.net
 #0.0.0.0 eu.api.blizzard.com
+#0.0.0.0 oauth.battle.net
 # 137.221.106.102
 # 137.221.106.121
 # 137.221.106.103
@@ -19530,6 +19580,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 ucppropagationservice.ubi.com
 
 # Valve Corporation | Valve Softworks | Steam Client
+# Dazugehörige Infos unter https://gameindustry.eu/firmenkatalog/valve-corporation/#GoogleCaptive
+# Steam: Captive Portal und Google
+0.0.0.0 gstatic.com
+
 # Steam: Anmeldeserver | https und wss Protokoll
 # 155.133.252.39
 # 185.25.182.76
@@ -20096,6 +20150,7 @@ ff02::3 ip6-allhosts
 
 # Denuvo Anti-Tamper
 # Anwendungsschutz, Schutz gegen Manipulation und Kopierschutz
+# 63.33.167.102
 # 54.171.209.26
 # 52.51.106.62
 # 54.72.220.34
@@ -22979,6 +23034,9 @@ ff02::3 ip6-allhosts
 # Zusätzlich alle Launcher Verbindungen
 # Infrastruktur von D2R ist komplett auf Google Usercontent ausgelegt. Ipv4 können selbst nachverfolgt werden
 # Spielserver
+# 24.105.29.76
+# 34.145.211.81
+# 137.221.106.88
 # 37.244.28.80
 # 37.244.28.180
 # 137.221.106.188
@@ -22988,6 +23046,7 @@ ff02::3 ip6-allhosts
 # 117.52.35.79
 #0.0.0.0 ams1a-d2r-rclient.classic.blizzard.com
 #0.0.0.0 ams1b-d2r-rclient.classic.blizzard.com
+#0.0.0.0 las1a-d2r-rclient.diablo2.blizzard.com
 #0.0.0.0 las1b-d2r-rclient.diablo2.blizzard.com
 #0.0.0.0 icn1a-d2r-rclient.classic.blizzard.com
 #0.0.0.0 eu.actual.battle.net # Europa
@@ -22996,6 +23055,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 cn-test.actual.battle.net
 0.0.0.0 loc.actual.battle.net
 0.0.0.0 test.actual.battle.net
+# 24.105.29.76
+0.0.0.0 telemetry-in.battle.net
+# Weitere Endpunkte
+#0.0.0.0 81.211.145.34.bc.googleusercontent.com
 # 37.244.28.104
 #0.0.0.0 nydus.battle.net
 # 34.117.122.6
@@ -33576,8 +33639,14 @@ ff02::3 ip6-allhosts
 #0.0.0.0 download.microsoft.com
 
 # Deus Ex: Mankind Divided
-#0.0.0.0 dxng.os.eidos.com
+# s. Rubrik Kopierschutz / AntiCheat
+# 185.215.128.11
+# 185.215.129.12
+# 151.101.113.137
+#0.0.0.0 dxng.os.eidos.com # Gameevents, Ingamemails, Karten, Nutzerprofile, Callbacks, Anmeldung, Infocast, Transaktionen und DLCabgleich
+0.0.0.0 lbmtl.os.eidos.com
 #0.0.0.0 res.cloudinary.com
+0.0.0.0 cloudinary.map.fastly.net
 
 # Deus Ex: The Fall
 # 208.64.200.105
@@ -33590,6 +33659,7 @@ ff02::3 ip6-allhosts
 
 # DRAGON QUEST® XI: Echoes of an Elusive Age™ - Digital Edition of Light
 # s. Rubrik Kopierschutz / AntiCheat
+# s. Eintrag Steam: IP Checks
 
 # Final Fantasy VII
 # Launcher
@@ -33759,8 +33829,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 crashreporter2.peoplecanfly.com
 
 # Rise of the Tomb Raider
-#0.0.0.0 tr2.os.eidos.com
 # s. Rubrik Kopierschutz / AntiCheat
+#0.0.0.0 tr2.os.eidos.com
+#0.0.0.0 tr2.eidos.com
 
 # Newsletter
 #0.0.0.0 xmail.square-enix.com
@@ -33773,20 +33844,18 @@ ff02::3 ip6-allhosts
 #0.0.0.0 orangelotushd.os.eidos.com
 
 # Shadow of the Tomb Raider
-# s. Rubrik Kopierschutz / AntiCheat
 # Social Network Anbindung mitsamt weiteren Trackern und Analytics
-# 52.70.146.197
-# 45.60.65.134
-# 69.88.149.135
-# 69.88.149.139
+# 35.237.73.195
+# 23.21.136.154
+# 52.73.51.72
+# 34.193.66.129
+# 34.74.108.158
+# 34.192.4.46
 #0.0.0.0 tr11v6.os.eidos.com # Onlineserver bei Bedarf abschalten
-0.0.0.0 hydra.cdn.sqexeu.com # Port 10672
 0.0.0.0 dkifbup.x.incapdns.net
 #0.0.0.0 eidos.https.internapcdn.net
-# 13.32.23.16
-# 13.226.156.116
-#0.0.0.0 ocsp.sca1b.amazontrust.com
-#0.0.0.0 o.ss2.us
+# Ipv4/6 Adressen & Adressen - https://gameindustry.eu/firmenkatalog/epic-games-inc/
+#0.0.0.0 api.epicgames.dev
 
 # The Awesome Adventures of Captain Spirit
 # s. Rubrik Kopierschutz / AntiCheat
@@ -33795,7 +33864,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 promenade.os.eidos.com # Fest im Spiel verankert
 0.0.0.0 hmsniper.os.eidos.com
 0.0.0.0 dxbreach.os.eidos.com
-0.0.0.0 dxng.os.eidos.com
+#0.0.0.0 dxng.os.eidos.com
 # Mit Klick auf die Datenschutzvereinbarung "Webseite öffnen"
 #0.0.0.0 weblet.square-enix.com
 0.0.0.0 www.googletagmanager.com
@@ -33807,6 +33876,21 @@ ff02::3 ip6-allhosts
 
 # Thief IV
 #0.0.0.0 t4.os.eidos.com
+
+# Tomb Raider
+# Ipv4/6 Adressen & Adressen - https://gameindustry.eu/firmenkatalog/epic-games-inc/
+# 3.224.106.254
+# 54.196.1.227
+# 3.81.244.9
+# 185.215.129.23
+# 185.215.128.23
+# 185.215.128.21
+# 34.238.231.187
+#0.0.0.0 tras.os.eidos.com
+#0.0.0.0 api.epicgames.dev
+#0.0.0.0 accounts.epicgames.com
+#0.0.0.0 static-assets-prod.unrealengine.com
+#0.0.0.0 tracking.epicgames.com # Siehe Epic Games Launcher
 
 # Square Enix & Forever Entertainment S.A.
 # Fear Effect Sedna
