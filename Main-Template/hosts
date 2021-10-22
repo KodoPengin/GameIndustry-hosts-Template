@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 19.10.2021
+# Änderungsdatum: 22.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -2980,6 +2980,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 elb-optchk-asg-euw1-1156411587.eu-west-1.elb.amazonaws.com
 0.0.0.0 elb01-2039628332.us-west-2.elb.amazonaws.com
 0.0.0.0 esev2.s3.amazonaws.com
+0.0.0.0 ets-prd2-uw1-coll-elb-2013165758.us-west-2.elb.amazonaws.com # Adobe
 0.0.0.0 firewall-external-2134955858.eu-west-1.elb.amazonaws.com
 0.0.0.0 gtrk.s3.amazonaws.com
 0.0.0.0 HDRedirect-LB5-1afb6e2973825a56.elb.us-east-1.amazonaws.com
@@ -3007,7 +3008,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 prod-elb-ats-413439319.eu-central-1.elb.amazonaws.com
 0.0.0.0 prod.log.shortbread.aws.dev
 0.0.0.0 prod.tools.shortbread.aws.dev
-0.0.0.0 qpsftq5jqg.execute-api.us-east-1.amazonaws.com # Southernliving.com Allrecipes.com
+0.0.0.0 qpsftq5jqg.execute-api.us-east-1.amazonaws.com # Southernliving.com, Allrecipes.com
 0.0.0.0 rechtstexte.s3.amazonaws.com
 0.0.0.0 redirect.prod.experiment.routing.cloudfront.aws.a2z.com # x.png
 0.0.0.0 revcontent-p0.s3.amazonaws.com
@@ -5519,6 +5520,20 @@ ff02::3 ip6-allhosts
 
 # Mpnrs.com
 0.0.0.0 www1.mpnrs.com
+
+# Mugrikees.com
+0.0.0.0 mugrikees.com
+0.0.0.0 a.mugrikees.com
+0.0.0.0 c.mugrikees.com
+0.0.0.0 h.mugrikees.com
+0.0.0.0 k.mugrikees.com
+0.0.0.0 l.mugrikees.com
+0.0.0.0 n.mugrikees.com
+0.0.0.0 o.mugrikees.com
+0.0.0.0 p.mugrikees.com
+0.0.0.0 t.mugrikees.com
+0.0.0.0 w.mugrikees.com
+0.0.0.0 z.mugrikees.com
 
 # Muxy.io | Analyse und Monetarisierung
 0.0.0.0 u.muxy.io
@@ -8251,6 +8266,7 @@ ff02::3 ip6-allhosts
 # 95.101.72.175
 # 88.221.223.35
 # 23.45.105.185
+# 92.123.13.139
 #0.0.0.0 ocsp.int-x3.letsencrypt.org
 #0.0.0.0 x1.c.lencr.org # OCSP
 #0.0.0.0 r3.o.lencr.org
@@ -10415,6 +10431,7 @@ ff02::3 ip6-allhosts
 # Updater
 # nelo2-log erfasst u.A. den eigenen Computernamen, Installations bzw Ordnerpfade inkl. Windows Accountnamen, Systemdaten, Zeitstempel
 # 203.104.153.91
+# 147.92.191.123
 #0.0.0.0 desktop.line-scdn.net
 0.0.0.0 nelo2-col.linecorp.com # Log
 0.0.0.0 sentry-uit.line-apps.com # CSP Report
@@ -11279,6 +11296,7 @@ ff02::3 ip6-allhosts
 # 172.217.10.46
 0.0.0.0 beacons.gcp.gvt2.com
 0.0.0.0 r1---sn-4g5edns7.gvt1.com
+0.0.0.0 r1---sn-uxaxufv-uaae.gvt1.com
 0.0.0.0 r2---sn-4g5e6nzz.gvt1.com
 0.0.0.0 r2---sn-4g5lzned.gvt1.com
 0.0.0.0 r2---sn-5go7yner.gvt1.com
@@ -12300,14 +12318,16 @@ ff02::3 ip6-allhosts
 #0.0.0.0 e11290.dspg.akamaiedge.net # go.microsoft.com
 # 20.67.183.221
 # 20.54.110.249
-# Frontdoor? Backdoor?
+# Frontdoor? Backdoor? Shopanwendungen bei Bedarf de/aktivieren
 0.0.0.0 neu.frontdoor.licensing.commerce.microsoft.com
-0.0.0.0 neu-displaycatalogrp.frontdoor.bigcatalog.commerce.microsoft.com
+#0.0.0.0 neu-displaycatalogrp.frontdoor.bigcatalog.commerce.microsoft.com
 
-# Windows 11 - wwahost.exe oder - Store und Anmeldung
+# Adressen für Shop und Anmeldung von Windowsdiensten nach Bedarf handhaben. Dazu zählen auch die XBox,- Windows 10 Einträge
+
+# Windows 10 und 11 Store - wwahost.exe oder - WebStore und Anmeldung für diverse Windowsapps und Spiele
 #0.0.0.0 logincdn.msauth.net
 #0.0.0.0 sparkcdneus2.azureedge.net
-0.0.0.0 0.0.0.0 canvas-cdn-prod.azureedge.net
+0.0.0.0 canvas-cdn-prod.azureedge.net
 #0.0.0.0 ocsp.digicert.com
 #0.0.0.0 storeedgefd.dsx.mp.microsoft.com
 #0.0.0.0 login.live.com
@@ -12316,6 +12336,19 @@ ff02::3 ip6-allhosts
 #0.0.0.0 logincdn.msauth.net
 #0.0.0.0 displaycatalog.mp.microsoft.com
 #0.0.0.0 store-images.s-microsoft.com
+
+# Windows 11 - XBox Zubehör / Accessories - Microsoft XboxIdentityProvider | xboxidp.exe
+# 2.18.232.129
+#0.0.0.0 notice.xbox.com
+0.0.0.0 e1822.dspb.akamaiedge.net # Notice Endpunkt
+
+# Windows 11 - Xbox Game Bar | gamebar.exe
+# 51.124.78.146
+#0.0.0.0 settingsfd-geo.trafficmanager.net
+
+# Microsoft Gaming App | xboxpcapp.exe
+# 20.54.110.249
+#0.0.0.0 neu-displaycatalogrp.frontdoor.bigcatalog.commerce.microsoft.com
 
 #
 # Soziale Netzwerke und Communitys
@@ -13835,15 +13868,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.lubjqiebnayctz.bid
 # BIZ
 0.0.0.0 0.load14.biz
+0.0.0.0 0.makeklick.biz
 0.0.0.0 1.load14.biz
+0.0.0.0 1.makeklick.biz
 0.0.0.0 2.load14.biz
+0.0.0.0 2.makeklick.biz
 0.0.0.0 3.load14.biz
+0.0.0.0 3.makeklick.biz
 0.0.0.0 4.load14.biz
+0.0.0.0 4.makeklick.biz
 0.0.0.0 5.load14.biz
+0.0.0.0 5.makeklick.biz
 0.0.0.0 6.load14.biz
+0.0.0.0 6.makeklick.biz
 0.0.0.0 7.load14.biz
+0.0.0.0 7.makeklick.biz
 0.0.0.0 8.load14.biz
+0.0.0.0 8.makeklick.biz
 0.0.0.0 9.load14.biz
+0.0.0.0 9.makeklick.biz
 0.0.0.0 adeardk.biz
 0.0.0.0 adultcomix.biz
 0.0.0.0 assistvantp.biz
@@ -13875,6 +13918,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 liktothvan.biz
 0.0.0.0 load14.biz
 0.0.0.0 load18.biz
+0.0.0.0 makeklick.biz
 0.0.0.0 manageatea.biz
 0.0.0.0 meetsourhig.biz
 0.0.0.0 metimemee.biz
@@ -13895,6 +13939,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 oteasigni.biz
 0.0.0.0 oulddev.biz
 0.0.0.0 ovgylabitru.biz
+0.0.0.0 powerain.biz
 0.0.0.0 push.soft-com.biz
 0.0.0.0 reedthatm.biz
 0.0.0.0 report2.biz
@@ -14507,6 +14552,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 askgivedeterminedad.live
 0.0.0.0 asp.fallthousandworld.live
 0.0.0.0 best1265.myprizebox7.live
+0.0.0.0 burnihhell.live
 0.0.0.0 carrychordshouldmade.live
 0.0.0.0 chat.writtenrollport.live
 0.0.0.0 fbi3262.live
@@ -14533,7 +14579,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 wrongwhencompletedivide.live
 0.0.0.0 you-have-won-a5rk.live
 # ME
+0.0.0.0 0.express-news.me
+0.0.0.0 1.express-news.me
+0.0.0.0 2.express-news.me
+0.0.0.0 3.express-news.me
+0.0.0.0 4.express-news.me
+0.0.0.0 5.express-news.me
 0.0.0.0 5baf1288cf.dl8.me
+0.0.0.0 6.express-news.me
+0.0.0.0 7.express-news.me
+0.0.0.0 8.express-news.me
+0.0.0.0 9.express-news.me
 0.0.0.0 cimg.blacklist.me
 0.0.0.0 csync.loopme.me
 0.0.0.0 databasegdriveplayer.me
@@ -14667,6 +14723,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 clknrtrg.pro
 0.0.0.0 coallminhee.pro
 0.0.0.0 coltagainst.pro
+0.0.0.0 d.atmnjcinews.pro
 0.0.0.0 d.jumpnews.pro
 0.0.0.0 d.rejcinews.pro
 0.0.0.0 daunteegyptian.pro
@@ -14791,6 +14848,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 armaflextorby.site
 0.0.0.0 blender3d.site
 0.0.0.0 btrack.site
+0.0.0.0 chpok.site
 0.0.0.0 concentleconse.site
 0.0.0.0 courselfnorter.site
 0.0.0.0 cryptobrowser.site
@@ -14844,6 +14902,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 suchenachmuschi.space
 0.0.0.0 wedliminat.space
 0.0.0.0 zbf.marazzigcmod5.space
+# SU
+0.0.0.0 angprobinsyano.su
 # TECH
 0.0.0.0 a.volvelle.tech
 0.0.0.0 cdn.3647.tech
@@ -14875,6 +14935,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gc-prtnrs.top
 0.0.0.0 ggc-partners.top
 0.0.0.0 goutee.top
+0.0.0.0 hiiqhy.bothtypestood.top
 0.0.0.0 i.montlusa.top
 0.0.0.0 moraiw07.top
 0.0.0.0 morepq02.top
@@ -15582,6 +15643,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a5apzj82.emltrk.com
 0.0.0.0 a8672336.mnoova.com
 0.0.0.0 a97adde81b00f2ca4.awsglobalaccelerator.com
+0.0.0.0 a97adde81b00f2ca4.awsglobalaccelerator.com
 0.0.0.0 aaa.artefact.com
 0.0.0.0 aanqylta.com
 0.0.0.0 ab23e84117d41e7.com
@@ -15861,6 +15923,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 appgallery.cloud
 0.0.0.0 apphero.co # IPerfassung/Callback
 0.0.0.0 apps.meg.com
+0.0.0.0 apricotstonephilly.com
 0.0.0.0 aps.hearstnp.com
 0.0.0.0 arc.nexx.cloud
 0.0.0.0 ars.homeaway.com
@@ -15938,6 +16001,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 basher.ezodn.com
 0.0.0.0 bb.hdpornpictures.net
 0.0.0.0 bbballs.men
+0.0.0.0 bcdn.clickaine.com
 0.0.0.0 bcdn.grmtas.com
 0.0.0.0 bd202457b.com
 0.0.0.0 be7f5dd1-ef00-4a87-857e-0a03b46c2965.static.pub.wix-code.com
@@ -16184,6 +16248,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cds.v2v8s6m2.hwcdn.net
 0.0.0.0 celeritascdn.com
 0.0.0.0 census.eu-west-1.nielsencollections.com
+0.0.0.0 cephalanthuseoccidu4entalis.com
 0.0.0.0 certainalmostcontent.com
 0.0.0.0 certakes.com
 0.0.0.0 cf.cdn.inmobi.com
@@ -16203,6 +16268,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ci-mpsnare.iovation.com
 0.0.0.0 cl-off.com
 0.0.0.0 claim-your-prise6.life
+0.0.0.0 claspedtwelve.com
 0.0.0.0 cldloadz.com
 0.0.0.0 clearonclick.com
 0.0.0.0 clerrrep.com
@@ -16452,6 +16518,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 doublepimpads.com
 0.0.0.0 dovewallet.com
 0.0.0.0 download.gamesrv1.com
+0.0.0.0 dozubatan.com
 0.0.0.0 dpvgmbh.germany-2.evergage.com
 0.0.0.0 dqealri.thefaceduck.com
 0.0.0.0 draft.blogger.com
@@ -16484,6 +16551,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 e3ee8ypmji1ue508-quqyxlw4t.hop.clickbank.net
 0.0.0.0 e7393e33565ce805.com
 0.0.0.0 earandmarketing.com
+0.0.0.0 earlapspur.com
 0.0.0.0 easy-bars.com
 0.0.0.0 easy2cnjuh34jb.com
 0.0.0.0 easycouponsaccess.com
@@ -16643,6 +16711,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 0.0.0.0 ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net
 0.0.0.0 fgddl9szdof7.com
+0.0.0.0 fieldofbachus.com
 0.0.0.0 fileextr.actor
 0.0.0.0 files.a10networks.com
 0.0.0.0 files.jubnaadserve.com
@@ -16813,6 +16882,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hentaiheroes.com
 0.0.0.0 hentaiplaytime.com
 0.0.0.0 herebyquasipolite.com
+0.0.0.0 hetaint.com
 0.0.0.0 hetapus.com
 0.0.0.0 hexagon-analytics.com
 0.0.0.0 hfllrf6lwh.com
@@ -16863,6 +16933,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ie8eamus.com
 0.0.0.0 ifrm.camdough.com
 0.0.0.0 ii.alatest.com
+0.0.0.0 ilo134ulih.com
 0.0.0.0 ilovemakingpics.com
 0.0.0.0 ilusors.com
 0.0.0.0 ilxhsgd.com
@@ -17165,6 +17236,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 meraxes-cdn.polarmobile.com
 0.0.0.0 merkleinc.com
 0.0.0.0 messengerview.1talking.net
+0.0.0.0 messengerview.1talking.net
 0.0.0.0 metreelusive.com
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 metrics.ionos.de
@@ -17211,7 +17283,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 msidentity.com
 0.0.0.0 mtm.httptest.de # Matomo
 0.0.0.0 mugleafly.com
-0.0.0.0 mugrikees.com
 0.0.0.0 mwge.mydirtyhobby.com
 0.0.0.0 mx130-csgo.muitadica.com
 0.0.0.0 mxl.connexity.net
@@ -17286,6 +17357,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 offers.hopa.com
 0.0.0.0 offoonguser.com
 0.0.0.0 ofgogoatan.com
+0.0.0.0 ohchateauominous.com
 0.0.0.0 ojvcm.misrepress.website
 0.0.0.0 olderlying.website
 0.0.0.0 olybethelp.zendesk.com
@@ -17608,6 +17680,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rltools.de
 0.0.0.0 rm-cdn.trackjs.netdna-cdn.com
 0.0.0.0 rmsi-vermarktung.de
+0.0.0.0 rndskittytor.com
 0.0.0.0 robovoiz.com
 0.0.0.0 rollercoin.com
 0.0.0.0 romeoforum.com
@@ -17932,6 +18005,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 t23.intelliad.de
 0.0.0.0 t706.neory-tm.net
 0.0.0.0 tacchisexy.com
+0.0.0.0 taetsiatomia.com
 0.0.0.0 tag.adaraanalytics.com
 0.0.0.0 tag.adincube.com
 0.0.0.0 tag.apxlv.com
@@ -18004,6 +18078,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 thesourceplus.sonymobile.com
 0.0.0.0 thingsfinance.com
 0.0.0.0 thisiswaldo.com
+0.0.0.0 thorsado.net
+0.0.0.0 thorsado.net
 0.0.0.0 threedrive.su
 0.0.0.0 thrillingholesantarctic.com
 0.0.0.0 thunderdom-v1.sftapi.com # GHacks Prebid und Werbung
@@ -18037,6 +18113,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tpid_liveintent.com
 0.0.0.0 tr.blismedia.com
 0.0.0.0 tr.clipcentric.com
+0.0.0.0 tr.gearbest.com
 0.0.0.0 tr.lottoland.com
 0.0.0.0 tr.snapchat.com
 0.0.0.0 tr.technical-service.net
@@ -18091,6 +18168,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tracking.musixmatch.com
 0.0.0.0 tracking.newsmaxfeednetwork.com
 0.0.0.0 tracking.pinflix.com
+0.0.0.0 tracking.prmtracks.com
 0.0.0.0 tracking.reviewmaster.com
 0.0.0.0 tracking.sexcash.com
 0.0.0.0 tracking.tomsguide.com
@@ -18712,6 +18790,11 @@ ff02::3 ip6-allhosts
 # Lagoon Internet Passionnément
 # 202.22.158.30
 #0.0.0.0 ntp01.lagoon.nc
+
+# Microsoft Corporation
+# 20.101.57.9
+#0.0.0.0 time.windows.com
+#0.0.0.0 time.microsoft.akadns.net
 
 # Network Services Group
 # 64.113.44.54
