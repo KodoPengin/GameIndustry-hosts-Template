@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 19.10.2021
+# Änderungsdatum: 06.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -524,7 +524,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 tracking.epicgames.com # Javascript, Pageview, Trackingpixel - aktiviert sich auf ziemlich jeder Seite mit aktuellen Daten und Aufnahme von Einzelschritten
 #0.0.0.0 www.epicgames.com # Geodatenerfassung und Funnel-Analytics - zudem liegt dort die eigene Accountseite
 #0.0.0.0 media-cdn.epicgames.com # WEBM Videos auf Produktseiten - EPICEVENTTRACKING
-#0.0.0.0 accounts.launcher-website-prod07.ol.epicgames.com # Funnelanalytics - Unterseite für Freundeverbindungen, Anfragen, Vorschläge
+0.0.0.0 accounts.launcher-website-prod07.ol.epicgames.com # Funnelanalytics - Unterseite für Freundeverbindungen, Anfragen, Vorschläge
 0.0.0.0 tracking-website-prod07-epic-96184209.us-east-1.elb.amazonaws.com
 0.0.0.0 tracking-website-prod07-epic-961842049.us-east-1.elb.amazonaws.com
 0.0.0.0 eulatracking-svc-prod06-pub-1257580502.us-east-1.elb.amazonaws.com
@@ -2957,8 +2957,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com
 0.0.0.0 vss-ns-us.eastus.cloudapp.azure.com
-#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com # 54.213.68.146, 34.216.190.239, 52.43.12.129
+# Mehrspielerserver & Telemetrie
+# Ip/s blockieren:
+# 54.213.68.146
+# 34.216.190.239
+# 52.43.12.129
 #0.0.0.0 bc60.playfabapi.com # Analytics mit Onlinezwang - Zum Spielen benötigt
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
 # Assemble Entertainment
 # Leisure Suit Larry - Wet Dreams Don't Dry
@@ -7240,7 +7245,7 @@ ff02::3 ip6-allhosts
 # 44.239.129.245
 # 54.190.230.201
 0.0.0.0 38134.playfabapi.com
-0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
 # Necromunda: Underhive Wars
 # Zwangsanbindung an Onlineserver auch für Einzelspieler, bei Bedarf de/aktivieren
@@ -13239,8 +13244,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ap1-prod-mm.unet.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com # 34.216.190.239
-0.0.0.0 f3b6.playfabapi.com # Wird für Onlinespiel mitsamt Masterservern für z.b. Tägliches Spiel oder KOOP benötigt
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com # 34.216.190.239
+#0.0.0.0 f3b6.playfabapi.com # Wird für Onlinespiel mitsamt Masterservern für z.b. Tägliches Spiel oder KOOP benötigt
 
 # Rival Games Ltd
 # Thief of Thieves
@@ -13564,7 +13569,7 @@ ff02::3 ip6-allhosts
 # 52.42.24.207
 # 52.41.85.68
 #0.0.0.0 4664.playfabapi.com
-0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
 # SCS Software
 # American Truck Simulator
@@ -17875,10 +17880,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 gssv-auth-prod.xboxlive.com
 0.0.0.0 gssv.xboxlive.com
 # Weitere Funktionen
-0.0.0.0 userpresence.xboxlive.com # Heartbeat / Online Status
+#0.0.0.0 userpresence.xboxlive.com # Heartbeat / Online Status
 #0.0.0.0 profile.xboxlive.com
 #0.0.0.0 images-eds.xboxlive.com # Profilbild XBox
-0.0.0.0 privacy.xboxlive.com # "Gemutete" Spieler
+#0.0.0.0 privacy.xboxlive.com # "Gemutete" Spieler
 #0.0.0.0 sessiondirectory.xboxlive.com
 #0.0.0.0 achievements.xboxlive.com
 #0.0.0.0 gameserverds.xboxlive.com
@@ -17963,7 +17968,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 xsts.auth.xboxlive.com.akadns.net
 #0.0.0.0 account.live.com
 # Weitere Funktionen
-0.0.0.0 userpresence.xboxlive.com # Heartbeat / Online Status
+#0.0.0.0 userpresence.xboxlive.com # Heartbeat / Online Status
 #0.0.0.0 profile.xboxlive.com # Spielername, ID, HostID, Avatarbild, Spielerpunkte, Gesponsorter Nutzer ja/nein
 #0.0.0.0 sessiondirectory.xboxlive.com # Correlation ID
 #0.0.0.0 achievements.xboxlive.com # Erfolge
@@ -18082,11 +18087,14 @@ ff02::3 ip6-allhosts
 #0.0.0.0 account.live.com
 #0.0.0.0 signinupcdn.blob.core.windows.net
 # Telemetrie, Profiling und Datenupload
-0.0.0.0 titlestorage.xboxlive.com
+0.0.0.0 titlestorage.xboxlive.com # Auch für Xbox Zubehör Gamepadsynchronisation
 0.0.0.0 vortex.data.microsoft.com
 0.0.0.0 web.vortex.data.microsoft.com
+0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 telemetry.undeadlabs.live
-0.0.0.0 userpresence.xboxlive.com # Heartbeat / Online Status
+0.0.0.0 hosts.telemetrysrv20200108094102.azurewebsites.net
+0.0.0.0 asimov.vortex.data.trafficmanager.net
+#0.0.0.0 userpresence.xboxlive.com # Heartbeat / Online Status
 # Microsoft Netzwerk
 #0.0.0.0 title.mgt.xboxlive.com # Wird für den Mehrspielermodus benötigt
 # Bilder, Formatierung, CSS, Javascripts
@@ -18096,6 +18104,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 achievements.xboxlive.com # Erfolge
 #0.0.0.0 profile.xboxlive.com # Selbsterklärend
 0.0.0.0 notify.xboxlive.com
+#0.0.0.0 chat.xboxlive.com
 # Diverses
 #0.0.0.0 rta.xboxlive.com
 0.0.0.0 www.bing.com # SERP
@@ -18111,18 +18120,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 vortex.data.microsoft.com # Telemetrie
 0.0.0.0 telemetry.undeadlabs.live # Telemetrie
 # Server
-#0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net
-#0.0.0.0 pfmsqosprod.eastus.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.eastus2.cloudapp.azure.com
-#0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net
-#0.0.0.0 pfmsqosprod.northeurope.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.westeurope.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.southeastasia.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.eastasia.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.japanwest.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.japaneast.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.australiasoutheast.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com
+#0.0.0.0 pfmsqos.australiasoutheast.cloudapp.azure.com
+#0.0.0.0 pfmsqos.brazilsouth.cloudapp.azure.com
+#0.0.0.0 pfmsqos.centralus.cloudapp.azure.com
+#0.0.0.0 pfmsqos.eastasia.cloudapp.azure.com
+#0.0.0.0 pfmsqos.eastus.cloudapp.azure.com
+#0.0.0.0 pfmsqos.eastus2.cloudapp.azure.com
+#0.0.0.0 pfmsqos.japaneast.cloudapp.azure.com
+#0.0.0.0 pfmsqos.japanwest.cloudapp.azure.com
+#0.0.0.0 pfmsqos.northcentralus.cloudapp.azure.com
+#0.0.0.0 pfmsqos.northeurope.cloudapp.azure.com
+#0.0.0.0 pfmsqos.southcentralus.cloudapp.azure.com
+#0.0.0.0 pfmsqos.southeastasia.cloudapp.azure.com
+#0.0.0.0 pfmsqos.westeurope.cloudapp.azure.com
+#0.0.0.0 pfmsqos.westus.cloudapp.azure.com
 
 # Sunset Overdrive
 0.0.0.0 558C.playfabapi.com # Playfabtracking und Bestenlisten
