@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 06.11.2021
+# Änderungsdatum: 07.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -2264,6 +2264,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 
 # One Way Heroics
+# http://silsec.sakura.ne.jp/Game/Steam_OneWayHeroics_EN/Campaign2.txt
+# 112.78.125.152
 #0.0.0.0 silsec.sakura.ne.jp
 
 # AGM Playism & Vaka Game Magazine
@@ -3661,6 +3663,22 @@ ff02::3 ip6-allhosts
 #0.0.0.0 eternalcrusade.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 api-5-10-10.live.virginia.wh40k.bhvronline.com
+
+# BD Games
+# 强袭人形：原体 | Strike Buster Prototype
+# Ip/s blockieren:
+# 35.186.194.186
+# 35.241.26.53
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Beijing New Era Network Technology Co., Ltd.
 # 红石遗迹 - Red Obsidian Remnant
@@ -13492,7 +13510,10 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 blayfap.sadpandastudios.com
+# 216.58.208.206
+# 104.26.6.106
+# 172.217.16.142
+#0.0.0.0 blayfap.sadpandastudios.com # Onlinefunktionen
 0.0.0.0 www.google-analytics.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -14331,11 +14352,22 @@ ff02::3 ip6-allhosts
 
 # Slitherine Ltd.
 # Empires Apart
-#0.0.0.0 www.matrixgames.com # Werbung/CSS Formatierung des Launchers
-0.0.0.0 www.google-analytics.com # Tracker1
-0.0.0.0 datarouter.ol.epicgames.com # Tracker2
-0.0.0.0 datarouter-weighted.ol.epicgames.com
-#0.0.0.0 empiresapart.net # Ingamenews/Grafiken/CSS Formatierung
+# s. Eintrag Steam: IP Checks
+#0.0.0.0 www.matrixgames.com
+0.0.0.0 www.google-analytics.com # UA-44212718-3
+#0.0.0.0 empiresapart.net
+0.0.0.0 rubick.gameanalytics.com
+0.0.0.0 api.gameanalytics.com
+#0.0.0.0 cm2-par1.cm.steampowered.com
+#0.0.0.0 cm1-sto2.cm.steampowered.com
+#0.0.0.0 cm2-fra1.cm.steampowered.com
+#0.0.0.0 cm1-par1.cm.steampowered.com
+0.0.0.0 impero.destinybit.net
+#0.0.0.0 pki-goog.l.google.com
+#0.0.0.0 ocsp.godaddy.com.akadns.net
+0.0.0.0 ec2-52-204-81-134.compute-1.amazonaws.com
+0.0.0.0 ec2-52-51-32-170.eu-west-1.compute.amazonaws.com
+0.0.0.0 www-google-analytics.l.google.com
 
 # Warhammer 40,000: Armageddon
 # Nutzerdaten für Registrierung/Anmeldung werden im Klartext verarbeitet, diverse Tracker
