@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 07.11.2021
+# Änderungsdatum: 08.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -2122,6 +2122,7 @@ ff02::3 ip6-allhosts
 # 2mdn.net
 0.0.0.0 2mdn.net
 0.0.0.0 gcdn.2mdn.net
+0.0.0.0 r1---sn-5hnekn7l.c.2mdn.net
 0.0.0.0 r1---sn-ab5szn7r.c.2mdn.net
 0.0.0.0 r2---sn-ab5l6ndr.c.2mdn.net
 0.0.0.0 r2---sn-ab5sznl7.c.2mdn.net
@@ -2134,6 +2135,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r5---sn-a5meknzs.c.2mdn.net
 0.0.0.0 r5---sn-ab5l6nsy.c.2mdn.net
 0.0.0.0 r5---sn-ab5sznl7.c.2mdn.net
+0.0.0.0 r6---sn-5hne6n7s.c.2mdn.net
 0.0.0.0 r6---sn-ab5szn7y.c.2mdn.net
 0.0.0.0 r6---sn-ab5sznl7.c.2mdn.net
 0.0.0.0 s0.2mdn.net
@@ -2202,11 +2204,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad4mat.de
 0.0.0.0 www.ad4mat.de
 0.0.0.0 ad4mat.net
+0.0.0.0 prod-rtb.ad4mat.net
 0.0.0.0 www.ad4mat.net
 
 # ad4m.at
 # 35.190.94.1
 0.0.0.0 ad4m.at
+0.0.0.0 as.ad4m.at
 0.0.0.0 assets.ad4m.at
 
 # AD-srv.net
@@ -2214,6 +2218,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad18.ad-srv.net
 0.0.0.0 ad20.ad-srv.net
 0.0.0.0 ad21.ad-srv.net
+0.0.0.0 ad3.ad-srv.net
 0.0.0.0 tm.ad-srv.net
 
 # Ad-Stir
@@ -3828,6 +3833,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 report-uri.cloudflare.com
 0.0.0.0 static.cloudflareinsights.com
 0.0.0.0 static4.viralize.tv.cdn.cloudflare.net
+0.0.0.0 tls12.newrelic.com.cdn.cloudflare.net
 
 # Cloudfunctions | Geodaten/Gerätedaten
 0.0.0.0 europe-west1-bq-mak-yourhome.cloudfunctions.net
@@ -3952,6 +3958,7 @@ ff02::3 ip6-allhosts
 
 # Criteo
 0.0.0.0 3pd.criteo.com
+0.0.0.0 ads.eu.criteo.com
 0.0.0.0 ag.gbc.criteo.com
 0.0.0.0 bidder.am5.vip.prod.criteo.com
 0.0.0.0 bidder.criteo.com
@@ -3980,6 +3987,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gum.criteo.com
 0.0.0.0 gum.par.vip.prod.criteo.com
 0.0.0.0 rtax.criteo.com
+0.0.0.0 rtb.fr.eu.criteo.com
+0.0.0.0 rtb.nl.eu.criteo.com
 0.0.0.0 sslwidget.criteo.com
 0.0.0.0 static.am5.vip.prod.criteo.net
 0.0.0.0 static.criteo.net
@@ -5348,6 +5357,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 prebid.media.net
 0.0.0.0 qsearch.media.net
 0.0.0.0 static-eb.media.net
+0.0.0.0 warp.media.net
 
 # Media6degrees.com
 0.0.0.0 idpix.media6degrees.com
@@ -6264,6 +6274,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mcdp-chidc2.outbrain.com
 0.0.0.0 mcdp-sadc1.outbrain.com
 0.0.0.0 mv.outbrain.com
+0.0.0.0 ny.outbrain.com
 0.0.0.0 nydc1.outbrain.org
 0.0.0.0 odb.outbrain.com
 0.0.0.0 outbrain.map.fastly.net
@@ -8021,8 +8032,10 @@ ff02::3 ip6-allhosts
 
 # Zemanta
 0.0.0.0 b1-chidc2.zemanta.com
+0.0.0.0 b1-eudc1.zemanta.com
 0.0.0.0 b1sync.zemanta.com
 0.0.0.0 b1t-chidc2.zemanta.com
+0.0.0.0 b1t-eudc1.zemanta.com
 
 # Zeotap.com
 0.0.0.0 content.zeotap.com
@@ -12378,12 +12391,13 @@ ff02::3 ip6-allhosts
 #0.0.0.0 api.cdp.dsp.mp.microsoft.com.nsatc.net # Microsoft Edge Update
 
 # Microsoft.Windows.StartMenuExperienceHost | startmenuexperiencehost.exe
+# C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
 # Ip/s blockieren:
 # 52.109.28.62
 # 52.109.88.111
 # 52.109.76.41
 # 52.109.68.45
-0.0.0.0 ocws.officeapps.live.com # Callback mit Zeitstempel, Diagnostics & CorrelationID
+0.0.0.0 ocws.officeapps.live.com # Regelmäßige Callbacks mit Zeitstempel, Diagnostics & CorrelationID
 0.0.0.0 europe.ocws1.live.com.akadns.net
 # 93.184.220.29
 #0.0.0.0 cs9.wac.phicdn.net
@@ -15826,7 +15840,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 7e1d5.v.fwmrm.net
 0.0.0.0 813-mam-392.mktoresp.com
 0.0.0.0 820.joomsearch.com
-0.0.0.0 820.joomsearch.com
 0.0.0.0 82o9v830.com
 0.0.0.0 869d4225.de.ioam.de
 0.0.0.0 8ctihr3.thefaceduck.com
@@ -15858,7 +15871,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 a2g-secure.com
 0.0.0.0 a5apzj82.emltrk.com
 0.0.0.0 a8672336.mnoova.com
-0.0.0.0 a97adde81b00f2ca4.awsglobalaccelerator.com
 0.0.0.0 a97adde81b00f2ca4.awsglobalaccelerator.com
 0.0.0.0 aaa.artefact.com
 0.0.0.0 aanqylta.com
@@ -16203,13 +16215,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 b.dombnrs.com
 0.0.0.0 b.ns1p.net
 0.0.0.0 b.tubecorp.com
+0.0.0.0 b.wmp.media
 0.0.0.0 b1.hentaibaka.one
 0.0.0.0 b13481647cf775c5.com
 0.0.0.0 b2cdn.automatad.com
 0.0.0.0 b3z29k1uxb.com
 0.0.0.0 babadnmak.com
-0.0.0.0 babblecase.com
-0.0.0.0 babblecase.com
 0.0.0.0 babblecase.com
 0.0.0.0 backend.upapi.net
 0.0.0.0 backoffice.transmatico.com
@@ -16220,6 +16231,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bal.ad.dotandad.com
 0.0.0.0 baletingo.com
 0.0.0.0 bank.reklamstore.com
+0.0.0.0 banner.congstar.de
 0.0.0.0 banners.askmecca.com
 0.0.0.0 basher.ezodn.com
 0.0.0.0 bb.hdpornpictures.net
@@ -16455,6 +16467,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.undertone.com
 0.0.0.0 cdn.userreport.com
 0.0.0.0 cdn.vlyby.com
+0.0.0.0 cdn.wasd.media
 0.0.0.0 cdn.wasp-182b.com
 0.0.0.0 cdn.webclicks24.com
 0.0.0.0 cdn.www.cccpmo.com
@@ -16498,7 +16511,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 claspedtwelve.com
 0.0.0.0 cldloadz.com
 0.0.0.0 clearonclick.com
-0.0.0.0 clerrrep.com
 0.0.0.0 clerrrep.com
 0.0.0.0 click.cptrack.de
 0.0.0.0 click.expmediadirect1.com
@@ -16752,7 +16764,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 drctslk.com
 0.0.0.0 drkapoorclinic.com
 0.0.0.0 droppedrolling.com
-0.0.0.0 dsfgp.admenhost.com
 0.0.0.0 dsfgp.admenhost.com
 0.0.0.0 dsp.active-agent.com
 0.0.0.0 dsp.adkernel.com
@@ -17022,7 +17033,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 glerteeb.com
 0.0.0.0 glimpsemankind.com
 0.0.0.0 glixaing.com
-0.0.0.0 glixaing.com
 0.0.0.0 global.ib-ibi.com
 0.0.0.0 global.localizecdn.com
 0.0.0.0 gloimg.gbtcdn.com
@@ -17063,7 +17073,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 grandpadreary.com
 0.0.0.0 gredgar-prevalid.com
 0.0.0.0 greenmentioned.com
-0.0.0.0 grooksom.com
 0.0.0.0 grooksom.com
 0.0.0.0 groomaffections.com
 0.0.0.0 gs-goldbach.da-services.ch
@@ -17133,6 +17142,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 houchosi.net
 0.0.0.0 hrahdmon.com
 0.0.0.0 ht.redtube.com
+0.0.0.0 htlp.emp.de
 0.0.0.0 https-api.apigurus.com
 0.0.0.0 hugexdeal.com
 0.0.0.0 hurirk.net
@@ -17192,7 +17202,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 inboldoreer.com
 0.0.0.0 includeinthebox.com
 0.0.0.0 infofbi-unit.com
-0.0.0.0 infopicked.com
 0.0.0.0 infopicked.com
 0.0.0.0 ingest.templarbit.com # Check ob Werbung blockiert ist / CSP Report
 0.0.0.0 ingestion.contentinsights.com
@@ -17441,6 +17450,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mdsol.com
 0.0.0.0 me-ssl.effectivemeasure.net
 0.0.0.0 measure.analysis.fi
+0.0.0.0 media.acfrg.com
 0.0.0.0 media.admob.com
 0.0.0.0 media.camsoda.com
 0.0.0.0 media.livepromotools.com
@@ -17481,6 +17491,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 milestonequakingashes.com
 0.0.0.0 mission.d2rr.trade
 0.0.0.0 mistletoecaliberdecency.com
+0.0.0.0 mitself.net
 0.0.0.0 mixedbloodynicholas.com
 0.0.0.0 mixpo.com
 0.0.0.0 mls.gomasterkey.com
@@ -17594,7 +17605,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 olderlying.website
 0.0.0.0 olybethelp.zendesk.com
 0.0.0.0 olytics.omeda.com
-0.0.0.0 om.forgeofempires.com
 0.0.0.0 om.forgeofempires.com
 0.0.0.0 omappapi.awesomemotive.netdna-cdn.com
 0.0.0.0 omnisnippet1.com
@@ -17768,6 +17778,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pqqep.hornymilfalone.com
 0.0.0.0 pr.realvu.net
 0.0.0.0 prd-collector-anon.playbuzz.com
+0.0.0.0 prebid.a#0.0.0.0 ads.a-static.com # Adblock Detektor bei pasteit.top
 0.0.0.0 prebid.a-mo.net
 0.0.0.0 prebid.appnexusgslb.net
 0.0.0.0 prebid.digitru.st
@@ -17848,7 +17859,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 qsearch-a.akamaihd.net
 0.0.0.0 qstore.id
 0.0.0.0 qualigo.com
-0.0.0.0 quanta-wave.com
 0.0.0.0 quanta-wave.com
 0.0.0.0 quantum-advertising.com
 0.0.0.0 quick-speedtest.com
@@ -17972,7 +17982,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 s1.reutersmedia.net
 0.0.0.0 s2.static.cfgr3.com
 0.0.0.0 s24.media
-0.0.0.0 s3t3d2y7.ackcdn.net
 0.0.0.0 s3t3d2y7.ackcdn.net
 0.0.0.0 s3widgets.skyprivate.com
 0.0.0.0 s4.wintub.com
@@ -18316,7 +18325,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 thingsfinance.com
 0.0.0.0 thisiswaldo.com
 0.0.0.0 thorsado.net
-0.0.0.0 thorsado.net
 0.0.0.0 threedrive.su
 0.0.0.0 thrillingholesantarctic.com
 0.0.0.0 thunderdom-v1.sftapi.com # GHacks Prebid und Werbung
@@ -18339,7 +18347,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 topgreatxoffers.com
 0.0.0.0 tornado-networks.com
 0.0.0.0 tortoise.proboards.com
-0.0.0.0 torturegratified.com
 0.0.0.0 torturegratified.com
 0.0.0.0 totentacruelor.com
 0.0.0.0 tour.eplay.com
@@ -18461,7 +18468,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 u9oxdnxk8b.com
 0.0.0.0 ub.finanzfrage.net # Tracker
 0.0.0.0 udarem.com
-0.0.0.0 udarem.com
 0.0.0.0 udc-neb.kampyle.com
 0.0.0.0 ueuodgnrhb.com
 0.0.0.0 ufpcdn.com
@@ -18572,6 +18578,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wallpapersfacts.com
 0.0.0.0 wargaming-affiliate.affise.com
 0.0.0.0 wargaming-affiliate.g2afse.com
+0.0.0.0 wasd.1agency.de
 0.0.0.0 washedinmate.com
 0.0.0.0 watch-video.net
 0.0.0.0 watchcensorbully.com
@@ -18653,7 +18660,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 wwv.scour.com
 0.0.0.0 www-payoneer-com.payoneerx.prod2.reblaze.com
 0.0.0.0 www-thalia-de.ax4z.com # www.thalia.de
-0.0.0.0 www-videeza-com.filesusr.com
 0.0.0.0 www-videeza-com.filesusr.com
 0.0.0.0 www.03347b0e2c1321feb76e79ad81003e51.icu
 0.0.0.0 www.11teamsports.com
@@ -18870,7 +18876,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.technical-service.net
 0.0.0.0 www.teens.net
 0.0.0.0 www.telefonica-partner.de
-0.0.0.0 www.telefonica-partner.de
 0.0.0.0 www.tempestpremium.com
 0.0.0.0 www.thepornstudy.com
 0.0.0.0 www.tickcounter.com
@@ -18912,6 +18917,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.xordem.com.br
 0.0.0.0 www.yukongoldinfo.com
 0.0.0.0 www.yuyucollection.com.sg
+0.0.0.0 www.zenaps.com
 0.0.0.0 www.zergnet.com
 0.0.0.0 www1.belboon.de # Adtracking verweist auf akipam.com
 0.0.0.0 www1.watchmygirlfriend.to
@@ -24317,15 +24323,24 @@ ff02::3 ip6-allhosts
 
 # Cold Beam Games
 # Beat Hazard
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-#0.0.0.0 ocsp.msocsp.com
-0.0.0.0 ws.audioscrobbler.com
+# Onlineradio und Zwangsanbindung der Steamcloud. Suche Beat Hazard unter https://gameindustry.eu/search/
+# 23.213.161.76
+# 137.74.160.159
+# 178.33.221.216
+# 138.201.248.93
+# 84.16.236.5
+# 178.162.200.24
+# 198.178.123.17
+# 130.211.19.189
+# 34.245.243.60
+#0.0.0.0 icecastlb.pulsradio.com
+#0.0.0.0 ws.audioscrobbler.com
+#0.0.0.0 str3.openstream.co
+#0.0.0.0 rautemusik-de-hz-fal-stream11.radiohost.de
+#0.0.0.0 listener2.mp3.tb-group.fm
+#0.0.0.0 web-pub.tb-group.fm
+#0.0.0.0 s6.voscast.com
+#0.0.0.0 steamusercontent-a.akamaihd.net
 
 # Computer Lunch
 # Cell to Singularity - Evolution Never Ends
