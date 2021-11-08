@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 07.11.2021
+# Änderungsdatum: 08.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -5097,15 +5097,24 @@ ff02::3 ip6-allhosts
 
 # Cold Beam Games
 # Beat Hazard
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-#0.0.0.0 ocsp.msocsp.com
-0.0.0.0 ws.audioscrobbler.com
+# Onlineradio und Zwangsanbindung der Steamcloud. Suche Beat Hazard unter https://gameindustry.eu/search/
+# 23.213.161.76
+# 137.74.160.159
+# 178.33.221.216
+# 138.201.248.93
+# 84.16.236.5
+# 178.162.200.24
+# 198.178.123.17
+# 130.211.19.189
+# 34.245.243.60
+#0.0.0.0 icecastlb.pulsradio.com
+#0.0.0.0 ws.audioscrobbler.com
+#0.0.0.0 str3.openstream.co
+#0.0.0.0 rautemusik-de-hz-fal-stream11.radiohost.de
+#0.0.0.0 listener2.mp3.tb-group.fm
+#0.0.0.0 web-pub.tb-group.fm
+#0.0.0.0 s6.voscast.com
+#0.0.0.0 steamusercontent-a.akamaihd.net
 
 # Computer Lunch
 # Cell to Singularity - Evolution Never Ends
