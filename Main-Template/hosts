@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 08.11.2021
+# Änderungsdatum: 09.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1906,7 +1906,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s7.addthis.com # addthis_widget.js
 0.0.0.0 m.addthis.com
 0.0.0.0 api-public.addthis.com # Callback
-0.0.0.0 unpkg.com # JQUery
+#0.0.0.0 unpkg.com # JQuery
 0.0.0.0 z.moatads.com # Moatframe.js
 0.0.0.0 v1.addthisedge.com # _ate.track.config_resp
 0.0.0.0 www.googletagmanager.com # UA-45208435-36
