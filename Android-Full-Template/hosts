@@ -351,7 +351,7 @@
 
 # Google LLC
 0.0.0.0 datamixer-pa.googleapis.com
-#0.0.0.0 instantmessaging-pa.googleapis.com
+0.0.0.0 instantmessaging-pa.googleapis.com
 0.0.0.0 mobilemaps-pa.googleapis.com
 0.0.0.0 cloudconfig.googleapis.com
 0.0.0.0 phonedeviceverification-pa.googleapis.com
