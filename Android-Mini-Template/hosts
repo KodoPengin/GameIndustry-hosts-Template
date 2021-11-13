@@ -379,7 +379,7 @@
 0.0.0.0 alt8-mtalk.google.com
 0.0.0.0 alt8.mobile-gtalk.l.google.com
 # Playstore
-0.0.0.0 android.clients.google.com # Bestandteil von Ingamekäufen/Bezahlhistorie
+#0.0.0.0 android.clients.google.com # Bestandteil von Ingamekäufen/Bezahlhistorie
 #0.0.0.0 play.googleapis.com
 #0.0.0.0 play-fe.googleapis.com
 #0.0.0.0 playatoms-pa.googleapis.com
