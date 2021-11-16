@@ -13633,8 +13633,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 csync.flickr.com
 
 # Instagram | Facebook, Inc.
-0.0.0.0 1—www.instagram.com
-0.0.0.0 2www.instagram.com
 0.0.0.0 about.instagram.com
 0.0.0.0 ak.instagram.com
 0.0.0.0 api.instagram.com
