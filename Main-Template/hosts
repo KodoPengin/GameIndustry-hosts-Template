@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 12.11.2021
+# Änderungsdatum: 16.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1558,9 +1558,24 @@ ff02::3 ip6-allhosts
 # Screaming Frog, Ltd
 # Screaming Frog SEO Spider
 # 192.124.249.19
+# 192.124.249.107
+# 162.159.135.41
 #0.0.0.0 licensing.screamingfrog.co.uk #Lizenz
 #0.0.0.0 download.screamingfrog.co.uk
-#0.0.0.0 www.screamingfrog.co.uk
+#0.0.0.0 www.screamingfrog.co.uk # GTM zu Programmstart
+# Ip/s blockieren:
+# 52.207.202.199
+# 52.202.199.96
+# 157.240.14.35
+# 216.58.209.14
+# 172.217.16.14
+0.0.0.0 ping.chartbeat.net
+0.0.0.0 www.googletagmanager.com # GTM-5XDLFG
+0.0.0.0 www-googletagmanager.l.google.com
+0.0.0.0 www.google-analytics.com # UA-13177605-1
+0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 analytics.google.com # G-ED162H365P
+0.0.0.0 www.facebook.com
 
 # SecureMix LLC
 # GlassWire
@@ -1619,6 +1634,8 @@ ff02::3 ip6-allhosts
 
 # Softorino, Ltd.
 # Folder Colorizer 2
+# 216.58.209.14
+# 159.89.220.168
 # 35.224.231.200
 # 13.225.73.15
 # 67.205.130.156
@@ -2366,11 +2383,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 adplexmedia.adk2x.com
 0.0.0.0 speednetwork15.adk2x.com
 
+# Adkernel.com
+0.0.0.0 sync.adkernel.com
+0.0.0.0 dsp.adkernel.com
+0.0.0.0 adkernel.com
+
 # Adlatvia.com
 0.0.0.0 adlatvia.com
 
 # Adligature
 0.0.0.0 cdn.adligature.com
+
+# Adlightning.com
+0.0.0.0 freestar-tagan.adlightning.com
+0.0.0.0 tagan.adlightning.com
 
 # Admanmedia.com
 0.0.0.0 mona.admanmedia.com
@@ -2572,10 +2598,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 primer.typekit.net
 0.0.0.0 data.typekit.net
 0.0.0.0 muse.typekit.net
-
-# Adlightning.com
-0.0.0.0 freestar-tagan.adlightning.com
-0.0.0.0 tagan.adlightning.com
 
 # Adpapes
 0.0.0.0 adpapes.com
@@ -3582,6 +3604,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 metrics.brightcove.com
 #0.0.0.0 players.brightcove.net
 
+# Britepool.com
+0.0.0.0 api.britepool.com
+0.0.0.0 britepool.com
+0.0.0.0 cdn.britepool.com
+0.0.0.0 px.britepool.com
+
 # BTrll.com
 0.0.0.0 geo-um.btrll.com
 
@@ -4521,6 +4549,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 carrefour.global.ssl.fastly.net
 0.0.0.0 clarium.global.ssl.fastly.net
 0.0.0.0 cmh-v4.pops.fastly-insights.com
+0.0.0.0 confiant-integrations.freetls.fastly.net
 0.0.0.0 confiant-integrations.global.ssl.fastly.net # Prebid & GPT Script
 0.0.0.0 createchallenge.global.ssl.fastly.net
 0.0.0.0 css-1-236.global.ssl.fastly.net
@@ -4716,6 +4745,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 assets.cdn.getfeedback.com
 0.0.0.0 js.getfeedback.com
 0.0.0.0 uploads.cdn.getfeedback.com
+
+# GetJad.io
+0.0.0.0 api.getjad.io
+0.0.0.0 cdn.api.getjad.io
 
 # Getmyads.com
 0.0.0.0 traffic.getmyads.com
@@ -5002,10 +5035,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 d8454adf.de.ioam.de
 0.0.0.0 d9473396.de.ioam.de
 0.0.0.0 de.ioam.de
+0.0.0.0 fcd066c1.de.ioam.de
 0.0.0.0 irqs.ioam.de
 0.0.0.0 me.ioam.de
 0.0.0.0 qs.ioam.de
 0.0.0.0 script.ioam.de
+
+# Iocnt.net
+0.0.0.0 at.iocnt.net
+0.0.0.0 irqs.iocnt.net
+0.0.0.0 relay-client-c01.iocnt.net
+0.0.0.0 relay-client-c03.iocnt.net
+0.0.0.0 script-at.iocnt.net
 
 # ip-api.com
 0.0.0.0 ip-api.com
@@ -6137,6 +6178,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.onthe.io
 
 # Opecloud
+0.0.0.0 adalliance.profiles.tagger.opecloud.com
 0.0.0.0 tagger.opecloud.com
 
 # Openadsnetwork.com
@@ -6503,15 +6545,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 cl.qualaroo.com
 
 # Qualtrics.com | Umfragen und Nutzererfahrungsmanagement
-0.0.0.0 zn_1zcnvefgbweaxdb-cbs.siteintercept.qualtrics.com
-0.0.0.0 zn_9nquvazst1xipkt-cbs.siteintercept.qualtrics.com
+0.0.0.0 az1.qualtrics.com
 0.0.0.0 siteintercept.qualtrics.com
 0.0.0.0 zn_1zcnvefgbweaxdb-cbs.siteintercept.qualtrics.com
-0.0.0.0 zna3geekgi4zqwwfn-viacom.siteintercept.qualtrics.com
-0.0.0.0 az1.qualtrics.com
-0.0.0.0 zn4tkr5tyyboykso1-quora.siteintercept.qualtrics.com
+0.0.0.0 zn_1zcnvefgbweaxdb-cbs.siteintercept.qualtrics.com
+0.0.0.0 zn_9nquvazst1xipkt-cbs.siteintercept.qualtrics.com
 0.0.0.0 zn1ynnliufrct75cb-paypalxm.siteintercept.qualtrics.com # Paypal
+0.0.0.0 zn2ldpvjkekowkxyz-bethesda.siteintercept.qualtrics.com
+0.0.0.0 zn4tkr5tyyboykso1-quora.siteintercept.qualtrics.com
 0.0.0.0 zn8l7dbmav7cz9x4h-metro.siteintercept.qualtrics.com
+0.0.0.0 zna3geekgi4zqwwfn-viacom.siteintercept.qualtrics.com
 
 # Quantcount.com | Nutzeranalyse und Echtzeitwerbung
 0.0.0.0 rules.quantcount.com
@@ -6707,6 +6750,765 @@ ff02::3 ip6-allhosts
 0.0.0.0 hal90003.redintelligence.net
 0.0.0.0 hal90004.redintelligence.net
 0.0.0.0 hal90005.redintelligence.net
+
+# Reminews.com
+0.0.0.0 0006.reminews.com
+0.0.0.0 0020.reminews.com
+0.0.0.0 0037.reminews.com
+0.0.0.0 0056.reminews.com
+0.0.0.0 0075.reminews.com
+0.0.0.0 0077.reminews.com
+0.0.0.0 0093.reminews.com
+0.0.0.0 0101.reminews.com
+0.0.0.0 0105.reminews.com
+0.0.0.0 0119.reminews.com
+0.0.0.0 0145.reminews.com
+0.0.0.0 0192.reminews.com
+0.0.0.0 0202.reminews.com
+0.0.0.0 0212.reminews.com
+0.0.0.0 0252.reminews.com
+0.0.0.0 0256.reminews.com
+0.0.0.0 0298.reminews.com
+0.0.0.0 0332.reminews.com
+0.0.0.0 0336.reminews.com
+0.0.0.0 0336.reminews.com
+0.0.0.0 0347.reminews.com
+0.0.0.0 0361.reminews.com
+0.0.0.0 0370.reminews.com
+0.0.0.0 0375.reminews.com
+0.0.0.0 0378.reminews.com
+0.0.0.0 0381.reminews.com
+0.0.0.0 0400.reminews.com
+0.0.0.0 0411.reminews.com
+0.0.0.0 0436.reminews.com
+0.0.0.0 0442.reminews.com
+0.0.0.0 0447.reminews.com
+0.0.0.0 0450.reminews.com
+0.0.0.0 0453.reminews.com
+0.0.0.0 0481.reminews.com
+0.0.0.0 0483.reminews.com
+0.0.0.0 0500.reminews.com
+0.0.0.0 0501.reminews.com
+0.0.0.0 0510.reminews.com
+0.0.0.0 0515.reminews.com
+0.0.0.0 0531.reminews.com
+0.0.0.0 0547.reminews.com
+0.0.0.0 0555.reminews.com
+0.0.0.0 0571.reminews.com
+0.0.0.0 0586.reminews.com
+0.0.0.0 0587.reminews.com
+0.0.0.0 0611.reminews.com
+0.0.0.0 0618.reminews.com
+0.0.0.0 0626.reminews.com
+0.0.0.0 0627.reminews.com
+0.0.0.0 0632.reminews.com
+0.0.0.0 0663.reminews.com
+0.0.0.0 0665.reminews.com
+0.0.0.0 0690.reminews.com
+0.0.0.0 0723.reminews.com
+0.0.0.0 0747.reminews.com
+0.0.0.0 0769.reminews.com
+0.0.0.0 0789.reminews.com
+0.0.0.0 0792.reminews.com
+0.0.0.0 0796.reminews.com
+0.0.0.0 0797.reminews.com
+0.0.0.0 0828.reminews.com
+0.0.0.0 0829.reminews.com
+0.0.0.0 0842.reminews.com
+0.0.0.0 0881.reminews.com
+0.0.0.0 0906.reminews.com
+0.0.0.0 0924.reminews.com
+0.0.0.0 0933.reminews.com
+0.0.0.0 0964.reminews.com
+0.0.0.0 0965.reminews.com
+0.0.0.0 0966.reminews.com
+0.0.0.0 0980.reminews.com
+0.0.0.0 0981.reminews.com
+0.0.0.0 0999.reminews.com
+0.0.0.0 1006.reminews.com
+0.0.0.0 1012.reminews.com
+0.0.0.0 1017.reminews.com
+0.0.0.0 1018.reminews.com
+0.0.0.0 1021.reminews.com
+0.0.0.0 1030.reminews.com
+0.0.0.0 1034.reminews.com
+0.0.0.0 1043.reminews.com
+0.0.0.0 1061.reminews.com
+0.0.0.0 1066.reminews.com
+0.0.0.0 1088.reminews.com
+0.0.0.0 1110.reminews.com
+0.0.0.0 1121.reminews.com
+0.0.0.0 1134.reminews.com
+0.0.0.0 1145.reminews.com
+0.0.0.0 1156.reminews.com
+0.0.0.0 1168.reminews.com
+0.0.0.0 1190.reminews.com
+0.0.0.0 1194.reminews.com
+0.0.0.0 1201.reminews.com
+0.0.0.0 1233.reminews.com
+0.0.0.0 1233.reminews.com
+0.0.0.0 1247.reminews.com
+0.0.0.0 1248.reminews.com
+0.0.0.0 1263.reminews.com
+0.0.0.0 1267.reminews.com
+0.0.0.0 1272.reminews.com
+0.0.0.0 1277.reminews.com
+0.0.0.0 1296.reminews.com
+0.0.0.0 1298.reminews.com
+0.0.0.0 1305.reminews.com
+0.0.0.0 1319.reminews.com
+0.0.0.0 1358.reminews.com
+0.0.0.0 1365.reminews.com
+0.0.0.0 1372.reminews.com
+0.0.0.0 1383.reminews.com
+0.0.0.0 1399.reminews.com
+0.0.0.0 1405.reminews.com
+0.0.0.0 1413.reminews.com
+0.0.0.0 1437.reminews.com
+0.0.0.0 1446.reminews.com
+0.0.0.0 1452.reminews.com
+0.0.0.0 1487.reminews.com
+0.0.0.0 1503.reminews.com
+0.0.0.0 1506.reminews.com
+0.0.0.0 1513.reminews.com
+0.0.0.0 1518.reminews.com
+0.0.0.0 1521.reminews.com
+0.0.0.0 1556.reminews.com
+0.0.0.0 1568.reminews.com
+0.0.0.0 1588.reminews.com
+0.0.0.0 1592.reminews.com
+0.0.0.0 1595.reminews.com
+0.0.0.0 1606.reminews.com
+0.0.0.0 1618.reminews.com
+0.0.0.0 1633.reminews.com
+0.0.0.0 1647.reminews.com
+0.0.0.0 1661.reminews.com
+0.0.0.0 1662.reminews.com
+0.0.0.0 1663.reminews.com
+0.0.0.0 1679.reminews.com
+0.0.0.0 1690.reminews.com
+0.0.0.0 1707.reminews.com
+0.0.0.0 1716.reminews.com
+0.0.0.0 1722.reminews.com
+0.0.0.0 1724.reminews.com
+0.0.0.0 1742.reminews.com
+0.0.0.0 1768.reminews.com
+0.0.0.0 1803.reminews.com
+0.0.0.0 1807.reminews.com
+0.0.0.0 1825.reminews.com
+0.0.0.0 1852.reminews.com
+0.0.0.0 1881.reminews.com
+0.0.0.0 1885.reminews.com
+0.0.0.0 1929.reminews.com
+0.0.0.0 1931.reminews.com
+0.0.0.0 1933.reminews.com
+0.0.0.0 1975.reminews.com
+0.0.0.0 2010.reminews.com
+0.0.0.0 2011.reminews.com
+0.0.0.0 2027.reminews.com
+0.0.0.0 2045.reminews.com
+0.0.0.0 2048.reminews.com
+0.0.0.0 2058.reminews.com
+0.0.0.0 2059.reminews.com
+0.0.0.0 2069.reminews.com
+0.0.0.0 2077.reminews.com
+0.0.0.0 2085.reminews.com
+0.0.0.0 2090.reminews.com
+0.0.0.0 2131.reminews.com
+0.0.0.0 2149.reminews.com
+0.0.0.0 2159.reminews.com
+0.0.0.0 2178.reminews.com
+0.0.0.0 2180.reminews.com
+0.0.0.0 2184.reminews.com
+0.0.0.0 2197.reminews.com
+0.0.0.0 2210.reminews.com
+0.0.0.0 2210.reminews.com
+0.0.0.0 2259.reminews.com
+0.0.0.0 2282.reminews.com
+0.0.0.0 2288.reminews.com
+0.0.0.0 2299.reminews.com
+0.0.0.0 2309.reminews.com
+0.0.0.0 2328.reminews.com
+0.0.0.0 2333.reminews.com
+0.0.0.0 2342.reminews.com
+0.0.0.0 2379.reminews.com
+0.0.0.0 2390.reminews.com
+0.0.0.0 2408.reminews.com
+0.0.0.0 2409.reminews.com
+0.0.0.0 2444.reminews.com
+0.0.0.0 2446.reminews.com
+0.0.0.0 2464.reminews.com
+0.0.0.0 2485.reminews.com
+0.0.0.0 2507.reminews.com
+0.0.0.0 2520.reminews.com
+0.0.0.0 2526.reminews.com
+0.0.0.0 2529.reminews.com
+0.0.0.0 2549.reminews.com
+0.0.0.0 2550.reminews.com
+0.0.0.0 2562.reminews.com
+0.0.0.0 2579.reminews.com
+0.0.0.0 2594.reminews.com
+0.0.0.0 2596.reminews.com
+0.0.0.0 2598.reminews.com
+0.0.0.0 2602.reminews.com
+0.0.0.0 2619.reminews.com
+0.0.0.0 2621.reminews.com
+0.0.0.0 2626.reminews.com
+0.0.0.0 2639.reminews.com
+0.0.0.0 2665.reminews.com
+0.0.0.0 2683.reminews.com
+0.0.0.0 2686.reminews.com
+0.0.0.0 2696.reminews.com
+0.0.0.0 2714.reminews.com
+0.0.0.0 2724.reminews.com
+0.0.0.0 2752.reminews.com
+0.0.0.0 2754.reminews.com
+0.0.0.0 2759.reminews.com
+0.0.0.0 2760.reminews.com
+0.0.0.0 2760.reminews.com
+0.0.0.0 2790.reminews.com
+0.0.0.0 2791.reminews.com
+0.0.0.0 2794.reminews.com
+0.0.0.0 2809.reminews.com
+0.0.0.0 2820.reminews.com
+0.0.0.0 2842.reminews.com
+0.0.0.0 2851.reminews.com
+0.0.0.0 2866.reminews.com
+0.0.0.0 2868.reminews.com
+0.0.0.0 2892.reminews.com
+0.0.0.0 2900.reminews.com
+0.0.0.0 2908.reminews.com
+0.0.0.0 2927.reminews.com
+0.0.0.0 2950.reminews.com
+0.0.0.0 2963.reminews.com
+0.0.0.0 3026.reminews.com
+0.0.0.0 3033.reminews.com
+0.0.0.0 3045.reminews.com
+0.0.0.0 3054.reminews.com
+0.0.0.0 3080.reminews.com
+0.0.0.0 3098.reminews.com
+0.0.0.0 3128.reminews.com
+0.0.0.0 3131.reminews.com
+0.0.0.0 3153.reminews.com
+0.0.0.0 3157.reminews.com
+0.0.0.0 3158.reminews.com
+0.0.0.0 3179.reminews.com
+0.0.0.0 3180.reminews.com
+0.0.0.0 3208.reminews.com
+0.0.0.0 3217.reminews.com
+0.0.0.0 3238.reminews.com
+0.0.0.0 3260.reminews.com
+0.0.0.0 3262.reminews.com
+0.0.0.0 3268.reminews.com
+0.0.0.0 3283.reminews.com
+0.0.0.0 3291.reminews.com
+0.0.0.0 3293.reminews.com
+0.0.0.0 3295.reminews.com
+0.0.0.0 3299.reminews.com
+0.0.0.0 3301.reminews.com
+0.0.0.0 3310.reminews.com
+0.0.0.0 3312.reminews.com
+0.0.0.0 3327.reminews.com
+0.0.0.0 3360.reminews.com
+0.0.0.0 3375.reminews.com
+0.0.0.0 3378.reminews.com
+0.0.0.0 3379.reminews.com
+0.0.0.0 3390.reminews.com
+0.0.0.0 3425.reminews.com
+0.0.0.0 3432.reminews.com
+0.0.0.0 3444.reminews.com
+0.0.0.0 3467.reminews.com
+0.0.0.0 3491.reminews.com
+0.0.0.0 3496.reminews.com
+0.0.0.0 3522.reminews.com
+0.0.0.0 3577.reminews.com
+0.0.0.0 3591.reminews.com
+0.0.0.0 3595.reminews.com
+0.0.0.0 3599.reminews.com
+0.0.0.0 3609.reminews.com
+0.0.0.0 3620.reminews.com
+0.0.0.0 3630.reminews.com
+0.0.0.0 3641.reminews.com
+0.0.0.0 3642.reminews.com
+0.0.0.0 3645.reminews.com
+0.0.0.0 3650.reminews.com
+0.0.0.0 3708.reminews.com
+0.0.0.0 3728.reminews.com
+0.0.0.0 3731.reminews.com
+0.0.0.0 3743.reminews.com
+0.0.0.0 3745.reminews.com
+0.0.0.0 3746.reminews.com
+0.0.0.0 3754.reminews.com
+0.0.0.0 3764.reminews.com
+0.0.0.0 3773.reminews.com
+0.0.0.0 3797.reminews.com
+0.0.0.0 3807.reminews.com
+0.0.0.0 3836.reminews.com
+0.0.0.0 3853.reminews.com
+0.0.0.0 3878.reminews.com
+0.0.0.0 3880.reminews.com
+0.0.0.0 3884.reminews.com
+0.0.0.0 3908.reminews.com
+0.0.0.0 3910.reminews.com
+0.0.0.0 3952.reminews.com
+0.0.0.0 4021.reminews.com
+0.0.0.0 4033.reminews.com
+0.0.0.0 4042.reminews.com
+0.0.0.0 4044.reminews.com
+0.0.0.0 4052.reminews.com
+0.0.0.0 4061.reminews.com
+0.0.0.0 4064.reminews.com
+0.0.0.0 4069.reminews.com
+0.0.0.0 4086.reminews.com
+0.0.0.0 4088.reminews.com
+0.0.0.0 4107.reminews.com
+0.0.0.0 4107.reminews.com
+0.0.0.0 4109.reminews.com
+0.0.0.0 4117.reminews.com
+0.0.0.0 4176.reminews.com
+0.0.0.0 4179.reminews.com
+0.0.0.0 4185.reminews.com
+0.0.0.0 4201.reminews.com
+0.0.0.0 4206.reminews.com
+0.0.0.0 4209.reminews.com
+0.0.0.0 4213.reminews.com
+0.0.0.0 4217.reminews.com
+0.0.0.0 4217.reminews.com
+0.0.0.0 4221.reminews.com
+0.0.0.0 4232.reminews.com
+0.0.0.0 4252.reminews.com
+0.0.0.0 4257.reminews.com
+0.0.0.0 4266.reminews.com
+0.0.0.0 4271.reminews.com
+0.0.0.0 4307.reminews.com
+0.0.0.0 4318.reminews.com
+0.0.0.0 4324.reminews.com
+0.0.0.0 4330.reminews.com
+0.0.0.0 4336.reminews.com
+0.0.0.0 4342.reminews.com
+0.0.0.0 4343.reminews.com
+0.0.0.0 4344.reminews.com
+0.0.0.0 4372.reminews.com
+0.0.0.0 4385.reminews.com
+0.0.0.0 4396.reminews.com
+0.0.0.0 4396.reminews.com
+0.0.0.0 4399.reminews.com
+0.0.0.0 4406.reminews.com
+0.0.0.0 4412.reminews.com
+0.0.0.0 4423.reminews.com
+0.0.0.0 4432.reminews.com
+0.0.0.0 4441.reminews.com
+0.0.0.0 4457.reminews.com
+0.0.0.0 4461.reminews.com
+0.0.0.0 4463.reminews.com
+0.0.0.0 4497.reminews.com
+0.0.0.0 4511.reminews.com
+0.0.0.0 4513.reminews.com
+0.0.0.0 4518.reminews.com
+0.0.0.0 4530.reminews.com
+0.0.0.0 4547.reminews.com
+0.0.0.0 4550.reminews.com
+0.0.0.0 4563.reminews.com
+0.0.0.0 4576.reminews.com
+0.0.0.0 4581.reminews.com
+0.0.0.0 4604.reminews.com
+0.0.0.0 4612.reminews.com
+0.0.0.0 4624.reminews.com
+0.0.0.0 4691.reminews.com
+0.0.0.0 4692.reminews.com
+0.0.0.0 4703.reminews.com
+0.0.0.0 4710.reminews.com
+0.0.0.0 4712.reminews.com
+0.0.0.0 4714.reminews.com
+0.0.0.0 4728.reminews.com
+0.0.0.0 4746.reminews.com
+0.0.0.0 4747.reminews.com
+0.0.0.0 4762.reminews.com
+0.0.0.0 4768.reminews.com
+0.0.0.0 4770.reminews.com
+0.0.0.0 4804.reminews.com
+0.0.0.0 4815.reminews.com
+0.0.0.0 4842.reminews.com
+0.0.0.0 4858.reminews.com
+0.0.0.0 4875.reminews.com
+0.0.0.0 4881.reminews.com
+0.0.0.0 4882.reminews.com
+0.0.0.0 4886.reminews.com
+0.0.0.0 4930.reminews.com
+0.0.0.0 4950.reminews.com
+0.0.0.0 4951.reminews.com
+0.0.0.0 4957.reminews.com
+0.0.0.0 4986.reminews.com
+0.0.0.0 4996.reminews.com
+0.0.0.0 5019.reminews.com
+0.0.0.0 5028.reminews.com
+0.0.0.0 5031.reminews.com
+0.0.0.0 5032.reminews.com
+0.0.0.0 5075.reminews.com
+0.0.0.0 5081.reminews.com
+0.0.0.0 5097.reminews.com
+0.0.0.0 5149.reminews.com
+0.0.0.0 5161.reminews.com
+0.0.0.0 517s61.reminews.com
+0.0.0.0 5182.reminews.com
+0.0.0.0 5199.reminews.com
+0.0.0.0 5199.reminews.com
+0.0.0.0 5201.reminews.com
+0.0.0.0 5210.reminews.com
+0.0.0.0 5220.reminews.com
+0.0.0.0 5224.reminews.com
+0.0.0.0 5234.reminews.com
+0.0.0.0 5245.reminews.com
+0.0.0.0 5251.reminews.com
+0.0.0.0 5254.reminews.com
+0.0.0.0 5259.reminews.com
+0.0.0.0 5269.reminews.com
+0.0.0.0 5280.reminews.com
+0.0.0.0 5317.reminews.com
+0.0.0.0 5329.reminews.com
+0.0.0.0 5345.reminews.com
+0.0.0.0 5347.reminews.com
+0.0.0.0 5347.reminews.com
+0.0.0.0 5352.reminews.com
+0.0.0.0 5382.reminews.com
+0.0.0.0 5388.reminews.com
+0.0.0.0 5403.reminews.com
+0.0.0.0 5407.reminews.com
+0.0.0.0 5426.reminews.com
+0.0.0.0 5427.reminews.com
+0.0.0.0 5465.reminews.com
+0.0.0.0 5465.reminews.com
+0.0.0.0 5471.reminews.com
+0.0.0.0 5472.reminews.com
+0.0.0.0 5482.reminews.com
+0.0.0.0 5528.reminews.com
+0.0.0.0 5553.reminews.com
+0.0.0.0 5556.reminews.com
+0.0.0.0 5556.reminews.com
+0.0.0.0 5575.reminews.com
+0.0.0.0 5576.reminews.com
+0.0.0.0 5583.reminews.com
+0.0.0.0 5595.reminews.com
+0.0.0.0 5605.reminews.com
+0.0.0.0 5612.reminews.com
+0.0.0.0 5633.reminews.com
+0.0.0.0 5640.reminews.com
+0.0.0.0 5649.reminews.com
+0.0.0.0 5670.reminews.com
+0.0.0.0 5674.reminews.com
+0.0.0.0 5677.reminews.com
+0.0.0.0 5679.reminews.com
+0.0.0.0 5683.reminews.com
+0.0.0.0 5721.reminews.com
+0.0.0.0 5778.reminews.com
+0.0.0.0 5790.reminews.com
+0.0.0.0 5790.reminews.com
+0.0.0.0 5805.reminews.com
+0.0.0.0 5817.reminews.com
+0.0.0.0 5873.reminews.com
+0.0.0.0 5879.reminews.com
+0.0.0.0 5888.reminews.com
+0.0.0.0 5890.reminews.com
+0.0.0.0 5900.reminews.com
+0.0.0.0 5905.reminews.com
+0.0.0.0 5920.reminews.com
+0.0.0.0 5937.reminews.com
+0.0.0.0 5938.reminews.com
+0.0.0.0 5953.reminews.com
+0.0.0.0 5954.reminews.com
+0.0.0.0 5963.reminews.com
+0.0.0.0 5965.reminews.com
+0.0.0.0 5970.reminews.com
+0.0.0.0 5983.reminews.com
+0.0.0.0 5988.reminews.com
+0.0.0.0 6001.reminews.com
+0.0.0.0 6026.reminews.com
+0.0.0.0 6041.reminews.com
+0.0.0.0 6057.reminews.com
+0.0.0.0 6062.reminews.com
+0.0.0.0 6078.reminews.com
+0.0.0.0 6089.reminews.com
+0.0.0.0 6099.reminews.com
+0.0.0.0 6114.reminews.com
+0.0.0.0 6116.reminews.com
+0.0.0.0 6124.reminews.com
+0.0.0.0 6127.reminews.com
+0.0.0.0 6137.reminews.com
+0.0.0.0 6149.reminews.com
+0.0.0.0 6184.reminews.com
+0.0.0.0 6249.reminews.com
+0.0.0.0 6254.reminews.com
+0.0.0.0 6261.reminews.com
+0.0.0.0 6262.reminews.com
+0.0.0.0 6263.reminews.com
+0.0.0.0 6268.reminews.com
+0.0.0.0 6288.reminews.com
+0.0.0.0 6322.reminews.com
+0.0.0.0 6325.reminews.com
+0.0.0.0 6329.reminews.com
+0.0.0.0 6339.reminews.com
+0.0.0.0 6355.reminews.com
+0.0.0.0 6367.reminews.com
+0.0.0.0 6384.reminews.com
+0.0.0.0 6386.reminews.com
+0.0.0.0 6400.reminews.com
+0.0.0.0 6422.reminews.com
+0.0.0.0 6424.reminews.com
+0.0.0.0 6432.reminews.com
+0.0.0.0 6435.reminews.com
+0.0.0.0 6445.reminews.com
+0.0.0.0 6446.reminews.com
+0.0.0.0 6453.reminews.com
+0.0.0.0 6454.reminews.com
+0.0.0.0 6463.reminews.com
+0.0.0.0 6473.reminews.com
+0.0.0.0 6475.reminews.com
+0.0.0.0 6484.reminews.com
+0.0.0.0 6500.reminews.com
+0.0.0.0 6543.reminews.com
+0.0.0.0 6560.reminews.com
+0.0.0.0 6573.reminews.com
+0.0.0.0 6575.reminews.com
+0.0.0.0 6596.reminews.com
+0.0.0.0 6615.reminews.com
+0.0.0.0 6650.reminews.com
+0.0.0.0 6661.reminews.com
+0.0.0.0 6680.reminews.com
+0.0.0.0 6695.reminews.com
+0.0.0.0 6697.reminews.com
+0.0.0.0 6719.reminews.com
+0.0.0.0 6757.reminews.com
+0.0.0.0 6761.reminews.com
+0.0.0.0 6765.reminews.com
+0.0.0.0 6766.reminews.com
+0.0.0.0 6767.reminews.com
+0.0.0.0 6778.reminews.com
+0.0.0.0 6782.reminews.com
+0.0.0.0 6786.reminews.com
+0.0.0.0 6795.reminews.com
+0.0.0.0 6796.reminews.com
+0.0.0.0 6798.reminews.com
+0.0.0.0 6845.reminews.com
+0.0.0.0 6878.reminews.com
+0.0.0.0 6892.reminews.com
+0.0.0.0 6919.reminews.com
+0.0.0.0 6920.reminews.com
+0.0.0.0 6922.reminews.com
+0.0.0.0 6943.reminews.com
+0.0.0.0 6947.reminews.com
+0.0.0.0 6967.reminews.com
+0.0.0.0 6974.reminews.com
+0.0.0.0 6984.reminews.com
+0.0.0.0 6989.reminews.com
+0.0.0.0 7002.reminews.com
+0.0.0.0 7003.reminews.com
+0.0.0.0 7027.reminews.com
+0.0.0.0 7035.reminews.com
+0.0.0.0 7045.reminews.com
+0.0.0.0 7051.reminews.com
+0.0.0.0 7078.reminews.com
+0.0.0.0 7080.reminews.com
+0.0.0.0 7084.reminews.com
+0.0.0.0 7138.reminews.com
+0.0.0.0 7139.reminews.com
+0.0.0.0 7157.reminews.com
+0.0.0.0 7199.reminews.com
+0.0.0.0 7199.reminews.com
+0.0.0.0 7210.reminews.com
+0.0.0.0 7245.reminews.com
+0.0.0.0 7259.reminews.com
+0.0.0.0 7261.reminews.com
+0.0.0.0 7276.reminews.com
+0.0.0.0 7288.reminews.com
+0.0.0.0 7295.reminews.com
+0.0.0.0 7298.reminews.com
+0.0.0.0 7333.reminews.com
+0.0.0.0 7335.reminews.com
+0.0.0.0 7352.reminews.com
+0.0.0.0 7354.reminews.com
+0.0.0.0 7375.reminews.com
+0.0.0.0 7382.reminews.com
+0.0.0.0 7389.reminews.com
+0.0.0.0 7404.reminews.com
+0.0.0.0 7404.reminews.com
+0.0.0.0 7417.reminews.com
+0.0.0.0 7420.reminews.com
+0.0.0.0 7423.reminews.com
+0.0.0.0 7432.reminews.com
+0.0.0.0 7447.reminews.com
+0.0.0.0 7465.reminews.com
+0.0.0.0 7475.reminews.com
+0.0.0.0 7476.reminews.com
+0.0.0.0 7482.reminews.com
+0.0.0.0 7510.reminews.com
+0.0.0.0 7518.reminews.com
+0.0.0.0 7537.reminews.com
+0.0.0.0 7538.reminews.com
+0.0.0.0 7543.reminews.com
+0.0.0.0 7554.reminews.com
+0.0.0.0 7583.reminews.com
+0.0.0.0 7587.reminews.com
+0.0.0.0 7597.reminews.com
+0.0.0.0 7611.reminews.com
+0.0.0.0 7670.reminews.com
+0.0.0.0 7674.reminews.com
+0.0.0.0 7683.reminews.com
+0.0.0.0 7690.reminews.com
+0.0.0.0 7709.reminews.com
+0.0.0.0 7724.reminews.com
+0.0.0.0 7727.reminews.com
+0.0.0.0 7762.reminews.com
+0.0.0.0 7767.reminews.com
+0.0.0.0 7789.reminews.com
+0.0.0.0 7793.reminews.com
+0.0.0.0 7815.reminews.com
+0.0.0.0 7823.reminews.com
+0.0.0.0 7828.reminews.com
+0.0.0.0 7831.reminews.com
+0.0.0.0 7884.reminews.com
+0.0.0.0 7931.reminews.com
+0.0.0.0 7931.reminews.com
+0.0.0.0 7933.reminews.com
+0.0.0.0 7945.reminews.com
+0.0.0.0 7976.reminews.com
+0.0.0.0 7982.reminews.com
+0.0.0.0 7987.reminews.com
+0.0.0.0 8000.reminews.com
+0.0.0.0 8010.reminews.com
+0.0.0.0 8047.reminews.com
+0.0.0.0 8056.reminews.com
+0.0.0.0 8065.reminews.com
+0.0.0.0 8100.reminews.com
+0.0.0.0 8129.reminews.com
+0.0.0.0 8137.reminews.com
+0.0.0.0 8167.reminews.com
+0.0.0.0 8197.reminews.com
+0.0.0.0 8216.reminews.com
+0.0.0.0 8228.reminews.com
+0.0.0.0 8233.reminews.com
+0.0.0.0 8240.reminews.com
+0.0.0.0 8248.reminews.com
+0.0.0.0 8310.reminews.com
+0.0.0.0 8338.reminews.com
+0.0.0.0 8342.reminews.com
+0.0.0.0 8373.reminews.com
+0.0.0.0 8377.reminews.com
+0.0.0.0 8379.reminews.com
+0.0.0.0 8386.reminews.com
+0.0.0.0 8389.reminews.com
+0.0.0.0 8395.reminews.com
+0.0.0.0 8405.reminews.com
+0.0.0.0 8419.reminews.com
+0.0.0.0 8422.reminews.com
+0.0.0.0 8437.reminews.com
+0.0.0.0 8460.reminews.com
+0.0.0.0 8461.reminews.com
+0.0.0.0 8478.reminews.com
+0.0.0.0 8479.reminews.com
+0.0.0.0 8481.reminews.com
+0.0.0.0 8489.reminews.com
+0.0.0.0 8511.reminews.com
+0.0.0.0 8516.reminews.com
+0.0.0.0 8521.reminews.com
+0.0.0.0 8543.reminews.com
+0.0.0.0 8553.reminews.com
+0.0.0.0 8564.reminews.com
+0.0.0.0 8567.reminews.com
+0.0.0.0 8568.reminews.com
+0.0.0.0 8590.reminews.com
+0.0.0.0 8621.reminews.com
+0.0.0.0 8640.reminews.com
+0.0.0.0 8648.reminews.com
+0.0.0.0 8649.reminews.com
+0.0.0.0 8666.reminews.com
+0.0.0.0 8669.reminews.com
+0.0.0.0 8687.reminews.com
+0.0.0.0 8694.reminews.com
+0.0.0.0 8695.reminews.com
+0.0.0.0 8704.reminews.com
+0.0.0.0 8707.reminews.com
+0.0.0.0 8711.reminews.com
+0.0.0.0 8715.reminews.com
+0.0.0.0 8755.reminews.com
+0.0.0.0 8761.reminews.com
+0.0.0.0 8779.reminews.com
+0.0.0.0 8806.reminews.com
+0.0.0.0 8814.reminews.com
+0.0.0.0 8852.reminews.com
+0.0.0.0 8857.reminews.com
+0.0.0.0 8879.reminews.com
+0.0.0.0 8881.reminews.com
+0.0.0.0 8961.reminews.com
+0.0.0.0 8966.reminews.com
+0.0.0.0 8973.reminews.com
+0.0.0.0 8979.reminews.com
+0.0.0.0 8991.reminews.com
+0.0.0.0 8997.reminews.com
+0.0.0.0 9013.reminews.com
+0.0.0.0 9014.reminews.com
+0.0.0.0 9018.reminews.com
+0.0.0.0 9029.reminews.com
+0.0.0.0 9032.reminews.com
+0.0.0.0 9034.reminews.com
+0.0.0.0 9047.reminews.com
+0.0.0.0 9050.reminews.com
+0.0.0.0 9050.reminews.com
+0.0.0.0 9093.reminews.com
+0.0.0.0 9098.reminews.com
+0.0.0.0 9100.reminews.com
+0.0.0.0 9127.reminews.com
+0.0.0.0 9141.reminews.com
+0.0.0.0 9148.reminews.com
+0.0.0.0 9150.reminews.com
+0.0.0.0 9192.reminews.com
+0.0.0.0 9201.reminews.com
+0.0.0.0 9206.reminews.com
+0.0.0.0 9238.reminews.com
+0.0.0.0 9256.reminews.com
+0.0.0.0 9267.reminews.com
+0.0.0.0 9267.reminews.com
+0.0.0.0 9305.reminews.com
+0.0.0.0 9321.reminews.com
+0.0.0.0 9322.reminews.com
+0.0.0.0 9361.reminews.com
+0.0.0.0 9376.reminews.com
+0.0.0.0 9407.reminews.com
+0.0.0.0 9412.reminews.com
+0.0.0.0 9433.reminews.com
+0.0.0.0 9439.reminews.com
+0.0.0.0 9440.reminews.com
+0.0.0.0 9477.reminews.com
+0.0.0.0 9484.reminews.com
+0.0.0.0 9534.reminews.com
+0.0.0.0 9543.reminews.com
+0.0.0.0 9564.reminews.com
+0.0.0.0 9578.reminews.com
+0.0.0.0 9581.reminews.com
+0.0.0.0 9593.reminews.com
+0.0.0.0 9621.reminews.com
+0.0.0.0 9636.reminews.com
+0.0.0.0 9645.reminews.com
+0.0.0.0 9646.reminews.com
+0.0.0.0 9653.reminews.com
+0.0.0.0 9670.reminews.com
+0.0.0.0 9675.reminews.com
+0.0.0.0 9720.reminews.com
+0.0.0.0 9729.reminews.com
+0.0.0.0 9732.reminews.com
+0.0.0.0 9766.reminews.com
+0.0.0.0 9793.reminews.com
+0.0.0.0 9796.reminews.com
+0.0.0.0 9816.reminews.com
+0.0.0.0 9829.reminews.com
+0.0.0.0 9830.reminews.com
+0.0.0.0 9843.reminews.com
+0.0.0.0 9872.reminews.com
+0.0.0.0 9882.reminews.com
+0.0.0.0 9913.reminews.com
+0.0.0.0 9936.reminews.com
+0.0.0.0 9943.reminews.com
+0.0.0.0 9984.reminews.com
+0.0.0.0 9985.reminews.com
 
 # Remintrex
 0.0.0.0 www.remintrex.com
@@ -7436,6 +8238,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 collect.tealiumiq.com
 0.0.0.0 visitor-service-eu-west-1.tealiumiq.com
 0.0.0.0 datacloud.tealiumiq.com
+
+# Technical-service.net
+0.0.0.0 te.technical-service.net
+0.0.0.0 technical-service.net
+0.0.0.0 tr.technical-service.net
+0.0.0.0 www.technical-service.net
 
 # TechnikTest
 0.0.0.0 technik-test.biz
@@ -8937,21 +9745,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads-api.ft.com
 
 # Focus.de
-0.0.0.0 c.aaxads.com
-0.0.0.0 ssl-focus.met.vgwort.de
-0.0.0.0 focus-217-de.global.ssl.fastly.net
-0.0.0.0 widgets.opinary.com
-0.0.0.0 api.opinary.com
-0.0.0.0 www.spot.im
 0.0.0.0 a.bf-tools.net
+0.0.0.0 adtm.focus.de
+0.0.0.0 api.opinary.com
+0.0.0.0 c.aaxads.com
+0.0.0.0 cdn.speedcurve.com
 0.0.0.0 cdn3.optimizely.com
+0.0.0.0 cmp.focus.de # Focus Nagscreen
+0.0.0.0 data-1818d50639.focus.de
+0.0.0.0 focus-217-de.global.ssl.fastly.net
 0.0.0.0 js.smartredirect.de
 0.0.0.0 pp.lp4.io
-0.0.0.0 cdn.speedcurve.com
-0.0.0.0 adtm.focus.de
 0.0.0.0 sbcomniture.focus.de
+0.0.0.0 ssl-focus.met.vgwort.de
 0.0.0.0 twcapi.focus.de
-0.0.0.0 cmp.focus.de # Focus Nagscreen
+0.0.0.0 widgets.opinary.com
+0.0.0.0 www.spot.im
 # Videos wieder SchneeVonMorgen verseucht... wie sollte es anders sein
 0.0.0.0 ssl.1.damoh.focus.de
 0.0.0.0 ssl.2.damoh.focus.de
@@ -11004,6 +11813,7 @@ ff02::3 ip6-allhosts
 # 172.217.8.2
 0.0.0.0 10211246.fls.doubleclick.net
 0.0.0.0 10498646.fls.doubleclick.net
+0.0.0.0 11234607.fls.doubleclick.net
 0.0.0.0 1128861.fls.doubleclick.net
 0.0.0.0 1295336.fls.doubleclick.net
 0.0.0.0 3773406.fls.doubleclick.net # NVIdia
@@ -12371,6 +13181,31 @@ ff02::3 ip6-allhosts
 0.0.0.0 teams.live.com
 0.0.0.0 statics.teams.cdn.office.net
 
+# Windows 11 - GamingServices - gamingservices.exe
+# 2.16.107.32
+# 2.16.107.107
+# 2.16.107.83
+# 2.16.107.35
+# 2.16.107.98
+# 2.16.107.104
+# 89.249.74.49
+# 89.249.74.48
+# 89.249.74.40
+# 89.249.74.41
+# 80.239.200.33
+# 2.16.107.115
+# 23.32.238.104
+# 2.16.107.120
+# 2.16.107.43
+0.0.0.0 catalog.gamepass.com # /misc/pc-pfns-list
+0.0.0.0 a1992.dscd.akamai.net
+# 2.16.107.65
+# 23.32.238.122
+0.0.0.0 a2-16-107-65.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-32-238-122.deploy.static.akamaitechnologies.com
+# 51.124.78.146
+#0.0.0.0 settingsfd-geo.trafficmanager.net
+
 # Windows 11 - msedge.exe - Microsoft Edge
 # Ip/s blockieren:
 # 2.16.107.120
@@ -12459,7 +13294,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 privacy.xboxlive.com.akadns.net
 0.0.0.0 FRA-efz.ms-acdc.office.com
 0.0.0.0 e1822.dspg.akamaiedge.net
-0.0.0.0 e87.dspg.akamaiedge.net
+#0.0.0.0 images-eds-ssl.xboxlive.com # Avatare
+#0.0.0.0 e87.dspg.akamaiedge.net # Avatare
 # 93.184.220.29
 #0.0.0.0 cs9.wac.phicdn.net
 
@@ -12488,7 +13324,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cluster-f.playfabapi.com
 #0.0.0.0 userpresence.xboxlive.com.akadns.net
 #0.0.0.0 e87.dscb.akamaiedge.net
-#0.0.0.0 a1992.dscd.akamai.net
+0.0.0.0 a1992.dscd.akamai.net
 #0.0.0.0 party.xboxlive.com.akadns.net
 #0.0.0.0 notificationinbox.xboxlive.com.akadns.net
 #0.0.0.0 privacy.xboxlive.com.akadns.net
@@ -12504,7 +13340,9 @@ ff02::3 ip6-allhosts
 
 # Microsoft Gaming App | xboxpcapp.exe
 # 20.54.110.249
+# 40.67.188.15
 #0.0.0.0 neu-displaycatalogrp.frontdoor.bigcatalog.commerce.microsoft.com
+#0.0.0.0 userpresence.xboxlive.com.akadns.net
 
 #
 # Soziale Netzwerke und Communitys
@@ -12815,6 +13653,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 images.ak.instagram.com
 0.0.0.0 images.instagram.com
 0.0.0.0 instagram.com
+0.0.0.0 instagram.fhrk1-1.fna.fbcdn.net
 0.0.0.0 instagram.fsin9-1.fna.fbcdn.net
 0.0.0.0 ish.instagram.com
 0.0.0.0 l.instagram.com
@@ -12945,6 +13784,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads-bidder-api.twitter.com
 # twimg
 #0.0.0.0 pbs.twimg.com # z.b. Avatare
+#0.0.0.0 ton.twimg.com # CSS Syndication Bundle
 0.0.0.0 cdn.syndication.twimg.com # Callback
 0.0.0.0 widgets.twimg.com
 # Ads-twitter.com
@@ -14461,7 +15301,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.squareloop.io
 0.0.0.0 analytics.stavros.io
 0.0.0.0 analytics.video.meredithcorp.io
-0.0.0.0 api.getjad.io
 0.0.0.0 api.marker.io
 0.0.0.0 api.mutinyhq.io
 0.0.0.0 api.pubwise.io
@@ -14481,7 +15320,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 btcrush.io
 0.0.0.0 c.lytics.io
 0.0.0.0 cdn.adapex.io
-0.0.0.0 cdn.api.getjad.io
 0.0.0.0 cdn.mediago.io
 0.0.0.0 cdn.ndg.io
 0.0.0.0 cdn.plyr.io
@@ -15939,7 +16777,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 adglare.net
 0.0.0.0 adhese.com
 0.0.0.0 aditmedia.go2affise.com
-0.0.0.0 adkernel.com
 0.0.0.0 adleave.com
 0.0.0.0 adloox.com
 0.0.0.0 adlooxtracking.com
@@ -16203,7 +17040,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 assets.thesourceplus.sonymobile.com
 0.0.0.0 assets.ubembed.com
 0.0.0.0 async01.admantx.com
-0.0.0.0 at.iocnt.net
 0.0.0.0 atlas-endpoint.data.n8s.jp
 0.0.0.0 atlas.etahub.com
 0.0.0.0 atlas.r.akipam.com
@@ -16317,7 +17153,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 bpi.rtactivate.com
 0.0.0.0 brain.rvty.net # Heise.de
 0.0.0.0 brand.solvay.com
-0.0.0.0 britepool.com
 0.0.0.0 browser-http-intake.logs.datadoghq.com
 0.0.0.0 btloader.com
 0.0.0.0 bttrack.com
@@ -16401,7 +17236,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.blatungo.com
 0.0.0.0 cdn.blueconic.net
 0.0.0.0 cdn.bncloudfl.com
-0.0.0.0 cdn.britepool.com
 0.0.0.0 cdn.broadstreetads.com
 0.0.0.0 cdn.browsiprod.com
 0.0.0.0 cdn.bunchbox.com
@@ -16795,7 +17629,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 droppedrolling.com
 0.0.0.0 dsfgp.admenhost.com
 0.0.0.0 dsp.active-agent.com
-0.0.0.0 dsp.adkernel.com
 0.0.0.0 dt.gnpge.com
 0.0.0.0 dtv5loup63fac.cloudfront.net
 0.0.0.0 duamilsyr.com
@@ -17878,7 +18711,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 pvpro.com
 0.0.0.0 pw.wpu.sh
 0.0.0.0 px.adhigh.net
-0.0.0.0 px.britepool.com
 0.0.0.0 px.gamesrevenue.com
 0.0.0.0 px.gfycat.com
 0.0.0.0 px.owneriq.net
@@ -17940,7 +18772,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 refbanners.com
 0.0.0.0 referral.crypto.com
 0.0.0.0 regularplants.com
-0.0.0.0 relay-client-c01.iocnt.net
 0.0.0.0 remtoaku.net
 0.0.0.0 representativeskipcloudy.com
 0.0.0.0 requestingreview.com
@@ -18038,6 +18869,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scene-front.lokaplatform.com
 0.0.0.0 scientificimmigration.com
 0.0.0.0 screenshotfactory.com
+0.0.0.0 script-api.kinja.com
 0.0.0.0 script.clickadilla.com
 0.0.0.0 scripts.attributionapp.com
 0.0.0.0 scripts.kiosked.com
@@ -18328,10 +19160,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 tdsjsext3.life
 0.0.0.0 tdsjsext4.com
 0.0.0.0 te.ip-prod.aws-cbc.cloud
-0.0.0.0 te.technical-service.net
 0.0.0.0 tebadu.com
 0.0.0.0 tech.convergd.com
-0.0.0.0 technical-service.net
 0.0.0.0 teeglimu.com
 0.0.0.0 telehouse.interactgo.com
 0.0.0.0 telemetry.jivosite.com
@@ -18397,7 +19227,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 tr.gearbest.com
 0.0.0.0 tr.lottoland.com
 0.0.0.0 tr.snapchat.com
-0.0.0.0 tr.technical-service.net
 0.0.0.0 tr.zam.com
 0.0.0.0 tr6.snapchat.com
 0.0.0.0 track-api.klickly.com
@@ -18445,6 +19274,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tracking.clickadilla.com
 0.0.0.0 tracking.dein-data.de # Piwik
 0.0.0.0 tracking.drillisch.de
+0.0.0.0 tracking.gdatasoftware.com
 0.0.0.0 tracking.leadlander.com
 0.0.0.0 tracking.mlsat02.de
 0.0.0.0 tracking.musixmatch.com
@@ -18729,6 +19559,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.aiprvqqnhm.com
 0.0.0.0 www.aleba.lu
 0.0.0.0 www.angloinfo.net
+0.0.0.0 www.asadcdn.com
 0.0.0.0 www.audibletrack.com
 0.0.0.0 www.audiohouse.sg
 0.0.0.0 www.awin1.com
@@ -18912,7 +19743,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.swoop-amp.com
 0.0.0.0 www.swpsvc.com
 0.0.0.0 www.tamgrt.com
-0.0.0.0 www.technical-service.net
 0.0.0.0 www.teens.net
 0.0.0.0 www.telefonica-partner.de
 0.0.0.0 www.tempestpremium.com
@@ -21667,6 +22497,17 @@ ff02::3 ip6-allhosts
 
 # Alexander Goodwin
 # Mechanism
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -26567,6 +27408,17 @@ ff02::3 ip6-allhosts
 
 # Food dream factory
 # 美食梦工厂：研发美食开心制作糖果模拟经营养成
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -27328,6 +28180,17 @@ ff02::3 ip6-allhosts
 
 # GiKugikuGame
 # Piopupu
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -29108,13 +29971,17 @@ ff02::3 ip6-allhosts
 
 # Khokhlov
 # Nyan Destroyer
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -29601,19 +30468,27 @@ ff02::3 ip6-allhosts
 # Lofty Sky Entertainment Inc.
 # Shuyan Saga™
 # Facebook Anbindung
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-# Über das Spiel aufgerufene Webseiten
-0.0.0.0 www.shuyansaga.com
-0.0.0.0 www.google-analytics.com
+# 104.244.42.193
+# 157.240.20.35
+# 142.250.186
+# 64.233.161.154
+# 142.250.185.194
+# 142.250.186.66
+# 13.35.253.75
+# 18.66.248.71
+# 18.66.248.43
+# 18.66.248.33
+# 35.244.67.249
+# 18.66.248.26
+0.0.0.0 b.scorecardresearch.com # Ingame-Tracking, persistente Cookies
+#0.0.0.0 www.shuyansaga.com
+0.0.0.0 facebook.com
 #0.0.0.0 twitter.com
+0.0.0.0 www.contactcollection.com
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 googleads.g.doubleclick.net
 
 # Logic Artists
 # Expeditions: Vikings
@@ -34654,11 +35529,14 @@ ff02::3 ip6-allhosts
 
 # Suspicious Developments
 # Morphblade
-# + Twitter & Youtube - bei aktivem Seitenauf
-0.0.0.0 www.google-analytics.com
-0.0.0.0 www.pentadact.com
-0.0.0.0 typodermicfonts.com
-0.0.0.0 www.floatingpointgame.com
+# + Twitter, Youtube & Facebook - bei aktivem Seitenauf
+# 50.87.139.143, 94.136.40.82, 157.240.14.35
+#0.0.0.0 www.pentadact.com
+#0.0.0.0 www.floatingpointgame.com
+#0.0.0.0 spaceships.cool
+0.0.0.0 www.facebook.com
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 www-googletagmanager.l.google.com
 
 # System Era Softworks
 # Astroneer | Aktualisiert: 17.02.19
@@ -37442,7 +38320,20 @@ ff02::3 ip6-allhosts
 #0.0.0.0 pfmsqos.westus.cloudapp.azure.com
 
 # Sunset Overdrive
+# 100.20.24.60
+# 44.239.239.227
+# 52.37.126.114
+# 35.161.94.205
+# 34.211.63.128
+# 35.167.87.43
+# 54.191.222.177
+# 54.148.121.91
+# 44.240.115.254
+# 44.240.18.148
+# 54.149.17.93
 0.0.0.0 558C.playfabapi.com # Playfabtracking und Bestenlisten
+0.0.0.0 mathmakers.s3.amazonaws.com
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
 # Super Lucky's Tale
 0.0.0.0 acorn-int.maelstrom.gameservices.xboxlive.com
