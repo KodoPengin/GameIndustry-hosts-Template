@@ -14180,7 +14180,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 content-signature.cdn.mozilla.net
 0.0.0.0 push.services.mozilla.com
 0.0.0.0 autopush.prod.mozaws.net
-0.0.0.0 classify-client.services.mozilla.com
+0.0.0.0 classify-client.services.mozilla.com # Geolokalisierung, Zeitstempel
 0.0.0.0 mitmdetection.services.mozilla.com
 0.0.0.0 content-signature-2.cdn.mozilla.net
 #0.0.0.0 prod-tp.sumo.mozit.cloud # support.mozilla.org
@@ -19151,6 +19151,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 targaubs.com
 0.0.0.0 tathitch.net
 0.0.0.0 tc.tradetracker.net
+0.0.0.0 tcp.whoer.net
 0.0.0.0 td.yieldify.com
 0.0.0.0 tdirec.com
 0.0.0.0 tdpages.com
@@ -26512,9 +26513,12 @@ ff02::3 ip6-allhosts
 
 # Dry Cactus
 # Poly Bridge
-0.0.0.0 public.cloud.unity3d.com
+# 159.203.200.15
+# 151.101.12.193
 0.0.0.0 stats.drycactus.com
-0.0.0.0 perf-events.cloud.unity3d.com
+#0.0.0.0 api.gallery.drycactus.com
+#0.0.0.0 i.imgur.com
+0.0.0.0 ipv4.imgur.map.fastly.net
 
 # DryGin Studios
 # Bio Inc. Redemption
@@ -26536,7 +26540,6 @@ ff02::3 ip6-allhosts
 # dtp entertainment AG
 # The cursed Crusade
 # Ip/s blockieren:
-# 208.64.200.105
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
