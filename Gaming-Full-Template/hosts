@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 08.11.2021
+# Änderungsdatum: 16.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -2402,6 +2402,17 @@ ff02::3 ip6-allhosts
 
 # Alexander Goodwin
 # Mechanism
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -7302,6 +7313,17 @@ ff02::3 ip6-allhosts
 
 # Food dream factory
 # 美食梦工厂：研发美食开心制作糖果模拟经营养成
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -8063,6 +8085,17 @@ ff02::3 ip6-allhosts
 
 # GiKugikuGame
 # Piopupu
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -9843,13 +9876,17 @@ ff02::3 ip6-allhosts
 
 # Khokhlov
 # Nyan Destroyer
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -10336,19 +10373,27 @@ ff02::3 ip6-allhosts
 # Lofty Sky Entertainment Inc.
 # Shuyan Saga™
 # Facebook Anbindung
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-# Über das Spiel aufgerufene Webseiten
-0.0.0.0 www.shuyansaga.com
-0.0.0.0 www.google-analytics.com
+# 104.244.42.193
+# 157.240.20.35
+# 142.250.186
+# 64.233.161.154
+# 142.250.185.194
+# 142.250.186.66
+# 13.35.253.75
+# 18.66.248.71
+# 18.66.248.43
+# 18.66.248.33
+# 35.244.67.249
+# 18.66.248.26
+0.0.0.0 b.scorecardresearch.com # Ingame-Tracking, persistente Cookies
+#0.0.0.0 www.shuyansaga.com
+0.0.0.0 facebook.com
 #0.0.0.0 twitter.com
+0.0.0.0 www.contactcollection.com
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 googleads.g.doubleclick.net
 
 # Logic Artists
 # Expeditions: Vikings
@@ -15389,11 +15434,14 @@ ff02::3 ip6-allhosts
 
 # Suspicious Developments
 # Morphblade
-# + Twitter & Youtube - bei aktivem Seitenauf
-0.0.0.0 www.google-analytics.com
-0.0.0.0 www.pentadact.com
-0.0.0.0 typodermicfonts.com
-0.0.0.0 www.floatingpointgame.com
+# + Twitter, Youtube & Facebook - bei aktivem Seitenauf
+# 50.87.139.143, 94.136.40.82, 157.240.14.35
+#0.0.0.0 www.pentadact.com
+#0.0.0.0 www.floatingpointgame.com
+#0.0.0.0 spaceships.cool
+0.0.0.0 www.facebook.com
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 www-googletagmanager.l.google.com
 
 # System Era Softworks
 # Astroneer | Aktualisiert: 17.02.19
@@ -18177,7 +18225,20 @@ ff02::3 ip6-allhosts
 #0.0.0.0 pfmsqos.westus.cloudapp.azure.com
 
 # Sunset Overdrive
+# 100.20.24.60
+# 44.239.239.227
+# 52.37.126.114
+# 35.161.94.205
+# 34.211.63.128
+# 35.167.87.43
+# 54.191.222.177
+# 54.148.121.91
+# 44.240.115.254
+# 44.240.18.148
+# 54.149.17.93
 0.0.0.0 558C.playfabapi.com # Playfabtracking und Bestenlisten
+0.0.0.0 mathmakers.s3.amazonaws.com
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
 # Super Lucky's Tale
 0.0.0.0 acorn-int.maelstrom.gameservices.xboxlive.com
