@@ -275,7 +275,7 @@
 # Futureplay
 # Idle City Empire
 0.0.0.0 graph.facebook.com
-0.0.0.0 android.clients.google.com
+#0.0.0.0 android.clients.google.com
 0.0.0.0 config.unityads.unity3d.com
 0.0.0.0 app-measurement.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -289,7 +289,6 @@
 0.0.0.0 t.appsflyer.com
 0.0.0.0 events.appsflyer.com
 0.0.0.0 wd.adcolony.com
-0.0.0.0 android.clients.google.com
 
 # GGDS
 # Idle Medieval Tycoon
@@ -373,7 +372,7 @@
 0.0.0.0 reports.crashlytics.com
 
 # Google LLC - Playstore
-0.0.0.0 android.clients.google.com # Ingamekäufe
+#0.0.0.0 android.clients.google.com # Ingamekäufe
 #0.0.0.0 android.googleapis.com # Wird für Playstoreanbindung benötigt
 #0.0.0.0 playatoms-pa.googleapis.com
 #0.0.0.0 play.googleapis.com
@@ -486,7 +485,7 @@
 0.0.0.0 supersonicads-a.akamaihd.net
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 mega.ikame.vn
-0.0.0.0 android.clients.google.com
+#0.0.0.0 android.clients.google.com
 0.0.0.0 cloudconfig.googleapis.com
 0.0.0.0 app-measurement.com
 0.0.0.0 adc3-launch.adcolony.com
@@ -546,7 +545,7 @@
 # MX Player
 0.0.0.0 e.crashlytics.com
 0.0.0.0 graph.facebook.com
-0.0.0.0 android.clients.google.com
+#0.0.0.0 android.clients.google.com
 0.0.0.0 i.mxplayer.j2inter.com
 0.0.0.0 settings.crashlytics.com
 0.0.0.0 ade.clmbtech.com
@@ -923,7 +922,7 @@
 0.0.0.0 events.appsflyer.com
 0.0.0.0 t.appsflyer.com
 0.0.0.0 1170.content.swrve.com
-0.0.0.0 android.clients.google.com
+#0.0.0.0 android.clients.google.com
 0.0.0.0 404.playrix.com
 0.0.0.0 township-cdn-cf.playrix.com
 

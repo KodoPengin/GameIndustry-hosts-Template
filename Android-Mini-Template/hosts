@@ -357,7 +357,7 @@
 0.0.0.0 notifications-pa.googleapis.com
 0.0.0.0 performanceparameters.googleapis.com
 0.0.0.0 phonedeviceverification-pa.googleapis.com
-0.0.0.0 reminders-pa.googleapis.com
+#0.0.0.0 reminders-pa.googleapis.com
 0.0.0.0 safebrowsing.googleapis.com
 0.0.0.0 speechs3proto2-pa.googleapis.com
 # MessageNet
@@ -379,7 +379,7 @@
 0.0.0.0 alt8-mtalk.google.com
 0.0.0.0 alt8.mobile-gtalk.l.google.com
 # Playstore
-0.0.0.0 android.clients.google.com # Bestandteil von Ingamekäufen/Bezahlhistorie
+#0.0.0.0 android.clients.google.com # Bestandteil von Ingamekäufen/Bezahlhistorie
 #0.0.0.0 play.googleapis.com
 #0.0.0.0 play-fe.googleapis.com
 #0.0.0.0 playatoms-pa.googleapis.com
