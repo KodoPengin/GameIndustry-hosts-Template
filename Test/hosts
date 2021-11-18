@@ -2,7 +2,7 @@
 # Entries will be integrated into the main files after testing... sooner or later :]
 # New entries captured from Android 11
 
-# Aktualisiert: 12.10.2021
+# Aktualisiert: 18.11.2021
 
 # Amazon.com, Inc.
 0.0.0.0 d2c3tmv7yw6ejm.cloudfront.net
@@ -17,6 +17,16 @@
 0.0.0.0 ulp1p-pa.googleapis.com
 0.0.0.0 geller-pa.googleapis.com
 0.0.0.0 play-lh.googleusercontent.com
+0.0.0.0 content-autofill.googleapis.com
+0.0.0.0 android-safebrowsing.google.com
+0.0.0.0 r3---sn-5hne6nzs.gvt1.com
+0.0.0.0 r1---sn-5hnekn7z.gvt1.com
+0.0.0.0 r3.sn-5hne6nzs.gvt1.com
+0.0.0.0 r1.sn-5hnekn7z.gvt1.com
+0.0.0.0 r1---sn-5hne6ns6.gvt1.com
+0.0.0.0 r1.sn-5hne6ns6.gvt1.com
+0.0.0.0 voledevice-pa.googleapis.com
+0.0.0.0 gmscompliance-pa.googleapis.com
 
 # Microsoft Corporation
 0.0.0.0 onedscolprdeus00.eastus.cloudapp.azure.com
