@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Kombinierbar mit dem Hosts Template für Androidspiele und Programme - Spezifisch
-# Änderungsdatum: 07.10.2021
+# Änderungsdatum: 18.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -435,12 +435,22 @@
 0.0.0.0 clients2.google.com # z.b. für Addondownloads in Chrome, Ping, Crashback Logdateien uvm
 #0.0.0.0 clients3.google.com
 0.0.0.0 clients4.google.com
+# GVT1 & 2
+0.0.0.0 redirector.gvt1.com
+0.0.0.0 beacons.gvt2.com
+0.0.0.0 beacons3.gvt2.com
+0.0.0.0 beacons4.gvt2.com
+0.0.0.0 r3---sn-5hne6nzs.gvt1.com
+0.0.0.0 r1---sn-5hnekn7z.gvt1.com
+0.0.0.0 r3.sn-5hne6nzs.gvt1.com
+0.0.0.0 r1.sn-5hnekn7z.gvt1.com
+0.0.0.0 r1---sn-5hne6ns6.gvt1.com
+0.0.0.0 r1.sn-5hne6ns6.gvt1.com
 # Google Kram
 0.0.0.0 mobile-gtalk.l.google.com
 0.0.0.0 supl.google.com
 0.0.0.0 connectivitycheck.gstatic.com
 0.0.0.0 sb.l.google.com
-0.0.0.0 redirector.gvt1.com
 
 # Haloapps.com
 0.0.0.0 i.haloapps.com
