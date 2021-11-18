@@ -13061,7 +13061,7 @@ ff02::3 ip6-allhosts
 # 2.18.105.186
 0.0.0.0 vortex.data.microsoft.com
 0.0.0.0 asimov.vortex.data.trafficmanager.net
-0.0.0.0 go.microsoft.com
+#0.0.0.0 go.microsoft.com
 0.0.0.0 az667904.vo.msecnd.net
 
 # Visual Studio - servicehub.identityhost.exe
