@@ -12,7 +12,7 @@
 <br />
 
 ## 📝 Project Description
-Business analytics, spyware, tracking cookies in games and clients and thus partly self-legitimized data theft are often wide accepted these days.
+Business analytics, spyware, tracking cookies in games and clients and thus partly self-legitimized data theft are often wide accepted these days and are often imposed on consumers on a "eat or die" basis.
 
 My published host files can offer an enhanced privacy to protect users from tracking, spyware, telemetry, malware, advertising and redirections in games, on websites and in regulary programs on desktop and mobile systems.
 
@@ -92,7 +92,7 @@ Careful with using entries. Some may be strict and many services may not work
 Even me is not perfect and there may be wrong entries or spelling mistakes. If so, do not hesitate to contact me ASAP - Please open a ticket, contact me in Steam or about my website. Corrections (if needed) are quickly implemented.
 
 ## © Copyright, Support & License
-It's a single project. Creating and maintaining the list has taken several years a lot of money and have build alone from scratch.<br><br>
+There is only one person behind the entire project. Creating and maintaining the list has taken several years a lot of money and have build alone from scratch.<br><br>
 GameIndustry.eu is the original source of published host files. If the files (or components) are from somewhere else (maybe modified), they are not from me and get no support.
 
 Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a> and <a href="https://www.gameindustry.eu/u/kontakt/">Contact site</a><br>
@@ -105,6 +105,6 @@ Imposters and thiefs like "Chef-Koch" can go to hell. Using other people's work 
 
 There are not for nothing notes about licenses and copyrights on my published content.
 
-Reports can posted here or via the indicated contact options.
+Reports of violations can be posted here or through the contact options provided.
 
 Thanks
