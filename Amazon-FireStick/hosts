@@ -10,7 +10,7 @@
 #
 # Version: Amazon FireStick und App-Verbindungen
 # Kombinierbar mit anderen Host Templates und PI-Hole
-# Änderungsdatum: 11.10.2021
+# Änderungsdatum: 18.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -52,6 +52,7 @@
 0.0.0.0 aax-eu.amazon-adsystem.com
 0.0.0.0 aca-livecards-service-eu.amazon.com
 0.0.0.0 aftv-25-amazon-aftmm-4.eu.api.amazonvideo.com
+0.0.0.0 ags-ext.amazon.com
 0.0.0.0 alexa.amazon.de
 0.0.0.0 andr-25-aftmm-0.api.amazonvideo.com
 0.0.0.0 andr-25-aftmm-633004410.api.amazonvideo.com
@@ -79,6 +80,7 @@
 0.0.0.0 drive.amazonaws.com
 0.0.0.0 endeavour.amazon.com
 0.0.0.0 eu.prism.digital.amazon.dev
+0.0.0.0 firebat-25-aftmm-291945.eu.api.amazonvideo.com
 0.0.0.0 fireoscaptiveportal.com # Pingback
 0.0.0.0 firetvcaptiveportal.com # Pingback
 0.0.0.0 firs-ta-g7g.amazon.com
@@ -100,13 +102,20 @@
 0.0.0.0 unagi-na.amazon.com # Sprachaufnahme / Alexa
 0.0.0.0 wl.amazon-dss.com
 
-# Firestick - Streaming, Teaser usw.
+# Firestick - Streaming, Teaser, Untertitel usw.
+# Videowerbung von Prime zu blocken ist hier nicht möglich
 #0.0.0.0 api.eu-west-1.aiv-delivery.net
-#0.0.0.0 cf-trickplay.aux.pv-cdn.net
-#0.0.0.0 s3-dub-2.cf.dash.row.aiv-cdn.net
-#0.0.0.0 s3-dub-2.cf.trailer.row.aiv-cdn.net
+0.0.0.0 cf-trickplay.aux.pv-cdn.net
+#0.0.0.0 cf-timedtext.aux.pv-cdn.net # Untertitel
+0.0.0.0 s3-iad-2.cf.trailer.row.aiv-cdn.net
+0.0.0.0 s3-dub-2.cf.trailer.row.aiv-cdn.net
 #0.0.0.0 s3-dub-2.cf.videorolls.row.aiv-cdn.net
-#0.0.0.0 ters.eu-west-1.aiv-delivery.net
+0.0.0.0 ters.eu-west-1.aiv-delivery.net
+#0.0.0.0 ab2xb7ra6e44.eu.api.amazonvideo.com
+#0.0.0.0 a107avoddashs3ww-a.akamaihd.net
+#0.0.0.0 a38avoddashs3ww-a.akamaihd.net
+#0.0.0.0 s3-dub-2.cf.dash.row.aiv-cdn.net
+#0.0.0.0 m-2543s3.ll.dash.row.aiv-cdn.net
 
 # Firestick - Drittanbieter
 
