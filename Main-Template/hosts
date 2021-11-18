@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 16.11.2021
+# Änderungsdatum: 18.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -13021,14 +13021,96 @@ ff02::3 ip6-allhosts
 0.0.0.0 asimov.vortex.data.trafficmanager.net
 
 # Visual Studio
-# Microsoft.ServiceHub.Controller.exe, vs_installershell.exe
-0.0.0.0 az667904.vo.msecnd.net # TelemetryAPI /vs/telemetryapi/session/initialized
-0.0.0.0 az700632.vo.msecnd.net
+# Visual Studio - backgrounddownload.exe
+# 20.42.128.98 152.199.19.161 23.72.60.14
 0.0.0.0 targetednotifications-tm.trafficmanager.net
-0.0.0.0 vsstartpage.blob.core.windows.net
-0.0.0.0 visualstudio-devdiv-c2s.msedge.net
+#0.0.0.0 go.microsoft.com
+0.0.0.0 az667904.vo.msecnd.net
+#0.0.0.0 download.visualstudio.microsoft.com
+#0.0.0.0 aka.ms
+
+# Visual Studio - devenv.exe
+# 2.18.105.186
+# 152.199.19.161
+# 23.43.29.216
+#0.0.0.0 go.microsoft.com
+#0.0.0.0 az700632.vo.msecnd.net # Remotesettings
+0.0.0.0 az667904.vo.msecnd.net # /pub/Dev14/v2/dyntelconfig.json & /vs/telemetryapi/session/initialized
+# Ip/s blockieren:
+# 93.184.220.29
+#0.0.0.0 ocsp.digicert.com
+# Ip/s blockieren:
+# 13.107.5.88
+# 52.138.227.130
+# 13.69.229.240
+# 13.69.233.0
+# 20.50.201.200
+0.0.0.0 visualstudio-devdiv-c2s.msedge.net # AB
 0.0.0.0 dc.services.visualstudio.com # /v2/track
+0.0.0.0 browser.events.data.microsoft.com
+# 52.239.161.42
+0.0.0.0 webpifeed.blob.core.windows.net # /webpifeed/Partners/ToolingSupportDefaults_2167114.json & /webpifeed/Partners/SettingsMuxer_2162352.json
+# 152.199.23.37
+# 20.190.159.138
+#0.0.0.0 aadcdn.msftauth.net
+#0.0.0.0 login.microsoftonline.com
+#0.0.0.0 login.live.com
+
+# Visual Studio - perfwatson2.exe
+# 40.77.226.250
+# 2.18.105.186
 0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 asimov.vortex.data.trafficmanager.net
+0.0.0.0 go.microsoft.com
+0.0.0.0 az667904.vo.msecnd.net
+
+# Visual Studio - servicehub.identityhost.exe
+# 13.69.229.240
+0.0.0.0 dc.services.visualstudio.com
+0.0.0.0 az667904.vo.msecnd.net
+
+# Visual Studio - servicehub.vsdetouredhost.exe
+# 152.199.19.161
+# 2.18.105.186
+#0.0.0.0 az700632.vo.msecnd.net
+#0.0.0.0 go.microsoft.com
+
+# Visual Studio - servicehub.vsdetouredhost.exe - Erweiterungen / Marktplatz / Updates
+# 13.107.42.18
+# 68.232.34.200
+# 13.107.6.175
+# 23.72.60.14
+#0.0.0.0 marketplace.visualstudio.com
+#0.0.0.0 ms-vsliveshare.gallerycdn.vsassets.io
+#0.0.0.0 mlnet.gallerycdn.vsassets.io
+#0.0.0.0 mlnet.gallery.vsassets.io
+#0.0.0.0 go.microsoft.com
+
+# Visual Studio - vsixinstaller.exe
+# 13.69.229.240
+# 40.78.229.32
+# 184.30.21.171
+# 40.77.226.250
+# 68.232.34.200
+0.0.0.0 dc.services.visualstudio.com
+#0.0.0.0 www.microsoft.com
+0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 asimov.vortex.data.trafficmanager.net
+#0.0.0.0 cs10.wpc.v0cdn.net # Endpunkt download.visualstudio.microsoft.com
+#0.0.0.0 download.visualstudio.microsoft.com
+
+# Visual Studio - servicehub.roslyncodeanalysisservice.exe
+# Ip/s blockieren:
+# 152.199.19.161
+0.0.0.0 cs9.wpc.v0cdn.net
+
+# Visual Studio - Rest
+#0.0.0.0 e11290.dspg.akamaiedge.net # verweist auf go.microsoft.com
+#0.0.0.0 go.microsoft.com # /fwlink/?LinkId=690387 verweist auf targetednotifications-tm.trafficmanager.net
+0.0.0.0 targetednotifications-tm.trafficmanager.net # /api/values
+0.0.0.0 vsstartpage.blob.core.windows.net
+0.0.0.0 vortex.data.microsoft.com # /collect/v1
+0.0.0.0 cs9.wpc.v0cdn.net
 
 # Watson | wermgr.exe | NewsEdge server | Windows Problem Reporting
 # Ip/s blockieren:
@@ -13182,6 +13264,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 statics.teams.cdn.office.net
 
 # Windows 11 - GamingServices - gamingservices.exe
+# 23.213.161.17
 # 2.16.107.32
 # 2.16.107.107
 # 2.16.107.83
@@ -21321,7 +21404,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ins1.battleye.com # Aus dem Spiel Insurgency
 #0.0.0.0 ns3081506.ip-145-239-8.eu
 
-# Kamu Game Security
+# Kamu Game Security | Epic Games, Inc.
 # HYDRA Easy Anti-Cheat
 # Dazugehörige IP-Adressen unter https://gameindustry.eu/artikel/easy-anti-cheat/
 #0.0.0.0 download-alt.easyanticheat.net
@@ -21331,8 +21414,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com
 #0.0.0.0 download.eac-cdn.com
 #0.0.0.0 download-eu.eac-cdn.com
-0.0.0.0 hydra.easyanticheat.net
-0.0.0.0 hydra-eu-lb-618151913.eu-west-1.elb.amazonaws.com
+#0.0.0.0 hydra.easyanticheat.net
+#0.0.0.0 hydra-eu-lb-618151913.eu-west-1.elb.amazonaws.com
 #0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
 #0.0.0.0 hydra.easyanticheat.netgamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
 0.0.0.0 d168vncdejh91z.cloudfront.net
