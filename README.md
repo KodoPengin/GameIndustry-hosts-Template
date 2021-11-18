@@ -2,6 +2,14 @@
 <h3 align="center">Unique host templates to enhance own privacy in games, websites and regulary software</h3>
 
 <br /><br />
+	
+<h3 align="center">
+  <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/issues">Report a bug</a>
+  <span> · </span>
+  Support: <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/discussions">Discussions</a>
+</h3>
+
+<br /><br />
 
 ## 📝 Project Description
 Business analytics, spyware, tracking cookies in games and clients and thus partly self-legitimized data theft are often wide accepted these days.
@@ -34,7 +42,7 @@ No third party programs or complicated or expensive installation media (PI) are 
 
 And many more on gameindustry.eu
 
-## 🕮 Installation
+## 📖 Installation
 Please keep in mind that the hosts may be read-only or require root privileges depending on your system
 ### Copy and paste:
 - Open the file on Github, "Save as hosts" without any suffix... and copy the file to one of the listed directories. 
