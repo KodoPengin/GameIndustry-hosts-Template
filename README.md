@@ -1,7 +1,7 @@
 <h1 align="center">GameIndustry host Templates</h1>
 <h3 align="center">Unique host templates to enhance own privacy in games, websites and regulary software</h3>
 
-<br /><br />
+<br />
 	
 <h3 align="center">
   <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/issues">Report a bug</a>
@@ -9,7 +9,7 @@
   Support: <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/discussions">Discussions</a>
 </h3>
 
-<br /><br />
+<br />
 
 ## 📝 Project Description
 Business analytics, spyware, tracking cookies in games and clients and thus partly self-legitimized data theft are often wide accepted these days.
