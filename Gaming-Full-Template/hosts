@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 16.11.2021
+# Änderungsdatum: 18.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1227,7 +1227,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ins1.battleye.com # Aus dem Spiel Insurgency
 #0.0.0.0 ns3081506.ip-145-239-8.eu
 
-# Kamu Game Security
+# Kamu Game Security | Epic Games, Inc.
 # HYDRA Easy Anti-Cheat
 # Dazugehörige IP-Adressen unter https://gameindustry.eu/artikel/easy-anti-cheat/
 #0.0.0.0 download-alt.easyanticheat.net
@@ -1237,8 +1237,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com
 #0.0.0.0 download.eac-cdn.com
 #0.0.0.0 download-eu.eac-cdn.com
-0.0.0.0 hydra.easyanticheat.net
-0.0.0.0 hydra-eu-lb-618151913.eu-west-1.elb.amazonaws.com
+#0.0.0.0 hydra.easyanticheat.net
+#0.0.0.0 hydra-eu-lb-618151913.eu-west-1.elb.amazonaws.com
 #0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
 #0.0.0.0 hydra.easyanticheat.netgamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
 0.0.0.0 d168vncdejh91z.cloudfront.net
@@ -6419,9 +6419,12 @@ ff02::3 ip6-allhosts
 
 # Dry Cactus
 # Poly Bridge
-0.0.0.0 public.cloud.unity3d.com
+# 159.203.200.15
+# 151.101.12.193
 0.0.0.0 stats.drycactus.com
-0.0.0.0 perf-events.cloud.unity3d.com
+#0.0.0.0 api.gallery.drycactus.com
+#0.0.0.0 i.imgur.com
+0.0.0.0 ipv4.imgur.map.fastly.net
 
 # DryGin Studios
 # Bio Inc. Redemption
@@ -6443,7 +6446,6 @@ ff02::3 ip6-allhosts
 # dtp entertainment AG
 # The cursed Crusade
 # Ip/s blockieren:
-# 208.64.200.105
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
