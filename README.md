@@ -1,17 +1,12 @@
 <h1 align="center">GameIndustry host Templates</h1>
 <h3 align="center">Unique host templates to enhance own privacy in games, websites and regulary software</h3>
 
-# Description
+## Project Description
 Business analytics, spyware, tracking cookies in games and clients and thus partly self-legitimized data theft are often wide accepted these days.
 
-My published host files can offer an enhanced privacy to protect users from tracking, spyware, malware, advertising and redirections in games, on websites and in regulary programs.
+My published host files can offer an enhanced privacy to protect users from tracking, spyware, telemetry, malware, advertising and redirections in games, on websites and in regulary programs.
 
-### Host versions
-- Main Template: software, websites, drivers, technology companys, gaming clients, games and more
-- Gaming Mini-Template: Blocked most common game analytics, spyware and advertising services in PC games. Nothing else
-- Gaming Full-Template: Blocked telemetry, game analytics, spyware and unnecessary connections for Gaming Clients and Games on and for several platforms.
-- Android Mini-Template: Blocked most common game analytics, advertising, spyware and advertising services in Android games and software
-- Android Full-Template: Blocked telemetry, advertising, game analytics, spyware and unnecessary connections for several Android products. Product related without exception
+No third party programs or complicated or expensive installation media (PI) are required
 
 ### Special features:
 - Works on any device. System-wide
@@ -28,8 +23,17 @@ My published host files can offer an enhanced privacy to protect users from trac
 - All products are seperated, to show consumers which things belong to which product
 - Additional Ipv4 and Ipv6 entries to block them in your firewall
 
+### Host versions
+- Main Template: software, websites, drivers, technology companys, gaming clients, games and more
+- Gaming Mini-Template: Blocked most common game analytics, spyware and advertising services in PC games. Nothing else
+- Gaming Full-Template: Blocked telemetry, game analytics, spyware and unnecessary connections for Gaming Clients and Games on and for several platforms.
+- Android Mini-Template: Blocked most common game analytics, advertising, spyware and advertising services in Android games and software
+- Android Full-Template: Blocked telemetry, advertising, game analytics, spyware and unnecessary connections for several Android products. Product related without exception
+
+And many more on gameindustry.eu
+
 ## Installation
-Keep in mind that the hosts may be read-only or require root privileges depending on your system
+Please keep in mind that the hosts may be read-only or require root privileges depending on your system
 ### Copy and paste:
 - Open the file on Github, "Save as hosts" and copy the file to one of the following directories
 - As an alternative to "save as" it is also possible to copy the page content and paste it into an existing file
@@ -39,7 +43,7 @@ Linux: /etc/hosts<br>
 Android: /etc/hosts (a symbolic link to /system/etc/hosts)
 
 <p float="left">
-<img src="https://www.gameindustry.eu/images/git/saveashosts.jpg" alt="Save as hosts" width="400" height="363">
+<img src="https://www.gameindustry.eu/images/git/saveashosts.webp" alt="Save as hosts" width="400" height="363">
 </p>
 
 ## Easy to use Setup file:
