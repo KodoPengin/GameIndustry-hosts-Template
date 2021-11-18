@@ -436,16 +436,17 @@
 #0.0.0.0 clients3.google.com
 0.0.0.0 clients4.google.com
 # GVT1 & 2
-0.0.0.0 redirector.gvt1.com
+0.0.0.0 beacons-handoff.gcp.gvt2.com
 0.0.0.0 beacons.gvt2.com
 0.0.0.0 beacons3.gvt2.com
 0.0.0.0 beacons4.gvt2.com
-0.0.0.0 r3---sn-5hne6nzs.gvt1.com
-0.0.0.0 r1---sn-5hnekn7z.gvt1.com
-0.0.0.0 r3.sn-5hne6nzs.gvt1.com
-0.0.0.0 r1.sn-5hnekn7z.gvt1.com
 0.0.0.0 r1---sn-5hne6ns6.gvt1.com
+0.0.0.0 r1---sn-5hnekn7z.gvt1.com
 0.0.0.0 r1.sn-5hne6ns6.gvt1.com
+0.0.0.0 r1.sn-5hnekn7z.gvt1.com
+0.0.0.0 r3---sn-5hne6nzs.gvt1.com
+0.0.0.0 r3.sn-5hne6nzs.gvt1.com
+0.0.0.0 redirector.gvt1.com
 # Google Kram
 0.0.0.0 mobile-gtalk.l.google.com
 0.0.0.0 supl.google.com
