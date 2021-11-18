@@ -7,6 +7,8 @@
   <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/issues">Fehler melden</a>
   <span> · </span>
   Support: <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/discussions">Diskussionen</a>
+  <span> · </span>
+  <a href="../README.md">Deutsch</a>
 </h3>
 
 <br />
