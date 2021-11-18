@@ -1,6 +1,6 @@
 <h1 align="center">GameIndustry host Templates</h1>
 <h3 align="center">Unique host templates to enhance own privacy in games, websites and regulary software</h3>
-
+<br><br>
 ## Project Description
 Business analytics, spyware, tracking cookies in games and clients and thus partly self-legitimized data theft are often wide accepted these days.
 
@@ -35,7 +35,7 @@ And many more on gameindustry.eu
 ## Installation
 Please keep in mind that the hosts may be read-only or require root privileges depending on your system
 ### Copy and paste:
-- Open the file on Github, "Save as hosts" and copy the file to one of the following directories
+- Open the file on Github, "Save as hosts" without any suffix... and copy the file to one of the listed directories
 - As an alternative to "save as" it is also possible to copy the page content and paste it into an existing file
 
 Windows: %SystemRoot%\System32\drivers\etc\hosts<br>
