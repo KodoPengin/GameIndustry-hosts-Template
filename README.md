@@ -2,7 +2,7 @@
 <h3 align="center">Unique host templates to enhance own privacy in games, websites and regulary software</h3>
 
 <br />
-	
+
 <h3 align="center">
   <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/issues">Report a bug</a>
   <span> · </span>
@@ -14,7 +14,7 @@
 ## 📝 Project Description
 Business analytics, spyware, tracking cookies in games and clients and thus partly self-legitimized data theft are often wide accepted these days.
 
-My published host files can offer an enhanced privacy to protect users from tracking, spyware, telemetry, malware, advertising and redirections in games, on websites and in regulary programs.
+My published host files can offer an enhanced privacy to protect users from tracking, spyware, telemetry, malware, advertising and redirections in games, on websites and in regulary programs on desktop and mobile systems.
 
 No third party programs or complicated or expensive installation media (PI) are required
 
