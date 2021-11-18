@@ -10,12 +10,12 @@
   <span> · </span>
   <a href="../README.md">Englisch</a>
 </h3>
- <p align="center">
+
    [![](https://img.shields.io/github/watchers/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff)](https://github.com/KodoPengin/GameIndustry-hosts-Template/watchers)
    [![](https://img.shields.io/github/stars/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff)](https://github.com/KodoPengin/GameIndustry-hosts-Template/stargazers)
    [![](https://img.shields.io/github/forks/KodoPengin/GameIndustry-hosts-Template.svg?style=flat)](https://github.com/KodoPengin/GameIndustry-hosts-Template/network/members)
    [![](https://img.shields.io/github/issues/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff)](https://github.com/KodoPengin/GameIndustry-hosts-Template/issues)
-  </p>
+
 <br />
 
 ## 📝 Projektbeschreibung
