@@ -26,7 +26,7 @@ No third party programs or complicated or expensive installation media (PI) are 
 - Entries for Software, games, websites and IoT
 - Privacy breaking tech companies like Facebook are blocked
 - A large part of the outgoing connections from Windows (xx) and Microsoft games were blocked
-- Strict and no exceptions for big companies (blocked Facebook as example)
+- Strict and no exceptions for big companies
 - Modular design - Take entries you need
 - All entries are categorized by Product names, Publisher, website & company names
 - Comments and additional information for several entries (german language)
