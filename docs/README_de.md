@@ -10,12 +10,20 @@
   <span> · </span>
   <a href="../README.md">Englisch</a>
 </h3>
-
-   [![](https://img.shields.io/github/watchers/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff)](https://github.com/KodoPengin/GameIndustry-hosts-Template/watchers)
-   [![](https://img.shields.io/github/stars/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff)](https://github.com/KodoPengin/GameIndustry-hosts-Template/stargazers)
-   [![](https://img.shields.io/github/forks/KodoPengin/GameIndustry-hosts-Template.svg?style=flat)](https://github.com/KodoPengin/GameIndustry-hosts-Template/network/members)
-   [![](https://img.shields.io/github/issues/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff)](https://github.com/KodoPengin/GameIndustry-hosts-Template/issues)
-
+ <p align="center">
+    <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/watchers">
+    <img alt="Watchers" src="https://img.shields.io/github/watchers/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" />
+    </a>
+    <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" />
+    </a>
+    <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/network/members">
+    <img alt="Mitglieder" src="https://img.shields.io/github/forks/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" />
+    </a>
+    <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/issues">
+    <img alt="Gemeldete Fehler" src="https://img.shields.io/github/issues/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" />
+    </a>
+  </p>
 <br />
 
 ## 📝 Projektbeschreibung
