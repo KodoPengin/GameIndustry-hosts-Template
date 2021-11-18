@@ -3,7 +3,7 @@
 
 <br /><br />
 
-## Project Description
+## 📝 Project Description
 Business analytics, spyware, tracking cookies in games and clients and thus partly self-legitimized data theft are often wide accepted these days.
 
 My published host files can offer an enhanced privacy to protect users from tracking, spyware, telemetry, malware, advertising and redirections in games, on websites and in regulary programs.
@@ -34,10 +34,10 @@ No third party programs or complicated or expensive installation media (PI) are 
 
 And many more on gameindustry.eu
 
-## Installation
+## 🕮 Installation
 Please keep in mind that the hosts may be read-only or require root privileges depending on your system
 ### Copy and paste:
-- Open the file on Github, "Save as hosts" without any suffix... and copy the file to one of the listed directories
+- Open the file on Github, "Save as hosts" without any suffix... and copy the file to one of the listed directories. 
 - As an alternative to "save as" it is also possible to copy the page content and paste it into an existing file
 
 Windows: %SystemRoot%\System32\drivers\etc\hosts<br>
@@ -77,13 +77,13 @@ Safety does not automatically mean safety in the way we as end users imagine it.
 ### Notice to Valve Corporation's GDS connections - Oct. 2021
 This service is definitely superfluous. Entries can be ignored and can be deleted by "Search and Replace" functions. 400 products are affected.
 
-## Hints:
+## ❗ Hints:
 Careful with using entries. Some may be strict and many services may not work
 
-## Bugs, Mistakes, questions:
+## 🐞 Bugs, Mistakes, questions:
 Even me is not perfect and there may be wrong entries or spelling mistakes. If so, do not hesitate to contact me ASAP - Please open a ticket, contact me in Steam or about my website. Corrections (if needed) are quickly implemented.
 
-## Copyright, Support & License
+## ©️ Copyright, Support & License
 It's a single project. Creating and maintaining the list has taken several years a lot of money and have build alone from scratch.<br><br>
 GameIndustry.eu is the original source of published host files. If the files (or components) are from somewhere else (maybe modified), they are not from me and get no support.
 
@@ -92,7 +92,7 @@ Steam Group & Support: <a href="https://steamcommunity.com/groups/penguindome/">
 
 License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons by-nc-sa 4.0</a>
 
-## Copycats and thiefs
+## 🚨 Copycats and thiefs
 Imposters and thiefs like "Chef-Koch" can go to hell. Using other people's work and passes off other people's work as own creation is the lowest. Especially then if act too stupidly.
 
 There are not for nothing notes about licenses and copyrights on my published content.
