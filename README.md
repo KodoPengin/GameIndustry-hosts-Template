@@ -91,7 +91,7 @@ Careful with using entries. Some may be strict and many services may not work
 ## 🐞 Bugs, Mistakes, questions:
 Even me is not perfect and there may be wrong entries or spelling mistakes. If so, do not hesitate to contact me ASAP - Please open a ticket, contact me in Steam or about my website. Corrections (if needed) are quickly implemented.
 
-## ©️ Copyright, Support & License
+## © Copyright, Support & License
 It's a single project. Creating and maintaining the list has taken several years a lot of money and have build alone from scratch.<br><br>
 GameIndustry.eu is the original source of published host files. If the files (or components) are from somewhere else (maybe modified), they are not from me and get no support.
 
