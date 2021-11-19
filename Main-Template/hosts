@@ -13304,7 +13304,7 @@ ff02::3 ip6-allhosts
 # 204.79.197.219
 #0.0.0.0 a-0003.a-msedge.net # api.msn.com
 0.0.0.0 a-0003.dc-msedge.net
-0.0.0.0 a-0016.a-msedge.net
+#0.0.0.0 a-0016.a-msedge.net
 0.0.0.0 a-0016.dc-msedge.net
 # 52.184.220.11
 #0.0.0.0 api.cdp.dsp.mp.microsoft.com.nsatc.net # Microsoft Edge Update
