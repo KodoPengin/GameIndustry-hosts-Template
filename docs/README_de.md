@@ -15,7 +15,7 @@
     <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" /></a>
     <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/network/members"><img alt="Mitglieder" src="https://img.shields.io/github/forks/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" /></a>
     <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/issues"><img alt="Gemeldete Fehler" src="https://img.shields.io/github/issues/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" /></a>
-    <a href="https://gameindustry.eu/><img alt="GameIndustry.eu" src="https://img.shields.io/badge/website-available-blue.svg?color=0088ff" /></a>
+    <a href="https://gameindustry.eu"><img alt="Webseite" src="https://img.shields.io/website?url=https%3A%2F%2Fgameindustry.eu?color=0088ff" /></a>
   </p>
 <br />
 
