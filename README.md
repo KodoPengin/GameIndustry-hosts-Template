@@ -10,7 +10,20 @@
   <span> · </span>
   <a href="/docs/README_de.md">Deutsch</a>
 </h3>
-
+ <p align="center">
+    <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/watchers">
+    <img alt="Watchers" src="https://img.shields.io/github/watchers/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" />
+    </a>
+    <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" />
+    </a>
+    <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/network/members">
+    <img alt="Members" src="https://img.shields.io/github/forks/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" />
+    </a>
+    <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" />
+    </a>
+  </p>
 <br />
 
 ## 📝 Project Description
