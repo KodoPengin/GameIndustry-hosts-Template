@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 18.11.2021
+# Änderungsdatum: 19.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -47,13 +47,16 @@ ff02::3 ip6-allhosts
 # Einträge müssen nach eigenem Bedarf gelöscht oder auskommentiert werden!
 # Ipv4/6 Adressen werden optional mit angegeben.
 
-# Abelssoft GmbH
+# Abelssoft Ascora GmbH
 # Win10PrivacyFix
 # Weitere Produkte der Firma nach selbem Schema
 # 104.26.2.173
 # 104.26.1.177
-0.0.0.0 datahub.ascora.de # Telemetrieserver
+# 172.67.73.139
+0.0.0.0 datahub.ascora.de # Telemetrieserver, Newsletter, Registrierung
 0.0.0.0 key.abelssoft.de # Abgleich der Zwangsregistrierung
+0.0.0.0 go.abelssoft.de
+0.0.0.0 www.abelssoft.de
 
 # ACD Systems International Inc.
 # ACDSee Photo Studio Ultimate 2019
@@ -658,26 +661,24 @@ ff02::3 ip6-allhosts
 
 # DeepL GmbH
 # DeepL Software & Webseite
-# 151.139.128.14
-#0.0.0.0 ocsp.sectigo.com
-# 99.86.163.117
-# 31.15.115.70
-# 185.22.135.156
-0.0.0.0 sentry.deepl.com
-#0.0.0.0 download.deepl.com
-#0.0.0.0 www2.deepl.com
-#0.0.0.0 www.deepl.com
+#0.0.0.0 sentry.deepl.com
+#0.0.0.0 ocsp.digicert.com
+#0.0.0.0 crl3.digicert.com
+#0.0.0.0 crl4.digicert.com
+#0.0.0.0 cs9.wac.phicdn.net
 0.0.0.0 s.deepl.com
-0.0.0.0 w.deepl.com
-# Endpunkte
+#0.0.0.0 w.deepl.com
+#0.0.0.0 www.deepl.com
+#0.0.0.0 www2.deepl.com
+#0.0.0.0 static.deepl.com
+0.0.0.0 redirector.gvt1.com
+0.0.0.0 r1---sn-5hnedn7s.gvt1.com
+0.0.0.0 loft12103.serverprofi24.de
+# Endpunkte sentry.deepl.com
 #0.0.0.0 ff8d28cacfe549d280afa21886239fe4.pacloudflare.com
 #0.0.0.0 733868e706dd40d3a4a0588fc39b3df8.pacloudflare.com
-# 172.217.21.206
-# 216.58.207.74
-# 216.58.207.67
-0.0.0.0 www.google-analytics.com
-#0.0.0.0 fonts.googleapis.com
-#0.0.0.0 fonts.gstatic.com
+#0.0.0.0 a2b05107c24a4cb385eec9c3e4ccda25.pacloudflare.com
+#0.0.0.0 733868e706dd40d3a4a0588fc39b3df8.pacloudflare.com
 
 # Disc Soft Ltd
 # Daemon Tools CC
