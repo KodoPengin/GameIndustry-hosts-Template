@@ -2520,7 +2520,7 @@ ff02::3 ip6-allhosts
 # Sonstiges
 # 18.66.107.191, 18.66.242.78, 18.66.107.55, 52.217.65.220, 52.217.201.201
 #0.0.0.0 d2c74t4zimux3r.cloudfront.net # Steam_App_ID.1063730.json
-0.0.0.0 s3-w.us-east-1.amazonaws.com
+#0.0.0.0 s3-w.us-east-1.amazonaws.com # auch z.b. für github-production-release-asset-2e65be.s3.amazonaws.com für Releaseuploads
 # STS - AWS Identity und Access Management
 # 54.239.24.200, 54.239.16.72
 #0.0.0.0 sts.us-east-1.amazonaws.com
