@@ -12519,7 +12519,7 @@ ff02::3 ip6-allhosts
 # Runtimebroker.exe
 # 20.54.110.249
 #0.0.0.0 displaycatalog.mp.microsoft.com
-0.0.0.0 neu-displaycatalogrp.frontdoor.bigcatalog.commerce.microsoft.com
+#0.0.0.0 neu-displaycatalogrp.frontdoor.bigcatalog.commerce.microsoft.com
 
 # Windows Defender SmartScreen | Smartscreen.exe
 # 23.37.43.27
@@ -13266,7 +13266,7 @@ ff02::3 ip6-allhosts
 # 23.55.161.143
 # 104.117.200.9
 0.0.0.0 a1952.dscq.akamai.net
-0.0.0.0 a767.dspw65.akamai.net
+#0.0.0.0 a767.dspw65.akamai.net
 0.0.0.0 e8652.dscx.akamaiedge.net
 
 # Windows 11 - Microsoft Teams
@@ -13278,6 +13278,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 statics.teams.cdn.office.net
 
 # Windows 11 - GamingServices - gamingservices.exe
+# ▓ catalog.gamepass.com startet regelmäßige Callbacks, leider für die XBox-Webseiten benötigt ▓
 # 23.213.161.17
 # 2.16.107.32
 # 2.16.107.107
@@ -13294,8 +13295,8 @@ ff02::3 ip6-allhosts
 # 23.32.238.104
 # 2.16.107.120
 # 2.16.107.43
-0.0.0.0 catalog.gamepass.com # /misc/pc-pfns-list
-0.0.0.0 a1992.dscd.akamai.net
+#0.0.0.0 catalog.gamepass.com # /misc/pc-pfns-list
+#0.0.0.0 a1992.dscd.akamai.net # catalog.gamepass.com
 # 2.16.107.65
 # 23.32.238.122
 0.0.0.0 a2-16-107-65.deploy.static.akamaitechnologies.com
@@ -13375,7 +13376,7 @@ ff02::3 ip6-allhosts
 # Windows 11 - XBox Zubehör / Accessories - Microsoft XboxIdentityProvider | xboxidp.exe
 # 2.18.232.129
 #0.0.0.0 notice.xbox.com
-0.0.0.0 e1822.dspb.akamaiedge.net # Notice Endpunkt
+#0.0.0.0 e1822.dspb.akamaiedge.net # Notice Endpunkt
 
 # Windows 11 - Microsoft.XboxDevices | devices.app.exe
 # 23.99.194.233
@@ -13390,7 +13391,7 @@ ff02::3 ip6-allhosts
 # 20.80.180.59
 0.0.0.0 privacy.xboxlive.com.akadns.net
 0.0.0.0 FRA-efz.ms-acdc.office.com
-0.0.0.0 e1822.dspg.akamaiedge.net
+#0.0.0.0 e1822.dspg.akamaiedge.net
 #0.0.0.0 images-eds-ssl.xboxlive.com # Avatare
 #0.0.0.0 e87.dspg.akamaiedge.net # Avatare
 # 93.184.220.29
@@ -13421,7 +13422,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cluster-f.playfabapi.com
 #0.0.0.0 userpresence.xboxlive.com.akadns.net
 #0.0.0.0 e87.dscb.akamaiedge.net
-0.0.0.0 a1992.dscd.akamai.net
+#0.0.0.0 a1992.dscd.akamai.net
 #0.0.0.0 party.xboxlive.com.akadns.net
 #0.0.0.0 notificationinbox.xboxlive.com.akadns.net
 #0.0.0.0 privacy.xboxlive.com.akadns.net
