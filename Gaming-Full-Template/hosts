@@ -1164,7 +1164,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pagead46.l.doubleclick.net
 0.0.0.0 static-doubleclick-net.l.google.com
 0.0.0.0 stats.l.doubleclick.net
-0.0.0.0 ipv4.imgur.map.fastly.net
+#0.0.0.0 ipv4.imgur.map.fastly.net # i.imgur.com
 
 # Steam: streaming_client.exe | RemotePlay
 # GetSDRConfig, Clientservice - NotifyRemotePacket, GetReplies, CreateSessions, Valve Partner
@@ -6428,7 +6428,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.drycactus.com
 #0.0.0.0 api.gallery.drycactus.com
 #0.0.0.0 i.imgur.com
-0.0.0.0 ipv4.imgur.map.fastly.net
+#0.0.0.0 ipv4.imgur.map.fastly.net # i.imgur.com
 
 # DryGin Studios
 # Bio Inc. Redemption
