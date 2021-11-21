@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 18.11.2021
+# Änderungsdatum: 21.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -303,50 +303,28 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.googletagmanager.com
 
 # Electronic Arts, Inc.
-# Origin
+# Origin Launcher
 # Für den Client oder Spiele nicht benötigt
 # 34.230.177.100
 # 34.202.75.252
 0.0.0.0 vpc-prod-heartbeat-439069019.us-east-1.elb.amazonaws.com
-0.0.0.0 heartbeat.dm.origin.com # Wird zum Login mit VPN benötigt - Sonst Blockieren...
+#0.0.0.0 heartbeat.dm.origin.com # Wird zum Login mit VPN benötigt - Sonst Blockieren...
 0.0.0.0 pin-river.data.ea.com
 0.0.0.0 gosca18.ea.com
 0.0.0.0 pin-em.data.ea.com
 0.0.0.0 recommendations.tnt-ea.com
 0.0.0.0 c.go-mpulse.net
 0.0.0.0 2e33b7cf.mpstat.us
-0.0.0.0 river.data.ea.com
+#0.0.0.0 river.data.ea.com
 0.0.0.0 gen4.reports.tools.gos.ea.com
 # Chat & Freunde bei Bedarf de/aktivieren
 #0.0.0.0 friends.dm.origin.com # Freundesliste
 #0.0.0.0 chat.dm.origin.com # Chatfunktion
-0.0.0.0 groups.gameservices.ea.com
-0.0.0.0 09b5a91c7f2d383e9.gs.ea.com
-0.0.0.0 0cf6c0df87dc9f73e.gs.ea.com
-0.0.0.0 0a0f2aa0965ed4a40.gs.ea.com
-0.0.0.0 036bdce1effdafbb4.gs.ea.com
-0.0.0.0 05196775c0912488b.gs.ea.com
-0.0.0.0 03e0279355465f8bc.gs.ea.com
-0.0.0.0 0c14eda1ff93d3986.gs.ea.com
-0.0.0.0 0543d8862727cf1e0.gs.ea.com
-0.0.0.0 07a7ad9333cabe619.gs.ea.com
-0.0.0.0 0ab2c6e49da4a3502.gs.ea.com
-0.0.0.0 0c3d0ff1cff2a72a9.gs.ea.com
-0.0.0.0 0dc5948d07b2684c3.gs.ea.com
-0.0.0.0 03fd2e58e769a6f1f.gs.ea.com
-0.0.0.0 03a4c502020d4ea47.gs.ea.com
-0.0.0.0 03f94b757df37da66.gs.ea.com
-0.0.0.0 09b039b90ee5e48a6.gs.ea.com
-0.0.0.0 0955daf526e15ad28.gs.ea.com
-0.0.0.0 0df42cc7484911469.gs.ea.com
-0.0.0.0 0bcd99b427f2ef101.gs.ea.com
-0.0.0.0 04b59136e1a643f38.gs.ea.com
-0.0.0.0 0bcd99b427f2ef101.gs.ea.com
-0.0.0.0 01e4757ac7e1e56c4.gs.ea.com
-0.0.0.0 0b0449e21a4a7e7ba.gs.ea.com
-0.0.0.0 0a7a1e036169de01a.gs.ea.com
-0.0.0.0 0679d175b8912d4d7.gs.ea.com
-0.0.0.0 0bb5efe081f99e8d0.gs.ea.com
+#0.0.0.0 rtm.tnt-ea.com
+#0.0.0.0 antelope-rtm-prod-white-483967324.us-east-1.elb.amazonaws.com
+#0.0.0.0 antelope-rtm-prod-black-519949175.us-east-1.elb.amazonaws.com
+#0.0.0.0 antelope-rtm-prod-white-483967324.us-east-1.elb.amazonaws.com
+#0.0.0.0 groups.gameservices.ea.com
 # Cloud und Websocketkommunikation
 # 52.216.99.3
 #0.0.0.0 achievements.gameservices.ea.com # Erfolge...
@@ -391,9 +369,34 @@ ff02::3 ip6-allhosts
 # 52.5.70.71
 # 52.44.9.38
 # 52.4.13.87
-0.0.0.0 antelope-rtm-prod-white-483967324.us-east-1.elb.amazonaws.com
 0.0.0.0 information-api-gateway-prod-blck.us-east-1.elasticbeanstalk.com
-0.0.0.0 rtm.tnt-ea.com
+# Sonstiges
+0.0.0.0 09b5a91c7f2d383e9.gs.ea.com
+0.0.0.0 0cf6c0df87dc9f73e.gs.ea.com
+0.0.0.0 0a0f2aa0965ed4a40.gs.ea.com
+0.0.0.0 036bdce1effdafbb4.gs.ea.com
+0.0.0.0 05196775c0912488b.gs.ea.com
+0.0.0.0 03e0279355465f8bc.gs.ea.com
+0.0.0.0 0c14eda1ff93d3986.gs.ea.com
+0.0.0.0 0543d8862727cf1e0.gs.ea.com
+0.0.0.0 07a7ad9333cabe619.gs.ea.com
+0.0.0.0 0ab2c6e49da4a3502.gs.ea.com
+0.0.0.0 0c3d0ff1cff2a72a9.gs.ea.com
+0.0.0.0 0dc5948d07b2684c3.gs.ea.com
+0.0.0.0 03fd2e58e769a6f1f.gs.ea.com
+0.0.0.0 03a4c502020d4ea47.gs.ea.com
+0.0.0.0 03f94b757df37da66.gs.ea.com
+0.0.0.0 09b039b90ee5e48a6.gs.ea.com
+0.0.0.0 0955daf526e15ad28.gs.ea.com
+0.0.0.0 0df42cc7484911469.gs.ea.com
+0.0.0.0 0bcd99b427f2ef101.gs.ea.com
+0.0.0.0 04b59136e1a643f38.gs.ea.com
+0.0.0.0 0bcd99b427f2ef101.gs.ea.com
+0.0.0.0 01e4757ac7e1e56c4.gs.ea.com
+0.0.0.0 0b0449e21a4a7e7ba.gs.ea.com
+0.0.0.0 0a7a1e036169de01a.gs.ea.com
+0.0.0.0 0679d175b8912d4d7.gs.ea.com
+0.0.0.0 0bb5efe081f99e8d0.gs.ea.com
 
 # Epic Games, Inc.
 # Epic Games Launcher
@@ -687,6 +690,7 @@ ff02::3 ip6-allhosts
 
 # Valve Corporation | Valve Softworks | Steam Client
 # Dazugehörige Infos unter https://gameindustry.eu/firmenkatalog/valve-corporation/#GoogleCaptive
+# Seit Version 1637358733 inaktiv
 # Steam: Captive Portal und Google
 0.0.0.0 gstatic.com
 
@@ -1241,7 +1245,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 hydra-eu-lb-618151913.eu-west-1.elb.amazonaws.com
 #0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
 #0.0.0.0 hydra.easyanticheat.netgamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
-0.0.0.0 d168vncdejh91z.cloudfront.net
+#0.0.0.0 d168vncdejh91z.cloudfront.net
 # Beispiel weitere Endpunkte
 #0.0.0.0 server-99-86-4-28.fra6.r.cloudfront.net
 #0.0.0.0 ec2-18-203-24-251.eu-west-1.compute.amazonaws.com
@@ -6583,6 +6587,128 @@ ff02::3 ip6-allhosts
 # 52.71.139.74
 0.0.0.0 bos-telem-ingest-app-prod.biowareonline.net
 
+# Apex Legends
+# s. Rubrik Kopierschutz / AntiCheat
+# Zusätzlich Anbindung an den Origin Launcher, zu finden unter Electronic Arts, Inc.
+# 54.194.59.252
+# 108.128.10.173
+# 54.154.91.93
+# 18.66.97.78
+# 18.66.97.37
+# 52.208.167.173
+# 99.80.136.95
+# 18.66.97.16
+# 18.203.45.109
+# 52.213.31.47
+# 3.248.168.247
+# 52.92.160.137
+# 159.153.191.240
+# 23.32.239.75
+# 2.16.186.67
+# 2.16.186.64
+# 54.200.161.200
+# 35.162.105.121
+# 54.189.213.123
+# 35.164.112.180
+# 35.162.105.121
+# 44.236.254.188
+# 44.240.156.93
+# 52.24.209.9
+# 44.239.51.45
+# 44.241.9.112
+# 52.11.92.9
+# 52.43.116.125
+# 52.42.180.219
+# 52.201.23.0
+# 54.211.181.77
+# 34.225.190.82
+# 54.174.116.153
+# 44.197.87.47
+# 54.209.241.181
+# 35.201.19.135
+# 35.197.166.13
+# 104.155.233.79
+# 104.199.182.138
+# 104.198.88.214
+# 104.198.82.65
+# 104.198.82.36
+# 35.199.73.98
+# 35.199.89.186
+# 35.185.189.104
+# 35.185.189.243
+# 104.198.101.253
+# 104.198.102.93
+# 104.197.17.180
+# 104.197.136.10
+# 104.196.43.45
+# 104.197.42.178
+# 104.196.8.33
+# 35.196.104.104
+# 130.211.193.234
+# 52.69.157.152
+# 13.54.193.120
+# 52.63.136.88
+# 52.197.77.217
+# 52.67.92.122
+# 52.67.31.204
+# 52.42.44.79
+# 52.40.240.176
+# 15.185.47.239
+# 15.185.93.241
+# 52.6.64.33
+# 52.86.226.95
+# 161.202.72.179
+# 159.153.64.176
+# 159.153.191.238
+# 3.94.97.5
+#0.0.0.0 pr-5c2f1a37a251ff2a6a8c6eab.data.ea.com
+#0.0.0.0 accounts.ea.com
+#0.0.0.0 gateway.ea.com
+#0.0.0.0 friends.gs.ea.com
+#0.0.0.0 s3-us-west-2-w.amazonaws.com
+#0.0.0.0 r5-assets.stryder.respawn.com
+#0.0.0.0 r5-crossplay-sub-3.r5prod.stryder.respawn.com
+#0.0.0.0 R5-crossplay-sub.R5prod.stryder.respawn.com
+#0.0.0.0 R5-crossplay.R5prod.stryder.respawn.com
+#0.0.0.0 135.19.201.35.bc.googleusercontent.com
+#0.0.0.0 13.166.197.35.bc.googleusercontent.com
+#0.0.0.0 79.233.155.104.bc.googleusercontent.com
+#0.0.0.0 138.182.199.104.bc.googleusercontent.com
+#0.0.0.0 214.88.198.104.bc.googleusercontent.com
+#0.0.0.0 65.82.198.104.bc.googleusercontent.com
+#0.0.0.0 36.82.198.104.bc.googleusercontent.com
+#0.0.0.0 98.73.199.35.bc.googleusercontent.com
+#0.0.0.0 186.89.199.35.bc.googleusercontent.com
+#0.0.0.0 104.189.185.35.bc.googleusercontent.com
+#0.0.0.0 243.189.185.35.bc.googleusercontent.com
+#0.0.0.0 253.101.198.104.bc.googleusercontent.com
+#0.0.0.0 93.102.198.104.bc.googleusercontent.com
+#0.0.0.0 180.17.197.104.bc.googleusercontent.com
+#0.0.0.0 10.136.197.104.bc.googleusercontent.com
+#0.0.0.0 45.43.196.104.bc.googleusercontent.com
+#0.0.0.0 178.42.197.104.bc.googleusercontent.com
+#0.0.0.0 33.8.196.104.bc.googleusercontent.com
+#0.0.0.0 104.104.196.35.bc.googleusercontent.com
+#0.0.0.0 234.193.211.130.bc.googleusercontent.com
+#0.0.0.0 ec2-52-69-157-152.ap-northeast-1.compute.amazonaws.com
+#0.0.0.0 ec2-13-54-193-120.ap-southeast-2.compute.amazonaws.com
+#0.0.0.0 ec2-52-63-136-88.ap-southeast-2.compute.amazonaws.com
+#0.0.0.0 ec2-52-197-77-217.ap-northeast-1.compute.amazonaws.com
+#0.0.0.0 ec2-52-67-92-122.sa-east-1.compute.amazonaws.com
+#0.0.0.0 ec2-52-67-31-204.sa-east-1.compute.amazonaws.com
+#0.0.0.0 ec2-52-42-44-79.us-west-2.compute.amazonaws.com
+#0.0.0.0 ec2-52-40-240-176.us-west-2.compute.amazonaws.com
+#0.0.0.0 ec2-15-185-47-239.me-south-1.compute.amazonaws.com
+#0.0.0.0 ec2-15-185-93-241.me-south-1.compute.amazonaws.com
+#0.0.0.0 ec2-52-6-64-33.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-86-226-95.compute-1.amazonaws.com
+#0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
+#0.0.0.0 r5-crossplay-1783943630.us-west-2.elb.amazonaws.com
+#0.0.0.0 antelope-rtm-prod-white-483967324.us-east-1.elb.amazonaws.com
+#0.0.0.0 antelope-rtm-prod-black-519949175.us-east-1.elb.amazonaws.com
+#0.0.0.0 antelope-rtm-prod-white-483967324.us-east-1.elb.amazonaws.com
+0.0.0.0 b3.48.caa1.ip4.static.sl-reverse.com
+
 # Crysis I
 #0.0.0.0 www.ea.com
 #0.0.0.0 proxy.novafusion.ea.com # Aktivierungsserver
@@ -6669,7 +6795,7 @@ ff02::3 ip6-allhosts
 
 # STAR WARS Jedi: Fallen Order™
 # Einträge noch nicht vollständig
-0.0.0.0 pr-5c2f1a37a251ff2a6a8c6eab.data.ea.com
+#0.0.0.0 pr-5c2f1a37a251ff2a6a8c6eab.data.ea.com
 
 # Warp
 # 159.153.166.132
@@ -6905,7 +7031,7 @@ ff02::3 ip6-allhosts
 # 52.218.225.91
 0.0.0.0 CMS-258328131.us-east-1.elb.amazonaws.com
 #0.0.0.0 s3-us-west-2.amazonaws.com
-0.0.0.0 s3-us-west-2-w.amazonaws.com
+#0.0.0.0 s3-us-west-2-w.amazonaws.com # Serverlisten z.b. bei Apex Legends
 0.0.0.0 sunlesssetup.storynexus.com
 0.0.0.0 data.sunlesssetup.storynexus.com.s3.amazonaws.com
 
