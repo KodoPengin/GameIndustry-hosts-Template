@@ -246,9 +246,6 @@
 
 # Crashlytics
 # 204.236.237.188, 23.21.44.21, 50.19.223.4
-0.0.0.0 e.crashlytics.com
-0.0.0.0 settings.crashlytics.com
-0.0.0.0 reports.crashlytics.com
 0.0.0.0 crashlytics.l.google.com
 0.0.0.0 crashlytics2.l.google.com
 0.0.0.0 firebase-settings.crashlytics.com
@@ -315,7 +312,6 @@
 
 # Gameanalytics
 0.0.0.0 api.gameanalytics.com
-0.0.0.0 rubick.gameanalytics.com
 
 # Geoplugin
 0.0.0.0 www.geoplugin.net
@@ -611,7 +607,6 @@
 0.0.0.0 ads.mopub.com
 
 # Mozilla Corporation | Mobilgeräte
-0.0.0.0 balrog-cloudfront.prod.mozaws.net
 0.0.0.0 blocklists.settings.services.mozilla.com
 0.0.0.0 content-signature.cdn.mozilla.net
 0.0.0.0 detectportal.firefox.com
@@ -806,7 +801,6 @@
 0.0.0.0 config.unityads.unity3d.com
 0.0.0.0 ecommerce.iap.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 stats.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 events.iap.unity3d.com
 0.0.0.0 auction.unityads.unity3d.com
@@ -825,7 +819,6 @@
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 auiopt.unityads.unity3d.com
 0.0.0.0 ads-gameconfiguration.unityads.unity3d.com
-0.0.0.0 cdn-creatives-highwindsprd.unityads.unity3d.com
 0.0.0.0 adserver.unityads.unity3d.com
 0.0.0.0 ads-brand-postback.unityads.unity3d.com
 0.0.0.0 nginx-auction-prd-gcp.adsx.unityads.unity3d.com
