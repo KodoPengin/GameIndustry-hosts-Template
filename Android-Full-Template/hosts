@@ -76,11 +76,9 @@
 0.0.0.0 api.taboola.com
 0.0.0.0 ip-info.ff.avast.com
 0.0.0.0 app-measurement.com
-0.0.0.0 settings.crashlytics.com
 0.0.0.0 device-control.ff.avast.com
 0.0.0.0 cloudconfig.googleapis.com
 0.0.0.0 shepherd.ff.avast.com
-0.0.0.0 settings.crashlytics.com
 0.0.0.0 device-control.ff.avast.com
 
 # Abfallwirtschaftsgesellschaft des Kreises Warendorf mbH 
@@ -135,9 +133,7 @@
 # Bling Bling Games GmbH
 # Idle Tycoon: Space Colony
 0.0.0.0 idleclicker.com
-0.0.0.0 settings.crashlytics.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 settings.crashlytics.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cloudconfig.googleapis.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -152,7 +148,6 @@
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 ecommerce.iap.unity3d.com
-0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 ssl.google-analytics.com
@@ -179,7 +174,6 @@
 0.0.0.0 init.supersonicads.com
 0.0.0.0 ns.exitgames.com
 0.0.0.0 core-server.s3-website-us-east-1.amazonaws.com
-0.0.0.0 e.crashlytics.com
 0.0.0.0 graph.facebook.com
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -193,7 +187,6 @@
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 ecommerce.iap.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 settings.crashlytics.com
 0.0.0.0 sessions.bugsnag.com
 0.0.0.0 graph.facebook.com
 0.0.0.0 api.gameanalytics.com
@@ -235,7 +228,6 @@
 0.0.0.0 as.ad-brix.com
 0.0.0.0 campaign.ad-brix.com
 0.0.0.0 tracking.ad-brix.com
-0.0.0.0 stats.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.unityads.unity3d.com
@@ -247,7 +239,6 @@
 0.0.0.0 cdn.optimizely.com
 0.0.0.0 deutschebahn.sc.omtrdc.net
 0.0.0.0 assets.adobedtm.com
-0.0.0.0 settings.crashlytics.com
 #0.0.0.0 www.bahn.de
 #0.0.0.0 www.img-bahn.de
 #0.0.0.0 reiseauskunft.bahn.de
@@ -367,9 +358,6 @@
 0.0.0.0 app-measurement.com
 
 # Google LLC - Crashlytics
-0.0.0.0 e.crashlytics.com
-0.0.0.0 settings.crashlytics.com
-0.0.0.0 reports.crashlytics.com
 
 # Google LLC - Playstore
 #0.0.0.0 android.clients.google.com # Ingamekäufe
@@ -436,7 +424,6 @@
 0.0.0.0 stats.appsflyer.com
 0.0.0.0 api.otherlevels.com
 0.0.0.0 t.appsflyer.com
-0.0.0.0 e.crashlytics.com
 0.0.0.0 app-measurement.com
 0.0.0.0 apiv2.bricknet.com
 0.0.0.0 api.skydeo.com
@@ -543,11 +530,9 @@
 
 # J2 Interactive
 # MX Player
-0.0.0.0 e.crashlytics.com
 0.0.0.0 graph.facebook.com
 #0.0.0.0 android.clients.google.com
 0.0.0.0 i.mxplayer.j2inter.com
-0.0.0.0 settings.crashlytics.com
 0.0.0.0 ade.clmbtech.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 ase.clmbtech.com
@@ -581,12 +566,10 @@
 0.0.0.0 ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 0.0.0.0 launches.appsflayer.com
 0.0.0.0 conversions.appsflyer.com
-0.0.0.0 settings.crashlytics.com
 
 # Kolibri Games GmbH
 # Idle Miner Tycoon: Mine & Money Clicker Management
 0.0.0.0 hades.getsocial.im
-0.0.0.0 e.crashlytics.com
 0.0.0.0 app-measurement.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 config.unityads.unity3d.com
@@ -701,11 +684,9 @@
 
 # LC Studios
 # Kanji Study
-0.0.0.0 settings.crashlytics.com
 0.0.0.0 decide.mixpanel.com
 0.0.0.0 api.mixpanel.com
 0.0.0.0 kanjistudyapp.com
-0.0.0.0 e.crashlytics.com
 0.0.0.0 ssl.google-analytics.com
 
 # Leap Fitness Group
@@ -734,8 +715,6 @@
 0.0.0.0 pdn.applovin.com
 0.0.0.0 img.applovin.com
 0.0.0.0 res1.applovin.com
-0.0.0.0 settings.crashlytics.com
-0.0.0.0 e.crashlytics.com
 0.0.0.0 connect.tapjoy.com
 0.0.0.0 init.supersonicads.com
 0.0.0.0 outcome-ssp.supersonicads.com
@@ -1019,13 +998,11 @@
 0.0.0.0 sonicdash-config.hardlightdev.com
 0.0.0.0 www.5rocks.io
 0.0.0.0 analytics.hardlightgames.com
-0.0.0.0 e.crashlytics.com
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 api.safedk.com
 0.0.0.0 tp.sega.com
 0.0.0.0 t.appsflyer.com
 0.0.0.0 events.appsflyer.com
-0.0.0.0 settings.crashlytics.com
 0.0.0.0 hl-legals.s3-us-west-2.amazonaws.com
 
 # Smart Verable Devices
@@ -1082,7 +1059,6 @@
 0.0.0.0 r5.sn-h0jeened.googlevideo.com
 0.0.0.0 rt.applovin.com
 0.0.0.0 rt.applvn.com
-0.0.0.0 settings.crashlytics.com
 0.0.0.0 spire.aarki.net
 0.0.0.0 ssl-cdn.adccdn.net.c.frootprint.net
 0.0.0.0 vungle2-cdn-prod.s3.amazonaws.com
