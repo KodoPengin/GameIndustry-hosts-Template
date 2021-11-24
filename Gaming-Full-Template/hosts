@@ -307,14 +307,12 @@ ff02::3 ip6-allhosts
 # Für den Client oder Spiele nicht benötigt
 # 34.230.177.100
 # 34.202.75.252
-0.0.0.0 vpc-prod-heartbeat-439069019.us-east-1.elb.amazonaws.com
 #0.0.0.0 heartbeat.dm.origin.com # Wird zum Login mit VPN benötigt - Sonst Blockieren...
 0.0.0.0 pin-river.data.ea.com
 0.0.0.0 gosca18.ea.com
 0.0.0.0 pin-em.data.ea.com
 0.0.0.0 recommendations.tnt-ea.com
 0.0.0.0 c.go-mpulse.net
-0.0.0.0 2e33b7cf.mpstat.us
 #0.0.0.0 river.data.ea.com
 0.0.0.0 gen4.reports.tools.gos.ea.com
 # Chat & Freunde bei Bedarf de/aktivieren
@@ -371,32 +369,6 @@ ff02::3 ip6-allhosts
 # 52.4.13.87
 0.0.0.0 information-api-gateway-prod-blck.us-east-1.elasticbeanstalk.com
 # Sonstiges
-0.0.0.0 09b5a91c7f2d383e9.gs.ea.com
-0.0.0.0 0cf6c0df87dc9f73e.gs.ea.com
-0.0.0.0 0a0f2aa0965ed4a40.gs.ea.com
-0.0.0.0 036bdce1effdafbb4.gs.ea.com
-0.0.0.0 05196775c0912488b.gs.ea.com
-0.0.0.0 03e0279355465f8bc.gs.ea.com
-0.0.0.0 0c14eda1ff93d3986.gs.ea.com
-0.0.0.0 0543d8862727cf1e0.gs.ea.com
-0.0.0.0 07a7ad9333cabe619.gs.ea.com
-0.0.0.0 0ab2c6e49da4a3502.gs.ea.com
-0.0.0.0 0c3d0ff1cff2a72a9.gs.ea.com
-0.0.0.0 0dc5948d07b2684c3.gs.ea.com
-0.0.0.0 03fd2e58e769a6f1f.gs.ea.com
-0.0.0.0 03a4c502020d4ea47.gs.ea.com
-0.0.0.0 03f94b757df37da66.gs.ea.com
-0.0.0.0 09b039b90ee5e48a6.gs.ea.com
-0.0.0.0 0955daf526e15ad28.gs.ea.com
-0.0.0.0 0df42cc7484911469.gs.ea.com
-0.0.0.0 0bcd99b427f2ef101.gs.ea.com
-0.0.0.0 04b59136e1a643f38.gs.ea.com
-0.0.0.0 0bcd99b427f2ef101.gs.ea.com
-0.0.0.0 01e4757ac7e1e56c4.gs.ea.com
-0.0.0.0 0b0449e21a4a7e7ba.gs.ea.com
-0.0.0.0 0a7a1e036169de01a.gs.ea.com
-0.0.0.0 0679d175b8912d4d7.gs.ea.com
-0.0.0.0 0bb5efe081f99e8d0.gs.ea.com
 
 # Epic Games, Inc.
 # Epic Games Launcher
@@ -528,7 +500,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 www.epicgames.com # Geodatenerfassung und Funnel-Analytics - zudem liegt dort die eigene Accountseite
 #0.0.0.0 media-cdn.epicgames.com # WEBM Videos auf Produktseiten - EPICEVENTTRACKING
 0.0.0.0 accounts.launcher-website-prod07.ol.epicgames.com # Funnelanalytics - Unterseite für Freundeverbindungen, Anfragen, Vorschläge
-0.0.0.0 tracking-website-prod07-epic-96184209.us-east-1.elb.amazonaws.com
 0.0.0.0 tracking-website-prod07-epic-961842049.us-east-1.elb.amazonaws.com
 0.0.0.0 eulatracking-svc-prod06-pub-1257580502.us-east-1.elb.amazonaws.com
 0.0.0.0 sentry.io # Monitoring und Errortracking
@@ -598,7 +569,6 @@ ff02::3 ip6-allhosts
 # Paradox Launcher
 # Telemetrie und Tracking
 0.0.0.0 usage.trackjs.com
-0.0.0.0 capture.trackjs.co
 0.0.0.0 prod-telemetry.paradox-interactive.com
 0.0.0.0 opstm.paradoxplaza.com # In älteren Titeln aktiv, wurde durch Prod-Telemetry ersetzt
 # Anmeldung und Account optional
@@ -685,7 +655,6 @@ ff02::3 ip6-allhosts
 # Diverses
 # 18.233.137.39
 0.0.0.0 sigma.ubi.com
-0.0.0.0 sigma-elb-1893274496.us-east-1.elb.amazonaws.com
 0.0.0.0 ucppropagationservice.ubi.com
 
 # Valve Corporation | Valve Softworks | Steam Client
@@ -1065,7 +1034,6 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 208.64.200.105
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
@@ -1150,7 +1118,6 @@ ff02::3 ip6-allhosts
 # 151.101.112.193
 # 172.217.12.206
 # 190.61.17.9
-0.0.0.0 prod.imgur.map.fastlylb.net
 0.0.0.0 fpdownload2.macromedia.com
 # Ip/s blockieren:
 # 172.217.12.206
@@ -1198,7 +1165,6 @@ ff02::3 ip6-allhosts
 # Steam: Unkategorisiert
 # 2a02:26f0:105:0:0:0:216:16d3
 0.0.0.0 steampipe.akamaized.net # Depot, Manifest
-0.0.0.0 steamstats.valvesoftware.com
 
 # Steam: Weitere Drittanbieter
 # Livepipe.net - Trackingcookies, Werbung und Analytics eingebunden über Javascript
@@ -1360,7 +1326,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -1384,7 +1349,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -1451,7 +1415,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 down.qq.com
 #0.0.0.0 tgscp.mainconn.gamesafe.qq.com
@@ -1478,13 +1441,11 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 # Die 39.37.162.223 wird als Cloudablage für Speicherstände genutzt
-0.0.0.0 stats.unity3d.com
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -1554,7 +1515,6 @@ ff02::3 ip6-allhosts
 
 # Носков Сергей
 # 35MM
-0.0.0.0 stats.unity3d.com
 
 # 3dm_live_wallpapers
 # Endless Universe 2 PC Live Wallpaper
@@ -1572,7 +1532,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 mm.unet.unity3d.com # Multiplayer auf Unityservern? ~.~
 
@@ -1583,7 +1542,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # 7DOTS, Angry games & RuVN
@@ -1593,7 +1551,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # 101XP
@@ -1608,7 +1565,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -1626,7 +1582,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
 # 52.72.141.108
@@ -1641,7 +1596,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # 54.225.115.127
 0.0.0.0 10tonsnews.the10tons.com
@@ -1652,7 +1606,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # 11 Bit Studios
@@ -1667,7 +1620,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
 # 35.241.26.53
@@ -1726,7 +1678,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Off-Road Drive
@@ -1883,7 +1834,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # 192.81.242.130
 # 192.81.242.131
@@ -2018,7 +1968,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # 505 Games
@@ -2063,7 +2012,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Underworld Ascendant
@@ -2107,7 +2055,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Abbey Games
@@ -2156,7 +2103,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # Multiplayer
 #0.0.0.0 wfc2-pc-auth.prod.demonware.net
@@ -2190,7 +2136,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Volgarr the Viking
@@ -2199,7 +2144,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Adventure Productions
@@ -2209,14 +2153,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # aeiowu
 # TumbleSeed
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 be3a2ea70ea68d04665ee5db91a73443.cloudfront.net
 
 # Agharta Studio
 # Shufflepuck Cantina Deluxe
@@ -2252,19 +2194,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Murasaki
 # Wohl ehemalige Patchnotes. Seite ist nicht mehr existent. Adressen bereits verschachtelt im Configmenü aufgerufen
-0.0.0.0 members.jcom.home.ne.jp
 0.0.0.0 maintenance.zaq.ne.jp
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # One Way Heroics
@@ -2283,7 +2222,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Akamurasaki Games
@@ -2312,7 +2250,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Alawar Entertainment
@@ -2322,7 +2259,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Alawar Premium
@@ -2332,7 +2268,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -2354,7 +2289,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -2382,7 +2316,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 #0.0.0.0 api2.bod.aldagames.com
-0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-analytics.com
 
@@ -2401,7 +2334,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Alexander Goodwin
@@ -2427,7 +2359,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Alexey Glinskiy
@@ -2468,7 +2399,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Alister Software & Back to Basic Gaming
@@ -2486,7 +2416,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Alper Gonen
@@ -2616,7 +2545,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Ankama Games
@@ -2664,7 +2592,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Outer Wilds
@@ -2706,7 +2633,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # CHAOS CODE -NEW SIGN OF CATASTROPHE-
@@ -2715,7 +2641,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # KILL la KILL -IF
@@ -2773,14 +2698,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 prd-lender.cdp.internal.unity3d.com
 0.0.0.0 api.gameanalytics.com
-0.0.0.0 2fe707f3cc1dc569687bcdf81697e284.cloudfront.net
-0.0.0.0 852d9d8bb32e82e505d63b5dd4b1e6e1.cloudfront.net
 
 # Armor Games Studios
 # Soda Dungeon 2
@@ -2843,7 +2765,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Asmodee Digital
@@ -2910,7 +2831,6 @@ ff02::3 ip6-allhosts
 # Layers of Fear
 0.0.0.0 gameguide3.aspyr.com
 0.0.0.0 www.google-analytics.com
-0.0.0.0 eauth.aspyr.com
 0.0.0.0 gg3-assets-stage.aspyr.com
 #0.0.0.0 hello.myfonts.net
 0.0.0.0 support.aspyr.com
@@ -2972,8 +2892,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com
-0.0.0.0 vss-ns-us.eastus.cloudapp.azure.com
 # Mehrspielerserver & Telemetrie
 # Ip/s blockieren:
 # 54.213.68.146
@@ -2994,7 +2912,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Pizza Connection 3 inkl. GoG Schnüffelei
@@ -3009,7 +2926,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -3024,9 +2940,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 stats.unity3d.com
 
 # ATLUS USA
 # Rock of Ages II: Bigger & Boulder™
@@ -3058,7 +2972,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -3151,7 +3064,6 @@ ff02::3 ip6-allhosts
 # Automaton
 # Deceit
 # Youtube, Facebook,Twitter, Discord
-0.0.0.0 party-server-1003106365.ap-northeast-2.elb.amazonaws.com
 0.0.0.0 party-beta.automaton.uk
 # Aus dem Spiel heraus durch jeweilige Buttons aufgerufen
 0.0.0.0 playdeceit.com
@@ -3254,7 +3166,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.backtobasicsgaming.com
 #0.0.0.0 static.parastorage.com # Javascripts z.b. auch bei Deviantart benutzt
@@ -3320,7 +3231,6 @@ ff02::3 ip6-allhosts
 # BLACK CLOVER: QUARTET KNIGHTS
 # s. Easy Anti-Cheat
 # 34.250.82.77
-0.0.0.0 geenapptrack.com
 #0.0.0.0 bc-qk.channel.or.jp # Fanarts, Mehrspieler, Werbung
 
 # CODE VEIN
@@ -3342,7 +3252,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # DARK SOULS™: REMASTERED
@@ -3445,7 +3354,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 cosmos.channel.or.jp
 0.0.0.0 test.cosmos.channel.or.jp
@@ -3473,7 +3381,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Tales of Zestiria
@@ -3482,7 +3389,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Tekken VII
@@ -3511,7 +3417,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Based on the Play
@@ -3601,7 +3506,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # BCH waves studio
@@ -3623,7 +3527,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # 52.39.37.2
 #0.0.0.0 users2.beamdog.com
@@ -3677,7 +3580,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter.ol.epicgames.com
 #0.0.0.0 eternalcrusade.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
-0.0.0.0 api-5-10-10.live.virginia.wh40k.bhvronline.com
 
 # BD Games
 # 强袭人形：原体 | Strike Buster Prototype
@@ -3700,7 +3602,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 time.is
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 c735fa223fb16fb135c387781f0fadf6.cloudfront.net
 
 # Bethesda Softworks / ID Softworks
 # Dishonored II
@@ -3830,9 +3731,7 @@ ff02::3 ip6-allhosts
 # Voicechat-System | Bei Bedarf de/aktivieren
 # 64.207.141.79
 0.0.0.0 fowp.www.vivox.com
-0.0.0.0 proxy.fowp.vivox.com
 0.0.0.0 fowp.disp.vivox.com
-0.0.0.0 fowp.vivox.com
 0.0.0.0 stun.vivox.com
 0.0.0.0 echo2.vivox.com
 0.0.0.0 watson.vivox.com
@@ -3868,7 +3767,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Rage 2
@@ -3917,7 +3815,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Big Fat Alien
@@ -3928,7 +3825,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Big Fat Simulations Inc.
@@ -3938,7 +3834,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 airdownload2.adobe.com
 0.0.0.0 www.bigfatsimulations.com
@@ -3966,7 +3861,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Big Sugar
@@ -3989,7 +3883,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Bitlock Studio
@@ -4004,7 +3897,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Bit Planet Games, LLC
@@ -4015,7 +3907,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Bitbox S.L.
@@ -4025,7 +3916,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Bitten Toast Games Inc.
@@ -4061,7 +3951,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
@@ -4090,7 +3979,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
 
@@ -4101,7 +3989,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 script.google.com
 0.0.0.0 script.googleusercontent.com
@@ -4110,7 +3997,6 @@ ff02::3 ip6-allhosts
 
 # Black Forest Games
 # Giana Sisters: Twisted Dreams
-0.0.0.0 ds.blackforestgames.net
 
 # Black Maple Games
 # Craft the World
@@ -4120,7 +4006,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 itunes.apple.com
 
@@ -4159,7 +4044,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 dynamodb.us-east-1.amazonaws.com
 0.0.0.0 cognito-identity.us-east-1.amazonaws.com
-0.0.0.0 bot.whatismyipaddress.com
 
 # The Ship
 # 68.142.72.250
@@ -4243,7 +4127,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cdn.blz-contentstack.com
 #0.0.0.0 us-stun.voice.battle.net
 #0.0.0.0 eu-bnp.voice.battle.net
-0.0.0.0 internalcheck.corp.blizzard.net
 
 # Bluehole, Inc.
 # Player Unknown's Battleground
@@ -4278,7 +4161,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Bohemia Interactive
@@ -4306,14 +4188,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # 145.239.8.133
 #0.0.0.0 arma31.battleye.com
 #0.0.0.0 ns3081506.ip-145-239-8.eu
 
 # Arma Tactics
-0.0.0.0 collect5588rmtct.deltadna.net
 
 # Boogygames Studios
 # Solitaire - Cat Pirate Portrait
@@ -4330,7 +4210,6 @@ ff02::3 ip6-allhosts
 
 # Born Ready Games
 # Strike Suite Infinity
-0.0.0.0 fnt.webink.com
 0.0.0.0 gdata.youtube.com
 0.0.0.0 strikesuitzero.com
 0.0.0.0 www.strikesuitzero.com
@@ -4364,7 +4243,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Brilliant Game Studios
@@ -4412,7 +4290,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # BTNcafe
@@ -4423,7 +4300,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 mopdserver.btncafe.com
 
@@ -4436,7 +4312,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Bug-meister production
@@ -4474,7 +4349,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 id.bscotch.net
 #0.0.0.0 bit.ly
@@ -4527,7 +4401,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # バイオハザード RE:2 | RESIDENT EVIL 2 / BIOHAZARD RE:2
@@ -4575,7 +4448,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 hjm.rebe.capcom.com
 0.0.0.0 pubsub.googleapis.com
 0.0.0.0 selector.gs.capcom.com
-0.0.0.0 c379418fd6100691807f32f274ebe9ce.cloudfront.net
 
 # Cardboard Keep
 # Warden: Melody of the Undergrowth
@@ -4597,7 +4469,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # CBE Software
@@ -4627,11 +4498,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1973.dscb.akamai.net
 0.0.0.0 a23-55-163-20.deploy.static.akamaitechnologies.com
 0.0.0.0 a1847.b.akamai.net
-0.0.0.0 a72-247-178-8.deploy.static.akamaitechnologies.com
 0.0.0.0 a1948.b.akamai.net
-0.0.0.0 a72-247-178-33.deploy.static.akamaitechnologies.com
 #0.0.0.0 a1829.b.akamai.net # auth.gog.com
-0.0.0.0 a72-247-178-26.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-55-163-12.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-55-163-39.deploy.static.akamaitechnologies.com
 0.0.0.0 a84-53-175-145.deploy.static.akamaitechnologies.com
@@ -4669,7 +4537,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # Webseiten gefüllt mit Google Analytics, GoogleAdServices, Serving-sys, Doubleclick, Linkedin, GWallet, Twitter, Facebook, Rfihub
 #0.0.0.0 cdprojektred.com
@@ -4703,7 +4570,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 api.steampowered.com # Stats
 0.0.0.0 widgets.gamejolt.com
@@ -4718,7 +4584,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Cheesecake Dev
@@ -4757,7 +4622,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -4793,7 +4657,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Sniper Ghost Warrior III
@@ -4843,7 +4706,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 stats.unity3d.com
 #0.0.0.0 ns.exitgames.com
 0.0.0.0 cleversan.com
 
@@ -4891,7 +4753,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 oogaboogawooga.clickteam.com
 0.0.0.0 www.google-analytics.com
@@ -4938,7 +4799,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 prod.egonet.codemasters.com
 
@@ -4960,7 +4820,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # 52.3.229.210
 # 34.201.1.45
@@ -5006,8 +4865,6 @@ ff02::3 ip6-allhosts
 # 3.227.34.162
 # 100.25.206.154
 # 52.0.181.95
-0.0.0.0 euc-1-prod.stun.euc1a.on.epicgames.com
-0.0.0.0 euc-2-prod.stun.euc1a.on.epicgames.com
 0.0.0.0 stun-1-nat.ol.epicgames.com
 0.0.0.0 stun-2-nat.ol.epicgames.com
 # s. Eintrag Steam: IP Checks
@@ -5030,7 +4887,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Coconut Island Games
@@ -5092,7 +4948,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -5107,7 +4962,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Cold Beam Games
@@ -5145,7 +4999,6 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 0.0.0.0 a126.playfabapi.com
-0.0.0.0 p-a126-mainserver-896310517.us-west-2.elb.amazonaws.com
 0.0.0.0 2vnci0fr6d.execute-api.us-east-1.amazonaws.com
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -5162,7 +5015,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Cornered Rat Software
@@ -5181,7 +5033,6 @@ ff02::3 ip6-allhosts
 # Planet Nomads
 # Sehr umfangreiche Hardwareanalytics und Liveanalytics mit Bestandaufnahme von Nutzteraktionen im Produkt. Verbunden mit Dateiupload "upsertinstallation.dat, upsertgame.dat und insertsession.dat"
 # UA-55906962-11 ist das Google Analyticskonto für Planet Nomads und nimmt jeden Einzelschritt auf
-0.0.0.0 stats.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 statistics.planet-nomads.com
@@ -5203,7 +5054,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Crazy Monkey Studios
@@ -5223,7 +5073,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Creative Freaks Inc.
@@ -5257,7 +5106,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Crunching Koalas
@@ -5304,7 +5152,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.rhythmdestruction.com
 
@@ -5330,7 +5177,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # For the King
@@ -5369,10 +5215,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 ec2-34-216-100-9.us-west-2.compute.amazonaws.com
-0.0.0.0 208-64.200.105.steampowered.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
@@ -5398,7 +5242,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
 # 104.26.11.194
@@ -5419,7 +5262,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -5462,7 +5304,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # D3 PUBLISHER
@@ -5473,7 +5314,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # SG/ZH: School Girl/Zombie Hunter
@@ -5505,7 +5345,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 public.cloud.unity3d.com
@@ -5575,7 +5414,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 cgpromotion.azurewebsites.net
 0.0.0.0 cgpromotion.blob.core.windows.net
-0.0.0.0 ih1644943.vds.myihor.ru
 
 # Iron Danger
 # Ip/s blockieren:
@@ -5603,7 +5441,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 cgpromotion.azurewebsites.net
 0.0.0.0 cgpromotion.blob.core.windows.net
@@ -5624,7 +5461,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # SKYHILL
@@ -5741,8 +5577,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ocsp.sca1b.amazontrust.com
 # Ip/s blockieren:
 # 52.85.246.229
-0.0.0.0 dji22ijeurkhd.cloudfront.net
-0.0.0.0 ping.yoyogames.com
 
 # DANGEN Entertainment
 # Lost Ruins
@@ -5797,7 +5631,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
@@ -5815,7 +5648,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Daybreak Game Company
@@ -5825,7 +5657,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Deathly Ideas
@@ -5835,7 +5666,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Deck13 & WhisperGames
@@ -5868,7 +5698,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Homefront: The Revolution
@@ -5923,7 +5752,6 @@ ff02::3 ip6-allhosts
 # Abschaltbar
 0.0.0.0 egp-idsoc-proxy-prod.ol.epicgames.com
 0.0.0.0 egp-idsoc-proxy-prod-2006500474.us-east-1.elb.amazonaws.com
-0.0.0.0 ecomprod02.ol.epicgames.com
 0.0.0.0 ecommerce-int-prod-public-alb-1926882986.us-east-1.elb.amazonaws.com
 0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
 0.0.0.0 metrics.ol.epicgames.com
@@ -5951,9 +5779,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 sr3.hydra.agoragames.com
 
 # Trainz: A new era
 #0.0.0.0 itrainz.auran.com
@@ -5983,7 +5809,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -5996,7 +5821,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # ゲーム天国 CruisinMix | Game Tengoku CruisinMix
@@ -6005,7 +5829,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # DELTAZEAL
@@ -6014,7 +5837,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # RPGMaker VX Ace
@@ -6023,7 +5845,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Shmups Skill Test シューティング技能検定
@@ -6035,7 +5856,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Degica & Chara-Ani
@@ -6044,7 +5864,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Devolver Digital
@@ -6082,7 +5901,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Loop Hero
@@ -6091,7 +5909,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # SCUM
@@ -6111,7 +5928,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 nat-detection.gog.com
 0.0.0.0 notifications-pusher-aws.gog.com
@@ -6140,7 +5956,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Weedcraft Inc
@@ -6164,10 +5979,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.gameanalytics.com
-0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
 
 # Dexion Games
@@ -6222,7 +6035,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Digerati Distribution
@@ -6230,8 +6042,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 prd-lender.cdp.internal.unity3d.com
-0.0.0.0 2fe707f3cc1dc569687bcdf81697e284.cloudfront.net
-0.0.0.0 852d9d8bb32e82e505d63b5dd4b1e6e1.cloudfront.net
 
 # Monster Slayers
 # 208.64.200.105
@@ -6239,7 +6049,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Slain: Back from Hell
@@ -6248,7 +6057,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Digital Bento
@@ -6258,7 +6066,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # DigitalDNA Games LLC
@@ -6291,7 +6098,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -6308,7 +6114,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Shaolin vs Wutang
@@ -6329,7 +6134,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Tron: Evolution
@@ -6345,7 +6149,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # DotEmu
@@ -6355,7 +6158,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # DOT Entertainment | Name wurde zu KNP gändert
@@ -6369,8 +6171,6 @@ ff02::3 ip6-allhosts
 # Parallyzed
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 3664cc1fd21a07e55327a9c256fa758a.cloudfront.net
-0.0.0.0 fc3a4fa8a6bf80fc624a0bc082bb5b4e.cloudfront.net
 
 # Double Eleven
 # Pixel Junk™ Monsters Ultimate
@@ -6379,7 +6179,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Pixel Junk™ Shooter Ultimate
@@ -6388,7 +6187,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Draw Distance
@@ -6404,7 +6202,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Dreamlands
@@ -6440,7 +6237,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 aws.dryginstudios.com
 0.0.0.0 www.google-analytics.com
@@ -6455,7 +6251,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Ductape studio
@@ -6471,7 +6266,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.audio-surf.com
@@ -6491,7 +6285,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Eastshade Studios
@@ -6555,7 +6348,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Electronic Arts
@@ -6805,7 +6597,6 @@ ff02::3 ip6-allhosts
 # 239.255.255.250
 # 159.153.64.175
 #0.0.0.0 proxy.novafusion.ea.com
-0.0.0.0 eadpgsl0039.ea.com
 #0.0.0.0 gosredirector.ea.com
 0.0.0.0 gossjcprod-qos01.ea.com
 0.0.0.0 gosgvaprod-qos01.ea.com
@@ -6819,7 +6610,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
 # 35.241.26.53
@@ -6842,7 +6632,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 leaderboards.symphonygame.com
 0.0.0.0 symphonyleaderboards.cloudapp.net
@@ -6888,7 +6677,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 chromereader-pa.googleapis.com
 
@@ -6928,7 +6716,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 gcash015.exitgames.com
-0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com
 
 # Evil Twin Artworks
 # Man O' War: Corsair - Warhammer Naval Battles
@@ -6943,7 +6730,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Examined Interactive
@@ -6958,7 +6744,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Shoppe Keep 2
@@ -6988,7 +6773,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 exdstudio.net
 #0.0.0.0 cdn.bootcss.com
@@ -7005,7 +6789,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -7091,7 +6874,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.vermintide.com
 
@@ -7119,15 +6901,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Fellow Traveller
 # Orwell: Keeping an Eye On You
 0.0.0.0 us7.api.mailchimp.com # Deaktivieren um Newsletter zu nutzen
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 e3666efb6956ba7f03c75c3401b8c79e.cloudfront.net
-0.0.0.0 bd3e2233bf25337a89461c638cad13b9.cloudfront.net
 0.0.0.0 config.uca.cloud.unity3d.com
 
 # Orwell: Ignorance is Strength
@@ -7136,7 +6915,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 us7.api.mailchimp.com # Deaktivieren um Newsletter zu nutzen
 
@@ -7156,7 +6934,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # 52.3.66.119
 #0.0.0.0 login.strongholdkingdoms.com # API & HTMLausgabe
@@ -7174,7 +6951,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Firehawk Studios
@@ -7210,7 +6986,6 @@ ff02::3 ip6-allhosts
 
 # Neoncers
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 stats.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Rocketcers
@@ -7263,9 +7038,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 d3spquiph2sexc.cloudfront.net
 0.0.0.0 capture.trackjs.com
 0.0.0.0 usage.trackjs.com
 0.0.0.0 ih0.redbubble.net
@@ -7301,7 +7074,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Focus Home Interactive, S.A.
@@ -7328,7 +7100,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 bfg2.stormancer.com
 #0.0.0.0 bfg3.stormancer.com # Bestenlisten
 0.0.0.0 datarouter-weighted.ol.epicgames.com
-0.0.0.0 cerberus-eu-lb-6707ab7fcc744d90.elb.eu-west-1.amazonaws.com
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
@@ -7338,7 +7109,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 bble1.cyanide-studio.com
 
@@ -7348,7 +7118,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Call of Cthulhu®
@@ -7361,7 +7130,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Contrast
@@ -7370,7 +7138,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Etherium
@@ -7401,7 +7168,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.farming-simulator.com
 0.0.0.0 media.farming-simulator.com
@@ -7432,7 +7198,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Vampyr
@@ -7462,7 +7227,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # For Kids
@@ -7472,7 +7236,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -7708,7 +7471,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -7750,7 +7512,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Frogware
@@ -7760,7 +7521,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # s. Eintrag Steam: IP Checks
 
@@ -7837,7 +7597,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # 100% Orange Juice
@@ -7846,7 +7605,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Sora
@@ -7855,7 +7613,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Forever Entertainment S. A.
@@ -7871,7 +7628,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Millie
-0.0.0.0 games.forever-entertainment.com
 0.0.0.0 developer.android.com
 0.0.0.0 forever-entertainment.com
 
@@ -7897,10 +7653,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 games.forever-entertainment.com
-0.0.0.0 teddyfloppyear.forever-entertainment.com
 
 # The Mahjong Huntress
 # 208.64.200.105
@@ -7908,7 +7661,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Timberman
@@ -7917,7 +7669,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Fox Dawn
@@ -8145,7 +7896,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 
@@ -8189,7 +7939,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Ghostlight LTD
@@ -8199,7 +7948,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Sorcery Saga: Curse of the Great Curry God
@@ -8208,7 +7956,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # GiKugikuGame
@@ -8327,17 +8074,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 1136b0fc7377c6211173282a3992a814.cloudfront.net
-0.0.0.0 63db28734e1b9429c04087abd41a1692.cloudfront.net
-0.0.0.0 4212187803e21d93459a7f54ccbb680a.cloudfront.net
 
 # Phantom Doctrine | Update 17.08.2018
 0.0.0.0 api.gameanalytics.com
-0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
@@ -8351,7 +8093,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 script.google.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -8365,7 +8106,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Graphite Lab
@@ -8385,14 +8125,12 @@ ff02::3 ip6-allhosts
 # 104.123.117.131
 0.0.0.0 airdownload2.adobe.com
 0.0.0.0 api.gameanalytics.com
-0.0.0.0 main-backend-100065934.us-east-1.elb.amazonaws.com
 0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Green Man Gaming Publishing
@@ -8432,20 +8170,17 @@ ff02::3 ip6-allhosts
 # Grimm Bros, LLC
 # Dragon Fin Soup
 # Twitter, Youtube, Facebook, Googlevideo
-0.0.0.0 scores.grimm-bros.com
 0.0.0.0 dragonfinsoup.com
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Grinding Gear Games
 # Path of Exile inkl. Steam Version
 # Chinesische Version unter 流放之路 zu finden
-0.0.0.0 hk2-eap.settings.data.microsoft.com.akadns.net.com
 # 146.0.234.229
 # 159.122.82.219
 # 104.19.185.16
@@ -8493,7 +8228,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 blob.blaprdstr08a.store.core.windows.net
 0.0.0.0 www.mothergunship.com.herokudns.com
 0.0.0.0 waws-prod-blu-089.cloudapp.net
-0.0.0.0 game-api.mothergunship.com
 0.0.0.0 mgsstatic.blob.core.windows.net
 0.0.0.0 www.mothergunship.com
 
@@ -8523,7 +8257,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Guerrilla Bandit
@@ -8563,7 +8296,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Deep Space Waifu: Justice
@@ -8594,7 +8326,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -8653,7 +8384,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # HandyGames
@@ -8678,7 +8408,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Hangzhou Winturn Network & Technology Co., Ltd.
@@ -8688,7 +8417,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Happinet
@@ -8705,7 +8433,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Haydee Interactive
@@ -8715,7 +8442,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # He Saw
@@ -8725,7 +8451,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Headless Wizard
@@ -8735,7 +8460,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Headup Games
@@ -8747,7 +8471,6 @@ ff02::3 ip6-allhosts
 # Onikira - Demon Killer
 # Ip/s blockieren:
 # 40.85.179.199
-0.0.0.0 ex-prod-k8s.eastus.cloudapp.azure.com
 
 # Windscape
 # Ip/s blockieren:
@@ -8796,7 +8519,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -8819,7 +8541,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -8851,7 +8572,6 @@ ff02::3 ip6-allhosts
 # HeroCraft
 # INSOMNIA: The Ark
 0.0.0.0 api.gameanalytics.com
-0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 wowa.no-ip.info
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
@@ -8868,7 +8588,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Strategy & Tactics: Wargame Collection
@@ -8905,7 +8624,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Hexwar Games
@@ -8933,7 +8651,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Hinterland Studio Inc.
@@ -8951,7 +8668,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Hobibit
@@ -8973,8 +8689,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 t2.symcb.com
 0.0.0.0 tj.symcd.com
 0.0.0.0 tj.symcb.com
-0.0.0.0 br01.broadcast.tyo.steamstatic.com
-0.0.0.0 br01.broadcast.hkg.steamstatic.com
 
 # Holospark
 # Earthfall
@@ -9006,7 +8720,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
 # 35.241.26.53, 35.186.194.186, 35.190.88.234, 35.241.52.229
@@ -9033,10 +8746,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 ec2-35-162-118-172.us-west-2.compute.amazonaws.com
-0.0.0.0 magpole.eus
 
 # HONG KONG SPARK SOFTWARE TECHNOLOGY CO., LIMITED
 # Idle Big Devil
@@ -9085,7 +8796,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com
 
@@ -9096,7 +8806,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -9116,7 +8825,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -9133,7 +8841,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # Dropbox für im Spiel integrierte Fankunst
 0.0.0.0 www.dropbox.com
@@ -9171,7 +8878,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # HyperReuts
@@ -9201,7 +8907,6 @@ ff02::3 ip6-allhosts
 
 # Guild Quest
 0.0.0.0 7D89.playfabapi.com
-0.0.0.0 master-ma-elasticl-1e2d7mzrh19sw-2078529754.us-west-2.elb.amazonaws.com
 
 # H2 Interactive Co., Ltd.
 # Caladrius Blaze
@@ -9210,7 +8915,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Ice Code Games
@@ -9240,7 +8944,6 @@ ff02::3 ip6-allhosts
 # Iceflake Studios
 # Race Arcade
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 stats.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Idea Factory International
@@ -9250,7 +8953,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Cyberdimension Neptunia: 4 Goddesses Online | 四女神オンライン CYBER DIMENSION NEPTUNE | 四女神ONLINE 幻次元遊戲戰機少女
@@ -9263,7 +8965,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # iDev Games
@@ -9277,7 +8978,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 arnalist.warbirdsiii.com # Multiplayer
 
@@ -9298,7 +8998,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -9325,7 +9024,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com
 0.0.0.0 server.idreams.pl
@@ -9339,7 +9037,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Interactive Stone
@@ -9366,7 +9063,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # NeonGalaxy Wars
@@ -9376,8 +9072,6 @@ ff02::3 ip6-allhosts
 # OHOTA KREPKOE
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 170fdbe261f5e85186a08817806feba2.cloudfront.net
-0.0.0.0 dfb957c193e8f98057bb6f530c2816a9.cloudfront.net
 
 # Ranger vs. Space Mutants
 # 208.64.200.105
@@ -9385,7 +9079,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # IndieGala
@@ -9424,7 +9117,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Ionized Games
@@ -9449,7 +9141,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # InterAction studios
@@ -9459,7 +9150,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # InterSol OOO
@@ -9485,7 +9175,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.introversion.co.uk
-0.0.0.0 motd.introversion.co.uk
 
 # Inverse Game
 # Girl and Goblin
@@ -9571,7 +9260,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # JDM4iK
@@ -9581,7 +9269,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # JMJ Interactive
@@ -9592,7 +9279,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Joey Drew Studios Inc.
@@ -9666,7 +9352,6 @@ ff02::3 ip6-allhosts
 # Frisky Business
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 487cdcdf7a19623b97a27be170bb81f4.cloudfront.net
 
 # Kabam Games, Inc.
 # Shop Titans: Craft & Bauen
@@ -9718,7 +9403,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Kakao Games Europe B.V.
@@ -9731,7 +9415,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 origin.gamecdn.blackdesertonline.com
 #0.0.0.0 akamai-gamecdn.blackdesertonline.com
@@ -9741,7 +9424,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ipchicken.com
 #0.0.0.0 search.naver.com
 0.0.0.0 whatismyipaddress.com
-0.0.0.0 eblk-olvia10.service.defence-daumgameseu.com
 
 # KaleidoGames + Indie Tribe
 # Vortex Attack: ボルテックスアタック
@@ -9755,7 +9437,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Kalypso Media Group GmbH
@@ -9765,7 +9446,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Crookz - The Big Heist
@@ -9824,7 +9504,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com # alle paar Sekunden aktiv
 
@@ -9874,12 +9553,10 @@ ff02::3 ip6-allhosts
 # 78.129.129.136
 # 82.165.136.129
 0.0.0.0 launcher01.kalypsomedia.com
-0.0.0.0 collect13452trpc6.deltadna.net
 0.0.0.0 openid.kalypsolauncher.com
 # Die folgenden ips/hostnamen werden für den Mehrspielermodus benötigt
 # 92.38.154.8
 # 52.174.162.167
-0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com
 # Zeug & Endpunkt
 0.0.0.0 beast.realmforgestudios.com
 0.0.0.0 business-24-134-234-53.pool2.vodafone-ip.de
@@ -10025,7 +9702,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # KillHouse Games
@@ -10035,7 +9711,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com # Tracker alle paar Sekunden aktiv
 
@@ -10105,7 +9780,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Klei Entertainment
@@ -10121,9 +9795,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 kleianalyticsfrontend.elasticbeanstalk.com
 0.0.0.0 d21wmy1ql1e52r.cloudfront.net
 # Extern mit Mitwirkung des Nutzers, größtenteils für Formatierung der eigenen Webseiten
 #0.0.0.0 cdn.forums.klei.com
@@ -10150,7 +9822,6 @@ ff02::3 ip6-allhosts
 # 52.78.150.69
 # 18.136.53.226
 # 35.162.205.154
-0.0.0.0 kleianalyticsfrontend.elasticbeanstalk.com
 0.0.0.0 d21wmy1ql1e52r.cloudfront.net
 0.0.0.0 d26ly0au0tyuy.cloudfront.net # Server/Spieleliste
 # 52.205.199.5
@@ -10167,7 +9838,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 us-west-2.ping.klei.ca
 0.0.0.0 ap-southeast-1.ping.klei.ca
 0.0.0.0 ap-southeast-2.ping.klei.ca
-0.0.0.0 cn-northwest-1.ping.klei.ca
 0.0.0.0 ap-northeast-2.ping.klei.ca
 
 # Invisible Inc.
@@ -10178,10 +9848,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 metric.kleientertainment.com
-0.0.0.0 kleianalyticsfrontend.elasticbeanstalk.com
 
 # Oxygen Not Included
 # Ip/s blockieren:
@@ -10200,7 +9868,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # KOEI TECMO GAMES CO., LTD.
@@ -10239,7 +9906,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Konami Digital Entertainment Co., Ltd.
@@ -10263,7 +9929,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 mgstpp-game.konamionline.com # Onlineserver
 
 # METAL GEAR SURVIVE
-0.0.0.0 ntl.konamionline.com
 #0.0.0.0 mgssd-game.cs.konami.net # Dauerverbindung Onlinezwang/Server
 
 # Pro Evolutionn Soccer 2019
@@ -10290,7 +9955,6 @@ ff02::3 ip6-allhosts
 # 210.148.52.94
 # 210.148.52.95
 #0.0.0.0 pes19-x64-stun.cs.konami.net
-0.0.0.0 pes19-x64-lb-c075a4ea1eb7ff5b.elb.us-west-2.amazonaws.com
 # 35.197.63.107
 # 35.199.30.185
 # 35.204.253.149
@@ -10352,7 +10016,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -10360,7 +10023,6 @@ ff02::3 ip6-allhosts
 # Laina Interactive
 # The Slater
 0.0.0.0 www.google-analytics.com
-0.0.0.0 stats.unity3d.com
 
 # langqi
 # 魔物娘物语 / Monogami Monogatari
@@ -10410,7 +10072,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Lcc Studio
@@ -10478,8 +10139,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 comedynightapi.azurewebsites.net
 0.0.0.0 perf-events.cloud.unity3d.com
-0.0.0.0 177d9edea4bc2d9db934cc4080f20342.cloudfront.net
-0.0.0.0 3c2476383ec2dd20b3b952b944a0f17d.cloudfront.net
 
 # Lion's Shade
 # Cliff Empire
@@ -10490,7 +10149,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # LLC Blini Games
@@ -10549,7 +10207,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Lupiesoft
@@ -10559,7 +10216,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Lusorion Creatives
@@ -10568,7 +10224,6 @@ ff02::3 ip6-allhosts
 # 82.208.17.121
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 7c2d73d3cd46e357090188fa2946f746.cloudfront.net
 
 # Love Conquers All Games
 # Ladykiller in a Bind
@@ -10577,7 +10232,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 ladykillerinabind.com # Updatecheck für Linux, Max, Windows
 
@@ -10592,7 +10246,6 @@ ff02::3 ip6-allhosts
 
 # Mad Dog Games, LLC
 # NBA Playgrounds
-0.0.0.0 nba.saber3d.ru
 
 # Mad Hunter Studio & EHTechnology
 # Mad Hunter
@@ -10626,7 +10279,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Madmind Studio
@@ -10644,7 +10296,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # BULLET SOUL / バレットソウル - 弾魂 -
@@ -10653,7 +10304,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Magitech Games
@@ -10682,7 +10332,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -10736,7 +10385,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # MassDiGI
@@ -10761,7 +10409,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Mature Games
@@ -10822,7 +10469,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Metal Fox
@@ -10888,7 +10534,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Metanet Software Inc.
@@ -10898,7 +10543,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 dojo.nplusplus.ninja
 
@@ -10924,7 +10568,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Microids
@@ -10934,13 +10577,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Garfield Kart
 # 67.225.180.26
 # 67.225.180.24
-0.0.0.0 host6.unity3d.com
 0.0.0.0 assets2.unity3d.com
 0.0.0.0 connectiontester.unity3d.com
 
@@ -10983,7 +10624,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -11017,7 +10657,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Mihai Morosanu
@@ -11095,7 +10734,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -11108,14 +10746,12 @@ ff02::3 ip6-allhosts
 # 3.208.241.25
 # 208.64.200.105
 0.0.0.0 api.gameanalytics.com
-0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Milestone S.r.l.
@@ -11177,7 +10813,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Modus Games
@@ -11273,7 +10908,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -11362,7 +10996,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # NA
@@ -11415,7 +11048,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Ndemic Creations
@@ -11425,7 +11057,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 l.ndemiccreations.com
 0.0.0.0 s.ndemiccreations.com # Aktivieren für Multiplayer und Statistiken
@@ -11443,7 +11074,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Neko Entertainment
@@ -11453,7 +11083,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Replay - VHS is not dead
@@ -11462,7 +11091,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Storm
@@ -11471,7 +11099,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # NEKO WORKs
@@ -11644,7 +11271,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 bs.serving-sys.com
 #0.0.0.0 www.nexon.com
@@ -11669,7 +11295,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -11773,7 +11398,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 analytics.ninjakiwi.com
 0.0.0.0 moab.ninjakiwi.com # Ingame-Nutzertracking z.b. Turm platziert, Spiel gestartet usw mitsamt Infos zu Netzwerkfehlern
@@ -11790,7 +11414,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 analytics.ninjakiwi.com
 #0.0.0.0 static-api.nkstatic.com
@@ -11824,7 +11447,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 analytics.ninjakiwi.com
 #0.0.0.0 api.ninjakiwi.com
@@ -11841,7 +11463,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # ラングリッサーI&II | Langrisser I & II
@@ -11865,7 +11486,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Strangers of Sword City
@@ -11876,7 +11496,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # 深夜廻 Yomawari: Midnight Shadows
@@ -11885,7 +11504,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Nitrome
@@ -11921,7 +11539,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Northway Games
@@ -11954,18 +11571,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # NVLMaker
 # Soulslayer～灭魂·误佳期～
-0.0.0.0 open.bakery.moe
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Nyu Media
@@ -11985,7 +11599,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -11996,15 +11609,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # Das Produkt wurde abgeschaltet
 # 202.213.198.230
-0.0.0.0 id.ogplanet.com
-0.0.0.0 dl.latale.jp
 0.0.0.0 gpdl01.gamepot.co.jp
 0.0.0.0 lapatch.gameflier.com
-0.0.0.0 testpatch-dl.latale.jp
 
 # OhNoo Studio
 # Tormentum - Dark Sorrow
@@ -12025,7 +11634,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # OnFire Games
@@ -12040,7 +11648,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # OpenArl
@@ -12165,7 +11772,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -12194,7 +11800,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.gameanalytics.com
 #0.0.0.0 steamtinyarmypanoramic.appspot.com
@@ -12215,7 +11820,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
@@ -12243,7 +11847,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 www.paradoxplaza.com # Herstellerseite
 0.0.0.0 cdn.cquotient.com
 0.0.0.0 www.googletagmanager.com
-0.0.0.0 10965211.collect.igodigital.com
 
 # Cities: Skylines
 0.0.0.0 opstm.paradoxplaza.com # Dauerverbindung des Spiels zu Paradox-Servern. Kann abgeschaltet werden
@@ -12288,7 +11891,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 services.paradoxplaza.com
 #0.0.0.0 forumcontent.paradoxplaza.com
@@ -12345,7 +11947,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 s3.amazonaws.com
 
@@ -12369,7 +11970,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.google-analytics.com
 0.0.0.0 opstm.paradoxplaza.com
 #0.0.0.0 api.paradox-interactive.com
-0.0.0.0 capture-trackjs.com
 0.0.0.0 usage.trackjs.com
 0.0.0.0 cdn.introversion.co.uk
 #0.0.0.0 services.paradoxplaza.com
@@ -12476,7 +12076,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Perfect World Entertainment
@@ -12527,7 +12126,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Petroglyph Games Inc.
@@ -12545,7 +12143,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 RTSCoordBalancer-325549666.us-east-1.elb.amazonaws.com
 #0.0.0.0 s3.amazonaws.com
@@ -12621,7 +12218,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Dead In Vinland
@@ -12638,7 +12234,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 insanity.playflock.com # Canvas Output und SteamID, Spracheinstellungen, Projektbezeichnung, Auflösung maximum und eingestellte Auflösung
 0.0.0.0 airdownload2.adobe.com
@@ -12658,7 +12253,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Playsaurus
@@ -12667,7 +12261,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.google-analytics.com
 #0.0.0.0 ClickerHeroes-SavedGames3-747864888.us-east-1.elb.amazonaws.com
 #0.0.0.0 clickerheroes-payments-xxxxxx.us-east-1.elb.amazonaws.com
-0.0.0.0 live-collect-1709264271.us-east-1.elb.amazonaws.com
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 airdownload2.adobe.com
 0.0.0.0 www.ngads.com
@@ -12678,7 +12271,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 api.steampowered.com # Währung, Land
 0.0.0.0 airdownload2.adobe.com
@@ -12693,7 +12285,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Farm Manager 2018
@@ -12729,7 +12320,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # UBoat
@@ -12807,7 +12397,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.polarityflow.com
@@ -12836,7 +12425,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # PotatoIndustries
@@ -12853,7 +12441,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -12955,7 +12542,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Project Moon
@@ -13007,7 +12593,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Racing Bros
@@ -13043,7 +12628,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # 92.223.82.17
 # 172.65.231.130
@@ -13071,7 +12655,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 test.exomx.com
 #0.0.0.0 game.endlessworldgame.com
 #0.0.0.0 admin.endlessworldgame.com
-0.0.0.0 api.athlongames.com
 0.0.0.0 ldns.co
 
 # Ragnarok Game, LLC
@@ -13106,7 +12689,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Random Seed Games
@@ -13120,7 +12702,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -13137,7 +12718,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -13174,7 +12754,6 @@ ff02::3 ip6-allhosts
 # Sniper Elite III
 # Launcher und Webseite
 0.0.0.0 se3-content.rebellion.co.uk
-0.0.0.0 include.reinvigorate.net
 #0.0.0.0 goo.gl
 
 # Sniper Elite IV
@@ -13182,7 +12761,6 @@ ff02::3 ip6-allhosts
 # Facebook Anbindung
 #0.0.0.0 discordapp.com
 #0.0.0.0 hello.myfonts.net
-0.0.0.0 include.reinvigorate.net
 0.0.0.0 js-agent.newrelic.com
 #0.0.0.0 platform.twitter.com
 #0.0.0.0 www.rebellion.co.uk
@@ -13195,7 +12773,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Strange Brigade
@@ -13250,7 +12827,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 ocsp.digicert.com
 # Via Klick auf deren Mailicon unten rechts im Hauptmenü
@@ -13270,7 +12846,6 @@ ff02::3 ip6-allhosts
 
 # Red Thread Games
 # Dreamfall Chapters
-0.0.0.0 stats.unity3d.com
 0.0.0.0 server.dreamfallchapters.net
 0.0.0.0 userservice.redthreadgames.net
 
@@ -13299,7 +12874,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Revere Heaven Love People Innovation Technology Co., Ltd.
@@ -13525,7 +13099,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # ROCKFISH Games
@@ -13540,7 +13113,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Rockstar Games
@@ -13553,7 +13125,6 @@ ff02::3 ip6-allhosts
 # 52.43.12.129
 #0.0.0.0 go.microsoft.com
 #0.0.0.0 ocsp.entrust.net
-0.0.0.0 tv.rockstargames.com
 #0.0.0.0 www.rockstargames.com
 
 # Grand Theft Auto V
@@ -13615,7 +13186,6 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 54.210.167.166
 # 3.208.241.25
-0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
 # 52.68.18.133
@@ -13636,7 +13206,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # rokaplay und Maple Whispering Limited
@@ -13723,7 +13292,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -13760,7 +13328,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # Azure Playfab für Kontenbindung, Analytics und Onlinezwang
 # 35.166.219.76
@@ -13807,7 +13374,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 steamcloud-eu.storage.googleapis.com
 
@@ -13838,7 +13404,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Binary Domain
@@ -13847,7 +13412,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Catherine Classic
@@ -13859,7 +13423,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 garry.sgaas.net
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
@@ -13870,7 +13433,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Company of Heroes 2
@@ -13886,7 +13448,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 coh2-api.reliclink.com # Serveranbindung
 #0.0.0.0 reliclink0-coh2-api-746245276.us-east-1.elb.amazonaws.com
@@ -13905,7 +13466,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com
 #0.0.0.0 forums.amplitude-studios.com
@@ -13926,7 +13486,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # s. Rubrik Kopierschutz / AntiCheat
 # Ip/s blockieren:
@@ -13967,14 +13526,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Total War: Attila
 # inklusiv Youtube, Google, Twitter, Facebook und anderem Zeugs
 # Launcher+Encyclopedia+MP
-0.0.0.0 launcher.totalwar.com
-0.0.0.0 d1hdmqpnp3kt1h.cloudfront.net
 #0.0.0.0 617474696c61.totalwar.com # MP
 # Enzeklopädie Einträge
 0.0.0.0 atenc.totalwar.com
@@ -14018,7 +13574,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 launcher-v3.totalwar.com # Werbung verbunden mit Youtube
 0.0.0.0 w8yywdf.x.incapdns.net
@@ -14094,7 +13649,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 launcher-v3.totalwar.com
 0.0.0.0 launcher-v3-content.totalwar.com
@@ -14121,8 +13675,6 @@ ff02::3 ip6-allhosts
 
 # Total War Saga: Thrones of Britannia
 # Launcher / Inhalte wurden hier abgeschaltet
-0.0.0.0 launcher.totalwar.com
-0.0.0.0 twlauncher-86272956.eu-west-1.elb.amazonaws.com
 #0.0.0.0 ajax.googleapis.com
 # Zertifikate
 #0.0.0.0 ocsp.digicert.com
@@ -14144,7 +13696,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Two Point Hospital | Update 12.03.2019
@@ -14242,7 +13793,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 galaxy-log.gog.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -14275,7 +13825,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # NEKOPALIVE
@@ -14288,7 +13837,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # NEKOPARA Vol. 4
@@ -14297,7 +13845,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Sergej110
@@ -14354,13 +13901,11 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 94d63cbf92082237b86267ffd4cacc64.cloudfront.net
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Shanghai JingCai Computer Software Development Co., Ltd
@@ -14381,7 +13926,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 launcher.shirogames.com
 0.0.0.0 launcher-admin.shirogames.com
@@ -14454,12 +13998,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 www.google.com
 0.0.0.0 www.sigma-team.ru
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 fra24s04-in-f4.1e100.net
 
 # SIGONO INC.
@@ -14476,7 +14018,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # The Safeguard Garrison
@@ -14485,7 +14026,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Silver Dollar Games
@@ -14514,7 +14054,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Skip32
@@ -14529,7 +14068,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Slitherine Ltd.
@@ -14538,7 +14076,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 www.matrixgames.com
 0.0.0.0 www.google-analytics.com # UA-44212718-3
 #0.0.0.0 empiresapart.net
-0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 api.gameanalytics.com
 #0.0.0.0 cm2-par1.cm.steampowered.com
 #0.0.0.0 cm1-sto2.cm.steampowered.com
@@ -14561,12 +14098,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Warhammer 40,000: Gladius - Relics of War
 # autorun.exe
-0.0.0.0 eines.employedmothers.net
 0.0.0.0 www.matrixgames.com # Launcherwerbung
 0.0.0.0 arn11s03-in-f14.1e100.net
 # 96.47.11.40
@@ -14657,7 +14192,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 azevm7mcof9i3-ats.iot.us-east-1.amazonaws.com
 0.0.0.0 api.ipify.org
 0.0.0.0 s2s.adjust.com
-0.0.0.0 elb097307-934924932.us-east-1.elb.amazonaws.com
 0.0.0.0 eu-central.lostark.games.aws.dev
 0.0.0.0 ludy-public-lb-c66d7f664e901264.elb.eu-central-1.amazonaws.com
 0.0.0.0 lostark.game.gate8.com
@@ -14690,7 +14224,6 @@ ff02::3 ip6-allhosts
 # The Frostrune
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 6fe90cb7a4852d2683f62e862f7a790c.cloudfront.net
 0.0.0.0 ssl.google-analytics.com
 
 # SOEDESCO Publishing
@@ -14700,7 +14233,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # SOFTSTAR ENTERTAINMENT INC.
@@ -14710,7 +14242,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # 軒轅劍外傳穹之扉《The Gate of Firmament》
@@ -14719,7 +14250,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # 轩辕剑柒《Xuan-Yuan Sword VII》
@@ -14767,7 +14297,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Hexoscope
@@ -14779,7 +14308,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Langoth
@@ -14809,7 +14337,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Sony Interactive Entertainment, Inc.
@@ -14821,7 +14348,6 @@ ff02::3 ip6-allhosts
 # 34.196.22.119
 # 18.211.148.84
 # 52.21.46.134
-0.0.0.0 dgpc.api.wwsga.me
 0.0.0.0 dgpcx.api.wwsga.me
 0.0.0.0 prod01.api.us-east-1.production.smaug.wwsga.me
 0.0.0.0 ec2-54-86-57-185.compute-1.amazonaws.com
@@ -14849,7 +14375,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Spawn Point OSK
@@ -14864,7 +14389,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Spiderling Studios
@@ -14875,7 +14399,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 icanhazip.com
 # Mehrspielermodi konnten nicht getestet werden
@@ -14891,7 +14414,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Crystar
@@ -14929,7 +14451,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # SQUARE ENIX CO., LTD.
@@ -14946,7 +14467,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 lobby.dqrivals.com
 #0.0.0.0 cache.dqrivals.com
@@ -14979,7 +14499,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # DRAGON QUEST® XI: Echoes of an Elusive Age™ - Digital Edition of Light
@@ -15000,7 +14519,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 weblet.square-enix.com # Profilseite
 0.0.0.0 connect-dev.eidos.co.uk
@@ -15025,7 +14543,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # FINAL FANTASY XV WINDOWS EDITION
@@ -15044,7 +14561,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Hitman GO: Definitive Edition
@@ -15052,7 +14568,6 @@ ff02::3 ip6-allhosts
 # 216.58.212.132
 # 216.58.205.228
 #0.0.0.0 www.google.com
-0.0.0.0 hmgo.os.eidos.com
 
 # Just Cause™ 3
 0.0.0.0 nelo2-col.nhncorp.jp # Errorlogs
@@ -15079,7 +14594,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Legend of Mana
@@ -15091,7 +14605,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 lis.os.eidos.com
 
@@ -15253,7 +14766,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 certificates.godaddy.com
 #0.0.0.0 crl.godaddy.com
@@ -15282,7 +14794,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 ocsp.godaddy.com
 #0.0.0.0 crl.godaddy.com
@@ -15309,7 +14820,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 skrivals-api-tachyon.stardock.net
 
@@ -15350,7 +14860,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.google-analytics.com
 #0.0.0.0 twitter.com
@@ -15372,7 +14881,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.stolencouchgames.com
 
@@ -15438,7 +14946,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
@@ -15450,7 +14957,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Studio Nanafushi
@@ -15511,7 +15017,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -15537,7 +15042,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 buffpanel.com
-0.0.0.0 api.ghostline.xyz
 
 # Super Awesome Hyper Dimensional Mega Team
 # Supermagical
@@ -15551,13 +15055,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.gameanalytics.com
 
 # Western Press
 # 35.241.52.229
-0.0.0.0 stats.unity3d.com
 0.0.0.0 229.52.241.35.bc.googleusercontent.com
 
 # Suspicious Developments
@@ -15577,7 +15079,6 @@ ff02::3 ip6-allhosts
 # 52.88.98.131
 # 54.201.12.16
 # 52.27.8.50
-0.0.0.0 p-5ea1-mainserver-1132673268.us-west-2.elb.amazonaws.com
 
 # Tactical Adventures
 # Solasta: Crown of the Magister
@@ -15602,7 +15103,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 warbandmain.taleworlds.com # Serverliste/Multiplayer
 
@@ -15632,7 +15132,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 server.tasharen.com
 0.0.0.0 ipinfo.io # Benötigt für die Herkunftserkennung im Multiplayer
@@ -15657,7 +15156,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Steel Rats™
@@ -15687,7 +15185,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Aven Colony
@@ -15753,7 +15250,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Overcooked! 2
@@ -15762,7 +15258,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -15777,7 +15272,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 www.escapistgame.com # Bestenlisten
 
@@ -15791,7 +15285,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Worms Ultimate Mayhem
@@ -15801,7 +15294,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Worms W.M.D.
@@ -15810,7 +15302,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 ads.t17service.com
 0.0.0.0 worms-wmd-pc.t17service.com
@@ -15823,7 +15314,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 eb9q4.team17.com # Spielserver
 
@@ -15834,7 +15324,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Team Flow
@@ -15912,7 +15401,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # The Brotherhood & Daedalic Entertainment
@@ -15930,7 +15418,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # The Behemoth
@@ -15950,7 +15437,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # The Fun Pimps Entertainment LLC
@@ -15982,11 +15468,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 stats.unity3d.com
 
 # The Young Socratics
 # Odyssey - The Story of Science
@@ -16003,7 +15487,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 stats.unity3d.com
 
 # Thick & Thin
 # 208.64.200.105
@@ -16011,7 +15494,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Thiemo Bolder, ONEMANGAMES
@@ -16109,7 +15591,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Full Spectrum Warrior
-0.0.0.0 fswpc.available.gamespy.com
 
 # Spellforce III
 0.0.0.0 tqa_pc-gds.thqonline.net
@@ -16120,7 +15601,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 redmine.thqnordic.com # Bugtracker
 0.0.0.0 server2.thqonline.net # evtl. nur Betaserver?
@@ -16171,7 +15651,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Community Inc
@@ -16185,7 +15664,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Fearless Fantasy
@@ -16197,7 +15675,6 @@ ff02::3 ip6-allhosts
 # 208.64.200.105
 # 172.217.16.19
 # 2.21.41.101
-0.0.0.0 www.flox.cc
 0.0.0.0 airdownload2.adobe.com
 0.0.0.0 a279.dscq.akamai.net
 #0.0.0.0 ghs.googlehosted.com
@@ -16214,7 +15691,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -16288,7 +15764,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Stage Presence
@@ -16415,7 +15890,6 @@ ff02::3 ip6-allhosts
 # Thomas Bowker
 # LYNE
 # 103.44.220.37
-0.0.0.0 vecflo.thomasbowker.com
 
 # Thomas Happ Games LLC
 # Axiom Verge
@@ -16424,7 +15898,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Thorium
@@ -16455,7 +15928,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Sundered
@@ -16546,7 +16018,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Farming Giant
@@ -16559,7 +16030,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 secure.zuxxez.com
 #0.0.0.0 ocsp.comodoca.com
@@ -16576,7 +16046,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 steamapi.topware.com # Ingameshop
 
@@ -16651,7 +16120,6 @@ ff02::3 ip6-allhosts
 
 # Trendy Entertainment
 # Dungeon Defenders
-0.0.0.0 images.dungeondefenders.com
 0.0.0.0 dungeondefenders.com
 0.0.0.0 tiny.cc
 #0.0.0.0 dd1.duxapi.com
@@ -16737,7 +16205,6 @@ ff02::3 ip6-allhosts
 # 52.39.99.35
 #0.0.0.0 mordhau.com # Ingamenews
 #0.0.0.0 uploads.mordhau.com
-0.0.0.0 bugtracker.mordhau.com
 #0.0.0.0 api.mod.io # Ingame/Modschnittstelle
 # Youtube Tracking/Cookies
 # 165.231.161.13
@@ -16794,7 +16261,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 msr-public-ubiservices.ubi.com
 #0.0.0.0 public-ubiservices.ubi.com # Cloud
@@ -16810,7 +16276,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 ubistatic2-a.akamaihd.net
 #0.0.0.0 msr-public-ubiservices.ubi.com
@@ -16832,7 +16297,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 storage.ubi.com
 0.0.0.0 onlineconfigservice.ubi.com
@@ -16869,7 +16333,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Silent Hunter® III
@@ -16946,7 +16409,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ubiservices.cdn.ubi.com
 #0.0.0.0 ubisoft-orbit-savegames.s3.amazonaws.com
 0.0.0.0 sigma.ubi.com
-0.0.0.0 sigma-elb-1893274496.us-east-1.elb.amazonaws.com
 0.0.0.0 news-page-themes-api.a.upc.ubisoft.com
 
 # Tom Clancy's Ghost Recon® Wildlands
@@ -16982,7 +16444,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Ultima Games
@@ -16990,8 +16451,6 @@ ff02::3 ip6-allhosts
 # Facebook, Discord, Twitter, Wix, Google
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 170fdbe261f5e85186a08817806feba2.cloudfront.net
-0.0.0.0 7b48191d48ad0a2b3616c20acd7fbc1c.cloudfront.net
 
 # Ultimate Games S.A.
 # Bouncy Bob
@@ -17046,9 +16505,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 stats.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 #0.0.0.0 gsp-aeu001-se06.gamesparks.net
@@ -17082,16 +16539,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 dashboard.heyplayapp.com # Social Dashboard
 #0.0.0.0 public-cdn.cloud.unity3d.com # Hub/Setup Installer z.b. über VisualStudio
 0.0.0.0 eloqua-trackings.unity3d.com
-0.0.0.0 lore.cdp.internal.unity3d.com
-0.0.0.0 lore.data.ie.cdp.internal.unity3d.com
 0.0.0.0 eu-api.uca.cloud.unity3d.com
 0.0.0.0 dataoptout-ui-prd.uca.cloud.unity3d.com
 0.0.0.0 uca.cloud.unity3d.com
 0.0.0.0 sdk-diagnostics.prd.mz.internal.unity3d.com
 0.0.0.0 auction.unityads.unity3d.com
-0.0.0.0 cdn-creatives-highwindsprd.unityads.unity3d.com
 0.0.0.0 auiopt.unityads.unity3d.com
-0.0.0.0 cdn-store-icons-highwindsprd.unityads.unity3d.com
 0.0.0.0 httpkafka.unityads.unity3d.com
 0.0.0.0 publisher-config.unityads.unity3d.com
 0.0.0.0 ecommerce.iap.unity3d.com
@@ -17099,7 +16552,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 nginx-auction-prd-gcp.adsx.unityads.unity3d.com
 0.0.0.0 ads-game-configuration.unityads.unity3d.com
 0.0.0.0 cdn-creatives-akamaistls-prd.unityads.unity3d.com
-0.0.0.0 cdn-store-icons-akamai-ord.unityads.unity3d.com
 0.0.0.0 ads-brand-postback.unityads.unity3d.com
 0.0.0.0 adserver.unityads.unity3d.com
 # Zuständig für Schnüffelei in Spielen
@@ -17121,8 +16573,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
-0.0.0.0 stats.unity3d.com
-0.0.0.0 hwstats.uca.cloud.unity3d.com
 0.0.0.0 userreporting.cloud.unity3d.com
 0.0.0.0 14.181.107.34.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
@@ -17174,7 +16624,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 d7ns9pp5uxwfa.cloudfront.net
 0.0.0.0 eu-west-api.unnyworld.net
 0.0.0.0 eu-west-auth.unnyworld.net
-0.0.0.0 euunny.m.in-app.io
 
 # Unfold Games
 # Darq
@@ -17183,9 +16632,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 stats.unity3d.com
 
 # Upper Class Walrus
 # Fort Meow
@@ -17195,7 +16642,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www.surpriseattackgames.com
 
@@ -17206,7 +16652,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 up-trans-web1.wavecloud.de
 #0.0.0.0 idlekingdombuilder.upjers.com # Savegame, Zeitstempel, sämtliche Ingametexte, erfasste GeräteID, UUID
@@ -17223,7 +16668,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
 # 23.211.1.74
@@ -17256,7 +16700,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 vectorunit-rgpr.appspot.com
 0.0.0.0 vectorunit-cloud.appspot.com
@@ -17296,7 +16739,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 server-143-204-98-107.fra50.r.cloudfront.net
 0.0.0.0 fra15s46-in-f8.1e100.net
@@ -17310,7 +16752,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 stoicstudio.com # News
 0.0.0.0 www.google-analytics.com # ID, Spracheinstellungen, Monitoreinstellungen & diverse andere Daten
@@ -17382,10 +16823,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
-0.0.0.0 ping.yoyogames.com
-0.0.0.0 metricsforfriends.zachbarth.webfactional.com
 
 # Virtual Rage Studios LLC
 # The Crypts of Anak Shaba - VR
@@ -17461,7 +16899,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -17525,7 +16962,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Warcave, Crazy Monkey Studios
@@ -17541,7 +16977,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-analytics.com # UA-26276791-10
@@ -17584,7 +17019,6 @@ ff02::3 ip6-allhosts
 # 23.20.70.137
 # 52.4.241.77
 0.0.0.0 cls.psn.turbine.com
-0.0.0.0 oes.netherrealm.com
 0.0.0.0 wbplay-frontend-prod-psn-809827373.us-east-1.elb.amazonaws.com
 # Onlinemodus
 # 34.231.144.200
@@ -17676,7 +17110,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Wb Games
@@ -17725,14 +17158,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 beacon.krxd.net
 0.0.0.0 ps.eyeota.net
 0.0.0.0 cm.g.doubleclick.net
-0.0.0.0 r.nexac.com
-0.0.0.0 kr.ixiaa.com
 0.0.0.0 aa.agkn.com
 0.0.0.0 usermatch.krxd.net
 0.0.0.0 idpix.media6degrees.com
 0.0.0.0 s.amazon-adsystem.com
 0.0.0.0 s.thebrighttag.com
-0.0.0.0 r.dlx.addthis.com
 0.0.0.0 d.turn.com
 
 # Weather Factory
@@ -17764,7 +17194,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -17784,7 +17213,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Whalegun
@@ -17821,7 +17249,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -17837,7 +17264,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Winking Entertainment
@@ -17929,7 +17355,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 config-proxy-prd.uca.cloud.unity3d.com
 
 # WRD
 # Fallen Cube | Aktualisiert 26.02.2019
@@ -17959,7 +17384,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -17993,7 +17417,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Xander’s Corgi Arcade
@@ -18010,7 +17433,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Gears 5
@@ -18068,34 +17490,24 @@ ff02::3 ip6-allhosts
 # Telemetrie / Collector und Endpunkte
 0.0.0.0 web.vortex.data.microsoft.com
 0.0.0.0 vortex.data.microsoft.com
-0.0.0.0 vortex-sbx.microsoft.com
 0.0.0.0 vortex-win-sandbox.data.microsoft.com
-0.0.0.0 vortex.microsoft.com
 0.0.0.0 ecc8.playfabapi.com # Microsoft Azure Playfab Analytics
-0.0.0.0 playfab.xboxlive.com
 0.0.0.0 vortex-sandbox.data.microsoft.com
 0.0.0.0 events-sandbox.data.microsoft.com
 0.0.0.0 settings-sandbox.data.microsoft.com
 0.0.0.0 settings-win.data.microsoft.com
 0.0.0.0 settings-ppe.data.microsoft.com
-0.0.0.0 onesettings-xbox-rp.com
 0.0.0.0 settings.data.microsoft.com
 0.0.0.0 data-vef.xboxlive.com
 # Weitere Endpunkte
-0.0.0.0 bestv.device.mgt.xboxlive.com
 0.0.0.0 xkms.xboxlive.com
-0.0.0.0 banning.xboxlive.com
 0.0.0.0 attestation.xboxlive.com
-0.0.0.0 experimentation.xboxlive.com
-0.0.0.0 bestvrp.bestv.com
 0.0.0.0 www.bestv.com.cn
-0.0.0.0 xboxliverp.skype.com
 0.0.0.0 beam.pro
 0.0.0.0 platform.bing.com
 0.0.0.0 xdes.xboxlive.com
 0.0.0.0 twitchxboxrp.twitch.tv
 0.0.0.0 gssv-auth-prod.xboxlive.com
-0.0.0.0 gssv.xboxlive.com
 # Weitere Funktionen
 #0.0.0.0 userpresence.xboxlive.com # Heartbeat / Online Status
 #0.0.0.0 profile.xboxlive.com
@@ -18112,8 +17524,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 tccmsms.azureedge.net
 0.0.0.0 cconfig.azureedge.net
 # Gears of War.net
-0.0.0.0 playfab-rely.testsvc.gearsofwar.net
-0.0.0.0 xsts.gearsofwar.net
 0.0.0.0 cconfig.svc.gearsofwar.net
 0.0.0.0 stats-prod.svc.gearsofwar.net
 0.0.0.0 spartaprofile-prod.svc.gearsofwar.net
@@ -18130,7 +17540,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Halo: The Masterchief Collection
@@ -18203,15 +17612,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 userstats.xboxlive.com
 0.0.0.0 vortex.data.microsoft.com
 0.0.0.0 web.vortex.data.microsoft.com
-0.0.0.0 prod.xsts.halowaypoint.com
 #0.0.0.0 ee38.playfabapi.com # An Mehrspielermodi gekoppelt
 #0.0.0.0 p-ee38-mainserver-166927264.us-west-2.elb.amazonaws.com
 0.0.0.0 telemetry.svc.halowaypoint.com
-0.0.0.0 s3-telemetry-eust1.cloudapp.net
-0.0.0.0 s3-telemetry-eust2.cloudapp.net
-0.0.0.0 s3-telemetry-eust3.cloudapp.net
-0.0.0.0 s3-telemetry-eust4.cloudapp.net
-0.0.0.0 s3-telemetry-eust5.cloudapp.net
 0.0.0.0 ipv4.login.msa.akadns6.net
 # Mehrspielermodus
 #0.0.0.0 settings.svc.halowaypoint.com # Correlation ID
@@ -18266,7 +17669,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 ori.rtep.msgamestudios.com
 
@@ -18420,7 +17822,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 steamcloud-eu-ams.storage.googleapis.com
 #0.0.0.0 steamcloudams2.blob.core.windows.net
@@ -18497,7 +17898,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # Xitilon
@@ -18507,7 +17907,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # XSEED Games & Marvelous USA, Inc.
@@ -18517,7 +17916,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds2.steampowered.com
 0.0.0.0 gds3.steampowered.com
 0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
 # デモンエクスマキナ | DAEMON X MACHINA
@@ -18556,7 +17954,6 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.241.52.229
-0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -18605,7 +18002,6 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 www.playhellion.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
@@ -18644,7 +18040,6 @@ ff02::3 ip6-allhosts
 
 # Zoo Corporation
 # Princess Kaguya: Legend of the Moon Warrior
-0.0.0.0 stats.unity3d.com
 
 # ZoopTEK
 # Super Cat Herding: Totally Awesome Edition
