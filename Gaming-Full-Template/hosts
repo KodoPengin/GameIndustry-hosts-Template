@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 21.11.2021
+# Änderungsdatum: 26.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -427,7 +427,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 songbird.cardinalcommerce.com
 0.0.0.0 merchantpool1.epicgames.com # Angeschlossen an Microsoft Dynamics 365 Fraud Protection
 # Bei neueren Titeln ist die API mit Telemetrie und Onlinezwang in Spielen verknüpft
-# Api mitsamt Endpunkten - Für reines Einzelspielervergnügen ohne Schnüffelei - Dieste stillschalten
+# Api mitsamt Endpunkten - Für reines Einzelspielervergnügen ohne Schnüffelei - Dienste stillschalten
 # Diesselbe Adresse als WSS für Heartbeat Telemetrie - Mehr Info unter dem Firmeneintrag zu Epic Games, Inc.
 # 3.217.15.178
 # 54.146.107.62
@@ -1164,7 +1164,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pagead46.l.doubleclick.net
 0.0.0.0 static-doubleclick-net.l.google.com
 0.0.0.0 stats.l.doubleclick.net
-#0.0.0.0 ipv4.imgur.map.fastly.net # i.imgur.com
+0.0.0.0 ipv4.imgur.map.fastly.net
 
 # Steam: streaming_client.exe | RemotePlay
 # GetSDRConfig, Clientservice - NotifyRemotePacket, GetReplies, CreateSessions, Valve Partner
@@ -1567,27 +1567,18 @@ ff02::3 ip6-allhosts
 # 5 Lives Studios
 # Satellite Reign
 0.0.0.0 icanhazip.com # erfasste Nutzerip
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 mm.unet.unity3d.com # Multiplayer auf Unityservern? ~.~
+# 104.18.115.97
+# 3.125.235.203
+# 69.163.186.167
+0.0.0.0 icanhazip.com # IP-Erfassung
+0.0.0.0 mm.unet.unity3d.com # Mehrspieler
+0.0.0.0 satellitereign.com # /exception/index.php
+# Endpunkte
+0.0.0.0 prod-mm.unet.unity3d.com
+0.0.0.0 ec2-3-125-235-203.eu-central-1.compute.amazonaws.com
 
 # 7DOTS
 # These nights in Cairo
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
-# 7DOTS, Angry games & RuVN
-# Satellite
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
@@ -1662,26 +1653,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 11bitstudios.com
 
 # Beat Cop
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # This War of Mine
 # Facebook Anbindung
@@ -2065,6 +2051,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
+
+# How to Survive 2
+# 54.146.81.8
+# 54.85.184.88
+#0.0.0.0 cloudsave.ekoserver.com
+0.0.0.0 pro-us-east-1-infra-211691592.us-east-1.elb.amazonaws.com
 
 # Underworld Ascendant
 # Ip/s blockieren:
@@ -3161,9 +3153,18 @@ ff02::3 ip6-allhosts
 
 # Autotelic Games LLC
 # Castle Clicker : Building Tycoon
-#0.0.0.0 s3.amazonaws.com # Infos zu Erfolgen, als auch Angaben zwischen Werbepausen? Scheinen Androidrückstände zu sein...
-0.0.0.0 flox.cc # Tokenübergabe und andere kodierte Angaben für... ?
-0.0.0.0 airdownload2.adobe.com # Tracker für Betriebssystem/Architektur, Spracheinstellungen
+# 52.216.166.5
+# 104.119.108.159
+# 54.167.74.106
+# 184.30.20.134
+#0.0.0.0 s3.amazonaws.com # Erfolge, Coupons, Erfolge
+0.0.0.0 airdownload2.adobe.com # Tracker für Paketnamen/AppID, Betriebssystem, Sprache, Architektur
+0.0.0.0 flox.cc
+#0.0.0.0 myclickergames.com # Token, Speicherstände, Mikrotransaktionen, Zeitstempel, Login, Spieler/SteamID
+0.0.0.0 a104-119-108-159.deploy.static.akamaitechnologies.com
+0.0.0.0 ec2-54-167-74-106.compute-1.amazonaws.com
+0.0.0.0 a184-30-20-134.deploy.static.akamaitechnologies.com
+0.0.0.0 e4578.dscb.akamaiedge.net
 
 # Avalanche Studios
 # Generation Zero
@@ -5850,7 +5851,7 @@ ff02::3 ip6-allhosts
 # 142.250.186.131
 # 142.250.186.67
 #0.0.0.0 update.googleapis.com
-0.0.0.0 redirector.gvt1.com
+#0.0.0.0 redirector.gvt1.com
 #0.0.0.0 dl.google.com
 #0.0.0.0 www.google.com
 
@@ -5990,15 +5991,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Degica
-# Castle of Shikigami 式神の城
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # ゲーム天国 CruisinMix | Game Tengoku CruisinMix
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
@@ -6286,13 +6278,6 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -6428,7 +6413,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.drycactus.com
 #0.0.0.0 api.gallery.drycactus.com
 #0.0.0.0 i.imgur.com
-#0.0.0.0 ipv4.imgur.map.fastly.net # i.imgur.com
+0.0.0.0 ipv4.imgur.map.fastly.net
 
 # DryGin Studios
 # Bio Inc. Redemption
@@ -9614,6 +9599,20 @@ ff02::3 ip6-allhosts
 # Odallus: The Dark Call
 0.0.0.0 keyo.me
 0.0.0.0 www.keyo.me
+
+# Juggernaut Games
+# StarCrawlers
+# 52.88.151.149, 44.229.241.180
+# 52.38.229.219
+# 54.149.255.169
+# 52.10.164.224
+# 34.210.118.20
+# 54.203.127.88
+# 52.43.142.153
+# 52.36.102.135
+# 172.28.195.1
+0.0.0.0 b9c5.playfabapi.com
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
 # Jujubee S.A.
 # KURSK
@@ -14859,13 +14858,17 @@ ff02::3 ip6-allhosts
 
 # Specialbit Studio
 # The Last Dream: Developer’s Edition
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 157.240.14.19
+# 157.240.14.35
+# 157.240.27.27
+# 157.240.14.19
+0.0.0.0 www.facebook.com
+0.0.0.0 facebook.com
+0.0.0.0 scontent.xx.fbcdn.net
+0.0.0.0 static.xx.fbcdn.net
+0.0.0.0 scontent-dus1-1.xx.fbcdn.net
+0.0.0.0 edge-star-mini-shv-02-mia3.facebook.com
+0.0.0.0 xx-fbcdn-shv-01-dus1.fbcdn.net
 
 # Spiderling Studios
 # Besiege
