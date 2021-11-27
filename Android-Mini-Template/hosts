@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Kombinierbar mit dem Hosts Template für Androidspiele und Programme - Spezifisch
-# Änderungsdatum: 18.11.2021
+# Änderungsdatum: 27.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -337,6 +337,7 @@
 # 172.217.23.106, 216.58.206.10
 #0.0.0.0 android.googleapis.com # Benötigt für die Angebote im Playstore
 #0.0.0.0 people-pa.googleapis.com # Zuständig für Synchronisation von Kalender und Kontakten
+#0.0.0.0 reminders-pa.googleapis.com
 #0.0.0.0 securetoken.googleapis.com
 #0.0.0.0 www.googleapis.com
 #0.0.0.0 www.googleapis.com # Synchronisation
@@ -357,7 +358,6 @@
 0.0.0.0 notifications-pa.googleapis.com
 0.0.0.0 performanceparameters.googleapis.com
 0.0.0.0 phonedeviceverification-pa.googleapis.com
-#0.0.0.0 reminders-pa.googleapis.com
 0.0.0.0 safebrowsing.googleapis.com
 0.0.0.0 speechs3proto2-pa.googleapis.com
 # MessageNet
@@ -436,6 +436,7 @@
 #0.0.0.0 clients3.google.com
 0.0.0.0 clients4.google.com
 # GVT1 & 2
+#0.0.0.0 redirector.gvt1.com
 0.0.0.0 beacons-handoff.gcp.gvt2.com
 0.0.0.0 beacons.gvt2.com
 0.0.0.0 beacons3.gvt2.com
@@ -445,8 +446,11 @@
 0.0.0.0 r1.sn-5hne6ns6.gvt1.com
 0.0.0.0 r1.sn-5hnekn7z.gvt1.com
 0.0.0.0 r3---sn-5hne6nzs.gvt1.com
+0.0.0.0 r3---sn-h0jeln7l.gvt.com
 0.0.0.0 r3.sn-5hne6nzs.gvt1.com
-0.0.0.0 redirector.gvt1.com
+0.0.0.0 r3.sn-h0jeln7l.gvt.com
+0.0.0.0 r5---sn-h0jeen7d.gvt.com
+0.0.0.0 r5.sn-h0jeen7d.gvt.com
 # Google Kram
 0.0.0.0 mobile-gtalk.l.google.com
 0.0.0.0 supl.google.com
@@ -899,9 +903,6 @@
 0.0.0.0 assets-share.dspunion.com
 0.0.0.0 aviaotpusk.ru # Highscorelisten
 0.0.0.0 aws-fr.bidswitch.net
-0.0.0.0 beacons.gvt2.com
-0.0.0.0 beacons3.gvt2.com
-0.0.0.0 beacons4.gvt2.com
 0.0.0.0 collector.githubapp.com
 0.0.0.0 config.eastus-ssp.appgwv2.inmobi.com
 0.0.0.0 dartmotif.net
@@ -921,10 +922,6 @@
 0.0.0.0 ns-eh2-prod-bn3-531.cloudapp.net
 0.0.0.0 o315582.ingest.sentry.io
 0.0.0.0 ox-d.mobile.servedbyopenx.com
-0.0.0.0 r3---sn-h0jeln7l.gvt.com
-0.0.0.0 r3.sn-h0jeln7l.gvt.com
-0.0.0.0 r5---sn-h0jeen7d.gvt.com
-0.0.0.0 r5.sn-h0jeen7d.gvt.com
 0.0.0.0 rm.aarki.net
 0.0.0.0 s.go-mpulse.net
 0.0.0.0 screenzilla.helpshift.com
