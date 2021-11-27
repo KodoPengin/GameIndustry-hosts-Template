@@ -10,7 +10,7 @@
 #
 # Version: Amazon FireStick und App-Verbindungen
 # Kombinierbar mit anderen Host Templates und PI-Hole
-# Änderungsdatum: 18.11.2021
+# Änderungsdatum: 27.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -101,6 +101,7 @@
 0.0.0.0 unagi-eu.amazon.com
 0.0.0.0 unagi-na.amazon.com # Sprachaufnahme / Alexa
 0.0.0.0 wl.amazon-dss.com
+0.0.0.0 eu-west-1.telemetry.insights.video.a2z.com
 
 # Firestick - Streaming, Teaser, Untertitel usw.
 # Videowerbung von Prime zu blocken ist hier nicht möglich
