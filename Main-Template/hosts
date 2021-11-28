@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 27.11.2021
+# Änderungsdatum: 28.11.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -59,16 +59,29 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.abelssoft.de
 
 # ACD Systems International Inc.
-# ACDSee Photo Studio Ultimate 2019
+# ACDSee Photo Studio Ultimate 2019, aufwärts
 # AcdIDInTouchX.exe, ACDSeeCommanderUltimateXX.exe manuell löschen
-# Apple Bonjour wird automatisch mitinstalliert | Dazugehöriger Registryeintrag Hkey_Local_Machine/Software/Apple Inc./Bonjour
-0.0.0.0 www.365.acdsee.com # 365 Modus im Programm selbst
-0.0.0.0 www.google-analytics.com
-0.0.0.0 r.acdsee.com # Weiterleitung aus dem Programm auf die Homepage
-# Login & Registrierung
+# Apple Bonjour wird unter C:\Program Files\Bonjour\mDNSResponder.exe automatisch mitinstalliert
+# Dazugehöriger Registryeintrag Hkey_Local_Machine/Software/Apple Inc./Bonjour
+# 23.37.43.27
+0.0.0.0 e8218.dscb1.akamaiedge.net
+# Login & Registrierung bei Bedarf freischalten
 0.0.0.0 www.acdsee.com # Übermittelt Produktname/Version + HWID -> verwendetes Betriebssystem, Bitarchitektur, Sprache, PID usw
-0.0.0.0 acdid.acdsystems.com # Userportal und Lizenzabfrage bei Bedarf de/aktivieren
+# 35.169.232.224
+# Land, Email, Vor,- Nachname, Firma, Firmengröße, Firmentyp, Passwort, Telefon, ProduktID, Anmeldename, Role, News ja/nein
+0.0.0.0 acdid.acdsystems.com # /ACDID/client/Userportal - Lizenzabfrage - Geodatenerfassung auch ohne Registrierung
+0.0.0.0 ec2-35-169-232-224.compute-1.amazonaws.com
+# 65.9.71.53
+# 65.9.71.67
 0.0.0.0 content.acdsystems.com # Loginfenster
+# Rest
+0.0.0.0 www.365.acdsee.com # 365 Modus im Programm selbst
+0.0.0.0 r.acdsee.com # Weiterleitung aus dem Programm auf die Homepage
+# Google Analytics trackt jede Nutzeraktion z.b. E-Mail Anmeldung, Logins, Programmstarts usw.
+# Das AcdSee Setup über msiexec.exe telefoniert ebenfalls zu Google
+# 142.250.181.238
+0.0.0.0 www.google-analytics.com # KontoID: UA-25862011-16
+0.0.0.0 www-google-analytics.l.google.com
 
 # Adlice Software
 # Adlice PEViewer
@@ -13366,7 +13379,7 @@ ff02::3 ip6-allhosts
 # 204.79.197.203
 # 204.79.197.219
 #0.0.0.0 a-0003.a-msedge.net # api.msn.com
-0.0.0.0 a-0003.dc-msedge.net
+#0.0.0.0 a-0003.dc-msedge.net # api.msn.com
 #0.0.0.0 a-0016.a-msedge.net
 0.0.0.0 a-0016.dc-msedge.net
 # 52.184.220.11
@@ -14253,7 +14266,9 @@ ff02::3 ip6-allhosts
 # Telemetrie
 # Ip/s blockieren:
 # 44.235.28.153
+# 35.227.207.240
 0.0.0.0 incoming.telemetry.mozilla.org
+0.0.0.0 prod.ingestion-edge.prod.dataops.mozgcp.net
 0.0.0.0 telemetry.mozilla.org
 0.0.0.0 telemetry-experiment.cdn.mozilla.net
 0.0.0.0 onyx_tiles.stage.mozaws.net
@@ -16877,6 +16892,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.deadlinefunnel.com
 0.0.0.0 a.df-srv.de
 0.0.0.0 a.eachporn.com
+0.0.0.0 a.exdynsrv.com
 0.0.0.0 a.goatagame.com
 0.0.0.0 a.impactradius-go.com
 0.0.0.0 a.impactradius-tag.com
@@ -17355,6 +17371,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 c5x8i7c7.ssl.hwcdn.net
 0.0.0.0 cab-too-low.com
 0.0.0.0 cafefame.com
+0.0.0.0 caiteesh.net
 0.0.0.0 call.netzathleten-media.de
 0.0.0.0 calm-cabbage-a9umxyb6jlwq9ypiv5av5m12.herokudns.com
 0.0.0.0 campaign.bet3000.com
@@ -17516,6 +17533,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 census.eu-west-1.nielsencollections.com
 0.0.0.0 cephalanthuseoccidu4entalis.com
 0.0.0.0 certainalmostcontent.com
+0.0.0.0 certainalmostcontent.com
 0.0.0.0 certakes.com
 0.0.0.0 cf.cdn.inmobi.com
 0.0.0.0 cfjump.ergoflex.com.au
@@ -17526,6 +17544,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 chapsartore.com
 0.0.0.0 chasedeposition.com
 0.0.0.0 chickensstation.com # Pageviews
+0.0.0.0 chioneflake.com
 0.0.0.0 chirkacylal.com
 0.0.0.0 chivas.com
 0.0.0.0 choices.trustarc.com
@@ -17633,6 +17652,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cookieinfoscript.com
 0.0.0.0 coolcpms.com
 0.0.0.0 cop.cdnetworks.com
+0.0.0.0 cor8ni3shwerex.com
 0.0.0.0 corot-20c.com
 0.0.0.0 cors-anywhere.herokuapp.com
 0.0.0.0 count.paycounter.com
@@ -17782,6 +17802,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dmx.districtm.ca
 0.0.0.0 dn.srv1272.com
 0.0.0.0 dnacdn.net
+0.0.0.0 dnhfi5nn2dt67.cloudfront.net
 0.0.0.0 dnzevkqpk.com
 0.0.0.0 doc.image-gmkt.com
 0.0.0.0 dollsdeclare.com
@@ -18800,6 +18821,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pl02.owen.prolitteris.ch
 0.0.0.0 pl14414897.puserving.com
 0.0.0.0 pl15049477.passeura.com
+0.0.0.0 pl16285074.trustedgatetocontent.com
 0.0.0.0 pl16345970.highperformancecpm.com
 0.0.0.0 plaicecaught.com
 0.0.0.0 plapper-fbi.com
@@ -19117,6 +19139,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 skim.clickaine.com
 0.0.0.0 skimegcolder.com
 0.0.0.0 skin.partydeko.de
+0.0.0.0 skinchmanfred.com
 0.0.0.0 skinhub.com
 0.0.0.0 skinnyfinnishhi.com
 0.0.0.0 sklm.vornz.com
@@ -19804,6 +19827,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.diablonut.com
 0.0.0.0 www.displayvertising.com
 0.0.0.0 www.dnckawxatc.com
+0.0.0.0 www.dnemkhkbsdbl.com
 0.0.0.0 www.dnzevkqpk.com
 0.0.0.0 www.dpbolvw.net
 0.0.0.0 www.dwin2.com
@@ -19844,6 +19868,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.hqncduqyzgfugo.com
 0.0.0.0 www.ifriends.net
 0.0.0.0 www.ikxhjlsynfeo.com
+0.0.0.0 www.ilohfbiph.com
 0.0.0.0 www.increaserev.com
 0.0.0.0 www.intelligenceadx.com
 0.0.0.0 www.intellipopup.com
@@ -29895,7 +29920,8 @@ ff02::3 ip6-allhosts
 
 # Juggernaut Games
 # StarCrawlers
-# 52.88.151.149, 44.229.241.180
+# 52.88.151.149
+# 44.229.241.180
 # 52.38.229.219
 # 54.149.255.169
 # 52.10.164.224
