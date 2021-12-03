@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 28.11.2021
+# Änderungsdatum: 03.12.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1017,20 +1017,52 @@ ff02::3 ip6-allhosts
 
 # Kakao Corperation
 # PoTPlayer
+# 23.32.238.138
+# 23.32.238.146
+# 2.16.186.42
 #0.0.0.0 get.daum.net # Codecdownload
-#0.0.0.0 t1.daumcdn.net # Updatecheck
+#0.0.0.0 t1.daumcdn.net # Updatecheck, Versionshistorie
+#0.0.0.0 a1988.dscw39.akamai.net
+#0.0.0.0 a2-16-186-42.deploy.static.akamaitechnologies.com
 #0.0.0.0 potplayertv.daum.net # Livestreams
-0.0.0.0 track.tiara.daum.net
-0.0.0.0 adverweb.cjenm.com
-0.0.0.0 videofarm.daum.net
-0.0.0.0 api.live.daum.net
-0.0.0.0 live.daum.net
-0.0.0.0 smr.tvpot.daum.net
-0.0.0.0 vads-api.daumkakao.com
-0.0.0.0 display.ad.daum.net
+# 211.249.221.178
+# 121.53.105.173
+# 211.249.222.41
+# 211.231.101.168
 # 113.29.186.68
+# Die IPv4-Adresse 113.29.186.68 wird direkt aufgerufen, ignoriert host Einträge
+0.0.0.0 p1-play.edge4k.com
+0.0.0.0 p1-play.kgslb.com
+0.0.0.0 p2-play.edge4k.com
+0.0.0.0 p2-play.kgslb.com
 0.0.0.0 play.kakao.com
+0.0.0.0 play-kakao-iy6fljvv.kgslb.com
+# 121.53.105.132
+# 211.249.220.83
+# 211.249.220.158
+# 203.217.236.70
+# 14.34.8.217
+0.0.0.0 stat.tiara.kakao.com # /track
+0.0.0.0 stat-tiara-5mka6y7y.kgslb.com
 0.0.0.0 analytics.ad.daum.net
+0.0.0.0 display.ad.daum.net
+0.0.0.0 adverweb.cjenm.com
+# Drittanbieter Werbung, Tracking und Prebid
+# 178.250.2.131
+# 178.250.2.130
+# 178.250.2.146
+0.0.0.0 bidder.criteo.com
+0.0.0.0 static.criteo.net
+0.0.0.0 gum.criteo.com
+0.0.0.0 a23-32-238-146.deploy.static.akamaitechnologies.com
+# 13.209.237.228
+# 18.66.248.103
+# 18.66.248.118
+# 18.66.248.82
+# 18.66.248.79
+0.0.0.0 data.adop.cc
+0.0.0.0 adopdmp.adop.cc
+0.0.0.0 compass.adop.cc
 
 # Kaspersky LAB
 # Kaspersky Internet Security
@@ -3180,7 +3212,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 d163w5bauk02b4.cloudfront.net # Chip.de
 0.0.0.0 d17fy28x8ov4h8.cloudfront.net # Dailymail
 0.0.0.0 d18dhv6xwmvh4j.cloudfront.net
+0.0.0.0 d18t35yyry2k49.cloudfront.net
 0.0.0.0 d1a3jb5hjny5s4.cloudfront.net
+0.0.0.0 d1ac2du043ydir.cloudfront.net
 0.0.0.0 d1bqktvj79b0wh.cloudfront.net
 0.0.0.0 d1cwxqa1so7v5v.cloudfront.net
 0.0.0.0 d1dli2tyorled9.cloudfront.net
@@ -3188,6 +3222,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d1ev866ubw90c6.cloudfront.net
 0.0.0.0 d1g1a818mvww4w.cloudfront.net
 0.0.0.0 d1hq9wbcfo7dcl.cloudfront.net
+0.0.0.0 d1j8v290qqvibb.cloudfront.net
 0.0.0.0 d1ks8roequxbwa.cloudfront.net
 0.0.0.0 d1l6p2sc9645hc.cloudfront.net
 0.0.0.0 d1lxhc4jvstzrp.cloudfront.net
@@ -3213,8 +3248,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 d26adrx9c3n0mq.cloudfront.net
 0.0.0.0 d2849lw36e7cot.cloudfront.net
 0.0.0.0 d29neki5kckb2d.cloudfront.net
+0.0.0.0 d2cmh8xu3ncrj2.cloudfront.net
 0.0.0.0 d2e1wye93a9yxe.cloudfront.net
 0.0.0.0 d2fbkzyicji7c4.cloudfront.net # JavOUT
+0.0.0.0 d2fbvay81k4ji3.cloudfront.net
+0.0.0.0 d2lcoyv3ods5zz.cloudfront.net
 0.0.0.0 d2na2p72vtqyok.cloudfront.net
 0.0.0.0 d2nvliyzbo36lk.cloudfront.net
 0.0.0.0 d2nvliyzbo36lk.cloudfront.net
@@ -3230,6 +3268,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d2v9mhsiek5lbq.cloudfront.net
 0.0.0.0 d2wu036mkcz52n.cloudfront.net
 0.0.0.0 d2wy8f7a9ursnm.cloudfront.net # Bugsnag Script
+0.0.0.0 d2yt3cv5wvb9w9.cloudfront.net
 0.0.0.0 d2yyd1h5u9mauk.cloudfront.net
 0.0.0.0 d2zl2n5iz2c0l7.cloudfront.net
 0.0.0.0 d2zur9cc2gf1tx.cloudfront.net
@@ -3263,6 +3302,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d5nxst8fruw4z.cloudfront.net
 0.0.0.0 d5phz18u4wuww.cloudfront.net # Sophos.com
 0.0.0.0 d5ssgc0nf5vml.cloudfront.net
+0.0.0.0 d6wzv57amlrv3.cloudfront.net
 0.0.0.0 d7t0ajd8uy1xk.cloudfront.net
 0.0.0.0 d81mfvml8p5ml.cloudfront.net
 0.0.0.0 d8rk54i4mohrb.cloudfront.net # RottenTomatoes
@@ -3285,6 +3325,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dlvds9i67c60j.cloudfront.net
 0.0.0.0 dmmzfkd82wayn.cloudfront.net
 0.0.0.0 dmmzkfd82wayn.cloudfront.net
+0.0.0.0 dnhfi5nn2dt67.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 dph3kccpbigca.cloudfront.net
@@ -3296,6 +3337,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dsms0mj1bbhn4.cloudfront.net
 0.0.0.0 dsqz9xo6slow8.cloudfront.net # JavOUT
 0.0.0.0 dt3eds1k4pgdp.cloudfront.net
+0.0.0.0 dtv5loup63fac.cloudfront.net
 0.0.0.0 dtxtngytz5im1.cloudfront.net
 0.0.0.0 dx6ctphzljkf1.cloudfront.net # Golem.de
 0.0.0.0 dyfw24whmn0ln.cloudfront.net
@@ -17312,6 +17354,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bidder.amxrtb.com
 0.0.0.0 biltag.bilsyndication.com
 0.0.0.0 binary.limited
+0.0.0.0 bitingcomposed.com
 0.0.0.0 bitonclick.com
 0.0.0.0 blastcahs.com
 0.0.0.0 blinn.beredskabdanmark.dk
@@ -17550,6 +17593,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 choices.trustarc.com
 0.0.0.0 choices.truste.com
 0.0.0.0 chooxaur.com
+0.0.0.0 choupsee.com
 0.0.0.0 chultoux.com
 0.0.0.0 ci-mpsnare.iovation.com
 0.0.0.0 cl-off.com
@@ -17714,15 +17758,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 d.amoad.com
 0.0.0.0 d.impactradius-event.com
 0.0.0.0 d.omsnative.de
-0.0.0.0 d18t35yyry2k49.cloudfront.net
-0.0.0.0 d1ac2du043ydir.cloudfront.net
-0.0.0.0 d1j8v290qqvibb.cloudfront.net
-0.0.0.0 d2cmh8xu3ncrj2.cloudfront.net
-0.0.0.0 d2lcoyv3ods5zz.cloudfront.net
-0.0.0.0 d2yt3cv5wvb9w9.cloudfront.net
 0.0.0.0 d5p.de17a.com
 0.0.0.0 d6jfiirio372.com
-0.0.0.0 d6wzv57amlrv3.cloudfront.net
 0.0.0.0 d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com
 0.0.0.0 d8526382938814309666-t4400066239592907150.id.amgdgt.com
 0.0.0.0 dadsats.com
@@ -17802,7 +17839,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dmx.districtm.ca
 0.0.0.0 dn.srv1272.com
 0.0.0.0 dnacdn.net
-0.0.0.0 dnhfi5nn2dt67.cloudfront.net
 0.0.0.0 dnzevkqpk.com
 0.0.0.0 doc.image-gmkt.com
 0.0.0.0 dollsdeclare.com
@@ -17826,7 +17862,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dsfgp.admenhost.com
 0.0.0.0 dsp.active-agent.com
 0.0.0.0 dt.gnpge.com
-0.0.0.0 dtv5loup63fac.cloudfront.net
 0.0.0.0 duamilsyr.com
 0.0.0.0 dulillipupan.com
 0.0.0.0 dummermuth.yarqtec.es
@@ -18755,6 +18790,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pennilesscomingall.com
 0.0.0.0 pennyotcstock.com
 0.0.0.0 pennytrove.com
+0.0.0.0 peoplestackwebexperiments-pa.clients6.google.com
 0.0.0.0 per.willakristina.pl
 0.0.0.0 perf.cdnads.com
 0.0.0.0 perf.hsforms.com
@@ -18841,6 +18877,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pool.turktelekom.iponweb.net
 0.0.0.0 poolgmsd.com
 0.0.0.0 poolunbelievably.com
+0.0.0.0 poorlygarrisondistant.com
 0.0.0.0 popadex-1919430815.us-east-1.elb.amazonaws.com
 0.0.0.0 popads.media
 0.0.0.0 pophahwot.com
@@ -38081,23 +38118,20 @@ ff02::3 ip6-allhosts
 # 35.190.88.234
 # 35.241.52.229
 # 172.217.25.110
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 142.250.203.142
+# 216.58.209.14
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 www.google-analytics.com
-0.0.0.0 www-google-analytics.l.google.com
 
 # Weixi Studio
 # Blood Code
