@@ -13411,7 +13411,9 @@ ff02::3 ip6-allhosts
 # Windows 11 - msedge.exe - Microsoft Edge
 # Ip/s blockieren:
 # 2.16.107.120
+# 20.37.241.241
 0.0.0.0 deff.nelreports.net
+0.0.0.0 api.edgeoffer.microsoft.com # Experiments - msAdPlatformDomainExp2
 
 # Windows 11 - widgets.exe & msedgewebview2.exe | zu Systemstart aktiver Prozess
 # Microsoft Web Experience Pack deinstallieren
