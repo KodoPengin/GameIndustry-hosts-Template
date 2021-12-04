@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 03.12.2021
+# Änderungsdatum: 04.12.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -2483,6 +2483,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 prebid.adnxs.com
 0.0.0.0 secure.adnxs.com
 0.0.0.0 sin1-ib.adnxs.com
+0.0.0.0 sin3-ib.adnxs.com
 0.0.0.0 vcdn.adnxs.com
 0.0.0.0 yj-a.p.adnxs.com
 0.0.0.0 yj.adnxs.com
@@ -3048,6 +3049,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 7waf-649347558.us-east-1.elb.amazonaws.com
 0.0.0.0 9dbd256a-default-ih-dd4d-36901406.eu-central-1.elb.amazonaws.com
 0.0.0.0 9dbd256a-default-trx-2d0e-496170222.eu-central-1.elb.amazonaws.com
+0.0.0.0 9e2xkh9f1e.execute-api.ap-northeast-1.amazonaws.com
 0.0.0.0 a10abac5d1e9b11ea8d990e43aad44f4-1031692812.us-east-1.elb.amazonaws.com
 0.0.0.0 a1173f6f9942011ea98e20a74a8f5e27-1685968323.eu-west-1.elb.amazonaws.com
 0.0.0.0 a123d7dd52c7a40f9a11a8fd09e2f24b-1254019139.us-east-1.elb.amazonaws.com
@@ -3064,6 +3066,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adserver-clarium-1405844056.eu-central-1.elb.amazonaws.com
 0.0.0.0 adserver-vpc-alb-2-1264451658.eu-west-1.elb.amazonaws.com
 0.0.0.0 adserving-com-f11-ads-de-976869676.eu-central-1.elb.amazonaws.com
+0.0.0.0 afe79c04fd8464db69f453355c110684-6aa967fe209738b1.elb.us-east-1.amazonaws.com
 0.0.0.0 alb-aws-fr-bswx-3-1125904451.eu-central-1.elb.amazonaws.com
 0.0.0.0 ams-ads-cornerstone-creatives-fe.s3.amazonaws.com
 0.0.0.0 analytics-collector-28944298.us-east-1.elb.amazonaws.com
@@ -3072,6 +3075,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 async-px-eu-298376616.eu-central-1.elb.amazonaws.com
 0.0.0.0 bbuseruploads.s3.amazonaws.com
 0.0.0.0 bids-elb-195079410.us-west-2.elb.amazonaws.com
+0.0.0.0 bma-ghost.s3.us-east-2.amazonaws.com
 0.0.0.0 clickbank-apache-54377296.us-west-2.elb.amazonaws.com
 0.0.0.0 cognito-identity.ap-northeast-1.amazonaws.com
 0.0.0.0 cookiesyncing-1395500543.us-east-1.elb.amazonaws.com
@@ -3088,6 +3092,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-52-38-234-14.us-west-2.compute.amazonaws.com
 0.0.0.0 ec2-52-38-31-225.us-west-2.compute.amazonaws.com
 0.0.0.0 ec2-54-213-253-147.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2eu-de-1-vpc-20170223-lb-1195306822.eu-west-1.elb.amazonaws.com
 0.0.0.0 eks-2-unified-591377374.eu-west-1.elb.amazonaws.com
 0.0.0.0 elb-aws-fr-clickdistrict-1651093077.eu-central-1.elb.amazonaws.com
 0.0.0.0 elb-aws-fr-dorpat-283474803.eu-central-1.elb.amazonaws.com
@@ -3118,6 +3123,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 partners-alb-1113315349.useast-1.elb.amazonaws.com
 0.0.0.0 pc.error-1003a49feif3042.com.s3-website.eu-central-1.amazonaws.com
 0.0.0.0 personalization-prod1-ext-alb-1258852474.us-east-1.elb.amazonaws.com
+0.0.0.0 phonetrack-static.s3.sa-east-1.amazonaws.com
+0.0.0.0 popadex-1919430815.us-east-1.elb.amazonaws.com
 0.0.0.0 prod-balan-fdzj1d4q5tzo-2064467324.us-east-1.elb.amazonaws.com
 0.0.0.0 prod-dub-beacon-1484770602.eu-west-1.elb.amazonaws.com
 0.0.0.0 prod-elb-ats-413439319.eu-central-1.elb.amazonaws.com
@@ -3129,6 +3136,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 revcontent-p0.s3.amazonaws.com
 0.0.0.0 rlmgws-data.s3-accelerate.amazonaws.com
 0.0.0.0 rtactivateloadbalancer-2076579973.us-east-1.elb.amazonaws.com
+0.0.0.0 rxgh4jurki.execute-api.us-east-2.amazonaws.com
 0.0.0.0 s3-w.eu-central-1.amazonaws.com
 0.0.0.0 s3.eu-central-1.amazonaws.com
 0.0.0.0 saas-components-ecsloadbalancer-1709586717.eu-central-1.elb.amazonaws.com
@@ -6078,7 +6086,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 faz.tt.omtrdc.net
 0.0.0.0 flipkart.d1.sc.omtrdc.net
 0.0.0.0 ionos.de.ssl.sc.omtrdc.net
+0.0.0.0 japanairlinescoltd.tt.omtrdc.net
 0.0.0.0 kaspersky.d3.sc.omtrdc.net
+0.0.0.0 lgadamericas.tt.omtrdc.net
 0.0.0.0 mboxedge34.tt.omtrdc.net
 0.0.0.0 mboxedge37.tt.omtrdc.net
 0.0.0.0 microsoftmscompoc.tt.omtrdc.net
@@ -7743,6 +7753,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 data-beacons.s-onetag.com
 0.0.0.0 geo-location.s-onetag.com
 0.0.0.0 get.s-onetag.com
+0.0.0.0 onetag-geo-grouping.s-onetag.com
 0.0.0.0 onetag-geo.s-onetag.com
 
 # Show-it.me
@@ -8285,11 +8296,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 ch-vid-events.taboola.com
 0.0.0.0 ch-wf.taboola.com
 0.0.0.0 convammp.taboola.com
+0.0.0.0 hk-match.taboola.com
 0.0.0.0 hk-trc-events.taboola.com
+0.0.0.0 hk-vid-events.taboola.com
+0.0.0.0 hk-wf.taboola.com
 0.0.0.0 il-trc-events.taboola.com
 0.0.0.0 images.taboola.com
+0.0.0.0 impr.taboola.com
 0.0.0.0 imprammp.taboola.com
 0.0.0.0 imprchmp.taboola.com
+0.0.0.0 imprhkmp.taboola.com
 0.0.0.0 imprnjmp.taboola.com
 0.0.0.0 match.taboola.com
 0.0.0.0 nr.taboola.com
@@ -10901,6 +10917,7 @@ ff02::3 ip6-allhosts
 
 0.0.0.0 a.cookpad-ads.com
 0.0.0.0 a.imgvc.com
+0.0.0.0 ac33.silveregg.net
 0.0.0.0 ad-beacon-v01.uliza.jp
 0.0.0.0 ad.about.co.kr
 0.0.0.0 ad.adpon.jp
@@ -10920,10 +10937,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 an.cmertv.com
 0.0.0.0 ana2.tatsumi-sys.jp
 0.0.0.0 anymind360.com
-0.0.0.0 api.popin.cc
+0.0.0.0 api.adserver.vrizead.com
 0.0.0.0 api.primecaster.net
 0.0.0.0 asset.f-tra.com
 0.0.0.0 atype.jp
+0.0.0.0 b.hatena.ne.jp
 0.0.0.0 b.ranking.apis.sankei-digital.co.jp
 0.0.0.0 banner.themediaplanets.com
 0.0.0.0 bannerfarm.aolp.jp
@@ -10932,7 +10950,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 bs.nakanohito.jp
 0.0.0.0 c.tgknt.com
 0.0.0.0 cas.adapf.com
-0.0.0.0 cdn.gmossp-sp.jp
 0.0.0.0 cdn.smartnews-ads.com
 0.0.0.0 cdn.x-lift.jp
 0.0.0.0 cfa-js.cafe24.com
@@ -10948,17 +10965,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 counter.joins.com
 0.0.0.0 cpt.geniee.jp
 0.0.0.0 cr-p3.ladsp.jp
+0.0.0.0 cr-p32.ladsp.jp
+0.0.0.0 d.rcmd.jp
 0.0.0.0 dalb.valuecommerce.com
 0.0.0.0 dalc.valuecommerce.com
 0.0.0.0 deliver.ads2.iid.jp
 0.0.0.0 delivery.locari.jp
 0.0.0.0 delivery.satr.jp # Satori
-0.0.0.0 discoveryplus.popin.cc
 0.0.0.0 eclog2-082.cafe24.com
 0.0.0.0 erebor.douban.com
 0.0.0.0 flux-cdn.com # flux-g.com
 0.0.0.0 fundin.douban.com
 0.0.0.0 gather.ihani.co.kr
+0.0.0.0 geoec.silveregg.net
 0.0.0.0 hbw.adjust-net.jp
 0.0.0.0 hm.mieru-ca.com
 0.0.0.0 i.moshimo.com
@@ -10973,6 +10992,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 ipcheck.blogsys.jp
 0.0.0.0 its.fugetech.com
 0.0.0.0 j.zucks.net.zimg.jp
+0.0.0.0 jp-axia-newstv.m0mentum.net
+0.0.0.0 js.dsp.reemo-ad.jp
+0.0.0.0 js.isboost.co.jp
 0.0.0.0 js.mediams.mb.softbank.jp
 0.0.0.0 js.shshuoshu.com
 0.0.0.0 js.spacenine.biz
@@ -10996,18 +11018,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 pics.dmm.com
 0.0.0.0 proparm.jp
 0.0.0.0 publish.gacraft.jp
+0.0.0.0 rat.rakuten.co.jpflash-api-eq.pub.jpe2.rpaas.net
 0.0.0.0 rb.infox.sg
+0.0.0.0 rec2.d.dmkt-sp.jp
 0.0.0.0 rt.semantic-finder.com
 0.0.0.0 rtg-endpoint.global.ssl.fastly.net # Page Events
 0.0.0.0 s.360.cn
 0.0.0.0 s.dc-tag.jp
 0.0.0.0 sankei2ad.durasite.net
+0.0.0.0 sgs-api.interactive-circle.jp
 0.0.0.0 sherpa-server-arm-prd6.gacraft.jp # Websocket
 0.0.0.0 site.gnavi.co.jp
-0.0.0.0 sp.gmossp-sp.jp
+0.0.0.0 sjs.ssdsp.smt.docomo.ne.jp
 0.0.0.0 ssp.realclick.co.kr
 0.0.0.0 static.karte.io # Tracker Widget
+0.0.0.0 static.pc-adroute.focas.jp
 0.0.0.0 sync.addlv.smt.docomo.ne.jp
+0.0.0.0 sync.dsp.reemo-ad.jp
 0.0.0.0 t.dc-tag.jp
 0.0.0.0 t7.aqtracker.com
 0.0.0.0 tag.nifty.com
@@ -11017,6 +11044,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 toys.quant.jp
 0.0.0.0 track.cross-system.com
 0.0.0.0 tracker.kantan-access.com
+0.0.0.0 tracker.smartseminar.jp
 0.0.0.0 uh.nakanohito.jp
 0.0.0.0 uu.quant.jp
 0.0.0.0 v.admaster.com.cn
@@ -11233,8 +11261,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 gu.bizspring.net
 
 # Aliexpress.com
-0.0.0.0 s.click.aliexpress.com
+0.0.0.0 cbu01.alicdn.com
 0.0.0.0 lighthouse.aliexpress.com
+0.0.0.0 s.click.aliexpress.com
 
 # Ameba.jp
 0.0.0.0 ad.pr.ameba.jp
@@ -11366,6 +11395,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 mediamsmbsoftbank.genieesspv.jp
 0.0.0.0 rt.gsspat.jp
 0.0.0.0 spacenine.genieesspv.jp
+
+# Gmossp-sp.jp
+0.0.0.0 adn-d.sp.gmossp-sp.jp
+0.0.0.0 adn-i.sp.gmossp-sp.jp
+0.0.0.0 beacon.sp.gmossp-sp.jp
+0.0.0.0 cdn.gmossp-sp.jp
+0.0.0.0 sp.gmossp-sp.jp
 
 # Gssprt.jp
 0.0.0.0 cs.gssprt.jp
@@ -11514,6 +11550,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 img.polymorphicads.jp
 0.0.0.0 ad.polymorphicads.jp
 
+# Popin.cc
+0.0.0.0 api.popin.cc
+0.0.0.0 discoveryplus.popin.cc
+0.0.0.0 jp.popin.cc
+0.0.0.0 r.popin.cc
+0.0.0.0 rlog.popin.cc
+
 # Premiumize.me
 0.0.0.0 metaconnect.postaffiliatepro.com # Premiumize Tracking
 0.0.0.0 stats.premiumize.me # Piwikscript
@@ -11527,12 +11570,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 error.rakuten.co.jp
 0.0.0.0 grp01.ashiato.rakuten.co.jp
 0.0.0.0 log.affiliate.rakuten.co.jp
+0.0.0.0 log.rmp.rakuten.co.jp
 0.0.0.0 mtwidget03.affiliate.ashiato.rakuten.co.jp
 0.0.0.0 mtwidget04.affiliate.rakuten.co.jp
 0.0.0.0 mtwidget05.affiliate.ashiato.rakuten.co.jp
 0.0.0.0 r.r10s.jp
 0.0.0.0 rat.rakuten.co.jp
 0.0.0.0 rdc-api-catalog-gateway-api.rakuten.co.jp
+0.0.0.0 rdc-api-catalog-gateway-api.rakuten.co.jp
+0.0.0.0 s-ad.rmp.rakuten.co.jp
 0.0.0.0 s-cdn.rmp.rakuten.co.jp
 0.0.0.0 static.affiliate.rakuten.co.jp
 0.0.0.0 xml.affiliate.rakuten.co.jp
@@ -11788,9 +11834,26 @@ ff02::3 ip6-allhosts
 #0.0.0.0 myaccount.google.com
 
 # Google Adservices.com
-0.0.0.0 www.googleadservices.com
-0.0.0.0 partner.googleadservices.com
+0.0.0.0 adservice.google.co.in
+0.0.0.0 adservice.google.co.jp
+0.0.0.0 adservice.google.co.uk
+0.0.0.0 adservice.google.com
+0.0.0.0 adservice.google.com.ar
+0.0.0.0 adservice.google.com.cy
+0.0.0.0 adservice.google.com.hk
+0.0.0.0 adservice.google.com.sa
+0.0.0.0 adservice.google.com.sg
+0.0.0.0 adservice.google.com.ua
+0.0.0.0 adservice.google.de
+0.0.0.0 adservice.google.dk
+0.0.0.0 adservice.google.lu
+0.0.0.0 adservice.google.nl
+0.0.0.0 adservice.google.ro
+0.0.0.0 adservice.google.ru
+0.0.0.0 adservice.google.se
 0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 www.googleadservices.com
 
 # Google Adwords
 0.0.0.0 adwords.l.google.com
@@ -12078,22 +12141,6 @@ ff02::3 ip6-allhosts
 # Google Main
 # Wie andere Google-Dienste nach Länderkennung
 #0.0.0.0 apis.google.com
-0.0.0.0 adservice.google.co.in
-0.0.0.0 adservice.google.co.uk
-0.0.0.0 adservice.google.com
-0.0.0.0 adservice.google.com.ar
-0.0.0.0 adservice.google.com.cy
-0.0.0.0 adservice.google.com.hk
-0.0.0.0 adservice.google.com.sa
-0.0.0.0 adservice.google.com.sg
-0.0.0.0 adservice.google.com.ua
-0.0.0.0 adservice.google.de
-0.0.0.0 adservice.google.dk
-0.0.0.0 adservice.google.lu
-0.0.0.0 adservice.google.nl
-0.0.0.0 adservice.google.ro
-0.0.0.0 adservice.google.ru
-0.0.0.0 adservice.google.se
 0.0.0.0 pki.google.com
 
 # Google Programmable Search Engine
@@ -13218,9 +13265,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 download.visualstudio.microsoft.com
 
 # Visual Studio - servicehub.roslyncodeanalysisservice.exe
-# Ip/s blockieren:
 # 152.199.19.161
-0.0.0.0 cs9.wpc.v0cdn.net
+#0.0.0.0 cs9.wpc.v0cdn.net
 
 # Visual Studio - Rest
 #0.0.0.0 e11290.dspg.akamaiedge.net # verweist auf go.microsoft.com
@@ -13228,7 +13274,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 targetednotifications-tm.trafficmanager.net # /api/values
 0.0.0.0 vsstartpage.blob.core.windows.net
 0.0.0.0 vortex.data.microsoft.com # /collect/v1
-0.0.0.0 cs9.wpc.v0cdn.net
+#0.0.0.0 cs9.wpc.v0cdn.net
 
 # Watson | wermgr.exe | NewsEdge server | Windows Problem Reporting
 # Ip/s blockieren:
@@ -13745,6 +13791,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rw-rw.facebook.com
 0.0.0.0 s.fb.com
 0.0.0.0 sc-it.facebook.com
+0.0.0.0 scontent.foko1-1.fna.fbcdn.net
 0.0.0.0 scontent-frt3-1.xx.fbcdn.net
 0.0.0.0 scontent-frt3-2.xx.fbcdn.net # Downloads
 0.0.0.0 scontent-frx5-1.xx.fbcdn.net
@@ -13786,6 +13833,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 vi-vn.connect.facebook.com
 0.0.0.0 vi-vn.facebook.com
 0.0.0.0 vi-vn.o.facebook.com
+0.0.0.0 video.foko1-1.fna.fbcdn.net
 0.0.0.0 video-lax3-1.xx.fbcdn.net
 0.0.0.0 video-lax3-2.xx.fbcdn.net
 0.0.0.0 vsp.fb.com
@@ -13856,6 +13904,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 images.instagram.com
 0.0.0.0 instagram.com
 0.0.0.0 instagram.fhrk1-1.fna.fbcdn.net
+0.0.0.0 instagram.foko1-1.fna.fbcdn.net
 0.0.0.0 instagram.fsin9-1.fna.fbcdn.net
 0.0.0.0 ish.instagram.com
 0.0.0.0 l.instagram.com
@@ -13975,15 +14024,17 @@ ff02::3 ip6-allhosts
 
 # Twitter
 # Metrics direkt unter der Hauptdomain /i/js_inst?c_name=ui_metrics
-#0.0.0.0 www.twitter.com
-#0.0.0.0 twitter.com
-#0.0.0.0 platform.twitter.com
-0.0.0.0 s.twitter.com
-0.0.0.0 ads.twitter.com
 #0.0.0.0 api.twitter.com
-0.0.0.0 analytics.twitter.com
+#0.0.0.0 platform.twitter.com
+#0.0.0.0 twitter.com
+#0.0.0.0 www.twitter.com
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads-bidder-api.twitter.com
+0.0.0.0 ads.twitter.com
+0.0.0.0 analytics.twitter.com
+0.0.0.0 s.twitter.com
+0.0.0.0 urls.api.twitter.com # JQuery Callbacks
+
 # twimg
 #0.0.0.0 pbs.twimg.com # z.b. Avatare
 #0.0.0.0 ton.twimg.com # CSS Syndication Bundle
@@ -16370,6 +16421,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 oewdfyhdfq.xyz
 0.0.0.0 offers.bestclicks.xyz
 0.0.0.0 offers.tracking6666.xyz
+0.0.0.0 okbp.xyz
 0.0.0.0 pleastindustress.xyz
 0.0.0.0 portdoutside.xyz
 0.0.0.0 primefa.xyz
@@ -16977,6 +17029,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad-server.proboards.com
 0.0.0.0 ad-specs.guoshipartners.com
 0.0.0.0 ad-store.sgp1.digitaloceanspaces.com
+0.0.0.0 ad.101hukk.com
 0.0.0.0 ad.a-ads.com
 0.0.0.0 ad.ad-arata.com
 0.0.0.0 ad.adnet.de
@@ -17097,7 +17150,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 aefd.nelreports.net
 0.0.0.0 aep.mxptint.net
 0.0.0.0 afdse3.com
-0.0.0.0 afe79c04fd8464db69f453355c110684-6aa967fe209738b1.elb.us-east-1.amazonaws.com
 0.0.0.0 affiliate.haendlerbund.de
 0.0.0.0 affiliate.nagios.com
 0.0.0.0 affiliate.reishunger.de
@@ -17364,7 +17416,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 blissfulonline.com
 0.0.0.0 blockadsnot.com
 0.0.0.0 blueswordksh.com
-0.0.0.0 bma-ghost.s3.us-east-2.amazonaws.com
 0.0.0.0 bnc1m.com
 0.0.0.0 bncloudfl.com
 0.0.0.0 bnmjjwinf292.com
@@ -17577,7 +17628,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 celeritascdn.com
 0.0.0.0 census.eu-west-1.nielsencollections.com
 0.0.0.0 cephalanthuseoccidu4entalis.com
-0.0.0.0 certainalmostcontent.com
 0.0.0.0 certainalmostcontent.com
 0.0.0.0 certakes.com
 0.0.0.0 cf.cdn.inmobi.com
@@ -17819,8 +17869,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dexchangeinc.com
 0.0.0.0 dfgbalon.com
 0.0.0.0 di-ay666q3u.leasewebultracdn.com
-0.0.0.0 di-ay666q3u.leasewebultracdn.com
-0.0.0.0 di-mi68vc46.leasewebultracdn.com
 0.0.0.0 di-mi68vc46.leasewebultracdn.com
 0.0.0.0 diablonut.incgamers.com
 0.0.0.0 dialgold.com
@@ -17875,7 +17923,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dx.frontend.weborama.com
 0.0.0.0 dynamicadx.com
 0.0.0.0 dzienkudrow.com
-0.0.0.0 dzienkudrow.com
 0.0.0.0 e.infogram.com
 0.0.0.0 e1.emxdgt.com
 0.0.0.0 e1.static.hoptopboy.com
@@ -17897,7 +17944,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 eatcells.com
 0.0.0.0 eaterenhanced.com
 0.0.0.0 ec.walkme.com
-0.0.0.0 ec2eu-de-1-vpc-20170223-lb-1195306822.eu-west-1.elb.amazonaws.com
 0.0.0.0 ecdn.analysis.fi
 0.0.0.0 echo.nws.press
 0.0.0.0 ecma.sidebyz.com
@@ -17940,6 +17986,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 eu1.wbdds.com
 0.0.0.0 eu2.madsone.com
 0.0.0.0 eulnl.vornz.com
+0.0.0.0 event.clientgear.com
 0.0.0.0 event.yoochoose.net
 0.0.0.0 eventapi.libring.com
 0.0.0.0 eventcollector.azureedge.net # Snowplow
@@ -18810,7 +18857,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 pheasantcardboardcohort.com
 0.0.0.0 phengung.net
 0.0.0.0 phoneblast247on.com
-0.0.0.0 phonetrack-static.s3.sa-east-1.amazonaws.com
 0.0.0.0 phoobsoo.net
 0.0.0.0 phooreew.net
 0.0.0.0 photographybygeorgeloghry.blogspot.com
@@ -18880,7 +18926,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 poolgmsd.com
 0.0.0.0 poolunbelievably.com
 0.0.0.0 poorlygarrisondistant.com
-0.0.0.0 popadex-1919430815.us-east-1.elb.amazonaws.com
 0.0.0.0 popads.media
 0.0.0.0 pophahwot.com
 0.0.0.0 popmyads.com
@@ -19063,7 +19108,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 run.adrizer.com
 0.0.0.0 rvrpushserv.com
 0.0.0.0 rvrpushsrv.com
-0.0.0.0 rxgh4jurki.execute-api.us-east-2.amazonaws.com
 0.0.0.0 s-img.lentainform.com
 0.0.0.0 s.206ads.com
 0.0.0.0 s.a2gw.com
@@ -19383,6 +19427,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 tag.researchnow.com
 0.0.0.0 tag.yieldoptimizer.com
 0.0.0.0 tagbucket.cc
+0.0.0.0 tagcachedataxrt.com
+0.0.0.0 tagcachestaticx.com
 0.0.0.0 tagdatax.com
 0.0.0.0 tags.barrons.com
 0.0.0.0 tags.catapultx.com
@@ -19519,6 +19565,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tracker.metricool.com
 0.0.0.0 tracker.nbcuas.com
 0.0.0.0 tracker.nitropay.com
+0.0.0.0 tracker.shanon-services.com
 0.0.0.0 tracker.stats.in.th
 0.0.0.0 tracking-api.hotmart.com
 0.0.0.0 tracking.adxadserv.com
@@ -19668,7 +19715,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 vidapi.expepp.de
 0.0.0.0 video-library-mirror-8.showheroes.com
 0.0.0.0 video-library.showheroes.com
-0.0.0.0 video-library.showheroes.com
 0.0.0.0 video.dmzjmp.com
 0.0.0.0 video.klatsch-tratsch.de
 0.0.0.0 video.wisst-ihr-noch.de
@@ -19801,6 +19847,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.adaware.com
 0.0.0.0 www.adblockanalytics.com
 0.0.0.0 www.adcell.de
+0.0.0.0 www.addtoany.com
 0.0.0.0 www.adexchangecloud.com
 0.0.0.0 www.adexchangeguru.com
 0.0.0.0 www.adplugg.com
@@ -22876,7 +22923,10 @@ ff02::3 ip6-allhosts
 #0.0.0.0 sts.amazonaws.com
 # Kinesis - Echtzeitanalysse, BigData und Verknüfpung zu anderen AWS Diensten
 # 52.119.211.247, 3.24.227.244, 3.123.12.204, 3.123.12.195, 3.24.227.249, 18.229.220.157, 34.223.45.95, 3.91.171.226
+0.0.0.0 kinesis.ap-southeast-1.amazonaws.com
 0.0.0.0 kinesis.ap-southeast-2.amazonaws.com
+0.0.0.0 kinesis.ap-northeast-1.amazonaws.com
+0.0.0.0 kinesis.ap-northeast-2.amazonaws.com
 0.0.0.0 kinesis.sa-east-1.amazonaws.com
 0.0.0.0 kinesis.eu-central-1.amazonaws.com
 0.0.0.0 kinesis.us-west-2.amazonaws.com
