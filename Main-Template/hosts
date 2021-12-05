@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 04.12.2021
+# Änderungsdatum: 05.12.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -3439,6 +3439,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.appdynamics.com
 0.0.0.0 col.eum-appdynamics.com
 
+# Appier.net
+0.0.0.0 gocm.c.appier.net
+0.0.0.0 rcp.c.appier.net
+0.0.0.0 s.c.appier.net
+
 # Apple.com
 0.0.0.0 securemetrics.apple.com
 
@@ -4063,6 +4068,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cat.nl.eu.criteo.com
 0.0.0.0 csm.da.us.criteo.net
 0.0.0.0 csm.fr.eu.criteo.net
+0.0.0.0 csm.jp2.as.criteo.net
 0.0.0.0 csm.nl.eu.criteo.net
 0.0.0.0 csm.par.vip.prod.criteo.net
 0.0.0.0 csm.va.us.criteo.net
@@ -6355,6 +6361,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 propermedia-d.openx.net
 0.0.0.0 pubgalaxy-d.openx.net
 0.0.0.0 publisherdesk-d.openx.net
+0.0.0.0 rakuten-d.openx.net
 0.0.0.0 reddit-d.openx.net
 0.0.0.0 rtb.openx.net
 0.0.0.0 ruptly-d.openx.net
@@ -8081,6 +8088,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bid.socdm.com
 0.0.0.0 d.socdm.com
 0.0.0.0 frtn.socdm.com
+0.0.0.0 gdn.socdm.com
 0.0.0.0 i.socdm.com
 0.0.0.0 ssl.socdm.com
 0.0.0.0 tg.dr.socdm.com
@@ -10964,14 +10972,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 corp.ninja.co.jp
 0.0.0.0 counter.joins.com
 0.0.0.0 cpt.geniee.jp
-0.0.0.0 cr-p3.ladsp.jp
-0.0.0.0 cr-p32.ladsp.jp
 0.0.0.0 d.rcmd.jp
 0.0.0.0 dalb.valuecommerce.com
 0.0.0.0 dalc.valuecommerce.com
 0.0.0.0 deliver.ads2.iid.jp
 0.0.0.0 delivery.locari.jp
 0.0.0.0 delivery.satr.jp # Satori
+0.0.0.0 ds.uncn.jp
 0.0.0.0 eclog2-082.cafe24.com
 0.0.0.0 erebor.douban.com
 0.0.0.0 flux-cdn.com # flux-g.com
@@ -11014,7 +11021,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 mercury.jd.com # Trackingpixel
 0.0.0.0 nakanohito.jp
 0.0.0.0 oms.dowjoneson.com
-0.0.0.0 pb.ladsp.com
 0.0.0.0 pics.dmm.com
 0.0.0.0 proparm.jp
 0.0.0.0 publish.gacraft.jp
@@ -11033,6 +11039,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ssp.realclick.co.kr
 0.0.0.0 static.karte.io # Tracker Widget
 0.0.0.0 static.pc-adroute.focas.jp
+0.0.0.0 sync-tapi.admatrix.jp
 0.0.0.0 sync.addlv.smt.docomo.ne.jp
 0.0.0.0 sync.dsp.reemo-ad.jp
 0.0.0.0 t.dc-tag.jp
@@ -11455,6 +11462,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.service.kugou.com
 0.0.0.0 adsfile.bssdlbig.kugou.com
 
+# Ladsp.jp
+0.0.0.0 cd.ladsp.com
+0.0.0.0 cr-p1.ladsp.com
+0.0.0.0 cr-p10.ladsp.jp
+0.0.0.0 cr-p3.ladsp.jp
+0.0.0.0 cr-p31.ladsp.jp
+0.0.0.0 cr-p32.ladsp.jp
+0.0.0.0 cr-p34.ladsp.jp
+0.0.0.0 cr-pall.ladsp.com
+0.0.0.0 inview.ladsp.com
+0.0.0.0 pb.ladsp.com
+0.0.0.0 tag.ladsp.com
+
 # Line Corporation
 # LINE
 # Updater
@@ -11491,14 +11511,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 aid.send.microad.jp
 0.0.0.0 cache.send.microad.jp
 0.0.0.0 cache.send.microadinc.com
+0.0.0.0 cdn.microad.jp
 0.0.0.0 d-cache.microad.jp
 0.0.0.0 d-track.send.microad.jp
 0.0.0.0 deb.send.microad.jp
+0.0.0.0 imp.u.send.microad.jp
 0.0.0.0 j.microad.net
+0.0.0.0 linx-cache.microad.jp
+0.0.0.0 linx.send.microad.jp
 0.0.0.0 s-cs.send.microad.jp
 0.0.0.0 s-rtb-pb.send.microad.jp
 0.0.0.0 s-rtb.send.microad.jp
 0.0.0.0 s-rtb.send.microadinc.com
+0.0.0.0 ssp.send.microad.jp
 0.0.0.0 universe.send.microad.jp
 
 # Naver.com
@@ -11565,7 +11590,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.ptengine.jp
 0.0.0.0 collect.ptengine.jp
 
-# Rakuten.co.jp
+# Rakuten Group, Inc. | Rakuten.co.jp
 0.0.0.0 dynamic.rakuten.co.jp
 0.0.0.0 error.rakuten.co.jp
 0.0.0.0 grp01.ashiato.rakuten.co.jp
@@ -12239,6 +12264,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ba9cc369c710b3bf03e7540c9b78ed3e.safeframe.googlesyndication.com
 0.0.0.0 bb88ee5b85c699f7598bce8d0af21df6.safeframe.googlesyndication.com
 0.0.0.0 be0bb042eb880a1bca3055ac508cf25d.safeframe.googlesyndication.com
+0.0.0.0 c1747737cf3cefaea7b35e98e85828cd.safeframe.googlesyndication.com
 0.0.0.0 c1a137a0a84b6f2c03963baffb4ab6f2.safeframe.googlesyndication.com
 0.0.0.0 c437257cc42f728e4344bd1c32f3a2c3.safeframe.googlesyndication.com
 0.0.0.0 c64f0d08bf759e005f8ba50aca27b4c8.safeframe.googlesyndication.com
@@ -14181,6 +14207,37 @@ ff02::3 ip6-allhosts
 # 128.199.39.15
 #0.0.0.0 updates.epicbrowser.com # inkl. Addonupdates
 #0.0.0.0 backup.theepicbrowser.com
+
+# Dayz Inc.
+# ウェブブラウザ Kinza
+#0.0.0.0 www.kinza.jp
+#0.0.0.0 kinza.start.me
+#0.0.0.0 accounts.google.com
+#0.0.0.0 www.google.com
+#0.0.0.0 update.googleapis.com
+0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 www.googletagservices.com
+0.0.0.0 stats.g.doubleclick.net # KontoID: UA-34684641-1
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 www.google-analytics.com # KontoID: UA-34684641-1 und UA-50145088-1
+0.0.0.0 www.googletagmanager.com # KontoID: GTM-PV67T8
+0.0.0.0 www.facebook.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 rules.quantcount.com
+0.0.0.0 btloader.com
+0.0.0.0 pghub.io
+0.0.0.0 c.pub.network
+0.0.0.0 a.pub.network
+0.0.0.0 api.btloader.com
+0.0.0.0 pixel.quantserve.com
+0.0.0.0 bam-cell.nr-data.net
+0.0.0.0 js-agent.newrelic.com
+0.0.0.0 whatismylocale.start.me
+0.0.0.0 newtablog.kinza.jp
+0.0.0.0 api.floors.dev
+0.0.0.0 sync.teads.tv
+0.0.0.0 d.pub.network
+0.0.0.0 ad-delivery.net
 
 # Microsoft Corporation
 # Microsoft EDGE
@@ -17757,7 +17814,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 country.adinplay.workers.dev
 0.0.0.0 cpmspace.com
 0.0.0.0 cqlupb.com
-0.0.0.0 cr-p31.ladsp.jp
 0.0.0.0 crbbgate.com
 0.0.0.0 creative.alxbgo.com
 0.0.0.0 creative.hpyrdr.com
@@ -19046,7 +19102,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 rapi.walkme.com
 0.0.0.0 ravencoin.network
 0.0.0.0 rbp.mxptint.net
-0.0.0.0 rcp.c.appier.net
 0.0.0.0 rddywd.com
 0.0.0.0 rdtrck2.com
 0.0.0.0 reactads.engine.adglare.net
@@ -19114,7 +19169,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 s.accesstrade.net
 0.0.0.0 s.ad.smaato.net
 0.0.0.0 s.adtelli.com
-0.0.0.0 s.c.appier.net
 0.0.0.0 s.console.adtarget.com.tr
 0.0.0.0 s.d.adup-tech.com
 0.0.0.0 s.hs-data.com
