@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 03.12.2021
+# Änderungsdatum: 06.12.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -1861,16 +1861,26 @@ ff02::3 ip6-allhosts
 
 # Mafia III
 # Telemetry64.dll im Installationsordner löschen! Adressen sind für Telemetrie und Onlinefunktion zuständig
-# Ip/s blockieren:
-# 208.64.200.105
-0.0.0.0 2kgprgapp3.2kgames.t2.corp
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 2.16.107.49
+# 2.16.107.18
+# 2.16.107.3
+# 23.32.238.152
+0.0.0.0 download-t2gp.take2games.com
+0.0.0.0 a1915.dscd.akamai.net
+# 104.18.7.148
+0.0.0.0 content.t2gp.take2games.com
+0.0.0.0 content.t2gp.take2games.com.cdn.cloudflare.net
+# 18.66.248.102
+# 18.66.248.121
+# 18.66.248.17
+#0.0.0.0 images.ctfassets.net
+# 142.250.181.234
+#0.0.0.0 fonts.googleapis.com
+# 93.184.220.29
+#0.0.0.0 crl3.digicert.com
+#0.0.0.0 crl4.digicert.com
+# 23.22.166.9
+0.0.0.0 promotions.api.2kcoretech.online
 # 192.81.242.130
 # 192.81.242.131
 #0.0.0.0 0eaa48923bc27d93552bf100519bbf7b.my.2k.com
@@ -1878,6 +1888,17 @@ ff02::3 ip6-allhosts
 #0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com
 #0.0.0.0 798ce2d1755b23f16c6b1100d73fa464.my.2k.com
 #0.0.0.0 c80e487cd7fed21dfb05e01fe8be8b6e.my.2k.com
+# Crashlytics & Telemetrie - crashagent64.exe im Appdata Verzeichnis löschen
+# 100.24.218.233
+# 54.83.181.250
+# 34.196.182.210
+0.0.0.0 discovery.api.2kcoretech.online
+0.0.0.0 telemetry.api.2kcoretech.online
+0.0.0.0 34acf0414d836d3f8d491c6186153694.my.2k.com
+# Drittanbietertracking aktiv beim Verlassen des Spiels
+# 34.120.195.249
+0.0.0.0 o433356.ingest.sentry.io
+0.0.0.0 16e0183cf8214878a39b6a23bda83b58@o433356.ingest.sentry.io
 
 # NBA 2K17
 # NBA2K17.exe Server Zwangsverbindung
@@ -2519,7 +2540,10 @@ ff02::3 ip6-allhosts
 #0.0.0.0 sts.amazonaws.com
 # Kinesis - Echtzeitanalysse, BigData und Verknüfpung zu anderen AWS Diensten
 # 52.119.211.247, 3.24.227.244, 3.123.12.204, 3.123.12.195, 3.24.227.249, 18.229.220.157, 34.223.45.95, 3.91.171.226
+0.0.0.0 kinesis.ap-southeast-1.amazonaws.com
 0.0.0.0 kinesis.ap-southeast-2.amazonaws.com
+0.0.0.0 kinesis.ap-northeast-1.amazonaws.com
+0.0.0.0 kinesis.ap-northeast-2.amazonaws.com
 0.0.0.0 kinesis.sa-east-1.amazonaws.com
 0.0.0.0 kinesis.eu-central-1.amazonaws.com
 0.0.0.0 kinesis.us-west-2.amazonaws.com
