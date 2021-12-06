@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 05.12.2021
+# Änderungsdatum: 06.12.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -3191,6 +3191,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adc0f0630732406f8cafdc15954300d2f.profile.tlv50-c1.cloudfront.net
 # Assoc-amazon.com
 0.0.0.0 assoc-eu.associates-amazon.com
+0.0.0.0 assoc-fe.associates-amazon.com
 0.0.0.0 assoc-na.associates-amazon.com
 0.0.0.0 wms.assoc-amazon.com
 0.0.0.0 ws-na.assoc-amazon.com
@@ -3278,6 +3279,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d2wy8f7a9ursnm.cloudfront.net # Bugsnag Script
 0.0.0.0 d2yt3cv5wvb9w9.cloudfront.net
 0.0.0.0 d2yyd1h5u9mauk.cloudfront.net
+0.0.0.0 d2zgd5orehvssg.cloudfront.net
 0.0.0.0 d2zl2n5iz2c0l7.cloudfront.net
 0.0.0.0 d2zur9cc2gf1tx.cloudfront.net
 0.0.0.0 d31qbv1cthcecs.cloudfront.net
@@ -9860,6 +9862,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 w2m9492ddv-2.algolianet.com # Suchplugin für Bundlestars/Fanatical
 0.0.0.0 cdn.polyfill.io # Tracking
 0.0.0.0 sp.fanatical.com
+0.0.0.0 ef.fanatical.com
 
 # FAZ.de
 # Trackingpixel unter Hauptdomain /l.gif
@@ -10947,6 +10950,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 anymind360.com
 0.0.0.0 api.adserver.vrizead.com
 0.0.0.0 api.primecaster.net
+0.0.0.0 api.relaido.jp
 0.0.0.0 asset.f-tra.com
 0.0.0.0 atype.jp
 0.0.0.0 b.hatena.ne.jp
@@ -10954,6 +10958,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 banner.themediaplanets.com
 0.0.0.0 bannerfarm.aolp.jp
 0.0.0.0 beacon.watch.impress.co.jp
+0.0.0.0 bid.o-uccino.com
 0.0.0.0 blackhole.m.jd.com # UTM Campaign
 0.0.0.0 bs.nakanohito.jp
 0.0.0.0 c.tgknt.com
@@ -11022,6 +11027,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 nakanohito.jp
 0.0.0.0 oms.dowjoneson.com
 0.0.0.0 pics.dmm.com
+0.0.0.0 ppv-cloud.tokyo
 0.0.0.0 proparm.jp
 0.0.0.0 publish.gacraft.jp
 0.0.0.0 rat.rakuten.co.jpflash-api-eq.pub.jpe2.rpaas.net
@@ -11042,6 +11048,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sync-tapi.admatrix.jp
 0.0.0.0 sync.addlv.smt.docomo.ne.jp
 0.0.0.0 sync.dsp.reemo-ad.jp
+0.0.0.0 t.blog.livedoor.jp
 0.0.0.0 t.dc-tag.jp
 0.0.0.0 t7.aqtracker.com
 0.0.0.0 tag.nifty.com
@@ -11361,9 +11368,44 @@ ff02::3 ip6-allhosts
 0.0.0.0 kcs.deqwas.net
 
 # DMM | Digital Media Mart
-0.0.0.0 stat.i3.dmm.com
+0.0.0.0 ad.dmm.co.jp
 0.0.0.0 ad.dmm.com
+0.0.0.0 prd.trac.i3.aigis1000.jp
+0.0.0.0 prd.trac.i3.sangokublaze.jp
+0.0.0.0 prd.trac.i3.web-camp.io
+0.0.0.0 stat.i3.dmm.com
+0.0.0.0 trac.i3.10thfanzagames.jp
+0.0.0.0 trac.i3.alice-closet.jp
+0.0.0.0 trac.i3.ayarabu.jp
+0.0.0.0 trac.i3.bluereflection-sun.com
+0.0.0.0 trac.i3.catharsistage.jp
+0.0.0.0 trac.i3.dmm-agri.com
+0.0.0.0 trac.i3.dmm-make.com
+0.0.0.0 trac.i3.dmm-news.com
+0.0.0.0 trac.i3.dmm.co.jp
 0.0.0.0 trac.i3.dmm.com
+0.0.0.0 trac.i3.dmmgamesventures.jp
+0.0.0.0 trac.i3.fruits-fulcute.jp
+0.0.0.0 trac.i3.game.puraore.com
+0.0.0.0 trac.i3.geass-game.com
+0.0.0.0 trac.i3.kamigoroshi-aria.com
+0.0.0.0 trac.i3.mahoroba-youjokitan.com
+0.0.0.0 trac.i3.menus-recipe.com
+0.0.0.0 trac.i3.necrosm.com
+0.0.0.0 trac.i3.oshirore-dmmgames.com
+0.0.0.0 trac.i3.paz-doya.jp
+0.0.0.0 trac.i3.plus-links.jp
+0.0.0.0 trac.i3.project-frb.jp
+0.0.0.0 trac.i3.r18.com
+0.0.0.0 trac.i3.shiravune.com
+0.0.0.0 trac.i3.soukou-musume.com
+0.0.0.0 trac.i3.syukatsulabo.jp
+0.0.0.0 trac.i3.touken-musou.com
+0.0.0.0 trac.i3.vctec.io
+0.0.0.0 trac.i3.windboys.jp
+0.0.0.0 trac.i3.world-actor-tsw.jp
+0.0.0.0 trac.i3.www.dmm-osoushiki.jp
+0.0.0.0 trac.i3.yaribeya.com
 
 # Dooga.co.jp
 0.0.0.0 media.r18.com
@@ -11577,6 +11619,8 @@ ff02::3 ip6-allhosts
 
 # Popin.cc
 0.0.0.0 api.popin.cc
+0.0.0.0 audio.popin.cc
+0.0.0.0 demo.popin.cc
 0.0.0.0 discoveryplus.popin.cc
 0.0.0.0 jp.popin.cc
 0.0.0.0 r.popin.cc
@@ -11624,6 +11668,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 asumi.shinobi.jp
 0.0.0.0 bar1.shinobi.jp
 0.0.0.0 cnobi.jp
+0.0.0.0 code.analysis.shinobi.jp
 0.0.0.0 ct2.shinobi.jp
 0.0.0.0 ct2.syuriken.jp
 0.0.0.0 rcm.shinobi.jp
@@ -11637,6 +11682,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 track.sohu.com
 0.0.0.0 i.go.sohu.com
 
+# Thench.net
+0.0.0.0 lga.thench.net
+0.0.0.0 lgb.thench.net
+0.0.0.0 lgc.thench.net
+0.0.0.0 lgd.thench.net
+0.0.0.0 lge.thench.net
+0.0.0.0 lgf.thench.net
+0.0.0.0 lgg.thench.net
+0.0.0.0 lgh.thench.net
+0.0.0.0 lgi.thench.net
+0.0.0.0 lgj.thench.net
+0.0.0.0 lgk.thench.net
+0.0.0.0 lgl.thench.net
+0.0.0.0 lgm.thench.net
+0.0.0.0 lgn.thench.net
+0.0.0.0 lgo.thench.net
+0.0.0.0 lgp.thench.net
+0.0.0.0 stab.thench.net
+
 # Toast.com
 0.0.0.0 adlc-exchange.toast.com
 
@@ -11649,7 +11713,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 services.xg4ken.com
 0.0.0.0 resources.xg4ken.com
 
-# Yahoo.co.jp
+# Yahoo Japan Corporation | Yahoo.co.jp
 0.0.0.0 ard.yahoo.co.jp
 0.0.0.0 b0.yahoo.co.jp
 0.0.0.0 b10.yahoo.co.jp
@@ -11658,10 +11722,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 b5.yahoo.co.jp
 0.0.0.0 b6.yahoo.co.jp
 0.0.0.0 b8.yahoo.co.jp
+0.0.0.0 b90.yahoo.co.jp
 0.0.0.0 b92.yahoo.co.jp
 0.0.0.0 b94.yahoo.co.jp
 0.0.0.0 b97.yahoo.co.jp
-0.0.0.0 dsb.yahoo.co.jp # YASYahooAnalyticsLogger-web
+0.0.0.0 dsb.yahoo.co.jp # /api/v1/stream
 0.0.0.0 im.ov.yahoo.co.jp
 0.0.0.0 logql.yahoo.co.jp
 0.0.0.0 logql21114.data.kks.ynwp.yahoo.co.jp
@@ -11691,6 +11756,18 @@ ff02::3 ip6-allhosts
 
 # Ziyu.net
 0.0.0.0 pranking11.ziyu.net
+0.0.0.0 rranking.ziyu.net
+0.0.0.0 rranking12.ziyu.net
+0.0.0.0 rranking13.ziyu.net
+0.0.0.0 rranking14.ziyu.net
+0.0.0.0 rranking15.ziyu.net
+0.0.0.0 rranking2.ziyu.net
+0.0.0.0 rranking3.ziyu.net
+0.0.0.0 rranking4.ziyu.net
+0.0.0.0 rranking5.ziyu.net
+0.0.0.0 rranking6.ziyu.net
+0.0.0.0 rranking7.ziyu.net
+0.0.0.0 rranking8.ziyu.net
 0.0.0.0 rranking9.ziyu.net
 
 # Zucks,Inc.
@@ -11950,6 +12027,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 plus.l.google.com # Mit apis.google.com verknüpft
 
 # Google Appspot.com
+0.0.0.0 adtrust.appspot.com
 0.0.0.0 amp-error-reporting.appspot.com
 0.0.0.0 cmanager-prometeo.appspot.com
 0.0.0.0 directed-truck-256814.appspot.com
@@ -14211,7 +14289,9 @@ ff02::3 ip6-allhosts
 # Dayz Inc.
 # ウェブブラウザ Kinza
 #0.0.0.0 www.kinza.jp
+#0.0.0.0 api.start.me
 #0.0.0.0 kinza.start.me
+#0.0.0.0 updatelog.kinza.jp
 #0.0.0.0 accounts.google.com
 #0.0.0.0 www.google.com
 #0.0.0.0 update.googleapis.com
@@ -14419,7 +14499,9 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 44.235.28.153
 # 35.227.207.240
+# 34.120.208.123
 0.0.0.0 incoming.telemetry.mozilla.org
+0.0.0.0 telemetry-incoming-a.r53-2.services.mozilla.com
 0.0.0.0 prod.ingestion-edge.prod.dataops.mozgcp.net
 0.0.0.0 telemetry.mozilla.org
 0.0.0.0 telemetry-experiment.cdn.mozilla.net
@@ -17089,6 +17171,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.101hukk.com
 0.0.0.0 ad.a-ads.com
 0.0.0.0 ad.ad-arata.com
+0.0.0.0 ad.ad-arrow.com
 0.0.0.0 ad.adnet.de
 0.0.0.0 ad.adperium.com
 0.0.0.0 ad.adverticum.net
@@ -17865,6 +17948,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d.adup-tech.com
 0.0.0.0 d.amoad.com
 0.0.0.0 d.impactradius-event.com
+0.0.0.0 d.odsyms15.com
 0.0.0.0 d.omsnative.de
 0.0.0.0 d5p.de17a.com
 0.0.0.0 d6jfiirio372.com
@@ -18034,6 +18118,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 epu.sh
 0.0.0.0 erci.edu.sg
 0.0.0.0 ercoyintu.com
+0.0.0.0 error.2nt.com
 0.0.0.0 et.twyn.com
 0.0.0.0 ethprofitminer.com
 0.0.0.0 eu-adsrv.rtbsuperhub.com
@@ -18882,6 +18967,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 partner.o2online.de
 0.0.0.0 partners.olybetaffiliates.com
 0.0.0.0 partners.wfxtriggers.com
+0.0.0.0 parts.blozoo.com
 0.0.0.0 passeseura.com
 0.0.0.0 passeseuro.com
 0.0.0.0 payingnoodlescam.com
@@ -22319,16 +22405,26 @@ ff02::3 ip6-allhosts
 
 # Mafia III
 # Telemetry64.dll im Installationsordner löschen! Adressen sind für Telemetrie und Onlinefunktion zuständig
-# Ip/s blockieren:
-# 208.64.200.105
-0.0.0.0 2kgprgapp3.2kgames.t2.corp
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 2.16.107.49
+# 2.16.107.18
+# 2.16.107.3
+# 23.32.238.152
+0.0.0.0 download-t2gp.take2games.com
+0.0.0.0 a1915.dscd.akamai.net
+# 104.18.7.148
+0.0.0.0 content.t2gp.take2games.com
+0.0.0.0 content.t2gp.take2games.com.cdn.cloudflare.net
+# 18.66.248.102
+# 18.66.248.121
+# 18.66.248.17
+#0.0.0.0 images.ctfassets.net
+# 142.250.181.234
+#0.0.0.0 fonts.googleapis.com
+# 93.184.220.29
+#0.0.0.0 crl3.digicert.com
+#0.0.0.0 crl4.digicert.com
+# 23.22.166.9
+0.0.0.0 promotions.api.2kcoretech.online
 # 192.81.242.130
 # 192.81.242.131
 #0.0.0.0 0eaa48923bc27d93552bf100519bbf7b.my.2k.com
@@ -22336,6 +22432,17 @@ ff02::3 ip6-allhosts
 #0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com
 #0.0.0.0 798ce2d1755b23f16c6b1100d73fa464.my.2k.com
 #0.0.0.0 c80e487cd7fed21dfb05e01fe8be8b6e.my.2k.com
+# Crashlytics & Telemetrie - crashagent64.exe im Appdata Verzeichnis löschen
+# 100.24.218.233
+# 54.83.181.250
+# 34.196.182.210
+0.0.0.0 discovery.api.2kcoretech.online
+0.0.0.0 telemetry.api.2kcoretech.online
+0.0.0.0 34acf0414d836d3f8d491c6186153694.my.2k.com
+# Drittanbietertracking aktiv beim Verlassen des Spiels
+# 34.120.195.249
+0.0.0.0 o433356.ingest.sentry.io
+0.0.0.0 16e0183cf8214878a39b6a23bda83b58@o433356.ingest.sentry.io
 
 # NBA 2K17
 # NBA2K17.exe Server Zwangsverbindung
