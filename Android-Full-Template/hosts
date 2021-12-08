@@ -10,7 +10,7 @@
 #
 # Version: Template für Androidspiele und Programme - Spezifisch
 # Kombinierbar mit dem Hosts Mini-Template für Androidspiele und Programme
-# Änderungsdatum: 01.12.2021
+# Änderungsdatum: 08.12.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -710,15 +710,17 @@
 
 # Leap Fitness Group
 0.0.0.0 ad.leap.app
-0.0.0.0 api-cms.mobihealthplus.com
-0.0.0.0 cdncms-backend.mobihealthplus.com
-0.0.0.0 link.mobihealthplus.com
-0.0.0.0 apidis.period-calendar.com
 0.0.0.0 ad.period-calendar.com
+0.0.0.0 api-cms.mobihealthplus.com
+0.0.0.0 apidis.period-calendar.com
+0.0.0.0 cdncms-backend.mobihealthplus.com
+0.0.0.0 d18pt3tky6ry2.cloudfront.net
+0.0.0.0 d2u4avv7qzsl3j.cloudfront.net
 0.0.0.0 d2vfeg8cq5421.cloudfront.net
 0.0.0.0 download.period-calender.com
+0.0.0.0 link.mobihealthplus.com
+0.0.0.0 ob.leap.app
 0.0.0.0 resource.leap.app
-0.0.0.0 d2u4avv7qzsl3j.cloudfront.net
 
 # Lion Studios
 # Cash, Inc.
