@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 06.12.2021
+# Änderungsdatum: 10.12.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -5888,13 +5888,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 production.connected.dsvolition.com
 
 # Dead Island Retro Revenge
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 23.67.131.175
+# 23.213.161.68
+# 23.32.238.234
+# 23.32.238.233
+#0.0.0.0 steamcommunity-a.akamaihd.net
+#0.0.0.0 api.steampowered.com
+#0.0.0.0 steamcdn-a.akamaihd.net
+#0.0.0.0 a23-67-131-175.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-213-161-6.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-32-238-234.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-32-238-233.deploy.static.akamaitechnologies.com
 
 # Homefront: The Revolution
 # 104.197.46.164
