@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 06.12.2021
+# Änderungsdatum: 10.12.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -4332,6 +4332,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.dynamicyield.com
 
 # Dyntrk.com
+# Ip/s blockieren:
+# 51.178.20.140
 0.0.0.0 eu-level1.dyntrk.com
 0.0.0.0 gu.dyntrk.com
 
@@ -4750,6 +4752,7 @@ ff02::3 ip6-allhosts
 # Flashtalking
 0.0.0.0 ad-events.flashtalking.com
 0.0.0.0 cdn.flashtalking.com
+0.0.0.0 d9.flashtalking.com
 0.0.0.0 secure.flashtalking.com
 0.0.0.0 servedby.flashtalking.com
 0.0.0.0 stat.flashtalking.com
@@ -5383,21 +5386,26 @@ ff02::3 ip6-allhosts
 0.0.0.0 logs-01.loggly.com
 
 # Logrocket.com
-0.0.0.0 logrocket.com
-0.0.0.0 brief.logrocket.com
-0.0.0.0 status.logrocket.com
-0.0.0.0 cdn-staging.logrocket.com
-0.0.0.0 r.logrocket.com
-0.0.0.0 changelog.logrocket.com
-0.0.0.0 jobs.logrocket.com
-0.0.0.0 blog.logrocket.com
-0.0.0.0 www.logrocket.com
-0.0.0.0 i.logrocket.com
 0.0.0.0 api.logrocket.com
-0.0.0.0 docs.logrocket.com
 0.0.0.0 app.logrocket.com
+0.0.0.0 blog.logrocket.com
+0.0.0.0 brief.logrocket.com
 0.0.0.0 cdn-alpha.logrocket.com
+0.0.0.0 cdn-staging.logrocket.com
 0.0.0.0 cdn.logrocket.com
+0.0.0.0 cdn.lr-ingest.io
+0.0.0.0 changelog.logrocket.com
+0.0.0.0 docs.logrocket.com
+0.0.0.0 i.logrocket.com
+0.0.0.0 jobs.logrocket.com
+0.0.0.0 log.logicanalytics.io
+0.0.0.0 logrocket.com
+0.0.0.0 r.logrocket.com
+0.0.0.0 r.lr-ingest.io
+0.0.0.0 staging-i.lr-ingest.io
+0.0.0.0 status.logrocket.com
+0.0.0.0 www.logrocket.com
+0.0.0.0 wykzh58rpbks.statuspage.io
 
 # Logsss.com
 0.0.0.0 s.logsss.com
@@ -6447,6 +6455,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 outbrain.map.fastly.net
 0.0.0.0 paid.outbrain.com
 0.0.0.0 prod.outbrain.map.fastlylb.net
+0.0.0.0 stas.outbrain.com
 0.0.0.0 tcheck.outbrainimg.com
 0.0.0.0 tr.outbrain.com
 0.0.0.0 videoclientsservicescalls.outbrain.com
@@ -10926,6 +10935,7 @@ ff02::3 ip6-allhosts
 # Asiatische Analytics und Dienste
 # Analytics, Tracking, Counter, Werbung und Co. aus dem asiatischen Raum
 
+0.0.0.0 a-affiliate.net
 0.0.0.0 a.cookpad-ads.com
 0.0.0.0 a.imgvc.com
 0.0.0.0 ac33.silveregg.net
@@ -10936,21 +10946,26 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.hani.co.kr
 0.0.0.0 ad.i2idata.com
 0.0.0.0 ad.phaserep.com
+0.0.0.0 ad999.biz
 0.0.0.0 adex.ednplus.com
 0.0.0.0 adjp.apacact.verizonmedia.com
 0.0.0.0 adm.beimg.com
 0.0.0.0 admixer.co.kr
+0.0.0.0 adqqq.biz
 0.0.0.0 ads.b10f.jp
 0.0.0.0 ads.priel.co.kr
+0.0.0.0 advack.net
 0.0.0.0 adx.turl.co.kr
 0.0.0.0 aff.jskyservices.com
 0.0.0.0 aml.valuecommerce.com
 0.0.0.0 an.cmertv.com
 0.0.0.0 ana2.tatsumi-sys.jp
 0.0.0.0 anymind360.com
+0.0.0.0 ap.octopuspop.com # octo-pus.net
 0.0.0.0 api.adserver.vrizead.com
 0.0.0.0 api.primecaster.net
 0.0.0.0 api.relaido.jp
+0.0.0.0 asp.m-live.jp
 0.0.0.0 asset.f-tra.com
 0.0.0.0 atype.jp
 0.0.0.0 b.hatena.ne.jp
@@ -10972,6 +10987,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 click.speee-ad.jp
 0.0.0.0 cm.qtmojo.com
 0.0.0.0 cms.tanx.com
+0.0.0.0 cnt.affiliate.fc2.com
+0.0.0.0 cnt.challenging.jp
 0.0.0.0 conf.f-tra.com
 0.0.0.0 cookpad-d.openx.net
 0.0.0.0 corp.ninja.co.jp
@@ -10983,6 +11000,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 deliver.ads2.iid.jp
 0.0.0.0 delivery.locari.jp
 0.0.0.0 delivery.satr.jp # Satori
+0.0.0.0 draft.j-a-net.jp
 0.0.0.0 ds.uncn.jp
 0.0.0.0 eclog2-082.cafe24.com
 0.0.0.0 erebor.douban.com
@@ -10990,11 +11008,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 fundin.douban.com
 0.0.0.0 gather.ihani.co.kr
 0.0.0.0 geoec.silveregg.net
+0.0.0.0 gravurergram.biz # Pornaffiliate
+0.0.0.0 gym-search.red
 0.0.0.0 hbw.adjust-net.jp
 0.0.0.0 hm.mieru-ca.com
 0.0.0.0 i.moshimo.com
 0.0.0.0 i.smartnews-ads.com
 0.0.0.0 iclick.cm.admaster.com.cn
+0.0.0.0 image.j-a-net.jp
 0.0.0.0 image.sbs-ad.com
 0.0.0.0 img.ak.impact-ad.jp
 0.0.0.0 imp.ad-plus.cn
@@ -11008,14 +11029,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.dsp.reemo-ad.jp
 0.0.0.0 js.isboost.co.jp
 0.0.0.0 js.mediams.mb.softbank.jp
+0.0.0.0 js.octopuspop.com
 0.0.0.0 js.shshuoshu.com
 0.0.0.0 js.spacenine.biz
 0.0.0.0 jtrackern.joins.com
 0.0.0.0 karte-park.ajinomoto.co.jp
 0.0.0.0 ladsp.jp
+0.0.0.0 link-a.net
 0.0.0.0 link.86uk.com
 0.0.0.0 linkback.contentsfeed.com
-0.0.0.0 log-netgame.dmm.com
 0.0.0.0 log.adplex.co.kr
 0.0.0.0 log.f-tra.com
 0.0.0.0 log.maniadb.com
@@ -11026,10 +11048,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 mercury.jd.com # Trackingpixel
 0.0.0.0 nakanohito.jp
 0.0.0.0 oms.dowjoneson.com
-0.0.0.0 pics.dmm.com
 0.0.0.0 ppv-cloud.tokyo
 0.0.0.0 proparm.jp
 0.0.0.0 publish.gacraft.jp
+0.0.0.0 px.a8.net
 0.0.0.0 rat.rakuten.co.jpflash-api-eq.pub.jpe2.rpaas.net
 0.0.0.0 rb.infox.sg
 0.0.0.0 rec2.d.dmkt-sp.jp
@@ -11037,11 +11059,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 rtg-endpoint.global.ssl.fastly.net # Page Events
 0.0.0.0 s.360.cn
 0.0.0.0 s.dc-tag.jp
+0.0.0.0 salle-de-fortune.com
 0.0.0.0 sankei2ad.durasite.net
+0.0.0.0 send-guile.sonicmoov.com
 0.0.0.0 sgs-api.interactive-circle.jp
 0.0.0.0 sherpa-server-arm-prd6.gacraft.jp # Websocket
 0.0.0.0 site.gnavi.co.jp
 0.0.0.0 sjs.ssdsp.smt.docomo.ne.jp
+0.0.0.0 spimg2.mgstage.com
 0.0.0.0 ssp.realclick.co.kr
 0.0.0.0 static.karte.io # Tracker Widget
 0.0.0.0 static.pc-adroute.focas.jp
@@ -11065,7 +11090,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 wisteria-js.excite.co.jp
 0.0.0.0 www.onemilliondollar.hk.cn
 0.0.0.0 www.southcn.com
+0.0.0.0 www17.a8.net
 0.0.0.0 www2.jp.jskypro.com
+0.0.0.0 yurukyaragurume.net
 
 # 马蜂窝 | mafengwo.cn
 0.0.0.0 c.cnzz.com # Heatmap
@@ -11194,6 +11221,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 recv.egovsum.com
 0.0.0.0 stat.www.gov.cn
 0.0.0.0 static.gridsumdissector.co
+
+# 株式会社フォーイット
+0.0.0.0 t.afi-b.com
+0.0.0.0 www.affiliate-b.com
+0.0.0.0 www.afi-b.com
 
 # 51.la
 0.0.0.0 js.users.51.la
@@ -11370,6 +11402,10 @@ ff02::3 ip6-allhosts
 # DMM | Digital Media Mart
 0.0.0.0 ad.dmm.co.jp
 0.0.0.0 ad.dmm.com
+0.0.0.0 al.dmm.co.jp # Affiliatelinks
+0.0.0.0 ip.affiliate.dmm.com
+0.0.0.0 log-netgame.dmm.com
+0.0.0.0 pics.dmm.com
 0.0.0.0 prd.trac.i3.aigis1000.jp
 0.0.0.0 prd.trac.i3.sangokublaze.jp
 0.0.0.0 prd.trac.i3.web-camp.io
@@ -11406,6 +11442,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 trac.i3.world-actor-tsw.jp
 0.0.0.0 trac.i3.www.dmm-osoushiki.jp
 0.0.0.0 trac.i3.yaribeya.com
+0.0.0.0 widget-view.dmm.co.jp
 
 # Dooga.co.jp
 0.0.0.0 media.r18.com
@@ -11466,10 +11503,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 spnet2-1.i-mobile.co.jp
 0.0.0.0 spnet33.i-mobile.co.jp
 0.0.0.0 spdeliver.i-mobile.co.jp
-0.0.0.0 spcdnsp.i-mobile.co.jp
+0.0.0.0 spcdnsp.i-mobile.co.jp # Banner
 0.0.0.0 spnativeapi.i-mobile.co.jp
 0.0.0.0 spnativeapi.i-mobile.co.jp
-0.0.0.0 ssp-bidapi.i-mobile.co.jp
+0.0.0.0 ssp-bidapi.i-mobile.co.jp # Spots und Impressions
 0.0.0.0 spsvcpc-tls.i-mobile.co.jp
 0.0.0.0 xid.i-mobile.co.jp
 0.0.0.0 spamp.i-mobile.co.jp
@@ -11559,6 +11596,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 deb.send.microad.jp
 0.0.0.0 imp.u.send.microad.jp
 0.0.0.0 j.microad.net
+0.0.0.0 jgl.microad.net
 0.0.0.0 linx-cache.microad.jp
 0.0.0.0 linx.send.microad.jp
 0.0.0.0 s-cs.send.microad.jp
@@ -11566,6 +11604,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s-rtb.send.microad.jp
 0.0.0.0 s-rtb.send.microadinc.com
 0.0.0.0 ssp.send.microad.jp
+0.0.0.0 ssp.send.microadinc.com
 0.0.0.0 universe.send.microad.jp
 
 # Naver.com
@@ -11617,7 +11656,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 img.polymorphicads.jp
 0.0.0.0 ad.polymorphicads.jp
 
-# Popin.cc
+# PopIn.cc | popIn Inc.
 0.0.0.0 api.popin.cc
 0.0.0.0 audio.popin.cc
 0.0.0.0 demo.popin.cc
@@ -12282,6 +12321,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 030b43a4d34583994d32ae4e7a06af66.safeframe.googlesyndication.com
 0.0.0.0 05719ae181ceb8843fe45a21d5f8f088.safeframe.googlesyndication.com
 0.0.0.0 05a8dff4cd90224eb40f861eb014eec5.safeframe.googlesyndication.com
+0.0.0.0 093e65487e52b268122673b3958e5763.safeframe.googlesyndication.com
+0.0.0.0 0960f47a7e262a6f864179a001f9a240.safeframe.googlesyndication.com
 0.0.0.0 0fa07c2d101f9966c73d35aef9a8dc45.safeframe.googlesyndication.com
 0.0.0.0 10f367ca77ade837a717c11911084546.safeframe.googlesyndication.com
 0.0.0.0 131b2ff3d9be61fbdc3d9734b57d66f2.safeframe.googlesyndication.com
@@ -12319,9 +12360,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 74c07737a4a21db4c0548a3b73e2a775.safeframe.googlesyndication.com
 0.0.0.0 76d2bc4332499c3940f6da8af37c0338.safeframe.googlesyndication.com
 0.0.0.0 83cb4cf83a63b352334449eb7c19b630.safeframe.googlesyndication.com
+0.0.0.0 875727207d3bc5457d2ea5a98663a004.safeframe.googlesyndication.com
 0.0.0.0 8f3efbe7f6f4530f60c2eb3977ea8e0f.safeframe.googlesyndication.com
 0.0.0.0 903cac25276d722b6817cdc229fefa88.safeframe.googlesyndication.com
 0.0.0.0 925c0f66a50611c2919a7b66784ba6bd.safeframe.googlesyndication.com
+0.0.0.0 94a7f166de77cbde274b7bc926d00983.safeframe.googlesyndication.com
 0.0.0.0 96d80cafb2cc6ad351ea76aea0f55d37.safeframe.googlesyndication.com
 0.0.0.0 97cffe0e553d2083e8cce0de14dc2001.safeframe.googlesyndication.com
 0.0.0.0 99b0679d6c48649037dec11eb17a58f9.safeframe.googlesyndication.com
@@ -12792,11 +12835,12 @@ ff02::3 ip6-allhosts
 # https://checkappexec.microsoft.com/windows/shell/telemetry
 # 51.144.113.175
 # 51.144.113.175
+# 20.67.219.150
 0.0.0.0 checkappexec.microsoft.com # Sogenannte Reputationsprüfung - Gibt Ordnerpfade, Zeitstempel, eindeutige ID's, Sprache u.m. weiter
 0.0.0.0 crl.uzto.netdna-cdn.com
 0.0.0.0 europe.smartscreen-prod.microsoft.com
-0.0.0.0 nav.smartscreen.microsoft.com
-0.0.0.0 nf.smartscreen.microsoft.com
+0.0.0.0 nav.smartscreen.microsoft.com # /windows/browser/edge/telemetry
+0.0.0.0 nf.smartscreen.microsoft.com # /network/filter/telemetry
 0.0.0.0 sfdataservice.microsoft.com
 0.0.0.0 t.checkappexec.microsoft.com # erhobene Telemetriedaten bei jeder Programminstallation inkl. Aufnahme was installiert wird
 0.0.0.0 unitedkingdom.smartscreen-prod.microsoft.com
@@ -17070,6 +17114,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 1a5c9d.kodi.ac
 0.0.0.0 1d616fe9445.traffic-c.com
 0.0.0.0 1d6550b1238.trccmpnlnk.com
+0.0.0.0 1f2e7.v.fwmrm.net
 0.0.0.0 1suyx9m.lmyiwaakn.com
 0.0.0.0 1xbetbk6.com
 0.0.0.0 1xbetbk7.com
@@ -17108,6 +17153,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 5f3c395.ccm19.de
 0.0.0.0 66ce98158e4f402.com
 0.0.0.0 688012155290337.mateti.net
+0.0.0.0 740-lkm-263.mktoresp.com
 0.0.0.0 761a280af77152d.com
 0.0.0.0 763e36f038012d9c77ed4f7e69d53acf.surf
 0.0.0.0 77153ccfd0549f191.com
@@ -17157,6 +17203,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 abellalist.com
 0.0.0.0 abload.de
 0.0.0.0 abp.mxptint.net
+0.0.0.0 access-analyze.org
 0.0.0.0 access.watchmygf.net
 0.0.0.0 acdcdn.com
 0.0.0.0 acdn.adnxs-simple.com
@@ -17284,6 +17331,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adverdirect.com
 0.0.0.0 adversal.com
 0.0.0.0 advert.uloz.to
+0.0.0.0 advertisement.b-cdn.net # bunny.net
 0.0.0.0 advrich.com
 0.0.0.0 adx.jsecoin.com
 0.0.0.0 ae.e0.559e.ip4.static.sl-reverse.com
@@ -17440,6 +17488,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 as.air2s.com
 0.0.0.0 as.innity.com
 0.0.0.0 as.travelbook.de
+0.0.0.0 asg.aphex.me
 0.0.0.0 asgclick.com
 0.0.0.0 aslaironer.com
 0.0.0.0 asn.advolution.de
@@ -17550,6 +17599,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 binary.limited
 0.0.0.0 bitingcomposed.com
 0.0.0.0 bitonclick.com
+0.0.0.0 bl01.access-analyze.org
 0.0.0.0 blastcahs.com
 0.0.0.0 blinn.beredskabdanmark.dk
 0.0.0.0 blip.bizrate.com
@@ -17586,7 +17636,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 byaqcsehcj.com
 0.0.0.0 byeej.com
 0.0.0.0 c-msn-com-nsatc.trafficmanager.net
+0.0.0.0 c.6sc.co
 0.0.0.0 c.adexchangemachine.com
+0.0.0.0 c.clarity.ms
 0.0.0.0 c.conversionlogic.net
 0.0.0.0 c.datpix.net
 0.0.0.0 c.deadlinefunnel.com
@@ -18115,6 +18167,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 epeex.com
 0.0.0.0 epicguide.com
 0.0.0.0 epmads.com
+0.0.0.0 epsilon.6sense.com
 0.0.0.0 epu.sh
 0.0.0.0 erci.edu.sg
 0.0.0.0 ercoyintu.com
@@ -18338,6 +18391,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 go.hpyjmp.com
 0.0.0.0 go.hpyrdr.com
 0.0.0.0 go.ktkjmp.com
+0.0.0.0 go.moartraffic.com
 0.0.0.0 go.oclasrv.com
 0.0.0.0 go.onclasrv.com
 0.0.0.0 go.onlineradarnews.com
@@ -18477,6 +18531,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 images3.mobiapp-games.net
 0.0.0.0 imedidata.com
 0.0.0.0 imedidata.net
+0.0.0.0 img-ad-nex.com
 0.0.0.0 img.gamengame.com
 0.0.0.0 img.macromill.com
 0.0.0.0 img.sunmediaads.com
@@ -18822,6 +18877,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 msidentity.com
 0.0.0.0 mths.be
 0.0.0.0 mtm.httptest.de # Matomo
+0.0.0.0 mttag.com
 0.0.0.0 mugleafly.com
 0.0.0.0 mwge.mydirtyhobby.com
 0.0.0.0 mx130-csgo.muitadica.com
@@ -18949,6 +19005,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.asoursuls.com
 0.0.0.0 p.errorception.com
 0.0.0.0 p.eruon.de # Piwik
+0.0.0.0 p.net-public.com
 0.0.0.0 p.vtracy.de
 0.0.0.0 p203248.mybetterdl.com
 0.0.0.0 p251644.infopicked.com
@@ -19426,6 +19483,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 static-eu.payments-amazon.com
 0.0.0.0 static-origin.plista.com
 0.0.0.0 static.addevweb.com
+0.0.0.0 static.addtoany.com
 0.0.0.0 static.adman.gr
 0.0.0.0 static.apester.com
 0.0.0.0 static.bh-cdn.com
@@ -19707,6 +19765,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tracker.nitropay.com
 0.0.0.0 tracker.shanon-services.com
 0.0.0.0 tracker.stats.in.th
+0.0.0.0 tracker.tubecj.com
 0.0.0.0 tracking-api.hotmart.com
 0.0.0.0 tracking.adxadserv.com
 0.0.0.0 tracking.bodis.com
@@ -19926,6 +19985,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 weshareabundance.com
 0.0.0.0 wfywchrzpic.com
 0.0.0.0 whalecashads.com
+0.0.0.0 whatabouthotbabies.com
 0.0.0.0 wheel.grand-casino50.com
 0.0.0.0 wherethefun.com
 0.0.0.0 whitebit.com
@@ -26432,13 +26492,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 production.connected.dsvolition.com
 
 # Dead Island Retro Revenge
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 23.67.131.175
+# 23.213.161.68
+# 23.32.238.234
+# 23.32.238.233
+#0.0.0.0 steamcommunity-a.akamaihd.net
+#0.0.0.0 api.steampowered.com
+#0.0.0.0 steamcdn-a.akamaihd.net
+#0.0.0.0 a23-67-131-175.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-213-161-6.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-32-238-234.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-32-238-233.deploy.static.akamaitechnologies.com
 
 # Homefront: The Revolution
 # 104.197.46.164
