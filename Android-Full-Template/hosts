@@ -9,14 +9,17 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Androidspiele und Programme - Spezifisch
-# Kombinierbar mit dem Hosts Mini-Template für Androidspiele und Programme
+# Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
+# Verbindungen sind je nach Programmen und Spielen zugeordnet
+# Kombinierbar mit anderen host Templates von GameIndustry.eu oder weiteren Quellen
 # Änderungsdatum: 08.12.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
-# Kontaktmail: noreply@gameindustry.eu
+# E-Mail: noreply@gameindustry.eu
 # Hilfe: https://hosts.gameindustry.eu/faq/
-# Kontakt: https://www.gameindustry.eu/u/kontakt/
 # Steam: https://www.steamcommunity.com/groups/Penguindome
+# Github: https://github.com/KodoPengin/GameIndustry-hosts-Template
+# Codeberg: https://codeberg.org/Pengin/GameIndustry-hosts-Template
 #
 # Lizenz: CC BY-NC-SA 4.0
 # https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
@@ -1051,6 +1054,10 @@
 0.0.0.0 api.ipify.org
 0.0.0.0 sdk.yolanda.hk
 0.0.0.0 www.youduoyun.com # Hilfeseiten
+0.0.0.0 gllto2.gpals.com
+0.0.0.0 gllto2.gpals.com.cdn.cloudflare.net
+0.0.0.0 abroad.apilocate.amap.com.gds.alibabadns.com
+0.0.0.0 abroad.apilocate.amap.com
 
 # STORMX Co., Ltd.
 # Foodpia Tycoon - Idle restaurant
