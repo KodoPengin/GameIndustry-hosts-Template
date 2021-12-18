@@ -12,10 +12,11 @@
 # Änderungsdatum: 10.12.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
-# Kontaktmail: noreply@gameindustry.eu
+# E-Mail: noreply@gameindustry.eu
 # Hilfe: https://hosts.gameindustry.eu/faq/
-# Kontakt: https://www.gameindustry.eu/u/kontakt/
 # Steam: https://www.steamcommunity.com/groups/Penguindome
+# Github: https://github.com/KodoPengin/GameIndustry-hosts-Template
+# Codeberg: https://codeberg.org/Pengin/GameIndustry-hosts-Template
 #
 # Lizenz: CC BY-NC-SA 4.0
 # https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
@@ -42,7 +43,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 
 # Spieleclients aktueller Anbieter
-# Verschiedene Clientsoftware für Spiele im Einzelnen aufgeschlüsselt.
+# Verbindungsdaten von Launchern und Spieleclients
 # Nicht benötigte Funktionen wie z.b. Werbung, Tracking wurden blockiert
 
 # Bethesda Softworks LLC
@@ -1217,9 +1218,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 www-fastly.glb.paypal.com
 0.0.0.0 t.paypal.com # Trackingpixel
 
-#
-# Kopierschutz
-# Kopierschutz, AntiCheat und andere Gängelungen
+# Kopierschutz & DRM
+# Kopierschutz & DRM, AntiCheat und andere Gängelungen
 
 # BattlEye Innovations
 # BattlEye
@@ -1290,10 +1290,11 @@ ff02::3 ip6-allhosts
 #0.0.0.0 pa02.sonyvfactory.com
 #0.0.0.0 pa03.sonyvfactory.com
 
-#
-# Spiele und Clientspezifische Daten
-# Doppelte Adressen sind der Vollständigkeit halber angegeben und können per Suchen/Ersetzen gelöscht werden.
-# Achtung, in dieser Kategorie sind teilweise auch diverse Newsletter, Herstellerhomepages und andere Dienste jeweiliger Produkte gesperrt.
+# Desktop-Spiele
+# Verbindungsdaten, Analytics, Telemetrie, Spyware, Mehrspielerfunktionen und unnötiger Mist in Spielen
+# Adressen sind einzeln je Produkt nach Publishernamen aufgeführt
+# Achtung! In dieser Kategorie sind teilweise diverse Newsletter, Herstellerwebseiten und andere Dienste
+# jeweiliger Produkte gesperrt. Handhabung nach eigenem Bedarf
 
 # 赤燭遊戲 | RedCandleGames
 # Devotion
@@ -14947,22 +14948,16 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# 208.64.200.105
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 
 # SQUARE ENIX CO., LTD.
 # ドラゴンクエストライバルズ エース | DRAGON QUEST RIVALS Ace
@@ -15006,13 +15001,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 cloudinary.map.fastly.net
 
 # Deus Ex: The Fall
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 157.240.20.35
+# 157.240.20.19
+0.0.0.0 www.facebook.com
+0.0.0.0 facebook.com
+0.0.0.0 static.xx.fbcdn.net
+0.0.0.0 dxtfecopc.sqexeu.com
 
 # DRAGON QUEST® XI: Echoes of an Elusive Age™ - Digital Edition of Light
 # s. Rubrik Kopierschutz / AntiCheat
