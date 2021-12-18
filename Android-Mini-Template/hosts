@@ -9,14 +9,16 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Androidspiele und Programme - Mini-Version
-# Kombinierbar mit dem Hosts Template für Androidspiele und Programme - Spezifisch
-# Änderungsdatum: 27.11.2021
+# Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
+# Kombinierbar mit anderen host Templates von GameIndustry.eu oder weiteren Quellen
+# Änderungsdatum: 07.10.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
-# Kontaktmail: noreply@gameindustry.eu
+# E-Mail: noreply@gameindustry.eu
 # Hilfe: https://hosts.gameindustry.eu/faq/
-# Kontakt: https://www.gameindustry.eu/u/kontakt/
 # Steam: https://www.steamcommunity.com/groups/Penguindome
+# Github: https://github.com/KodoPengin/GameIndustry-hosts-Template
+# Codeberg: https://codeberg.org/Pengin/GameIndustry-hosts-Template
 #
 # Lizenz: CC BY-NC-SA 4.0
 # https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
@@ -117,6 +119,7 @@
 
 # Amazon Cloud Service | AWS
 0.0.0.0 alb-aws-fr-bswx-2-1673521430.eu-central-1.elb.amazonaws.com
+0.0.0.0 analytics-collector-28944298.us-east-1.elb.amazonaws.com
 0.0.0.0 crossyroadrageanalytics-157863293.us-east-1.elb.amazonaws.com
 0.0.0.0 dszw6uu4t9.execute-api.us-east-1.amazonaws.com
 0.0.0.0 elb-p-sa-dls-ew1-1752418205.eu-west-1.elb.amazonaws.com
@@ -124,13 +127,13 @@
 0.0.0.0 exchange-elb-1566059120.us-east-1.elb.amazonaws.com
 0.0.0.0 fe-pew1-ext-openapi-lb-547958838.eu-west-1.elb.amazonaws.com
 0.0.0.0 huracan-936647329.us-east-1.elb.amazonaws.com
+0.0.0.0 k8s-analysis-lighthou-3f73de8e48-416670195.us-east-1.elb.amazonaws.com
 0.0.0.0 lion-www.s3.amazonaws.com
 0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 0.0.0.0 oasis-track-alb-442894360.us-west-2.elb.amazonaws.com
 0.0.0.0 pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com
 0.0.0.0 sqs.us-east-1.amazonaws.com
 0.0.0.0 tracking-vektor-lb-2010006827.eu-west-1.elb.amazonaws.com
-0.0.0.0 analytics-collector-28944298.us-east-1.elb.amazonaws.com
 
 # Amplitude
 0.0.0.0 api.amplitude.com
@@ -234,12 +237,14 @@
 
 # Cloudfront
 #0.0.0.0 d3mps5l7sa9aih.cloudfront.net # Idle Knight
+0.0.0.0 d1cye4mftov9xe.cloudfront.net
 0.0.0.0 d1iskralo6mo11.cloudfront.net
+0.0.0.0 d2c3tmv7yw6ejm.cloudfront.net
 0.0.0.0 d2dwuodowqpv4g.cloudfront.net
 0.0.0.0 d39hwpl5gxli7h.cloudfront.net
 0.0.0.0 d3azwz0fcakc5.cloudfront.net
+0.0.0.0 d3ieick982x8tp.cloudfront.net
 0.0.0.0 dzpu6za66svjl.cloudfront.net
-0.0.0.0 d1cye4mftov9xe.cloudfront.net # Line Messenger
 
 # CrashEye
 0.0.0.0 rp.crasheye.cn
@@ -337,29 +342,37 @@
 # 172.217.23.106, 216.58.206.10
 #0.0.0.0 android.googleapis.com # Benötigt für die Angebote im Playstore
 #0.0.0.0 people-pa.googleapis.com # Zuständig für Synchronisation von Kalender und Kontakten
-#0.0.0.0 reminders-pa.googleapis.com
 #0.0.0.0 securetoken.googleapis.com
 #0.0.0.0 www.googleapis.com
 #0.0.0.0 www.googleapis.com # Synchronisation
 0.0.0.0 chromesyncpasswords-pa.googleapis.com
 0.0.0.0 clientservices.googleapis.com
 0.0.0.0 cloudconfig.googleapis.com
+0.0.0.0 content-autofill.googleapis.com
+0.0.0.0 cryptauthdevicesync.googleapis.com
 0.0.0.0 cryptauthenrollment.googleapis.com
 0.0.0.0 datamixer-pa.googleapis.com
+0.0.0.0 deviceintegritytokens-pa.googleapis.com
 0.0.0.0 digitalassetlinks.googleapis.com
 0.0.0.0 firebaseremoteconfig.googleapis.com
 0.0.0.0 footprints-pa.googleapis.com
+0.0.0.0 geller-pa.googleapis.com
+0.0.0.0 gmscompliance-pa.googleapis.com
 0.0.0.0 growth-pa.googleapis.com
 0.0.0.0 infinitedata-pa.googleapis.com
 0.0.0.0 instantmessaging-pa.googleapis.com
+0.0.0.0 lamssettings-pa.googleapis.com
 0.0.0.0 mdh-pa.googleapis.com
+0.0.0.0 mobilemaps-pa-gz.googleapis.com
 0.0.0.0 mobilemaps-pa.googleapis.com
 0.0.0.0 myphonenumbers-pa.googleapis.com
 0.0.0.0 notifications-pa.googleapis.com
 0.0.0.0 performanceparameters.googleapis.com
 0.0.0.0 phonedeviceverification-pa.googleapis.com
+0.0.0.0 reminders-pa.googleapis.com
 0.0.0.0 safebrowsing.googleapis.com
 0.0.0.0 speechs3proto2-pa.googleapis.com
+0.0.0.0 ulp1p-pa.googleapis.com
 # MessageNet
 0.0.0.0 mtalk.google.com
 0.0.0.0 alt1-mtalk.google.com
@@ -379,7 +392,7 @@
 0.0.0.0 alt8-mtalk.google.com
 0.0.0.0 alt8.mobile-gtalk.l.google.com
 # Playstore
-#0.0.0.0 android.clients.google.com # Bestandteil von Ingamekäufen/Bezahlhistorie
+0.0.0.0 android.clients.google.com # Bestandteil von Ingamekäufen/Bezahlhistorie
 #0.0.0.0 play.googleapis.com
 #0.0.0.0 play-fe.googleapis.com
 #0.0.0.0 playatoms-pa.googleapis.com
@@ -435,27 +448,21 @@
 0.0.0.0 clients2.google.com # z.b. für Addondownloads in Chrome, Ping, Crashback Logdateien uvm
 #0.0.0.0 clients3.google.com
 0.0.0.0 clients4.google.com
-# GVT1 & 2
+# Google Kram
+0.0.0.0 connectivitycheck.gstatic.com
+0.0.0.0 mobile-gtalk.l.google.com
+0.0.0.0 play-lh.googleusercontent.com
+0.0.0.0 sb.l.google.com
+0.0.0.0 supl.google.com
+# Google Video Transcoding
 #0.0.0.0 redirector.gvt1.com
-0.0.0.0 beacons-handoff.gcp.gvt2.com
 0.0.0.0 beacons.gvt2.com
 0.0.0.0 beacons3.gvt2.com
 0.0.0.0 beacons4.gvt2.com
-0.0.0.0 r1---sn-5hne6ns6.gvt1.com
-0.0.0.0 r1---sn-5hnekn7z.gvt1.com
-0.0.0.0 r1.sn-5hne6ns6.gvt1.com
-0.0.0.0 r1.sn-5hnekn7z.gvt1.com
-0.0.0.0 r3---sn-5hne6nzs.gvt1.com
 0.0.0.0 r3---sn-h0jeln7l.gvt.com
-0.0.0.0 r3.sn-5hne6nzs.gvt1.com
 0.0.0.0 r3.sn-h0jeln7l.gvt.com
 0.0.0.0 r5---sn-h0jeen7d.gvt.com
 0.0.0.0 r5.sn-h0jeen7d.gvt.com
-# Google Kram
-0.0.0.0 mobile-gtalk.l.google.com
-0.0.0.0 supl.google.com
-0.0.0.0 connectivitycheck.gstatic.com
-0.0.0.0 sb.l.google.com
 
 # Haloapps.com
 0.0.0.0 i.haloapps.com
@@ -491,14 +498,18 @@
 0.0.0.0 dnkeeper.hicloud.com
 0.0.0.0 events-dre.op.hicloud.com
 0.0.0.0 appdl3.hispace.highcloud.com
-0.0.0.0 store.hispace.hicloud.com
+0.0.0.0 metrics2.data.hicloud.com
 # Huawei Systemaktualisierung
 #0.0.0.0 query.hicloud.com # Erfasst Gerätename, Fingerprint, IMEI, IMSI, Sprache, Androidversion, EMUI Details, Speicher, Firmware
 #0.0.0.0 query7.highcloud.com
-
-# Huawei Swype
-# 205.197.198.5
-0.0.0.0 api-swype.swypeconnect.com
+# Huawei Service, Anmeldung
+#0.0.0.0 store.hispace.hicloud.com # Updatecheck
+#0.0.0.0 oauth-login-dre.platform.dbankcloud.com
+#0.0.0.0 ccpce-de.consumer.huawei.com
+0.0.0.0 dtm-dre.platform.hicloud.com
+0.0.0.0 celia-de.consumer.huawei.com
+#0.0.0.0 consumer-img.huawei.com
+0.0.0.0 itrinity-de.c.huawei.com
 
 # HVAPI
 0.0.0.0 api.hvapi.com
@@ -517,6 +528,7 @@
 0.0.0.0 networksdk.ssacdn.com
 0.0.0.0 v.ssacdn.com
 0.0.0.0 logs.ironsrc.mobi
+0.0.0.0 platform.ssacdn.com
 # SuperSonic ADS
 # 52.20.131.127, 13.225.78.15, 13.225.78.6, 143.204.101.81, 54.240.168.74, 52.20.219.15, 52.20.60.144, 104.124.11.24
 0.0.0.0 pixel-tracking.sonic-us.supersonicads.com
@@ -574,8 +586,6 @@
 0.0.0.0 310375.measurementapi.com
 
 # Microsoft Corporation
-0.0.0.0 touchtype-fluency.com # Swiftkey Tastatur leitet auf Microsoftseite weiter
-0.0.0.0 tigger-citadel.touchtype-fluency.com
 0.0.0.0 oneclient.sfx.ms
 # Microsoft Azure Playfab
 # Playfab kombiniert Onlinezwang von Spielen und Programmen mit Analytics und Telemetrie
@@ -649,6 +659,19 @@
 #0.0.0.0 time.microsoft.akadns.net
 #0.0.0.0 ntp.sjtu.edu.cn
 
+# Nuance Communications, Inc.
+# Swype & Swiftkey Keyboard
+# Gehört seit April 2021 zur Microsoft Corporation
+# 205.197.198.5
+0.0.0.0 api-swype.swypeconnect.com
+0.0.0.0 lbs-swype.swypeconnect.com
+0.0.0.0 telemetry.api.swiftkey.com
+0.0.0.0 snippetdata.api.swiftkey.com
+0.0.0.0 bibo.api.swiftkey.com
+0.0.0.0 jenson.api.swiftkey.com
+0.0.0.0 touchtype-fluency.com
+0.0.0.0 tigger-citadel.touchtype-fluency.com
+
 # Onelink.me
 0.0.0.0 onelink.me
 
@@ -705,12 +728,6 @@
 
 # Startappservice.com
 0.0.0.0 click.startappservice.com
-
-# SwiftKey-Tastatur
-0.0.0.0 telemetry.api.swiftkey.com
-0.0.0.0 snippetdata.api.swiftkey.com
-0.0.0.0 bibo.api.swiftkey.com
-0.0.0.0 jenson.api.swiftkey.com
 
 # SWRVE
 # Andere Programme/Spiele beinhalten eine andere ID als 1170
@@ -893,8 +910,10 @@
 0.0.0.0 ads.mdotm.com
 0.0.0.0 ads.nexage.com
 0.0.0.0 adsenseformobileapps.com
+0.0.0.0 adslog.apexinnotech.com
 0.0.0.0 adtrack1.midasplayer.com
 0.0.0.0 agd-policy.nhn.com
+0.0.0.0 api.adgem.com
 0.0.0.0 api.armorgames.com # Soda Dungeon
 0.0.0.0 api.armorgamesstudios.com # Soda Dungeon
 0.0.0.0 api.ipify.org
@@ -903,25 +922,44 @@
 0.0.0.0 assets-share.dspunion.com
 0.0.0.0 aviaotpusk.ru # Highscorelisten
 0.0.0.0 aws-fr.bidswitch.net
+0.0.0.0 c.riskified.com
+0.0.0.0 cix.line.apps.com
+0.0.0.0 collector-pxikkul2rm.perimeterx.net
 0.0.0.0 collector.githubapp.com
 0.0.0.0 config.eastus-ssp.appgwv2.inmobi.com
+0.0.0.0 config.rcs.mnc003.mcc262.pub.3gppnetwork.org
 0.0.0.0 dartmotif.net
 0.0.0.0 eh.supermembers.net
+0.0.0.0 etl.harrybuy.com
 0.0.0.0 events.fgol.mobi
 0.0.0.0 evt.mxplay.com
 0.0.0.0 f.aduwant.com
 0.0.0.0 gllto.glpals.com
+0.0.0.0 gllto.glpals.com.cdn.cloudflare.net
+0.0.0.0 gllto1.glpals.com
+0.0.0.0 gos-api-pew1-b.gos-gsp.io
+0.0.0.0 gos-api.gos-gsp.io
 0.0.0.0 iapverificator2.beresnev.games
 0.0.0.0 ip-api.com
+0.0.0.0 iploc-api.mangoo-games.com
 0.0.0.0 k.isprog.com
 0.0.0.0 logs-01.loggly.com
+0.0.0.0 logs.ironsrc.mobi
 0.0.0.0 logs1204.xiti.com
 0.0.0.0 matrix.dailyinnovation.biz
 0.0.0.0 mega.ikame.vn
+0.0.0.0 mobile-apps-test.booking.com
+0.0.0.0 napps-1.com
+0.0.0.0 napps-2.com
+0.0.0.0 nelo2-col.linecorp.com
 0.0.0.0 newplayable.dspunion.com
 0.0.0.0 ns-eh2-prod-bn3-531.cloudapp.net
 0.0.0.0 o315582.ingest.sentry.io
+0.0.0.0 obs.line-scdn.net
 0.0.0.0 ox-d.mobile.servedbyopenx.com
+0.0.0.0 px-conf-ipv.perimeterx.net
+0.0.0.0 px-conf.perimeterx.net
+0.0.0.0 r.my.com
 0.0.0.0 rm.aarki.net
 0.0.0.0 s.go-mpulse.net
 0.0.0.0 screenzilla.helpshift.com
@@ -938,8 +976,9 @@
 0.0.0.0 track.libii.cn
 0.0.0.0 track.oasis.magictavern.com
 0.0.0.0 tracker-api.my.com
+0.0.0.0 tracker-api.my.com
 0.0.0.0 vector-eu-west-1.aonix.com
+0.0.0.0 vos.line-scdn.net
+0.0.0.0 weighted-autoendpoint.prod.mozaws.net
 0.0.0.0 wins.isprog.com
 0.0.0.0 www.leanplum.com
-0.0.0.0 napps-1.com
-0.0.0.0 napps-2.com
