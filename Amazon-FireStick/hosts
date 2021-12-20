@@ -10,7 +10,7 @@
 #
 # Version: Amazon FireStick und App-Verbindungen
 # Kombinierbar mit anderen Host Templates und PI-Hole
-# Änderungsdatum: 27.11.2021
+# Änderungsdatum: 20.12.2021
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -34,6 +34,7 @@
 #0.0.0.0 amazonadsi-a.akamaihd.net # App Download
 #0.0.0.0 api.amazon.com
 #0.0.0.0 api.amazon.de
+#0.0.0.0 d1s31zyz7dcc2d.cloudfront.net
 #0.0.0.0 ecx.images-amazon.com # App Bilder
 #0.0.0.0 firebat-25-aftmm-271593.eu.api.amazonvideo.com # Prime Bereich
 #0.0.0.0 firebat.api.amazonvideo.com # Prime Inhalte Synchronisation 
@@ -66,7 +67,6 @@
 0.0.0.0 cognito-identity.us-east-1.amazonaws.com
 0.0.0.0 cortana-gateway.amazon.com
 0.0.0.0 cs-ext-eu.amazon.com
-0.0.0.0 d1s31zyz7dcc2d.cloudfront.net
 0.0.0.0 d21m0ezw6fosyw.cloudfront.net
 0.0.0.0 d2dybwdjii0mza.cloudfront.net
 0.0.0.0 d3a510xmpll7o6.cloudfront.net
@@ -79,6 +79,7 @@
 0.0.0.0 dp-gw-na.amazon.com
 0.0.0.0 drive.amazonaws.com
 0.0.0.0 endeavour.amazon.com
+0.0.0.0 eu-west-1.telemetry.insights.video.a2z.com
 0.0.0.0 eu.prism.digital.amazon.dev
 0.0.0.0 firebat-25-aftmm-291945.eu.api.amazonvideo.com
 0.0.0.0 fireoscaptiveportal.com # Pingback
@@ -101,7 +102,6 @@
 0.0.0.0 unagi-eu.amazon.com
 0.0.0.0 unagi-na.amazon.com # Sprachaufnahme / Alexa
 0.0.0.0 wl.amazon-dss.com
-0.0.0.0 eu-west-1.telemetry.insights.video.a2z.com
 
 # Firestick - Streaming, Teaser, Untertitel usw.
 # Videowerbung von Prime zu blocken ist hier nicht möglich
