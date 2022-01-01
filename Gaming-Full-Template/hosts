@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 10.12.2021
+# Änderungsdatum: 01.01.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -505,6 +505,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cdn2.unrealengine.com # Seitenkateogrien nach Autor, Datum, Beschreibung, Links, Titel usw
 #0.0.0.0 static-assets-prod.epicgames.com # Javascripts, CSS, Schriften, Bilder
 # Analytics, Affiliate und Geodatenerfassung
+# 52.2.190.222
 # 54.158.82.37
 # 52.22.160.221
 # 35.153.174.108
@@ -562,6 +563,10 @@ ff02::3 ip6-allhosts
 #0.0.0.0 r3---sn-4g5ednld.googlevideo.com
 #0.0.0.0 cdnjs.cloudflare.com
 0.0.0.0 events.elev.io # Supportwebseite
+0.0.0.0 bam-cell.nr-data.net # Tracking von https://store-launcher.epicgames.com/store/purchase
+0.0.0.0 js-agent.newrelic.com # Tracking von https://store-launcher.epicgames.com/store/purchase?showNavigation=true&highlightColor=0078f2&offers=1-xxxxxx-xxxxxx
+0.0.0.0 fpt.dfp.microsoft.com
+0.0.0.0 fpt.microsoft.com
 # 13.248.151.210
 # 76.223.31.44
 # 151.101.114.217
@@ -1165,7 +1170,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pagead46.l.doubleclick.net
 0.0.0.0 static-doubleclick-net.l.google.com
 0.0.0.0 stats.l.doubleclick.net
-0.0.0.0 ipv4.imgur.map.fastly.net
+#0.0.0.0 ipv4.imgur.map.fastly.net
 
 # Steam: streaming_client.exe | RemotePlay
 # GetSDRConfig, Clientservice - NotifyRemotePacket, GetReplies, CreateSessions, Valve Partner
@@ -1899,7 +1904,7 @@ ff02::3 ip6-allhosts
 # Drittanbietertracking aktiv beim Verlassen des Spiels
 # 34.120.195.249
 0.0.0.0 o433356.ingest.sentry.io
-0.0.0.0 16e0183cf8214878a39b6a23bda83b58@o433356.ingest.sentry.io
+#0.0.0.0 16e0183cf8214878a39b6a23bda83b58@o433356.ingest.sentry.io
 
 # NBA 2K17
 # NBA2K17.exe Server Zwangsverbindung
@@ -6442,7 +6447,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.drycactus.com
 #0.0.0.0 api.gallery.drycactus.com
 #0.0.0.0 i.imgur.com
-0.0.0.0 ipv4.imgur.map.fastly.net
+#0.0.0.0 ipv4.imgur.map.fastly.net
 
 # DryGin Studios
 # Bio Inc. Redemption
