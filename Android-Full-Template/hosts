@@ -12,7 +12,7 @@
 # Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
 # Verbindungen sind je nach Programmen und Spielen zugeordnet
 # Kombinierbar mit anderen host Templates von GameIndustry.eu oder weiteren Quellen
-# Änderungsdatum: 08.12.2021
+# Änderungsdatum: 01.01.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -722,6 +722,7 @@
 0.0.0.0 d2vfeg8cq5421.cloudfront.net
 0.0.0.0 download.period-calender.com
 0.0.0.0 link.mobihealthplus.com
+0.0.0.0 menlose-fcm.leap.app
 0.0.0.0 ob.leap.app
 0.0.0.0 resource.leap.app
 
@@ -1039,25 +1040,25 @@
 
 # Smart Verable Devices
 # VeryFitPro Fitnesstracker
-0.0.0.0 api.share.mob.com
-0.0.0.0 f.gm.mob.com
-0.0.0.0 api.exc.mob.com
-0.0.0.0 ido-ble-lib.cn-hongkong.log.aliyuncs.com
-0.0.0.0 cn-hangzhou.oss-pub.aliyun-inc.com
-0.0.0.0 api.map.baidu.com
-0.0.0.0 veryfitproapi.veryfitplus.com
-0.0.0.0 restapi.amap.com
-0.0.0.0 logs.amap.com
 0.0.0.0 a.amap.com
+0.0.0.0 abroad.apilocate.amap.com
+0.0.0.0 abroad.apilocate.amap.com.gds.alibabadns.com
 0.0.0.0 adiu.amap.com
-0.0.0.0 control.aps.amap.com
+0.0.0.0 api.exc.mob.com
 0.0.0.0 api.ipify.org
-0.0.0.0 sdk.yolanda.hk
-0.0.0.0 www.youduoyun.com # Hilfeseiten
+0.0.0.0 api.map.baidu.com
+0.0.0.0 api.share.mob.com
+0.0.0.0 cn-hangzhou.oss-pub.aliyun-inc.com
+0.0.0.0 control.aps.amap.com
+0.0.0.0 f.gm.mob.com
 0.0.0.0 gllto2.gpals.com
 0.0.0.0 gllto2.gpals.com.cdn.cloudflare.net
-0.0.0.0 abroad.apilocate.amap.com.gds.alibabadns.com
-0.0.0.0 abroad.apilocate.amap.com
+0.0.0.0 ido-ble-lib.cn-hongkong.log.aliyuncs.com
+0.0.0.0 logs.amap.com
+0.0.0.0 restapi.amap.com
+0.0.0.0 sdk.yolanda.hk
+0.0.0.0 veryfitproapi.veryfitplus.com
+0.0.0.0 www.youduoyun.com # Hilfeseiten
 
 # STORMX Co., Ltd.
 # Foodpia Tycoon - Idle restaurant
