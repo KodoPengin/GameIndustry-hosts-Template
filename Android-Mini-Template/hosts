@@ -11,7 +11,7 @@
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
 # Kombinierbar mit anderen host Templates von GameIndustry.eu oder weiteren Quellen
-# Änderungsdatum: 07.10.2021
+# Änderungsdatum: 01.01.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -940,6 +940,7 @@
 0.0.0.0 gos-api-pew1-b.gos-gsp.io
 0.0.0.0 gos-api.gos-gsp.io
 0.0.0.0 iapverificator2.beresnev.games
+0.0.0.0 impression.link
 0.0.0.0 ip-api.com
 0.0.0.0 iploc-api.mangoo-games.com
 0.0.0.0 k.isprog.com
