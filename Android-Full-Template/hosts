@@ -12,7 +12,7 @@
 # Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
 # Verbindungen sind je nach Programmen und Spielen zugeordnet
 # Kombinierbar mit anderen host Templates von GameIndustry.eu oder weiteren Quellen
-# Änderungsdatum: 01.01.2022
+# Änderungsdatum: 06.01.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -1182,6 +1182,24 @@
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 app-measurement.com
+
+# YAZIO GmbH
+# YAZIO Fasting & Food Tracker
+0.0.0.0 app-measurement.com
+0.0.0.0 cdn-settings.appsflyersdk.com
+0.0.0.0 cdn-settings.appsflyersdk.com.cdn.cloudflare.net
+0.0.0.0 conversions.appsflyer.com
+0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 gcdsdk.appsflyer.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 images.yazio.com
+0.0.0.0 inapps.appsflyer.com
+0.0.0.0 launches.appsflyer.com
+0.0.0.0 o450822.ingest.sentry.io
+0.0.0.0 register.appsflyer.com
+0.0.0.0 telemetry.yazio-analytics.com
+0.0.0.0 telemetry2.yazio-analytics.com
+0.0.0.0 yzapi.yazio.com
 
 # YT3 - Youtube Downloader
 0.0.0.0 adimpression.startappservice.com
