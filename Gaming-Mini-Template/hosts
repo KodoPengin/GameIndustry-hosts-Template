@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Template für PC-Spiele - Mini-Version
-# Änderungsdatum: 13.10.2021
+# Änderungsdatum: 07.01.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # Kontaktmail: noreply@gameindustry.eu
@@ -112,22 +112,107 @@ ff02::3		ip6-allhosts
 # (Epic Games, Inc.)
 # [UnrealEngine Analytics]
 # Dazugehörige IPv4-Adressen & weitere Infos unter https://gameindustry.eu/firmenkatalog/epic-games-inc/
-0.0.0.0 et.epicgames.com
-0.0.0.0 et2.epicgames.com
-0.0.0.0 qos1.ol.epicgames.com
-0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com 
-# Datarouter Tracking vor 2020
-0.0.0.0 datarouter.ol.epicgames.com
-0.0.0.0 datarouter-weighted.ol.epicgames.com
-0.0.0.0 datarouter-prod.ak.epicgames.com
-# Datarouter Tracking 2020
-0.0.0.0 api.epicgames.dev # Mehr Info hierzu auf www.gameindustry.eu
+#0.0.0.0 lightswitch-public-service-prod06.ol.epicgames.com
+#0.0.0.0 priceengine-public-service-ecomprod01.ol.epicgames.com
+#0.0.0.0 account-public-service-prod03.ol.epicgames.com
+#0.0.0.0 launcher-public-service-prod06.ol.epicgames.com
+#0.0.0.0 catalog-public-service-prod06.ol.epicgames.com
+#0.0.0.0 entitlement-public-service-prod08.ol.epicgames.com
+#0.0.0.0 epicgames-download1.akamaized.net
+#0.0.0.0 epicgames.com # Login
+#0.0.0.0 www.unrealengine.com
+#0.0.0.0 eulatracking-public-service-prod06.ol.epicgames.com
+#0.0.0.0 qos1.ol.epicgames.com
+0.0.0.0 qos2.ol.epicgames.com
+0.0.0.0 qos3.ol.epicgames.com
+0.0.0.0 qos4.ol.epicgames.com
+#0.0.0.0 songbird.cardinalcommerce.com
+0.0.0.0 merchantpool1.epicgames.com # Angeschlossen an Microsoft Dynamics 365 Fraud Protection
+# Bei neueren Titeln ist die API mit Telemetrie und Onlinezwang in Spielen verknüpft
+# Api mitsamt Endpunkten - Für reines Einzelspielervergnügen ohne Schnüffelei - Dienste stillschalten
+#0.0.0.0 api.epicgames.dev
+0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w5.befa.live.use1a.on.epicgames.com
 0.0.0.0 metrics.ol.epicgames.com
-# Noch mehr Telemetrie
-0.0.0.0 tracking.epicgames.com
-0.0.0.0 metric-public-service-prod.ol.epicgames.com
-# EULA und Tracking nach Bedarf blockieren
-#0.0.0.0 etsource.epicgames.com
+# Downloads
+#0.0.0.0 epicgames-download1.akamaized.net
+#0.0.0.0 download.epicgames.com
+#0.0.0.0 download2.epicgames.com
+#0.0.0.0 download3.epicgames.com
+#0.0.0.0 download4.epicgames.com
+#0.0.0.0 dvo2b19ndqhsb.cloudfront.net
+#0.0.0.0 d1z9autcf703pk.cloudfront.net
+#0.0.0.0 d3jcvwdlexg1ul.cloudfront.net
+#0.0.0.0 d2vryputvprrok.cloudfront.net
+#0.0.0.0 static-assets-prod.unrealengine.com
+# Warenkorb
+#0.0.0.0 payment-website-pci.ol.epicgames.com
+#0.0.0.0 a.stun.kaptcha.com
+#0.0.0.0 ssl.kaptcha.com
+#0.0.0.0 stun1.l.google.com
+# Cloud
+#0.0.0.0 datastorage-public-service-liveegs.live.use1a.on.epicgames.com
+# Freunde
+#0.0.0.0 friends-public-service-prod06.ol.epicgames.com
+#0.0.0.0 xmpp-service-prod.ol.epicgames.com # Websocket
+#0.0.0.0 xmpp-service-prod-weighted.ol.epicgames.com
+#0.0.0.0 launcher-website-prod07.ol.epicgames.com
+# Seitenaufbau, Inhalte
+#0.0.0.0 graphql.epicgames.com
+#0.0.0.0 cdn1.unrealengine.com
+#0.0.0.0 cdn2.unrealengine.com
+#0.0.0.0 static-assets-prod.epicgames.com
+# Analytics, Affiliate und Geodatenerfassung
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-prod.ak.epicgames.com
+#0.0.0.0 tracking.epicgames.com
+#0.0.0.0 www.epicgames.com
+#0.0.0.0 media-cdn.epicgames.com
+0.0.0.0 accounts.launcher-website-prod07.ol.epicgames.com
+0.0.0.0 tracking-website-prod07-epic-96184209.us-east-1.elb.amazonaws.com
+0.0.0.0 tracking-website-prod07-epic-961842049.us-east-1.elb.amazonaws.com
+0.0.0.0 eulatracking-svc-prod06-pub-1257580502.us-east-1.elb.amazonaws.com
+0.0.0.0 sentry.io # Monitoring und Errortracking
+# Nicht zugeordnet
+#0.0.0.0 talon-website-prod.ak.epicgames.com
+#0.0.0.0 talon-service-prod.ak.epicgames.com
+#0.0.0.0 talon-service-v4-prod.ak.epicgames.com
+# Drittanbieter
+#0.0.0.0 www.youtube.com
+#0.0.0.0 s.ytimg.com
+#0.0.0.0 i.ytimg.com
+#0.0.0.0 i9.ytimg.com
+#0.0.0.0 www.youtube-nocookie.com
+#0.0.0.0 www.google.com
+#0.0.0.0 fonts.gstatic.com
+#0.0.0.0 yt3.ggpht.com
+#0.0.0.0 r1---sn-4g5e6nsy.googlevideo.com
+#0.0.0.0 r3---sn-4g5e6nsy.googlevideo.com
+#0.0.0.0 r3---sn-4g5ednld.googlevideo.com
+#0.0.0.0 cdnjs.cloudflare.com
+0.0.0.0 events.elev.io
+0.0.0.0 bam-cell.nr-data.net
+0.0.0.0 js-agent.newrelic.com
+0.0.0.0 fpt.dfp.microsoft.com
+0.0.0.0 fpt.microsoft.com
+#0.0.0.0 app.launchdarkly.com
+#0.0.0.0 clientstream-ga.launchdarkly.com
+#0.0.0.0 events.launchdarkly.com
+#0.0.0.0 clientstream.launchdarkly.com
+#0.0.0.0 clientstream-ga.launchdarkly.com
+0.0.0.0 d1dxcvubdbe4ji.cloudfront.net
+# Webseite Anmeldung Captcha
+#0.0.0.0 hcaptcha.com
+#0.0.0.0 assets.hcaptcha.com
+#0.0.0.0 newassets.hcaptcha.com
+#0.0.0.0 prod-ireland.arkoselabs.com
+#0.0.0.0 cdn.arkoselabs.com
+#0.0.0.0 cdn.arkoselabs.com.cdn.cloudflare.net
+#0.0.0.0 epic-games-api.arkoselabs.com
 
 # (FatShark)
 0.0.0.0 ftp.fatshark.se
