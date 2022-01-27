@@ -12162,7 +12162,7 @@ ff02::3 ip6-allhosts
 
 # Baidu.com
 0.0.0.0 nsclick.baidu.com
-0.0.0.0 hm.baidu.com
+#0.0.0.0 hm.baidu.com
 0.0.0.0 bdimg.share.baidu.com
 0.0.0.0 click.fanyi.baidu.com
 0.0.0.0 anti-bot.baidu.com
@@ -12172,7 +12172,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zz.bdstatic.com
 0.0.0.0 gsp0.baidu.com
 0.0.0.0 fex.bdstatic.com
-#0.0.0.0 miao.baidu.com
+0.0.0.0 miao.baidu.com
 
 # Bannerbridge.jp
 0.0.0.0 i.bannerbridge.net
