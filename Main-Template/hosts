@@ -11713,7 +11713,7 @@ ff02::3 ip6-allhosts
 
 # Asiatische Analytics und Dienste
 # Analytics, Tracking, Counter, Werbung und Co. aus dem asiatischen Raum
-# 解析、トラッキング、クッキー、カウンター、広告をブロック、それはとくに日本とアジアの地域からの
+# 解析、トラッキング、クッキー、カウンター、広告をブロック。（おもに日本とアジアの地域のもの）
 
 0.0.0.0 a-affiliate.net
 0.0.0.0 a.cookpad-ads.com
