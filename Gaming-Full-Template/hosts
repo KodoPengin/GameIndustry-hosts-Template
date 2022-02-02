@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 01.01.2022
+# Änderungsdatum: 02.02.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -1134,6 +1134,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 photos-ugc.l.googleusercontent.com
 
 # Steam: Steam.exe
+# 142.250.186.142
 # 162.254.197.106
 # 155.133.250.108
 # 155.133.250.107
@@ -1143,6 +1144,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 eu.client.steamcontent.akadns.net
 #0.0.0.0 media.steampowered.com
 0.0.0.0 blob.syd26prdstr02a.store.core.windows.net
+#0.0.0.0 redirector.gvt1.com
 
 # Steam: SteamService.exe
 # Digicert
@@ -1904,7 +1906,7 @@ ff02::3 ip6-allhosts
 # Drittanbietertracking aktiv beim Verlassen des Spiels
 # 34.120.195.249
 0.0.0.0 o433356.ingest.sentry.io
-#0.0.0.0 16e0183cf8214878a39b6a23bda83b58@o433356.ingest.sentry.io
+#0.0.0.0 16e0183cf8214878a39b6a23bda83b58@o433356.ingest.sentry.io # Zugang
 
 # NBA 2K17
 # NBA2K17.exe Server Zwangsverbindung
@@ -3783,32 +3785,47 @@ ff02::3 ip6-allhosts
 
 # Doom Eternal
 # s. Rubrik Kopierschutz / AntiCheat
-# 13.225.78.46
-# 34.218.22.179
-# 13.224.196.50
-# 52.49.218.253
-# Zum Abschalten der Onlinefunktionen & Anmeldung die Raute entfernen - Review beachten
-0.0.0.0 e6125.playfabapi.com # Playfab Analytics und Onlinezwang
-#0.0.0.0 api.bethesda.net # Telemetrie, Anmeldung
-0.0.0.0 runtime-config.platform.ghost.idtech.services
+# Bethesda.net
+# Ping/Heartbeat, Login, Account, Token, Nutzungsvereinbarung, Sessiondaten, Items
+# Erfassung von Geodaten und Währung von Anwendern mit X-City, X-Geo-Country, X-Geo-Country-Alpha-2, X-,Geo-Country-Alpha-3, X-Geo-Country-Currency, X-Geo-State
+# # Wird zur Nutzung der Onlinefunktionen benötigt
+# 18.66.248.23
+# 18.66.248.67
+#0.0.0.0 api.bethesda.net
+# Microsoft Azure Playfab Analytics und Onlinezwang
+# Wird ebenfalls zur vollen Produktnutzung benötigt
+# Zeitstempel, OpenID, Anwenderdaten, sämtliche Kontakte in Steam, Telemetrie, Mehrspielerserver, Verlinkung SteamAccount, Hardware & Softwaredaten, ComputerID, Gerätedaten
+# Telemetrie verfolgt jeden Schritt welcher gemacht wird. Das umfasst einzelne Aktionen/Klicks im Hauptmenü als auch alles andere
+# 44.239.184.224
+# 35.160.108.163
+#0.0.0.0 e6125.playfabapi.com
+# Peek Process
+# 18.66.248.13
 0.0.0.0 boosters.e6125.platform.ghost.idtech.services
+# Ingamewerbung
+# 18.66.248.59
 0.0.0.0 static.platform.ghost.idtech.services
-# Onlineserver
-#0.0.0.0 pfmsqosprod.westus.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.southcentralus.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.centralus.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.northcentralus.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.eastus.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.eastus2.cloudapp.azure.com
-#0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net
-#0.0.0.0 pfmsqosprod.northeurope.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.westeurope.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.southeastasia.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.eastasia.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.japanwest.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.japaneast.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.australiasoutheast.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com
+# Weiterer Onlinezwangindikator mit Hinweis auf verlorene EP, Statistiken usw vor Erreichen des Hauptmenüs
+# 18.66.248.10
+#0.0.0.0 runtime-config.platform.ghost.idtech.services # /config-20220113-084526-dry-parrot.json
+# Mehrspielerserver
+#0.0.0.0 pfmsqos.westus.cloudapp.azure.com # WestUS
+#0.0.0.0 pfmsqos.eastus.cloudapp.azure.com # EastUS
+#0.0.0.0 pfmsqos.japanwest.cloudapp.azure.com # JapanWest
+#0.0.0.0 pfmsqos.japaneast.cloudapp.azure.com # JapanEast
+#0.0.0.0 pfmsqos.australiasoutheast.cloudapp.azure.com # AustraliaSoutheast
+#0.0.0.0 pfmsqos.australiaeast.cloudapp.azure.com # AustraliaEast
+#0.0.0.0 pfmsqssi.uaenorth.cloudapp.azure.com # UaeNorth
+#0.0.0.0 pfmsqos.southafricanorth.cloudapp.azure.com # SouthAfricaNorth
+#0.0.0.0 pfmsqos.brazilsouth.cloudapp.azure.com # BrazilSouth
+#0.0.0.0 pfmsqos.eastasia.cloudapp.azure.com # EastAsia
+#0.0.0.0 pfmsqos.eastus2.cloudapp.azure.com # EastUS2
+#0.0.0.0 pfmsqos.northcentralus.cloudapp.azure.com # NorthCentralUS
+#0.0.0.0 pfmsqos.northeurope.cloudapp.azure.com # NorthEurope
+#0.0.0.0 pfmsqos.southcentralus.cloudapp.azure.com # SouthCentralUS
+#0.0.0.0 pfmsqos.southeastasia.cloudapp.azure.com # SouthEastAsia
+#0.0.0.0 pfmsqos.westeurope.cloudapp.azure.com # WestEurope
+#0.0.0.0 pfmsqos.centralus.cloudapp.azure.com # CentralUS
 
 # Fallout IV & Skyrim: Special Edition
 # mods.* wird für bethesda.net Accountanmeldung benötigt
@@ -14862,6 +14879,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-34-196-22-119.compute-1.amazonaws.com
 0.0.0.0 ec2-18-211-148-84.compute-1.amazonaws.com
 0.0.0.0 ec2-52-21-46-134.compute-1.amazonaws.com
+
+# God of War
+# Ip/s blockieren:
+# 54.158.118.216
+# 54.234.69.45
+# 52.86.157.125
+# 54.211.25.229
+# 54.158.249.162
+# 3.224.5.65
+0.0.0.0 sm-int81.api.wwsga.me
+0.0.0.0 prod01.api.us-east-1.production.smaug.wwsga.me
+0.0.0.0 ec2-54-158-118-216.compute-1.amazonaws.com
+0.0.0.0 ec2-54-234-69-45.compute-1.amazonaws.com
+0.0.0.0 ec2-52-86-157-125.compute-1.amazonaws.com
+0.0.0.0 ec2-54-211-25-229.compute-1.amazonaws.com
+0.0.0.0 ec2-54-158-249-162.compute-1.amazonaws.com
+0.0.0.0 ec2-3-224-5-65.compute-1.amazonaws.com
 
 # Horizon Zero Dawn™ Complete Edition
 # Ip/s blockieren:
