@@ -26238,7 +26238,7 @@ ff02::3 ip6-allhosts
 # Bethesda.net
 # Ping/Heartbeat, Login, Account, Token, Nutzungsvereinbarung, Sessiondaten, Items
 # Erfassung von Geodaten und Währung von Anwendern mit X-City, X-Geo-Country, X-Geo-Country-Alpha-2, X-,Geo-Country-Alpha-3, X-Geo-Country-Currency, X-Geo-State
-# # Wird zur Nutzung der Onlinefunktionen benötigt
+# Wird zur Nutzung der Onlinefunktionen benötigt
 # 18.66.248.23
 # 18.66.248.67
 #0.0.0.0 api.bethesda.net
