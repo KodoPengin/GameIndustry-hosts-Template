@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 02.02.2022
+# Änderungsdatum: 13.02.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -430,6 +430,7 @@ ff02::3 ip6-allhosts
 # Bei neueren Titeln ist die API mit Telemetrie und Onlinezwang in Spielen verknüpft
 # Api mitsamt Endpunkten - Für reines Einzelspielervergnügen ohne Schnüffelei - Dienste stillschalten
 # Diesselbe Adresse als WSS für Heartbeat Telemetrie - Mehr Info unter dem Firmeneintrag zu Epic Games, Inc.
+# 35.168.186.144
 # 3.217.15.178
 # 54.146.107.62
 # 54.146.103.168
@@ -1848,11 +1849,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 chat.services.gearboxsoftware.com
 #0.0.0.0 fellowship.services.gearboxsoftware.com
 #0.0.0.0 d10zutxas1s022.cloudfront.net
-#0.0.0.0 d10zutxas1s022.cloudfront.net
 #0.0.0.0 odyssey.services.gearboxsoftware.com
 #0.0.0.0 zeppelin.services.gearboxsoftware.com
-#0.0.0.0 maw.services.gearboxsoftware.com
-#0.0.0.0 maw.services.gearboxsoftware.com
 #0.0.0.0 maw.services.gearboxsoftware.com
 #0.0.0.0 news.services.gearboxsoftware.com
 #0.0.0.0 tribego.services.gearboxsoftware.com
@@ -3788,7 +3786,7 @@ ff02::3 ip6-allhosts
 # Bethesda.net
 # Ping/Heartbeat, Login, Account, Token, Nutzungsvereinbarung, Sessiondaten, Items
 # Erfassung von Geodaten und Währung von Anwendern mit X-City, X-Geo-Country, X-Geo-Country-Alpha-2, X-,Geo-Country-Alpha-3, X-Geo-Country-Currency, X-Geo-State
-# # Wird zur Nutzung der Onlinefunktionen benötigt
+# Wird zur Nutzung der Onlinefunktionen benötigt
 # 18.66.248.23
 # 18.66.248.67
 #0.0.0.0 api.bethesda.net
@@ -10179,7 +10177,7 @@ ff02::3 ip6-allhosts
 # Extern mit Mitwirkung des Nutzers, größtenteils für Formatierung der eigenen Webseiten
 #0.0.0.0 cdn.forums.klei.com
 #0.0.0.0 www.kleientertainment.com
-0.0.0.0 use.fontawesome.com
+#0.0.0.0 use.fontawesome.com
 #0.0.0.0 code.jquery.com
 #0.0.0.0 secure.gravatar.com # Gravatar Dienst
 0.0.0.0 store.kleientertainment.com
@@ -12470,9 +12468,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 paradox.zendesk.com
 #0.0.0.0 fast.fonts.net
 #0.0.0.0 res.cloudinary.com
-0.0.0.0 use.fontawesome.com
+#0.0.0.0 use.fontawesome.com
 #0.0.0.0 p5.zdassets.com # Stylesheetablage z.b. für Humblebundle
-0.0.0.0 use.fontawesome.com
 0.0.0.0 opstm.paradoxplaza.com
 
 # Warlock 2: The Exiled
@@ -14540,6 +14537,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 
 # Silver Dollar Games
+# One Finger Death Punch 2
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
@@ -14551,6 +14549,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -15915,6 +15915,50 @@ ff02::3 ip6-allhosts
 # Techland Publishing
 # Dying Light
 0.0.0.0 pls.dyinglightgame.com # news/stats
+
+Dying Light 2 Stay Human
+# s. Rubrik Kopierschutz / AntiCheat
+# 34.233.5.22
+# 54.161.55.36
+# 34.196.177.18
+# 35.170.45.212
+# 34.234.252.202
+# 34.203.101.60
+# 34.204.223.148
+# 54.204.46.56
+# 54.164.219.71
+# 34.225.200.134
+# 34.239.252.131
+# 54.88.8.112
+# 3.93.126.170
+# 54.204.121.8
+# 52.44.66.12
+# 54.144.151.218
+# 34.233.50.229
+# 54.243.133.119
+# 54.162.4.10
+# 3.210.188.60
+# 34.199.32.68
+# 3.86.168.215
+# 52.44.194.61
+# 54.166.70.66
+# 34.204.245.77
+# 52.200.75.189
+# 52.73.56.47
+# 3.94.32.162
+# 54.236.151.117
+# 50.17.237.83
+# 54.205.151.226
+# 63.33.167.102
+# 108.157.4.26
+0.0.0.0 api.techlandonlineservices.com
+#0.0.0.0 api.epicgames.dev # Onlinezwang, Mehrspieler, Telemetrie
+0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w5.befa.live.use1a.on.epicgames.com
 
 # God's Trigger
 # Ip/s blockieren:
