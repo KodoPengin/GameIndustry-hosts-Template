@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 02.02.2022
+# Änderungsdatum: 13.02.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -133,6 +133,14 @@ ff02::3 ip6-allhosts
 # 54.164.11.168
 # 52.45.39.64
 0.0.0.0 ets-prd1-ue1-coll-elb-122061436.us-east-1.elb.amazonaws.com
+# Illustrator
+0.0.0.0 cc-api-data.adobe.io
+0.0.0.0 lcs-cops.adobe.io
+0.0.0.0 lcs-robs.adobe.io
+0.0.0.0 crs.cr.adobe.com
+0.0.0.0 cchome.adobe.io
+0.0.0.0 ic.adobe.io
+0.0.0.0 butler.adobe.com
 # Photoshop
 # 192.147.130.166
 # 54.171.70.53
@@ -841,6 +849,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 creator.pdf24.org # Google Analyticsscript und eigene Analytics
 0.0.0.0 free-update.pdf24.org # Für Updates zuständig - Gibt diverse Parameter weiter Guid, Uid, Cid usw
 0.0.0.0 stx.pdf24.org # Grafiken
+
+# GiliSoft International LLC
+# GiliSoft Movie DVD Creator
+# 208.113.197.77
+0.0.0.0 www.gilisoft.com # Affiliate und Werbung durch die DiscountInfo.exe
+# Eingegebene Seriennummer wird zu jedem Start sofern nicht geblockt... online mitsamt angegebenen Daten übergeben
+0.0.0.0 gilisoft.com # Übergabe von Seriennummer, E-Mail, Betriebssystem, Anwendersprache, MAC, Zeitstempel
 
 # Giorgio Tani
 # PeaZip
@@ -4001,6 +4016,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 onceux.unicornmedia.com
 0.0.0.0 metrics.brightcove.com
 #0.0.0.0 players.brightcove.net
+0.0.0.0 edge.api.brightcove.com # Advertising Placeholder Videos
 
 # Britepool.com
 0.0.0.0 api.britepool.com
@@ -10255,6 +10271,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 data-aae7bdcec6.autoscout24.de
 0.0.0.0 js-error-logger.as24prod.eu-west-1.infinity.as24.tech
 0.0.0.0 k.keyade.com
+0.0.0.0 listing-search.api.autoscout24.com
 0.0.0.0 mfb.li
 0.0.0.0 osa.s24-media.immobilienscout24.de
 0.0.0.0 plankton-gtm.a.autoscout24.com
@@ -14094,6 +14111,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 w.apprep.smartscreen.microsoft.com
 # Microsoft Network Realtime Inspection Service | nissrv.exe, smartscreen.exe
 # 20.73.130.64
+# 20.73.128.142
 0.0.0.0 wd-prod-ss-us-west-1-fe.westus.cloudapp.azure.com
 0.0.0.0 wd-prod-ss-eu-north-1-fe.northeurope.cloudapp.azure.com
 0.0.0.0 wd-prod-ss-eu-north-2-fe.northeurope.cloudapp.azure.com
@@ -14894,6 +14912,8 @@ ff02::3 ip6-allhosts
 # Frontdoor? Backdoor? Shopanwendungen bei Bedarf de/aktivieren
 #0.0.0.0 neu.frontdoor.licensing.commerce.microsoft.com # licensing.mp.microsoft.com
 #0.0.0.0 neu-displaycatalogrp.frontdoor.bigcatalog.commerce.microsoft.com
+# Powershell telefoniert zu dieser Adresse - Warum?
+0.0.0.0 api.private-chatting.com
 
 # Adressen für Shop und Anmeldung von Windowsdiensten nach Bedarf handhaben. Dazu zählen auch die XBox,- Windows 10 Einträge
 
@@ -18050,6 +18070,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ytimm.com # Stats Pornperfect & xtremeserve.xyz
 0.0.0.0 ytxdftbgv.xyz
 0.0.0.0 zabenxen.xyz
+0.0.0.0 zwfexoeaat3um.xyz
 
 # Passwörter Verwaltung
 # Verbindungsdaten diverser Software zur Verwaltung und Absicherung von Passwörtern. Online und Offline
@@ -18970,6 +18991,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 atrack.avplayer.com
 0.0.0.0 atraff.com
 0.0.0.0 atstuffwith.com
+0.0.0.0 attemptsbetween.com
 0.0.0.0 attendantsteakfax.com
 0.0.0.0 attractivecap.com
 0.0.0.0 attrapincha.com
@@ -19483,6 +19505,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 crjpingate.com
 0.0.0.0 crm.propspace.com
 0.0.0.0 crm.smcusa.com
+0.0.0.0 crmapi.techjockey.com
 0.0.0.0 croakflabbyconsume.com
 0.0.0.0 crowdsignal.com
 0.0.0.0 crowdsignal.wordpress.com
@@ -19776,6 +19799,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 facesnotebook.com
 0.0.0.0 facilitategovernor.com
 0.0.0.0 factorcontest.com
+0.0.0.0 fadedcovertrefuse.com
 0.0.0.0 fadverdirect.com
 0.0.0.0 faigroas.net
 0.0.0.0 fairsence.com
@@ -19878,6 +19902,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fr-actions.trackonomics.net
 0.0.0.0 fr-campaign.gccdn.net
 0.0.0.0 fr-gmtdmp.mookie1.com
+0.0.0.0 francetobaccotrading.com
 0.0.0.0 frcp-hlb.dvgtm.akadns.net
 0.0.0.0 frd-dws-piwik.mehrkanal.com
 0.0.0.0 free-download-manager.joydownload.com
@@ -19902,6 +19927,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 g.tmyzer.com
 0.0.0.0 gadspms.com
 0.0.0.0 gae2-spclient.spotify.com
+0.0.0.0 gaietyastonished.com
 0.0.0.0 galleryn0.awemdia.com
 0.0.0.0 gamesfromheaven.com
 0.0.0.0 gandalf-eu.segmentify.com
@@ -19942,6 +19968,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gitoku.com
 0.0.0.0 gjnusfiby.com
 0.0.0.0 gladiatorbugs.com
+0.0.0.0 glainsee.com
 0.0.0.0 glassmilheart.com
 0.0.0.0 glaubstbegann.com
 0.0.0.0 glersakr.com
@@ -20024,6 +20051,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 haendlerbund.de
 0.0.0.0 hairoak.com
 0.0.0.0 hajoopteg.com
+0.0.0.0 hallucinatecompute.com
 0.0.0.0 handtub.com
 0.0.0.0 happy-egg.net
 0.0.0.0 happylifebab.com
@@ -20079,6 +20107,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 htlp.emp.de
 0.0.0.0 https-api.apigurus.com
 0.0.0.0 hugexdeal.com
+0.0.0.0 humpzip.com
 0.0.0.0 hurirk.net
 0.0.0.0 hw-cdn2.ang-content.com # Pornhub
 0.0.0.0 i.amoad.com
@@ -20197,6 +20226,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 itm.ivitrack.com
 0.0.0.0 itnuzleafan.com
 0.0.0.0 itweepinbelltor.com
+0.0.0.0 ivcweksqd.com
 0.0.0.0 iwebatool.net
 0.0.0.0 ixf2-api.bc0a.com
 0.0.0.0 iyalc.com
@@ -20296,6 +20326,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ladsblue.com
 0.0.0.0 landing.jerkmate.com
 0.0.0.0 lantern.roeyecdn.com
+0.0.0.0 lashsketch.com
 0.0.0.0 latentcreeper.com
 0.0.0.0 latestsocial.com
 0.0.0.0 lb3.mediarithmics.com
@@ -20360,6 +20391,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ls.getresponse.com
 0.0.0.0 lto-fallback.connectaserver.de
 0.0.0.0 ltoftheplans.com
+0.0.0.0 lucidlydiscretion.com
 0.0.0.0 lucky-cases.com
 0.0.0.0 lukomol.com
 0.0.0.0 lux.speedcurve.com
@@ -20381,6 +20413,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 main.dynsrvdea.com
 0.0.0.0 main.pubexchange.com
 0.0.0.0 make.cohesionapps.com
+0.0.0.0 makespram.com
 0.0.0.0 man.vm5apis.com
 0.0.0.0 manageextremely-thestrongfile.best
 0.0.0.0 manorparty.com
@@ -20390,6 +20423,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 map.sddan.com
 0.0.0.0 maquillajet.com
 0.0.0.0 mar.prod.image.rndtech.de
+0.0.0.0 marijuanaturf.com
 0.0.0.0 marketing.etorostatic.com
 0.0.0.0 marketing.net.ocm.de
 0.0.0.0 markhor.organicfruitapps.com
@@ -20916,6 +20950,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qa-www2.st.com
 0.0.0.0 qc.galleria-dfs.com
 0.0.0.0 qd.admetricspro.com
+0.0.0.0 qjpdjugacac.com
 0.0.0.0 qlvgvehwzj.com
 0.0.0.0 qmsx.giosis.net
 0.0.0.0 qpxrg.com
@@ -20987,6 +21022,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rf.revolvermaps.com
 0.0.0.0 rfi.fr
 0.0.0.0 rgtracker.rivergame.net
+0.0.0.0 ribsaiji.com
 0.0.0.0 rj2.rejoiner.com
 0.0.0.0 rk.revolvermaps.com
 0.0.0.0 rkomf.com
@@ -21226,6 +21262,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ssp.zryydi.com
 0.0.0.0 ssr.streamrail.net
 0.0.0.0 sstats.wired.com
+0.0.0.0 ssvttlmmsrbhv.com
 0.0.0.0 st-n.ads1-adnow.com
 0.0.0.0 st.kp.yandex.net
 0.0.0.0 st.tubecorporate.com
@@ -21377,6 +21414,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 t23.intelliad.de
 0.0.0.0 t706.neory-tm.net
 0.0.0.0 tacchisexy.com
+0.0.0.0 tacticmarshannouncing.com
 0.0.0.0 taetsiatomia.com
 0.0.0.0 tag.adaraanalytics.com
 0.0.0.0 tag.adincube.com
@@ -21618,6 +21656,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tube.buzzoola.com
 0.0.0.0 tugnote.com
 0.0.0.0 tulipinventpins.com
+0.0.0.0 turbanmadman.com
 0.0.0.0 turbomotionz.pinjamuangmudah.com
 0.0.0.0 turktelekom.geo.iponweb.net
 0.0.0.0 tvmitbier.com
@@ -21839,6 +21878,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wonderfulproductives.com
 0.0.0.0 wonderfulprofitforyou.life
 0.0.0.0 workplacelimetree.com
+0.0.0.0 worldcoolfeed.com
 0.0.0.0 worldtraffic.trade
 0.0.0.0 wpadvancedads.com
 0.0.0.0 wpcomwidgets.com
@@ -22088,6 +22128,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.sterlingxag.com
 0.0.0.0 www.storygize.net
 0.0.0.0 www.summerhamster.com
+0.0.0.0 www.suozmtcc.com
 0.0.0.0 www.swagbucks.com
 0.0.0.0 www.swisscom.ch
 0.0.0.0 www.swoop-amp.com
@@ -22125,6 +22166,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.vietnamairlines.com
 0.0.0.0 www.viralmediatrends.com
 0.0.0.0 www.vrewpywootyu.com
+0.0.0.0 www.vsmokhklbw.com
 0.0.0.0 www.vywujhsinxfa.com
 0.0.0.0 www.web-adnote.com
 0.0.0.0 www.webbuildernews.com
@@ -22167,7 +22209,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 xadsmart.com
 0.0.0.0 xalienfbi.com
 0.0.0.0 xandr-proxy.opinary.com
-0.0.0.0 xervoo.net
 0.0.0.0 xexpertxsoftwarex.com
 0.0.0.0 xf1lef1lex.com
 0.0.0.0 xfreehdvideos.com
@@ -22880,6 +22921,7 @@ ff02::3 ip6-allhosts
 # Bei neueren Titeln ist die API mit Telemetrie und Onlinezwang in Spielen verknüpft
 # Api mitsamt Endpunkten - Für reines Einzelspielervergnügen ohne Schnüffelei - Dienste stillschalten
 # Diesselbe Adresse als WSS für Heartbeat Telemetrie - Mehr Info unter dem Firmeneintrag zu Epic Games, Inc.
+# 35.168.186.144
 # 3.217.15.178
 # 54.146.107.62
 # 54.146.103.168
@@ -24298,11 +24340,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 chat.services.gearboxsoftware.com
 #0.0.0.0 fellowship.services.gearboxsoftware.com
 #0.0.0.0 d10zutxas1s022.cloudfront.net
-#0.0.0.0 d10zutxas1s022.cloudfront.net
 #0.0.0.0 odyssey.services.gearboxsoftware.com
 #0.0.0.0 zeppelin.services.gearboxsoftware.com
-#0.0.0.0 maw.services.gearboxsoftware.com
-#0.0.0.0 maw.services.gearboxsoftware.com
 #0.0.0.0 maw.services.gearboxsoftware.com
 #0.0.0.0 news.services.gearboxsoftware.com
 #0.0.0.0 tribego.services.gearboxsoftware.com
@@ -32629,7 +32668,7 @@ ff02::3 ip6-allhosts
 # Extern mit Mitwirkung des Nutzers, größtenteils für Formatierung der eigenen Webseiten
 #0.0.0.0 cdn.forums.klei.com
 #0.0.0.0 www.kleientertainment.com
-0.0.0.0 use.fontawesome.com
+#0.0.0.0 use.fontawesome.com
 #0.0.0.0 code.jquery.com
 #0.0.0.0 secure.gravatar.com # Gravatar Dienst
 0.0.0.0 store.kleientertainment.com
@@ -34920,9 +34959,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 paradox.zendesk.com
 #0.0.0.0 fast.fonts.net
 #0.0.0.0 res.cloudinary.com
-0.0.0.0 use.fontawesome.com
+#0.0.0.0 use.fontawesome.com
 #0.0.0.0 p5.zdassets.com # Stylesheetablage z.b. für Humblebundle
-0.0.0.0 use.fontawesome.com
 0.0.0.0 opstm.paradoxplaza.com
 
 # Warlock 2: The Exiled
@@ -36990,6 +37028,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 
 # Silver Dollar Games
+# One Finger Death Punch 2
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
@@ -37001,6 +37040,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -38365,6 +38406,50 @@ ff02::3 ip6-allhosts
 # Techland Publishing
 # Dying Light
 0.0.0.0 pls.dyinglightgame.com # news/stats
+
+Dying Light 2 Stay Human
+# s. Rubrik Kopierschutz / AntiCheat
+# 34.233.5.22
+# 54.161.55.36
+# 34.196.177.18
+# 35.170.45.212
+# 34.234.252.202
+# 34.203.101.60
+# 34.204.223.148
+# 54.204.46.56
+# 54.164.219.71
+# 34.225.200.134
+# 34.239.252.131
+# 54.88.8.112
+# 3.93.126.170
+# 54.204.121.8
+# 52.44.66.12
+# 54.144.151.218
+# 34.233.50.229
+# 54.243.133.119
+# 54.162.4.10
+# 3.210.188.60
+# 34.199.32.68
+# 3.86.168.215
+# 52.44.194.61
+# 54.166.70.66
+# 34.204.245.77
+# 52.200.75.189
+# 52.73.56.47
+# 3.94.32.162
+# 54.236.151.117
+# 50.17.237.83
+# 54.205.151.226
+# 63.33.167.102
+# 108.157.4.26
+0.0.0.0 api.techlandonlineservices.com
+#0.0.0.0 api.epicgames.dev # Onlinezwang, Mehrspieler, Telemetrie
+0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w5.befa.live.use1a.on.epicgames.com
 
 # God's Trigger
 # Ip/s blockieren:
