@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 13.02.2022
+# Änderungsdatum: 23.02.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -1268,6 +1268,9 @@ ff02::3 ip6-allhosts
 
 # Denuvo Anti-Tamper
 # Anwendungsschutz, Schutz gegen Manipulation und Kopierschutz
+# 63.35.76.112
+# 54.72.248.64
+# 92.122.104.90
 # 63.33.167.102
 # 54.171.209.26
 # 52.51.106.62
@@ -1283,11 +1286,15 @@ ff02::3 ip6-allhosts
 #0.0.0.0 srv02.codefusion.technology
 #0.0.0.0 srv03.codefusion.technology
 #0.0.0.0 support.codefusion.technology
-# Je nach Produkt Abfragen an Globalsign oder Starfield Tech Zertifikate
+# Je nach Produkt/Version Abfragen an Globalsign oder Starfield Tech Zertifikate
 # 65.9.69.181
 #0.0.0.0 ocsp2.globalsign.com
 #0.0.0.0 crl.globalsign.com
 #0.0.0.0 o.ss2.us
+# Endpunkte Amazon AWS und Akamai Technologies
+#0.0.0.0 ec2-63-35-76-112.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-54-72-248-64.eu-west-1.compute.amazonaws.com
+#0.0.0.0 a92-122-104-90.deploy.static.akamaitechnologies.com
 
 # SecuROM
 # Wieder ein Kopierschutzmechanismus von Sony - veraltet - Server sind teils je nach Produkt nicht erreichbar.
@@ -9736,7 +9743,7 @@ ff02::3 ip6-allhosts
 # 49.51.129.251
 # 172.217.16.208
 # 35.184.156.205
-#0.0.0.0 storage.googleapis.com
+0.0.0.0 storage.googleapis.com
 # Chat und noch mehr Telemetrie - optional de/aktivieren
 #0.0.0.0 shopr-live2.ripostegames.com
 #0.0.0.0 shopr-live2-chat.ripostegames.com
@@ -12249,7 +12256,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamtinyarmypanoramic.appspot.com
 0.0.0.0 sdknode-1.devtodev.com
 0.0.0.0 statgw2.devtodev.com
-#0.0.0.0 storage.googleapis.com
+0.0.0.0 storage.googleapis.com
 
 # Paper House Pty Ltd
 # Paperbark
@@ -13877,6 +13884,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
+# Secret Mode
+# Dear Esther: Landmark Edition
+# 35.241.52.229
+0.0.0.0 stats.unity3d.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+
 # SEGA
 # Bayonetta
 0.0.0.0 garry.sgaas.net
@@ -14232,8 +14245,13 @@ ff02::3 ip6-allhosts
 
 # Valkyria Chronicles 4
 # s. Rubrik Kopierschutz / AntiCheat
+# Ip/s blockieren:
+# 34.241.84.150
+# 63.32.155.164
 0.0.0.0 garry.sgaas.net
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
+0.0.0.0 ec2-34-241-84-150.eu-west-1.compute.amazonaws.com
+0.0.0.0 ec2-63-32-155-164.eu-west-1.compute.amazonaws.com
 
 # Yakuza 0
 # s. Rubrik Kopierschutz / AntiCheat
