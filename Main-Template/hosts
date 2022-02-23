@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 13.02.2022
+# Änderungsdatum: 23.02.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -1109,6 +1109,17 @@ ff02::3 ip6-allhosts
 # Kaspersky Internet Security
 #0.0.0.0 dnl-00.geo.kaspersky.com # bis dnl-19.geo.kaspersky.com für Updates
 
+# Kempa
+# SAK | Switch Army Knife
+# Ip/s blockieren:
+# 172.67.185.23
+0.0.0.0 tinfoil.media # /repo/db/titles.US.en.json
+# 140.82.121.4
+#0.0.0.0 github.com # updates64.txt
+# 185.199.110.133
+# 2606:50c0:8000::154
+#0.0.0.0 raw.githubusercontent.com # updates64.txt
+
 # Key Metric Software, LLC.
 # FolderSizes
 0.0.0.0 www.foldersizes.com
@@ -1232,6 +1243,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 subscribe.malwarebytes.com
 #0.0.0.0 unsubscribe.malwarebytes.org # Newsletter abbestellen
 0.0.0.0 api.ipify.org # Anmeldesetite von Malwarebytes mit IP-Erfassung
+# 3.222.114.13
+# 54.159.163.136
+#0.0.0.0 keystone.mwbsys.com
+#0.0.0.0 ark.mwbsys.com
 
 # Marcin Szeniak
 # BCUninstaller
@@ -1336,6 +1351,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 gfwsl.geforce.com # Updatecheck neuer Grafikkartentreiber in der Experience Software und Gforce Seite
 0.0.0.0 gfe.geforce.com
 0.0.0.0 gfe.nvidia.com # Optimierung der Produkte im Launcher
+# Ip/s blockieren:
+# 185.136.68.154
 0.0.0.0 activation.gfe.nvidia.com # Datenerfassung des verwendeten Prozessors, Treiberversion, Hardwaredaten welche Stecker benutzt werden, Grafikkarte Kennung, Subystem, Monitormarke, Auflösung, Mainboard, Betriebssystem/Version, Zeitstempel uvm
 #0.0.0.0 api.gfe.nvidia.com
 0.0.0.0 events.gfe.nvidia.com
@@ -1597,6 +1614,16 @@ ff02::3 ip6-allhosts
 
 # Reviversoft
 0.0.0.0 goto.reviversoft.com
+
+# Ryujinx
+# Ryujinx
+# 140.82.121.6
+# 140.82.121.5
+#0.0.0.0 api.github.com # Releasechannel
+# 172.67.152.169
+#0.0.0.0 patreon.ryujinx.org # Supporter werden unter About in Echtzeit eingelesen
+# 185.199.110.133
+#0.0.0.0 objects.githubusercontent.com # Download mit AWS Anbindung
 
 # VS Revo Group Ltd.
 # Revo Uninstaller v3.2.1, v4.0.0, v4.1.0, v4.1.5+
@@ -1931,11 +1958,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 updates.techipick.com
 
 # Technitium
-# Tmac
+# Tmac | Technitium MAC Address Changer
 # Programmupdate
+# 139.59.3.235
 #0.0.0.0 go.technitium.com
 #0.0.0.0 technitium.com
 # Update Herstellerliste
+# 140.98.223.27
 #0.0.0.0 standards-oui.ieee.org
 
 # Techpowerup.com
@@ -2166,7 +2195,17 @@ ff02::3 ip6-allhosts
 #0.0.0.0 subca.ocsp-certum.com
 #0.0.0.0 wosign-csca.ocsp-certum.com
 0.0.0.0 www.yamicsoft.com
-0.0.0.0 myexternalip.com # Abfrage der eigenen IP aaus dem Programm heraus
+0.0.0.0 myexternalip.com # Abfrage der eigenen IP aus dem Programm heraus
+
+# Yuzu Emulator Team
+# Yuzu
+# 140.82.121.5
+#0.0.0.0 api.github.com # Releasechannel
+# 185.199.109.133
+#0.0.0.0 githubusercontent.com # Masterconfig
+#0.0.0.0 api.yuzu-emu.org
+# 185.199.110.133
+#0.0.0.0 objects.githubusercontent.com # Download mit AWS Anbindung
 
 # Zemana
 # Anti-Keylogger
@@ -4369,7 +4408,9 @@ ff02::3 ip6-allhosts
 # Cloudflare, Inc.
 # 104.18.20.226
 # 104.18.21.226
+# 104.18.31.182
 #0.0.0.0 cdn.globalsigncdn.com.cdn.cloudflare.net
+#0.0.0.0 ocsp.comodoca.com.cdn.cloudflare.net
 0.0.0.0 a.nel.cloudflare.com
 0.0.0.0 cdn.bncloudfl.com.cdn.cloudflare.net
 0.0.0.0 cookie.brealtime.com.cdn.cloudflare.net
@@ -4444,6 +4485,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 i.connatix.com
 0.0.0.0 img.connatix.com
 0.0.0.0 lit.connatix.com
+0.0.0.0 pl.connatix.com
 0.0.0.0 rtb.connatix.com
 0.0.0.0 tr.connatix.com
 0.0.0.0 trk.connatix.com
@@ -5367,6 +5409,16 @@ ff02::3 ip6-allhosts
 #0.0.0.0 github.map.fastly.net # Updateabfragen diverser Programme
 #0.0.0.0 camo.githubusercontent.com # Grafiken
 0.0.0.0 collector.githubapp.com
+# {-Github Desktop-}
+# 140.82.121.3
+#0.0.0.0 github.com
+# 140.82.121.5
+#0.0.0.0 api.github.com # Repositories, User, Git, Mails
+# 140.82.121.21
+# 140.82.121.22
+#0.0.0.0 central.github.com # Updatecheck, Releases, Gimmik
+# 2606:50c0:8000::154
+#0.0.0.0 avatars.githubusercontent.com
 
 # Globalmailer
 0.0.0.0 geosvc.globalmailer.com
@@ -7066,6 +7118,35 @@ ff02::3 ip6-allhosts
 
 # Osxi.de
 0.0.0.0 banner.osxi.de
+
+# Ourcoolposts.com
+0.0.0.0 a.ourcoolposts.com
+0.0.0.0 b.ourcoolposts.com
+0.0.0.0 c.ourcoolposts.com
+0.0.0.0 d.ourcoolposts.com
+0.0.0.0 e.ourcoolposts.com
+0.0.0.0 f.ourcoolposts.com
+0.0.0.0 g.ourcoolposts.com
+0.0.0.0 h.ourcoolposts.com
+0.0.0.0 i.ourcoolposts.com
+0.0.0.0 j.ourcoolposts.com
+0.0.0.0 k.ourcoolposts.com
+0.0.0.0 l.ourcoolposts.com
+0.0.0.0 m.ourcoolposts.com
+0.0.0.0 n.ourcoolposts.com
+0.0.0.0 o.ourcoolposts.com
+0.0.0.0 ourcoolposts.com
+0.0.0.0 p.ourcoolposts.com
+0.0.0.0 q.ourcoolposts.com
+0.0.0.0 r.ourcoolposts.com
+0.0.0.0 s.ourcoolposts.com
+0.0.0.0 t.ourcoolposts.com
+0.0.0.0 u.ourcoolposts.com
+0.0.0.0 v.ourcoolposts.com
+0.0.0.0 w.ourcoolposts.com
+0.0.0.0 x.ourcoolposts.com
+0.0.0.0 y.ourcoolposts.com
+0.0.0.0 z.ourcoolposts.com
 
 # Outbrain | Gesponsorte Werbung
 # 151.101.14.2
@@ -8850,11 +8931,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.sovrn.com
 0.0.0.0 13stpb2fu9o8ievfc353kzj1-wpengine.netdna-ssl.com
 
-# Spankbang
-0.0.0.0 a.spankbang.com
-0.0.0.0 m.spankbang.com
-0.0.0.0 analytics.spankbang.com
-
 # Sponsorads.de
 0.0.0.0 sponsorads.de
 0.0.0.0 www.sponsorads.de
@@ -9780,21 +9856,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.ziffstatic.com
 
 # Zog.link
-0.0.0.0 zog.link
-0.0.0.0 ssp.zog.link
+0.0.0.0 bssp.zog.link
+0.0.0.0 btds.zog.link
 0.0.0.0 go.zog.link
 0.0.0.0 in.zog.link
-0.0.0.0 in2.zog.link
-0.0.0.0 in8.zog.link
-0.0.0.0 in4.zog.link
+0.0.0.0 in100.zog.link
+0.0.0.0 in101.zog.link
 0.0.0.0 in11.zog.link
 0.0.0.0 in12.zog.link
 0.0.0.0 in14.zog.link
 0.0.0.0 in16.zog.link
-0.0.0.0 in100.zog.link
-0.0.0.0 in101.zog.link
-0.0.0.0 btds.zog.link
-0.0.0.0 bssp.zog.link
+0.0.0.0 in2.zog.link
+0.0.0.0 in4.zog.link
+0.0.0.0 in8.zog.link
+0.0.0.0 ssp.zog.link
+0.0.0.0 tcimp.zog.link
+0.0.0.0 zog.link
 
 # Zoho.com | Webbasierte Business Tools
 0.0.0.0 salesiq.zoho.com
@@ -11535,7 +11612,7 @@ ff02::3 ip6-allhosts
 
 # Vimeo
 # 34.120.202.204
-0.0.0.0 fresnel.vimeocdn.com
+0.0.0.0 fresnel.vimeocdn.com # Stats
 #0.0.0.0 48skyfiregce-vimeo.akamaized.net
 #0.0.0.0 player.vimeo.com
 #0.0.0.0 f.vimeocdn.com
@@ -12221,7 +12298,7 @@ ff02::3 ip6-allhosts
 
 # Baidu.com
 0.0.0.0 nsclick.baidu.com
-#0.0.0.0 hm.baidu.com
+0.0.0.0 hm.baidu.com
 0.0.0.0 bdimg.share.baidu.com
 0.0.0.0 click.fanyi.baidu.com
 0.0.0.0 anti-bot.baidu.com
@@ -12231,7 +12308,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zz.bdstatic.com
 0.0.0.0 gsp0.baidu.com
 0.0.0.0 fex.bdstatic.com
-0.0.0.0 miao.baidu.com
+#0.0.0.0 miao.baidu.com
 
 # Bannerbridge.jp
 0.0.0.0 i.bannerbridge.net
@@ -13068,12 +13145,13 @@ ff02::3 ip6-allhosts
 #0.0.0.0 www.blogger.com
 #0.0.0.0 docs.google.com
 
-# Google Apis
+# Google API
 # 64.233.165.128
 # 142.250.74.208
+# 172.217.168.74
 #0.0.0.0 fonts.googleapis.com
 0.0.0.0 safebrowsing.googleapis.com
-#0.0.0.0 storage.googleapis.com # Call Adservice & Dateikomprimierung, Prebid, Customscripts, Adtags
+0.0.0.0 storage.googleapis.com # Call Adservice & Dateikomprimierung, Prebid, Customscripts, Adtags
 0.0.0.0 chart.googleapis.com
 #0.0.0.0 apis.google.com
 0.0.0.0 automate-prod.storage.googleapis.com
@@ -14934,6 +15012,22 @@ ff02::3 ip6-allhosts
 #0.0.0.0 notice.xbox.com
 #0.0.0.0 e1822.dspb.akamaiedge.net # Notice Endpunkt
 
+# Während Spielesessions ohne XBox Anbindung Titel egal werden dennoch Microsoft's Server kontaktiert
+# Diese Funktionen werden nur benötigt sollte man tatsächlich Microsoft Spiele nutzen bzw den Microsoft Store
+# Wer Ruhe haben will.... Abschalten nach Bedarf
+# 40.126.31.1
+# 40.91.76.181
+# 20.112.98.140
+# 40.69.130.14
+# 40.122.167.99
+#0.0.0.0 privacy.xboxlive.com
+#0.0.0.0 login.live.com
+#0.0.0.0 xsts.auth.xboxlive.com
+#0.0.0.0 title.auth.xboxlive.com
+#0.0.0.0 user.auth.xboxlive.com
+#0.0.0.0 device.auth.xboxlive.com
+#0.0.0.0 userpresence.xboxlive.com
+
 # Windows 11 - Microsoft.XboxDevices | devices.app.exe
 # 23.99.194.233
 # 2.18.232.16
@@ -16546,6 +16640,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 vis.sexlist.com
 0.0.0.0 cgi.sexlist.com
 
+# Spankbang.com
+0.0.0.0 a.spankbang.com
+0.0.0.0 analytics.spankbang.com
+0.0.0.0 m.spankbang.com
+0.0.0.0 stats00main9707.spankbang.com
+
 # Stripchat
 0.0.0.0 img.strpst.com
 0.0.0.0 stripchat.com
@@ -16579,6 +16679,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tsyndicate.com
 0.0.0.0 lcdn.tsyndicate.com
 0.0.0.0 sni.lcdn.tsyndicate.com.fpbns.net
+0.0.0.0 r-eu.tsyndicate.com
 0.0.0.0 r-us.tsyndicate.com
 
 # Wildoncam.com
@@ -17980,6 +18081,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 follcallelowan.xyz
 0.0.0.0 funyidence.xyz
 0.0.0.0 g.memuro.xyz
+0.0.0.0 gcyli.arashpar.xyz
 0.0.0.0 generalebad.xyz
 0.0.0.0 getinclinarss.xyz
 0.0.0.0 gixbqcwjahd.xyz
@@ -22030,6 +22132,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.ifriends.net
 0.0.0.0 www.ikxhjlsynfeo.com
 0.0.0.0 www.ilohfbiph.com
+0.0.0.0 www.imglnkd.com
 0.0.0.0 www.increaserev.com
 0.0.0.0 www.intelligenceadx.com
 0.0.0.0 www.intellipopup.com
@@ -23759,6 +23862,9 @@ ff02::3 ip6-allhosts
 
 # Denuvo Anti-Tamper
 # Anwendungsschutz, Schutz gegen Manipulation und Kopierschutz
+# 63.35.76.112
+# 54.72.248.64
+# 92.122.104.90
 # 63.33.167.102
 # 54.171.209.26
 # 52.51.106.62
@@ -23774,11 +23880,15 @@ ff02::3 ip6-allhosts
 #0.0.0.0 srv02.codefusion.technology
 #0.0.0.0 srv03.codefusion.technology
 #0.0.0.0 support.codefusion.technology
-# Je nach Produkt Abfragen an Globalsign oder Starfield Tech Zertifikate
+# Je nach Produkt/Version Abfragen an Globalsign oder Starfield Tech Zertifikate
 # 65.9.69.181
 #0.0.0.0 ocsp2.globalsign.com
 #0.0.0.0 crl.globalsign.com
 #0.0.0.0 o.ss2.us
+# Endpunkte Amazon AWS und Akamai Technologies
+#0.0.0.0 ec2-63-35-76-112.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-54-72-248-64.eu-west-1.compute.amazonaws.com
+#0.0.0.0 a92-122-104-90.deploy.static.akamaitechnologies.com
 
 # SecuROM
 # Wieder ein Kopierschutzmechanismus von Sony - veraltet - Server sind teils je nach Produkt nicht erreichbar.
@@ -32227,7 +32337,7 @@ ff02::3 ip6-allhosts
 # 49.51.129.251
 # 172.217.16.208
 # 35.184.156.205
-#0.0.0.0 storage.googleapis.com
+0.0.0.0 storage.googleapis.com
 # Chat und noch mehr Telemetrie - optional de/aktivieren
 #0.0.0.0 shopr-live2.ripostegames.com
 #0.0.0.0 shopr-live2-chat.ripostegames.com
@@ -34740,7 +34850,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamtinyarmypanoramic.appspot.com
 0.0.0.0 sdknode-1.devtodev.com
 0.0.0.0 statgw2.devtodev.com
-#0.0.0.0 storage.googleapis.com
+0.0.0.0 storage.googleapis.com
 
 # Paper House Pty Ltd
 # Paperbark
@@ -36368,6 +36478,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
+# Secret Mode
+# Dear Esther: Landmark Edition
+# 35.241.52.229
+0.0.0.0 stats.unity3d.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+
 # SEGA
 # Bayonetta
 0.0.0.0 garry.sgaas.net
@@ -36723,8 +36839,13 @@ ff02::3 ip6-allhosts
 
 # Valkyria Chronicles 4
 # s. Rubrik Kopierschutz / AntiCheat
+# Ip/s blockieren:
+# 34.241.84.150
+# 63.32.155.164
 0.0.0.0 garry.sgaas.net
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
+0.0.0.0 ec2-34-241-84-150.eu-west-1.compute.amazonaws.com
+0.0.0.0 ec2-63-32-155-164.eu-west-1.compute.amazonaws.com
 
 # Yakuza 0
 # s. Rubrik Kopierschutz / AntiCheat
