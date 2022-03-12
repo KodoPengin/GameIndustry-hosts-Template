@@ -12,7 +12,7 @@
 # Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
 # Verbindungen sind je nach Programmen und Spielen zugeordnet
 # Kombinierbar mit anderen host Templates von GameIndustry.eu oder weiteren Quellen
-# Änderungsdatum: 06.01.2022
+# Änderungsdatum: 12.03.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -658,7 +658,7 @@
 0.0.0.0 cdn2.kongcdn.com
 0.0.0.0 cdn3.kongcdn.com
 0.0.0.0 cdn4.kongcdn.com
-0.0.0.0 cds.s5x3j6q5.hwcdn.net
+#0.0.0.0 cds.s5x3j6q5.hwcdn.net # code.jquery.com
 0.0.0.0 cx.ssacdn.com
 0.0.0.0 d.applovin.com
 0.0.0.0 d2s2jxtv35392n.cloudfront.net

@@ -11,7 +11,7 @@
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
 # Kombinierbar mit anderen host Templates von GameIndustry.eu oder weiteren Quellen
-# Änderungsdatum: 01.01.2022
+# Änderungsdatum: 12.03.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -710,9 +710,11 @@
 0.0.0.0 dls-udc.dqa.samsung.com
 0.0.0.0 de-odc.samsungapps.com
 0.0.0.0 de-odc.samsungapps.com.wtxcdn.com
-0.0.0.0 vas.samsungapps.com
+#0.0.0.0 vas.samsungapps.com
 # Samsung Firmware
 #0.0.0.0 fota-cloud-dn.ospserver.net # Siehe LLNWD Eintrag
+#0.0.0.0 fota-cloud-dn.ospserver.net
+#0.0.0.0 cfota2.oscpserver.net
 
 # Saygames
 0.0.0.0 track.saygames.io
