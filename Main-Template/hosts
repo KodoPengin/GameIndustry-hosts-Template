@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 23.02.2022
+# Änderungsdatum: 24.03.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -2157,7 +2157,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 reg.wisecleaner.com # Registrierung -> EMail, Seriennummer
 
 # Wondershare Technology Co., Ltd.
-# PDFelement, UniConverter 13 usw
+# PDFelement, UniConverter 13, Filmora usw
 # Neugierige Programme inkl. Werbung, Google Tagmanager, ConversionID, Google Analytics, DoubleClick
 0.0.0.0 static.hotjar.com
 0.0.0.0 bat.bing.com
@@ -2181,6 +2181,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.google-analytics.com # KontoID: UA-127156838-12
 # 8.209.99.43
 0.0.0.0 api.wondershare.cc # Anmeldung, Abgleich Nutzerdaten, Datenupload
+# Filmora
+0.0.0.0 dynamic-eus-rs.wondershare.com
+0.0.0.0 api.300624.com
+0.0.0.0 pc-api.300624.com # Updates
+0.0.0.0 effects.wondershare.com
+0.0.0.0 static-eus-rs.wondershare.com
+0.0.0.0 dynamic-eus-rs.wondershare.com
+0.0.0.0 filmstock.wondershare.com # Effekte
+0.0.0.0 useroperation.wondershare.com
 
 # xupefei
 # Locale Emulator
@@ -26018,6 +26027,45 @@ ff02::3 ip6-allhosts
 # Dragon Ball Xenoverse II
 #0.0.0.0 steam.dbxv.jp
 
+# Elden Ring
+# 35.81.14.193
+# 108.157.214.125
+# 50.16.59.146
+# 35.170.223.60
+# 35.82.103.87
+# 54.173.18.69
+# 35.81.14.193
+# 13.32.121.10
+# 34.248.130.89
+# 52.7.200.56
+# 108.157.214.75
+# 54.227.76.49
+# 54.77.224.93
+# 52.7.136.73
+# 52.3.215.227
+# 34.228.72.46
+# 34.224.43.248
+# 23.22.89.154
+# 3.217.198.9
+# 54.88.212.172
+# 34.202.43.120
+# 34.228.192.215
+# 34.233.5.22
+# 54.69.16.164
+# 52.38.206.112
+# 44.240.231.235
+# 54.201.31.130
+#0.0.0.0 modules-cdn.eac-prod.on.epicgames.com # EAC auf Epicservern, siehe Review
+#0.0.0.0 gossip.easyanticheat.net
+#0.0.0.0 gr-prod-steam.fromsoftware-game.net
+#0.0.0.0 api.epicgames.dev # Wie immer, Onlinezwang verknüpfte Spyware
+0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingress-prod-w5.befa.live.use1a.on.epicgames.com
+
 # JUMP FORCE
 # s. Easy Anti-Cheat
 # Ip/s blockieren:
@@ -27665,10 +27713,47 @@ ff02::3 ip6-allhosts
 #0.0.0.0 api.epicgames.dev # Anmeldetoken, SDKabgleich, Telemetrie, Matchmaking und nochmal als Websocket präsent
 
 # Valheim
-# Ip/s blockieren:
-# 172.217.218.138
-0.0.0.0 www.google-analytics.com
-0.0.0.0 www-google-analytics.l.google.com
+# Mehrspieler, dedizierte Server, Steam
+# 103.10.124.40
+# 103.10.124.101
+# 103.10.125.154
+# 146.66.152.41
+# 146.66.155.69
+# 153.254.86.167
+# 153.254.86.164
+# 155.133.226.72
+# 155.133.230.99
+# 155.133.230.101
+# 155.133.232.98
+# 155.133.233.99
+# 155.133.238.163
+# 155.133.239.52
+# 155.133.245.34
+# 155.133.246.67
+# 155.133.248.37
+# 155.133.249.194
+# 155.133.252.66
+# 155.133.253.39
+# 155.133.255.98
+# 162.254.192.70
+# 162.254.193.100
+# 162.254.193.71
+# 162.254.195.74
+# 162.254.196.70
+# 162.254.196.85
+# 162.254.197.36
+# 162.254.198.43
+# 162.254.196.130
+# 162.254.199.170
+# 162.254.199.178
+# 185.25.182.67
+# 185.25.183.163
+# 185.25.183.179
+# 190.217.33.34
+# 205.185.194.51
+# 205.196.6.213
+# 205.185.194.196
+# 205.196.6.212
 
 # Cobra Mobile
 # iBomber Attack
@@ -31511,37 +31596,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 statistics.herocraft.com
 
 # Warhammer 40.000: Space Wolf
-# Onlinezwang, auch für die Einzelspielerkampange
+# Onlinezwang entschärft 2022
 # 52.169.31.143
 # 52.169.227.119
 #0.0.0.0 pc-spacewolf.trafficmanager.net
 #0.0.0.0 pc-spacewolfgame.cloudapp.net
-# Apple
-# 2.19.101.204
-# 23.210.253.115
-#0.0.0.0 www.apple.com
-#0.0.0.0 a2-19-101-204.deploy.static.akamaitechnologies.com
-#0.0.0.0 e6858.dsce9.akamaiedge.net
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 
 # Hexwar Games
 # 1775: Rebellion
@@ -37911,15 +37983,28 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Starbreeze Publishing AB
-# Payday II
-# Google Analytics/Doubleclick über fbi.overkill u.A. im Spiel integriert
-# ID: "UA-48410904-9", "-3" usw - Gehört zu Starbreeze Studios & Overkillsoftware
-0.0.0.0 www.google-analytics.com
-0.0.0.0 stats.g.doubleclick.net
-0.0.0.0 media.overkillsoftware.com
+# Payday 2
+# 54.200.63.170
+# 52.88.188.170
+# 52.27.69.164
+# 54.200.63.170
+# 104.18.31.221
+# 104.18.30.221
+# 104.16.0.93
+# 104.16.31.92
+# 104.18.124.3
+# 44.235.96.196
+# 35.164.100.7
+# 44.240.118.85
 #0.0.0.0 www.overkillsoftware.com
 #0.0.0.0 fbi.overkillsoftware.com
-#0.0.0.0 code.jquery.com
+#0.0.0.0 jji485ris4.execute-api.us-west-2.amazonaws.com
+#0.0.0.0 accounts.starbreeze.com
+#0.0.0.0 starbreeze.accelbyte.io
+Server-Endpunkte: Server-Endpunkte:
+#0.0.0.0 fbi.paydaythegame.com.cdn.cloudflare.net
+#0.0.0.0 www.overkillsoftware.com.cdn.cloudflare.net
+#0.0.0.0 accounts.starbreeze.com.cdn.cloudflare.net
 
 # Stardock Entertainment, Inc.
 # Ashes of the Singularity: Escalation
