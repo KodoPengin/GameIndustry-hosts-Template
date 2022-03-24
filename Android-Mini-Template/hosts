@@ -61,6 +61,7 @@
 # 34.194.231.28, 52.44.156.179, 34.201.88.38, 34.198.64.90, 34.194.1.179
 0.0.0.0 adc3-launch.adcolony.com
 0.0.0.0 ads30.adcolony.com
+0.0.0.0 androidads4-6.adcolony.com
 0.0.0.0 androidads23.adcolony.com
 0.0.0.0 wd.adcolony.com
 0.0.0.0 wd.adcolony.xyz
@@ -263,6 +264,7 @@
 0.0.0.0 api.crittercism.com
 
 # DBankcloud
+0.0.0.0 dnkeeper.platform.dbankcloud.cn
 0.0.0.0 grs.dbankcloud.com
 0.0.0.0 grs.dbankcloud.cn
 0.0.0.0 grs.dbankcloud.eu
