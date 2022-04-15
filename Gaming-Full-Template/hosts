@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 24.03.2022
+# Änderungsdatum: 15.04.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -924,6 +924,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 clientconfig.akamai.steamstatic.com # Ablage für *.tar.gz
 
 # Steam: Cloud für Speicherstände & Client
+# Spielerdaten landen bei Microsoft Corporation, Amazon.com, Inc, Alphabet, Inc. Oracle Corporation
 # De/aktivieren nach Bedarf
 #0.0.0.0 cloud-3.steamusercontent.com
 #0.0.0.0 steamcloud-eu.storage.googleapis.com
@@ -964,6 +965,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamclouduseast.blob.core.windows.net
 0.0.0.0 steamcloud-dub.s3.dualstack.eu-west-1.amazonaws.com
 0.0.0.0 steamcloud-frf.s3.dualstack.eu-central-1.amazonaws.com
+#0.0.0.0 objectstorage.eu-frankfurt-1.oraclecloud.com
+#0.0.0.0 objectstorage.eu-amsterdam-1.oraclecloud.com
 
 # Steam: Cloudflare
 # 104.18.24.217
@@ -3929,6 +3932,27 @@ ff02::3 ip6-allhosts
 0.0.0.0 echo2.vivox.com
 0.0.0.0 watson.vivox.com
 
+# Ghostwire: Tokyo
+# 108.138.7.50
+# 18.66.248.67
+# 18.64.103.60
+# 18.66.248.40
+# 13.225.80.8
+# 18.66.248.81
+# 18.64.103.44
+# 13.225.80.87
+# 18.64.103.27
+# 13.225.80.92
+#0.0.0.0 api.bethesda.net
+#0.0.0.0 server-18-66-248-40.dus51.r.cloudfront.net
+#0.0.0.0 server-18-64-103-60.txl50.r.cloudfront.net
+#0.0.0.0 server-13-225-80-87.fra2.r.cloudfront.net
+#0.0.0.0 server-18-66-248-81.dus51.r.cloudfront.net
+#0.0.0.0 server-18-64-103-44.txl50.r.cloudfront.net
+#0.0.0.0 server-13-225-80-87.fra2.r.cloudfront.net
+#0.0.0.0 server-18-64-103-27.txl50.r.cloudfront.net
+#0.0.0.0 server-13-225-80-92.fra2.r.cloudfront.net
+
 # Prey 2017
 # s. Rubrik Kopierschutz / AntiCheat
 
@@ -5484,26 +5508,22 @@ ff02::3 ip6-allhosts
 # Human: Fall flat
 # Ip/s blockieren:
 # 34.216.100.9
-# 35.186.194.186
 # 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
 0.0.0.0 hff.terahard.org
-0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
-0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 api.uca.cloud.unity3d.com
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 ec2-34-216-100-9.us-west-2.compute.amazonaws.com
-0.0.0.0 208-64.200.105.steampowered.com
+0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 ec2-34-216-100-9.us-west-2.compute.amazonaws.com
 
 # Narcos: Rise of the Cartels
 # s. Eintrag Steam: IP Checks
@@ -6071,10 +6091,15 @@ ff02::3 ip6-allhosts
 # 35.227.252.150
 # 35.241.26.53
 # 188.93.59.251
-0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -7989,7 +8014,7 @@ ff02::3 ip6-allhosts
 
 # Millie
 0.0.0.0 games.forever-entertainment.com
-0.0.0.0 developer.android.com
+#0.0.0.0 developer.android.com
 0.0.0.0 forever-entertainment.com
 
 # Not dying today
@@ -8247,9 +8272,33 @@ ff02::3 ip6-allhosts
 0.0.0.0 www-google-analytics.l.google.com
 #0.0.0.0 pki-goog.l.google.com
 
-# Gearbox Publishing
+# Gearbox Publishing, LLC
 # Bulletstorm: Full Clip Edition
 # s. Rubrik Kopierschutz / AntiCheat
+
+# Godfall Ultimate Edition
+# 76.223.59.246
+# 13.248.177.172
+# 44.229.139.46
+# 34.223.190.134
+# 35.165.168.51
+# 52.43.219.186
+# 52.88.85.177
+# 54.201.49.101
+# 52.27.101.57
+# 35.82.80.234
+# 52.33.19.33
+# 34.120.195.249
+# 44.239.173.89
+# 54.202.157.195
+# 54.185.190.241
+#0.0.0.0 ar4fod1791yf4-ats.iot.us-west-2.amazonaws.com
+#0.0.0.0 a129c3db26b31bbdb.awsglobalaccelerator.com
+0.0.0.0 o389295.ingest.sentry.io
+0.0.0.0 discovery.services.gearboxsoftware.com
+#0.0.0.0 ap-api2.stable.prod.project-aperion.net
+#0.0.0.0 249.195.120.34.bc.googleusercontent.com
+#0.0.0.0 ec2-52-33-19-33.us-west-2.compute.amazonaws.com
 
 # We Happy Few
 # 52.27.241.128
@@ -9011,6 +9060,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
 0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Hexwar Games
 # 1775: Rebellion
@@ -15398,7 +15449,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 jji485ris4.execute-api.us-west-2.amazonaws.com
 #0.0.0.0 accounts.starbreeze.com
 #0.0.0.0 starbreeze.accelbyte.io
-Server-Endpunkte: Server-Endpunkte:
+# Server-Endpunkte
 #0.0.0.0 fbi.paydaythegame.com.cdn.cloudflare.net
 #0.0.0.0 www.overkillsoftware.com.cdn.cloudflare.net
 #0.0.0.0 accounts.starbreeze.com.cdn.cloudflare.net
