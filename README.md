@@ -60,19 +60,15 @@ Windows: %SystemRoot%\System32\drivers\etc\hosts<br>
 Linux: /etc/hosts<br>
 Android: /etc/hosts (a symbolic link to /system/etc/hosts)
 
-<p float="left">
-<img src="https://www.gameindustry.eu/images/git/saveashosts.webp" alt="Save as hosts" width="400" height="363">
-</p>
-
 ## Easy to use Setup file:
 A host file setup was created for easy use. Start your setup, choose one from 5 templates and install.<br>
-Source: <a href="https://www.gameindustry.eu/downloads/">GameIndustry Downloads</a><br>
+Source: <a href="https://www.gameindustry.eu/de/downloads/">GameIndustry Downloads</a><br>
 
 Supporting german, english and japanese language
 
 ### Latest Screenshot:
 <p float="left">
-<img src="https://www.gameindustry.eu/images/git/h_setup0721.webp" alt="Gi-HostsInstaller">
+<img src="https://www.gameindustry.eu/images/git/Setup_Uebersicht.webp" alt="Gi-HostsInstaller">
 </p>
 
 ## ⚠ Things to be considered
@@ -99,11 +95,14 @@ Careful with using entries. Some may be strict and many services may not work
 ## 🐞 Bugs, Mistakes, questions:
 Even me is not perfect and there may be wrong entries or spelling mistakes. If so, do not hesitate to contact me ASAP - Please open a ticket, contact me in Steam or about my website. Corrections (if needed) are quickly implemented.
 
+## 🔖 Donations:
+<a href='https://ko-fi.com/gameindustry' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+
 ## © Copyright, Support & License
 There is only one person behind the entire project. Creating and maintaining the list has taken several years a lot of money and have build alone from scratch.<br><br>
 GameIndustry.eu is the original source of published host files. If the files (or components) are from somewhere else (maybe modified), they are not from me and get no support.
 
-Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a> and <a href="https://www.gameindustry.eu/u/kontakt/">Contact site</a><br>
+Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a> and <a href="https://www.gameindustry.eu/de/kontakt/">Contact site</a><br>
 Steam Group & Support: <a href="https://steamcommunity.com/groups/penguindome/">Spyware in Spielen? Nein danke!</a>
 
 License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons by-nc-sa 4.0</a>
