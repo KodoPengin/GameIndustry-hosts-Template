@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 15.04.2022
+# Änderungsdatum: 16.04.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -1229,28 +1229,41 @@ ff02::3 ip6-allhosts
 
 # Malwarebytes
 # Malwarebytes Anti Malware
-# 52.88.97.83
-# 52.27.157.175
-# 54.148.253.4
-0.0.0.0 stats.mbamupdates.com
-0.0.0.0 telemetry.malwarebytes.com # mbamservice.exe
-0.0.0.0 elb-telemetry-prod-external-1332413525.us-west-2.elb.amazonaws.com
-0.0.0.0 hubble.mb-cosmos.com
-0.0.0.0 genesis.malwarebytes.com # Isp, IP und Geodatenerfassung
-0.0.0.0 iris.mwbsys.com
-# 54.186.155.102
-0.0.0.0 ec2-54-186-155-102.us-west-2.compute.amazonaws.com
-0.0.0.0 links.malwarebytes.com # Affiliates, UUID, Comparsion Chart und Supportseite
-0.0.0.0 cleo.mb-internal.com # Verbunden mit links.malwarebytes.com
+# Webseite
+# 34.120.202.204
+0.0.0.0 player-telemetry.vimeo.com
+0.0.0.0 fresnel.vimeocdn.com
+#0.0.0.0 www.malwarebytes.com # /__ssobj/track?event=ssPageloadTimer&value=0&x=xxxxxx-1
+0.0.0.0 unleash-proxy.sre.malwarebytes.com # /proxy/client/metrics
+0.0.0.0 www.googletagmanager.com # KontoID: UA-3347303-10
+0.0.0.0 www.google-analytics.com
+0.0.0.0 rum-collector-2.pingdom.net
 # EMailtracker und Funktionen
 #0.0.0.0 click.malwarebytes.com
 0.0.0.0 subscribe.malwarebytes.com
 #0.0.0.0 unsubscribe.malwarebytes.org # Newsletter abbestellen
-0.0.0.0 api.ipify.org # Anmeldesetite von Malwarebytes mit IP-Erfassung
-# 3.222.114.13
-# 54.159.163.136
-#0.0.0.0 keystone.mwbsys.com
+# 54.186.155.102
+# 54.244.17.248
+# 54.70.191.27
+# 99.86.115.60
+# 3.216.5.157
+# 35.170.247.168
+# 3.208.177.237
+# 104.18.32.68
+# 104.18.32.68
+# 3.92.247.28
+# 35.160.184.117
+# Info: https://gameindustry.eu/de/blog/malwarebytes-luegt-und-aendert-hosts/
 #0.0.0.0 ark.mwbsys.com
+#0.0.0.0 cdn.mwbsys.com
+#0.0.0.0 my-device.malwarebytes.com # Token, Lizenz, MaschinenID, Desktopname, Produktart
+# Endpunkte
+#0.0.0.0 ec2-35-170-247-168.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-208-177-237.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-216-5-157.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-92-247-28.compute-1.amazonaws.com
+#0.0.0.0 ec2-35-160-184-117.us-west-2.compute.amazonaws.com
+#0.0.0.0 ocsp.comodoca.com.cdn.cloudflare.net
 
 # Marcin Szeniak
 # BCUninstaller
@@ -19255,6 +19268,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bitonclick.com
 0.0.0.0 bl01.access-analyze.org
 0.0.0.0 blastcahs.com
+0.0.0.0 bleachfamouszinc.com
 0.0.0.0 blinn.beredskabdanmark.dk
 0.0.0.0 blip.bizrate.com
 0.0.0.0 blissfulonline.com
@@ -20422,6 +20436,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 jerkmate.com
 0.0.0.0 jf71qh5v14.com
 0.0.0.0 jg.revolvermaps.com
+0.0.0.0 jike.in
 0.0.0.0 jloh.report-uri.com
 0.0.0.0 jnxm2.com
 0.0.0.0 johnsonfbi.com
@@ -20812,6 +20827,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ntvpinp.com
 0.0.0.0 ntvpwpush.com
 0.0.0.0 numbgradualassertive.com
+0.0.0.0 numbtoobly.com
 0.0.0.0 nvg.gpbeta.com
 0.0.0.0 nyadra.com
 0.0.0.0 nytrng.com
@@ -21084,6 +21100,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 preventionpitcherremedy.com
 0.0.0.0 prez4success007.theconversionpros.com
 0.0.0.0 primevalsymphonymuttering.com
+0.0.0.0 principlessilas.com
 0.0.0.0 prioritybeforehand.com
 0.0.0.0 prism.app-us1.com
 0.0.0.0 prize3810.truefalserdr14.agency
@@ -21349,6 +21366,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 secretflirtparadise1.com
 0.0.0.0 secure-cdn.mplxtms.com
 0.0.0.0 secure.insightexpressai.com
+0.0.0.0 seedoupo.com
 0.0.0.0 seekingalpha.com
 0.0.0.0 seg.ad.gt
 0.0.0.0 segmentnext-com.videoplayerhub.com
@@ -21900,6 +21918,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ufpcdn.com
 0.0.0.0 ufundentof.one
 0.0.0.0 ugahutoa.com
+0.0.0.0 ugroocuw.net
 0.0.0.0 uidapi.com
 0.0.0.0 uidesign.gbtcdn.com
 0.0.0.0 uim.tifbs.net
@@ -22294,6 +22313,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.nanoadexchange.com
 0.0.0.0 www.natiads.com
 0.0.0.0 www.newbluefx.com
+0.0.0.0 www.newdisplayformats.com
 0.0.0.0 www.nextfable.com
 0.0.0.0 www.ninano.co.id
 0.0.0.0 www.nygvejyn.com
@@ -41638,4 +41658,4 @@ Dying Light 2 Stay Human
 
 # ZOV GAME STUDIO
 # To The Light
-# Google Crashpad
+# Google Crashpad 
