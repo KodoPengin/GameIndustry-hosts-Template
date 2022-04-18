@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 16.04.2022
+# Änderungsdatum: 18.04.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -3674,6 +3674,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d3a4r0j3mf67g3.cloudfront.net
 0.0.0.0 d3ahinqqx1dy5v.cloudfront.net # JavOUT
 0.0.0.0 d3al52d8cojds7.cloudfront.net
+0.0.0.0 d3bbyfw7v2aifi.cloudfront.net
 0.0.0.0 d3br8glkelnh2z.cloudfront.net
 0.0.0.0 d3cod80thn7qnd.cloudfront.net
 0.0.0.0 d3cxv97fi8q177.cloudfront.net
@@ -5764,11 +5765,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 d9473396.de.ioam.de
 0.0.0.0 data-044c671387.desired.de
 0.0.0.0 data-0be38fdd72.eatsmarter.de
+0.0.0.0 data-16d7ec9a30.wn.de
 0.0.0.0 data-2d86fd41e0.geo.de
 0.0.0.0 data-4ede7e9c86.faz.net
 0.0.0.0 data-4f2efe538c.einfachbacken.de
 0.0.0.0 data-67f17c94f0.gesundheit.de
 0.0.0.0 data-7dd74630af.lecker.de
+0.0.0.0 data-8f03f9dd42.spiegel.de
+0.0.0.0 data-94d154970c.boersenblatt.net
 0.0.0.0 data-a0f0ae1310.gelbeseiten.de
 0.0.0.0 data-be9b6161bf.aponet.de
 0.0.0.0 data-c76cebcfed.kino.de
@@ -5787,8 +5791,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 me.ioam.de
 0.0.0.0 qs.ioam.de
 0.0.0.0 script.ioam.de
-0.0.0.0 data-94d154970c.boersenblatt.net
-0.0.0.0 data-16d7ec9a30.wn.de
 
 # Iocnt.net
 0.0.0.0 at.iocnt.net
@@ -7638,9 +7640,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 en25.scdn8.secure.raxcdn.com
 
 # Realsrv.com
-0.0.0.0 syndication.realsrv.com
 0.0.0.0 a.realsrv.com
 0.0.0.0 ads.realsrv.com
+0.0.0.0 main.realsrv.com
+0.0.0.0 syndication.realsrv.com
 
 # Recognified.com & net | Brand Advertising Platform
 0.0.0.0 ads.recognified.com
@@ -11484,12 +11487,16 @@ ff02::3 ip6-allhosts
 
 # Spiegel.de | SPON
 # Werbung & Cookiezwang
-0.0.0.0 fsm2.spiegel.de
-0.0.0.0 c.spiegel.de
 #0.0.0.0 spiegel-de.spiegel.de
+0.0.0.0 c.spiegel.de
+0.0.0.0 cdn.data-interactive.spiegel.de
 0.0.0.0 count.spiegel.de
-0.0.0.0 widget.civey.com
+0.0.0.0 fsm2.spiegel.de
 0.0.0.0 prod.talk.spiegel.de
+0.0.0.0 sams.spiegel.de
+0.0.0.0 sats.spiegel.de
+0.0.0.0 sp-spiegel-de.spiegel.de # Cookienagscreen
+0.0.0.0 widget.civey.com
 
 # Square-enix-games.com & Unterseiten
 0.0.0.0 geoip.id.sqexeu.com # Geodatenerfassung bis auf 10km Umkreis + ipv4
@@ -11504,6 +11511,7 @@ ff02::3 ip6-allhosts
 # Stern.de
 0.0.0.0 commsvc.stern.de # Böse Verbraucher haben Adblocker installiert Hinweis
 0.0.0.0 asset3.stern.de # dazugehörige Grafiken
+0.0.0.0 baseendpoint.stern.de
 0.0.0.0 tracking.gj-mobile-services.de
 # Bei Bedarf einfach Einträge zu damoh/Schneevonmorgen löschen
 0.0.0.0 ssl.1.damoh.aws.stern.de
@@ -16324,6 +16332,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 aff.trackinglibrary.prodperfect.com
 0.0.0.0 affiliates.a2hosting.com
 0.0.0.0 ag.palmtube.net
+0.0.0.0 ahw2lok.txxx.com
 0.0.0.0 anymad.com
 0.0.0.0 api.simply-hentai.com
 0.0.0.0 as.catsnbootsncats2020.com
@@ -16333,12 +16342,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 b.bestcontentprovider.top
 0.0.0.0 b.bestcontentsite.top
 0.0.0.0 b.besttextservice.top
+0.0.0.0 b1173801ac.3081862fe1.com
 0.0.0.0 b2pk.com
 0.0.0.0 badgerstat.com
 0.0.0.0 banners.adultfriendfinder.com
 0.0.0.0 banners.tubeadvertising.eu
 0.0.0.0 banroads.com
 0.0.0.0 bate.cum-shows.net
+0.0.0.0 bbaannrr05.com
 0.0.0.0 bd202457b.com
 0.0.0.0 bngpt.com
 0.0.0.0 bongacams5.com
@@ -16417,6 +16428,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 los.sexymilfspics.com
 0.0.0.0 luckystraffic.com
 0.0.0.0 luyten-98c.com
+0.0.0.0 m.hsrvv.com
 0.0.0.0 martyappear.pro
 0.0.0.0 misslk.com
 0.0.0.0 mmoframes.com
@@ -16442,6 +16454,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.pornnperfect.com
 0.0.0.0 t.easyads29.pro
 0.0.0.0 t.riverhit.com
+0.0.0.0 t.sesefi.xyz
 0.0.0.0 t.simply-hentai.com
 0.0.0.0 teartee.com
 0.0.0.0 thesexscene.com
@@ -16723,14 +16736,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdnegc.trafficfactory.biz
 
 # Tsyndicate.com
-0.0.0.0 pxl.tsyndicate.com
-0.0.0.0 tsyndicate.com
 0.0.0.0 cdn.tsyndicate.com
-0.0.0.0 tsyndicate.com
 0.0.0.0 lcdn.tsyndicate.com
-0.0.0.0 sni.lcdn.tsyndicate.com.fpbns.net
+0.0.0.0 pxl.tsyndicate.com
 0.0.0.0 r-eu.tsyndicate.com
 0.0.0.0 r-us.tsyndicate.com
+0.0.0.0 sni.lcdn.tsyndicate.com.fpbns.net
+0.0.0.0 tsyndicate.com
+0.0.0.0 tsyndicate.com
+0.0.0.0 vcdn.tsyndicate.com
 
 # Wildoncam.com
 0.0.0.0 wildoncam.com
@@ -19221,6 +19235,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bank.reklamstore.com
 0.0.0.0 banner.congstar.de
 0.0.0.0 banners.askmecca.com
+0.0.0.0 baseendpoint.gala.de
 0.0.0.0 basher.ezodn.com
 0.0.0.0 bassets.bigabidserv.com
 0.0.0.0 bb.hdpornpictures.net
@@ -19886,6 +19901,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 edge2-alb.stream.highwebmedia.com
 0.0.0.0 edgesecretion.com
 0.0.0.0 edgystrangleconcentrate.com
+0.0.0.0 edioca.com
 0.0.0.0 edstever.com
 0.0.0.0 effectivelyreport.com
 0.0.0.0 efreecode.com
@@ -20787,6 +20803,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ndt5.net
 0.0.0.0 nereserv.com
 0.0.0.0 neso.r.niwepa.com
+0.0.0.0 nessainy.net
 0.0.0.0 netid.de
 0.0.0.0 neverthelessdepression.com
 0.0.0.0 newdonate.com
@@ -20885,6 +20902,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 opertyvaluat.com
 0.0.0.0 opinandolo.com
 0.0.0.0 opinandolo.com
+0.0.0.0 opositeass.com
 0.0.0.0 opt.q-divisioncdn.de
 0.0.0.0 optimise2.assets-servd.host
 0.0.0.0 oqs.omeda.com
@@ -20896,6 +20914,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 oulukdltobepa.com
 0.0.0.0 oupaumul.net
 0.0.0.0 ourdailystories.com
+0.0.0.0 ourhotfeed.com
 0.0.0.0 outabsola.com
 0.0.0.0 outoctillerytor.com
 0.0.0.0 output.nend.net
@@ -20912,6 +20931,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 oxydend2r5umarb8oreum.com
 0.0.0.0 oyi9f1kbaj.com
 0.0.0.0 p.asoursuls.com
+0.0.0.0 p.co2online.de
 0.0.0.0 p.errorception.com
 0.0.0.0 p.eruon.de # Piwik
 0.0.0.0 p.midserved.com
@@ -20968,12 +20988,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 perfunctoryfrugal.com
 0.0.0.0 permissions-api.1talking.net
 0.0.0.0 pernod-ricard.com
+0.0.0.0 pertyvaluati.com
 0.0.0.0 pettybitternessablebodied.com
 0.0.0.0 peukasrsih.com
 0.0.0.0 pf.entertainow.com
 0.0.0.0 pf1.solvay.com
 0.0.0.0 pghbl1.pubgalaxy.com
 0.0.0.0 pgw.glbpay.com
+0.0.0.0 phallicuncut.com
 0.0.0.0 pheasantcardboardcohort.com
 0.0.0.0 phengung.net
 0.0.0.0 phiab.com
@@ -21177,6 +21199,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qc.galleria-dfs.com
 0.0.0.0 qd.admetricspro.com
 0.0.0.0 qjpdjugacac.com
+0.0.0.0 qlkcrdvbedxxm.com
 0.0.0.0 qlvgvehwzj.com
 0.0.0.0 qmsx.giosis.net
 0.0.0.0 qpxrg.com
@@ -21558,6 +21581,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 statics.a8.net
 0.0.0.0 staticw2.yotpo.com
 0.0.0.0 statistics.11880.com
+0.0.0.0 statistik.co2online.de
 0.0.0.0 stats.administrator.technology
 0.0.0.0 stats.berkman.harvard.edu
 0.0.0.0 stats.dlgamer.com
@@ -21951,6 +21975,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 upgliscorom.com
 0.0.0.0 upgulpinon.com
 0.0.0.0 upsettingcrescentwig.com
+0.0.0.0 uptimecdn.com
 0.0.0.0 upx.provenpixel.com
 0.0.0.0 urban.adspirit.de
 0.0.0.0 urechar.com
@@ -21989,7 +22014,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 va6-bid.adsrvr.org
 0.0.0.0 vast.adsturn.com
 0.0.0.0 vawpro.vm5apis.com
-0.0.0.0 vcdn.tsyndicate.com
 0.0.0.0 vdr.sterlingdatarooms.com
 0.0.0.0 vebadu.com
 0.0.0.0 velocecdn.com
@@ -41658,4 +41682,4 @@ Dying Light 2 Stay Human
 
 # ZOV GAME STUDIO
 # To The Light
-# Google Crashpad 
+# Google Crashpad
