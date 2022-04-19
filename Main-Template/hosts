@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 18.04.2022
+# Änderungsdatum: 19.04.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -492,6 +492,74 @@ ff02::3 ip6-allhosts
 # 5.62.53.221
 0.0.0.0 shepherd.ns1.ff.avast.com
 
+# Avast ONE | Getestet 19.04.2022
+# Info: https://gameindustry.eu/de/blog/avast-eine-unverbesserliche-datensau/
+# 142.250.186.46
+# 142.250.186.78
+# 142.250.185.136
+# 5.62.40.213
+# 5.62.40.214
+# 5.62.40.212
+# 2.16.107.99
+# 184.30.25.22
+# 5.45.61.16
+# 5.62.40.123
+# 2.16.107.41
+# 5.45.62.54
+# 5.62.53.22
+# 5.62.53.53
+# 5.45.62.94
+# 5.62.40.218
+# 5.62.48.207
+# 77.234.42.94
+# 69.94.69.152
+# 5.62.40.212
+# 5.62.40.211
+# 23.213.161.24
+# 23.213.161.24
+# 23.213.161.8
+# 23.213.161.30
+# 69.94.69.206
+# 69.94.69.210
+# 5.62.40.210
+# 77.234.45.249
+# 184.30.25.22
+# 5.62.38.116
+#0.0.0.0 checkout.avast.com # Warenkorb
+#0.0.0.0 d3176133.iavs9x.u.avast.com
+#0.0.0.0 f3461309.iavs9x.u.avast.com
+#0.0.0.0 id.avast.com
+#0.0.0.0 identityprotection.avast.com
+#0.0.0.0 ipm-provider.ff.avast.com # Einkaufsseite
+#0.0.0.0 ipmcdn.avast.com # Logger, CSS, Bilder
+#0.0.0.0 m0658849.iavs9x.u.avast.com
+#0.0.0.0 my-win.avast.com # Consent und Anmeldung
+#0.0.0.0 nos.ns1.ff.avast.com
+#0.0.0.0 openid.avast.com
+#0.0.0.0 r0965026.iavs9x.u.avast.com
+#0.0.0.0 r3802239.vps18tiny.u.avcdn.net
+#0.0.0.0 s-nuistatic.avcdn.net # Updatefile
+#0.0.0.0 y9830512.iavs9x.u.avast.com
+0.0.0.0 alpha-iqs.ff.avast.com
+0.0.0.0 alpha-license-dealer.ff.avast.com
+0.0.0.0 analytics.ff.avast.com
+0.0.0.0 analytics.ns1.ff.avast.com
+0.0.0.0 filerep.ff.avast.com
+0.0.0.0 filerep-replica.ff.avast.com
+0.0.0.0 ip-info.ff.avast.com
+0.0.0.0 luna.avcdn.net
+0.0.0.0 ncc.avast.com # Netzwerkcheck
+0.0.0.0 packet-responder.ff.avast.com
+0.0.0.0 s-install.avcdn.net
+0.0.0.0 shepherd.ff.avast.com
+0.0.0.0 slcw.ff.avast.com # Gateways
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 streamback.ns1.ff.avast.com
+0.0.0.0 su.ff.avast.com
+0.0.0.0 v7.stats.avast.com
+0.0.0.0 v7event.stats.avast.com
+0.0.0.0 www.google-analytics.com
+
 # Babylon
 0.0.0.0 bis.babylon-software.com
 #0.0.0.0 dl.babsft.com # Download Woerterbuecher
@@ -973,7 +1041,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ocsp.comodoca.com.cdn.cloudflare.net
 
 # IDM Computer Solutions, Inc.
-# Ultraedit
+# UltrEdit bis Version 28.10.0.98
+# Ältere Versionen haben alle 20 Minuten einen Callback zu den Lizensierungsservern abgesetzt. Sowohl über IPv4 als auch direkt über die Domänen
 #0.0.0.0 licensing.ultraedit.com # Wie der Name schon sagt, Lizenzüberprüfung
 #0.0.0.0 licensing2.ultraedit.com
 #0.0.0.0 downloads.ultraedit.com # 151.39.242.12 - Updatecheck/Download, Direktdownload https://downloads.ultraedit.com/main/ue/win/ue_german_64.exe
@@ -985,6 +1054,27 @@ ff02::3 ip6-allhosts
 # 208.96.19.88
 0.0.0.0 swupdate.kbcat.com
 0.0.0.0 softwareupdate.ultraedit.com
+0.0.0.0 solo.ultraedit.softwarekey.com
+
+# Idera, Inc.
+# UltraEdit 29.0.0.94
+# Nach der Installation wird eine Thank-You Seite geöffnet und div. Trackingpixel/Cookies werden aktiviert
+0.0.0.0 tracking.g2crowd.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 www.googleadservices.com
+0.0.0.0 q.quora.com
+0.0.0.0 px.ads.linkedin.com
+0.0.0.0 s608.t.eloqua.com
+0.0.0.0 www.google-analytics.com # KontoID: UA-733499-1
+0.0.0.0 www.facebook.com
+0.0.0.0 p.typekit.net
+# UltraEdit Software
+# 66.150.98.71
+# 151.139.242.12
+# 151.139.242.6
+0.0.0.0 www.ultraedit.com
+0.0.0.0 licensing.ultraedit.com
+0.0.0.0 downloads.ultraedit.com
 0.0.0.0 solo.ultraedit.softwarekey.com
 
 # Inmatrix Zoom Player
@@ -1257,6 +1347,27 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ark.mwbsys.com
 #0.0.0.0 cdn.mwbsys.com
 #0.0.0.0 my-device.malwarebytes.com # Token, Lizenz, MaschinenID, Desktopname, Produktart
+# 3.92.247.28
+# 35.170.247.168
+# 108.138.36.64
+# 18.66.248.29
+0.0.0.0 iris.mwbsys.com
+0.0.0.0 idms-device-prod.mwbsys.com
+0.0.0.0 d333241snikpcq.cloudfront.net
+# Telemetrie
+# 34.211.119.126
+# 54.200.94.9
+# 52.26.27.172
+# 44.238.44.211
+# 54.69.250.220
+# 35.160.184.117
+# 52.40.97.40
+# 52.34.28.51
+0.0.0.0 elb-telemetry-prod-external-1332413525.us-west-2.elb.amazonaws.com
+# Hintergrundupload der Dateiscans
+# 108.157.4.62
+# 108.138.36.21
+0.0.0.0 hubble.mb-cosmos.com
 # Endpunkte
 #0.0.0.0 ec2-35-170-247-168.compute-1.amazonaws.com
 #0.0.0.0 ec2-3-208-177-237.compute-1.amazonaws.com
@@ -1264,6 +1375,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ec2-3-92-247-28.compute-1.amazonaws.com
 #0.0.0.0 ec2-35-160-184-117.us-west-2.compute.amazonaws.com
 #0.0.0.0 ocsp.comodoca.com.cdn.cloudflare.net
+0.0.0.0 ec2-54-200-94-9.us-west-2.compute.amazonaws.com
 
 # Marcin Szeniak
 # BCUninstaller
@@ -2332,6 +2444,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s2.2mdn.net
 
 # 33across.com
+# 67.202.105.23
 0.0.0.0 cdn-sic.33across.com
 0.0.0.0 dp1.33across.com
 0.0.0.0 dp2.33across.com
@@ -2605,6 +2718,7 @@ ff02::3 ip6-allhosts
 
 # Adnxs | Appnexus, Inc. | AT&T
 # ×-37.252.173.27
+# 185.33.221.91
 0.0.0.0 acdn.adnxs.com
 0.0.0.0 adscale-emea.adnxs.com
 0.0.0.0 ams1-ib.adnxs.com
@@ -3034,6 +3148,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 rzo3x4xwx9ny.l4.adsco.re
 0.0.0.0 rzo3x4xwx9ny.n4.adsco.re
 0.0.0.0 rzo3x4xwx9ny.s4.adsco.re
+0.0.0.0 t6d2ttazpd4x.l4.adsco.re
+0.0.0.0 t6d2ttazpd4x.n4.adsco.re
+0.0.0.0 t6d2ttazpd4x.s4.adsco.re
 0.0.0.0 taratsqigc12.l4.adsco.re
 0.0.0.0 taratsqigc12.n4.adsco.re
 0.0.0.0 taratsqigc12.s4.adsco.re
@@ -3867,7 +3984,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 appleboobs.com
 
 # Appnexus
+# 151.101.113.108
 0.0.0.0 console.appnexus.com # Konfiguration für prebid
+0.0.0.0 prod.appnexus.map.fastly.net
 
 # Apprupt.com
 0.0.0.0 cv.apprupt.com
@@ -4351,6 +4470,7 @@ ff02::3 ip6-allhosts
 # Cleverpush | Pushnachrichten
 0.0.0.0 api-eu.cleverpush.com
 0.0.0.0 api.cleverpush.com
+0.0.0.0 heise.cleverpush.com
 0.0.0.0 lecker.cleverpush.com
 0.0.0.0 pcgames.mycleverpush.com
 0.0.0.0 production.cleverpush.com
@@ -4443,9 +4563,11 @@ ff02::3 ip6-allhosts
 # 104.18.20.226
 # 104.18.21.226
 # 104.18.31.182
+# 104.17.119.107
 #0.0.0.0 cdn.globalsigncdn.com.cdn.cloudflare.net
 #0.0.0.0 ocsp.comodoca.com.cdn.cloudflare.net
 0.0.0.0 a.nel.cloudflare.com
+0.0.0.0 biddr.brealtime.com.cdn.cloudflare.net
 0.0.0.0 cdn.bncloudfl.com.cdn.cloudflare.net
 0.0.0.0 cookie.brealtime.com.cdn.cloudflare.net
 0.0.0.0 prodlb.siteintercept.qualtrics.com.cdn.cloudflare.net
@@ -4644,6 +4766,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tag.crsspxl.com
 
 # Crwdcntrl.net
+# 18.202.123.28
 0.0.0.0 ad.crwdcntrl.net
 0.0.0.0 bcp.crwdcntrl.net
 0.0.0.0 id.crwdcntrl.net
@@ -4836,6 +4959,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ams04-login-ds.dotomi.com
 0.0.0.0 ams04-usadmm-ds.dotomi.com
 0.0.0.0 aol-match.dotomi.com
+0.0.0.0 bfp.global.dual.dotomi.weighted.com.akadns.net
 0.0.0.0 casale-match.dotomi.com
 0.0.0.0 cj.dotomi.com
 0.0.0.0 dp-sync.dotomi.com
@@ -5115,15 +5239,16 @@ ff02::3 ip6-allhosts
 
 # Exelator
 # 147.75.102.200
+0.0.0.0 load-ams1.exelator.com
+0.0.0.0 load-euw1.exelator.com
+0.0.0.0 load-fra2.exelator.com
+0.0.0.0 load.ams1.exelator.com
+0.0.0.0 load77.exelator.com
+0.0.0.0 loada.exelator.com
+0.0.0.0 loadeu.exelator.com
 0.0.0.0 loadm.exelator.com
 0.0.0.0 loadr.exelator.com
 0.0.0.0 loadus.exelator.com
-0.0.0.0 loadeu.exelator.com
-0.0.0.0 load77.exelator.com
-0.0.0.0 load.ams1.exelator.com
-0.0.0.0 load-fra2.exelator.com
-0.0.0.0 loada.exelator.com
-0.0.0.0 load-ams1.exelator.com
 
 # Exoclick
 0.0.0.0 a.exoclick.com
@@ -5751,6 +5876,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 1152e3b5.de.ioam.de
 0.0.0.0 127346da.de.ioam.de
 0.0.0.0 21b154d0.de.ioam.de
+0.0.0.0 24242573.de.ioam.de
 0.0.0.0 2f832640.de.ioam.de
 0.0.0.0 469334c4.de.ioam.de
 0.0.0.0 559bd593.de.ioam.de
@@ -7396,6 +7522,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 prebid.pub.network
 
 # Pubmatic | Onlinewerbung
+# 185.64.190.80
+# 198.47.127.18
+# 198.47.127.20
+# 185.64.190.78
 0.0.0.0 ads.pubmatic.com
 0.0.0.0 aktrack.pubmatic.com
 0.0.0.0 aud-lhr.pubmatic.com
@@ -7408,6 +7538,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 image6.pubmatic.com
 0.0.0.0 image8.pubmatic.com
 0.0.0.0 imagesync22000nf.pubmatic.com
+0.0.0.0 imgsync-amsfpairb.pubmatic.com
 0.0.0.0 lyr.pubmatic.com
 0.0.0.0 pug-lhr.pubmatic.com
 0.0.0.0 pug22000nf.pubmatic.com
@@ -7417,6 +7548,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 simage2.pubmatic.com
 0.0.0.0 simage4.pubmatic.com
 0.0.0.0 simage6.pubmatic.com
+0.0.0.0 spug-amsfpairb.pubmatic.com
 0.0.0.0 spug-lhr.pubmatic.com
 0.0.0.0 spug22000nf.pubmatic.com
 0.0.0.0 sshowads.pubmatic.com
@@ -7474,6 +7606,7 @@ ff02::3 ip6-allhosts
 # 91.228.74.226
 # 91.228.74.189
 # 91.228.74.133
+# 91.228.74.136
 # usw
 0.0.0.0 cms.quantserve.com
 0.0.0.0 edge.quantserve.com
@@ -8532,6 +8665,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mt.rtmark.net
 
 # Rubiconproject
+# 69.173.144.143
 0.0.0.0 ads.rubiconproject.com
 0.0.0.0 beacon-eu2.rubiconproject.com
 0.0.0.0 beacon-fra2.rubiconproject.com
@@ -8770,11 +8904,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 blog.similarweb.com
 
 # Simpli.fi
+# 159.122.14.34
 0.0.0.0 adspreview.simpli.fi
 0.0.0.0 cdn-simpli-fi.s3-accelerate.amazonaws.com
 0.0.0.0 centralads.simpli.fi
 0.0.0.0 eastads.simpli.fi
 0.0.0.0 i.simpli.fi
+0.0.0.0 nl1ads3.simpli.fi
 0.0.0.0 um.simpli.fi
 0.0.0.0 westads.simpli.fi
 
@@ -8849,6 +8985,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 nt.smartclick.net
 
 # Smartclip.net
+# 35.186.194.101
 0.0.0.0 ad-ipd.sxp.smartclip.net
 0.0.0.0 ad.sxp.smartclip.net
 0.0.0.0 bid.sxp.smartclip.net
@@ -9121,8 +9258,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 delivery.swid.switchadhub.com
 
 # t.co
-# Ip/s blockieren:
-# 104.244.42.133
 # Weiterleitung, Referal/Trackingpixel, Pageview - z.B. /adsct?p_id=Twitter&p_user_id=x&txn_id=o5pwu&pageview=xx&tw_document_href=xxx&utm_campaign=xxx
 # adsct?type=javascript&version=2.0.4&p_id=Twitter&p_user_id=0&txn_id=nvytt&events=%5B%5B%22pageview%22%2Cnull%5D%5D&tw_sale_amount=0&tw_order_quantity=0&tw_iframe_status=0&event_id=xxxx&tw_document_href=https%3A%2F%2Fxxxx.com%2Forganization%2Fwikia 1x1
 0.0.0.0 t.co
@@ -9132,11 +9267,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 t4ft.de
 
 # Taboola.com | Werbung, Publikumsaustausch
+# Ip/s blockieren:
+# 141.226.228.48
 0.0.0.0 15.taboola.com
 0.0.0.0 actions-am.taboola.com
 0.0.0.0 am-match.taboola.com
 0.0.0.0 am-trc-events.taboola.com
 0.0.0.0 am-vid-events.taboola.com
+0.0.0.0 am-vip001.taboola.com
 0.0.0.0 am-wf.taboola.com
 0.0.0.0 api-s2s.taboola.com
 0.0.0.0 c2.taboola.com
@@ -9427,6 +9565,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 video.unrulymedia.com
 
 # Upscore.com
+# 168.119.117.164
+# 104.22.3.110
+# 172.67.11.176
 0.0.0.0 content.upscore.com
 0.0.0.0 cr_stats.upscore.com
 0.0.0.0 files.upscore.com
@@ -9586,6 +9727,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 vogel.met.vgwort.de
 0.0.0.0 weka.met.vgwort.de
 0.0.0.0 zeit.met.vgwort.de
+
+# VI-Serve
+0.0.0.0 nv.vi-serve.com
+0.0.0.0 s.vi-serve.com
+0.0.0.0 t.vi-serve.com
+0.0.0.0 vis.vi-serve.com
 
 # Vice
 0.0.0.0 advice-ads-cdn.vice.com
@@ -10222,6 +10369,7 @@ ff02::3 ip6-allhosts
 # Symantec.com
 # 23.52.27.27
 # 93.184.220.29
+# 23.37.43.27
 0.0.0.0 ts-crl.ws.symantec.com
 0.0.0.0 ts-ocsp.ws.symantec.com
 0.0.0.0 evcs-crl.ws.symantec.com
@@ -13365,7 +13513,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 doc-14-1s-docs.googleusercontent.com
 #0.0.0.0 googlehosted.l.googleusercontent.com
 
-# Google Endpunkte
+# Google Endpunkte - Beispiele
 0.0.0.0 fra24s08-in-f4.1e100.net
 0.0.0.0 fra24s07-in-f3.1e100.net
 0.0.0.0 fra24s12-in-f19.1e100.net
@@ -13511,6 +13659,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 17c11764c8e58ffd607e9f6442c3f7d8.safeframe.googlesyndication.com
 0.0.0.0 194a1ebc0c678b5676881c7161aa8d91.safeframe.googlesyndication.com
 0.0.0.0 19e3e61f29560ba81e930bc43da595db.safeframe.googlesyndication.com
+0.0.0.0 1a19f16a4a09399c42de610deb053d33.safeframe.googlesyndication.com
 0.0.0.0 1a5f5c822f476315783b32524dd2e951.safeframe.googlesyndication.com
 0.0.0.0 1b68e5727e05d7baa06617125450c754.safeframe.googlesyndication.com
 0.0.0.0 1b9db85f5d5f15808f584768e4f4474d.safeframe.googlesyndication.com
@@ -13999,7 +14148,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dual-a-0001.a-msedge.net
 0.0.0.0 dw8wjz3q0i4gj.cloudfront.net
 0.0.0.0 exo-ring.msedge.net
-0.0.0.0 fp-afd.azureedge.net
 0.0.0.0 fp-afd.azureedge.net
 0.0.0.0 fp-as.azureedge.net # Trackingpixel
 0.0.0.0 fp-vp.azureedge.net
@@ -15927,13 +16075,20 @@ ff02::3 ip6-allhosts
 # 204.79.197.203
 #0.0.0.0 www.msn.com
 
-# Microsoft Edge | Version 92.0.902.78+ | 20.08.2021
+# Microsoft Edge | Version 100.0.1185.44+ | 19.04.2022
+0.0.0.0 aefd.nelreports.net
+0.0.0.0 api.edgeoffer.microsoft.com # Werbung
 0.0.0.0 browser.events.data.microsoft.com # Eventtracking
-0.0.0.0 f.clarity.ms # Collect
-0.0.0.0 srtb.msn.com # Auctionscript mit Verweis auf Taboola, Pubmatic u.a. Mist
-0.0.0.0 www.clarity.ms # Tagging
 0.0.0.0 c.bing.com # Trackingpixel
 0.0.0.0 c.msn.com # Trackingpixel
+0.0.0.0 config.edge.skype.com # Tracking - Installationszeit, AnwenderID, Betriebssystem, Desktop
+0.0.0.0 deff.nelreports.net
+0.0.0.0 f.clarity.ms # Collect
+0.0.0.0 r.msftstatic.com
+0.0.0.0 srtb.msn.com # Auctionscript mit Verweis auf Taboola, Pubmatic u.a. Mist
+0.0.0.0 substrate.office.com
+0.0.0.0 target.microsoft.com
+0.0.0.0 www.clarity.ms # Tagging
 
 # Microsoft Internet Explorer
 0.0.0.0 otf.msn.com # Trackingpixel
@@ -19231,6 +19386,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 baipagid.com
 0.0.0.0 baiweluy.com
 0.0.0.0 bal.ad.dotandad.com
+0.0.0.0 balancer.hazota.eu
 0.0.0.0 baletingo.com
 0.0.0.0 bank.reklamstore.com
 0.0.0.0 banner.congstar.de
@@ -19350,6 +19506,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cache-ssl.celtra.com
 0.0.0.0 cafefame.com
 0.0.0.0 caiteesh.net
+0.0.0.0 call.inforsea.com
 0.0.0.0 call.netzathleten-media.de
 0.0.0.0 calm-cabbage-a9umxyb6jlwq9ypiv5av5m12.herokudns.com
 0.0.0.0 campaign.bet3000.com
@@ -20161,6 +20318,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 getscriptjs.com
 0.0.0.0 gew1-spclient.spotify.com
 0.0.0.0 gew1-spclient.spotify.com
+0.0.0.0 gexcellerno.com
 0.0.0.0 gfstrck.com
 0.0.0.0 gft2.de
 0.0.0.0 ghb.aplhb.adipolo.com
@@ -20840,6 +20998,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ns-dnstest.spyoff.com
 0.0.0.0 ns1.secure.footprint.net
 0.0.0.0 nstarvardsus.com
+0.0.0.0 ntlysearchin.com
 0.0.0.0 ntvpevnts.com
 0.0.0.0 ntvpinp.com
 0.0.0.0 ntvpwpush.com
@@ -21044,6 +21203,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pixel-a.basis.net
 0.0.0.0 pixel.adacado.com
 0.0.0.0 pixel.consentric.de
+0.0.0.0 pixel.inforsea.com
 0.0.0.0 pixel.ionos.de
 0.0.0.0 pixel.placed.com
 0.0.0.0 pixel.pzkie.com
@@ -21072,6 +21232,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 player.adtcdn.com
 0.0.0.0 player.aplhb.adipolo.com
 0.0.0.0 player.avplayer.com
+0.0.0.0 player.inforsea.com
 0.0.0.0 player1.mixpo.com
 0.0.0.0 player2.mixpo.com
 0.0.0.0 playerservices.live.streamtheworld.com
