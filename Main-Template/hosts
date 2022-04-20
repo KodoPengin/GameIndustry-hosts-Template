@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 19.04.2022
+# Änderungsdatum: 20.04.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -2277,13 +2277,15 @@ ff02::3 ip6-allhosts
 
 # WiseCleaner.com
 # Wise Care 365
-# 66.148.112.198
-# 66.148.112.48
+# 23.224.25.141
 0.0.0.0 www.wisecleaner.net # Aufnahme der Benutzer-GUID, Supportfunktion ebenfalls unter der Adresse
+# 104.26.3.143
 0.0.0.0 www.wisecleaner.com # Versions/Updatecheck und News
 0.0.0.0 downloads.wisecleaner.com # Download Updates und Dienstprogramme
-0.0.0.0 info.wisecleaner.com
-0.0.0.0 reg.wisecleaner.com # Registrierung -> EMail, Seriennummer
+# 172.67.68.11
+0.0.0.0 info.wisecleaner.com # News
+# 43.135.180.235
+0.0.0.0 reg.wisecleaner.com # Registrierung -> EMail, Vor/Nachname, ItemID, Seriennummer, Version
 
 # Wondershare Technology Co., Ltd.
 # PDFelement, UniConverter 13, Filmora usw
@@ -11216,8 +11218,10 @@ ff02::3 ip6-allhosts
 
 # Kurier.at
 0.0.0.0 at.iocnt.net
-0.0.0.0 script-at.iocnt.net
+0.0.0.0 flo.uri.sh
 0.0.0.0 irqs.iocnt.net
+0.0.0.0 public.flourish.studio
+0.0.0.0 script-at.iocnt.net
 
 # Lego.com & de
 0.0.0.0 npssurveyinvite.services.lego.com
