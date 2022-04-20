@@ -1072,10 +1072,10 @@ ff02::3 ip6-allhosts
 # 66.150.98.71
 # 151.139.242.12
 # 151.139.242.6
-0.0.0.0 www.ultraedit.com
-0.0.0.0 licensing.ultraedit.com
-0.0.0.0 downloads.ultraedit.com
-0.0.0.0 solo.ultraedit.softwarekey.com
+#0.0.0.0 www.ultraedit.com
+#0.0.0.0 licensing.ultraedit.com
+#0.0.0.0 downloads.ultraedit.com
+#0.0.0.0 solo.ultraedit.softwarekey.com
 
 # Inmatrix Zoom Player
 # 69.56.182.222
