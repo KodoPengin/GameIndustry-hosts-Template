@@ -94,7 +94,7 @@ Vorsichtig mit der Verwendung von Einträgen. Einige Einträge sind je nach Anwe
 Auch ich bin nicht perfekt und es können sich falsche Einträge oder Rechtschreibfehler einschleichen. Wenn dies der Fall ist, zögere nicht, mich so schnell wie möglich zu kontaktieren - Bitte eröffne ein Ticket, kontaktiere mich in Steam oder über meine Website. Korrekturen (wenn nötig) werden schnell umgesetzt.
 
 ## 🔖 Unterstützung:
-Für Menschen die mich und mein Projekt unterstützen möchten wurde eine <a href="https://gameindustry.eu/de/donations/">Spednenseite</a> eingerichtet. 
+Für Menschen die mich und mein Projekt unterstützen möchten wurde eine <a href="https://gameindustry.eu/de/donations/">Spendenseite</a> eingerichtet. 
 
 ## © Copyright, Support & Lizenz
 Hinter dem Projekt steht nur eine Person. Die Erstellung und Pflege der Listen hat mehrere Jahre und viel Geld gekostet und wurde von Grund auf aus dem Nichts aufgebaut.<br><br>
