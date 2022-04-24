@@ -94,7 +94,7 @@ Vorsichtig mit der Verwendung von Einträgen. Einige Einträge sind je nach Anwe
 Auch ich bin nicht perfekt und es können sich falsche Einträge oder Rechtschreibfehler einschleichen. Wenn dies der Fall ist, zögere nicht, mich so schnell wie möglich zu kontaktieren - Bitte eröffne ein Ticket, kontaktiere mich in Steam oder über meine Website. Korrekturen (wenn nötig) werden schnell umgesetzt.
 
 ## 🔖 Unterstützung:
-<a href='https://ko-fi.com/gameindustry' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png' border='0' alt='Spendiert mit einen Kaffee unter ko-fi.com' />
+Für Menschen die mich und mein Projekt unterstützen möchten wurde eine <a href="https://gameindustry.eu/de/donations/">Spednenseite</a> eingerichtet. 
 
 ## © Copyright, Support & Lizenz
 Hinter dem Projekt steht nur eine Person. Die Erstellung und Pflege der Listen hat mehrere Jahre und viel Geld gekostet und wurde von Grund auf aus dem Nichts aufgebaut.<br><br>
