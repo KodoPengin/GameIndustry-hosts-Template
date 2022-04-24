@@ -96,7 +96,7 @@ Careful with using entries. Some may be strict and many services may not work
 Even me is not perfect and there may be wrong entries or spelling mistakes. If so, do not hesitate to contact me ASAP - Please open a ticket, contact me in Steam or about my website. Corrections (if needed) are quickly implemented.
 
 ## 🔖 Donations:
-<a href='https://ko-fi.com/gameindustry' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+For people who want to support me and my project a <a href="https://gameindustry.eu/de/donations/">donation page</a> has been set up.
 
 ## © Copyright, Support & License
 There is only one person behind the entire project. Creating and maintaining the list has taken several years a lot of money and have build alone from scratch.<br><br>
