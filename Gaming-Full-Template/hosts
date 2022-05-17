@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 12.05.2022
+# Änderungsdatum: 17.05.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -700,6 +700,12 @@ ff02::3 ip6-allhosts
 # Seit Version 1637358733 inaktiv
 # Steam: Captive Portal und Google
 0.0.0.0 gstatic.com
+# Neuer Versuch mit Callbacks seit Clientversion 1652399523 - IPv4 nicht vollständig
+# 95.101.27.151
+# 2.16.107.155
+# 23.213.161.93
+# 23.213.161.77
+0.0.0.0 test.steampowered.com # /204
 
 # Steam: Anmeldeserver | https und wss Protokoll
 # 155.133.252.39
@@ -2055,14 +2061,6 @@ ff02::3 ip6-allhosts
 # 505 Games
 # Abzû
 # s. Rubrik Kopierschutz / AntiCheat
-
-# Bloodstained: Ritual of the Night
-# Ip/s blockieren:
-# 18.233.90.22
-# 52.4.127.66
-0.0.0.0 datarouter.ol.epicgames.com
-0.0.0.0 datarouter-weighted.ol.epicgames.com
-0.0.0.0 ec2-18-233-90-22.compute-1.amazonaws.com
 
 # Control
 # Ip/s blockieren:
@@ -9651,7 +9649,7 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
-# Io-Interactive A/S
+# IO INTERACTIVE A/S
 # HITMAN™
 #0.0.0.0 config.hitman.io # Konfiguration
 #0.0.0.0 auth.hitman.io # Übergreifende Authentifizierung
@@ -9674,6 +9672,31 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 0.0.0.0 dc.services.visualstudio.com
 0.0.0.0 az416426.vo.msecnd.net # Application Insights
 #0.0.0.0 account.ioi.dk # Texte nur in Englisch
+
+# Hitman 3
+# 20.105.216.4
+# 20.50.2.67
+# 20.150.42.196
+# 20.60.223.36
+# 20.50.2.75
+# 20.50.64.10
+# 20.101.99.94
+#0.0.0.0 config.hitman.io # Fehlermeldungen
+#0.0.0.0 dev-auth.hitman.io # Platform Entitlements
+#0.0.0.0 iohm3prodstorage.blob.core.windows.net
+#0.0.0.0 iohmconfigprodstorage.blob.core.windows.net
+#0.0.0.0 auth.hitman.io
+0.0.0.0 hm3-metrics.hitman.io # Telemetrie :
+#0.0.0.0 hm3-service.hitman.io # Userconfig, Save, Dashboard UI, Aufträge usw
+0.0.0.0 dkcdc01.corp.ioi.dk
+# Endpunkte
+#0.0.0.0 waws-prod-am2-533-159b.westeurope.cloudapp.azure.com
+#0.0.0.0 waws-prod-am2-463-f8d1.westeurope.cloudapp.azure.com
+#0.0.0.0 blob.ams07prdstr09a.store.core.windows.net
+#0.0.0.0 blob.ams24prdstr03a.store.core.windows.net
+#0.0.0.0 waws-prod-am2-475-f207.westeurope.cloudapp.azure.com
+#0.0.0.0 iohm3sfprodcsp.westeurope.cloudapp.azure.com
+0.0.0.0 waws-prod-db3-183-323c.northeurope.cloudapp.azure.com
 
 # IonFX Studios
 # Miasmata
@@ -11569,10 +11592,60 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 # Movie Games S.A. & HeartBeat Games
 # Gas Station Simulator
 # Weitere Adressen unter https://gameindustry.eu/de/firmenkatalog/epic-games-inc/
-# Ip/s blockieren:
-# 54.87.107.53
-0.0.0.0 datarouter-weighted.ol.epicgames.com
-0.0.0.0 ec2-54-87-107-53.compute-1.amazonaws.com
+# 162.159.135.234
+# 162.159.136.232
+# 157.240.27.27
+# 157.240.27.35
+# 31.13.64.21
+# 31.13.64.17
+# 157.240.27.35
+# 157.240.223.174
+# 157.240.223.15
+# 104.244.42.1
+# 152.199.21.141
+# 104.244.43.131
+# 199.232.136.159
+# 192.229.220.133
+# 104.244.42.133
+# 104.244.42.66
+# 142.250.185.205
+# 2.23.76.254
+# 172.217.16.131
+# 104.117.196.12
+# 104.117.200.54
+# 172.217.23.99
+# 34.96.122.219
+# 142.250.181.234
+# 18.66.127.89
+# 23.111.9.57
+#0.0.0.0 discord.gg
+#0.0.0.0 discord.com
+0.0.0.0 static.xx.fbcdn.net
+0.0.0.0 www.facebook.com
+0.0.0.0 scontent-amt2-1.xx.fbcdn.net
+0.0.0.0 video-amt2-1.xx.fbcdn.net
+0.0.0.0 edge-star-mini-shv-01-dus1.facebook.com
+0.0.0.0 www.instagram.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 xx-fbcdn-shv-01-muc2.fbcdn.net
+0.0.0.0 instagram-p42-shv-01-muc2.fbcdn.net
+#0.0.0.0 twitter.com
+#0.0.0.0 abs.twimg.com
+#0.0.0.0 abs-0.twimg.com
+#0.0.0.0 pbs.twimg.com
+#0.0.0.0 video.twimg.com
+#0.0.0.0 t.co
+#0.0.0.0 api.twitter.com
+#0.0.0.0 accounts.google.com
+#0.0.0.0 appleid.cdn-apple.com
+#0.0.0.0 fonts.gstatic.com
+#0.0.0.0 eepurl.com
+#0.0.0.0 drago-entertainment.us18.list-manage.com
+#0.0.0.0 www.gstatic.com
+#0.0.0.0 ajax.googleapis.com
+0.0.0.0 cdn-images.mailchimp.com
+#0.0.0.0 twemoji.maxcdn.com
+#0.0.0.0 mcusercontent.com
 
 # Movie Games S.A. & PlayWay S.A.
 # Lust for Darkness
@@ -13294,6 +13367,19 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 
 # Project Moon
 # Lobotomy Corporation | Monster Management Simulation
+# Ip/s blockieren:
+# 35.186.194.186
+# 35.241.26.53
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -14350,70 +14436,94 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 #0.0.0.0 s2.googleusercontent.com
 
 # Total War: Three Kingdoms
-# Launcher.exe
+# 255.255.255.255
 # 45.60.47.160
-0.0.0.0 hull.sgaas.net # IP Adresse, Sprache, Zeitzone
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 launcher-v3.totalwar.com # Werbung verbunden mit Youtube
-0.0.0.0 w8yywdf.x.incapdns.net
-0.0.0.0 launcher-analytics.totalwar.com
-0.0.0.0 launcher-v3-content.totalwar.com
-# Google LLC Spyware
-# Ip/s blockieren:
-# 172.217.22.6
-# 172.217.16.134
-# 172.217.18.98
-# 172.217.21.226
-0.0.0.0 static.doubleclick.net # Instream Werbung mit Cookie und eindeutiger ID
-0.0.0.0 static-doubleclick-net.l.google.com
-0.0.0.0 googleads.g.doubleclick.net # Cookie
-0.0.0.0 pagead46.l.doubleclick.net
-# Google Diverses
-#0.0.0.0 fonts.gstatic.com
-# Youtube
-# 172.217.18.174
-# 172.217.18.118
-# 172.217.21.238
-#0.0.0.0 www.youtube.com # mit Logevent
-#0.0.0.0 yt3.ggpht.com
-#0.0.0.0 www.google.com
-#0.0.0.0 i.ytimg.com
-#0.0.0.0 i1.ytimg.com
-# s. Rubrik Kopierschutz / AntiCheat
-# Three_Kingdoms.exe
-# Ip/s blockieren:
-# 34.252.170.86
-# 52.208.8.45
-0.0.0.0 garry.sgaas.net # Sega Spyware
-0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
+# 13.35.125.88
+# 54.72.150.84
+# 63.35.76.112
+# 54.72.248.64
+# 92.122.104.90
+# 63.33.167.102
+# 54.171.209.26
+# 52.51.106.62
+# 54.72.220.34
+# 52.17.173.247
+# 52.208.190.137
+# 52.49.218.253
+# 52.18.94.153
+# 54.194.195.183
+# 52.49.61.71
+# 54.194.50.111
+# 34.249.85.169
+# 104.16.125.175
+# 108.157.4.60
+# 142.250.185.202
+# 142.250.179.200
+# 108.157.4.39
+# 80.75.66.243
+# 151.101.114.137
+# 162.247.243.147
+# 142.250.185.110
+# 199.232.137.140
+# 104.126.37.160
+# 142.250.186.98
+# 199.232.136.157
+# 199.232.137.140
+# 142.250.102.155
+# 142.250.186.66
+# 204.79.197.200
+# 104.244.42.67
+# 104.244.42.5
+# 23.32.239.8
+# 3.125.60.219
+# 142.250.179.195
+# 142.250.186.36
+# 52.142.114.2
+# 40.90.65.6
+# 52.59.8.244
+# 20.84.22.197
+# 204.79.197.200
+# 157.240.14.19
+# 157.240.14.35
+0.0.0.0 hull.sgaas.net
+0.0.0.0 garry.sgaas.net
 0.0.0.0 c2ecc2d3-20bf-412f-aa71-7311aa27a2be.totalwar.com
-0.0.0.0 c2ecc2d3-20bf-412f-aa71-7311aa27a2be.eu-west-1.elasticbeanstalk.com
-# Hilfeseiten
-# Ip/s blockieren:
-# 216.58.206.8
-# 104.16.124.175
-# 151.101.38.110
-# 23.64.230.197
-# 162.247.242.21
-# 82.199.68.73
-# 66.233.166.155
-# 173.194.76.157
-# 173.194.76.156
-#0.0.0.0 academy.totalwar.com
+#0.0.0.0 www.totalwar.com
 #0.0.0.0 content.totalwar.com
+#0.0.0.0 srv01.codefusion.technology
+#0.0.0.0 srv02.codefusion.technology
+#0.0.0.0 srv03.codefusion.technology
+#0.0.0.0 support.codefusion.technology
+0.0.0.0 academy.totalwar.com
+#0.0.0.0 unpkg.com
+#0.0.0.0 cdn.jsdelivr.net
+#0.0.0.0 fonts.googleapis.com
 0.0.0.0 www.googletagmanager.com
-#0.0.0.0 unpkg.com # Grafik/Scriptablage auch für andere Ressourcen
-#0.0.0.0 maxcdn.bootstrapcdn.com
+0.0.0.0 cc.cdn.civiccomputing.com
+0.0.0.0 apikeys.civiccomputing.com
 0.0.0.0 js-agent.newrelic.com
-0.0.0.0 secure-ds.serving-sys.com
+0.0.0.0 bam-cell.nr-data.net
+0.0.0.0 www.google-analytics.com
+#0.0.0.0 www.redditstatic.com
+0.0.0.0 analytics.tiktok.com
+0.0.0.0 www.googleadservices.com
+0.0.0.0 static.ads-twitter.com
+0.0.0.0 alb.reddit.com
 0.0.0.0 stats.g.doubleclick.net
-0.0.0.0 bam.nr-data.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 bat.bing.com
+0.0.0.0 analytics.twitter.com
+0.0.0.0 t.co
+0.0.0.0 secure-ds.serving-sys.com
+0.0.0.0 lm.serving-sys.com
+#0.0.0.0 www.google.nl # Toplevel nach Anwenderstandort
+#0.0.0.0 www.google.com
+0.0.0.0 c.clarity.ms
+0.0.0.0 f.clarity.ms
+0.0.0.0 www.clarity.ms
+0.0.0.0 connect.facebook.net
+0.0.0.0 www.facebook.com
+0.0.0.0 c.bing.com
 0.0.0.0 bs.serving-sys.com
 
 # Total War: WARHAMMER II
@@ -16946,8 +17056,43 @@ Dying Light 2 Stay Human
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+
+# Source of Madness
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 104.18.37.23
+# 54.188.160.157
+# 52.36.32.155,44.235.27.111
+# 52.34.71.244
+# 52.43.14.212
+# 52.12.148.140
+# 52.36.32.155
+0.0.0.0 c195e.playfabapi.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
+0.0.0.0 ec2-52-12-148-140.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-44-235-27-111.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-52-12-148-140.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-52-34-71-244.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-52-43-14-212.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-52-36-32-155.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-54-188-160-157.us-west-2.compute.amazonaws.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 c195e.playfabapi.com
 
 # Tin Man Games
 # The Warlock of Firetop Mountain
