@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 17.05.2022
+# Änderungsdatum: 08.06.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -749,6 +749,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 CM05-IAD.cm.steampowered.com # Sterling
 #0.0.0.0 cm1-ams1.cm.steampowered.com # Amsterdam
 #0.0.0.0 cm1-dfw1.cm.steampowered.com # Dallas
+#0.0.0.0 cm1-eze1.cm.steampowered.com
+#0.0.0.0 cm1-fra1.cm.steampowered.com
 #0.0.0.0 cm1-fra1.cm.steampowered.com
 #0.0.0.0 cm1-fra2.cm.steampowered.com
 #0.0.0.0 cm1-gru1.cm.steampowered.com # Sao Paulo
@@ -767,6 +769,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cm2-ord1.cm.steampowered.com
 #0.0.0.0 cm2-sea1.cm.steampowered.com # Seattle
 #0.0.0.0 cm2-sgp1.cm.steampowered.com # Singapur
+#0.0.0.0 cm2-sto2.cm.steampowered.com
 #0.0.0.0 cm2-syd1.cm.steampowered.com
 #0.0.0.0 cm2-vie1.cm.steampowered.com
 #0.0.0.0 cm3-ams1.cm.steampowered.com
@@ -777,10 +780,11 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cm4-lax1.cm.steampowered.com
 #0.0.0.0 cm5-ams1.cm.steampowered.com
 #0.0.0.0 cm5-lax1.cm.steampowered.com
+#0.0.0.0 cm5-sto1.cm.steampowered.com
 #0.0.0.0 cm6-ams1.cm.steampowered.com
 #0.0.0.0 cm6-lax1.cm.steampowered.com
 #0.0.0.0 cm6-ord1.cm.steampowered.com
-#0.0.0.0 cm1-eze1.cm.steampowered.com
+#0.0.0.0 cm6-sto1.cm.steampowered.com
 
 # Steam: API
 # 2.16.212.48
@@ -1284,6 +1288,7 @@ ff02::3 ip6-allhosts
 
 # Denuvo Anti-Tamper
 # Anwendungsschutz, Schutz gegen Manipulation und Kopierschutz
+# 54.155.108.137
 # 54.72.150.84
 # 63.35.76.112
 # 54.72.248.64
@@ -2965,7 +2970,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cdn.auth0.com
 0.0.0.0 ctep.aspyr.com
 #0.0.0.0 aspyrmedia.auth0.com
-0.0.0.0 cdnjs.cloudflare.com
+#0.0.0.0 cdnjs.cloudflare.com
 
 # Lightmatter
 # 44.238.95.17
@@ -3444,6 +3449,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 fra15s29-in-f3.1e100.net
 0.0.0.0 ams15s22-in-f163.1e100.net
 
+# Dragon Ball FighterZ
+# s. Rubrik Kopierschutz / AntiCheat
+# 52.71.192.238
+# 34.226.53.203
+# 52.22.102.85
+0.0.0.0 datarouter.ol.epicgames.com
+# Multiplayer
+# 18.179.137.45
+#0.0.0.0 dbf.channel.or.jp
+
 # Dragon Ball Xenoverse II
 #0.0.0.0 steam.dbxv.jp
 
@@ -3530,6 +3545,11 @@ ff02::3 ip6-allhosts
 # s. Rubrik Kopierschutz / AntiCheat
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
+
+# ワンピース ワールドシーカー | ONE PIECE World Seeker
+# 35.186.241.36
+0.0.0.0 cosmos.channel.or.jp
+0.0.0.0 36.241.186.35.bc.googleusercontent.com
 
 # スカーレットネクサス | Scarlet Nexus
 # Ip/s blockieren:
@@ -13609,6 +13629,40 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 #0.0.0.0 nephelus-v1.rebellion.co.uk
 0.0.0.0 launcher-content.rebellion.co.uk
 
+# Sniper Elite 5
+# 104.22.18.90
+# 52.211.245.30
+# 139.59.199.85
+# 46.101.64.59
+# 18.66.139.115
+# 52.202.150.242
+# 54.146.169.10
+# 3.212.5.75
+# 52.20.133.164
+# 52.72.49.203
+# 52.5.97.184
+# 23.22.12.38
+# 67.207.68.69
+# 172.67.13.93
+# 93.184.220.29
+# s. Rubrik Kopierschutz / AntiCheat
+0.0.0.0 launcher-content.rebellion.co.uk
+0.0.0.0 nephelus.rebellion.net
+0.0.0.0 athena.rebellion.net
+0.0.0.0 storage.rebellion.net
+0.0.0.0 hermes.rebellion.net
+#0.0.0.0 api.epicgames.dev # Epic DataRouter Telemetry+Online
+#0.0.0.0 cs9.wac.phicdn.net # Zertifikate
+0.0.0.0 launcher-content.rebellion.co.uk.cdn.cloudflare.net
+# Endpunkte Beispiele
+0.0.0.0 ec2-52-202-150-242.compute-1.amazonaws.com
+0.0.0.0 ec2-54-146-169-10.compute-1.amazonaws.com
+0.0.0.0 ec2-3-212-5-75.compute-1.amazonaws.com
+0.0.0.0 ec2-52-20-133-164.compute-1.amazonaws.com
+0.0.0.0 ec2-52-72-49-203.compute-1.amazonaws.com
+0.0.0.0 ec2-52-5-97-184.compute-1.amazonaws.com
+0.0.0.0 ec2-23-22-12-38.compute-1.amazonaws.com
+
 # Sniper Elite: Zombie Army
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
@@ -14337,10 +14391,30 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 #0.0.0.0 forums.amplitude-studios.com
 
 # Endless Space® 2
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 63.35.126.135
+# 52.210.254.53
+# 63.35.126.135
+# 18.65.39.72
+# 18.65.39.120
+# 18.66.122.36
+# 18.66.122.45
 0.0.0.0 garry.sgaas.net
-0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
-0.0.0.0 track-api.gamesight.io
 0.0.0.0 api.games2gether.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 
 # Motorsport Manager
 0.0.0.0 garry.sgaas.net
