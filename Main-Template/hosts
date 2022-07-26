@@ -38342,8 +38342,8 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 #0.0.0.0 prod.realtimevc.ros.rockstargames.com
 
 # Red Dead Redemption 2
-0.0.0.0 amspdc4-web3-rdr2-prod.ros.rockstargames.com
-0.0.0.0 amspdc4-web4-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 amspdc4-web3-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 amspdc4-web4-rdr2-prod.ros.rockstargames.com
 #0.0.0.0 amssession4-rdr2-prod.ros.rockstargames.com
 #0.0.0.0 auth-prod.ros.rockstargames.com
 #0.0.0.0 challenges-rdr2-prod.ros.rockstargames.com
