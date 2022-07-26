@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 08.06.2022
+# Änderungsdatum: 26.07.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -619,6 +619,8 @@ ff02::3 ip6-allhosts
 # Rockstar Games, Inc.
 # Rockstar Games Launcher
 # Games Launcher, Social Club UI & Launcher Patcher
+#0.0.0.0 scui.rockstargames.com
+#0.0.0.0 rgl.rockstargames.com
 #0.0.0.0 rgl-prod.ros.rockstargames.com
 #0.0.0.0 gamedownloads-rockstargames-com.akamaized.net
 #0.0.0.0 auth-prod.ros.rockstargames.com
@@ -626,7 +628,14 @@ ff02::3 ip6-allhosts
 #0.0.0.0 prod.ros.rockstargames.com
 #0.0.0.0 prod.cloud.rockstargames.com
 #0.0.0.0 gamedownloads.rockstargames.com
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 o432808.ingest.sentry.io
+0.0.0.0 www.google-analytics.com
+0.0.0.0 stats.g.doubleclick.net
 #0.0.0.0 a.rsg.sc
+#0.0.0.0 s.rsg.sc
+#0.0.0.0 recaptcha.net
+0.0.0.0 rockstar-api.arkoselabs.com
 0.0.0.0 prs-rgl-prod.ros.rockstargames.com
 0.0.0.0 ps-rgl-prod.ros.rockstargames.com
 0.0.0.0 tm-rgl-prod.ros.rockstargames.com
@@ -787,6 +796,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cm6-sto1.cm.steampowered.com
 
 # Steam: API
+# 23.53.54.51
 # 2.16.212.48
 # 96.16.130.74
 # 23.78.88.233
@@ -875,8 +885,12 @@ ff02::3 ip6-allhosts
 #0.0.0.0 162-254-198-130.valve.net
 #0.0.0.0 162-254-198-131.valve.net
 
+# Steam: Captive Portal
+# 62.115.252.177
+0.0.0.0 test.steampowered.com
+
 # Steam: CDN | Content Delivery Network
-# Block nicht empfohlen, aber möglich. Wirkt sich auf zahlreiche Drittanbiterseiten aus, die allesamt auf Steam verlinken
+# Block nicht empfohlen da Kettenreaktion, aber möglich. Wirkt sich auf zahlreiche Drittanbiterseiten aus, die allesamt auf Steam verlinken
 # 2.16.106.88
 # 2.21.228.105
 # 190.98.152.34
@@ -890,6 +904,10 @@ ff02::3 ip6-allhosts
 # 142.250.185.144
 #0.0.0.0 steamcdnstoragequincy.blob.core.windows.net
 #0.0.0.0 steamcdn-uswest.storage.googleapis.com
+# 34.102.245.185
+0.0.0.0 google.cdn.steampipe.steamcontent.com
+# 205.185.216.10
+0.0.0.0 f3b7q2p3.ssl.hwcdn.net
 
 # Steam: Chat
 #0.0.0.0 bc1-tuk1.chat.steamcontent.com
@@ -942,6 +960,7 @@ ff02::3 ip6-allhosts
 # De/aktivieren nach Bedarf
 #0.0.0.0 cloud-3.steamusercontent.com
 #0.0.0.0 steamcloud-eu.storage.googleapis.com
+# 216.58.209.176
 # 173.194.221.128
 # 142.250.185.80
 # 108.177.119.128
@@ -1069,16 +1088,33 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steam.naeu.qtlglb.com
 #0.0.0.0 f3b7q2p3.ssl.hwcdn.net
 #0.0.0.0 google.cdn.steampipe.steamcontent.com
+#0.0.0.0 google2.cdn.steampipe.steamcontent.com
 #0.0.0.0 level3.cdn.steampipe.steamcontent.com
 
-# Steam: Experimentelles Blockieren von Telemetrie, Spyware, Bloatware und Kommentaren - Nicht anwenderfreundlich
-#0.0.0.0 cdn.cloudflare.steamstatic.com
-#0.0.0.0 steamcdn-a.akamaihd.net
-#0.0.0.0 api.steampowered.com
-#0.0.0.0 steambroadcast.akamaized.net
-#0.0.0.0 video.steamstatic.com
-#0.0.0.0 steamuserimages-a.akamaihd.net
+# Steam: Experimentelles Blockieren von Telemetrie, Spyware, Bloatware und Community - Nur Blocken bei Bedarf
+#0.0.0.0 api.steampowered.com # Anmeldung, Token
+# Nicht benötigt, Steam läuft im Minimalmodus. Anmeldung, Erfolge, Bücherei, Downloads
 #0.0.0.0 crash.steampowered.com
+#0.0.0.0 video.steamstatic.com
+#0.0.0.0 steam-chat.com
+#0.0.0.0 steamstore-a.akamaihd.net
+#0.0.0.0 cdn.cloudflare.steamstatic.com
+#0.0.0.0 cdn.akamai.steamstatic.com
+#0.0.0.0 steambroadcast.akamaized.net
+#0.0.0.0 store.steampowered.com
+#0.0.0.0 steamcommunity.com
+#0.0.0.0 steamcdn-a.akamaihd.net
+#0.0.0.0 avatars.akamai.steamstatic.com
+#0.0.0.0 avatars.steamstatic.com
+#0.0.0.0 clientconfig.akamai.steamstatic.com
+#0.0.0.0 steamuserimages-a.akamaihd.net
+#0.0.0.0 community.cloudflare.steamstatic.com
+#0.0.0.0 r3---sn-4g5ednz7.gvt1.com
+#0.0.0.0 redirector.gvt1.com
+#0.0.0.0 media.steampowered.com
+#0.0.0.0 steamloopback.host
+#0.0.0.0 steamcdnstoragequincy.blob.core.windows.net
+#0.0.0.0 steamcdn-uswest.storage.googleapis.com
 
 # Steam: Game Overlay UI
 # Ip/s blockieren:
@@ -1248,8 +1284,9 @@ ff02::3 ip6-allhosts
 
 # BattlEye Innovations
 # BattlEye
-# Domänen werden pro Produkt festgelegt, IP bleibt gleich
 # 145.239.8.133
+# 51.195.88.133
+#0.0.0.0 ce1.battleye.com
 #0.0.0.0 grb1.battleye.com # Aus dem Spiel Tom Clancy’s Ghost Recon: Breakpoint
 #0.0.0.0 ark1.battleye.com # Aus dem Spiel Ark: Survival Evolved
 #0.0.0.0 arma31.battleye.com # Aus dem Spiel Arma 3
@@ -1275,9 +1312,12 @@ ff02::3 ip6-allhosts
 #0.0.0.0 server-99-86-4-28.fra6.r.cloudfront.net
 #0.0.0.0 ec2-18-203-24-251.eu-west-1.compute.amazonaws.com
 #0.0.0.0 ec2-34-246-243-49.eu-west-1.compute.amazonaws.com
-#0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com34.251.96.50
-#0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com108.128.74.71
-#0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com34.251.96.50
+# 34.251.96.50
+# 108.128.74.71
+# 34.251.96.50
+#0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
+#0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
+#0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
 
 # Sony DADC, Irdeto Access B.V., Nasper Mediengruppe
 # Denuvo Anti-Cheat
@@ -1310,6 +1350,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 support.codefusion.technology
 # Je nach Produkt/Version Abfragen an Globalsign oder Starfield Tech Zertifikate
 # 65.9.69.181
+# 108.138.2.173
 #0.0.0.0 ocsp2.globalsign.com
 #0.0.0.0 crl.globalsign.com
 #0.0.0.0 o.ss2.us
@@ -7356,7 +7397,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 www.vermintide.live
-0.0.0.0 static.parastorage.com
+#0.0.0.0 static.parastorage.com
 0.0.0.0 static.wixstatic.com
 0.0.0.0 siteassets.parastorage.com
 0.0.0.0 frog.wix.com
@@ -8238,19 +8279,28 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 
 # Funcom
 # Conan Exiles
-# Redshell wurde am 15 Mai aus dem Titel entfernt
-# s. Rubrik Kopierschutz / AntiCheat
-# Conansandbox
-#0.0.0.0 dl.conanexiles.com # Patchnotes
-# Ingame Hilfe
+#0.0.0.0 ce1.battleye.com
+0.0.0.0 www.google-analytics.com
+#0.0.0.0 cdn-web-nj4.funcom.com
 #0.0.0.0 www.conanexiles.com
-0.0.0.0 www.google-analytics.com # UA-73025003-1
-0.0.0.0 stats.g.doubleclick.net # UA-73025003-1
-0.0.0.0 script.crazyegg.com # Clickcaptor
-#0.0.0.0 fonts.gstatic.com # Schriften
-0.0.0.0 gtrk.s3.amazonaws.com
-# Ip/s blockieren:
-# 95.101.82.74 # Akamai
+#0.0.0.0 patch.funcom.com
+0.0.0.0 a1843.g1.akamai.net
+#0.0.0.0 dl.conanexiles.com # DLCliste, Patchnotes
+#0.0.0.0 exiles-fls-live.azurewebsites.net # Rewards
+#0.0.0.0 a5b4f.playfabapi.com # Onlinezwang & Telemetrie
+0.0.0.0 cluster-d.playfabapi.com
+#0.0.0.0 cdn.funcom.com # Grafiken
+#0.0.0.0 funcom.nyc3.digitaloceanspaces.com
+#0.0.0.0 web04-dc1.funcom.com
+#0.0.0.0 hosts.exiles-fls-live.azurewebsites.net
+#0.0.0.0 ce-fcsd-winunoff-ams.funcom.com # Serverlisten
+# Vivox Sprachchat
+#0.0.0.0 ce-vts-wdc05.funcom.com
+#0.0.0.0 ce-vts-wdc04.funcom.com
+#0.0.0.0 ce-vts-ams04.funcom.com
+#0.0.0.0 ce-vts-ams03.funcom.com
+#0.0.0.0 ce-rmq-ams02.funcom.com
+#0.0.0.0 ce-rmq-ams01.funcom.com
 
 # Mutant Year Zero: Road to Eden
 # s. Rubrik Kopierschutz / AntiCheat
@@ -14057,21 +14107,39 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 #0.0.0.0 prod.realtimevc.ros.rockstargames.com
 
 # Red Dead Redemption 2
-# Minimaleinstellung
-#0.0.0.0 prs-rdr2-prod.ros.rockstargames.com
-#0.0.0.0 prod.ros.rockstargames.com # Einstellungen z.b. Newsletter, "Privatsphäre ^^"
-#0.0.0.0 prod.cloud.rockstargames.com
+#0.0.0.0 amspdc4-web3-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 amspdc4-web4-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 amssession4-rdr2-prod.ros.rockstargames.com
 #0.0.0.0 auth-prod.ros.rockstargames.com
+#0.0.0.0 challenges-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 conductor-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 crews-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 inbox-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 prod-catalog-cloud.rockstargames.com
+0.0.0.0 prod-locator-cloud.rockstargames.com
+#0.0.0.0 prod-rdr2-fc-rockstargames.akamaized.net
+#0.0.0.0 prod.cloud.rockstargames.com
+#0.0.0.0 prod.ros.rockstargames.com
+#0.0.0.0 prs-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 prs57-prod.ros.rockstargames.com
+#0.0.0.0 ps-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 ugc-rdr2-prod.ros.rockstargames.com
 # Optional Feed und Clubinhalte
 #0.0.0.0 posse-rdr2-prod.ros.rockstargames.com # IngameClubseite
 #0.0.0.0 feed-rdr2-prod.ros.rockstargames.com
+# Telemetrie & Spyware
+0.0.0.0 o432808.ingest.sentry.io
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 tm-rdr2-prod.ros.rockstargames.com
+0.0.0.0 elb-telemetry-rdr2-prod-1584453389.us-west-2.elb.amazonaws.com
 # Rest
-0.0.0.0 prod-locator-cloud.rockstargames.com
-0.0.0.0 inbox-rdr2-prod.ros.rockstargames.com
-0.0.0.0 ugc-rdr2-prod.ros.rockstargames.com
-0.0.0.0 crews-rdr2-prod.ros.rockstargames.com
-0.0.0.0 tm-rdr2-prod.ros.rockstargames.com # TM wird wahrscheinlich für Telemetry stehen
-0.0.0.0 spap-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 amssession2-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 minigame1-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 minigame2-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 minigame3-rdr2-prod.ros.rockstargames.com
+#0.0.0.0 minigame4-rdr2-prod.ros.rockstargames.com
 
 # RocketPunch Games
 # Hardcore Mecha
@@ -14601,6 +14669,7 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 0.0.0.0 bs.serving-sys.com
 
 # Total War: WARHAMMER II
+# 52.222.236.49
 # 45.60.47.160
 # 13.225.78.102
 # 13.224.196.65
@@ -14622,6 +14691,8 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 launcher-v3.totalwar.com
 0.0.0.0 launcher-v3-content.totalwar.com
+0.0.0.0 8aefz.x.incapdns.net
+0.0.0.0 d3j5omnogt8tmc.cloudfront.net
 # Tracker/Analytics/Cookies
 0.0.0.0 secure-ds.serving-sys.com
 0.0.0.0 www.google-analytics.com
@@ -15229,17 +15300,19 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 # 3.66.78.156
 # 3.65.238.7
 # 35.157.203.227
-#0.0.0.0 cs9.wac.phicdn.net
-#0.0.0.0 ocsp.sectigo.com
-#0.0.0.0 crl.comodoca.com
-#0.0.0.0 google.com
 #0.0.0.0 service.maestro.us-east-1.social.games.a2z.com
 #0.0.0.0 azevm7mcof9i3-ats.iot.us-east-1.amazonaws.com
+0.0.0.0 dub-ludy-public-lb-1875777560.eu-west-1.elb.amazonaws.com
+0.0.0.0 pdx-ludy-public-lb-310889182.us-west-2.elb.amazonaws.com # 44.240.124.190
+0.0.0.0 iad-ludy-public-lb-35718222.us-east-1.elb.amazonaws.com # 23.21.181.5
+0.0.0.0 gru-ludy-public-lb-996655087.sa-east-1.elb.amazonaws.com # 54.232.251.19
 0.0.0.0 api.ipify.org
 0.0.0.0 s2s.adjust.com
 0.0.0.0 elb097307-934924932.us-east-1.elb.amazonaws.com
-0.0.0.0 eu-central.lostark.games.aws.dev
-0.0.0.0 ludy-public-lb-c66d7f664e901264.elb.eu-central-1.amazonaws.com
+# Server
+#0.0.0.0 eu-central.lostark.games.aws.dev
+#0.0.0.0 eu-west.lostark.games.aws.dev
+#0.0.0.0 us-west.lostark.games.aws.dev
 0.0.0.0 lostark.game.gate8.com
 
 # Snail Games USA
@@ -17788,6 +17861,20 @@ Dying Light 2 Stay Human
 0.0.0.0 cdn-store-icons-akamai-ord.unityads.unity3d.com
 0.0.0.0 ads-brand-postback.unityads.unity3d.com
 0.0.0.0 adserver.unityads.unity3d.com
+# Unity Ads
+0.0.0.0 cdn-creatives-akamaistls-re-prd.unityads.unity3d.com
+0.0.0.0 cdn-creatives-tencent-prd.unityads.unitychina.cn
+0.0.0.0 cdn-store-icons-akamai-prd.unityads.unity3d.com
+0.0.0.0 cdn-store-icons-highwinds-prd.unityads.unity3d.com
+0.0.0.0 cdn-store-icons-tencent-prd.unityads.unitychina.cn
+0.0.0.0 cdn.unityads.unity3d.com
+0.0.0.0 dsp-adx-bidder.unityads.unity3d.com
+0.0.0.0 dsp-adx-tracking.unityads.unity3d.com
+0.0.0.0 dsp-adx-vast.unityads.unity3d.com
+0.0.0.0 dsp-endscreens.unityads.unity3d.com
+0.0.0.0 endscreen.unityads.unity3d.com
+0.0.0.0 endscreen.unityads.unitychina.cn
+0.0.0.0 re-static.unityads.unity3d.com
 # Zuständig für Schnüffelei in Spielen
 # Erfasste Daten werden je nach Nutzerherkunft an USC "z.b. Usa", EUW "z.b. Deutschland"" oder APE "z.b. Japan" von der Perf-Events aus weitergeleitet. Ips gehören dazu.
 # Ip/s blockieren:
