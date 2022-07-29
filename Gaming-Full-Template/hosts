@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 26.07.2022
+# Änderungsdatum: 29.07.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -3924,12 +3924,72 @@ ff02::3 ip6-allhosts
 
 # Beijing New Era Network Technology Co., Ltd.
 # 红石遗迹 - Red Obsidian Remnant
+# 104.26.13.54
+# 172.67.68.157
 0.0.0.0 time.is
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 c735fa223fb16fb135c387781f0fadf6.cloudfront.net
 
 # Bethesda Softworks / ID Softworks
+# Deathloop
+# 54.155.108.137
+# 65.9.66.32
+# 108.138.7.20
+# 44.240.245.9
+# 108.138.7.50
+# 104.46.232.223
+# 20.89.85.19
+# 40.115.72.13
+# 20.53.213.241
+# 13.73.33.93
+# 20.84.128.18
+# 20.201.11.149
+# 13.75.49.198
+# 52.152.253.13
+# 52.184.222.204
+# 20.98.11.58
+# 20.93.96.74
+# 40.74.160.107
+# 20.43.154.231
+# 20.82.62.217
+# 20.47.95.129
+# 102.133.196.95
+# s. Rubrik Kopierschutz / AntiCheat
+#0.0.0.0 api.bethesda.net
+#0.0.0.0 4c23a.playfabapi.com
+# Online / Mehrspielerserver
+#0.0.0.0 server-108-138-7-50.fra56.r.cloudfront.net
+#0.0.0.0 pfmsqos.japanwest.cloudapp.azure.com
+#0.0.0.0 pfmsqos.japaneast.cloudapp.azure.com
+#0.0.0.0 pfmsqos.australiasoutheast.cloudapp.azure.com
+#0.0.0.0 pfmsqos.australiaeast.cloudapp.azure.com
+#0.0.0.0 pfmsqos.westus.cloudapp.azure.com
+#0.0.0.0 pfmsqos.centralus.cloudapp.azure.com
+#0.0.0.0 pfmsqos.brazilsouth.cloudapp.azure.com
+#0.0.0.0 pfmsqos.eastasia.cloudapp.azure.com
+#0.0.0.0 pfmsqos.eastus.cloudapp.azure.com
+#0.0.0.0 pfmsqos.eastus2.cloudapp.azure.com
+#0.0.0.0 pfmsqos.northcentralus.cloudapp.azure.com
+#0.0.0.0 pfmsqos.northeurope.cloudapp.azure.com
+#0.0.0.0 pfmsqos.southcentralus.cloudapp.azure.com
+#0.0.0.0 pfmsqos.southeastasia.cloudapp.azure.com
+#0.0.0.0 pfmsqos.westeurope.cloudapp.azure.com
+#0.0.0.0 pfmsqssi.uaenorth.cloudapp.azure.com
+#0.0.0.0 pfmsqos.southafricanorth.cloudapp.azure.com
+
 # Dishonored II
 # s. Rubrik Kopierschutz / AntiCheat
 
