@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 26.07.2022
+# Änderungsdatum: 29.07.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -3735,9 +3735,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 pc.error-1003a49feif3042.com.s3-website.eu-central-1.amazonaws.com
 0.0.0.0 personalization-prod1-ext-alb-1258852474.us-east-1.elb.amazonaws.com
 0.0.0.0 phonetrack-static.s3.sa-east-1.amazonaws.com
+0.0.0.0 pi-ue1-public-lb-f0209c6950285322.elb.us-east-1.amazonaws.com
 0.0.0.0 popadex-1919430815.us-east-1.elb.amazonaws.com
 0.0.0.0 prod-balan-fdzj1d4q5tzo-2064467324.us-east-1.elb.amazonaws.com
 0.0.0.0 prod-dub-beacon-1484770602.eu-west-1.elb.amazonaws.com
+0.0.0.0 prod-east-pipedream-alb-988701200.us-east-1.elb.amazonaws.com
+0.0.0.0 prod-east-stats-tap-alb-627711272.us-east-1.elb.amazonaws.com
 0.0.0.0 prod-elb-ats-413439319.eu-central-1.elb.amazonaws.com
 0.0.0.0 prod.log.shortbread.aws.dev
 0.0.0.0 prod.tools.shortbread.aws.dev
@@ -4095,8 +4098,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 d-38911545802889092250.ampproject.net
 0.0.0.0 d-39269826063243997250.ampproject.net
 0.0.0.0 d-40134837644212745287.ampproject.net
+0.0.0.0 d-4276097632339701780.ampproject.net
 0.0.0.0 d-42811200872923523580.ampproject.net
 0.0.0.0 d-4707854652516232506.ampproject.net
+0.0.0.0 d-552733760508211121.ampproject.net
 0.0.0.0 d-667459844258472913.ampproject.net
 0.0.0.0 d-801284634654215236.ampproject.net
 0.0.0.0 d-9737118212082405482.ampproject.net
@@ -4789,8 +4794,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 biddr.brealtime.com.cdn.cloudflare.net
 0.0.0.0 cdn.bncloudfl.com.cdn.cloudflare.net
 0.0.0.0 cookie.brealtime.com.cdn.cloudflare.net
+0.0.0.0 launchreliantcleaver.com
+0.0.0.0 performance.radar.cloudflare.com
 0.0.0.0 prodlb.siteintercept.qualtrics.com.cdn.cloudflare.net
 0.0.0.0 report-uri.cloudflare.com
+0.0.0.0 sparrow.cloudflare.com
 0.0.0.0 static.cloudflareinsights.com
 0.0.0.0 static4.viralize.tv.cdn.cloudflare.net
 0.0.0.0 tls-ech-experiment-c.cloudflareresearch.com
@@ -4802,6 +4810,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 europe-west1-project-prometeo-v2.cloudfunctions.net
 0.0.0.0 europe-west1-vlybypoc2019.cloudfunctions.net
 0.0.0.0 europe-west3-vlybypoc2019.cloudfunctions.net
+0.0.0.0 us-central1-affilimate.cloudfunctions.net
 0.0.0.0 us-central1-ats-cdn-project.cloudfunctions.net
 
 # Cmcore.com
@@ -5196,6 +5205,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bfp.global.dual.dotomi.weighted.com.akadns.net
 0.0.0.0 casale-match.dotomi.com
 0.0.0.0 cj.dotomi.com
+0.0.0.0 convex.global.dual.dotomi.weighted.com.akadns.net
 0.0.0.0 dp-sync.dotomi.com
 0.0.0.0 dclk-match.dotomi.com
 0.0.0.0 districtm-match.dotomi.com
@@ -6009,6 +6019,27 @@ ff02::3 ip6-allhosts
 # html-links.com
 0.0.0.0 html-links.com
 
+# HubSpot, Inc.
+0.0.0.0 app-eu1.hubspot.com
+0.0.0.0 app.hubspot.com
+0.0.0.0 feedback-eu1.hubapi.com
+0.0.0.0 js-eu1.hs-analytics.net
+0.0.0.0 js-eu1.hs-banner.com
+0.0.0.0 js-eu1.hs-scripts.com
+0.0.0.0 js-eu1.hsadspixel.net
+0.0.0.0 js-eu1.hubspotfeedback.com
+0.0.0.0 js-eu1.hscollectedforms.net
+0.0.0.0 js.hs-analytics.net
+0.0.0.0 js.hs-banner.com
+0.0.0.0 js.hs-scripts.com
+0.0.0.0 js.hsadspixel.net
+0.0.0.0 js.hscollectedforms.net
+0.0.0.0 js.hscta.net
+0.0.0.0 js.hsleadflows.net
+0.0.0.0 no-cache.hubspot.com
+0.0.0.0 track-eu1.hubspot.com
+0.0.0.0 track.hubspot.com
+
 # HueAds
 0.0.0.0 adm-js.hueserver.com
 0.0.0.0 adm.hueserver.com
@@ -6451,6 +6482,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gscst-84a.kxcdn.com
 0.0.0.0 p-frpa00.kxcdn.com
 0.0.0.0 p24-5a7a.kxcdn.com
+0.0.0.0 supsystic-42d7.kxcdn.com
 
 # kyveduvdkbro
 0.0.0.0 www.kyveduvdkbro.com
@@ -14199,12 +14231,14 @@ ff02::3 ip6-allhosts
 # 216.58.221.78
 # 216.58.223.78
 0.0.0.0 analytics.google.com
-0.0.0.0 www.google-analytics.com
 0.0.0.0 google-analytics.com
 0.0.0.0 marketingplatform.google.com
-0.0.0.0 ssl.google-analytics.com
-0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 region1.google-analytics.com
 0.0.0.0 ssl-google-analytics.l.google.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 www-alv.google-analytics.com
+0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 www.google-analytics.com
 
 # Google Anwendungen
 #0.0.0.0 duo.google.com
@@ -20272,6 +20306,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ams16s32-in-f14.1e100.net
 0.0.0.0 amxrtb.com
 0.0.0.0 analyse.bcovery.com
+0.0.0.0 analytics-eu.clickdimensions.com
 0.0.0.0 analytics-udg.netdna-ssl.com
 0.0.0.0 analytics.afrinic.net
 0.0.0.0 analytics.audionow.de
@@ -20369,14 +20404,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 app-ab39.marketo.com
 0.0.0.0 app.adjust.com
 0.0.0.0 app.bidhead.net
+0.0.0.0 app.cleverstory.io
 0.0.0.0 app.convertkit.com
 0.0.0.0 app.getresponse.com
-0.0.0.0 app.hubspot.com
 0.0.0.0 app.marketads.net
 0.0.0.0 app.medyanetads.com
 0.0.0.0 app.n26.com
 0.0.0.0 app.playstream.media
 0.0.0.0 app.readpeak.com
+0.0.0.0 app.termly.io
 0.0.0.0 app.trafficdominationpages.com
 0.0.0.0 app.trustami.com
 0.0.0.0 app.xordem.com.br
@@ -20669,6 +20705,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.adspirit.de
 0.0.0.0 cdn.adt348.net
 0.0.0.0 cdn.adx1.com
+0.0.0.0 cdn.affiliatable.io
 0.0.0.0 cdn.apvdr.com
 0.0.0.0 cdn.aralego.net
 0.0.0.0 cdn.barscreative1.com
@@ -21754,6 +21791,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ipw.metadsp.co.uk
 0.0.0.0 iq.reklamselfie.com
 0.0.0.0 irblue.ml
+0.0.0.0 irdetocsp.report-uri.com
 0.0.0.0 iremukentsiw.com
 0.0.0.0 is.riverisland.com
 0.0.0.0 isanalyze.com # Multi-Cookie
@@ -21810,13 +21848,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.datadome.co
 0.0.0.0 js.entertainow.com
 0.0.0.0 js.getlasso.co # Eventtracking
-0.0.0.0 js.hs-analytics.net
-0.0.0.0 js.hs-banner.com
-0.0.0.0 js.hs-scripts.com
-0.0.0.0 js.hsadspixel.net
-0.0.0.0 js.hscollectedforms.net
-0.0.0.0 js.hscta.net
-0.0.0.0 js.hsleadflows.net
 0.0.0.0 js.monitor.azure.com # 1DS JS SDK Analytics Web
 0.0.0.0 js.natsdk.com
 0.0.0.0 js.sddan.com
@@ -21841,6 +21872,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 jutprolificlax.com
 0.0.0.0 jutwrench.com
 0.0.0.0 k-eu1.az.contentsquare.net
+0.0.0.0 k.clarity.ms
 0.0.0.0 k.r66net.com
 0.0.0.0 k.shoksips.com
 0.0.0.0 k77hof1z7k.com
@@ -22189,7 +22221,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 nisperodonax.com
 0.0.0.0 nitrogenpleahierarchy.com
 0.0.0.0 nm87rr9.impervadns.net
-0.0.0.0 no-cache.hubspot.com
 0.0.0.0 noddus.com
 0.0.0.0 node1.digprod.express.co.uk
 0.0.0.0 nodetracker.datawrkz.com
@@ -22884,6 +22915,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 snagbaudhulas.com
 0.0.0.0 snammar-jumntal.com
 0.0.0.0 snid.snitcher.com
+0.0.0.0 snippet.affilimate.io
 0.0.0.0 snowplow-stream.grover.com
 0.0.0.0 snowplow.mediavine.com
 0.0.0.0 soaheeme.net
@@ -23258,7 +23290,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 track.clkmgtrack.com
 0.0.0.0 track.contently.com
 0.0.0.0 track.fungiers.com
-0.0.0.0 track.hubspot.com
 0.0.0.0 track.klickly.com
 0.0.0.0 track.lt
 0.0.0.0 track.mailerlite.com
@@ -28159,12 +28190,50 @@ ff02::3 ip6-allhosts
 
 # Beijing New Era Network Technology Co., Ltd.
 # 红石遗迹 - Red Obsidian Remnant
+# 104.26.13.54
+# 172.67.68.157
 0.0.0.0 time.is
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 c735fa223fb16fb135c387781f0fadf6.cloudfront.net
 
 # Bethesda Softworks / ID Softworks
+# Deathloop
+# s. Rubrik Kopierschutz / AntiCheat
+#0.0.0.0 api.bethesda.net
+#0.0.0.0 4c23a.playfabapi.com
+# Online / Mehrspielerserver
+#0.0.0.0 server-108-138-7-50.fra56.r.cloudfront.net
+#0.0.0.0 pfmsqos.japanwest.cloudapp.azure.com
+#0.0.0.0 pfmsqos.japaneast.cloudapp.azure.com
+#0.0.0.0 pfmsqos.australiasoutheast.cloudapp.azure.com
+#0.0.0.0 pfmsqos.australiaeast.cloudapp.azure.com
+#0.0.0.0 pfmsqos.westus.cloudapp.azure.com
+#0.0.0.0 pfmsqos.centralus.cloudapp.azure.com
+#0.0.0.0 pfmsqos.brazilsouth.cloudapp.azure.com
+#0.0.0.0 pfmsqos.eastasia.cloudapp.azure.com
+#0.0.0.0 pfmsqos.eastus.cloudapp.azure.com
+#0.0.0.0 pfmsqos.eastus2.cloudapp.azure.com
+#0.0.0.0 pfmsqos.northcentralus.cloudapp.azure.com
+#0.0.0.0 pfmsqos.northeurope.cloudapp.azure.com
+#0.0.0.0 pfmsqos.southcentralus.cloudapp.azure.com
+#0.0.0.0 pfmsqos.southeastasia.cloudapp.azure.com
+#0.0.0.0 pfmsqos.westeurope.cloudapp.azure.com
+#0.0.0.0 pfmsqssi.uaenorth.cloudapp.azure.com
+#0.0.0.0 pfmsqos.southafricanorth.cloudapp.azure.com
+
 # Dishonored II
 # s. Rubrik Kopierschutz / AntiCheat
 
