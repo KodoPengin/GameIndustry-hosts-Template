@@ -29819,7 +29819,7 @@ ff02::3 ip6-allhosts
 # 172.217.18.3
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 jnn-pa.googleapis.com
-0.0.0.0 www.gstatic.com
+#0.0.0.0 www.gstatic.com
 
 # Cold Beam Games
 # Beat Hazard
