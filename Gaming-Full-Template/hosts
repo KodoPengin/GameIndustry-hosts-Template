@@ -17818,7 +17818,7 @@ Dying Light 2 Stay Human
 #0.0.0.0 msr-public-ubiservices.ubi.com
 #0.0.0.0 msr-live-public.prod.external.gateway.ubiservices.ubi.com
 #0.0.0.0 use.typekit.net
-0.0.0.0 dmx.upc.ubisoft.com
+#0.0.0.0 dmx.upc.ubisoft.com
 0.0.0.0 localhost.ubisoft.com
 0.0.0.0 rum-collector-2.pingdom.net
 0.0.0.0 rum-static.pingdom.net
