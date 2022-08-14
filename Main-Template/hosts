@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 05.08.2022
+# Änderungsdatum: 14.08.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -17553,7 +17553,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ladsips.com
 0.0.0.0 loc.sexymilfspics.com
 0.0.0.0 log.perfecttitspics.com
-0.0.0.0 lop.perfecttitspics.com
 0.0.0.0 los.sexymilfspics.com
 0.0.0.0 luckystraffic.com
 0.0.0.0 luyten-98c.com
@@ -29880,6 +29879,10 @@ ff02::3 ip6-allhosts
 # World War II Online
 #0.0.0.0 secure.wwiionline.com
 
+# Cozy Live
+# Cozy Time
+# Steam Datagram Relay
+
 # Crackshell
 # Heroes of Hammerwatch
 #0.0.0.0 auth.gog.com
@@ -30793,13 +30796,39 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 
 # Loop Hero
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 95.142.206.2,87.240.185.170
+# 87.240.185.168
+# 95.142.206.3
+# 87.240.185.164
+# 95.163.52.67
+# 217.20.155.57
+# 194.226.130.227
+# 87.240.129.132
+# 142.250.185.110
+# 172.217.16.129
+# 23.203.75.135
+# 142.250.186.141
+# 104.244.42.197
+# 152.199.21.141
+# 104.244.42.194
+# 199.232.136.159
+#0.0.0.0 st6-22.vk.com
+#0.0.0.0 sun9-71.userapi.com
+#0.0.0.0 sun9-69.userapi.com
+#0.0.0.0 sun6-23.userapi.com
+#0.0.0.0 sun9-65.userapi.com
+#0.0.0.0 top-fwz1.mail.ru
+#0.0.0.0 i.mycdn.me
+0.0.0.0 www.tns-counter.ru
+0.0.0.0 stats.vk-portal.net
+#0.0.0.0 play.google.com
+#0.0.0.0 lh3.googleusercontent.com
+#0.0.0.0 appleid.cdn-apple.com
+#0.0.0.0 accounts.google.com
+0.0.0.0 t.co
+#0.0.0.0 abs.twimg.com
+#0.0.0.0 pbs.twimg.com
+#0.0.0.0 api.twitter.com
 
 # SCUM
 # s. Easy Anti-Cheat
@@ -30808,34 +30837,35 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Serious Sam’s Bogus Detour
-# Ip/s blockieren:
-# 77.79.249.176
-# 194.110.240.211
-# 77.79.249.113
-# 172.227.167.198
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 77.79.249.19
+# 77.79.249.152
+# 193.59.178.108
+# 77.79.249.40
+# 23.48.23.154
+# 23.48.23.179
+# 23.50.131.19
 0.0.0.0 nat-detection.gog.com
-0.0.0.0 notifications-pusher-aws.gog.com
+0.0.0.0 galaxy-log.gog.com
+0.0.0.0 notifications-pusher.gog.com
 #0.0.0.0 auth.gog.com
 #0.0.0.0 users.gog.com
 #0.0.0.0 multiplayer.gog.com
-#0.0.0.0 e11072.g.akamaiedge.net
 
 # Serious Sam Fusion 2017
 0.0.0.0 ingame.serioussam.com
 0.0.0.0 g83f81g8j8.execute-api.us-west-2.amazonaws.com
 
 # Shadow Warrior II
-#0.0.0.0 multiplayer.gog.com # MP Server
+# 95.101.90.32
+# 77.79.249.152
+# 193.59.178.224
+# 95.101.90.211
+# 23.50.131.19
+0.0.0.0 galaxy-log.gog.com
 0.0.0.0 notifications-pusher.gog.com
 #0.0.0.0 users.gog.com
 #0.0.0.0 auth.gog.com
+#0.0.0.0 multiplayer.gog.com
 
 # Stories Untold
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -35686,13 +35716,8 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 
 # Metanet Software Inc.
 # N++
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 34.231.131.79
+# 52.204.227.0
 0.0.0.0 dojo.nplusplus.ninja
 
 # MFAFB Games LLC
@@ -35708,29 +35733,13 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 
 # mibix
 # Impale
+# Ip/s blockieren:
+# 35.227.244.186
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
-
-# Ricochet Kills: Noir
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 
 # Microids
-# Asterix & Obelix XXL 2
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # Garfield Kart
+# Host down - Inaktiv
 # 67.225.180.26
 # 67.225.180.24
 0.0.0.0 host6.unity3d.com
@@ -35759,6 +35768,26 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 # 35.241.26.53
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Syberia - The World Before
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -37188,15 +37217,20 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 0.0.0.0 dis4wkchhyarj.cloudfront.net # 52.85.71.11
 
 # Magicka I
-#0.0.0.0 api.paradoxplaza.com
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-#0.0.0.0 s3.amazonaws.com
+# Ip/s blockieren:
+# 54.88.249.16
+0.0.0.0 opstm.paradoxplaza.com # SteamID, Zeitstempel, Eventtracking, SessionID, Betriebssystem und Produktplattform
+# Ip/s blockieren:
+# 52.215.100.20
+# 52.215.193.69
+0.0.0.0 live-g347409i9fs2.ws.gamesparks.net # GeräteID, Betriebssystem
+0.0.0.0 gsp-aeu002-se36.gamesparks.net # GeräteID, Betriebssystem
+# 143.204.212.196
+# 151.101.114.217
+#0.0.0.0 api.paradoxplaza.com # Steamwallet / Geodaten
+#0.0.0.0 services.paradoxplaza.com
+# 52.217.74.190
+#0.0.0.0 s3.amazonaws.com # Werbung
 
 # Magicka II
 #0.0.0.0 api.paradoxplaza.com
@@ -37467,14 +37501,21 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 
 # Playdius & Plug In Digital
 # Dead in Bermuda
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+0.0.0.0 api.uca.cloud.unity3d.com
 
 # Dead In Vinland
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -37502,16 +37543,22 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 # Playrise Digital Ltd.
 # Table Top Racing: World Tour
 # Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
 # 52.51.97.198
-0.0.0.0 api.uca.cloud.unity3d.com
+# 54.229.15.134
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+0.0.0.0 api.uca.cloud.unity3d.com
 
 # Playsaurus
 # Clicker Heroes I
@@ -37908,6 +37955,29 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 # 轻文
 # 女装妹妹从没少过麻烦
 0.0.0.0 steam-engine.iqing.com
+
+# QiHeShe Technology Co.Ltd
+# 依盖之书 | Book of Yog
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+# Onlineserver
+# 106.14.5.156
+# 198.11.182.98
+# 8.209.88.175
+# 112.124.202.217
 
 # Quarter Pound Studios
 # Zamarian
@@ -41102,6 +41172,13 @@ Dying Light 2 Stay Human
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
+# The Everglow Team
+# Desktopia: A Desktop Village Simulator
+# 142.250.185.110, 142.250.186.74, 142.250.186.36, 142.250.186.138, 142.250.186.132
+0.0.0.0 clients2.google.com
+0.0.0.0 optimizationguide-pa.googleapis.com
+#0.0.0.0 www.google.com
+
 # The Fun Pimps Entertainment LLC
 # 7 days to die
 # s. Rubrik Kopierschutz / AntiCheat
@@ -41990,19 +42067,73 @@ Dying Light 2 Stay Human
 
 # Assassin's Creed® Origins | Steamversion
 # 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-#0.0.0.0 ubistatic2-a.akamaihd.net
-#0.0.0.0 msr-public-ubiservices.ubi.com
+#0.0.0.0 api-ubiservices.ubi.com
 #0.0.0.0 ubiservices.cdn.ubi.com
-#0.0.0.0 mercury.ubi.com
+#0.0.0.0 files.cdn.ubisoft.com
+#0.0.0.0 game-page.cdn.ubisoft.com
+#0.0.0.0 public-ws-ubiservices.ubi.com
 #0.0.0.0 public-ubiservices.ubi.com
-#0.0.0.0 static3.cdn.ubi.com # Grafiken zu News/Werbung im Launcher
-#0.0.0.0 static8.ubi.com
+#0.0.0.0 ubisoft-avatars.akamaized.net
+#0.0.0.0 overlay.cdn.ubisoft.com
+#0.0.0.0 cdn.jsdelivr.net
+#0.0.0.0 key-activation.cdn.ubisoft.com
+#0.0.0.0 channel-service.upc.ubi.com
+#0.0.0.0 notifications.cdn.ubisoft.com
+#0.0.0.0 chat.cdn.ubisoft.com
+#0.0.0.0 live-feed.cdn.ubisoft.com
+#0.0.0.0 settings.cdn.ubisoft.com
+#0.0.0.0 connect.ubisoft.com
+#0.0.0.0 account.cdn.ubisoft.com
+#0.0.0.0 rewards.cdn.ubisoft.com
+#0.0.0.0 ubistatic3-a.akamaihd.net
+#0.0.0.0 public-ws-ubiservices.ubi.com
+#0.0.0.0 www.google.com
+#0.0.0.0 apis.google.com
+#0.0.0.0 www.gstatic.com
+#0.0.0.0 fonts.gstatic.com
+
+# Assassin’s Creed® Unity
+# 54.158.179.4
+# 3.211.85.229
+# 23.35.237.102
+# 172.217.18.4
+# 142.250.185.78
+# 142.250.185.195
+# 142.250.186.131
+# 104.84.101.11
+# 34.236.133.17
+# 18.235.241.239
+# 35.171.148.218
+# 23.213.161.30
+# 104.16.89.20
+# 54.147.167.217
+# 54.160.36.77
+# 52.202.184.16
+# 23.213.161.15
+#0.0.0.0 api-ubiservices.ubi.com
+#0.0.0.0 ubiservices.cdn.ubi.com
+#0.0.0.0 files.cdn.ubisoft.com
+#0.0.0.0 game-page.cdn.ubisoft.com
+#0.0.0.0 public-ws-ubiservices.ubi.com
+#0.0.0.0 public-ubiservices.ubi.com
+#0.0.0.0 ubisoft-avatars.akamaized.net
+#0.0.0.0 overlay.cdn.ubisoft.com
+#0.0.0.0 cdn.jsdelivr.net
+#0.0.0.0 key-activation.cdn.ubisoft.com
+#0.0.0.0 channel-service.upc.ubi.com
+#0.0.0.0 notifications.cdn.ubisoft.com
+#0.0.0.0 chat.cdn.ubisoft.com
+#0.0.0.0 live-feed.cdn.ubisoft.com
+#0.0.0.0 settings.cdn.ubisoft.com
+#0.0.0.0 connect.ubisoft.com
+#0.0.0.0 account.cdn.ubisoft.com
+#0.0.0.0 rewards.cdn.ubisoft.com
+#0.0.0.0 ubistatic3-a.akamaihd.net
+#0.0.0.0 public-ws-ubiservices.ubi.com
+#0.0.0.0 www.google.com
+#0.0.0.0 apis.google.com
+#0.0.0.0 www.gstatic.com
+#0.0.0.0 fonts.gstatic.com
 
 # Far Cry 3
 # Ip/s blockieren:
@@ -43037,6 +43168,11 @@ Dying Light 2 Stay Human
 
 # Winking Entertainment
 # Heroine Anthem Zero -Sacrifice-
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.241.52.229
+# 35.190.88.234
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
