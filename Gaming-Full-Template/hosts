@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 14.08.2022
+# Änderungsdatum: 20.08.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -452,6 +452,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 eos-gateway-ingress-prod-w3.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingress-prod-w4.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingress-prod-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
 0.0.0.0 metrics.ol.epicgames.com
 # Downloads
 # 65.9.83.109
@@ -668,7 +679,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 store.ubi.com
 #0.0.0.0 public-ubiservices.ubi.com
 #0.0.0.0 connect.ubisoft.com
-#0.0.0.0 public-ubiservices.ubi.com
 #0.0.0.0 ubistatic3-a.akamaihd.net
 #0.0.0.0 wallet-rewards.ecom.ubi.com
 #0.0.0.0 wallet.ecom.ubi.com
@@ -2133,18 +2143,20 @@ ff02::3 ip6-allhosts
 # Abzû
 # s. Rubrik Kopierschutz / AntiCheat
 
-# Control
+# Control Ultimate Edition
+# Traffic läuft über die steam.exe
 # Ip/s blockieren:
 # 34.96.113.148
 0.0.0.0 collect14853cntrl.deltadna.net
 0.0.0.0 balanced-collect.deltadna.net
+0.0.0.0 148.113.96.34.bc.googleusercontent.com
 
 # Death Stranding
 # s. Rubrik Kopierschutz / AntiCheat
 # 35.163.89.191
 # 52.49.218.253
 # 52.11.104.63
-# Für den Onlinemodus muss der folgende Eintrag mit einer # deaktiviert werden
+# Onlinemodi mit # de/aktivieren
 # 34.211.203.85
 # 52.11.104.63
 # 54.191.1.133
@@ -3101,20 +3113,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
 # Assemble Entertainment
-# Leisure Suit Larry - Wet Dreams Don't Dry
-# Ip/s blockieren:
-# 35.241.26.53
-# 35.186.194.186
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # Pizza Connection 3 inkl. GoG Schnüffelei
 # siehe Eintrag Good old Games
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -3122,29 +3120,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.taiga.io
 
 # Twickles
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.241.52.229
+# 35.190.88.234
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Ropeway Simulator 2014
 0.0.0.0 gametracker.z-software.net
-
-# Atara Games
-# Trianguluv
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 stats.unity3d.com
 
 # ATLUS USA
 # Rock of Ages II: Bigger & Boulder™
@@ -3662,7 +3655,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 
 # Tekken VII
-# s. Rubrik Kopierschutz / AntiCheat
 # 52.0.151.162
 # 54.88.211.84
 # 52.1.96.184
@@ -3673,12 +3665,12 @@ ff02::3 ip6-allhosts
 # 151.101.18.133
 # 35.186.241.36
 # s. Eintrag Steam: IP Checks
-0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 cosmos.channel.or.jp
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 ec2-34-237-117-11.compute-1.amazonaws.com
 0.0.0.0 ec2-52-1-96-184.compute-1.amazonaws.com
 0.0.0.0 36.241.186.35.bc.googleusercontent.com
+0.0.0.0 ec2-52-73-80-233.compute-1.amazonaws.com
 
 # 東京喰種：re 【CALL to EXIST】 | TOKYO GHOUL：re CALL to EXIST
 # 103.10.124.100
@@ -6269,6 +6261,12 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ocsp.comodoca.com
 0.0.0.0 production.connected.dsvolition.com
 
+# Chorus
+# Ip/s blockieren:
+# 35.227.230.186
+0.0.0.0 telemetry.deeparc.net
+0.0.0.0 186.230.227.35.bc.googleusercontent.com
+
 # Dead Island Retro Revenge
 # 23.67.131.175
 # 23.213.161.68
@@ -7544,18 +7542,6 @@ ff02::3 ip6-allhosts
 # Endpunkte Hydra und Mehrspieler
 # 63.34.131.58
 0.0.0.0 ec2-54-76-52-85.eu-west-1.compute.amazonaws.com
-
-
-# 18.66.97.18
-gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
-0.0.0.0 gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com
-0.0.0.0 d168vncdejh91z.cloudfront.net
-
-# 99.86.7.119
-# 18.66.97.18
-0.0.0.0 server-99-86-7-119.fra6.r.cloudfront.net
-0.0.0.0 server-18-66-97-18.fra56.r.cloudfront.net
-
 
 # Fellow Traveller
 # Orwell: Keeping an Eye On You
@@ -10635,38 +10621,39 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 0.0.0.0 www.google-analytics.com # Usertracking
 
 # Don't Starve Together
-0.0.0.0 metric.kleientertainment.com # Usertracking
-# Ip/s blockieren:
-# 34.211.23.135
-# 54.91.83.117
-# 18.197.251.192
+# 54.210.104.7
+# 3.208.117.121
+# 34.203.72.49
+# 18.66.248.124
+# 54.226.212.76
+# 3.230.237.231
+# 18.233.134.7
+# 34.203.72.49
+# 13.248.132.235
+# 76.223.4.21
+# 18.66.248.105
+# 18.66.248.46
+# 18.66.248.22
+# 18.66.248.38
+# 18.233.134.7
+# 52.201.195.160
+# 3.227.64.253
+# 52.0.41.180
+# 18.211.228.0
 # 18.209.3.98
-# 18.228.112.45
-# Ip/s blockieren:
-# 13.237.182.104
-# 52.83.109.129
-# 52.78.150.69
-# 18.136.53.226
-# 35.162.205.154
-0.0.0.0 kleianalyticsfrontend.elasticbeanstalk.com
-0.0.0.0 d21wmy1ql1e52r.cloudfront.net
-0.0.0.0 d26ly0au0tyuy.cloudfront.net # Server/Spieleliste
-# 52.205.199.5
-# Items
-#0.0.0.0 items.kleientertainment.com # Nötig für Shopeinkäufe
-#0.0.0.0 items.klei.ca
-# Für Anmeldung verwendet
-0.0.0.0 geologin.klei.ca
+# 52.220.209.237
+# 52.29.250.33
+0.0.0.0 dst.metrics.klei.com
+0.0.0.0 motd.klei.com
+0.0.0.0 klei-motd.klei.com
 #0.0.0.0 login.kleientertainment.com
-#0.0.0.0 accounts.kleientertainment.com
-#0.0.0.0 email.accounts.kleimail.com
-0.0.0.0 eu-central-1.ping.klei.ca
-0.0.0.0 sa-east-1.ping.klei.ca
-0.0.0.0 us-west-2.ping.klei.ca
-0.0.0.0 ap-southeast-1.ping.klei.ca
-0.0.0.0 ap-southeast-2.ping.klei.ca
-0.0.0.0 cn-northwest-1.ping.klei.ca
-0.0.0.0 ap-northeast-2.ping.klei.ca
+#0.0.0.0 accounts.klei.com
+#0.0.0.0 lobby-cdn.klei.com
+#0.0.0.0 items.kleientertainment.com
+0.0.0.0 ap-doesnotexist-1.ping.klei.ca
+#0.0.0.0 us-east-1.ping.klei.ca
+#0.0.0.0 ap-southeast-1.ping.klei.ca
+#0.0.0.0 eu-central-1.ping.klei.ca
 
 # Invisible Inc.
 # Ip/s blockieren:
@@ -10688,7 +10675,7 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 # 52.201.125.219
 # 34.236.69.189
 0.0.0.0 geologin.klei.ca
-0.0.0.0 login.kleientertainment.com
+#0.0.0.0 login.kleientertainment.com
 0.0.0.0 oni.metrics.klei.com
 0.0.0.0 perf-events.cloud.unity3d.com
 
@@ -10729,6 +10716,55 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 #0.0.0.0 cdn01.doax-venusvacation.jp
 #0.0.0.0 a1822.dscd.akamai.net
 #0.0.0.0 a1768.g1.akamai.net
+
+# 仁王２ | Nioh 2 – The Complete Edition
+# 52.86.97.10
+# 44.197.95.138
+# 34.202.186.186
+# 18.207.50.19
+# 54.152.101.93
+# 3.208.75.222
+# 44.194.235.110
+# 52.86.74.236
+# 34.226.242.168
+# 54.204.199.158
+# 54.162.162.204
+# 54.165.103.91
+# 52.202.247.196
+# 34.237.71.131
+# 52.27.175.96
+# 54.161.65.66
+# 52.2.239.110
+# 54.83.53.158
+# 54.209.144.18
+# 34.228.105.156
+# 3.90.196.73
+# 52.45.155.161
+# 54.92.161.216
+# 54.91.103.3
+# 54.146.122.216
+# 3.93.29.232
+# Epic Games EOS Datarouter Telemetrie und Onlinezwang
+#0.0.0.0 api.epicgames.dev
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+# Microsoft Azure Playfab Analytics + Onlinezwang
+# 35.165.107.189
+#0.0.0.0 8c53f.playfabapi.com
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
 # NOBUNAGA'S AMBITION: Sphere of Influence
 # N14PKLauncher.exe & NOBU14PK.exe mit Facebookanbindung, N14FaceTool.exe
@@ -12183,6 +12219,54 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
+# NetEase Games Montréal
+# NARAKA: BLADEPOINT
+# 3.122.165.31
+# 35.77.251.190
+# 13.32.59.67
+# 35.72.243.245
+# 193.108.153.17
+# 35.156.146.15
+# 42.186.125.235
+# 34.89.253.173
+# 35.73.71.94
+# 34.89.253.173
+# 108.157.4.42
+# 193.108.153.17
+# 18.136.224.14
+# 35.77.251.190
+# 34.251.153.229
+# 13.32.59.67
+#0.0.0.0 update.yjwujian.cn # Client Patch, Wartungshinweise, Serverlisten
+0.0.0.0 who.easebar.com # Erfassung IP-Adresse
+0.0.0.0 data-detect.nie.easebar.com # Mobile Upload/Systemdaten
+0.0.0.0 applog.matrix.easebar.com # Clientlogs
+#0.0.0.0 appdump.nie.easebar.com # Config
+0.0.0.0 dev.gmsdk.gameyw.netease.com
+#0.0.0.0 d90na.gph.easebar.com # Webtexturen / PNG Bilder, Icons
+#0.0.0.0 dns.update.easebar.com # HD-Serveradressen / Base64 kodiert
+#0.0.0.0 tfe-shuyuan-na.fuxi.netease.com # TFE Einstellungen / Grafik
+0.0.0.0 acsdk.gameyw.easebar.com # GeräteID / Base64 kodiert
+0.0.0.0 k8sapp-eu.d90na.leihuo.easebar.com # Automatischer Upload Absturzberichte mit Systemdaten, Anwendereinstellungen
+0.0.0.0 unisdk.update.netease.com
+0.0.0.0 rankupload.leihuo.netease.com
+0.0.0.0 nos.gameyw.easebar.com # Encoding
+0.0.0.0 dcch7oq8zi5yh.cloudfront.net
+0.0.0.0 d12pyw8kg18zjc.cloudfront.net
+0.0.0.0 appdump-alb-weboversea-1358396301.ap-northeast-1.elb.amazonaws.com
+0.0.0.0 lbc-oversea-938907.eu-west-1.elb.amazonaws.com
+# Online Server
+# 13.248.222.62
+# 18.136.224.14
+# 13.32.110.55
+# 99.86.240.95
+# 76.223.88.1
+# 54.192.95.4
+# 52.84.106.86
+# 34.141.94.239
+# 34.141.49.150
+# 15.197.137.3
+
 # NewProject
 # Idle Evolution
 # SSLv3 Zeugs, Signatur, Serverdaten, Sessions für...?
@@ -13411,6 +13495,24 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-analytics.com
 
+# Plug In Digital and Cinétévé Experience
+# Emma the Story
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+#0.0.0.0 config.uca.cloud.unity3d.com
+#0.0.0.0 cdp.cloud.unity3d.com
+
 # POCKET PAIR, Inc.
 # Craftopia
 # Ip/s blockieren:
@@ -14187,6 +14289,12 @@ gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com54.76.52.85
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
+
+# RIVERSIDE SPORTS
+# Clownfield 2042
+# 20.54.217.218
+#0.0.0.0 vss-nsindustries-eu.westeurope.cloudapp.azure.com
+#0.0.0.0 ns.photonengine.io
 
 # Roastery Games
 # Smartphone Tycoon
@@ -17992,7 +18100,7 @@ Dying Light 2 Stay Human
 0.0.0.0 ucppropagationservice.ubi.com
 #0.0.0.0 ubiservices.cdn.ubi.com
 #0.0.0.0 ubisoft-orbit-savegames.s3.amazonaws.com
-0.0.0.0 sigma.ubi.com
+#0.0.0.0 sigma.ubi.com
 0.0.0.0 sigma-elb-1893274496.us-east-1.elb.amazonaws.com
 0.0.0.0 news-page-themes-api.a.upc.ubisoft.com
 
@@ -18844,6 +18952,29 @@ Dying Light 2 Stay Human
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
+
+# WFS, Inc.
+# ヘブンバーンズレッド
+# 52.197.84.121
+# 62.115.253.194
+# 34.149.118.53
+# 62.115.253.201
+# 18.182.181.117
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+#0.0.0.0 config.uca.cloud.unity3d.com
+#0.0.0.0 cdp.cloud.unity3d.com
+#0.0.0.0 gl-payment.gree-apps.net
+#0.0.0.0 heaven-burns-red-assets.akamaized.net
+#0.0.0.0 api.heaven-burns-red.wfs.games
+#0.0.0.0 a285.d.akamai.net
+#0.0.0.0 production-payment-259825061.ap-northeast-1.elb.amazonaws.com
 
 # Whalegun
 # UTOPIA 9 - A Volatile Vacation
