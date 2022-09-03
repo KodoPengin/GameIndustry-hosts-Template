@@ -10,13 +10,16 @@
 #
 # Version: Amazon FireStick und App-Verbindungen
 # Kombinierbar mit anderen Host Templates und PI-Hole
-# Änderungsdatum: 20.12.2021
+# Änderungsdatum: 03.09.2022
+#
+# Hinweis: Amazon Videos sind an die jeweilige GeräteID gekoppelt
 #
 # Diese Datei stammt von https://www.gameindustry.eu
-# Kontaktmail: noreply@gameindustry.eu
-# Hilfe: https://hosts.gameindustry.eu/faq/
-# Kontakt: https://www.gameindustry.eu/u/kontakt/
+# E-Mail: noreply@gameindustry.eu
+# F.A.Q.: https://gameindustry.eu/de/faq/
 # Steam: https://www.steamcommunity.com/groups/Penguindome
+# Github: https://github.com/KodoPengin/GameIndustry-hosts-Template
+# Codeberg: https://codeberg.org/Pengin/GameIndustry-hosts-Template
 #
 # Lizenz: CC BY-NC-SA 4.0
 # https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
@@ -49,6 +52,7 @@
 #0.0.0.0 www.amazon.co.uk
 #0.0.0.0 www.amazon.com
 #0.0.0.0 www.amazon.de
+#0.0.0.0 atv-ps-eu.amazon.de # Xray, Reports
 0.0.0.0 982b762063fc2544cee0e2dcd38ecc8013de47c88bca28ae25044c4da969ba8.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 aax-eu.amazon-adsystem.com
 0.0.0.0 aca-livecards-service-eu.amazon.com
@@ -103,20 +107,27 @@
 0.0.0.0 unagi-na.amazon.com # Sprachaufnahme / Alexa
 0.0.0.0 wl.amazon-dss.com
 
-# Firestick - Streaming, Teaser, Untertitel usw.
+# Firestick - Streaming, Teaser usw.
 # Videowerbung von Prime zu blocken ist hier nicht möglich
-#0.0.0.0 api.eu-west-1.aiv-delivery.net
-0.0.0.0 cf-trickplay.aux.pv-cdn.net
-#0.0.0.0 cf-timedtext.aux.pv-cdn.net # Untertitel
-0.0.0.0 s3-iad-2.cf.trailer.row.aiv-cdn.net
-0.0.0.0 s3-dub-2.cf.trailer.row.aiv-cdn.net
-#0.0.0.0 s3-dub-2.cf.videorolls.row.aiv-cdn.net
-0.0.0.0 ters.eu-west-1.aiv-delivery.net
-#0.0.0.0 ab2xb7ra6e44.eu.api.amazonvideo.com
 #0.0.0.0 a107avoddashs3ww-a.akamaihd.net
 #0.0.0.0 a38avoddashs3ww-a.akamaihd.net
-#0.0.0.0 s3-dub-2.cf.dash.row.aiv-cdn.net
+#0.0.0.0 ab2xb7ra6e44.eu.api.amazonvideo.com
+#0.0.0.0 api.eu-west-1.aiv-delivery.net # Bootstrap, Events
 #0.0.0.0 m-2543s3.ll.dash.row.aiv-cdn.net
+#0.0.0.0 pop-dub-ww.cf.dash.row.aiv-cdn.net
+#0.0.0.0 s3-dub-2.cf.dash.row.aiv-cdn.net
+#0.0.0.0 s3-dub-2.cf.videorolls.row.aiv-cdn.net
+0.0.0.0 s3-dub-2.cf.trailer.row.aiv-cdn.net
+0.0.0.0 s3-iad-2.cf.trailer.row.aiv-cdn.net
+0.0.0.0 ters.eu-west-1.aiv-delivery.net
+
+# Subtitle / Untertitel
+#0.0.0.0 cf-timedtext.aux.pv-cdn.net # Untertitel
+0.0.0.0 cf-trickplay.aux.pv-cdn.net
+
+# Misc / Diverses
+#0.0.0.0 dmqdd6hw24ucf.cloudfront.net # Serien/Filmtitel
+#0.0.0.0 dqcnhkghjn41u.cloudfront.net # CSS, JS
 
 # Firestick - Drittanbieter
 
@@ -135,7 +146,7 @@
 #0.0.0.0 api.ardmediathek.de
 #0.0.0.0 images.ardmediathek.de
 #0.0.0.0 img.ardmediathek.de
-0.0.0.0 d29sshy11yr8a1.cloudfront.net # NMRodam.com
+0.0.0.0 d29sshy11yr8a1.cloudfront.net # NMRodam.com - Auch bei ZDF
 0.0.0.0 de-config-preproduction.sensic.net
 0.0.0.0 ece7aa1b679aa248fa07a7b1ad5dbe3e1272291c12b64bd4bb962c1a.trk.sensic.net
 0.0.0.0 f0eb13bf4790cc8e407a980d65145dd0f480ff6465a8d1739c66ed4b.trk.sensic.net
