@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 01.09.2022
+# Änderungsdatum: 18.09.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -446,12 +446,14 @@ ff02::3 ip6-allhosts
 # 3.121.217.224
 # 3.227.34.162
 #0.0.0.0 api.epicgames.dev
+# Version 1
 0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingress-prod-w1.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingress-prod-w2.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingress-prod-w3.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingress-prod-w4.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingress-prod-w5.befa.live.use1a.on.epicgames.com
+# Version 2
 0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
@@ -462,6 +464,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c1-w1.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
 0.0.0.0 metrics.ol.epicgames.com
 # Downloads
@@ -692,6 +695,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ecom-cdn.ubi.com
 #0.0.0.0 static3.cdn.ubi.com
 #0.0.0.0 static.a.upc.ubisoft.com
+#0.0.0.0 unpkg.com
 # Suche
 # 38.103.45.43
 # 37.187.142.53
@@ -717,9 +721,9 @@ ff02::3 ip6-allhosts
 # 18.66.138.159
 # 151.101.1.26
 0.0.0.0 smetrics.ubi.com
-0.0.0.0 try.abtasty.com
-0.0.0.0 dcinfos-cache.abtasty.com
-0.0.0.0 ariane.abtasty.com
+0.0.0.0 try.abtasty.com # Analyticsscript
+0.0.0.0 dcinfos-cache.abtasty.com # GeoIP
+0.0.0.0 ariane.abtasty.com # Trackingpixel
 0.0.0.0 dpm.demdex.net
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 static.doubleclick.net
@@ -932,6 +936,7 @@ ff02::3 ip6-allhosts
 # 20.150.78.68
 # 142.250.185.144
 #0.0.0.0 steamcdnstoragequincy.blob.core.windows.net
+#0.0.0.0 steamugcquincy.blob.core.windows.net
 #0.0.0.0 steamcdn-uswest.storage.googleapis.com
 # 34.102.245.185
 0.0.0.0 google.cdn.steampipe.steamcontent.com
@@ -989,6 +994,8 @@ ff02::3 ip6-allhosts
 # De/aktivieren nach Bedarf
 #0.0.0.0 cloud-3.steamusercontent.com
 #0.0.0.0 steamcloud-eu.storage.googleapis.com
+# 172.217.167.176
+# 20.150.43.97
 # 20.150.78.68
 # 216.58.209.176
 # 173.194.221.128
@@ -1031,6 +1038,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 objectstorage.eu-frankfurt-1.oraclecloud.com
 #0.0.0.0 objectstorage.eu-amsterdam-1.oraclecloud.com
 #0.0.0.0 blob.mwh04prdstr01a.store.core.windows.net
+#0.0.0.0 steamcloudmumbai2.blob.core.windows.net
+#0.0.0.0 steamcloud-mumbai.storage.googleapis.com
 
 # Steam: Cloudflare
 # 104.18.24.217
@@ -1156,7 +1165,7 @@ ff02::3 ip6-allhosts
 # 52.58.211.18
 0.0.0.0 ec2-52-58-211-18.eu-central-1.compute.amazonaws.com
 
-# Steam: General Directory Server
+# Steam: General Directory Server - Dienst obsolet
 # Ip/s blockieren:
 # 208.64.200.105
 0.0.0.0 a1737.b.akamai.net
@@ -1296,6 +1305,12 @@ ff02::3 ip6-allhosts
 # 2a02:26f0:105:0:0:0:216:16d3
 0.0.0.0 steampipe.akamaized.net # Depot, Manifest
 0.0.0.0 steamstats.valvesoftware.com
+0.0.0.0 ext1-lhr1.steamserver.net # 162.254.196.67
+0.0.0.0 ext1-fra1.steamserver.net # 162.254.197.39
+0.0.0.0 ext2-fra1.steamserver.net # 162.254.197.54
+0.0.0.0 ext1-sgp1.steamserver.net # 103.10.124.122
+0.0.0.0 ext2-fra2.steamserver.net # 155.133.226.78
+0.0.0.0 ext4-sgp1.steamserver.net # 103.10.124.125
 
 # Steam: Weitere Drittanbieter
 # Livepipe.net - Trackingcookies, Werbung und Analytics eingebunden über Javascript
@@ -1397,11 +1412,15 @@ ff02::3 ip6-allhosts
 # SecuROM
 # Wieder ein Kopierschutzmechanismus von Sony - veraltet - Server sind teils je nach Produkt nicht erreichbar.
 # SecuROM mag es gar nicht, wenn Process Explorer im Hintergrund läuft
+# Seitdem Disney viele Produkte mit Securom übernommen hat, funktionieren legale Aktivierungen teils gar nicht mehr
 # 34.251.133.206
 # 54.194.81.177
+# 34.241.121.74
 #0.0.0.0 pa01.sonyvfactory.com
 #0.0.0.0 pa02.sonyvfactory.com
 #0.0.0.0 pa03.sonyvfactory.com
+#0.0.0.0 securom-pa-1057720103.eu-west-1.elb.amazonaws.com
+#0.0.0.0 ec2-34-241-121-74.eu-west-1.compute.amazonaws.com
 
 # Desktop-Spiele
 # Verbindungsdaten, Analytics, Telemetrie, Spyware, Mehrspielerfunktionen und unnötiger Mist in Spielen
@@ -3311,9 +3330,9 @@ ff02::3 ip6-allhosts
 # Automatische Crashlogs / DXDiag | Crashrpt_lang.ini, CrashRpt1403.dll, CrashRptProbe1403.dll, CrashSender1403.exe im Installationsverzeichnis löschen
 # Ip/s blockieren:
 # 104.16.1.61
-# 37.120.154.235
-#0.0.0.0 genzero-social.avalanchestudios.com # Wie der Name schon sagt, "soziale" Onlinekomponente, bei Bedarf de/aktivieren
-0.0.0.0 tracking2.avalanchestudios.com
+#0.0.0.0 genzero-social.avalanchestudios.com
+0.0.0.0 tracking2.avalanche.com
+0.0.0.0 crashreporter.avalanchestudios.com
 
 # The Hunter: Primal
 0.0.0.0 ava-backend.appspot.com
@@ -5293,13 +5312,29 @@ ff02::3 ip6-allhosts
 0.0.0.0 c.go-mpulse.net
 
 # Deep Rock Galactic
-# Ip/s blockieren:
 # 172.217.25.110
 # 40.114.242.241
+# 172.217.25.110
+# 172.217.16.206
+# 142.250.186.142
+# 162.159.134.233
+# 20.107.4.52
+# 52.71.184.98
+# 104.18.12.16
 0.0.0.0 api.stathat.com
-#0.0.0.0 services.ghostship.dk # Onlinemodus - Bei Bedarf löschen oder mit einer Raute deaktivieren
+#0.0.0.0 drg.ghostship.sk
+#0.0.0.0 services.ghostship.dk
+0.0.0.0 api.mod.io
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www-google-analytics.l.google.com
+#0.0.0.0 discordapp.com
+
+# Sanctum 2
+# Ip/s blockieren:
+# 35.241.0.225
+0.0.0.0 gamenews.coffeestainstudios.com
+0.0.0.0 225.0.241.35.bc.googleusercontent.com
+0.0.0.0 www.mygamehud.com # Aktiv, aber Dienst eingestellt
 
 # Satisfactory
 # Ip/s blockieren:
@@ -6917,6 +6952,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
+# Easy Day Studios PTY.
+# Skater XL
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 api.mod.io
+
 # Eek! Games, LLC
 # House Party
 # Ip/s blockieren:
@@ -7169,6 +7220,65 @@ ff02::3 ip6-allhosts
 #0.0.0.0 e8218.dscb1.akamaiedge.net
 #0.0.0.0 cs9.wac.phicdn.net
 
+# Need for Speed™ Payback
+# 23.55.163.12
+# 23.55.163.39
+# 84.53.175.145
+# 23.213.161.152
+# 23.213.161.136
+# 23.55.163.23
+# 23.62.98.43
+# 23.50.131.23
+# 2.19.120.143
+# 192.229.233.146
+# 23.50.131.20
+# 23.50.131.28
+# 152.195.39.39
+# 192.229.233.146
+# 23.50.131.18
+# 152.199.21.209
+#0.0.0.0 river.data.ea.com
+#0.0.0.0 accounts.ea.com
+#0.0.0.0 api1.origin.com
+#0.0.0.0 api2.origin.com
+#0.0.0.0 api3.origin.com
+#0.0.0.0 api4.origin.com
+#0.0.0.0 proxy.novafusion.ea.com
+#0.0.0.0 secure.download.dm.origin.com
+#0.0.0.0 gateway.ea.com
+#0.0.0.0 www.origin.com
+#0.0.0.0 data1.origin.com
+#0.0.0.0 data2.origin.com
+#0.0.0.0 data3.origin.com
+#0.0.0.0 data4.origin.com
+#0.0.0.0 achievements.gameservices.ea.com
+#0.0.0.0 friends.dm.origin.com
+#0.0.0.0 consent.trustarc.com
+#0.0.0.0 crl.thawte.com
+#0.0.0.0 ocsp.thawte.com
+#0.0.0.0 ts-ocsp.ws.symantec.com
+#0.0.0.0 sv.symcd.com
+#0.0.0.0 media.contentapi.ea.com
+#0.0.0.0 nfs18ie1prapp007.ea.com
+#0.0.0.0 eaassets-a.akamaihd.net
+0.0.0.0 bytevault.gameservices.ea.com
+#0.0.0.0 qos-prod-bio-syd-common-common.gos.ea.com
+#0.0.0.0 qos-prod-bio-sjc-common-common.gos.ea.com
+#0.0.0.0 qos-prod-bio-iad-common-common.gos.ea.com
+#0.0.0.0 qos-prod-bio-dub-common-common.gos.ea.com
+0.0.0.0 ds-aksb-a.akamaihd.net
+0.0.0.0 pin-river.data.ea.com
+0.0.0.0 gosca18.ea.com
+0.0.0.0 dirtybits.api.origin.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www.googletagmanager.com
+#0.0.0.0 gosca.ea.com
+#0.0.0.0 river-prod-non-pin-247678697.us-east-1.elb.amazonaws.com
+0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 www-googletagmanager.l.google.com
+0.0.0.0 58caebff-bugsentrycore-riv-aa3a-751432187.us-east-1.elb.amazonaws.com
+#0.0.0.0 e8690.e12.akamaiedge.net
+
 # Sims 4
 # Zusätzlich alle Origin Client Verbindungen
 #0.0.0.0 eaassets-a.akamaihd.net
@@ -7282,14 +7392,9 @@ ff02::3 ip6-allhosts
 
 # Eridanus Studio
 # One Against The Galaxy
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 216.58.210.138
 0.0.0.0 chromereader-pa.googleapis.com
+0.0.0.0 hem08s06-in-f10.1e100.net
 
 # ErayTek
 # Time in Time
@@ -7380,34 +7485,14 @@ ff02::3 ip6-allhosts
 
 # ExtraDimension software Co., Ltd
 # Rhythm World - Master Project
+# Loginseite nicht mehr erreichbar
 # 101.200.56.49
-# 220.194.87.190
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 exdstudio.net
-#0.0.0.0 cdn.bootcss.com
 #0.0.0.0 www.exdstudio.net
 
 # Faber Interactive
 # Lethe - Episode One
 0.0.0.0 et.epicgames.com
-
-# Fabio Cunha
-# Robot Warriors
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 api.uca.cloud.unity3d.com
 
 # Failbetter Games
 # Sunless Sea
@@ -8979,6 +9064,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 scontent-frt3-1.xx.fbcdn.net
 0.0.0.0 video-frt3-1.xx.fbcdn.net
 0.0.0.0 scontent.xx.fbcdn.net
+
+# S.T.A.L.K.E.R.: Call of Pripyat
+# 5.9.10.56
+0.0.0.0 stalkercoppc.available.gamegsc.com
+0.0.0.0 motd.gamegsc.com
+0.0.0.0 gamegsc.com
 
 # Guerrilla Bandit
 # ZombieRun
@@ -13224,13 +13315,8 @@ ff02::3 ip6-allhosts
 
 # Permadeath
 # Planet Centauri
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 213.186.33.3
+0.0.0.0 planetcentauri.com # Automatischer Crashlogupload
 
 # Petroglyph Games Inc.
 # 8-Bit Armies
@@ -13609,7 +13695,7 @@ ff02::3 ip6-allhosts
 # CrashSender1403.exe und crashrpt_lang.ini im Installationsverzeichnis löschen
 # 103.24.121.30
 # 74.208.236.121
-#0.0.0.0 api.mod.io # Ingame/Modschnittstelle
+0.0.0.0 api.mod.io
 0.0.0.0 www.polymorph.games # Datenaufnahme als auch Webpräsenz
 
 # Positech Games
@@ -14561,6 +14647,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
+# Sabrina Aridi
+# Robot Warriors
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
 # Sad Panda Studios
 # Crush Crush
 # 142.250.186.174
@@ -14724,37 +14828,15 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamcdn-a.akamaihd.net
 #0.0.0.0 avatars.steamstatic.com
 
-# Binary Domain
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # Catherine Classic
 # Ip/s blockieren:
-# 208.64.200.105
-# 52.48.186.45
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 34.250.97.216
+# 52.214.128.245
 0.0.0.0 garry.sgaas.net
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
-
-# Castle of Illusion
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
+0.0.0.0 ec2-34-250-97-216.eu-west-1.compute.amazonaws.com
+0.0.0.0 ec2-52-214-128-245.eu-west-1.compute.amazonaws.com
 
 # Company of Heroes 2
 # Ip/s blockieren:
@@ -14783,15 +14865,23 @@ ff02::3 ip6-allhosts
 #0.0.0.0 static-cdn.jtvnw.net
 
 # Dungeon of the Endless™
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 www.google-analytics.com
+# 142.250.181.238
+# 142.250.184.206
+# 172.217.16.200
+0.0.0.0 www.google-analytics.com # UA-55802886-1
+0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 www.googletagmanager.com # GTM-PL93DQP
+0.0.0.0 www-googletagmanager.l.google.com
+# Aus dem Hauptmenü heraus
+# 13.226.158.2» 13.226.158.76
+# 18.66.248.18
+# 99.86.4.102
+# 13.226.158.124
+#0.0.0.0 www.games2gether.com
+#0.0.0.0 medias.games2gether.com
 #0.0.0.0 forums.amplitude-studios.com
+#0.0.0.0 api.service.games2gether.com
+#0.0.0.0 account.service.games2gether.com
 
 # Endless Space® 2
 # 35.241.26.53
@@ -14820,30 +14910,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 229.52.241.35.bc.googleusercontent.com
 
 # Motorsport Manager
-0.0.0.0 garry.sgaas.net
+# Ip/s blockieren:
+# 34.250.97.216
+# 52.214.128.245
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
+0.0.0.0 ec2-34-250-97-216.eu-west-1.compute.amazonaws.com
+0.0.0.0 ec2-52-214-128-245.eu-west-1.compute.amazonaws.com
+# 72.247.153.178
+#0.0.0.0 steamuserimages-a.akamaihd.net
+#0.0.0.0 avatars.akamai.steamstatic.com
 
 # Persona 4 Golden
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 # s. Rubrik Kopierschutz / AntiCheat
 # Ip/s blockieren:
-# 208.64.200.105
-# 52.17.173.247
-# 52.208.190.137
-# 52.49.218.253
-# 52.18.94.153
-# 54.194.195.183
-# 52.49.61.71
-# 54.72.220.34
-# 34.247.207.198
+# 34.250.97.216, 52.214.128.245, 54.155.196.185, 52.214.128.245
 0.0.0.0 garry.sgaas.net
+#0.0.0.0 cf-revalidation-1750743123.eu-west-1.elb.amazonaws.com
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
+0.0.0.0 ec2-34-250-97-216.eu-west-1.compute.amazonaws.com
+0.0.0.0 ec2-52-214-128-245.eu-west-1.compute.amazonaws.com
 
 # Shenmue I & II
 # Ip/s blockieren:
@@ -14863,15 +14948,6 @@ ff02::3 ip6-allhosts
 # 52.48.186.45
 0.0.0.0 garry.sgaas.net
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
-
-# The Typing of The Dead: Overkill
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 
 # Total War: Attila
 # inklusiv Youtube, Google, Twitter, Facebook und anderem Zeugs
@@ -16932,7 +17008,34 @@ ff02::3 ip6-allhosts
 
 # Techland Publishing
 # Dying Light
-0.0.0.0 pls.dyinglightgame.com # news/stats
+# 184.73.250.29
+# 3.81.154.236
+# 52.203.81.146
+# 3.213.195.224
+# 54.162.78.154
+# 34.206.76.142
+# 34.201.231.7
+# 54.235.102.100
+0.0.0.0 pls.dyinglightgame.com # News/Stats
+0.0.0.0 turn.rtcp.on.epicgames.com
+#0.0.0.0 api.epicgames.dev # Eos Telemetrie, Onlinefunktionen
+0.0.0.0 ec2-3-81-154-236.compute-1.amazonaws.com
+0.0.0.0 ec2-184-73-250-29.compute-1.amazonaws.com
+0.0.0.0 ec2-34-195-166-99.compute-1.amazonaws.com
+0.0.0.0 stun.l.google.com
+0.0.0.0 ec2-18-157-14-85.eu-central-1.compute.amazonaws.com
+0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c1-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
 
 Dying Light 2 Stay Human
 # s. Rubrik Kopierschutz / AntiCheat
@@ -16969,14 +17072,47 @@ Dying Light 2 Stay Human
 # 54.205.151.226
 # 63.33.167.102
 # 108.157.4.26
+# 3.222.91.83
+# 50.16.128.199
+# 18.213.64.2
+# 54.205.122.21
+# 34.239.53.213
+# 34.226.177.195
+# 35.153.46.149
+# 52.87.17.190
+# 35.174.54.94
+# 34.192.128.128
+# 54.158.160.200
+# 34.231.151.181
+# 34.194.65.29
+# 3.219.181.22
+# 52.3.168.119
+# 3.93.245.211
+# 44.208.60.53
+# 18.161.214.136
+# 54.92.244.38
+# 52.1.170.178
+# 3.225.243.49
+# 18.161.216.127
+# 18.161.216.5
+# 52.211.245.30
+# 54.155.196.185
 0.0.0.0 api.techlandonlineservices.com
-#0.0.0.0 api.epicgames.dev # Onlinezwang, Mehrspieler, Telemetrie
-0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingress-prod-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingress-prod-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingress-prod-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingress-prod-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingress-prod-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 d2hjvmnsrtrg65.cloudfront.net
+0.0.0.0 object-storage-core.techlandonlineservices.com
+#0.0.0.0 api.epicgames.dev # Eos Telemetrie, Onlinefunktionen, API kann nach Erreichen des Hauptmenüs abgeschaltet werden
+0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c1-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
 
 # God's Trigger
 # Ip/s blockieren:
@@ -17898,7 +18034,7 @@ Dying Light 2 Stay Human
 #0.0.0.0 mordhau.com # Ingamenews
 #0.0.0.0 uploads.mordhau.com
 0.0.0.0 bugtracker.mordhau.com
-#0.0.0.0 api.mod.io # Ingame/Modschnittstelle
+0.0.0.0 api.mod.io
 # Youtube Tracking/Cookies
 # 165.231.161.13
 # 216.58.207.35
@@ -19706,20 +19842,6 @@ Dying Light 2 Stay Human
 0.0.0.0 cdp.cloud.unity3d.com
 
 # XSEED Games, Marvelous USA, Inc., Marvelous
-# バレットウィッ | Bullet Witch
-# Ip/s blockieren:
-# 216.58.207.208
-# 40.68.232.16
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-#0.0.0.0 steamcloud-eu-ams.storage.googleapis.com
-#0.0.0.0 steamcloudams2.blob.core.windows.net
-
 # 神田川JET GIRLS | Kandagawa Jet Girls
 # Steam Datagram Relay
 # Ip/s blockieren:
@@ -19739,13 +19861,12 @@ Dying Light 2 Stay Human
 0.0.0.0 cdp.cloud.unity3d.com
 
 # SENRAN KAGURA Bon Appétit! - Full Course
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 184.86.60.65
+# 62.115.253.193
+# 62.115.253.64
+#0.0.0.0 api.steampowered.com
+#0.0.0.0 avatars.akamai.steamstatic.com
+#0.0.0.0 steamcdn-a.akamaihd.net
 
 # Xitilon
 # Nogibator: Way Of Legs
