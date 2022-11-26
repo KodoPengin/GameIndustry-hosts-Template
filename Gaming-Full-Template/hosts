@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 21.09.2022
+# Änderungsdatum: 26.11.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -776,57 +776,17 @@ ff02::3 ip6-allhosts
 # 162.254.197.181
 # 162.254.197.180
 # 155.133.248.50
-#0.0.0.0 cm-01-ams1.cm.steampowered.com
-#0.0.0.0 cm-04-ams1.cm.steampowered.com
-#0.0.0.0 CM01-FRA.cm.steampowered.com # Frankfurt
-#0.0.0.0 cm01-lax.cm.steampowered.com # Los Angeles
-#0.0.0.0 CM01-LUX.cm.steampowered.com
-#0.0.0.0 CM02-FRA.cm.steampowered.com
-#0.0.0.0 cm02-iad.cm.steampowered.com
-#0.0.0.0 CM02-LON.cm.steampowered.com
-#0.0.0.0 CM02-LUX.cm.steampowered.com
-#0.0.0.0 CM03-FRA.cm.steampowered.com
-#0.0.0.0 CM03-LON.cm.steampowered.com
-#0.0.0.0 CM04-STO.cm.steampowered.com # Stockholm
-#0.0.0.0 CM05-IAD.cm.steampowered.com # Sterling
-#0.0.0.0 cm1-ams1.cm.steampowered.com # Amsterdam
-#0.0.0.0 cm1-dfw1.cm.steampowered.com # Dallas
-#0.0.0.0 cm1-eze1.cm.steampowered.com # Buenos Aires
-#0.0.0.0 cm1-fra1.cm.steampowered.com
-#0.0.0.0 cm1-fra1.cm.steampowered.com
-#0.0.0.0 cm1-fra2.cm.steampowered.com
-#0.0.0.0 cm1-gru1.cm.steampowered.com # Sao Paulo
-#0.0.0.0 cm1-iad1.cm.steampowered.com # Sterling
-#0.0.0.0 cm1-lax1.cm.steampowered.com # Los Angeles
-#0.0.0.0 cm1-ord1.cm.steampowered.com # Chicago
-#0.0.0.0 cm1-par1.cm.steampowered.com # Paris
-#0.0.0.0 cm1-scl1.cm.steampowered.com # Santiago
-#0.0.0.0 cm1-sto2.cm.steampowered.com
-#0.0.0.0 cm1-syd1.cm.steampowered.com
-#0.0.0.0 cm2-dfw1.cm.steampowered.com
-#0.0.0.0 cm2-fra1.cm.steampowered.com
-#0.0.0.0 cm2-fra2.cm.steampowered.com
-#0.0.0.0 cm2-hkg1.cm.steampowered.com # Hong Kong
-#0.0.0.0 cm2-lax1.cm.steampowered.com
-#0.0.0.0 cm2-ord1.cm.steampowered.com
-#0.0.0.0 cm2-sea1.cm.steampowered.com # Seattle
-#0.0.0.0 cm2-sgp1.cm.steampowered.com # Singapur
-#0.0.0.0 cm2-sto2.cm.steampowered.com
-#0.0.0.0 cm2-syd1.cm.steampowered.com
-#0.0.0.0 cm2-vie1.cm.steampowered.com # Wien
-#0.0.0.0 cm3-ams1.cm.steampowered.com
-#0.0.0.0 cm3-fra1.cm.steampowered.com
-#0.0.0.0 cm3-lax1.cm.steampowered.com
-#0.0.0.0 cm4-ams1.cm.steampowered.com
-#0.0.0.0 cm4-fra1.cm.steampowered.com
-#0.0.0.0 cm4-lax1.cm.steampowered.com
-#0.0.0.0 cm5-ams1.cm.steampowered.com
-#0.0.0.0 cm5-lax1.cm.steampowered.com
-#0.0.0.0 cm5-sto1.cm.steampowered.com
-#0.0.0.0 cm6-ams1.cm.steampowered.com
-#0.0.0.0 cm6-lax1.cm.steampowered.com
-#0.0.0.0 cm6-ord1.cm.steampowered.com
-#0.0.0.0 cm6-sto1.cm.steampowered.com
+#0.0.0.0 ext1-fra1.steamserver.net
+#0.0.0.0 ext1-fra2.steamserver.net
+#0.0.0.0 ext1-lhr1.steamserver.net
+#0.0.0.0 ext1-sgp1.steamserver.net
+#0.0.0.0 ext1-sto1.steamserver.net
+#0.0.0.0 ext1-sto2.steamserver.net
+#0.0.0.0 ext2-fra1.steamserver.net
+#0.0.0.0 ext2-fra2.steamserver.net
+#0.0.0.0 ext2-sto1.steamserver.net
+#0.0.0.0 ext2-sto2.steamserver.net
+#0.0.0.0 ext4-sgp1.steamserver.net
 
 # Steam: API
 # 23.53.54.51
@@ -1032,11 +992,13 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamcloudlrsuswest.blob.core.windows.net
 #0.0.0.0 steamcloudsaopaulo.blob.core.windows.net
 #0.0.0.0 steamcloudsg.blob.core.windows.net
+#0.0.0.0 steamcloudsweden.blob.core.windows.net
 #0.0.0.0 steamclouduseast.blob.core.windows.net
 0.0.0.0 steamcloud-dub.s3.dualstack.eu-west-1.amazonaws.com
 0.0.0.0 steamcloud-frf.s3.dualstack.eu-central-1.amazonaws.com
 #0.0.0.0 objectstorage.eu-frankfurt-1.oraclecloud.com
 #0.0.0.0 objectstorage.eu-amsterdam-1.oraclecloud.com
+#0.0.0.0 objectstorage.eu-stockholm-1.oraclecloud.com
 #0.0.0.0 blob.mwh04prdstr01a.store.core.windows.net
 #0.0.0.0 steamcloudmumbai2.blob.core.windows.net
 #0.0.0.0 steamcloud-mumbai.storage.googleapis.com
@@ -1189,6 +1151,8 @@ ff02::3 ip6-allhosts
 # Dazugehörige IP-Adressen unter https://gameindustry.eu/de/firmenkatalog/valve-corporation/#SteamIPChecks
 0.0.0.0 ipv6check-http.steamcontent.com
 0.0.0.0 ipv6check-udp.steamcontent.com
+0.0.0.0 ipv6check-udp.steamserver.net
+0.0.0.0 ipv6check-http.steamserver.net
 0.0.0.0 eu.http.ipv6check.akadns.net
 0.0.0.0 eu.udp.ipv6check.akadns.net
 0.0.0.0 http.ipv6check.akadns.net
@@ -1305,12 +1269,15 @@ ff02::3 ip6-allhosts
 # 2a02:26f0:105:0:0:0:216:16d3
 0.0.0.0 steampipe.akamaized.net # Depot, Manifest
 0.0.0.0 steamstats.valvesoftware.com
-0.0.0.0 ext1-lhr1.steamserver.net # 162.254.196.67
-0.0.0.0 ext1-fra1.steamserver.net # 162.254.197.39
-0.0.0.0 ext2-fra1.steamserver.net # 162.254.197.54
-0.0.0.0 ext1-sgp1.steamserver.net # 103.10.124.122
-0.0.0.0 ext2-fra2.steamserver.net # 155.133.226.78
-0.0.0.0 ext4-sgp1.steamserver.net # 103.10.124.125
+# 155.133.252.39
+# 162.254.198.104
+# 162.254.198.44
+# 103.10.124.125
+# 155.133.226.78
+# 103.10.124.122
+# 162.254.197.54
+# 162.254.197.39
+# 162.254.196.67
 
 # Steam: Weitere Drittanbieter
 # Livepipe.net - Trackingcookies, Werbung und Analytics eingebunden über Javascript
@@ -1710,16 +1677,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 prod-mm.unet.unity3d.com
 0.0.0.0 ec2-3-125-235-203.eu-central-1.compute.amazonaws.com
 
-# 7DOTS
-# These nights in Cairo
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # 101XP
 # The Life and Suffering of Sir Brante
 # Ip/s blockieren:
@@ -1727,21 +1684,38 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+# 88.212.234.60
+# 142.250.186.46
+# 142.250.186.40
+# 87.250.250.119
+# 87.240.137.164
+# 142.250.185.138
+# 142.250.185.98
+# 178.248.237.132
+# 162.159.135.232
+# 162.159.134.234
+#0.0.0.0 portal-id-ru.101xp.com
+#0.0.0.0 portal-id-en.101xp.com
+#0.0.0.0 portal-translations.101xp.com
+#0.0.0.0 101xp.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 mc.yandex.ru
+#0.0.0.0 vk.com
+#0.0.0.0 fonts.googleapis.com
+0.0.0.0 pagead2.googlesyndication.com
+#0.0.0.0 discord.com
+#0.0.0.0 discord.gg
 
 # 10tons Ltd
 # JYDGE
@@ -2082,19 +2056,22 @@ ff02::3 ip6-allhosts
 # Spec Ops: The Line
 0.0.0.0 p.line.dev.2kgames.com
 
+# WWE Titel seitens 2K abgeschaltet, kein Support oder Onlinefunktionen
 # WWE 2016
+# 127.0.0.1
 #0.0.0.0 prod-win32-sp.wwe16.2ksports.com
 
 # WWE 2K17
-#0.0.0.0 prod-win32-sp.wwe17.2ksports.com # Zwangsverbindung, permanent aktiv. Schon vor Einverständnis
-#0.0.0.0 www.2k.com
+# 192.81.242.188
+0.0.0.0 prod-win32-sp.wwe17.2ksports.com
 
 # WWE 2K18
-#0.0.0.0 prod-win32-sp.wwe18.2ksports.com # und wieder mal
+# 192.81.242.176
+0.0.0.0 prod-win32-sp.wwe18.2ksports.com
 
 # WWE 2K19
-#0.0.0.0 prod-win32-sp.wwe19.2ksports.com # Auch hier Zwangsverbindung bevor eine Einverständnis gegeben werden kann
-0.0.0.0 collect13623ww19v.deltadna.net
+# 104.255.107.194
+0.0.0.0 prod-win32-sp.wwe19.2ksports.com
 
 # XCOM®: Chimera Squad
 # Das Spiel kann ohne Launcher/Analytics direkt über die xcom.exe gestartet werden
@@ -2774,13 +2751,22 @@ ff02::3 ip6-allhosts
 
 # Ankama Games
 # WAKFU
-0.0.0.0 dl.ak.ankama.com
-0.0.0.0 www.wakfu.com
-0.0.0.0 dispatch.platforms.wakfu.com
-# 80.239.173.150
-# 80.239.173.151
-0.0.0.0 api.ankama.com
-0.0.0.0 staticns.ankama.com
+# 108.138.7.60
+# 108.138.7.62
+# 108.138.7.18
+# 104.16.71.20
+# 108.138.7.109
+# 35.188.42.15
+# 18.66.147.22
+# 185.60.216.15
+# 46.105.202.39
+#0.0.0.0 d1zlf32vunm8c7.cloudfront.net
+#0.0.0.0 launcher.cdn.ankama.com
+#0.0.0.0 haapi.ankama.com
+0.0.0.0 sentry.io
+#0.0.0.0 cdn.jwplayer.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 u.heatmap.it
 
 # Annapurna Interactive
 # Florence
@@ -3716,6 +3702,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-52-1-96-184.compute-1.amazonaws.com
 0.0.0.0 36.241.186.35.bc.googleusercontent.com
 0.0.0.0 ec2-52-73-80-233.compute-1.amazonaws.com
+
+# The Dark Pictures Anthology: Little Hope
+# s. Eintrag Steam: IP Checks
 
 # 東京喰種：re 【CALL to EXIST】 | TOKYO GHOUL：re CALL to EXIST
 # Steam Datagram Relay
@@ -6963,6 +6952,12 @@ ff02::3 ip6-allhosts
 
 # Easy Day Studios PTY.
 # Skater XL
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.241.52.229
+# 35.190.88.234
+# 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -7006,16 +7001,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 logic.anzuinfra.com
 0.0.0.0 creatives.sascdn.com
 0.0.0.0 www10.smartadserver.com
-
-# Elden Pixels
-# Alwa's Awakening
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 
 # Electronic Arts
 # ActivationUI.exe
@@ -7918,6 +7903,38 @@ ff02::3 ip6-allhosts
 0.0.0.0 media.farming-simulator.com
 #0.0.0.0 ssl.gstatic.com
 
+# Hardspace: Shipbreaker
+# Steam Datagram Relay
+# Ip/s blockieren:
+# 35.190.78.8
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+# 44.235.3.113
+# 44.241.17.164
+# 34.248.26.131
+# 52.18.23.150
+# 54.76.76.150
+# 44.239.107.215
+0.0.0.0 ec2-44-239-107-215.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-44-241-17-164.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-34-248-26-131.eu-west-1.compute.amazonaws.com
+0.0.0.0 ec2-52-18-23-150.eu-west-1.compute.amazonaws.com
+0.0.0.0 ec2-54-76-76-150.eu-west-1.compute.amazonaws.com
+# Playfab Analytics & Onlinefunktionen
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
+
 # Necromunda: Hired Gun
 # 44.239.129.245
 # 54.190.230.201
@@ -8791,6 +8808,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 
 # Goblinz Publishing & Fractale
+# Sigma Theory: Global Cold War
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
@@ -10371,6 +10389,80 @@ ff02::3 ip6-allhosts
 0.0.0.0 launcher01.kalypsomedia.com # Spracheinstellungen, GUID, Versionsnummer, Programmname, IDS
 # 82.165.136.129 # Updatedateien
 
+# Disciples: Liberation
+# 217.172.184.73
+# 142.250.186.110
+# 216.58.212.162
+# 142.250.186.104
+# 116.202.252.69
+# 185.60.216.19
+# 185.60.216.35
+# 185.60.216.19
+# 146.75.118.167
+# 18.66.126.178
+# 199.232.138.167
+# 199.232.138.167
+# 54.186.8.237
+# 52.43.192.60
+# 108.138.7.58
+# 142.250.185.227
+# 13.32.99.31
+# 192.108.239.254
+# 13.32.121.72
+# 108.138.24.189
+# 35.82.181.201
+# 162.159.130.234
+# 162.159.136.232
+# 162.159.134.233
+# 104.244.42.193
+# 152.199.21.141
+# 152.199.21.141
+# 104.244.43.131
+# 104.244.43.131
+# 93.184.220.70
+# 104.244.42.2
+# 104.244.42.66
+# 142.250.74.205
+0.0.0.0 launcher01.kalypsomedia.com
+#0.0.0.0 www.kalypsomedia.com
+#0.0.0.0 www.google.com
+0.0.0.0 www.googleadservices.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 www.facebook.com
+0.0.0.0 scontent.xx.fbcdn.net
+0.0.0.0 facebook.com
+0.0.0.0 static.xx.fbcdn.net
+#0.0.0.0 www.twitch.tv
+#0.0.0.0 static.twitchcdn.net
+#0.0.0.0 video-edge-d2012c.pdx01.abs.hls.ttvnw.net
+#0.0.0.0 gql.twitch.tv
+#0.0.0.0 k.twitchcdn.net
+0.0.0.0 pubsub-edge.twitch.tv
+#0.0.0.0 irc-ws.chat.twitch.tv
+0.0.0.0 ds0h3roq6wcgc.cloudfront.net
+#0.0.0.0 www.gstatic.com
+#0.0.0.0 passport.twitch.tv
+#0.0.0.0 usher.ttvnw.net
+0.0.0.0 sb.scorecardresearch.com
+#0.0.0.0 d3aqoihi2n8ty8.cloudfront.net
+0.0.0.0 science-edge-external-prod-73889260.us-west-2.elb.amazonaws.com
+#0.0.0.0 discord.gg
+#0.0.0.0 discord.com
+#0.0.0.0 cdn.discordapp.com
+#0.0.0.0 twitter.com
+#0.0.0.0 cs510.wpc.edgecastcdn.net
+#0.0.0.0 abs.twimg.com
+#0.0.0.0 abs-0.twimg.com
+0.0.0.0 abs-zero.twimg.com
+#0.0.0.0 pbs.twimg.com
+#0.0.0.0 api.twitter.com
+#0.0.0.0 tpop-api.twitter.com
+#0.0.0.0 accounts.google.com
+
 # Dungeons III
 # Facebook Anbindung
 # Ip/s blockieren:
@@ -10754,16 +10846,6 @@ ff02::3 ip6-allhosts
 # The Shrouded Isle
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-
-# Klabater
-# Apocalipsis
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 
 # Klei Entertainment
 # Don't Starve
@@ -17765,13 +17847,7 @@ Dying Light 2 Stay Human
 
 # Thomas Happ Games LLC
 # Axiom Verge
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# Steam Datagram Relay
 
 # Thorium
 # Undermine
