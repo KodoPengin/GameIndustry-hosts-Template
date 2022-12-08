@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 06.12.2022
+# Änderungsdatum: 08.12.2022
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -89,78 +89,169 @@ ff02::3 ip6-allhosts
 
 # Blizzard Entertainment, Inc.
 # Battle.net Desktop App
-# 74.125.140
-#0.0.0.0 dl.google.com
+# 93.184.220.29
+#0.0.0.0 ocsp.digicert.com
 # 37.244.28.104
-#0.0.0.0 nydus.battle.net # Geodatenerfassung, leitet mittlerweile auf content-ui.battle.net um
-# 13.225.87.67
-0.0.0.0 content-ui.battle.net # Google TagManager, ID GTM-NCPDGC4, News, Redirects, Bootstrap, Callbacks
-# 2.22.242.139
-# 143.204.214.140
-0.0.0.0 a711.dscd.akamai.net
-0.0.0.0 d9qcypg7o58bv.cloudfront.net
-# Agent.exe
-# 137.221.64.1
-# 137.221.64.2
-# 137.221.64.3
-# 137.221.64.4
-# 137.221.64.5
-# 137.221.64.6
-# 137.221.64.7
-# 137.221.64.8
-#0.0.0.0 cdn.blizzard.com
-# 8.238.32.126
-# 8.240.196.254
-# 8.241.11.126
-# 8.248.115.254
-# 8.249.119.254
-# 8.249.129.254
-# 8.253.95.121
-# 8.238.30.254
-# 67.27.157.126
-# 8.241.123.126
-# 8.238.36.254
-# 67.27.159.126
-#0.0.0.0 download.blizzard.com.c.footprint.net
-# 37.244.28.30
-# 37.244.28.19
-#0.0.0.0 eu.patch.battle.net
-#0.0.0.0 eu.version.battle.net
-# 114.108.158.203
-# 110.45.217.198
-# 117.52.158.94
-#0.0.0.0 blizzard.gcdn.cloudn.co.kr
-# Battle.net.exe
-# 3.124.104.118
-# 37.244.28.102
-# 37.244.54.10
-# 37.244.28.103
-# 37.244.28.30
-# 37.244.28.187
-#0.0.0.0 eu.battle.net
-#0.0.0.0 eu.actual.battle.net
-#0.0.0.0 eu.launcher.battle.net
-#0.0.0.0 eu.patch.battle.net
-#0.0.0.0 eu.api.blizzard.com
-#0.0.0.0 oauth.battle.net
-# 137.221.106.102
-# 137.221.106.121
-# 137.221.106.103
-#0.0.0.0 us.battle.net
-#0.0.0.0 us.api.blizzard.com
-#0.0.0.0 us.launcher.battle.net
-#0.0.0.0 bnetcmsus-a.akamaihd.net # Thumbnails
-#0.0.0.0 blz-contentstack-images.akamaized.net # Grafiken
-#0.0.0.0 level3.blizzard.com # Patch
-#0.0.0.0 us-legal.battle.net # USK Bewertung
-#0.0.0.0 images.blz-contentstack.com
-# Spyware & Tracker
+#0.0.0.0 nydus.battle.net # GeoIP, Redirect content-ui.battle.net
+# 18.66.112.79
+# 18.66.112.80
+# 18.66.112.34
+# 18.66.112.40
+0.0.0.0 geo.battle.net # Geodaten
+# 142.250.185.142
+# 172.217.16.206
+0.0.0.0 dl.google.com
 # 24.105.29.76
 0.0.0.0 telemetry-in.battle.net
-# 173.194.76.113
-0.0.0.0 www.google-analytics.com # ID UA-50249600-138, UA-50249600-2 und Analytics_GaID UA-50249600-139
-0.0.0.0 ws-in-f113.1e100.net
-0.0.0.0 www.googletagmanager.com # ID GTM-NCPDGC4
+# 37.244.28.30
+#0.0.0.0 eu.patch.battle.net
+# 37.244.55.135
+#0.0.0.0 eu.actual.battle.net
+# 137.221.106.19
+#0.0.0.0 us.patch.battle.net
+# 52.222.250.168
+#0.0.0.0 d9qcypg7o58bv.cloudfront.net # Javascript, Newrelic, Fonts
+# 18.66.92.216
+# 18.66.92.31
+# 18.66.92.102
+# 18.66.92.167
+#0.0.0.0 d4wwj4phka98o.cloudfront.net
+# 52.222.214.79
+#0.0.0.0 content-ui.battle.net # Unterseiten, Tracking
+# 137.221.64.3
+# 137.221.64.2
+# 137.221.64.4
+# 137.221.64.5
+#0.0.0.0 cdn.blizzard.com
+# 37.244.28.187
+#0.0.0.0 api.blizzard.com # Layout-Templates
+# 2.22.242.98
+#0.0.0.0 bnetaccount.akamaized.net # CSS, Analytics, Fonts, Cookie Consent, Icons, Javascript
+# 137.221.64.2
+# 137.221.64.3
+# 137.221.64.6
+# 137.221.64.8
+# 137.221.64.1
+# 137.221.64.5
+# 137.221.64.4
+# 137.221.64.7
+#0.0.0.0 eu.cdn.blizzard.com
+# 137.221.64.8
+# 137.221.64.6
+# 137.221.64.2
+# 137.221.64.3
+# 137.221.64.1
+# 137.221.64.4
+# 137.221.64.5
+# 137.221.64.7
+#0.0.0.0 us.cdn.blizzard.com
+# 23.213.161.6
+# 23.213.161.13
+# 2.22.242.10
+# 2.22.242.138
+0.0.0.0 blzddist1-a.akamaihd.net
+# 8.248.113.254
+# 67.26.81.254
+# 8.248.147.254
+# 8.241.121.126
+# 8.238.191.126
+# 8.241.121.254
+# 8.248.135.254
+# 67.26.75.254
+# 8.241.11.254
+# 67.27.159.126
+# 67.27.158.126
+# 8.248.135.254
+# 67.26.75.254
+# 8.248.117.254
+# 67.26.137.254
+# 8.248.115.254
+# 8.248.117.254
+# 8.248.147.254
+# 8.253.95.121
+# 67.26.73.254
+# 8.248.131.254
+# 67.27.158.126
+# 67.26.75.254
+# 8.248.119.254
+#0.0.0.0 level3.blizzard.com # Chunks
+23.213.161.12
+# 23.213.161.15
+#0.0.0.0 blzprofile.akamaized.net # Account/Avatar-Json, Jpg
+# 18.195.120.48
+# 35.158.142.216
+# 3.67.154.143
+#0.0.0.0 oauth.battle.net # Anmeldung
+# 23.55.110.198
+# 104.124.11.11
+# 104.124.11.26
+# 2.22.242.138
+# 2.22.242.9
+#0.0.0.0 bnetcmsus-a.akamaihd.net # Thumbnails
+# 23.213.161.19
+# 23.213.161.18
+#0.0.0.0 blz-contentstack-assets.akamaized.net # WebM Videos, Fonts
+# 146.75.122.217
+#0.0.0.0 images.blz-contentstack.com # SVG, Webp
+# 108.138.7.39
+# 108.138.7.64
+# 108.138.7.89
+# 108.138.7.110
+#0.0.0.0 beta.content-ui.battle.net # Bootstrap, Cookies
+#0.0.0.0 server-108-138-7-89.fra56.r.cloudfront.net
+# 108.138.7.32
+# 108.138.7.121
+# 108.138.7.75
+# 108.138.7.57
+#0.0.0.0 navbar.blizzard.com # Navi
+# 8.248.146.20
+# 67.27.234.1
+# 8.241.121.1
+# 8.238.191.1
+# 67.27.157.1
+# 67.27.157.129
+#0.0.0.0 level3.ssl.blizzard.com
+# 2.22.242.10
+#0.0.0.0 bnetshopeu.akamaized.net # Javascript, CSS
+# 37.244.28.102
+#0.0.0.0 eu.shop.battle.net
+# 37.244.28.103
+0.0.0.0 alert-eu.battle.net
+# 8.241.9.254
+# 8.241.9.126
+# 8.253.204.121
+# 67.27.233.254
+#0.0.0.0 download.blizzard.com.c.footprint.net
+# Drittanbieterspyware, Werbung und Monetarisierung
+# Ip/s blockieren:
+# 142.250.185.168
+# 172.217.16.206
+# 142.250.185.110
+# 142.250.184.196
+0.0.0.0 www.googletagmanager.com # GTM-589KTQ, GTM-NCPDGC4
+0.0.0.0 www.google-analytics.com # UA-50249600-1
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www.google.com # Google Audiences
+# Ip/s blockieren:
+# 173.194.76.156
+# 173.194.76.157
+# 173.194.76.154
+# 173.194.76.155
+# 108.177.15.154
+0.0.0.0 stats.g.doubleclick.net # UA-50249600-1
+# Ip/s blockieren:
+# 162.247.241.14
+0.0.0.0 bam.nr-data.net
+# Ip/s blockieren:
+# 146.75.122.137
+0.0.0.0 js-agent.newrelic.com
+# Ip/s blockieren:
+# 104.108.78.219
+# 95.101.196.144
+# 52.205.152.194
+0.0.0.0 a8270235338.cdn.optimizely.com
+0.0.0.0 cdn.optimizely.com
+0.0.0.0 logx.optimizely.com
 
 # Battle.net Klassik
 # 5.42.181.30 # IPbereich von bis 5.42.181.**
@@ -4448,9 +4539,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 eu.actual.battle.net # Europa
 #0.0.0.0 us.actual.battle.net # Amerika
 #0.0.0.0 kr.actual.battle.net # Asien
-0.0.0.0 cn-test.actual.battle.net
+#0.0.0.0 cn-test.actual.battle.net
 0.0.0.0 loc.actual.battle.net
-0.0.0.0 test.actual.battle.net
+#0.0.0.0 test.actual.battle.net # Public Test Server Blizzard Games
 # 24.105.29.76
 0.0.0.0 telemetry-in.battle.net
 # Weitere Endpunkte
@@ -6701,16 +6792,20 @@ ff02::3 ip6-allhosts
 # Dexion Games
 # Business Clicker
 # Ip/s blockieren:
-# 35.186.194.186
 # 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Capture the monster
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -7985,19 +8080,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 fs19-a.farming-simulator.com
 0.0.0.0 fs19-b.farming-simulator.com
 
-# Farming Simulator 2013
-# inlusive many tracking stuff on their website
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 www.farming-simulator.com
-0.0.0.0 media.farming-simulator.com
-#0.0.0.0 ssl.gstatic.com
-
 # Hardspace: Shipbreaker
 # Steam Datagram Relay
 # Ip/s blockieren:
@@ -8674,6 +8756,34 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
+# Gaggle Studios, Inc.
+# Goose Goose Duck
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+# 35.190.78.8
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+# 216.239.36.54
+# 3.66.253.77
+# 104.18.10.236
+# 142.250.185.234
+#0.0.0.0 ggdassets.gaggle.fun
+#0.0.0.0 identitytoolkit.googleapis.com
+#0.0.0.0 us-central1-gaggle-staging.cloudfunctions.net
+
 # Game Ever Studio
 # Juanito Arcade Mayhem
 # 95.100.216.223
@@ -8843,6 +8953,16 @@ ff02::3 ip6-allhosts
 # 103.104.170.24
 #0.0.0.0 channel.sdk.mobileztgame.com
 #0.0.0.0 pw.ztgame.com.cn
+
+# Giants Software GmbH
+# Farming Simulator 2013
+# Ip/s blockieren:
+# 88.198.5.196
+# 195.201.15.2
+#0.0.0.0 www.farming-simulator.com
+#0.0.0.0 fs2013-b.farming-simulator.com
+#0.0.0.0 static.88-198-5-196.clients.your-server.de
+#0.0.0.0 static.2.15.201.195.clients.your-server.de
 
 # GIANTY Inc.
 # GOKEN | Aktualisiert 09.03.2019
@@ -12019,10 +12139,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # MotoGP™15
-# Launcher & Spiel
-#0.0.0.0 online.milestone.it # Für Singleplayer nicht benötigt
-# Mit aktivem Klick auf "Updates suchen"...
-0.0.0.0 static.addtoany.com
+# 62.152.111.43
+# 46.252.153.129
+# 83.221.105.156
+#0.0.0.0 online.milestone.it
+#0.0.0.0 www.motogpvideogame.com
+#0.0.0.0 milestone.mailmnta.com
 
 # MotoGP™17
 # 62.152.111.43
@@ -12985,13 +13107,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # OGPlanet
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# La Tale
 # Das Produkt wurde abgeschaltet
 # 202.213.198.230
 0.0.0.0 id.ogplanet.com
@@ -13012,30 +13128,26 @@ ff02::3 ip6-allhosts
 
 # OneShark
 # Forbidden Clicker Party
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 
 # OnFire Games
 # Ultimate Spinner Simulator - Unstress Yourself
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
-
-# Onyx Lute
-# Glass Masquerade
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 
 # OpenArl
 # Path of Building
@@ -13162,15 +13274,21 @@ ff02::3 ip6-allhosts
 
 # PanGuoJun
 # Flower Design
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
 
 # Panic
 # Untitled Goose Game
@@ -13200,6 +13318,51 @@ ff02::3 ip6-allhosts
 0.0.0.0 sdknode-1.devtodev.com
 0.0.0.0 statgw2.devtodev.com
 0.0.0.0 storage.googleapis.com
+
+# Papaya Play
+# La Tale - Evolved
+# 205.185.216.42
+# 205.185.216.10
+# 3.5.11.187
+# 52.217.230.105
+# 54.231.136.241
+# 52.217.136.249
+# 52.216.58.249
+# 52.217.95.129
+# 52.217.236.201
+# 54.231.163.89
+# 52.216.164.195
+# 54.231.193.201
+# 54.231.163.89
+# 52.216.164.195
+# 54.231.193.201
+# 52.216.36.113
+# 52.216.210.97
+# 52.216.60.161
+# 54.231.137.145
+# 52.216.176.211
+# 54.231.234.17
+# 172.217.23.106
+# 104.17.24.14
+# 142.250.185.202
+# 52.217.230.56
+# 3.39.144.243
+# 43.200.243.69
+# 205.185.216.10
+#0.0.0.0 patch.latale.papayaplay.com
+#0.0.0.0 papayacdn.s3.amazonaws.com
+#0.0.0.0 testpatch-dl.latale.jp
+#0.0.0.0 dl.latale.jp
+#0.0.0.0 gpdl01.gamepot.co.jp
+#0.0.0.0 lapatch.gameflier.com
+#0.0.0.0 ajax.googleapis.com
+#0.0.0.0 fonts.googleapis.com
+#0.0.0.0 cdnjs.cloudflare.com
+#0.0.0.0 s3.amazonaws.com
+#0.0.0.0 mgr.gameguard.co.kr
+#0.0.0.0 cds.a5z3r5u9.hwcdn.net
+#0.0.0.0 gamesecurity-gg-cloud-1732020794.ap-northeast-2.elb.amazonaws.com
+#0.0.0.0 ec2-3-39-144-243.ap-northeast-2.compute.amazonaws.com
 
 # Paper House Pty Ltd
 # Paperbark
@@ -13533,6 +13696,10 @@ ff02::3 ip6-allhosts
 # s. Eintrag Steam: IP Checks
 # 199.255.40.200
 0.0.0.0 et.epicgames.com
+
+# PixelCount Studios, Ltd.
+# Kynseed
+# Steam Datagram Relay
 
 # Pixelsplit Simulations
 # Funfair Ride Simulator 3
@@ -16929,21 +17096,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
-# Studio Wildcard
-# Ark: Survival Evolved
-# Um offline zu spielen wird nichts benötigt
-# 52.216.160.162
-# 52.216.138.210
-# 104.25.136.66
-#0.0.0.0 arkdedicated.com # Ips der offizellen Server und Ingame-News
-#0.0.0.0 sapi.arkdedicated.com # Versionsabgleich, Cookie, IP-Erfassung und Zuweisung in eine "Familie"
-#0.0.0.0 auth.arkdedicated.com # IP-Erfassung, Token
-#0.0.0.0 auth.arkdedicated.com.cdn.cloudflare.net
-# BattlEye - beservice.exe auf Port 7782 und 7783
-# 145.239.8.133
-#0.0.0.0 ark1.battleye.com
-#0.0.0.0 ns3081506.ip-145-239-8.eu
-
 # Suncrash
 # Judgement: Apocalypse Survival Simulation
 # Ip/s blockieren:
@@ -19586,6 +19738,38 @@ Dying Light 2 Stay Human
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# Wildcard Properties, LLC
+# Ark: Survival Evolved
+# 52.216.160.162
+# 52.216.138.210
+# 52.217.92.251
+# 54.231.169.53
+# 52.216.133.154
+# 52.216.245.115
+# 52.217.86.227
+# 54.231.236.53
+# 54.231.224.93
+# 52.216.220.109
+# 54.231.168.45
+# 54.231.164.197
+# 52.216.24.67
+# 52.216.212.253
+# 52.216.227.74
+# 52.217.69.179
+# 52.217.101.187
+# 52.216.141.219
+# 104.25.136.66
+# 51.195.88.133
+# 138.199.37.225
+# 138.199.37.231
+# 104.25.135.66
+#0.0.0.0 arkdedicated.com
+#0.0.0.0 sapi2.arkdedicated.com
+#0.0.0.0 ark1.battleye.com
+#0.0.0.0 battleye.b-cdn.net
+#0.0.0.0 ns3181880.ip-51-195-88.eu
+#0.0.0.0 sapi2.arkdedicated.com.cdn.cloudflare.net
 
 # Winged Cloud
 # Sakura Clicker
