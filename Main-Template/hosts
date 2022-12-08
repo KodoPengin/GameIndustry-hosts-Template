@@ -25217,7 +25217,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.googletagmanager.com # GTM-589KTQ, GTM-NCPDGC4
 0.0.0.0 www.google-analytics.com # UA-50249600-1
 0.0.0.0 www.google-analytics.com
-0.0.0.0 www.google.com # Google Audiences
+#0.0.0.0 www.google.com # Google Audiences
 # Ip/s blockieren:
 # 173.194.76.156
 # 173.194.76.157
