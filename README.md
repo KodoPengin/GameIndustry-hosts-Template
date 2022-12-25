@@ -28,8 +28,8 @@ No third party programs or complicated or expensive installation media (PI) are 
 
 ### Special features:
 - Works on any device. System-wide
-- Blocked entries for over 1600 games and the most important gaming-clients of this time
-- Over 31000 lines
+- Blocked entries for over 1688 games and the most important gaming-clients of this time
+- Over 45000 lines
 - Regularly updated
 - Entries for Software, games, websites and IoT
 - Privacy breaking tech companies like Facebook are blocked
@@ -87,7 +87,7 @@ If you use any of these programs, you should look carefully which rights they ta
 Safety does not automatically mean safety in the way we as end users imagine it. Especially since manufacturers and publisher who promise us security often work to their own advantage.
 
 ### Notice to Valve Corporation's GDS connections - Oct. 2021
-This service is definitely superfluous. Entries can be ignored and can be deleted by "Search and Replace" functions. 400 products are affected.
+This service is definitely superfluous. Entries can be ignored and can be deleted by "Search and Replace" functions. 299 products (updated Dez.2022) are affected.
 
 ## ❗ Hints:
 Careful with using entries. Some may be strict and many services may not work
@@ -103,6 +103,7 @@ There is only one person behind the entire project. Creating and maintaining the
 GameIndustry.eu is the original source of published host files. If the files (or components) are from somewhere else (maybe modified), they are not from me and get no support.
 
 Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a> and <a href="https://www.gameindustry.eu/de/kontakt/">Contact site</a><br>
+F.A.Q. :<a href="https://www.gameindustry.eu/faq/">F.A.Q.</a><br>
 Steam Group & Support: <a href="https://steamcommunity.com/groups/penguindome/">Spyware in Spielen? Nein danke!</a>
 
 License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons by-nc-sa 4.0</a>

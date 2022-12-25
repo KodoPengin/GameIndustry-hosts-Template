@@ -28,8 +28,8 @@ Es werden keine Programme von Drittanbietern oder komplizierte und teure Install
 
 ### Besondere Merkmale:
 - Funktioniert auf jedem Gerät. Systemweit
-- Geblockte Einträge für über 1600 Spiele inklusiv der wichtigsten Gaming-Clients dieser Zeit
-- Über 31000 Zeilen
+- Geblockte Einträge für über 1688 Spiele inklusiv der wichtigsten Gaming-Clients dieser Zeit
+- Über 45000 Zeilen
 - Regelmäßig aktualisiert
 - Einträge für Software, Spiele, Webseiten und IoT
 - Datenschutzverletzende Tech-Unternehmen wie Facebook werden blockiert
@@ -85,10 +85,10 @@ Wenn eins der genannten Programme verwendet wird sollte darauf geachtet werden w
 Sicherheit bedeutet nicht automatisch Sicherheit in dem Sinne, wie wir sie uns als Endbenutzer vorstellen. Zumal Hersteller und Herausgeber, die uns Sicherheit versprechen, oft zu ihrem eigenen Vorteil arbeiten.
 
 ### Hinweis zu den GDS-Verbindungen der Valve Corporation - Okt. 2021
-Dieser Service ist mittlerweile inaktiv. Einträge können ignoriert und durch "Suchen und Ersetzen"-Funktionen gelöscht werden. Es sind 400 Produkte betroffen.
+Dieser Service ist mittlerweile inaktiv. Einträge können ignoriert und durch "Suchen und Ersetzen"-Funktionen gelöscht werden. Es sind 299 Produkte (updated Dez.2022) betroffen.
 
 ## ❗ Hinweise:
-Vorsichtig mit der Verwendung von Einträgen. Einige Einträge sind je nach Anwendung striktt und viele Dienste funktionieren möglicherweise nicht.
+Vorsichtig mit der Verwendung von Einträgen. Einige Einträge sind je nach Anwendung strikt und viele Dienste funktionieren möglicherweise nicht.
 
 ## 🐞 Bugs, Fehler, Fragen::
 Auch ich bin nicht perfekt und es können sich falsche Einträge oder Rechtschreibfehler einschleichen. Wenn dies der Fall ist, zögere nicht, mich so schnell wie möglich zu kontaktieren - Bitte eröffne ein Ticket, kontaktiere mich in Steam oder über meine Website. Korrekturen (wenn nötig) werden schnell umgesetzt.
@@ -101,6 +101,7 @@ Hinter dem Projekt steht nur eine Person. Die Erstellung und Pflege der Listen h
 GameIndustry.eu ist die Originalquelle der veröffentlichten Host-Dateien. Wenn die Dateien (oder Komponenten) von irgendwo anders (vielleicht modifiziert) sind, sind sie nicht original und erhalten keinen Support.
 
 Webseite & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a> and <a href="https://www.gameindustry.eu/de/kontakt/">Kontaktseite</a><br>
+F.A.Q. :<a href="https://www.gameindustry.eu/faq/">F.A.Q.</a><br>
 Steam Gruppe & Support: <a href="https://steamcommunity.com/groups/penguindome/">Spyware in Games? No, thanks!</a>
 
 Lizenz: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons by-nc-sa 4.0</a>
