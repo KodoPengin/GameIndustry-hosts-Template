@@ -9,11 +9,11 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 30.12.2022
+# Änderungsdatum: 04.01.2023
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
-# Hilfe: https://hosts.gameindustry.eu/de/faq/
+# Hilfe: https://hosts.gameindustry.eu/faq/
 # Steam: https://www.steamcommunity.com/groups/Penguindome
 # Github: https://github.com/KodoPengin/GameIndustry-hosts-Template
 # Codeberg: https://codeberg.org/Pengin/GameIndustry-hosts-Template
@@ -3024,7 +3024,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 master.arcengames.com
 
 # A valley without Wind II
+# 52.217.100.44
+# 52.217.105.44
+# 52.217.202.121
+# 54.231.197.41
+# 54.231.234.9
+# 3.5.11.148
+# 3.5.21.21
+# 52.217.36.204
+# 104.26.8.123
+# 104.26.9.123
+# 172.67.75.33
 0.0.0.0 valley2.s3.amazonaws.com
+#0.0.0.0 master.arcengames.com
 
 # Shattered Haven & Tidalis
 0.0.0.0 shattered.s3.amazonaws.com
@@ -4787,12 +4799,44 @@ ff02::3 ip6-allhosts
 
 # Brightrock Games
 # War for the Overworld
-# Youtube CoherentUI_Host.exe, Google, zu Unity siehe eigener Eintrag
-# GoG ist für Crossplay?
-0.0.0.0 wftogame.com
-0.0.0.0 stats.unity3d.com # sendet eindeutige ID, Windowsversion inklusiv x64/x32 build, Sprache, Spielid
-#0.0.0.0 users.gog.com
+# 35.241.26.53
+# 35.186.194.186
+# 35.241.52.229
+# 35.190.88.234
+# 35.190.78.8
+# 77.79.249.151
+# 77.79.249.152
+# 23.55.163.80
+# 23.55.163.81
+# 23.55.163.62
+# 23.55.163.44
+# 178.62.35.30
+# 162.159.137.232
+# 162.159.129.233
+# 91.222.185.239
+# 216.58.212.174
+0.0.0.0 galaxy-log.gog.com
+#0.0.0.0 remote-config.gog.com
 #0.0.0.0 auth.gog.com
+0.0.0.0 notifications-pusher-aws.gog.com
+0.0.0.0 newsletter.brightrockgames.com
+#0.0.0.0 discord.com
+#0.0.0.0 cdn.discordapp.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+#0.0.0.0 host-77-79-249-151.gog.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 ams15s22-in-f14.1e100.net
 
 # Bryan Tabor
 # Bird Game
@@ -5754,89 +5798,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ext1-fra1.steamserver.net
 #0.0.0.0 ext2-fra2.steamserver.net
 
-# Rogueside
-# Guns, Gore & Cannoli
-# Ip/s blockieren:
-# 35.186.194.186
-# 35.241.26.53
-# 35.190.88.234
-# 35.241.52.229
-# 142.250.185.110
-0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
-0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 53.26.241.35.bc.googleusercontent.com
-0.0.0.0 186.194.186.35.bc.googleusercontent.com
-0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
-0.0.0.0 www-google-analytics.l.google.com
-0.0.0.0 www.google-analytics.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
-
-# Guns, Gore and Cannoli 2
-# Ip/s blockieren:
-# 35.186.194.186
-# 35.241.26.53
-# 35.190.88.234
-# 35.241.52.229
-0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
-0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 53.26.241.35.bc.googleusercontent.com
-0.0.0.0 186.194.186.35.bc.googleusercontent.com
-0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
-# 35.156.64.66, 18.198.161.239, 54.82.156.68, 54.152.125.5, 54.179.202.252, 52.221.23.16
-0.0.0.0 www-google-analytics.l.google.com
-#0.0.0.0 eu1-mm.unet.unity3d.com
-#0.0.0.0 us1-mm.unet.unity3d.com
-#0.0.0.0 ap1-mm.unet.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 www.google-analytics.com
-
-# War Party
-# Ip/s blockieren:
-# 35.186.194.186
-# 35.241.26.53
-# 35.190.88.234
-# 35.241.52.229
-0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
-0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-0.0.0.0 53.26.241.35.bc.googleusercontent.com
-0.0.0.0 186.194.186.35.bc.googleusercontent.com
-0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
-# 159.8.234.182
-# 216.120.180.54
-# 159.8.234.176
-# 216.120.180.4
-# 5.188.239.8
-# 216.120.180.25
-# 91.199.81.131
-# 92.38.154.71
-# 142.250.185.174
-# 142.250.181.238
-# 46.30.215.226
-# 104.107.217.58
-0.0.0.0 www-google-analytics.l.google.com
-0.0.0.0 www.google-analytics.com
-0.0.0.0 www.warcave.com
-#0.0.0.0 avatars.akamai.steamstatic.com
-#0.0.0.0 chat-eu.exitgames.com
-#0.0.0.0 slams180.exitgames.com
-#0.0.0.0 ns-eu.exitgames.com
-#0.0.0.0 gcams146.exitgames.com
-#0.0.0.0 gcams081.exitgames.com
-#0.0.0.0 gcsp004.exitgames.com
-
 # Creaky Corpse Ltd
 # March of the Living
 # 208.64.200.105
@@ -6069,6 +6030,11 @@ ff02::3 ip6-allhosts
 # NEONomicon
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
+
+# Cyanide Studios
+# Blood Bowl: Chaos Edition
+# 176.31.110.55
+0.0.0.0 bble1.cyanide-studio.com
 
 # CyberStep, Inc.
 # Onigiri
@@ -7314,7 +7280,7 @@ ff02::3 ip6-allhosts
 # 142.250.74.196
 # 172.217.18.10
 # 142.250.181.232
-# 208.64.71.50-×
+# 208.64.71.50
 0.0.0.0 games.eekllc.com
 0.0.0.0 www.googletagmanager.com
 #0.0.0.0 fonts.googleapis.com
@@ -8156,16 +8122,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
-# Blood Bowl: Chaos Edition
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 bble1.cyanide-studio.com
-
 # Bound by Flame
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
@@ -8180,13 +8136,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Cities XXL
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 208.64.203.186
+0.0.0.0 cser.steampowered.com
 
 # Contrast
 # 208.64.200.105
@@ -12796,6 +12747,15 @@ ff02::3 ip6-allhosts
 #0.0.0.0 gsp-auw003-se32.gamesparks.net
 
 # NEOWIZ
+# Blade Assault
+# Steam Datagram Relay
+# Ip/s blockieren:
+# 35.190.78.8
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
+
+
+
 # DJMAX RESPECT V
 # Ip/s blockieren:
 # 35.241.26.53
@@ -13346,6 +13306,19 @@ ff02::3 ip6-allhosts
 
 # OtakuMaker SARL
 # Dialing
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -13766,8 +13739,10 @@ ff02::3 ip6-allhosts
 # Parallax Labs
 # Despoiler
 0.0.0.0 datarouter.ol.epicgames.com
-0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 api.gameanalytics.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 ec2-3-208-242-164.compute-1.amazonaws.com
+0.0.0.0 ec2-23-22-40-89.compute-1.amazonaws.com
 
 # Paul Schneider
 # Unloved
@@ -15215,15 +15190,88 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
-# Rogue Earth LLC
-# Eterium
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# Rogueside
+# Guns, Gore & Cannoli
+# Ip/s blockieren:
+# 35.186.194.186
+# 35.241.26.53
+# 35.190.88.234
+# 35.241.52.229
+# 142.250.185.110
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Guns, Gore and Cannoli 2
+# Ip/s blockieren:
+# 35.186.194.186
+# 35.241.26.53
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+# 35.156.64.66, 18.198.161.239, 54.82.156.68, 54.152.125.5, 54.179.202.252, 52.221.23.16
+0.0.0.0 www-google-analytics.l.google.com
+#0.0.0.0 eu1-mm.unet.unity3d.com
+#0.0.0.0 us1-mm.unet.unity3d.com
+#0.0.0.0 ap1-mm.unet.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 www.google-analytics.com
+
+# War Party
+# Ip/s blockieren:
+# 35.186.194.186
+# 35.241.26.53
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+# 159.8.234.182
+# 216.120.180.54
+# 159.8.234.176
+# 216.120.180.4
+# 5.188.239.8
+# 216.120.180.25
+# 91.199.81.131
+# 92.38.154.71
+# 142.250.185.174
+# 142.250.181.238
+# 46.30.215.226
+# 104.107.217.58
+0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www.warcave.com
+#0.0.0.0 avatars.akamai.steamstatic.com
+#0.0.0.0 chat-eu.exitgames.com
+#0.0.0.0 slams180.exitgames.com
+#0.0.0.0 ns-eu.exitgames.com
+#0.0.0.0 gcams146.exitgames.com
+#0.0.0.0 gcams081.exitgames.com
+#0.0.0.0 gcsp004.exitgames.com
 
 # rokaplay und Maple Whispering Limited
 # Stranded Sails - Entdecker der verfluchten Inseln
@@ -15423,14 +15471,11 @@ ff02::3 ip6-allhosts
 
 # Seaven Studio
 # Ethan: Meteor Hunter
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-#0.0.0.0 steamcloud-eu.storage.googleapis.com
+# 23.55.163.53
+# 23.55.163.47
+#0.0.0.0 avatars.akamai.steamstatic.com
+#0.0.0.0 a23-55-163-47.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-55-163-53.deploy.static.akamaitechnologies.com
 
 # Secret Location Inc.
 # Transpose
@@ -16594,6 +16639,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
+# Something We Made
+# TOEM
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
 # Sony Interactive Entertainment, Inc.
 # Days Gone
 # Ip/s blockieren:
@@ -16768,7 +16831,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 dxng.os.eidos.com # Gameevents, Ingamemails, Karten, Nutzerprofile, Callbacks, Anmeldung, Infocast, Transaktionen und DLCabgleich
 0.0.0.0 lbmtl.os.eidos.com
 #0.0.0.0 res.cloudinary.com
-0.0.0.0 cloudinary.map.fastly.net
+#0.0.0.0 cloudinary.map.fastly.net
 
 # Deus Ex: The Fall
 # 157.240.20.35
@@ -19423,14 +19486,8 @@ Dying Light 2 Stay Human
 
 # Vector Unit
 # Riptide GP: Renegade
-# Twitter, Facebook
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# Ip/s blockieren:
+# 142.250.185.180
 0.0.0.0 vectorunit-rgpr.appspot.com
 0.0.0.0 vectorunit-cloud.appspot.com
 
@@ -19684,16 +19741,6 @@ Dying Light 2 Stay Human
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 
-# Walter Machado
-# UBERMOSH Vol.5
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # Wargaming Labs
 # Master of Orion
 0.0.0.0 ru.wargaming.net
@@ -19810,16 +19857,6 @@ Dying Light 2 Stay Human
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
-
-# Wayward Prophet
-# World's Dawn
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 
 # Wb Games
 # Injustice™ 2
