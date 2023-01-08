@@ -233,9 +233,7 @@ ff02::3 ip6-allhosts
 # CD Projekt S.A.
 # GoG Galaxy | Good old Games | GoG Galaxy Client+Webseite
 # 23.55.163.80
-# 23.55.163.80
 #0.0.0.0 remote-config.gog.com # Galaxy Downloadlink, verweist auf Content-System
-# 23.55.163.55
 # 23.55.163.55
 #0.0.0.0 content-system.gog.com # Galaxy Setup, verweist auf GoG-CDN-Lumen
 # 67.26.82.31
@@ -287,7 +285,6 @@ ff02::3 ip6-allhosts
 # Dynamische und statische Inhalte
 #0.0.0.0 embed.gog.com # Wishlist, Userdata, Biblitohek, Accesstoken, SVG
 #0.0.0.0 galaxy-promos.gog.com # Banner
-#0.0.0.0 recommendations-api.gog.com # Produktvorschläge
 #0.0.0.0 api.gog.com # Access Token, Währungsrechner
 #0.0.0.0 www4-static.gog-statics.com # Javascripts, Fonts, Tracker
 #0.0.0.0 images.gog.com
@@ -5085,7 +5082,7 @@ ff02::3 ip6-allhosts
 # 23.55.163.68
 # 23.55.163.81
 0.0.0.0 insights-collector.gog.com
-0.0.0.0 cfg.gog.com
+#0.0.0.0 cfg.gog.com
 0.0.0.0 galaxy-log.gog.com
 0.0.0.0 legacy-config.live.cdpred.services
 0.0.0.0 cs570.wac.deltacdn.net
