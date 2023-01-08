@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 04.01.2023
+# Änderungsdatum: 08.01.2023
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -231,138 +231,106 @@ ff02::3 ip6-allhosts
 #0.0.0.0 uswest.battle.net
 
 # CD Projekt S.A.
-# GoG Galaxy | Good old Games
-# GoG Galaxy Installation
-# Facebook Anbindung
-# GoG Titel rufen im Hintergrund die "auth.gog.com" via Galaxy Client "GalaxyCommunication.exe" ohne Wissen des Nutzers auf
-# Datei befindet sich unter ProgramData\Gog.com\Galaxy\redists
-# Wird die Datei gelöscht funktioniert der Client nicht mehr, aber dafür telefoniert kein Spiel mehr nach Hause
-#0.0.0.0 ocsp.digicert.com
-#0.0.0.0 crl3.digicert.com
-0.0.0.0 ars.smartscreen.microsoft.com
-# GoG Galaxy Client
-#0.0.0.0 remote-config.gog.com # Führt zu content-system.gog.com
-#0.0.0.0 content-system.gog.com # Führt zum Installer
-#0.0.0.0 login.gog.com
-#0.0.0.0 static-login.gog.com
-#0.0.0.0 cfg.gog.com
-#0.0.0.0 users.gog.com
-#0.0.0.0 auth.gog.com
-#0.0.0.0 multiplayer.gog.com
-0.0.0.0 presence.gog.com
-#0.0.0.0 galaxy-client-update.gog.com # Clientupgrade
-#0.0.0.0 menu.gog.com
-#0.0.0.0 embed.gog.com # z.b. Changelog
-#0.0.0.0 fonts.googleapis.com
-#0.0.0.0 fonts.gstatic.com
-#0.0.0.0 www4-static2.gog.com
-#0.0.0.0 s.ytimg.com
-#0.0.0.0 i.ytimg.com
-#0.0.0.0 www.youtube.com
-#0.0.0.0 api.gog.com
-#0.0.0.0 cdn-api.gog.com
-#0.0.0.0 www.google.com
-#0.0.0.0 images.gog.com
-#0.0.0.0 images-1.gog.com
-#0.0.0.0 images-2.gog.com
-#0.0.0.0 images-3.gog.com
-#0.0.0.0 images-4.gog.com
-0.0.0.0 hexagon-analytics.com
-0.0.0.0 notifications-pusher.gog.com # Benachrichtigungen
-0.0.0.0 notifications.gog.com
-#0.0.0.0 chat.gog.com
-0.0.0.0 broker.gog.com
-0.0.0.0 chat-broker.gog.com
-0.0.0.0 galaxy-client-reports.gog.com
-#0.0.0.0 productcard.gog-statics.com # CSS, JS und Schriften
-0.0.0.0 gameplay.gog.com
-# GoG Usertracking
-0.0.0.0 stats.g.doubleclick.net
-0.0.0.0 static.doubleclick.net
-0.0.0.0 www.google-analytics.com
-0.0.0.0 www.googletagmanager.com
-0.0.0.0 googleads.g.doubleclick.net
-
-# GoG Galaxy 2.0 | Dabei seit 18.09.2019
-#0.0.0.0 cdn.gog.com
-#0.0.0.0 www.gogalaxy.com
-#0.0.0.0 webinstallers.gog.com
-0.0.0.0 marketing-sections.gog.com
-# Installation & Update
-#0.0.0.0 remote-config.gog.com
-#0.0.0.0 content-system.gog.com
-# Formatierung, Schriften und Bilder
-# 192.229.233.146
-# 152.89.163.155
-# 23.44.7.115
-# 117.18.237.93
-# 23.44.7.27
-# 152.199.43.138
-#0.0.0.0 gamesdb.gog.com
-#0.0.0.0 images.gog.com
-#0.0.0.0 images-1.gog.com
-#0.0.0.0 images-1.gog-statics.com
-#0.0.0.0 images-2.gog.com
-#0.0.0.0 images-2.gog.com
-#0.0.0.0 images-4.gog.com
-#0.0.0.0 www4-static.gog.com # Schriften, Javascripts, CSS
-#0.0.0.0 www4-static.gog-statics.com
-#0.0.0.0 galaxy-library.gog.com
-# Feed / Eigene Aktivitäten/ Bestenlisten/ Javascripts/ Warenkorb/ Nutzerdaten / SVG
-# 23.12.133.27
-# 152.89.163.155
-#0.0.0.0 embed.gog.com # Cookies, Nutzerdaten, Activity-Log, Wunschliste, Einkaufswagen, Produktseiten, Feeds usw
-# API
-# 23.12.133.27
-#0.0.0.0 api.gog.com # Zugangstoken
-#0.0.0.0 api.gogalaxy.com
-# Notifications / Pushnachrichten / Websocket
-# 193.59.178.226
-# 77.79.249.116
-# 77.79.249.118
-0.0.0.0 notifications-pusher.gog.com
-0.0.0.0 notifications.gog.com
-# External Users z.b. Accountverknüpfungen zu Epic & Co
-# 77.79.249.210
-0.0.0.0 external-users.gog.com
-0.0.0.0 external-accounts.gog.com
-# Freunde, Ameldung & Chat
-# 23.12.133.27
-# 117.18.237.93
-# 23.205.220.147
-# 23.205.220.138
-# 23.44.7.89
-# 23.205.220.137
-#0.0.0.0 cfg.gog.come
-#0.0.0.0 auth.gog.com
-#0.0.0.0 users.gog.com
-#0.0.0.0 chat.gog.com
-# Youtube
-# 216.58.205.238
-#0.0.0.0 img.youtube.com
-# Logs, Analytics & Tracking
+# GoG Galaxy | Good old Games | GoG Galaxy Client+Webseite
+# 23.55.163.80
+# 23.55.163.80
+#0.0.0.0 remote-config.gog.com # Galaxy Downloadlink, verweist auf Content-System
+# 23.55.163.55
+# 23.55.163.55
+#0.0.0.0 content-system.gog.com # Galaxy Setup, verweist auf GoG-CDN-Lumen
+# 67.26.82.31
+# 67.27.235.2
+# 67.27.235.2
+# 8.238.28.42
+# 8.238.32.42
+# 8.248.116.21
+#0.0.0.0 gog-cdn-lumen.secure2.footprint.net # Eigentlicher Download
 # Ip/s blockieren:
-# 195.167.152.169
-# 23.79.90.127
-# 172.217.23.136
-# 172.217.18.168
-# 172.217.22.78
-# 64.233.167.155
-# 216.58.208.36
-# 216.58.208.35
-# 157.240.20.5
-# 157.240.20.19
-# 157.240.20.35
-0.0.0.0 galaxy-client-reports.gog.com
-0.0.0.0 insights-collector.gog.com
-0.0.0.0 gwent-bi-collector.gog.com
-0.0.0.0 connect.facebook.net
-0.0.0.0 www.facebook.com
-0.0.0.0 cx.atdmt.com # Facebook Tracking Cookie
-0.0.0.0 stats.g.doubleclick.net
-#0.0.0.0 www.google.com # Google Audiences
-0.0.0.0 www.google-analytics.com
-0.0.0.0 www.googletagmanager.com
+# 23.55.163.75
+# 23.55.163.68
+0.0.0.0 insights-collector.gog.com # Eventtelemetrie
+# Ip/s blockieren:
+# 46.105.121.139
+0.0.0.0 galaxy-client-reports.gog.com # Nochmal Schnüffelei
+# Ip/s blockieren:
+# 77.79.249.152
+# 77.79.249.151
+0.0.0.0 galaxy-log.gog.com
+# Ip/s blockieren:
+# 23.55.163.74
+0.0.0.0 presence.gog.com
+# Anmeldung
+# 23.55.163.62
+# 23.55.163.44
+#0.0.0.0 auth.gog.com
+# 23.55.163.61
+# 23.55.163.66
+#0.0.0.0 login.gog.com
+# 23.55.163.68
+# 23.55.163.75
+# 23.55.163.64
+# 23.55.163.58
+#0.0.0.0 users.gog.com
+# 23.55.163.78
+# 23.55.163.75
+#0.0.0.0 chat.gog.com
+# 192.229.233.146
+#0.0.0.0 cfg.gog.com
+# Externes, Accountbindung
+# 195.167.152.201
+#0.0.0.0 gwent-bi-collector.gog.com
+# 23.55.163.68
+# 23.55.163.75
+#0.0.0.0 external-users.gog.com
+# 23.55.163.83
+#0.0.0.0 external-accounts.gog.com
+# Dynamische und statische Inhalte
+#0.0.0.0 embed.gog.com # Wishlist, Userdata, Biblitohek, Accesstoken, SVG
+#0.0.0.0 galaxy-promos.gog.com # Banner
+#0.0.0.0 recommendations-api.gog.com # Produktvorschläge
+#0.0.0.0 api.gog.com # Access Token, Währungsrechner
+#0.0.0.0 www4-static.gog-statics.com # Javascripts, Fonts, Tracker
+#0.0.0.0 images.gog.com
+#0.0.0.0 images.gog-statics.com
+#0.0.0.0 images-2.gog-statics.com
+#0.0.0.0 images-3.gog-statics.com
+#0.0.0.0 images-4.gog-statics.com
+# Benachrichtigungen
+# 23.55.163.63
+# 23.55.163.64
+# 91.222.185.224
+0.0.0.0 notifications.gog.com
+0.0.0.0 notifications-pusher.gog.com
+# Unsortiertes Zeug
+# 23.55.163.57
+# 23.55.163.77
+0.0.0.0 gameplay.gog.com
+# 23.55.163.83
+# 23.55.163.52
+#0.0.0.0 recommendations-api.gog.com
+# 23.55.163.59
+# 23.55.163.71
+#0.0.0.0 galaxy-library.gog.com
+# 23.55.163.82
+#0.0.0.0 gamesdb.gog.com
+# 23.55.163.82
+# 23.55.163.59
+#0.0.0.0 content-system.gog.com
+# 23.55.163.81
+#0.0.0.0 marketing-sections.gog.com
+# Drittanbieter
+# Ip/s blockieren:
+# 172.217.16.195
+# 142.250.186.359
+# 142.250.186.163
+#0.0.0.0 fonts.gstatic.com
+#0.0.0.0 www.gstatic.com
+#0.0.0.0 www.recaptcha.net
+0.0.0.0 www.googletagmanager.com # GTM-NJQP26Z
+0.0.0.0 www.google-analytics.com # UA-6605418-1
+0.0.0.0 script.hotjar.com
+0.0.0.0 vars.hotjar.com
+0.0.0.0 static.hotjar.com
 
 # Electronic Arts, Inc.
 # Origin Launcher
@@ -5076,9 +5044,9 @@ ff02::3 ip6-allhosts
 # 23.62.98.43
 0.0.0.0 a1973.dscb.akamai.net
 0.0.0.0 a23-55-163-20.deploy.static.akamaitechnologies.com
-0.0.0.0 a1847.b.akamai.net
+#0.0.0.0 a1847.b.akamai.net # remote-config-gog.com
 0.0.0.0 a72-247-178-8.deploy.static.akamaitechnologies.com
-0.0.0.0 a1948.b.akamai.net
+#0.0.0.0 a1948.b.akamai.net # users.gog.com
 0.0.0.0 a72-247-178-33.deploy.static.akamaitechnologies.com
 #0.0.0.0 a1829.b.akamai.net # auth.gog.com
 0.0.0.0 a72-247-178-26.deploy.static.akamaitechnologies.com
@@ -8204,7 +8172,7 @@ ff02::3 ip6-allhosts
 # Necromunda: Hired Gun
 # 44.239.129.245
 # 54.190.230.201
-0.0.0.0 38134.playfabapi.com
+#0.0.0.0 38134.playfabapi.com
 #0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
 # Necromunda: Underhive Wars
@@ -8699,6 +8667,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 games.forever-entertainment.com
 0.0.0.0 teddyfloppyear.forever-entertainment.com
+
+# THE HOUSE OF THE DEAD: Remake
+# Steam Datagram Relay
+# 35.190.78.8
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # The Mahjong Huntress
 # 208.64.200.105
@@ -10575,7 +10548,7 @@ ff02::3 ip6-allhosts
 # 52.43.142.153
 # 52.36.102.135
 # 172.28.195.1
-0.0.0.0 b9c5.playfabapi.com
+#0.0.0.0 b9c5.playfabapi.com
 #0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
 # Jujubee S.A.
@@ -11012,12 +10985,31 @@ ff02::3 ip6-allhosts
 
 # Keen Software House s.r.o.
 # Medieval Engineers
-# 35.169.8.30
-# 81.0.234.196
-# 54.166.213.48
+# 54.173.113.106
+# 18.208.53.69
+# 34.197.87.194
+# 34.204.19.11
+# 52.55.19.219
+# 52.87.16.128
+# 52.203.178.206
+# 54.172.83.44
+# 3.229.219.216
+# 18.207.69.188
+# 18.208.53.69
+# 44.194.7.240
+# 52.7.208.21
+# 52.203.178.206
+# 54.196.119.130
+# 3.211.54.174
+# 199.59.243.222
+# 77.78.100.50
+# 185.107.56.199
+# 104.18.32.68
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 buffpanel.com
-0.0.0.0 mirror.keenswh.com
+0.0.0.0 gdpr.keenswh.com
+0.0.0.0 survey-smiles.com
+#0.0.0.0 ocsp.comodoca.com.cdn.cloudflare.net
 0.0.0.0 v-hetzner1.keenswh.com
 
 # Space Engineers
@@ -14568,6 +14560,7 @@ ff02::3 ip6-allhosts
 # Rainssong
 # Zasa - An AI Story
 0.0.0.0 airdownload2.adobe.com
+0.0.0.0 rainsgameworld.sinaapp.com # Dienst abgeschaltet, leere DNS Abfrage
 
 # Raiser Games
 # Goat of Duty
@@ -14612,7 +14605,7 @@ ff02::3 ip6-allhosts
 
 # Ravenage Games
 # The Crackpet Show: Prologue
-35.241.26.53
+# 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
@@ -14632,25 +14625,27 @@ ff02::3 ip6-allhosts
 
 # Raw Fury AB
 # Kingdom Two Crowns
-35.241.26.53
+# Playfab Ipv4: https://gameindustry.eu/katalog/microsoft-corporation/#MAPA
+# Steam Datagram Relay
+# 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
 # 35.241.52.229
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 8.78.190.35
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+#0.0.0.0 cab36.playfabapi.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
 # Star Renegades
 # Ip/s blockieren:
@@ -14921,6 +14916,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -14956,7 +14953,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Rico
-# Ip/s blockieren:
 # 3.0.50.242
 # 3.1.14.112
 # 52.43.12.129
@@ -14966,16 +14962,30 @@ ff02::3 ip6-allhosts
 # 35.241.52.229
 # 35.190.88.234
 # 52.220.179.77
+# 54.68.225.239
+# 52.42.158.117
+# 54.70.227.77
+# 54.200.58.178
+# 54.203.255.215
+# 44.239.148.243
+# 44.239.231.46
+# 44.242.2.155
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 ec2-3-0-50-242.ap-southeast-1.compute.amazonaws.com
-0.0.0.0 ap1-prod-mm.unet.unity3d.com
+#0.0.0.0 us1-mm.unet.unity3d.com
+#0.0.0.0 eu1-mm.unet.unity3d.com
+#0.0.0.0 ap1-mm.unet.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com # 34.216.190.239
-#0.0.0.0 f3b6.playfabapi.com # Wird für Onlinespiel mitsamt Masterservern für z.b. Tägliches Spiel oder KOOP benötigt
+#0.0.0.0 f3b6.playfabapi.com
 
 # Rival Games Ltd
 # Thief of Thieves
@@ -16508,10 +16518,23 @@ ff02::3 ip6-allhosts
 
 # Snapshot Games Inc.
 # Chaos Reborn
+# Onlineserver > 178.62.98.200
+# 184.154.26.130
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 35.241.52.229
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 www.chaos-reborn.com
-# 178.62.98.200 # Multiplayer
 
 # Snow Cannon Games
 # The Frostrune
@@ -18525,7 +18548,7 @@ Dying Light 2 Stay Human
 # 52.43.14.212
 # 52.12.148.140
 # 52.36.32.155
-0.0.0.0 c195e.playfabapi.com
+#0.0.0.0 c195e.playfabapi.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18544,7 +18567,6 @@ Dying Light 2 Stay Human
 0.0.0.0 ec2-54-188-160-157.us-west-2.compute.amazonaws.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 c195e.playfabapi.com
 
 # Tin Man Games
 # The Warlock of Firetop Mountain
@@ -20570,7 +20592,7 @@ Dying Light 2 Stay Human
 # 44.240.115.254
 # 44.240.18.148
 # 54.149.17.93
-0.0.0.0 558C.playfabapi.com # Playfabtracking und Bestenlisten
+#0.0.0.0 558C.playfabapi.com # Playfabtracking und Bestenlisten
 0.0.0.0 mathmakers.s3.amazonaws.com
 #0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
