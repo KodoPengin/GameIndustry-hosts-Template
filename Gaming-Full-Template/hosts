@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 01.02.2023
+# Änderungsdatum: 12.02.2023
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -1568,7 +1568,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -1589,7 +1589,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -1626,7 +1626,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -1642,7 +1642,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
@@ -1666,7 +1666,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
@@ -1770,7 +1770,7 @@ ff02::3 ip6-allhosts
 # 39.97.162.223
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # Die 39.37.162.223 wird als Cloudablage für Speicherstände genutzt
 0.0.0.0 stats.unity3d.com
 # 208.64.200.105
@@ -1794,7 +1794,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -1802,7 +1802,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -1841,7 +1841,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -1886,7 +1886,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -1894,7 +1894,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # 88.212.234.60
@@ -1967,7 +1967,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -1975,7 +1975,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -1998,7 +1998,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -2056,7 +2056,7 @@ ff02::3 ip6-allhosts
 # 216.58.208.46
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-analytics.com # UA-117120801-4
@@ -2417,7 +2417,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -2520,7 +2520,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -2682,7 +2682,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -2691,7 +2691,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -2699,7 +2699,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -2708,7 +2708,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -2718,7 +2718,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 34.252.114.68
 # 52.174.162.167
 # 172.217.194.138
@@ -2758,7 +2758,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -2784,7 +2784,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -2799,7 +2799,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -2843,7 +2843,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -2995,7 +2995,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -3010,7 +3010,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -3032,7 +3032,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -3146,7 +3146,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -3154,7 +3154,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 ec2-18-233-196-129.compute-1.amazonaws.com
 0.0.0.0 ec2-52-207-104-89.compute-1.amazonaws.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -3171,7 +3171,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -3261,7 +3261,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 gameguide3.aspyr.com
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-analytics.com
@@ -3311,7 +3311,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 2a00:1450:4013:c07::65
 0.0.0.0 gameguide3.aspyr.com
 #0.0.0.0 s3-us-west-2.amazonaws.com
@@ -3338,7 +3338,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 40.76.47.124
 # 52.174.162.167
 # 92.223.82.18
@@ -3377,7 +3377,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -3386,7 +3386,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -3415,7 +3415,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -3424,7 +3424,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # Mehrspielerfunktion bei Bedarf abschalten
@@ -3451,7 +3451,7 @@ ff02::3 ip6-allhosts
 # 92.38.154.68
 # 17.253.108.253
 # 35.227.244.186
-# 35.241.52.229
+# 34.111.82.212
 # 151.101.112.193
 # 139.45.193.10
 # 155.133.255.162
@@ -3543,6 +3543,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 tracking2.avalanche.com
 0.0.0.0 crashreporter.avalanchestudios.com
 
+# Ravenbound DEMO
+# 104.16.1.61
+# 104.16.2.61
+#0.0.0.0 apex-connect.avalanchestudios.com
+0.0.0.0 tracking2.avalanchestudios.com
+0.0.0.0 crashreporter.avalanchestudios.com
+
 # Second Extinction™
 # 104.16.1.61
 # 104.16.2.61
@@ -3630,7 +3637,7 @@ ff02::3 ip6-allhosts
 # 35.190.78.8
 # 35.161.12.27
 # 52.3.91.251
-# 35.241.52.229
+# 34.111.82.212
 # 35.227.244.186
 # 50.16.218.217
 0.0.0.0 api.ipify.org
@@ -3649,7 +3656,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 186.244.227.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
 # Axolot Games
 # Raft
@@ -3657,7 +3664,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -3863,7 +3870,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 # UnityCrashHandler64.exe im Hauptverzeichnis löschen
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -3991,12 +3998,12 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 50.87.248.11
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 155.133.235.34
 # 50.87.248.11
 # 139.45.193.10
@@ -4053,7 +4060,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 208.64.200.105
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -4077,7 +4084,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 api.epicgames.dev
 0.0.0.0 metricsforfriends.zachbarth.webfactional.com
 0.0.0.0 turn-euc1.us.rtcp.on.epicgames.com
-0.0.0.0 stun.l.google.com
+#0.0.0.0 stun.l.google.com
 
 # BCH waves studio
 # Sisters in hotel
@@ -4155,7 +4162,7 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -4174,7 +4181,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -4182,7 +4189,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -4533,7 +4540,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -4541,7 +4548,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -4551,7 +4558,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -4559,7 +4566,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -4595,7 +4602,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -4696,7 +4703,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 108.177.119.100
 0.0.0.0 www.google-analytics.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -4882,7 +4889,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -4893,7 +4900,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
 # Boxelware GmbH
 # Avorion
@@ -4952,7 +4959,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 67.225.180.24
 # 67.225.180.25
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -4974,7 +4981,7 @@ ff02::3 ip6-allhosts
 # War for the Overworld
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 # 35.190.78.8
 # 77.79.249.151
@@ -5007,7 +5014,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 ams15s22-in-f14.1e100.net
 
@@ -5201,7 +5208,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 104.18.37.23
 # 54.188.160.157
 # 52.36.32.155,44.235.27.111
@@ -5217,7 +5224,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 #0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 0.0.0.0 ec2-52-12-148-140.us-west-2.compute.amazonaws.com
 0.0.0.0 ec2-44-235-27-111.us-west-2.compute.amazonaws.com
@@ -5302,7 +5309,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # Auflistung für diesen Titel unvollständig. Weitere Adressen können dem Witcher Adventure Game und Thronebreaker entnommen werden
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -5391,7 +5398,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -5409,7 +5416,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
@@ -5504,7 +5511,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 31.182.60.150
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -5524,7 +5531,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -5532,7 +5539,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -5542,7 +5549,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -5593,7 +5600,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.71.181.204
 # 52.223.12.105
 # 13.225.78.71
@@ -5611,7 +5618,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 status-sh.cloudcade.com
@@ -5809,7 +5816,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -5828,7 +5835,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -5848,7 +5855,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # 208.64.200.105
@@ -5939,7 +5946,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 a126.playfabapi.com
 0.0.0.0 p-a126-mainserver-896310517.us-west-2.elb.amazonaws.com
 0.0.0.0 2vnci0fr6d.execute-api.us-east-1.amazonaws.com
@@ -6042,14 +6049,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
-# Crunching Koalas
-# Elderborn
-# Ip/s blockieren:
-# 35.241.52.229
-0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
-
 # CryTek GmbH
 # Hunt: Showdown
 # 104.74.103.35
@@ -6077,7 +6076,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 54.159.116.102
 # 52.159.116.102
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -6087,7 +6086,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 crytivo-club-dev.herokuapp.com
@@ -6116,7 +6115,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -6140,7 +6139,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 108.177.127.153
 # 54.84.43.128
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -6160,14 +6159,14 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 hff.terahard.org
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -6182,7 +6181,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -6208,7 +6207,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -6253,7 +6252,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -6305,7 +6304,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 2.22.242.224
 # 35.227.233.206
 # 104.40.183.236
@@ -6322,7 +6321,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 206.233.227.35.bc.googleusercontent.com
 0.0.0.0 a2-22-242-224.deploy.static.akamaitechnologies.com
 
@@ -6334,7 +6333,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 104.40.183.236
 # 52.166.80.100
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -6348,7 +6347,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
 # Holy Potatoes! We’re in Space?!
 # Facebook Anbindung
@@ -6356,7 +6355,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -6364,7 +6363,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # Bei aktiver Mitwirkung auf die im Hauptmenü befindlichen Buttons
@@ -6383,7 +6382,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -6391,7 +6390,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -6400,7 +6399,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 52.166.80.100
 # 104.40.183.236
 # 194.67.211.171
@@ -6419,7 +6418,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 52.166.80.100
 # 104.40.183.236
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -6454,7 +6453,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 52.166.80.100
 # 104.40.183.236
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -6464,7 +6463,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 cgpromotion.blob.core.windows.net
@@ -6475,7 +6474,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 52.166.80.100
 # 104.40.183.236
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -6485,7 +6484,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 cgpromotion.blob.core.windows.net
@@ -6506,7 +6505,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -6591,7 +6590,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -6624,7 +6623,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -6640,7 +6639,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -6665,7 +6664,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
@@ -6768,7 +6767,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -6829,7 +6828,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -6975,7 +6974,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -6995,7 +6994,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -7135,7 +7134,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -7161,7 +7160,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -7169,7 +7168,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -7190,7 +7189,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -7251,7 +7250,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -7259,7 +7258,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 www.deathtollgame.com
@@ -7282,7 +7281,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -7497,7 +7496,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -7520,7 +7519,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 # 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -7530,7 +7529,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -7883,7 +7882,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -7956,7 +7955,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -8020,7 +8019,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 34.95.76.217
 # 104.20.16.242
 # 104.18.115.97
@@ -8032,7 +8031,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 ipv4.icanhazip.com
@@ -8055,7 +8054,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -8079,7 +8078,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -8104,7 +8103,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -8218,7 +8217,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -8233,7 +8232,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -8253,7 +8252,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -8269,7 +8268,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -8279,7 +8278,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 # 162.159.128.233
 # 162.159.135.233
 #0.0.0.0 discord.com
@@ -8291,7 +8290,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -8340,7 +8339,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -8443,7 +8442,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -8453,7 +8452,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 # 44.235.3.113
 # 44.241.17.164
 # 34.248.26.131
@@ -8506,7 +8505,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -8581,7 +8580,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -8589,7 +8588,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -8598,7 +8597,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -8613,7 +8612,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -8628,7 +8627,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -8643,7 +8642,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -8658,7 +8657,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -8673,7 +8672,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -8688,7 +8687,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -8703,7 +8702,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -8718,7 +8717,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -8733,7 +8732,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -8748,7 +8747,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -8776,7 +8775,7 @@ ff02::3 ip6-allhosts
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # Gleichzeitig aktive API und CDP Callbacks an Unity
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -8785,7 +8784,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -8951,7 +8950,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -8959,7 +8958,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -9031,7 +9030,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 52.218.31.42
 # 99.80.114.94
 # 52.211.61.165
@@ -9131,7 +9130,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -9146,7 +9145,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 216.120.180.54
 # 92.38.154.73
 # 92.38.154.103
@@ -9161,7 +9160,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
 # Gaggle Studios, Inc.
 # Goose Goose Duck
@@ -9169,7 +9168,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -9178,7 +9177,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -9213,7 +9212,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -9230,7 +9229,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -9247,7 +9246,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -9256,7 +9255,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 186.244.227.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -9266,7 +9265,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -9274,7 +9273,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # 104.18.37.23
@@ -9346,7 +9345,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -9374,7 +9373,7 @@ LostWinds 2: Winter of the Melodias
 # GIANTY Inc.
 # GOKEN | Aktualisiert 09.03.2019
 # Ip/s blockieren:
-# 35.241.52.229
+# 34.111.82.212
 # 35.186.194.186
 # 35.241.26.53
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -9409,7 +9408,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -9425,7 +9424,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -9439,7 +9438,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -9448,7 +9447,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -9460,7 +9459,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -9482,7 +9481,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 galaxy-log.gog.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -9519,7 +9518,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -9616,7 +9615,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -9629,7 +9628,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -9718,7 +9717,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -9792,7 +9791,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -9820,7 +9819,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 34.107.181.14
 # 35.190.78.8
 # 2600:1901:0:e37d::
@@ -9843,7 +9842,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -9853,7 +9852,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 14.181.107.34.bc.googleusercontent.com
 0.0.0.0 186.244.227.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -9878,7 +9877,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -9970,7 +9969,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -9979,7 +9978,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -9990,7 +9989,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -10011,7 +10010,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -10026,7 +10025,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
@@ -10121,7 +10120,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -10129,7 +10128,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -10141,7 +10140,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -10198,7 +10197,7 @@ LostWinds 2: Winter of the Melodias
 # Holyday Studios
 # Firestone Idle RPG
 # Ip/s blockieren:
-# 35.190.78.8, 35.241.26.53, 35.186.194.186, 35.190.88.234, 35.241.52.229
+# 35.190.78.8, 35.241.26.53, 35.186.194.186, 35.190.88.234, 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -10220,7 +10219,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 # Ip/s blockieren:
-# 35.241.26.53, 35.186.194.186, 35.190.88.234, 35.241.52.229
+# 35.241.26.53, 35.186.194.186, 35.190.88.234, 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -10255,7 +10254,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -10321,7 +10320,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -10417,6 +10416,13 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 7D89.playfabapi.com
 0.0.0.0 master-ma-elasticl-1e2d7mzrh19sw-2078529754.us-west-2.elb.amazonaws.com
 
+# Hyperstrange S.A.
+# Elderborn
+# Ip/s blockieren:
+# 35.190.78.8
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+
 # H2 Interactive Co., Ltd.
 # Caladrius Blaze
 # 208.64.200.105
@@ -10439,7 +10445,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 34.107.181.14
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -10506,7 +10512,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
@@ -10682,14 +10688,13 @@ LostWinds 2: Winter of the Melodias
 
 # Insel Games Ltd.
 # The Onion Knights
+# Ip/s blockieren:
+# 35.165.253.17, 34.214.69.148, 100.21.192.180
 0.0.0.0 api.redshell.io
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+0.0.0.0 ec2-100-21-192-180.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-35-165-253-17.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-34-214-69-148.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-35-165-253-172.us-west-2.compute.amazonaws.com
 
 # InterAction studios
 # Chicken Invaders V
@@ -10713,7 +10718,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 172.217.20.142
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 # 52.55.16.22
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -10731,7 +10736,7 @@ LostWinds 2: Winter of the Melodias
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -10784,7 +10789,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -10793,6 +10798,20 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+
+# IRONMACE Co., Ltd.
+# Dark and Darker DEMO
+# 172.31.255.255
+# 54.148.133.180
+# 13.236.86.31
+# 54.68.61.15
+# 35.160.92.253
+# 52.32.13.170
+#0.0.0.0 ec2-13-236-86-31.ap-southeast-2.compute.amazonaws.com
+#0.0.0.0 ec2-54-68-61-15.us-west-2.compute.amazonaws.com
+#0.0.0.0 ec2-54-148-133-180.us-west-2.compute.amazonaws.com
+#0.0.0.0 ec2-35-160-92-253.us-west-2.compute.amazonaws.com
+#0.0.0.0 ec2-52-32-13-170.us-west-2.compute.amazonaws.com
 
 # Jadon Barnes
 # Aktive UnityCrashHandler64.exe
@@ -10823,6 +10842,28 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
+# JKgames & OHIYOsoft
+# Monster Girl2 | 捉妖物语2
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 34.111.82.212
+# 35.190.78.8
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity.cn
+0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+
 # JMJ Interactive
 # Akihabara - Feel the Rhythm
 0.0.0.0 scoreserver.klikgamer.com # erklärt sich von selbst
@@ -10837,7 +10878,7 @@ LostWinds 2: Winter of the Melodias
 # Joey Drew Studios Inc.
 # Bendy and the Ink Machine
 # Ip/s blockieren:
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -10874,7 +10915,7 @@ LostWinds 2: Winter of the Melodias
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -10887,7 +10928,7 @@ LostWinds 2: Winter of the Melodias
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -10902,7 +10943,7 @@ LostWinds 2: Winter of the Melodias
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -10928,7 +10969,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -10955,7 +10996,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -11092,7 +11133,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 216.58.212.238
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -11110,7 +11151,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 # 217.172.184.73
 # 82.165.136.129
@@ -11150,7 +11191,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 150.252.227.35.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -11227,7 +11268,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -11271,7 +11312,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 216.58.212.176
 # 216.58.206.16
 # 142.250.74.206
@@ -11399,7 +11440,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -11423,7 +11464,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -11438,7 +11479,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 # 2600:1901:0:e37d::
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -11762,7 +11803,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -11770,7 +11811,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -11820,7 +11861,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -11828,7 +11869,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -11868,7 +11909,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -11953,7 +11994,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -11990,7 +12031,7 @@ LostWinds 2: Winter of the Melodias
 # 104.21.35.51
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 # 216.58.210.142
 # 216.120.180.54
@@ -12010,7 +12051,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 mad06s09-in-f142.1e100.net
 
@@ -12036,7 +12077,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -12044,7 +12085,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -12093,7 +12134,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # 208.64.200.105
@@ -12119,7 +12160,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -12137,7 +12178,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -12157,6 +12198,13 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 gds4.steampowered.com
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
+
+# Mass Creation, NA Publishing Inc. & WhisperGames
+# Shing! Demo
+# Ip/s blockieren:
+# 35.190.78.8
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # MassDiGI
 # Ophidia
@@ -12184,7 +12232,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -12194,7 +12242,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 # 142.250.185.78
 # 142.250.74.193
 0.0.0.0 script.google.com
@@ -12216,7 +12264,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -12233,6 +12281,8 @@ LostWinds 2: Winter of the Melodias
 
 # The Golf Club 2™
 # 54.235.184.4
+# 44.195.149.119
+# 54.86.225.49
 #0.0.0.0 tgcpc.hb-studios.com # Handicap, Servereinstellungen, Rewards, Parkours, Bewertungen, Metadata, Zeitstempel, Purse Bonus, Unlockables, Accountkey, Rundenanzahl, Mehrspieler, Oberflächen uvm.
 
 # McMagic Productions
@@ -12246,7 +12296,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.227.252.150
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -12290,7 +12340,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -12299,7 +12349,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -12312,7 +12362,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -12321,7 +12371,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -12399,7 +12449,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -12408,7 +12458,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -12421,7 +12471,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 208.64.200.105
 0.0.0.0 ssl.google-analytics.com # UA-78045362-1
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -12431,7 +12481,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -12441,7 +12491,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -12482,7 +12532,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -12601,7 +12651,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 13.91.89.255
 # 13.91.191.179
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -12703,7 +12753,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 80.88.87.98
 # 208.64.200.105
 # 208.64.200.105
@@ -12795,7 +12845,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -12810,7 +12860,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -12902,7 +12952,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -13064,7 +13114,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 # 52.192.230.152
 # 99.86.3.29
@@ -13094,7 +13144,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 8.78.190.35
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -13103,7 +13153,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -13115,7 +13165,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -13229,7 +13279,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
@@ -13252,7 +13302,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 31.3.237.180
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -13277,7 +13327,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 # 34.197.4.75
 # 35.173.108.10
@@ -13319,7 +13369,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # UnityCrashHandler64.exe im Installationsverzeichnis löschen
 0.0.0.0 api.ninjakiwi.com
 0.0.0.0 analytics.ninjakiwi.com
@@ -13333,7 +13383,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -13365,7 +13415,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 static-api.nkstatic.com
 0.0.0.0 api.ninjakiwi.com
 0.0.0.0 bfb.ninjakiwi.com
@@ -13378,7 +13428,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -13406,7 +13456,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -13451,7 +13501,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -13542,7 +13592,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -13550,7 +13600,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -13580,7 +13630,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -13588,7 +13638,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -13628,7 +13678,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -13636,7 +13686,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -13719,7 +13769,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -13741,7 +13791,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -13749,7 +13799,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -13759,7 +13809,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -13888,7 +13938,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.227.252.150
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -13897,7 +13947,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 150.252.227.35.bc.googleusercontent.com
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -14076,7 +14126,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 usage.trackjs.com
 0.0.0.0 capture.trackjs.com
 0.0.0.0 prod-telemetry.paradox-interactive.com
@@ -14137,7 +14187,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 151.101.12.193
 # 146.66.104.236
 # 146.66.104.236
@@ -14235,7 +14285,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -14264,7 +14314,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.244.227.35.bc.googleusercontent.com
 0.0.0.0 186.244.227.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
 # pixiv Inc.
 # VRoid Studio
@@ -14272,7 +14322,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -14292,7 +14342,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -14300,7 +14350,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -14333,7 +14383,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 52.51.97.198
 # 54.229.15.134
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -14343,7 +14393,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -14469,7 +14519,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -14477,7 +14527,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -14486,7 +14536,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -14511,7 +14561,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 34.107.181.14
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -14533,13 +14583,14 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-analytics.com
 
-# Plug In Digital and Cinétévé Experience
-# Emma the Story
+# Playway S.A. & Play2Chill S.A.
+# Motorcycle Mechanic Simulator 2021
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
+# 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -14547,7 +14598,27 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity.cn
+0.0.0.0 perf-events.cloud.unity3d.com
+
+# Plug In Digital and Cinétévé Experience
+# Emma the Story
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 34.111.82.212
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 #0.0.0.0 config.uca.cloud.unity3d.com
 #0.0.0.0 cdp.cloud.unity3d.com
 
@@ -14557,7 +14628,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.227.244.186
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -14567,7 +14638,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 186.244.227.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # VRoid Schnittstelle
@@ -14673,7 +14744,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -14681,7 +14752,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -14690,7 +14761,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -14698,7 +14769,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -14707,7 +14778,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -14715,7 +14786,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -14724,7 +14795,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -14733,7 +14804,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -14743,6 +14814,29 @@ LostWinds 2: Winter of the Melodias
 # Never Again
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
+
+# Prime Matter
+# Encased: A Sci-Fi Post-Apocalyptic RPG
+# Ip/s blockieren:
+# 185.215.4.10
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 34.111.82.212
+# 35.190.78.8
+0.0.0.0 darkcrystalgames.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity.cn
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # Primitive Studio
 # Insects runner
@@ -14763,7 +14857,7 @@ LostWinds 2: Winter of the Melodias
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.227.252.150
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -14794,7 +14888,7 @@ LostWinds 2: Winter of the Melodias
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -14802,7 +14896,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -14837,7 +14931,7 @@ LostWinds 2: Winter of the Melodias
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -14845,7 +14939,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # Track/Logs
@@ -14921,7 +15015,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -14931,20 +15025,24 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
+# Rebound CG
+# Tennis Manager 2021
+# Steam Datagram Relay
+# Ip/s blockieren:
+# 255.255.255.255
+# 35.190.78.8
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+
 # Red Wake Carnage
 # 52.174.162.167
 0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com # Serverliste
 
 # West of Red
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 # 92.223.82.17
+# 91.199.81.131
 # 172.65.231.130
+# 216.120.180.54
 #0.0.0.0 gcash013.exitgames.com
 #0.0.0.0 gns-eu.exitgames.com
 
@@ -14953,7 +15051,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 34.95.76.217
 # 3.224.136.19
 # 52.32.33.213
@@ -15029,7 +15127,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 3.126.70.20
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -15038,7 +15136,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 ec2-3-126-70-20.eu-central-1.compute.amazonaws.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -15051,7 +15149,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 8.78.190.35
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -15064,7 +15162,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 #0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
 
@@ -15073,7 +15171,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -15143,15 +15241,6 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 ec2-52-5-97-184.compute-1.amazonaws.com
 0.0.0.0 ec2-23-22-12-38.compute-1.amazonaws.com
 
-# Sniper Elite: Zombie Army
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # Strange Brigade
 0.0.0.0 launcher-content.rebellion.co.uk # Werbung und Javascripts
 # Inhalt ist codiert. Zum Spielen wird nichts von beiden benötigt
@@ -15184,7 +15273,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -15237,24 +15326,13 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
-# Reverb Publishing
-# Beatbuddy: Tale of the Guardians
-0.0.0.0 api.gameanalytics.com
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # Revere Heaven Love People Innovation Technology Co., Ltd.
 # Neko Papala
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -15270,7 +15348,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -15285,7 +15363,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -15300,7 +15378,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -15315,7 +15393,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -15330,7 +15408,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -15338,7 +15416,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -15363,7 +15441,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -15380,7 +15458,7 @@ LostWinds 2: Winter of the Melodias
 # 34.216.190.239
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 # 52.220.179.77
 # 54.68.225.239
@@ -15399,7 +15477,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 ec2-3-0-50-242.ap-southeast-1.compute.amazonaws.com
 #0.0.0.0 us1-mm.unet.unity3d.com
 #0.0.0.0 eu1-mm.unet.unity3d.com
@@ -15414,7 +15492,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -15475,7 +15553,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -15597,7 +15675,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
@@ -15616,7 +15694,7 @@ LostWinds 2: Winter of the Melodias
 # RogueCode PTY LTD
 # Vicious Attack Llama Apocalypse
 # Ip/s blockieren:
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -15627,7 +15705,7 @@ LostWinds 2: Winter of the Melodias
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 142.250.185.110
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -15636,7 +15714,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -15647,7 +15725,7 @@ LostWinds 2: Winter of the Melodias
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -15655,7 +15733,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 # 35.156.64.66, 18.198.161.239, 54.82.156.68, 54.152.125.5, 54.179.202.252, 52.221.23.16
 0.0.0.0 www-google-analytics.l.google.com
 #0.0.0.0 eu1-mm.unet.unity3d.com
@@ -15670,7 +15748,7 @@ LostWinds 2: Winter of the Melodias
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -15678,7 +15756,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # 159.8.234.182
@@ -15709,7 +15787,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.78.8
 # 54.192.86.11
 # 172.217.18.179
@@ -15772,7 +15850,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -15780,7 +15858,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -15791,7 +15869,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 216.58.208.206
 # 104.26.6.106
 # 172.217.16.142
@@ -15834,6 +15912,19 @@ LostWinds 2: Winter of the Melodias
 
 # Scrap Games
 # President Evil
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 34.111.82.212
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -15843,7 +15934,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -15915,7 +16006,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -15928,9 +16019,9 @@ LostWinds 2: Winter of the Melodias
 
 # Secret Mode
 # Dear Esther: Landmark Edition
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 stats.unity3d.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
 # SEGA
 # Bayonetta
@@ -16003,7 +16094,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 63.35.126.135
 # 52.210.254.53
 # 63.35.126.135
@@ -16023,7 +16114,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
 # Motorsport Manager
 # Ip/s blockieren:
@@ -16447,7 +16538,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
@@ -16469,7 +16560,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -16517,7 +16608,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -16525,7 +16616,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -16542,7 +16633,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -16751,7 +16842,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -16759,7 +16850,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -16948,7 +17039,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -16956,7 +17047,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 www.chaos-reborn.com
@@ -17093,7 +17184,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -17101,7 +17192,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -17213,7 +17304,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -17228,7 +17319,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -17236,7 +17327,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -17549,7 +17640,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -17728,7 +17819,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -17744,7 +17835,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 #0.0.0.0 ecoauth.strangeloopgames.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -17791,7 +17882,7 @@ LostWinds 2: Winter of the Melodias
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -17822,7 +17913,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
@@ -17845,7 +17936,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 185.14.184.48
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -17873,9 +17964,9 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 api.gameanalytics.com
 
 # Western Press
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 stats.unity3d.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
 # Suspicious Developments
 # Morphblade
@@ -17902,7 +17993,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -17929,7 +18020,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 104.26.6.7
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -18016,7 +18107,7 @@ LostWinds 2: Winter of the Melodias
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18170,7 +18261,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 ec2-3-81-154-236.compute-1.amazonaws.com
 0.0.0.0 ec2-184-73-250-29.compute-1.amazonaws.com
 0.0.0.0 ec2-34-195-166-99.compute-1.amazonaws.com
-0.0.0.0 stun.l.google.com
+#0.0.0.0 stun.l.google.com
 0.0.0.0 ec2-18-157-14-85.eu-central-1.compute.amazonaws.com
 0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
@@ -18298,7 +18389,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18310,6 +18401,21 @@ Dying Light 2 Stay Human
 
 # tengenstudio
 # Destiny of Blood
+# Ip/s blockieren:
+# 35.241.26.53
+# 35.186.194.186
+# 35.190.88.234
+# 34.111.82.212
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 234.88.190.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -18447,7 +18553,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18491,7 +18597,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18499,7 +18605,7 @@ Dying Light 2 Stay Human
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -18521,7 +18627,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18607,7 +18713,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18674,7 +18780,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
@@ -18697,7 +18803,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18705,7 +18811,7 @@ Dying Light 2 Stay Human
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 186.244.227.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -18738,7 +18844,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18761,7 +18867,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 216.239.36.21
 # 172.217.21.206
 # 172.217.18.97
@@ -18783,7 +18889,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 52.24.177.168
 # 5.8.70.139
 # 5.8.70.141
@@ -18849,7 +18955,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18865,7 +18971,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18884,7 +18990,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18892,7 +18998,7 @@ Dying Light 2 Stay Human
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -18905,12 +19011,33 @@ Dying Light 2 Stay Human
 # 185.199.111.153
 0.0.0.0 thorium-entertainment.github.io
 
+# Threaks GmbH
+# Beatbuddy: Tale of the Guardians
+# 54.234.242.38
+# 3.90.118.138
+# 18.207.69.188
+# 18.208.53.69
+# 35.169.215.107
+# 52.55.19.219
+# 54.172.83.44
+# 54.196.119.130
+# 54.175.49.101
+# 3.90.118.138
+# 18.207.69.188
+# 34.234.238.249
+# 44.194.7.240
+# 52.45.130.219
+# 52.86.255.171
+# 52.204.205.198
+# 78.46.181.3
+0.0.0.0 api.gameanalytics.com
+
 # Three Flip Studios
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18945,7 +19072,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18953,7 +19080,7 @@ Dying Light 2 Stay Human
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -18970,7 +19097,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -18986,7 +19113,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -18994,7 +19121,7 @@ Dying Light 2 Stay Human
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # 88.221.169.152
@@ -19042,7 +19169,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -19072,19 +19199,13 @@ Dying Light 2 Stay Human
 
 # Topware Interactive & ACE
 # Two Worlds II / HD
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-#0.0.0.0 secure.zuxxez.com
-#0.0.0.0 ocsp.comodoca.com
-#0.0.0.0 crl.comodoca.com
-#0.0.0.0 steamapi.topware.com # Ingameshop
+# 85.115.25.219
+# 13.68.247.109
+# 85.115.25.220
+#0.0.0.0 secure.zuxxez.com # Übertragung der Seriennummer
+#0.0.0.0 steamapi.topware.com # Ingameshop, Server, Hash, Gamename, Version, SteamUserID, AppID
 # bei Aufruf des Banners im Hauptmenü
-0.0.0.0 www.topwareshop.com
+#0.0.0.0 www.topwareshop.com
 0.0.0.0 www.google-analytics.com
 #0.0.0.0 fonts.googleapis.com
 
@@ -19131,7 +19252,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -19149,7 +19270,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -19163,7 +19284,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -19253,7 +19374,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -19261,7 +19382,7 @@ Dying Light 2 Stay Human
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 eqlauncher.com
@@ -19311,7 +19432,7 @@ Dying Light 2 Stay Human
 # 54.208.229.218
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.241.26.53
 0.0.0.0 us-east-1-a.route.herokuapp.com # Werbung, Promocodes, Statistiken
 0.0.0.0 cloud-save-backup.herokuapp.com
@@ -19633,7 +19754,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -19648,7 +19769,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -19756,7 +19877,7 @@ Dying Light 2 Stay Human
 # 35.227.244.186
 # 35.190.78.8
 # 34.107.181.14
-# 35.241.52.229
+# 34.111.82.212
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
@@ -19777,7 +19898,7 @@ Dying Light 2 Stay Human
 0.0.0.0 150.252.227.35.bc.googleusercontent.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.244.227.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 # Data-Optout leitet auf Analytics mitsamt Übergabeparameter/Token weiter. Dazu gehören ProgrammID, UserID, GeräteID
 # Außerdem Einstellungen zu de/aktivierten Analytics, Optout ja/nein, Report erlaubt ja/nein
 # Bei Bedarf de/aktivieren
@@ -20023,7 +20144,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 216.58.211.142
 # 104.197.31.39
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -20060,6 +20181,14 @@ Dying Light 2 Stay Human
 0.0.0.0 s-usc1c-nss-210.firebaseio.com
 0.0.0.0 scorching-heat-6176.firebaseio.com
 
+# Vital Group, Ltd.
+# CRUMB Circuit Simulator
+# Steam Datagram Relay
+# Ip/s blockieren:
+# 35.190.78.8
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+
 # Viva Media
 # Wrestling Spirit 3
 # Versionsabgleich, Seite nicht mehr existent / Domainparking
@@ -20072,7 +20201,7 @@ Dying Light 2 Stay Human
 # 35.190.88.234
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -20088,7 +20217,7 @@ Dying Light 2 Stay Human
 # 35.190.88.234
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -20103,7 +20232,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -20140,7 +20269,7 @@ Dying Light 2 Stay Human
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 35.227.252.150
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -20157,7 +20286,7 @@ Dying Light 2 Stay Human
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -20172,7 +20301,7 @@ Dying Light 2 Stay Human
 # 35.190.88.234
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -20288,7 +20417,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -20360,7 +20489,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -20376,7 +20505,7 @@ Dying Light 2 Stay Human
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 172.217.25.110
 # 142.250.203.142
 # 216.58.209.14
@@ -20387,7 +20516,7 @@ Dying Light 2 Stay Human
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -20417,7 +20546,7 @@ Dying Light 2 Stay Human
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 #0.0.0.0 config.uca.cloud.unity3d.com
 #0.0.0.0 cdp.cloud.unity3d.com
 #0.0.0.0 gl-payment.gree-apps.net
@@ -20454,7 +20583,7 @@ Dying Light 2 Stay Human
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
@@ -20516,7 +20645,7 @@ Dying Light 2 Stay Human
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 # 35.190.88.234
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
@@ -20525,7 +20654,7 @@ Dying Light 2 Stay Human
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
@@ -20636,7 +20765,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -20644,7 +20773,7 @@ Dying Light 2 Stay Human
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -21030,7 +21159,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -21046,7 +21175,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -21063,7 +21192,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -21071,7 +21200,7 @@ Dying Light 2 Stay Human
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -21119,7 +21248,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -21143,7 +21272,7 @@ Dying Light 2 Stay Human
 # 35.190.88.234
 # 35.241.26.53
 # 35.186.194.186
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
@@ -21165,7 +21294,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 # 103.10.124.43
 # 103.10.125.155
 # 146.66.152.41
@@ -21203,7 +21332,7 @@ Dying Light 2 Stay Human
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -21223,7 +21352,7 @@ Dying Light 2 Stay Human
 # 35.241.26.53
 # 35.186.194.186
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 www.playhellion.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -21262,7 +21391,7 @@ Dying Light 2 Stay Human
 # 35.186.194.186
 # 35.241.26.53
 # 35.190.88.234
-# 35.241.52.229
+# 34.111.82.212
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -21270,7 +21399,7 @@ Dying Light 2 Stay Human
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 186.194.186.35.bc.googleusercontent.com
 0.0.0.0 234.88.190.35.bc.googleusercontent.com
-0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 
