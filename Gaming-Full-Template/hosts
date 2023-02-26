@@ -1510,6 +1510,8 @@ ff02::3 ip6-allhosts
 
 # Denuvo Anti-Tamper
 # Anwendungsschutz, Schutz gegen Manipulation und Kopierschutz
+# 54.229.135.185
+# 34.255.90.97
 # 54.77.65.58
 # 63.33.106.137
 # 54.155.108.137
@@ -2376,8 +2378,8 @@ ff02::3 ip6-allhosts
 # Grow: Song of the Evertree
 # Ip/s blockieren:
 # 35.190.78.8
-0.0.0.0 8.78.190.35.bc.googleusercontent.com
 0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # How to Survive 2
 # 54.146.81.8
@@ -2814,6 +2816,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
+# Aluba Studio
+# 隐秘的角落 Demo
+# Steam Datagram Relay
+# Ip/s blockieren:
+# 35.190.78.8
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+
 # Amanita Design
 # Samorost 3
 # Ip/s blockieren:
@@ -3224,7 +3234,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 d3lwh93x96tiiu.cloudfront.net
-0.0.0.0 cdn.auth0.com
+#0.0.0.0 cdn.auth0.com
 # Ip/s blockieren:
 # 34.111.113.40
 # 34.111.82.212
@@ -3298,7 +3308,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gameguide3.aspyr.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www-google-analytics.l.google.com
-0.0.0.0 cdn.auth0.com
+#0.0.0.0 cdn.auth0.com
 0.0.0.0 d3lwh93x96tiiu.cloudfront.net
 0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com
 0.0.0.0 vss-ns-us.eastus.cloudapp.azure.com
@@ -3584,29 +3594,46 @@ ff02::3 ip6-allhosts
 # Awaken Realms Digital
 # Tainted Grail: Conquest
 # Ip/s blockieren:
-# 52.3.91.251
-# 35.161.12.27
-# 52.3.91.251
-# 50.16.218.217
-0.0.0.0 api.ipify.org
-0.0.0.0 api.gameanalytics.com
-0.0.0.0 api.ingest.marketing.gamesight.io
-0.0.0.0 ec2-52-3-91-251.compute-1.amazonaws.com
-0.0.0.0 ec2-35-161-12-27.us-west-2.compute.amazonaws.com
-# Ip/s blockieren:
+# 77.79.249.151
+# 77.79.249.152
 # 34.111.113.40
 # 34.111.82.212
-# 35.190.78.8
 # 34.107.181.14
+# 35.190.78.8
+# 23.22.40.89
+# 3.229.219.216
+# 34.197.87.194
+# 34.204.19.11
+# 34.234.238.249
+# 44.194.7.240
+# 44.195.10.183
+# 44.208.61.7
+# 52.20.111.102
+# 52.20.18.177
+# 52.203.178.206
+# 52.204.205.198
+# 52.45.130.219
+# 52.55.19.219
+# 52.7.208.21
+# 52.87.16.128
+# 54.172.83.44
+# 54.196.119.130
+# 54.204.9.226
+# 54.234.242.38
+# 23.55.110.20
+# 23.55.110.21
+0.0.0.0 galaxy-log.gog.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 userreporting.cloud.unity3d.com
+0.0.0.0 api.gameanalytics.com
+#0.0.0.0 avatars.akamai.steamstatic.com
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 212.82.111.34.bc.googleusercontent.com
-0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
-0.0.0.0 userreporting.cloud.unity3d.com
 0.0.0.0 14.181.107.34.bc.googleusercontent.com
 
 # Axolot Games
@@ -5161,31 +5188,18 @@ ff02::3 ip6-allhosts
 
 # Carry Castle AB
 # Source of Madness
-# 104.18.37.23
-# 54.188.160.157
-# 52.36.32.155,44.235.27.111
-# 52.34.71.244
-# 52.43.14.212
-# 52.12.148.140
-# 52.36.32.155
-#0.0.0.0 c195e.playfabapi.com
-#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
-0.0.0.0 ec2-52-12-148-140.us-west-2.compute.amazonaws.com
-0.0.0.0 ec2-44-235-27-111.us-west-2.compute.amazonaws.com
-0.0.0.0 ec2-52-12-148-140.us-west-2.compute.amazonaws.com
-0.0.0.0 ec2-52-34-71-244.us-west-2.compute.amazonaws.com
-0.0.0.0 ec2-52-43-14-212.us-west-2.compute.amazonaws.com
-0.0.0.0 ec2-52-36-32-155.us-west-2.compute.amazonaws.com
-0.0.0.0 ec2-54-188-160-157.us-west-2.compute.amazonaws.com
 # Ip/s blockieren:
 # 34.111.113.40
 # 34.111.82.212
+# 35.190.78.8
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 212.82.111.34.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # Cats Who Play
 # The Cat! Porfirio's Adventure
@@ -5428,6 +5442,12 @@ ff02::3 ip6-allhosts
 #0.0.0.0 avatars.steamstatic.com
 #0.0.0.0 steamcdn-a.akamaihd.net
 #0.0.0.0 api.steampowered.com
+
+# Lords Of The Fallen™
+# Ip/s blockieren:
+# 54.229.135.185
+# 34.255.90.97
+# s. Rubrik Kopierschutz / AntiCheat
 
 # Sniper Ghost Warrior III
 # s. Rubrik Kopierschutz / AntiCheat
@@ -7202,6 +7222,40 @@ ff02::3 ip6-allhosts
 0.0.0.0 depthdropmaster.us-west-2.elasticbeanstalk.com # Matchinfos
 0.0.0.0 depthquestsserver-live.h2npnkkxe2.us-west-2.elasticbeanstalk.com # Tägliche Quests
 
+# Digital Extremes Ltd.
+# Warframe
+# 255.255.255.255
+# 239.255.255.250
+# 2.19.35.110
+# 205.185.216.42
+# 205.185.216.10
+# 2.19.35.110
+# 142.250.179.195
+# 91.225.12.178
+# 91.225.12.178
+# 216.58.214.19
+# 184.24.9.251
+# 85.159.214.213
+# 170.187.231.80
+# 45.33.58.33
+# 50.116.55.186
+#0.0.0.0 api.warframe.com
+#0.0.0.0 www.warframe.com
+#0.0.0.0 origin.warframe.com
+#0.0.0.0 content.warframe.com
+#0.0.0.0 cds.b5q9z7i8.hwcdn.net
+#0.0.0.0 fonts.googleapis.com
+#0.0.0.0 fonts.gstatic.com
+0.0.0.0 metrics.warframe.com
+0.0.0.0 arbiter.warframe.com
+#0.0.0.0 85-159-214-213.ip.linodeusercontent.com
+#0.0.0.0 139-144-69-73.ip.linodeusercontent.com
+#0.0.0.0 104-237-145-11.ip.linodeusercontent.com
+#0.0.0.0 170-187-231-80.ip.linodeusercontent.com
+#0.0.0.0 45-33-58-33.ip.linodeusercontent.com
+#0.0.0.0 50-116-55-186.ip.linodeusercontent.com
+#0.0.0.0 a184-24-9-251.deploy.static.akamaitechnologies.com
+
 # Digital Tribe
 # Hyperdrive Massacre
 # Ip/s blockieren:
@@ -7911,6 +7965,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
+# Eteru Studio
+# Ip/s blockieren:
+# 34.111.113.40
+# 34.111.82.212
+# 35.190.78.8
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 40.113.111.34.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+
 # Event Horizon Ltd.
 # Tower of Time
 # Ip/s blockieren:
@@ -8378,15 +8446,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
-# Bound by Flame
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # Call of Cthulhu®
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
@@ -8396,13 +8455,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cser.steampowered.com
 
 # Contrast
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# s. Eintrag Steam: IP Checks
 
 # Etherium
 # 216.146.43.70
@@ -9032,6 +9085,35 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
 # Funcom
+# Conan Chop Chop
+# 34.111.113.40
+# 34.111.82.212
+# 35.190.78.8
+# 173.194.76.127
+# 64.233.163.127
+# 172.253.121.127
+# 74.125.24.127
+# 74.125.204.127
+# 18.191.223.12
+# 216.239.38.127
+# 173.194.76.127
+# 216.120.180.54
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+#0.0.0.0 stun.l.google.com
+#0.0.0.0 stun1.l.google.com
+#0.0.0.0 stun2.l.google.com
+#0.0.0.0 stun3.l.google.com
+#0.0.0.0 stun4.l.google.com
+#0.0.0.0 stun.stunprotocol.org
+#0.0.0.0 ns.exitgames.com
+0.0.0.0 40.113.111.34.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+
 # Conan Exiles
 #0.0.0.0 ce1.battleye.com
 0.0.0.0 www.google-analytics.com
@@ -9250,6 +9332,131 @@ LostWinds 2: Winter of the Melodias
 #0.0.0.0 ap-api2.stable.prod.project-aperion.net
 #0.0.0.0 249.195.120.34.bc.googleusercontent.com
 #0.0.0.0 ec2-52-33-19-33.us-west-2.compute.amazonaws.com
+
+# Tribes of Midgard
+# 54.211.121.136
+# 107.23.111.172
+# 3.213.38.26
+# 3.223.66.37
+# 18.233.112.65
+# 50.19.209.113
+# 52.44.213.141
+# 52.207.8.83
+# 3.231.49.25
+# 34.204.62.200
+# 35.173.206.92
+# 35.175.25.49
+# 52.200.6.210
+# 54.209.185.141
+# 107.20.88.195
+# 3.223.155.64
+# 18.204.163.166
+# 34.232.13.7
+# 52.22.197.200
+# 52.206.41.92
+# 3.208.234.223
+# 3.223.251.72
+# 3.233.3.80
+# 3.233.201.11
+# 3.231.49.25
+# 34.204.62.200
+# 35.173.206.92
+# 35.175.25.49
+# 52.200.6.210
+# 54.209.185.141
+# 107.20.88.195
+# 3.223.155.64
+# 3.223.155.64
+# 34.225.219.85
+# 34.232.184.149
+# 35.173.206.92
+# 44.194.23.142
+# 52.22.72.236
+# 52.200.6.210
+# 54.197.56.84
+# 52.20.199.137
+# 54.145.104.243
+# 100.25.224.136
+# 107.23.67.207
+# 3.213.184.238
+# 3.228.29.4
+# 35.169.31.169
+# 44.210.34.216
+# 44.210.34.216
+# 52.20.199.137
+# 54.145.104.243
+# 100.25.224.136
+# 107.23.67.207
+# 3.213.184.238
+# 3.228.29.4
+# 35.169.31.169
+# 35.168.53.121
+# 44.199.164.147
+# 44.205.91.179
+# 52.21.53.94
+# 54.164.33.39
+# 3.213.228.40
+# 23.20.35.250
+# 34.197.209.198
+# 13.225.78.95
+# 13.225.78.3
+# 13.225.78.14
+# 13.225.78.92
+# 188.114.97.3
+# 188.114.96.3
+# 3.82.185.234
+# 52.1.128.131
+# 176.32.112.144
+# 52.119.164.17
+# 52.46.131.105
+# 52.95.21.15
+# 52.95.80.229
+# 52.119.184.60
+# 54.240.206.217
+# 52.95.195.86
+# 54.239.33.94
+# 52.94.56.186
+# 52.119.136.66
+# 52.46.196.96
+# 44.194.24.165
+#0.0.0.0 api.epicgames.dev
+#0.0.0.0 api.tribesofmidgard.com
+0.0.0.0 discovery.tribesofmidgard.com
+0.0.0.0 discovery.services.gearboxsoftware.com
+0.0.0.0 d3or4hfcyl0s42.cloudfront.net
+#0.0.0.0 account.services.gearboxsoftware.com
+#0.0.0.0 gamelift.us-west-1.amazonaws.com
+#0.0.0.0 gamelift.us-west-2.amazonaws.com
+#0.0.0.0 gamelift.us-east-1.amazonaws.com
+#0.0.0.0 gamelift.us-east-2.amazonaws.com
+#0.0.0.0 gamelift.ap-south-1.amazonaws.com
+#0.0.0.0 gamelift.ap-southeast-1.amazonaws.com
+#0.0.0.0 gamelift.ap-southeast-2.amazonaws.com
+#0.0.0.0 gamelift.ap-northeast-2.amazonaws.com
+#0.0.0.0 gamelift.eu-west-1.amazonaws.com
+#0.0.0.0 gamelift.eu-west-2.amazonaws.com
+#0.0.0.0 ec2.eu-south-1.amazonaws.com
+#0.0.0.0 ec2.eu-north-1.amazonaws.com
+#0.0.0.0 gamelift.eu-central-1.amazonaws.com
+#0.0.0.0 ec2.af-south-1.amazonaws.com
+#0.0.0.0 ec2.me-south-1.amazonaws.com
+#0.0.0.0 ec2.ap-east-1.amazonaws.com
+#0.0.0.0 gamelift.sa-east-1.amazonaws.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
 # We Happy Few
 # 52.27.241.128
@@ -10289,8 +10496,23 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 6BF5.playfabapi.com # Accountdaten
 
 # Guild Quest
-0.0.0.0 7D89.playfabapi.com
-0.0.0.0 master-ma-elasticl-1e2d7mzrh19sw-2078529754.us-west-2.elb.amazonaws.com
+# Ip/s blockieren:
+# 34.111.113.40
+# 34.111.82.212
+# 52.13.12.111
+# 52.24.246.106
+# 44.228.180.118
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+#0.0.0.0 7D89.playfabapi.com
+0.0.0.0 40.113.111.34.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
+#0.0.0.0 ec2-52-24-246-106.us-west-2.compute.amazonaws.com
+#0.0.0.0 ec2-44-228-180-118.us-west-2.compute.amazonaws.com
+#0.0.0.0 ec2-52-13-12-111.us-west-2.compute.amazonaws.com
 
 # Hyperstrange S.A.
 # Elderborn
@@ -11362,6 +11584,13 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 www.googletagmanager.com # UA-38129744-1
 0.0.0.0 fra16s52-in-f14.1e100.net
 #0.0.0.0 inthekillhouse.com
+
+# KIMIDORI SOFT
+# Takoyaki Party Survival
+# Ip/s blockieren:
+# 35.190.78.8
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # Kindly Beast
 # Showdown Bandit
@@ -14283,6 +14512,12 @@ LostWinds 2: Winter of the Melodias
 #0.0.0.0 www.8bitarmies.com
 #0.0.0.0 RTSCoordBalancer-325549666.us-east-1.elb.amazonaws.com # Mehrspieler
 
+# Phat Phrog Studios
+# Creature Clicker - Capture, Train, Ascend!
+# Ip/s blockieren:
+# 167.71.53.212
+0.0.0.0 bugduck.de
+
 # pheenix93
 # Wooden Floor
 0.0.0.0 et.epicgames.com
@@ -14829,6 +15064,42 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 150.252.227.35.bc.googleusercontent.com
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 212.82.111.34.bc.googleusercontent.com
+
+# OlliOlli World
+# Ip/s blockieren:
+# 34.111.113.40
+# 34.111.82.212
+# 35.190.78.8
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 40.113.111.34.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+# 44.236.142.208
+# 44.237.141.7
+# 44.240.143.149
+# 52.26.78.20
+# 54.70.248.6
+# 18.236.45.189
+# 35.160.247.27
+# 35.166.55.23
+# 52.209.168.248
+# 54.155.163.224
+# 52.49.231.225
+#0.0.0.0 39295.playfabapi.com
+#0.0.0.0 backend-production.project6.pdr7p6.com
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
+
+Online / Multiplayerserver:
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
+
+Server-Endpoints:
+0.0.0.0 40.113.111.34.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # The Outer Worlds
 # s. Eintrag Steam: IP Checks
@@ -16993,7 +17264,7 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 crashlogs.mobilegame.woniu.com
 0.0.0.0 sqm.woniu.com
 
-# Snapshot Games Inc.
+# Snapshot Games, Inc.
 # Chaos Reborn
 # Ip/s blockieren:
 # 34.111.113.40
@@ -17007,6 +17278,40 @@ LostWinds 2: Winter of the Melodias
 # 184.154.26.130
 0.0.0.0 www.chaos-reborn.com
 # Server unter 178.62.98.200
+
+# Phoenix Point Demo
+# 34.209.189.204
+# 34.216.103.251
+# 34.217.188.224
+# 34.218.28.228
+# 34.223.188.58
+# 35.162.131.224
+# 35.84.86.11
+# 44.235.46.61
+# 44.238.66.246
+# 44.239.137.146
+# 44.240.84.34
+# 44.240.88.7
+# 52.10.183.135
+# 52.10.220.141
+# 52.12.35.186
+# 52.26.8.25
+# 52.35.223.48
+# 52.39.167.61
+# 52.40.54.25
+# 54.187.243.41
+# 54.202.84.178
+# 13.32.99.32
+# 13.32.99.128
+# 13.32.99.4
+# 13.32.99.5
+# 40.71.17.2
+# 35.190.78.8
+0.0.0.0 api.amplitude.com
+0.0.0.0 xho82lzrfg.execute-api.us-west-2.amazonaws.com
+0.0.0.0 hdrprod.hydrapi.net
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # Snow Cannon Games
 # The Frostrune
@@ -18091,6 +18396,19 @@ LostWinds 2: Winter of the Melodias
 #0.0.0.0 6e.58.26a9.ip4.static.sl-reverse.com # Indien
 #0.0.0.0 gcsel002.exitgames.com # Korea
 
+# Hokko Life
+# Ip/s blockieren:
+# 35.190.78.8
+# 108.128.211.196
+# 46.137.44.2
+# 46.137.154.174
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 api.lootlocker.io
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 ec2-46-137-154-174.eu-west-1.compute.amazonaws.com
+0.0.0.0 ec2-108-128-211-196.eu-west-1.compute.amazonaws.com
+0.0.0.0 ec2-46-137-44-2.eu-west-1.compute.amazonaws.com
+
 # Main Assembly
 # s. Eintrag Steam: IP Checks
 # Ipv4 & Domains https://gameindustry.eu/katalog/gameanalytics/
@@ -18146,6 +18464,13 @@ LostWinds 2: Winter of the Melodias
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 #0.0.0.0 www.escapistgame.com # Bestenlisten
+
+# The Serpent Rogue
+# Steam Datagram Relay
+# Ip/s blockieren:
+# 35.190.78.8
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # Worms Clan Wars
 #0.0.0.0 game.wormsclanwars.com # Ingame Clanfunktionen
