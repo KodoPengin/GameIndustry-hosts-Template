@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 21.02.2023
+# Änderungsdatum: 26.02.2023
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -8903,7 +8903,7 @@ ff02::3 ip6-allhosts
 # 63.33.78.108
 #0.0.0.0 api.zaonce.net # UUID+GameID
 
-LostWinds 2: Winter of the Melodias
+# LostWinds 2: Winter of the Melodias
 # 63.33.78.108
 #0.0.0.0 api.zaonce.net # UUID+GameID
 
@@ -15092,11 +15092,9 @@ LostWinds 2: Winter of the Melodias
 #0.0.0.0 39295.playfabapi.com
 #0.0.0.0 backend-production.project6.pdr7p6.com
 #0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
-
-Online / Multiplayerserver:
+# Online / Multiplayerserver
 #0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
-
-Server-Endpoints:
+# Endpunkte
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 212.82.111.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
@@ -18566,7 +18564,7 @@ Server-Endpoints:
 0.0.0.0 eos-gateway-ingressv2-prod-c1-w1.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
 
-Dying Light 2 Stay Human
+# Dying Light 2 Stay Human
 # s. Rubrik Kopierschutz / AntiCheat
 # 107.23.203.1
 # 108.157.4.26
