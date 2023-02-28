@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 26.02.2023
+# Änderungsdatum: 28.02.2023
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -31,7 +31,6 @@
 127.0.0.1 localhost.localdomain
 127.0.0.1 local
 255.255.255.255 broadcasthost
-255.255.255.255 wpad
 ::1 localhost
 ::1 ip6-localhost
 ::1 ip6-loopback
@@ -3969,9 +3968,10 @@ ff02::3 ip6-allhosts
 # Amazon.com, Inc.
 #0.0.0.0 data-eu.amazon.com
 #0.0.0.0 images-fe.ssl-images-amazon.com
-0.0.0.0 static-eu.payments-amazon.com
+#0.0.0.0 static-eu.payments-amazon.com # AmazonPay Button
 0.0.0.0 static.siege-amazon.com
 0.0.0.0 www.assoc-amazon.de
+0.0.0.0 metrics.media-amazon.com
 # 13.33.132.216
 # Adsystem
 0.0.0.0 aan.amazon.de # Impressionen
@@ -3991,6 +3991,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 cloudfront-labs.amazonaws.com
 0.0.0.0 completion.amazon.co.jp
 0.0.0.0 completion.amazon.co.uk
+0.0.0.0 completion.amazon.com
+0.0.0.0 completion.amazon.de
 0.0.0.0 fls-eu.amazon-adsystem.com
 0.0.0.0 fls-eu.amazon.de
 0.0.0.0 fls-fe.amazon-adsystem.com
@@ -9906,7 +9908,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 uipglob.semasio.net
 
 # Sentry.io
-0.0.0.0 6c0d0783c0de4835b6865bcce498d4b5@o280785.ingest.sentry.io
 0.0.0.0 js.sentry-cdn.com
 0.0.0.0 o1000929.ingest.sentry.io
 0.0.0.0 o105046.ingest.sentry.io
@@ -10385,9 +10386,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.econda-monitor.de # Trackingpixel auf Strato
 
 # Stripe.com
-#0.0.0.0 js.stripe.com
-0.0.0.0 q.stripe.com
-0.0.0.0 m.stripe.network
+#0.0.0.0 js.stripe.com # Analytics
+0.0.0.0 q.stripe.com # Trackingpixel
+0.0.0.0 m.stripe.network # Adblock Detection
+0.0.0.0 m.stripe.com # MUID, GUID, SID
+0.0.0.0 errors.stripe.com # Sentry
 
 # Stumbleupon.com
 0.0.0.0 platform.stumbleupon.com
@@ -14433,7 +14436,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 b6.yahoo.co.jp
 0.0.0.0 b8.yahoo.co.jp
 0.0.0.0 b90.yahoo.co.jp
-0.0.0.0 b91.yahoo.co.jp
+0.0.0.0 b91.yahoo.co.jp # Conversions
 0.0.0.0 b92.yahoo.co.jp
 0.0.0.0 b94.yahoo.co.jp
 0.0.0.0 b97.yahoo.co.jp
@@ -17503,6 +17506,7 @@ ff02::3 ip6-allhosts
 # 104.214.150.122
 # 51.140.157.153
 # 13.107.43.23
+0.0.0.0 confiant.msn.com # Wrapper
 0.0.0.0 config.edge.skype.com
 0.0.0.0 skypedataprdcolcus13.cloudapp.net
 0.0.0.0 skypedataprdcoljpw00.cloudapp.net
@@ -26591,13 +26595,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 udp.ipv6check.akadns.net
 
 # Steam: IP Selector
+# 205.196.6.144
 # 205.196.6.172
 # 205.196.6.174
 # 205.196.6.137
 # 205.196.6.139
 # 205.196.6.141
 # 205.196.6.138
-0.0.0.0 lancache.steamcontent.com, IP=205.196.6.144, ttl=300
 #0.0.0.0 lancache.steamcontent.com
 0.0.0.0 origin-ip-selector.steampipe.steamcontent.akadns.net
 
@@ -27209,7 +27213,7 @@ ff02::3 ip6-allhosts
 # Aktive Mitwirkung lädt diverse Trackingdienste, Werbung und Drittanbieterseiten nach
 #0.0.0.0 www.warchild.org.uk
 0.0.0.0 stripensrq.global.ssl.fastly.net
-#0.0.0.0 m.stripe.network
+0.0.0.0 m.stripe.network
 #0.0.0.0 js.stripe.com # Anbieter für Zahlungsabläufe
 0.0.0.0 insights.hotjar.com
 0.0.0.0 vars.hotjar.com
@@ -28106,15 +28110,27 @@ ff02::3 ip6-allhosts
 # New World
 # Einträge zu in New Worlds enhaltener Easy AntiCheat Software sind unter der Kategorie Kopierschutz zu finden
 # Sonstiges
-# 18.66.107.191, 18.66.242.78, 18.66.107.55, 52.217.65.220, 52.217.201.201
+# 18.66.107.191
+# 18.66.242.78
+# 18.66.107.55
+# 52.217.65.220
+# 52.217.201.201
 #0.0.0.0 d2c74t4zimux3r.cloudfront.net # Steam_App_ID.1063730.json
 #0.0.0.0 s3-w.us-east-1.amazonaws.com # auch z.b. für github-production-release-asset-2e65be.s3.amazonaws.com für Releaseuploads
 # STS - AWS Identity und Access Management
-# 54.239.24.200, 54.239.16.72
+# 54.239.24.200
+# 54.239.16.72
 #0.0.0.0 sts.us-east-1.amazonaws.com
 #0.0.0.0 sts.amazonaws.com
 # Kinesis - Echtzeitanalysse, BigData und Verknüfpung zu anderen AWS Diensten
-# 52.119.211.247, 3.24.227.244, 3.123.12.204, 3.123.12.195, 3.24.227.249, 18.229.220.157, 34.223.45.95, 3.91.171.226
+# 52.119.211.247
+# 3.24.227.244
+# 3.123.12.204
+# 3.123.12.195
+# 3.24.227.249
+# 18.229.220.157
+# 34.223.45.95
+# 3.91.171.226
 0.0.0.0 kinesis.ap-southeast-1.amazonaws.com
 0.0.0.0 kinesis.ap-southeast-2.amazonaws.com
 0.0.0.0 kinesis.ap-northeast-1.amazonaws.com
@@ -28124,12 +28140,26 @@ ff02::3 ip6-allhosts
 0.0.0.0 kinesis.us-west-2.amazonaws.com
 0.0.0.0 kinesis.us-east-1.amazonaws.com
 # Metadata personaHost
-# 54.146.208.115, 54.89.165.9, 35.174.93.31, 35.173.107.183, 34.207.45.121
+# 54.146.208.115
+# 54.89.165.9
+# 35.174.93.31
+# 35.173.107.183
+# 34.207.45.121
 #0.0.0.0 service.maestro.us-east-1.social.games.a2z.com # personaHostV2, Sessiondaten
 #0.0.0.0 client.us-east-1.social.games.a2z.com # personaHost
 #0.0.0.0 client.entitlementservice.amazongames.com
 # DynamoDB - PING / Callbacks
-# 52.94.17.24, 52.119.226.188, 52.94.13.34, 52.94.10.24, 52.94.7.6, 52.94.17.30, 52.119.224.126, 52.94.10.82, 52.94.7.10, 52.94.13.28, 52.94.7.78
+# 52.94.17.24
+# 52.119.226.188
+# 52.94.13.34
+# 52.94.10.24
+# 52.94.7.6
+# 52.94.17.30
+# 52.119.224.126
+# 52.94.10.82
+# 52.94.7.10
+# 52.94.13.28
+# 52.94.7.78
 0.0.0.0 dynamodb.ap-southeast-2.amazonaws.com
 0.0.0.0 dynamodb.eu-central-1.amazonaws.com
 0.0.0.0 dynamodb.us-east-1.amazonaws.com
@@ -30373,7 +30403,7 @@ ff02::3 ip6-allhosts
 # Dark Void™
 # SecuROM s. Rubrik Kopierschutz / AntiCheat
 
-デビル メイ クライ 5 | Devil may Cry 5
+# デビル メイ クライ 5 | Devil may Cry 5
 # s. Rubrik Kopierschutz / AntiCheat
 # Ip/s blockieren:
 # 13.35.78.110
