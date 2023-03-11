@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 28.02.2023
+# Änderungsdatum: 11.03.2023
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -34,7 +34,6 @@
 ::1 localhost
 ::1 ip6-localhost
 ::1 ip6-loopback
-fe80::1%lo0 localhost
 ff00::0 ip6-localnet
 ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
@@ -144,7 +143,7 @@ ff02::3 ip6-allhosts
 # 67.26.75.254
 # 8.248.119.254
 #0.0.0.0 level3.blizzard.com # Chunks
-23.213.161.12
+# 23.213.161.12
 # 23.213.161.15
 #0.0.0.0 blzprofile.akamaized.net # Account/Avatar-Json, Jpg
 # 18.195.120.48
@@ -2250,10 +2249,10 @@ ff02::3 ip6-allhosts
 # 104.108.167.167
 # 3.225.204.250
 # Launcherlogin & Tokenweitergabe | Nach Bedarf handhaben | Der Launcher wurde hier deaktiviert
-0.0.0.0 launcher.xsolla.com
-0.0.0.0 login.xsolla.com
+#0.0.0.0 launcher.xsolla.com
+#0.0.0.0 login.xsolla.com
 # Grafiken Launcher
-0.0.0.0 cdn3.xsolla.com
+#0.0.0.0 cdn3.xsolla.com
 0.0.0.0 launcher-tests.s3.amazonaws.com
 # Telemetrie & Analytics
 0.0.0.0 b656b83278346cc12b09f7641962ca20.firaxislive.net
@@ -2450,7 +2449,7 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 10.100.0.83
 # 185.34.107.128
-185.34.107.24
+# 185.34.107.24
 #0.0.0.0 ww2-pc-auth3.prod.demonware.net
 # ww2-qbl
 # 185.34.107.24
@@ -8995,6 +8994,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
+# Panzer Dragoon: Remake
+# Ip/s blockieren:
+# 35.190.78.8
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+
 # Rift Coaster HD Remastered VR
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
@@ -13180,8 +13185,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
-
 # Nacon
+# Bee Simulator
+# s. Eintrag Steam: IP Checks
+
 # Sherlock Holmes: The Devil's Daughter
 # s. Rubrik Kopierschutz / AntiCheat
 0.0.0.0 mc.frogwares.com
@@ -19315,6 +19322,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 212.82.111.34.bc.googleusercontent.com
+
+# THQ / Embracer
+# Biomutant
+# s. Eintrag Steam: IP Checks
+# Ipv4: https://gameindustry.eu/katalog/epic-games-inc/
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Thunder Lotus Games
 # Jotun: Valhalla Edition
