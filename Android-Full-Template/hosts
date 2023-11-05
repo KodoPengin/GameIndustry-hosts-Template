@@ -12,7 +12,7 @@
 # Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
 # Verbindungen sind je nach Programmen und Spielen zugeordnet
 # Kombinierbar mit anderen host Templates von GameIndustry.eu oder weiteren Quellen
-# Änderungsdatum: 12.03.2022
+# Änderungsdatum: 05.11.2023
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -761,7 +761,7 @@
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 setting.rayjump.com
 0.0.0.0 analytics.rayjump.com
-0.0.0.0 s3.amazonaws.com
+#0.0.0.0 s3.amazonaws.com
 0.0.0.0 alegrium.helpshift.com
 #0.0.0.0 lbadv.alegrium.com
 #0.0.0.0 lbmarie.alegrium.com
