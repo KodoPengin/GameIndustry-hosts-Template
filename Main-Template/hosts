@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 03.10.2023
+# Änderungsdatum: 05.11.2023
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -45,7 +45,6 @@ ff02::3 ip6-allhosts
 # Blockiertes Tracking, Adware, unnötige Verbindungen, Spyware, Werbung in Programmen jeglicher Art
 # Bitte beachten Sie, dass auch Herstellerseiten, Lizensierungsserver oder andere Funktionen abgeschaltet sein können
 # Ipv4/6 Adressen werden optional mit angegeben
-
 
 # Abelssoft Ascora GmbH
 # Win10PrivacyFix
@@ -203,6 +202,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p13n.adobe.io
 0.0.0.0 performance.typekit.net
 0.0.0.0 pgc.adobe.io
+0.0.0.0 pojvrj7ho5.adobe.io
 0.0.0.0 practivate.adobe.com
 0.0.0.0 prod-rel-ffc-ccm.oobesaas.adobe.com # Products
 0.0.0.0 prod.adobegenuine.com
@@ -952,6 +952,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 redirector.gvt1.com
 0.0.0.0 r1---sn-5hnedn7s.gvt1.com
 0.0.0.0 loft12103.serverprofi24.de
+0.0.0.0 errortracking.deepl.com
 # Endpunkte
 #0.0.0.0 ff8d28cacfe549d280afa21886239fe4.pacloudflare.com
 #0.0.0.0 733868e706dd40d3a4a0588fc39b3df8.pacloudflare.com
@@ -1296,6 +1297,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 licensing.ultraedit.com
 #0.0.0.0 downloads.ultraedit.com
 #0.0.0.0 solo.ultraedit.softwarekey.com
+# UACHelper.exe
+# 192.124.249.22
+#0.0.0.0 ocsp.godaddy.com
 
 # Inmatrix Zoom Player
 # 69.56.182.222
@@ -1723,9 +1727,11 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ocsp.int-x3.letsencrypt.org
 
 # Netlimiter
-# bis Version 4.1.14.0
 # 217.198.124.11
-#0.0.0.0 netlimiter.com # Versionscheck, Standortdatenbank
+# 37.9.175.165
+# 20.40.202.13
+#0.0.0.0 download.netlimiter.com # XML, IP2Loc
+#0.0.0.0 netlimiter.com # Versionscheck
 #0.0.0.0 www.netlimiter.com
 
 # NGWIN
@@ -2206,6 +2212,44 @@ ff02::3 ip6-allhosts
 0.0.0.0 netbalancer.com
 0.0.0.0 appserv.netbalancer.com
 0.0.0.0 appserv9.netbalancer.com
+
+# Shanghai Chang Zhi Network Technology Co,. Ltd.
+# LD-Player
+#0.0.0.0 2.android.pool.ntp.org
+#0.0.0.0 android.googleapis.com
+#0.0.0.0 dxp.baidu.com
+#0.0.0.0 encdn.ldmnq.com
+#0.0.0.0 fonts.gstatic.com
+#0.0.0.0 hmma.baidu.com
+#0.0.0.0 openrcv.baidu.com
+#0.0.0.0 play.googleapis.com
+#0.0.0.0 storede.ldmnq.com
+#0.0.0.0 usercenter.ldplayer.net
+#0.0.0.0 www.googleapis.com
+0.0.0.0 ad.ldplayer.net
+0.0.0.0 adabdapi.ldmnq.com
+0.0.0.0 advertise.ldplayer.net
+0.0.0.0 alb-fc2psc581f288qx1e4.cn-shanghai.alb.aliyuncs.com
+0.0.0.0 alt1-mtalk.google.com
+0.0.0.0 alt2-mtalk.google.com
+0.0.0.0 alt3-mtalk.google.com
+0.0.0.0 alt4-mtalk.google.com
+0.0.0.0 alt5-mtalk.google.com
+0.0.0.0 alt6-mtalk.google.com
+0.0.0.0 alt7-mtalk.google.com
+0.0.0.0 alt8-mtalk.google.com
+0.0.0.0 android.bugly.qq.com
+0.0.0.0 android.clients.google.com
+0.0.0.0 apide.ldmnq.com
+0.0.0.0 app-measurement.com
+0.0.0.0 connectivitycheck.gstatic.com
+0.0.0.0 d19przo9d3f9zk.cloudfront.net
+0.0.0.0 en.ldplayer.net
+0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 lden.oss-ap-southeast-1.aliyuncs.com
+0.0.0.0 middledata.ldmnq.com
+0.0.0.0 mtalk.google.com
+0.0.0.0 www.google-analytics.com
 
 # Sisulizer
 # 75.98.228.119
@@ -4576,6 +4620,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 1456667983.rsc.cdn77.org
 0.0.0.0 1470630001.rsc.cdn77.org
 0.0.0.0 1486270073.rsc.cdn77.org
+0.0.0.0 1558334541.rsc.cdn77.org
 0.0.0.0 1605158521.rsc.cdn77.org
 
 # Cedexis
@@ -5558,11 +5603,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 track.eyeviewads.com
 
 # Ezoic.com | Werbung und Monetarisierung
-0.0.0.0 svc.ezoic.com
 #0.0.0.0 g.ezoic.net # z.B. bei Iconarchive.com
+0.0.0.0 basher.ezodn.com
+0.0.0.0 bshr.ezodn.com
+0.0.0.0 ezodn.com
 0.0.0.0 ezoic-top-images.s3.amazonaws.com
-0.0.0.0 www.ezoic.com
+0.0.0.0 g.ezodn.com
+0.0.0.0 go.ezodn.com
 0.0.0.0 go.ezoic.net
+0.0.0.0 svc.ezoic.com
+0.0.0.0 www.ezoic.com
 0.0.0.0 www.ezojs.com # Ezoic Ad Density
 
 # F11-ADS.com
@@ -5958,10 +6008,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 sstatic1.histats.com
 
 # Highwebmedia.com
+0.0.0.0 cbjpeg-serve.stream.highwebmedia.com
+0.0.0.0 cbjpeg.stream.highwebmedia.com
 0.0.0.0 chatws-20.stream.highwebmedia.com
 0.0.0.0 edge51.stream.highwebmedia.com
+0.0.0.0 realtime.pa.highwebmedia.com
 0.0.0.0 ssl-ccstatic.highwebmedia.com
-0.0.0.0 cbjpeg-serve.stream.highwebmedia.com
+0.0.0.0 static-pub.highwebmedia.com
 
 # Hoortols.org
 0.0.0.0 hoortols.org
@@ -6259,14 +6312,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 data-17c7ec5f16.giga.de
 0.0.0.0 data-27f08504c8.capital.de
 0.0.0.0 data-2d86fd41e0.geo.de
+0.0.0.0 data-4754325bf6.scinexx.de
 0.0.0.0 data-4ede7e9c86.faz.net
 0.0.0.0 data-4f2efe538c.einfachbacken.de
+0.0.0.0 data-60d896f23d.haz.de
 0.0.0.0 data-67f17c94f0.gesundheit.de
 0.0.0.0 data-6e2baaf3b9.mein-schoener-garten.de
 0.0.0.0 data-7dd74630af.lecker.de
 0.0.0.0 data-8f03f9dd42.spiegel.de
 0.0.0.0 data-94d154970c.boersenblatt.net
 0.0.0.0 data-a0f0ae1310.gelbeseiten.de
+0.0.0.0 data-af9a061aaf.deraktionaer.de
 0.0.0.0 data-b0980db7ec.wiwo.de
 0.0.0.0 data-be9b6161bf.aponet.de
 0.0.0.0 data-c53e1346fa.gamepro.de
@@ -11898,6 +11954,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 smetrics.foxnews.com
 0.0.0.0 try.nation.foxnews.com
 
+# FUNKE Mediengruppe
+0.0.0.0 data-ee807be806.derwesten.de
+0.0.0.0 front.vtv.funkedigital.de # JS-Logger
+0.0.0.0 sp.data.funkedigital.de # Trackingpixel
+0.0.0.0 runforrest.derwesten.de
+0.0.0.0 scout.data.funkedigital.de
+0.0.0.0 anonym.data.funkedigital.de
+
 # Futurezone.at
 0.0.0.0 efs.futurezone.at # UA-83029618-2
 
@@ -14203,6 +14267,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 trafic-media.ru
 0.0.0.0 utarget.ru
 0.0.0.0 v.wpimg.pl
+0.0.0.0 v1.islay04.pl
 0.0.0.0 v2.mpsuadv.ru
 0.0.0.0 v3.mpsuadv.ru
 0.0.0.0 vastroll.ru
@@ -14214,7 +14279,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.mpsuadv.ru
 0.0.0.0 xxnk.multikatalogslubny.pl
 0.0.0.0 zachowajto.pl
-
 0.0.0.0 hb.bumlam.com
 0.0.0.0 1l-view.mail.ru
 0.0.0.0 sync.dmp.otm-r.com
@@ -14614,6 +14678,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.l.doubleclick.net
 0.0.0.0 survey.g.doubleclick.net
 0.0.0.0 uk.doubleclick.net
+0.0.0.0 www3.doubleclick.net
 # Endpunkte
 0.0.0.0 eh-in-f154.1e100.net
 0.0.0.0 eh-in-f156.1e100.net
@@ -15341,6 +15406,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 elb01-2039628332.us-west-2.elb.amazonaws.com
 0.0.0.0 esev2.s3.amazonaws.com
 0.0.0.0 ets-prd2-uw1-coll-elb-2013165758.us-west-2.elb.amazonaws.com # Adobe
+0.0.0.0 fc-euc1-00-pics-bkt-00.s3.amazonaws.com
+0.0.0.0 fc-euc1-00-pics-bkt-00.s3.eu-central-1.amazonaws.com
 0.0.0.0 firehose.us-west-2.amazonaws.com
 0.0.0.0 firewall-external-2134955858.eu-west-1.elb.amazonaws.com
 0.0.0.0 gtrk.s3.amazonaws.com
@@ -15494,6 +15561,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d1225795gabrip.cloudfront.net
 0.0.0.0 d12t7h1bsbq1cs.cloudfront.net
 0.0.0.0 d134s3bx3cib14.cloudfront.net
+0.0.0.0 d13k7prax1yi04.cloudfront.net
 0.0.0.0 d141wsrw9m4as6.cloudfront.net
 0.0.0.0 d144jmuhz9kvbq.cloudfront.net
 0.0.0.0 d14zhsq5aop7ap.cloudfront.net
@@ -15727,8 +15795,8 @@ ff02::3 ip6-allhosts
 # Microsoft Corporation
 
 # Alles rund um die Firma Microsoft Corporation
-Windows Hardening, Internet Explorer, Microsoft Edge, Shop, Bing, Skype, Kacheln, Office, Wetter, Karten uvm.
-Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überflüssige Funktionen zum Schweigen bringen
+# Windows Hardening, Internet Explorer, Microsoft Edge, Shop, Bing, Skype, Kacheln, Office, Wetter, Karten uvm.
+# Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überflüssige Funktionen zum Schweigen bringen
 
 
 # Antimalware Service Executable | MsMpEng.exe | mrt.exe | Smartscreen
@@ -15760,10 +15828,13 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 
 # AppHostRegistrationVerifier.exe
 # 109.233.155.204
+# 13.107.213.45
 0.0.0.0 share.microsoft.com
 0.0.0.0 maps.windows.com
 0.0.0.0 to-do.microsoft.com
 0.0.0.0 www.xing.com.gtm4p-xing.com.akadns.net
+0.0.0.0 part-0017.t-0009.t-msedge.net
+0.0.0.0 fp2e7a.wpc.phicdn.net
 
 # Windows Aktivierungsvorgang
 # 104.111.242.51
@@ -15806,6 +15877,11 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 #0.0.0.0 az851863.vo.msecnd.net # Kombiniertes Sprachpaket & Hotfix Android
 # Translator Analytics
 0.0.0.0 mobile.pipe.aria.microsoft.com # /Collector/3.0/
+
+# devicecensus.exe
+# Ip/s blockieren:
+# 40.127.240.158
+0.0.0.0 settings-prod-neu-1.northeurope.cloudapp.azure.com
 
 # NCSI - Callbacks Nettzwerkverbindungsanzeige
 0.0.0.0 dns.msftncsi.com
@@ -15887,6 +15963,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 segments-s.msedge.net
 0.0.0.0 settingsfd-prod-db5-endpoint.trafficmanager.net
 0.0.0.0 spo-ring.msedge.net # Trackingpixel
+0.0.0.0 t-ring.fallback.msedge.net
 0.0.0.0 t-ring-fallbacks1.msedge.net
 0.0.0.0 t-ring-fdv2.msedge.net
 0.0.0.0 t-ring.msedge.net
@@ -17507,6 +17584,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 pixel.redditmedia.com
 0.0.0.0 stats.redditmedia.com
 0.0.0.0 w3-reporting.reddit.com
+0.0.0.0 w3-reporting-nel.reddit.com
 0.0.0.0 ws-0f6ba0a7a86f40302.wss.redditmedia.com # Websocket
 0.0.0.0 www.redditmedia.com # Google Tagmanager Script GTM-5XVN82
 # Werbung
@@ -18260,6 +18338,16 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 a23-0-174-83.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-40-18-26.deploy.static.akamaitechnologies.com
 
+# Voyetra Turtle Beach, Inc.
+# ROCCAT Swarm
+# 51.137.14.81
+# 13.107.246.45
+# 13.107.213.45
+#0.0.0.0 api.roccat-neon.com
+#0.0.0.0 api.tb-acp.com
+#0.0.0.0 cdncoredatastorageprod.azureedge.net
+#0.0.0.0 prod-eu-0-ing-roc-tb.westeurope.cloudapp.azure.com
+
 
 # Pornoseiten und Affiliates
 
@@ -18802,13 +18890,19 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 track.vdo.ai
 # APP
 0.0.0.0 actions-api-pro-esvehatdmq-ew.a.run.app
+0.0.0.0 bt-log.dfast.app
 0.0.0.0 cdn.onepush.app
 0.0.0.0 etherrush.app
 0.0.0.0 freegeoip.app
-0.0.0.0 giftship.app
 0.0.0.0 geolocation.1trust.app
+0.0.0.0 giftship.app
+0.0.0.0 members.profitfinder.app
 0.0.0.0 segments-api-pro-yky7y5vtuq-ew.a.run.app
+0.0.0.0 system-notify.app
 0.0.0.0 xeno-soswcrde4a-uc.a.run.app
+# AR
+0.0.0.0 site.playuzu.bet.ar
+0.0.0.0 www.playuzu.bet.ar
 # Asia
 0.0.0.0 admin.qxpress.asia
 0.0.0.0 mqwms.qxpress.asia
@@ -19020,6 +19114,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 # CLICK
 0.0.0.0 adswrapme.click
 0.0.0.0 anicli.click
+0.0.0.0 brfdkk45tf.click
 0.0.0.0 e346ab6c68.click
 0.0.0.0 live.ravelin.click
 0.0.0.0 spadirect.click
@@ -19134,6 +19229,8 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 t.repixel.co
 0.0.0.0 track.leanlab.co
 0.0.0.0 track.searchiq.co
+0.0.0.0 tracking.game8.co
+0.0.0.0 transactional-api.hu-manity.co # Geodaten
 0.0.0.0 truckhub.co
 0.0.0.0 xd.adnz.co
 0.0.0.0 xml-eu.adright.co
@@ -19172,6 +19269,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 tag.leadplace.fr
 0.0.0.0 tk.airfrance.fr
 0.0.0.0 weborama.fr
+0.0.0.0 www.expedia.fr
 # FM
 0.0.0.0 cdn.pdst.fm
 # FUN
@@ -19242,6 +19340,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 7soo6.kmodukuleqasfo.info
 0.0.0.0 8hh0j.kmodukuleqasfo.info
 0.0.0.0 a7dtw.kmodukuleqasfo.info
+0.0.0.0 adxbid.info
 0.0.0.0 amaes.kmodukuleqasfo.info
 0.0.0.0 anopportunitytost.info
 0.0.0.0 aphycolourses.info
@@ -19285,10 +19384,12 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 eyauknalyticafra.info
 0.0.0.0 fbimostwanted.info
 0.0.0.0 feenotifyfriends.info
+0.0.0.0 flcbl.ardoqxdinqucirei.info
 0.0.0.0 furtherescottom.info
 0.0.0.0 fvcd6.kmodukuleqasfo.info
 0.0.0.0 fygotetwassla.info
 0.0.0.0 gandmotivatin.info
+0.0.0.0 get-trust-vpn.info
 0.0.0.0 get.bestoffer21.info
 0.0.0.0 go.pumpsilk.info
 0.0.0.0 golymn.info
@@ -19300,6 +19401,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 ilaterdeallyig.info
 0.0.0.0 inf1.fastdataxwe.info
 0.0.0.0 initiatespeedyextremelyinfo-product.info
+0.0.0.0 jkxaq.ssdwellsgrpo.info
 0.0.0.0 ketingefifortcaukt.info
 0.0.0.0 kf7tj.kmodukuleqasfo.info
 0.0.0.0 kultingecauyuksehinkitw.info
@@ -19320,6 +19422,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 ntoftheusysianedt.info
 0.0.0.0 o.wowreality.info
 0.0.0.0 p0lf9.kmodukuleqasfo.info
+0.0.0.0 p188187.typo3server.info
 0.0.0.0 p455208.mittwaldserver.info
 0.0.0.0 packsonikolas.info
 0.0.0.0 pecialukizeias.info
@@ -19336,10 +19439,12 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 relandssymphoking.info
 0.0.0.0 rfg7q.kmodukuleqasfo.info
 0.0.0.0 risedwoman.info
+0.0.0.0 rmaticalacm.info
 0.0.0.0 rnorlexanderly.info
 0.0.0.0 robbetredtinhes.info
 0.0.0.0 roughexampler.info
 0.0.0.0 sadorsagreeng.info
+0.0.0.0 sambr.ssdwellsgrpo.info
 0.0.0.0 scg1b.kmodukuleqasfo.info
 0.0.0.0 shutternsbe.info
 0.0.0.0 societingna.info
@@ -19404,6 +19509,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 analytics.squareloop.io
 0.0.0.0 analytics.stavros.io
 0.0.0.0 analytics.video.meredithcorp.io
+0.0.0.0 api-ad-admin.jojoy.io
 0.0.0.0 api.marker.io
 0.0.0.0 api.mutinyhq.io
 0.0.0.0 api.pubwise.io
@@ -19452,6 +19558,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 dy.adserve.io
 0.0.0.0 ebm.native-x.io
 0.0.0.0 edge.marker.io
+0.0.0.0 etpweb.apkmody.io
 0.0.0.0 events.split.io # Metriken und Impressionen
 0.0.0.0 external.simpleanalytics.io
 0.0.0.0 f038192cab4afafaacee34d22ed2e1dd.report-uri.io
@@ -19488,6 +19595,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 ms-cookie-sync.presage.io
 0.0.0.0 ms-cookie-sync.prod.cloud.ogury.io
 0.0.0.0 openfpcdn.io
+0.0.0.0 pa.carlosfelic.io
 0.0.0.0 pendo.io
 0.0.0.0 pg.impactify.io
 0.0.0.0 plausible.io
@@ -19761,6 +19869,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 find-topprizes-here.life
 0.0.0.0 mobile-soft-storage.life
 0.0.0.0 mobileapp-repo.life
+0.0.0.0 rewardgains.life
 0.0.0.0 servicesforoffers.life
 0.0.0.0 take-bestprizes1.life
 0.0.0.0 take-prizehere2.life
@@ -19770,12 +19879,17 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 yourtopprize.life
 # LINK
 0.0.0.0 app.link
+0.0.0.0 beagle.prod.tda.link
+0.0.0.0 beagleider.tamedia.link
 0.0.0.0 bppb.link
 0.0.0.0 budoz.page.link
 0.0.0.0 i.sng.link
 0.0.0.0 monaco.app.link
 0.0.0.0 wct.link
+0.0.0.0 zuba.prod.tda.link
 # LIVE
+0.0.0.0 436.abalamjust.live
+0.0.0.0 ads.cdn.live
 0.0.0.0 apps5832.finderprize8.live
 0.0.0.0 askgivedeterminedad.live
 0.0.0.0 asp.fallthousandworld.live
@@ -19817,6 +19931,8 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 npecialukize.lol
 # MA
 0.0.0.0 lereporterexpress.ma
+# MARKET
+0.0.0.0 1.envato.market
 # MARKETING
 0.0.0.0 c.inmedia.marketing
 # ME
@@ -19952,6 +20068,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 ic-fbi.org
 0.0.0.0 intake-analytics.wikimedia.org
 0.0.0.0 iplogger.org
+0.0.0.0 matomo.mobilism.org
 0.0.0.0 mc.webvisor.org
 0.0.0.0 memesfunny.org
 0.0.0.0 moderningvigil.org
@@ -20110,6 +20227,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 # PW
 0.0.0.0 beiven.pw
 0.0.0.0 c.u.y.o.mkapps.pw
+0.0.0.0 chimpanzee.pw
 0.0.0.0 chpok.pw
 0.0.0.0 fge.bairavarj120a.pw
 0.0.0.0 fgh.mkapps.pw
@@ -20117,13 +20235,17 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 qiroris.pw
 0.0.0.0 sib.swazibankg930t.pw
 0.0.0.0 ssl.xdisctracking.pw
+0.0.0.0 sweeps.pw
 0.0.0.0 track.xdisctracking.pw
+0.0.0.0 voluume.adserver.pw
 0.0.0.0 wcv.chhayaah59.pw
 0.0.0.0 ww1.imu.pw
 0.0.0.0 www.imu.pw
 0.0.0.0 www.swapsstultifying.pw
 0.0.0.0 xlanding.pw
 0.0.0.0 yuzu-emulator-roms.inflectionalkutajilika.pw
+# RE
+0.0.0.0 prebid.cwi.re
 # SERVICES
 0.0.0.0 chat-visitor-info.terminus.services
 0.0.0.0 iotas.terminus.services
@@ -20237,6 +20359,8 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 a.montkpl.top
 0.0.0.0 a.montlusa.top
 0.0.0.0 adpopts.top
+0.0.0.0 alvsx.magmaartisan.top
+0.0.0.0 alvsx.mirfakpersei.top
 0.0.0.0 amazon.25t6ioaooca2.top
 0.0.0.0 amazon.q0vdlp2cg01g.top
 0.0.0.0 avbsdcfmrtbfqff.top
@@ -20459,6 +20583,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 generalebad.xyz
 0.0.0.0 getinclinarss.xyz
 0.0.0.0 gixbqcwjahd.xyz
+0.0.0.0 gorillatraffic.xyz
 0.0.0.0 gshwlrmqomaiyuq.xyz
 0.0.0.0 gsincentlyse.xyz
 0.0.0.0 gsinspiring.xyz
@@ -20750,6 +20875,15 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 # Cookiebot.com
 #0.0.0.0 consent.cookiebot.com
 0.0.0.0 consentcdn.cookiebot.com
+
+# Cookieyes
+0.0.0.0 cdn-cookieyes.com
+0.0.0.0 directory.cookieyes.com
+0.0.0.0 log.cookieyes.com
+
+# Gatekeeperconsent
+0.0.0.0 privacy.gatekeeperconsent.com
+0.0.0.0 the.gatekeeperconsent.com
 
 # Onetrust.com
 0.0.0.0 geolocation.onetrust.com # Geodaten / DNSFeed
@@ -21255,6 +21389,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 ablida-tracker.ablida.net
 0.0.0.0 abload.de
 0.0.0.0 abs.proxistore.com
+0.0.0.0 abstractedauthority.com
 0.0.0.0 ac2.tnaflix.com
 0.0.0.0 acceptstudentnight.de
 0.0.0.0 access-analyze.org
@@ -21368,6 +21503,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 ads.themoneytizer.com
 0.0.0.0 ads.traffichunt.com
 0.0.0.0 ads.travelaudience.com
+0.0.0.0 ads.twinrdengine.com
 0.0.0.0 ads.uberads.com
 0.0.0.0 ads.us.e-planning.net
 0.0.0.0 ads.videoadex.com
@@ -21385,6 +21521,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 adservd.com
 0.0.0.0 adserve.mahimeta.com
 0.0.0.0 adserve.postrelease.com
+0.0.0.0 adserver-mb.com
 0.0.0.0 adserver.adreactor.com
 0.0.0.0 adserver.crane-hardware.de
 0.0.0.0 adserver.org
@@ -21440,12 +21577,15 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 aibsgc.com
 0.0.0.0 aimplemuk.com
 0.0.0.0 aiprvqqnhm.com
+0.0.0.0 airlytics-web.airlock.twcmobile.weather.com
 0.0.0.0 ajorinryeso.com
+0.0.0.0 ak.deephicy.net
 0.0.0.0 ak.hetaint.com
 0.0.0.0 ak.hetaruvg.com
 0.0.0.0 ak.psaltauw.net
 0.0.0.0 ak.roudoduor.com
 0.0.0.0 ak.whookroo.com
+0.0.0.0 ak74blog.disqus.com
 0.0.0.0 aktuelle-auto-news.de
 0.0.0.0 akutapro.com
 0.0.0.0 akxml.nativeadsfeed.com
@@ -21514,6 +21654,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 analytics.moviepilot.de
 0.0.0.0 analytics.onionsearchengine.com
 0.0.0.0 analytics.ovh.com # Measure.js
+0.0.0.0 analytics.pesktop.com
 0.0.0.0 analytics.plugon.me
 0.0.0.0 analytics.publir.com
 0.0.0.0 analytics.responsiveads.com
@@ -21535,7 +21676,6 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 animegamesus.com
 0.0.0.0 anlcld.com
 0.0.0.0 annual-gamers-choice.com
-0.0.0.0 anonym.data.funkedigital.de
 0.0.0.0 anqbzv.chosenlove.com
 0.0.0.0 ansingful-doccerpt.com
 0.0.0.0 antiadblocksystems.com
@@ -21611,6 +21751,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 app.marketads.net
 0.0.0.0 app.medyanetads.com
 0.0.0.0 app.n26.com
+0.0.0.0 app.notipack.com # Trackingpixel
 0.0.0.0 app.playstream.media
 0.0.0.0 app.readpeak.com
 0.0.0.0 app.termly.io
@@ -21679,6 +21820,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 audigent.com
 0.0.0.0 aukalerim.com
 0.0.0.0 ausoafab.net
+0.0.0.0 auth.netdnstrace1.com
 0.0.0.0 auth.uloz.to
 0.0.0.0 autocomplete.geocoder.ls.hereapi.com
 0.0.0.0 automate-frontend.linksynergy.com
@@ -21694,6 +21836,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 awprt.com
 0.0.0.0 awptlpu.com
 0.0.0.0 awrfds3.pornpapa.com
+0.0.0.0 aws-origin.image-tech-storage.com
 0.0.0.0 awww.cadsuta.net
 0.0.0.0 axillovely.com
 0.0.0.0 ay.gy
@@ -21743,8 +21886,8 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 banquetunarmedgrater.com
 0.0.0.0 baseendpoint.capital.de
 0.0.0.0 baseendpoint.gala.de
-0.0.0.0 basher.ezodn.com
 0.0.0.0 bassets.bigabidserv.com
+0.0.0.0 bauptost.net
 0.0.0.0 baustraightu.com
 0.0.0.0 bb.hdpornpictures.net
 0.0.0.0 bbballs.men
@@ -21845,6 +21988,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 builfico.de
 0.0.0.0 bumpyremittancecarnivorous.com
 0.0.0.0 burdasty.tag.tagtool.de
+0.0.0.0 business.bing.com
 0.0.0.0 butalksuw9dj10.com
 0.0.0.0 buy.tinypass.com
 0.0.0.0 buzz.mobiapp-games.net
@@ -21894,10 +22038,12 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 call.inforsea.com
 0.0.0.0 call.netzathleten-media.de
 0.0.0.0 calm-cabbage-a9umxyb6jlwq9ypiv5av5m12.herokudns.com
+0.0.0.0 cameesse.net
 0.0.0.0 camose.com
 0.0.0.0 campaign.bet3000.com
 0.0.0.0 campaign.mobility-ads.de
 0.0.0.0 camterest.com
+0.0.0.0 candyprotected.com
 0.0.0.0 capsuledaily.com
 0.0.0.0 captivatepestilentstormy.com
 0.0.0.0 capture.analytics.hbwrapper
@@ -22123,6 +22269,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 choices.consentframework.com
 0.0.0.0 choices.trustarc.com
 0.0.0.0 choices.truste.com
+0.0.0.0 choosealllanguages.com
 0.0.0.0 chooxaur.com
 0.0.0.0 choreinevitable.com
 0.0.0.0 choupsee.com
@@ -22192,6 +22339,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 cm.marketgid.com
 0.0.0.0 cm.smadex.com
 0.0.0.0 cm.steepto.com
+0.0.0.0 cmp-sp.haz.de
 0.0.0.0 cmp-sp.wiwo.de
 0.0.0.0 cmp.heise.de
 0.0.0.0 cmp.network-n.com # Google Personalisierung & Partner
@@ -22393,6 +22541,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 dcai7bdiz5toz.cloudfront.net
 0.0.0.0 dcf.espn.com
 0.0.0.0 ddlox.com
+0.0.0.0 ddtvskish.com
 0.0.0.0 de-config.sensic.net
 0.0.0.0 de-go.kelkoogroup.net
 0.0.0.0 de.anygator.com
@@ -22401,6 +22550,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 de.sitestat.com
 0.0.0.0 de.srchtravel.com
 0.0.0.0 deadspartbusiness.de
+0.0.0.0 deals.bleepingcomputer.com
 0.0.0.0 deathenvironmental.de
 0.0.0.0 debeatoswickkil.ml
 0.0.0.0 dec.azureedge.net # Collect v2 mit Verweis auf api.dec.sitefinity.com
@@ -22555,6 +22705,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 edconside.com
 0.0.0.0 edge-vids.wirewax.com
 0.0.0.0 edge.ad1x.com
+0.0.0.0 edge12-gru.live.mmcdn.com
 0.0.0.0 edge2-alb.stream.highwebmedia.com
 0.0.0.0 edgesecretion.com
 0.0.0.0 edgystrangleconcentrate.com
@@ -22661,7 +22812,6 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 eyemotheroversaround.de
 0.0.0.0 eyzmedia.postaffiliatepro.com
 0.0.0.0 ezcgojaamg.com
-0.0.0.0 ezodn.com
 0.0.0.0 ezyenrwcmo.com
 0.0.0.0 f.convertkit.com
 0.0.0.0 f.shoksips.com
@@ -22764,6 +22914,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 fiorenetwork.com
 0.0.0.0 firescorrelationprodigy.com
 0.0.0.0 fistofzeus.com
+0.0.0.0 fj.cavilerestops.com
 0.0.0.0 fksnk.com
 0.0.0.0 fl.imgsniper.com
 0.0.0.0 fleraprt.com
@@ -22825,7 +22976,6 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 g.3gl.net
 0.0.0.0 g.adspeed.net
 0.0.0.0 g.deepintent.com
-0.0.0.0 g.ezodn.com
 0.0.0.0 g.live.com
 0.0.0.0 g.shoksips.com
 0.0.0.0 g.themoneytizer.net
@@ -22911,10 +23061,10 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 go.dmzjmp.com
 0.0.0.0 go.etoro.com
 0.0.0.0 go.eu.bbelements.com
-0.0.0.0 go.ezodn.com
 0.0.0.0 go.goaserv.com
 0.0.0.0 go.hpyjmp.com
 0.0.0.0 go.hpyrdr.com
+0.0.0.0 go.imagetwistcams.com
 0.0.0.0 go.ktkjmp.com
 0.0.0.0 go.lnkam.com
 0.0.0.0 go.moartraffic.com
@@ -22994,8 +23144,10 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 handtub.com
 0.0.0.0 happy-egg.net
 0.0.0.0 happylifebab.com
+0.0.0.0 harayun.com
 0.0.0.0 harolddebris.com
 0.0.0.0 harryloider.com
+0.0.0.0 hazoopso.net
 0.0.0.0 hb.adpone.com
 0.0.0.0 hb.vntsm.com # Admanager
 0.0.0.0 hbopenbid.pubmatic.com
@@ -23047,6 +23199,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 hlsmedia.gannett-cdn.com
 0.0.0.0 hmg.handelsblatt.com
 0.0.0.0 hocgeese.com
+0.0.0.0 hoickpinyons.com
 0.0.0.0 home.korean.net
 0.0.0.0 homepy.korean.net
 0.0.0.0 homestudentstable.de
@@ -23081,8 +23234,10 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 i.wmgtr.com
 0.0.0.0 iabusprivacy.pmc.com
 0.0.0.0 iadoremakingpics.com
+0.0.0.0 iapi.takeads.com
 0.0.0.0 ib.adnxs-simple.com
 0.0.0.0 ibclick.stream
+0.0.0.0 ibrapush.com
 0.0.0.0 icilytired.com
 0.0.0.0 icinyex.thefaceduck.com
 0.0.0.0 iclickcdn.com
@@ -23102,6 +23257,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 ie8eamus.com
 0.0.0.0 ieieceittbtcvk.com
 0.0.0.0 iemkatowice2023.com
+0.0.0.0 ifdividemeasuring.com
 0.0.0.0 ifrm.camdough.com
 0.0.0.0 ihzuephjxb.com
 0.0.0.0 ii.alatest.com
@@ -23150,6 +23306,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 ingest.templarbit.com # Check ob Werbung blockiert ist / CSP Report
 0.0.0.0 ingestion.contentinsights.com
 0.0.0.0 initiallycoffee.com
+0.0.0.0 inklinkor.com
 0.0.0.0 inorbitad.com
 0.0.0.0 inpage-push.com
 0.0.0.0 inpagepush.com
@@ -23169,10 +23326,12 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 intellipopup.com
 0.0.0.0 intentionallyathwart.com
 0.0.0.0 intentionallylettuceponder.com
+0.0.0.0 internet-up.ably-realtime.com
 0.0.0.0 internetstores.com
 0.0.0.0 internetstores.de
 0.0.0.0 interst12.com
 0.0.0.0 interstitial-07.com
+0.0.0.0 interstitial-08.com
 0.0.0.0 intimatemerger.com
 0.0.0.0 intoadministration.de
 0.0.0.0 inv-nets.admixer.net
@@ -23244,6 +23403,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 js-cdn.dynatrace.com
 0.0.0.0 js-ssl.neodatagroup.com
 0.0.0.0 js.ad-score.com
+0.0.0.0 js.appboycdn.com
 0.0.0.0 js.bestquickcontentfiles.com
 0.0.0.0 js.canstrm.com
 0.0.0.0 js.capndr.com
@@ -23420,6 +23580,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 lukomol.com
 0.0.0.0 luublimaluulo.com
 0.0.0.0 lux.speedcurve.com
+0.0.0.0 lwjnz.nxt-psh.com
 0.0.0.0 lwlink3.linkwithin.com
 0.0.0.0 lx57.spieletips.de
 0.0.0.0 lynormationpas.com
@@ -23444,6 +23605,8 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 main.dynsrvdea.com
 0.0.0.0 main.pubexchange.com
 0.0.0.0 maintenance.etoro.com
+0.0.0.0 maintenance.playeroffers.com
+0.0.0.0 majoriklink.com
 0.0.0.0 make.cohesionapps.com
 0.0.0.0 makespram.com
 0.0.0.0 maltunfaithfulpredominant.com
@@ -23455,6 +23618,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 manorparty.com
 0.0.0.0 mantlefluent.com
 0.0.0.0 mantodea.mantisadnetwork.com # Prebidscript bei Bleepingcomputer
+0.0.0.0 manychat.com # LogEvent
 0.0.0.0 map.cookieless-data.com
 0.0.0.0 map.sddan.com
 0.0.0.0 maquillajet.com
@@ -23534,7 +23698,6 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 megadarky.ic.cz # Werbung
 0.0.0.0 member.impactradius.com
 0.0.0.0 members.788-sb.com
-0.0.0.0 members.profitfinder.app
 0.0.0.0 menuexamples.com
 0.0.0.0 meowpushnot.com
 0.0.0.0 meraxes-cdn.polarmobile.com
@@ -23598,6 +23761,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 most-fast-link-download.com
 0.0.0.0 motoriesm.com
 0.0.0.0 motorweb.co
+0.0.0.0 mparticle.weather.com
 0.0.0.0 mpct1.maropost.com
 0.0.0.0 mprd.se
 0.0.0.0 mps.nbcuni.com
@@ -23609,6 +23773,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 msgose.com
 0.0.0.0 msidentity.com
 0.0.0.0 msirkuxiorvvqr.com
+0.0.0.0 mst.haz.de
 0.0.0.0 mt34iofvjay.com
 0.0.0.0 mths.be
 0.0.0.0 mtm.httptest.de # Matomo
@@ -23673,6 +23838,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 ngs02a.digiteka.net
 0.0.0.0 nhyey.misrepress.website
 0.0.0.0 niceanimegames.com
+0.0.0.0 nicmaui.com
 0.0.0.0 niecefootagefastest.com
 0.0.0.0 nightfallroad.com
 0.0.0.0 nimhuemark.com
@@ -23697,6 +23863,8 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 novilimited.com
 0.0.0.0 nqkds.voluumtrk.com
 0.0.0.0 nqrcjwldyye.com
+0.0.0.0 nr.mmcdn.com
+0.0.0.0 nr.static.mmcdn.com
 0.0.0.0 nr.tetrantreverer.com
 0.0.0.0 ns-dnstest.spyoff.com
 0.0.0.0 ns1.secure.footprint.net
@@ -23789,6 +23957,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 oqs.omeda.com
 0.0.0.0 oreflushvehemence.com
 0.0.0.0 organsshinegarlic.com
+0.0.0.0 orientaldumbest.com
 0.0.0.0 orionis.techradar.com
 0.0.0.0 osiextantly.com
 0.0.0.0 oskar.themuse.com
@@ -23799,6 +23968,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 ourcommonnews.com
 0.0.0.0 ourdailystories.com
 0.0.0.0 ourhotfeed.com
+0.0.0.0 ournicejournal.com
 0.0.0.0 outabsola.com
 0.0.0.0 outoctillerytor.com
 0.0.0.0 output.nend.net
@@ -23809,6 +23979,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 overdonereciprocalimpure.com
 0.0.0.0 overduegenetically.com
 0.0.0.0 overnumeler.com
+0.0.0.0 owingsorthealthy.com
 0.0.0.0 owkuwquf.com
 0.0.0.0 ox-i.majorgeeks.com
 0.0.0.0 ox-ui.gol-network.com
@@ -23824,6 +23995,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 p.eruon.de # Piwik
 0.0.0.0 p.midserved.com
 0.0.0.0 p.net-public.com
+0.0.0.0 p.pa6ka.com
 0.0.0.0 p.shoksips.com
 0.0.0.0 p.truefitcorp.com
 0.0.0.0 p.trvdp.com
@@ -23923,6 +24095,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 pie-cdn.bf-sugarless-production.aws.bfops.io
 0.0.0.0 pillowcomedyvarieties.com
 0.0.0.0 pimmuter.com
+0.0.0.0 pimpoopo.com
 0.0.0.0 pingback.issuu.com
 0.0.0.0 pinkpeonyshop.qstore.id
 0.0.0.0 pinpoint.espn.com # Geodaten
@@ -23936,6 +24109,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 piwik.booktech.de
 0.0.0.0 piwik.darken.eu
 0.0.0.0 piwik.develth.com
+0.0.0.0 piwik.ekiwi.de
 0.0.0.0 piwik.elk-wue.de
 0.0.0.0 piwik.everzones.com
 0.0.0.0 piwik.martensmedien.de
@@ -23974,7 +24148,9 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 pk8n57.fnac.com
 0.0.0.0 pl.ulozto.sk
 0.0.0.0 pl14414897.puserving.com
+0.0.0.0 pl14993974.toprevenuegate.com
 0.0.0.0 pl15049477.passeura.com
+0.0.0.0 pl15471699.toprevenuegate.com
 0.0.0.0 pl15490030.passtechusa.com
 0.0.0.0 pl15995674.safestgatetocontent.com
 0.0.0.0 pl16285074.trustedgatetocontent.com
@@ -24072,6 +24248,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 promo-bc.com # Bongacash
 0.0.0.0 promo.vador.com
 0.0.0.0 promos.fling.com # Random Adscript
+0.0.0.0 promotions.safe-communication.com
 0.0.0.0 pronunciationspecimens.com
 0.0.0.0 propeller-tracking.com
 0.0.0.0 proxena-secure.reviveservers.com
@@ -24095,6 +24272,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 pt.ptlwm.com
 0.0.0.0 ptaohuawu.bagua.com.hgdjkgh.com
 0.0.0.0 ptapjmp.com
+0.0.0.0 pti.store.microsoft.com
 0.0.0.0 pto.awecr.com
 0.0.0.0 pto.protoawe.com
 0.0.0.0 pto.ptawe.com
@@ -24118,6 +24296,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 pur.spieletipps.de
 0.0.0.0 pur.utopia.de
 0.0.0.0 push-dehfhia-2101.pushails.com
+0.0.0.0 push-sdk.net
 0.0.0.0 pushagim.com
 0.0.0.0 pushance.com
 0.0.0.0 pushcrew.com
@@ -24183,6 +24362,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 randommaxtrix.com # Adskeeper Script
 0.0.0.0 ranks1.apserver.net
 0.0.0.0 rapi.walkme.com
+0.0.0.0 rauvoaty.net
 0.0.0.0 ravencoin.network
 0.0.0.0 rddywd.com
 0.0.0.0 rdtrck2.com
@@ -24208,6 +24388,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 reewituhinlar.com
 0.0.0.0 refbanners.com
 0.0.0.0 referral.crypto.com
+0.0.0.0 region1.app-measurement.com
 0.0.0.0 regularplants.com
 0.0.0.0 removemajoritywindow.de
 0.0.0.0 remtoaku.net
@@ -24249,6 +24430,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 rk.revolvermaps.com
 0.0.0.0 rkomf.com
 0.0.0.0 rl.chebecsunsack.com
+0.0.0.0 rlqjmbcvjjnpyk.com
 0.0.0.0 rltools.de
 0.0.0.0 rm-cdn.trackjs.netdna-cdn.com
 0.0.0.0 rmsi-vermarktung.de
@@ -24319,6 +24501,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 s.update.mediamathtag.com
 0.0.0.0 s.uuidksinc.net
 0.0.0.0 s.viibest.com
+0.0.0.0 s.viijan.com
 0.0.0.0 s.viixie.com
 0.0.0.0 s.visx.net
 0.0.0.0 s.zkcdn.net
@@ -24421,6 +24604,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 servs.vuukle.com
 0.0.0.0 session-replay.browser-intake-datadoghq.eu
 0.0.0.0 sessions.bugsnag.com
+0.0.0.0 setupslum.com
 0.0.0.0 sftwrads.com
 0.0.0.0 sg.doctorpost.net
 0.0.0.0 shareasale-analytics.com
@@ -24498,6 +24682,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 somquery.sqrt-5041.de
 0.0.0.0 sonata-notifications.taptapnetworks.com
 0.0.0.0 sonic.impactify.media
+0.0.0.0 soumehoo.net
 0.0.0.0 soundelktemper.com
 0.0.0.0 sourcepoint.kotaku.com
 0.0.0.0 sp.focus.de
@@ -24516,6 +24701,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 sqacbhlngoxw.com
 0.0.0.0 sqs.us-east-1.amazonaws.com
 0.0.0.0 squeezedthoughtfully.com
+0.0.0.0 sr7pv7n5x.com
 0.0.0.0 sra.relemind.com
 0.0.0.0 src.freshmarketer.com
 0.0.0.0 srchoffer.com
@@ -24563,6 +24749,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 stat.media
 0.0.0.0 stat.networkmanag.com
 0.0.0.0 stat.onestat.com
+0.0.0.0 statestockingsconfession.com
 0.0.0.0 static-content-1.smadex.com
 0.0.0.0 static-origin.plista.com
 0.0.0.0 static.a-ads.com
@@ -24705,6 +24892,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 t.frtyi.com
 0.0.0.0 t.frtyk.com
 0.0.0.0 t.hrtya.com
+0.0.0.0 t.imgur.com # DeviceID, Hardware
 0.0.0.0 t.influ2.com
 0.0.0.0 t.insigit.com
 0.0.0.0 t.irtyd.com
@@ -24775,6 +24963,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 td.vs3.com
 0.0.0.0 td.yieldify.com
 0.0.0.0 tdirec.com
+0.0.0.0 tdn.da-services.ch
 0.0.0.0 tdpages.com
 0.0.0.0 tdsjsext1.com
 0.0.0.0 tdsjsext4.com
@@ -24813,6 +25002,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 thaudray.com
 0.0.0.0 thdifferuken.com
 0.0.0.0 thebestgame2020.com
+0.0.0.0 theekedgleamed.com
 0.0.0.0 thefaceduck.com
 0.0.0.0 thefastestguninthewest.bitchute.com
 0.0.0.0 thegreenzoneblog.com
@@ -25014,6 +25204,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 twinrdack.com
 0.0.0.0 twinrdsrv.com
 0.0.0.0 twinrdsyn.com
+0.0.0.0 twinrdsyte.com
 0.0.0.0 typerealisepredict.com
 0.0.0.0 tyxznbghnfkvb.com
 0.0.0.0 tzegilo.com
@@ -25049,6 +25240,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 ummerciseha.com
 0.0.0.0 ums.acuityplatform.com
 0.0.0.0 unacceptablepit.com
+0.0.0.0 unawarelinkedlaid.com
 0.0.0.0 unbuttontumorbaloney.com
 0.0.0.0 undencesc.com
 0.0.0.0 undergosermon.com
@@ -25155,6 +25347,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 video.xlirdr.com
 0.0.0.0 video.xxxiijmp.com
 0.0.0.0 video.your-notice.com
+0.0.0.0 videosworks.com
 0.0.0.0 vidsply.com
 0.0.0.0 vidvas3.com
 0.0.0.0 vidyome-com.cdn.vidyome.com
@@ -25164,6 +25357,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 viralshare.us
 0.0.0.0 virtualfbi.com
 0.0.0.0 virtuallylend.com
+0.0.0.0 visariomedia.com
 0.0.0.0 visiblejoseph.com
 0.0.0.0 visitor-fleet.zenclerk.com
 0.0.0.0 visitor-service-eu-central-1.tealiumiq.com
@@ -25174,7 +25368,6 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 vn.mmvpay.com
 0.0.0.0 vod.addevweb.com
 0.0.0.0 voltskegscurate.com
-0.0.0.0 voluume.adserver.pw
 0.0.0.0 vooshagy.net
 0.0.0.0 vop.sundaysky.com
 0.0.0.0 vothaiwi.com
@@ -25229,6 +25422,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 webcompanion.com
 0.0.0.0 webcontentassessor.com
 0.0.0.0 webedia-de-cdn.relevant-digital.com
+0.0.0.0 webroutetrk.com
 0.0.0.0 websdk.appsflyer.com
 0.0.0.0 websocket-visitors.smartsupp.com
 0.0.0.0 webstatistik.ages.at
@@ -25283,6 +25477,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 wlefbet.adsrv.eacdn.com
 0.0.0.0 wlplatincasino.adsrv.eacdn.com
 0.0.0.0 wlssbfqhi.mshome.net
+0.0.0.0 woafoame.net
 0.0.0.0 wonderfulproductives.com
 0.0.0.0 wordsareagamesshoulder.de
 0.0.0.0 wordsystemspower.de
@@ -25495,6 +25690,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 www.markmypath.com
 0.0.0.0 www.marpalsac.com.pe
 0.0.0.0 www.mczbf.com
+0.0.0.0 www.mdrjump.de
 0.0.0.0 www.megakickass.com
 0.0.0.0 www.mgouoirpayddk.com
 0.0.0.0 www.mhvllvgrefplg.com
@@ -25618,6 +25814,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 www.vidsdelivery.com
 0.0.0.0 www.vietnamairlines.com
 0.0.0.0 www.viralmediatrends.com
+0.0.0.0 www.visariomedia.com
 0.0.0.0 www.vrewpywootyu.com
 0.0.0.0 www.vsmokhklbw.com
 0.0.0.0 www.vywujhsinxfa.com
@@ -25730,6 +25927,7 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 yourcoolfeed.com
 0.0.0.0 yourfreecounter.com
 0.0.0.0 yourfreepdfconverternow.com
+0.0.0.0 yourfreshstories.com
 0.0.0.0 yourgoads.com
 0.0.0.0 yourwebbars.com
 0.0.0.0 yourwownewz.com
@@ -27539,9 +27737,11 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 #0.0.0.0 crl.globalsign.com
 #0.0.0.0 o.ss2.us
 # Endpunkte Amazon AWS und Akamai Technologies
-#0.0.0.0 ec2-63-35-76-112.eu-west-1.compute.amazonaws.com
-#0.0.0.0 ec2-54-72-248-64.eu-west-1.compute.amazonaws.com
 #0.0.0.0 a92-122-104-90.deploy.static.akamaitechnologies.com
+#0.0.0.0 ec2-52-208-84-243.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-54-72-248-64.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-63-35-102-230.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-63-35-76-112.eu-west-1.compute.amazonaws.com
 
 # SecuROM
 # Wieder ein Kopierschutzmechanismus von Sony - veraltet - Server sind teils je nach Produkt nicht erreichbar.
@@ -31233,6 +31433,12 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
+# Breda University of Applied Sciences
+# SKYE
+# 23.55.163.62
+# s. Eintrag Steam: IP Checks
+0.0.0.0 test.steampowered.com
+
 # Brilliant Game Studios
 # Ultimate Epic Battle Simulator
 # Ip/s blockieren:
@@ -33429,6 +33635,19 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 #0.0.0.0 multiplayer.gog.com
 
 # Serious Sam Fusion 2017
+# 192.229.221.95
+# 104.18.14.101
+# 64.90.53.132
+# 239.255.255.250
+# 255.255.255.25
+# Dedizierte Server
+#0.0.0.0 ingame.serioussam.com
+#0.0.0.0 ocsp.digicert.com
+#0.0.0.0 crt.comodoca.com
+#0.0.0.0 avatars.steamstatic.com
+#0.0.0.0 cdn.steamstatic.com
+
+# Serious Sam 3: BFE
 # 64.90.53.132
 0.0.0.0 ingame.serioussam.com
 0.0.0.0 apache2-ogle.estacada.dreamhost.com
@@ -35675,7 +35894,10 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 #0.0.0.0 ce-rmq-ams01.funcom.com
 
 # Mutant Year Zero: Road to Eden
-# s. Rubrik Kopierschutz / AntiCheat
+# 23.55.163.62
+# 23.55.163.79
+# s. Eintrag Steam: IP Checks
+0.0.0.0 test.steampowered.com # Captive Portal Check
 
 # Secret World Legends
 # SecretWorldLegendsDX11.exe
@@ -39329,13 +39551,9 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 
 # Might and Delight
 # Fables from the Den
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 34.111.82.212
+0.0.0.0 stats.unity3d.com # Emtpy DNS Response
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
 # Mihai Morosanu
 # Castle Defender
@@ -43069,6 +43287,119 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 #0.0.0.0 api.service.games2gether.com
 #0.0.0.0 account.service.games2gether.com
 
+# ENDLESS™ Dungeon
+# 103.10.124.121
+# 103.10.125.147
+# 103.28.54.182
+# 108.177.15.127
+# 142.251.125.127
+# 146.66.152.41
+# 146.66.155.67
+# 155.133.227.35
+# 155.133.230.99
+# 155.133.232.98
+# 155.133.233.99
+# 155.133.238.194
+# 155.133.239.59
+# 155.133.244.35
+# 155.133.245.35
+# 155.133.246.50
+# 155.133.248.41
+# 155.133.249.179
+# 155.133.252.37
+# 155.133.253.55
+# 155.133.255.163
+# 162.254.192.66
+# 162.254.193.101
+# 162.254.195.70
+# 162.254.196.70
+# 162.254.197.52
+# 162.254.198.102
+# 162.254.199.167
+# 172.253.121.127
+# 172.65.244.245
+# 18.202.193.192
+# 18.205.142.204
+# 18.207.145.120
+# 18.209.208.36
+# 18.214.42.124
+# 18.239.15.125
+# 18.239.15.134
+# 18.239.15.228
+# 18.239.15.62
+# 185.25.182.50
+# 185.25.183.163
+# 194.99.80.193
+# 20.196.192.33
+# 202.78.174.56
+# 205.196.6.210
+# 216.120.180.117
+# 216.120.180.118
+# 216.120.180.19
+# 216.120.180.4
+# 216.120.180.87
+# 23.21.60.168
+# 23.22.96.244
+# 3.209.163.60
+# 3.219.4.91
+# 3.223.219.65
+# 3.228.115.203
+# 3.234.97.51
+# 3.5.19.101
+# 3.5.29.207
+# 31.223.184.154
+# 34.195.117.40
+# 34.254.84.86
+# 35.174.231.249
+# 44.196.213.51
+# 44.206.67.53
+# 44.219.219.37
+# 5.8.93.104
+# 50.19.244.207
+# 52.20.25.143
+# 52.216.33.145
+# 52.217.120.129
+# 52.217.129.33
+# 52.217.170.89
+# 52.217.234.49
+# 52.22.90.251
+# 52.222.139.100
+# 52.222.139.106
+# 52.222.139.61
+# 52.222.139.62
+# 52.30.140.185
+# 54.163.68.230
+# 54.227.124.12
+# 54.231.202.145
+# 54.236.130.147
+# 54.78.49.58
+# 54.80.249.154
+# 54.83.73.147
+# 63.35.102.230
+# 63.35.117.35
+# 64.233.164.127
+# 74.125.24.127
+# 79.133.126.228
+# 91.199.81.130
+# s. Rubrik Kopierschutz / AntiCheat
+#0.0.0.0 ted-friend.service.games2gether.com
+0.0.0.0 pop-up-market-medias.community.amplitude-studios.com
+0.0.0.0 stun.stunprotocol.org
+0.0.0.0 d2hjvmnsrtrg65.cloudfront.net
+0.0.0.0 garry.sgaas.net
+0.0.0.0 eos-general.s3.amazonaws.com
+#0.0.0.0 api.epicgames.dev
+#0.0.0.0 ns.photonengine.io
+#0.0.0.0 stun.l.google.com
+#0.0.0.0 stun1.l.google.com
+#0.0.0.0 stun2.l.google.com
+#0.0.0.0 stun3.l.google.com
+#0.0.0.0 stun4.l.google.com
+0.0.0.0 ec2-34-254-84-86.eu-west-1.compute.amazonaws.com
+0.0.0.0 ec2-18-202-193-192.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-63-35-117-35.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-63-35-102-230.eu-west-1.compute.amazonaws.com
+
 # Endless Space® 2
 # 63.35.126.135
 # 52.210.254.53
@@ -44428,6 +44759,24 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
 # SQUARE ENIX CO., LTD.
+# ドラゴンクエスト トレジャーズ　蒼き瞳と大空の羅針盤を購入する | DRAGON QUEST TREASURES
+# 23.48.23.194
+# 23.48.23.181
+# 52.208.84.243
+# 63.35.102.230
+# 34.95.92.238
+# s. Rubrik Kopierschutz / AntiCheat
+# s. Eintrag Steam: IP Checks
+0.0.0.0 test.steampowered.com
+#0.0.0.0 dqtr.sil2.square-enix.com
+0.0.0.0 a23-48-23-194.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-48-23-181.deploy.static.akamaitechnologies.com
+
+# インフィニティ ストラッシュ　ドラゴンクエスト ダイの大冒険 - Infinity Strash: DRAGON QUEST The Adventure of Dai
+# 192.229.221.95
+# s. Rubrik Kopierschutz / AntiCheat
+#0.0.0.0 ocsp.digicert.com
+
 # ドラゴンクエストライバルズ エース | DRAGON QUEST RIVALS Ace
 # 222.158.245.226
 # 151.101.230.205
@@ -47221,6 +47570,34 @@ Das Microsoft Betriebssystem absichern, eigene Privatssphäre erhöhen, überfl�
 #0.0.0.0 code.jquery.com
 0.0.0.0 syndication.twitter.com
 #0.0.0.0 platform.twitter.com
+
+# Counter-Strike 2
+# 23.55.163.68
+# 23.55.163.59
+# 23.55.163.52
+# 23.67.133.187
+# 23.10.249.27
+# 104.18.42.105
+# 104.79.88.52
+# 23.10.249.25
+# 172.64.145.151
+# 23.45.100.143
+#0.0.0.0 cdn.akamai.steamstatic.com
+#0.0.0.0 community.akamai.steamstatic.com
+#0.0.0.0 steamcommunity.com
+#0.0.0.0 steamcdn-a.akamaihd.net
+#0.0.0.0 api.steampowered.com
+#0.0.0.0 clan.cloudflare.steamstatic.com
+#0.0.0.0 store.steampowered.com
+#0.0.0.0 www.counter-strike.net
+#0.0.0.0 a23-55-163-68.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-55-163-59.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-55-163-52.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-67-133-187.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-10-249-27.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-10-249-25.deploy.static.akamaitechnologies.com
+#0.0.0.0 a104-79-88-52.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-45-100-143.deploy.static.akamaitechnologies.com
 
 # VDeveloper
 # Tiny Mage

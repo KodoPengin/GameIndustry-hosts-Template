@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 03.10.2023
+# Änderungsdatum: 05.10.2023
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -44,7 +44,6 @@ ff02::3 ip6-allhosts
 
 # Verbindungsdaten von neuen und alten Launchern und Spieleclients
 # Nicht benötigte Funktionen wie z.b. Werbung, Tracking wurden blockiert
-
 
 # Bethesda Softworks LLC
 # Bethesda.net Launcher
@@ -1555,9 +1554,11 @@ ff02::3 ip6-allhosts
 #0.0.0.0 crl.globalsign.com
 #0.0.0.0 o.ss2.us
 # Endpunkte Amazon AWS und Akamai Technologies
-#0.0.0.0 ec2-63-35-76-112.eu-west-1.compute.amazonaws.com
-#0.0.0.0 ec2-54-72-248-64.eu-west-1.compute.amazonaws.com
 #0.0.0.0 a92-122-104-90.deploy.static.akamaitechnologies.com
+#0.0.0.0 ec2-52-208-84-243.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-54-72-248-64.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-63-35-102-230.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-63-35-76-112.eu-west-1.compute.amazonaws.com
 
 # SecuROM
 # Wieder ein Kopierschutzmechanismus von Sony - veraltet - Server sind teils je nach Produkt nicht erreichbar.
@@ -5249,6 +5250,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
+# Breda University of Applied Sciences
+# SKYE
+# 23.55.163.62
+# s. Eintrag Steam: IP Checks
+0.0.0.0 test.steampowered.com
+
 # Brilliant Game Studios
 # Ultimate Epic Battle Simulator
 # Ip/s blockieren:
@@ -7445,6 +7452,19 @@ ff02::3 ip6-allhosts
 #0.0.0.0 multiplayer.gog.com
 
 # Serious Sam Fusion 2017
+# 192.229.221.95
+# 104.18.14.101
+# 64.90.53.132
+# 239.255.255.250
+# 255.255.255.25
+# Dedizierte Server
+#0.0.0.0 ingame.serioussam.com
+#0.0.0.0 ocsp.digicert.com
+#0.0.0.0 crt.comodoca.com
+#0.0.0.0 avatars.steamstatic.com
+#0.0.0.0 cdn.steamstatic.com
+
+# Serious Sam 3: BFE
 # 64.90.53.132
 0.0.0.0 ingame.serioussam.com
 0.0.0.0 apache2-ogle.estacada.dreamhost.com
@@ -9691,7 +9711,10 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ce-rmq-ams01.funcom.com
 
 # Mutant Year Zero: Road to Eden
-# s. Rubrik Kopierschutz / AntiCheat
+# 23.55.163.62
+# 23.55.163.79
+# s. Eintrag Steam: IP Checks
+0.0.0.0 test.steampowered.com # Captive Portal Check
 
 # Secret World Legends
 # SecretWorldLegendsDX11.exe
@@ -13345,13 +13368,9 @@ ff02::3 ip6-allhosts
 
 # Might and Delight
 # Fables from the Den
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 34.111.82.212
+0.0.0.0 stats.unity3d.com # Emtpy DNS Response
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
 # Mihai Morosanu
 # Castle Defender
@@ -17085,6 +17104,119 @@ ff02::3 ip6-allhosts
 #0.0.0.0 api.service.games2gether.com
 #0.0.0.0 account.service.games2gether.com
 
+# ENDLESS™ Dungeon
+# 103.10.124.121
+# 103.10.125.147
+# 103.28.54.182
+# 108.177.15.127
+# 142.251.125.127
+# 146.66.152.41
+# 146.66.155.67
+# 155.133.227.35
+# 155.133.230.99
+# 155.133.232.98
+# 155.133.233.99
+# 155.133.238.194
+# 155.133.239.59
+# 155.133.244.35
+# 155.133.245.35
+# 155.133.246.50
+# 155.133.248.41
+# 155.133.249.179
+# 155.133.252.37
+# 155.133.253.55
+# 155.133.255.163
+# 162.254.192.66
+# 162.254.193.101
+# 162.254.195.70
+# 162.254.196.70
+# 162.254.197.52
+# 162.254.198.102
+# 162.254.199.167
+# 172.253.121.127
+# 172.65.244.245
+# 18.202.193.192
+# 18.205.142.204
+# 18.207.145.120
+# 18.209.208.36
+# 18.214.42.124
+# 18.239.15.125
+# 18.239.15.134
+# 18.239.15.228
+# 18.239.15.62
+# 185.25.182.50
+# 185.25.183.163
+# 194.99.80.193
+# 20.196.192.33
+# 202.78.174.56
+# 205.196.6.210
+# 216.120.180.117
+# 216.120.180.118
+# 216.120.180.19
+# 216.120.180.4
+# 216.120.180.87
+# 23.21.60.168
+# 23.22.96.244
+# 3.209.163.60
+# 3.219.4.91
+# 3.223.219.65
+# 3.228.115.203
+# 3.234.97.51
+# 3.5.19.101
+# 3.5.29.207
+# 31.223.184.154
+# 34.195.117.40
+# 34.254.84.86
+# 35.174.231.249
+# 44.196.213.51
+# 44.206.67.53
+# 44.219.219.37
+# 5.8.93.104
+# 50.19.244.207
+# 52.20.25.143
+# 52.216.33.145
+# 52.217.120.129
+# 52.217.129.33
+# 52.217.170.89
+# 52.217.234.49
+# 52.22.90.251
+# 52.222.139.100
+# 52.222.139.106
+# 52.222.139.61
+# 52.222.139.62
+# 52.30.140.185
+# 54.163.68.230
+# 54.227.124.12
+# 54.231.202.145
+# 54.236.130.147
+# 54.78.49.58
+# 54.80.249.154
+# 54.83.73.147
+# 63.35.102.230
+# 63.35.117.35
+# 64.233.164.127
+# 74.125.24.127
+# 79.133.126.228
+# 91.199.81.130
+# s. Rubrik Kopierschutz / AntiCheat
+#0.0.0.0 ted-friend.service.games2gether.com
+0.0.0.0 pop-up-market-medias.community.amplitude-studios.com
+0.0.0.0 stun.stunprotocol.org
+0.0.0.0 d2hjvmnsrtrg65.cloudfront.net
+0.0.0.0 garry.sgaas.net
+0.0.0.0 eos-general.s3.amazonaws.com
+#0.0.0.0 api.epicgames.dev
+#0.0.0.0 ns.photonengine.io
+#0.0.0.0 stun.l.google.com
+#0.0.0.0 stun1.l.google.com
+#0.0.0.0 stun2.l.google.com
+#0.0.0.0 stun3.l.google.com
+#0.0.0.0 stun4.l.google.com
+0.0.0.0 ec2-34-254-84-86.eu-west-1.compute.amazonaws.com
+0.0.0.0 ec2-18-202-193-192.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-63-35-117-35.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-63-35-102-230.eu-west-1.compute.amazonaws.com
+
 # Endless Space® 2
 # 63.35.126.135
 # 52.210.254.53
@@ -18444,6 +18576,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
 # SQUARE ENIX CO., LTD.
+# ドラゴンクエスト トレジャーズ　蒼き瞳と大空の羅針盤を購入する | DRAGON QUEST TREASURES
+# 23.48.23.194
+# 23.48.23.181
+# 52.208.84.243
+# 63.35.102.230
+# 34.95.92.238
+# s. Rubrik Kopierschutz / AntiCheat
+# s. Eintrag Steam: IP Checks
+0.0.0.0 test.steampowered.com
+#0.0.0.0 dqtr.sil2.square-enix.com
+0.0.0.0 a23-48-23-194.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-48-23-181.deploy.static.akamaitechnologies.com
+
+# インフィニティ ストラッシュ　ドラゴンクエスト ダイの大冒険 - Infinity Strash: DRAGON QUEST The Adventure of Dai
+# 192.229.221.95
+# s. Rubrik Kopierschutz / AntiCheat
+#0.0.0.0 ocsp.digicert.com
+
 # ドラゴンクエストライバルズ エース | DRAGON QUEST RIVALS Ace
 # 222.158.245.226
 # 151.101.230.205
@@ -21237,6 +21387,34 @@ ff02::3 ip6-allhosts
 #0.0.0.0 code.jquery.com
 0.0.0.0 syndication.twitter.com
 #0.0.0.0 platform.twitter.com
+
+# Counter-Strike 2
+# 23.55.163.68
+# 23.55.163.59
+# 23.55.163.52
+# 23.67.133.187
+# 23.10.249.27
+# 104.18.42.105
+# 104.79.88.52
+# 23.10.249.25
+# 172.64.145.151
+# 23.45.100.143
+#0.0.0.0 cdn.akamai.steamstatic.com
+#0.0.0.0 community.akamai.steamstatic.com
+#0.0.0.0 steamcommunity.com
+#0.0.0.0 steamcdn-a.akamaihd.net
+#0.0.0.0 api.steampowered.com
+#0.0.0.0 clan.cloudflare.steamstatic.com
+#0.0.0.0 store.steampowered.com
+#0.0.0.0 www.counter-strike.net
+#0.0.0.0 a23-55-163-68.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-55-163-59.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-55-163-52.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-67-133-187.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-10-249-27.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-10-249-25.deploy.static.akamaitechnologies.com
+#0.0.0.0 a104-79-88-52.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-45-100-143.deploy.static.akamaitechnologies.com
 
 # VDeveloper
 # Tiny Mage
