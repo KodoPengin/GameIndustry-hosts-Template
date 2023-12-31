@@ -102,7 +102,7 @@ For people who want to support me and my project a <a href="https://gameindustry
 There is only one person behind the entire project. Creating and maintaining the list has taken several years a lot of money and have build alone from scratch.<br><br>
 GameIndustry.eu is the original source of published host files. If the files (or components) are from somewhere else (maybe modified), they are not from me and get no support.
 
-Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a> and <a href="https://www.gameindustry.eu/de/kontakt/">Contact site</a><br>
+Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a> and <a href="https://www.gameindustry.eu/contact/">Contact site</a><br>
 F.A.Q. :<a href="https://www.gameindustry.eu/faq/">F.A.Q.</a><br>
 Steam Group & Support: <a href="https://steamcommunity.com/groups/penguindome/">Spyware in Spielen? Nein danke!</a>
 
