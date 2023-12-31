@@ -100,7 +100,7 @@ Für Menschen die mich und mein Projekt unterstützen möchten wurde eine <a hre
 Hinter dem Projekt steht nur eine Person. Die Erstellung und Pflege der Listen hat mehrere Jahre und viel Geld gekostet und wurde von Grund auf aus dem Nichts aufgebaut.<br><br>
 GameIndustry.eu ist die Originalquelle der veröffentlichten Host-Dateien. Wenn die Dateien (oder Komponenten) von irgendwo anders (vielleicht modifiziert) sind, sind sie nicht original und erhalten keinen Support.
 
-Webseite & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a> and <a href="https://www.gameindustry.eu/de/kontakt/">Kontaktseite</a><br>
+Webseite & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a> and <a href="https://www.gameindustry.eu/contact/">Kontaktseite</a><br>
 F.A.Q. :<a href="https://www.gameindustry.eu/faq/">F.A.Q.</a><br>
 Steam Gruppe & Support: <a href="https://steamcommunity.com/groups/penguindome/">Spyware in Games? No, thanks!</a>
 
