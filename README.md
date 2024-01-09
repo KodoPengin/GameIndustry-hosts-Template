@@ -68,7 +68,7 @@ Supporting german, english and japanese language
 
 ### Latest Screenshot:
 <p float="left">
-<img src="https://www.gameindustry.eu/images/git/Setup_Uebersicht.webp" alt="Gi-HostsInstaller">
+<img src="https://www.gameindustry.eu/images/git/Setup_Uebersicht_2024.webp" alt="Gi-HostsInstaller">
 </p>
 
 ## ⚠ Things to be considered
