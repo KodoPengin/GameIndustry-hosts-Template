@@ -66,7 +66,7 @@ Unterstützt bisher: Deutsch, Englisch und Japanisch
 
 ### Screenshots:
 <p float="left">
-<img src="https://www.gameindustry.eu/images/git/Setup_Uebersicht.webp" alt="Gi-HostsInstaller">
+<img src="https://www.gameindustry.eu/images/git/Setup_Uebersicht_2024.webp" alt="Gi-HostsInstaller">
 </p>
 
 ## ⚠ Dinge die zu bedenken sind
