@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 31.12.2023
+# Änderungsdatum: 11.01.2024
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -2705,12 +2705,11 @@ ff02::3 ip6-allhosts
 
 # Techpowerup.com
 # NVCleanstall
-# 104.24.103.78
-# 104.21.53.3
-# 66.165.247.234
-# 172.67.206.142
-#0.0.0.0 gpu.me # Abgleich Treiberdatenbank mit Versionsnummern
-#0.0.0.0 www.techpowerup.com # Versioncheck
+# 188.114.96.1
+# 188.114.97.1
+# 138.199.40.9
+#0.0.0.0 gpu.me # ID, Name, SSID, SVID der auswählbaren Grafikkarten, JSON benötigter Dateien, Treiberdownload
+#0.0.0.0 www.techpowerup.com # Versionsinfo, Downloadlink NVCleanstall
 
 # Tim Kosse
 # FileZilla
@@ -6324,7 +6323,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js-eu1.hubspotfeedback.com
 0.0.0.0 js.hs-analytics.net
 0.0.0.0 js.hs-banner.com
-0.0.0.0 js.hs-scripts.com
+#0.0.0.0 js.hs-scripts.com
 0.0.0.0 js.hsadspixel.net
 0.0.0.0 js.hscollectedforms.net
 0.0.0.0 js.hscta.net
@@ -6332,7 +6331,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.hubspot.com
 0.0.0.0 no-cache.hubspot.com
 0.0.0.0 perf-na1.hsforms.com
-0.0.0.0 static.hsappstatic.net
+#0.0.0.0 static.hsappstatic.net
 0.0.0.0 track-eu1.hubspot.com
 0.0.0.0 track.hubspot.com
 0.0.0.0 wtcfns.hubspot.com
@@ -9827,6 +9826,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 o105046.ingest.sentry.io
 0.0.0.0 o1060813.ingest.sentry.io
 0.0.0.0 o13824.ingest.sentry.io
+0.0.0.0 o149940.ingest.sentry.io
 0.0.0.0 o22381.ingest.sentry.io
 0.0.0.0 o28395.ingest.sentry.io
 0.0.0.0 o33249.ingest.sentry.io
@@ -12039,7 +12039,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adtm.chip.de
 0.0.0.0 assets.sp.chip.de # Snowplow
 0.0.0.0 assets.sp.efahrer.chip.de # Snowplow
-0.0.0.0 cmp.chip.de # Cookie Nagscreen
+#0.0.0.0 cmp.chip.de # Cookie Nagscreen
 0.0.0.0 data-6314dfb442.chip.de
 0.0.0.0 fsm1.chip.de
 0.0.0.0 mms.chip.de
@@ -12136,7 +12136,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.weekli.systems # Werbung
 0.0.0.0 cdns.symplr.de # Bidscript
 0.0.0.0 cockpit.symplr.de
-0.0.0.0 cdn.privacy-mgmt.com
+#0.0.0.0 cdn.privacy-mgmt.com
 
 # Disney.com & International
 0.0.0.0 analytics.disneyinternational.com
@@ -12527,7 +12527,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn11.kinguin.net
 0.0.0.0 connect.facebook.net
 0.0.0.0 creativecdn.com
-0.0.0.0 js.hs-scripts.com
+#0.0.0.0 js.hs-scripts.com
 0.0.0.0 js.hsleadflows.net
 0.0.0.0 kps.kinguin.net
 0.0.0.0 static.hotjar.com
@@ -13475,6 +13475,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.adserver.vrizead.com
 0.0.0.0 api.primecaster.net
 0.0.0.0 api.relaido.jp
+0.0.0.0 apiwmda.58.com.cn
 0.0.0.0 appollo.jp
 0.0.0.0 asp.m-live.jp
 0.0.0.0 asset.f-tra.com
@@ -13489,6 +13490,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 blackhole.m.jd.com # UTM Campaign
 0.0.0.0 bn.dxlive.com
 0.0.0.0 c.tgknt.com
+0.0.0.0 ca.zol.com.cn
 0.0.0.0 cdn.o2u.jp
 0.0.0.0 cdn.smartnews-ads.com
 0.0.0.0 cdn.webpush.jp
@@ -13585,6 +13587,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 panel.interactive-circle.jp
 0.0.0.0 ppv-cloud.tokyo
 0.0.0.0 proparm.jp
+0.0.0.0 pv.zol.com.cn
+0.0.0.0 pvm.zol.com.cn
+0.0.0.0 pvnpc.zol.com.cn
 0.0.0.0 px.a8.net
 0.0.0.0 rankc1.apserver.net
 0.0.0.0 rat.rakuten.co.jpflash-api-eq.pub.jpe2.rpaas.net
@@ -13607,6 +13612,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ssl.webtracker.jp
 0.0.0.0 ssp.meba.kr
 0.0.0.0 ssp.realclick.co.kr
+0.0.0.0 stat.zol.com.cn
 0.0.0.0 static.karte.io # Tracker Widget
 0.0.0.0 sync-tapi.admatrix.jp
 0.0.0.0 sync.dsp.reemo-ad.jp
@@ -13642,6 +13648,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xa8mbv.com
 0.0.0.0 yurukyaragurume.net
 0.0.0.0 z6b9bu.com
+0.0.0.0 zdw.w8.com.cn
 
 # 马蜂窝 | mafengwo.cn
 0.0.0.0 c.cnzz.com # Heatmap
@@ -14640,6 +14647,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qqjar.ru
 0.0.0.0 redllama.ru
 0.0.0.0 relap.io
+0.0.0.0 rot.spotsniper.ru
 0.0.0.0 rr.tracker.mobiletracking.ru
 0.0.0.0 rtb.com.ru
 0.0.0.0 s1.mpsuadv.ru
@@ -15802,6 +15810,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cd-ladsp-com.s3.amazonaws.com
 0.0.0.0 clickbank-apache-54377296.us-west-2.elb.amazonaws.com
 0.0.0.0 cognito-identity.ap-northeast-1.amazonaws.com
+0.0.0.0 cognito-identity.eu-west-1.amazonaws.com
 0.0.0.0 cookiesyncing-1395500543.us-east-1.elb.amazonaws.com
 0.0.0.0 dcs-edge-irl1-876252164.eu-west-1.elb.amazonaws.com
 0.0.0.0 dcs-edge-tyo3-624150721.ap-northeast-1.elb.amazonaws.com
@@ -19816,6 +19825,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 asn.advolution.de
 0.0.0.0 assets.sp.fitforfun.de
 0.0.0.0 atonato.de # Werbeinblendung Golem.de
+0.0.0.0 auswertung.verbraucherzentrale.de
 0.0.0.0 banner.congstar.de
 0.0.0.0 baseendpoint.capital.de
 0.0.0.0 baseendpoint.essen-und-trinken.de
@@ -20078,6 +20088,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wbk.in-berlin.de # Piwik
 0.0.0.0 wbv-analytics.saltation.de
 0.0.0.0 webanalytics.drk-blutspende.de
+0.0.0.0 webstatistik.bundeswehr.de
 0.0.0.0 webstats.cyrano-services.de
 0.0.0.0 webtracking.trifels.de # rheinmain4family.de, frankfurt-tipp.de usw
 0.0.0.0 weektimewordissue.de
@@ -20801,6 +20812,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 zpuy.sitiwebcerveteri.it
 0.0.0.0 zsgw.magnagraeciateatrofestival.it
 0.0.0.0 zyvm.altrovoltodelledonne.it
+# LA
+0.0.0.0 collect-v6.51.la
 # LI
 0.0.0.0 loslassen.li
 0.0.0.0 paper.li
@@ -21039,6 +21052,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 caiteesh.net
 0.0.0.0 cameesse.net
 0.0.0.0 cchbdata.net
+0.0.0.0 ccsyncuuid.net
 0.0.0.0 cdn-eu-vid1.statserv.net
 0.0.0.0 cdn-img1.statserv.net
 0.0.0.0 cdn-magiclinks.trackonomics.net
@@ -21121,6 +21135,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 feedmeter.net
 0.0.0.0 ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 0.0.0.0 ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net
+0.0.0.0 fnr-steam-prod.fromsoftware-game.net
 0.0.0.0 fr-actions.trackonomics.net
 0.0.0.0 fr-campaign.gccdn.net
 0.0.0.0 frcp-hlb.dvgtm.akadns.net
@@ -21452,6 +21467,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fbiofficial.online
 0.0.0.0 fbiorganisation.online
 0.0.0.0 fbiusagov.online
+0.0.0.0 ip-lookup.online
 0.0.0.0 krenovo.online
 0.0.0.0 liveads.online
 0.0.0.0 masolaos.online
@@ -22755,6 +22771,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ads.a-static.com # Adblock Detektor bei pasteit.top
 #0.0.0.0 api.na-backend.odysee.com # Video RT und player.odycdn.com
 #0.0.0.0 balancer.hazota.eu # base64decode.org
+#0.0.0.0 cdn.privacy-mgmt.com # Cookie Nagscreen z.b. bei Spiegel.de, Capital.de usw
 #0.0.0.0 cdn.vthumbs.com
 #0.0.0.0 content.invisioncic.com # Scripts Malwarebytes Forum
 #0.0.0.0 crimsonmeadow.com # Cookie Nagscreen & Anti-Adblock Screenrant
@@ -23459,6 +23476,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cbadugi.com
 0.0.0.0 cbxmarketing.wpenginepowered.com
 0.0.0.0 cc.bingj.com # AdlyserModul
+0.0.0.0 cchdbond.com
 0.0.0.0 cd-down.com
 0.0.0.0 cd-mob.com
 0.0.0.0 cdm.cursecdn.com
@@ -23549,7 +23567,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.playbuzz.com
 0.0.0.0 cdn.pncloudfl.com
 0.0.0.0 cdn.pricespider.com
-0.0.0.0 cdn.privacy-mgmt.com # Cookie Nagscreen z.b. bei Spiegel.de, Capital.de usw
 0.0.0.0 cdn.prod.uidapi.com
 0.0.0.0 cdn.promio-connect.com
 0.0.0.0 cdn.pubfuture-ad.com
@@ -24777,6 +24794,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 letitbify.com
 0.0.0.0 level3ssl.optimicdn.com
 0.0.0.0 lexicon.33across.com
+0.0.0.0 lf1-cdn-tos.bytegoofy.com
 0.0.0.0 lib-us-1.brilliantcollector.com
 0.0.0.0 libedgolart.com
 0.0.0.0 librato-collector.genius.com
@@ -25481,6 +25499,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qa-www2.st.com
 0.0.0.0 qc.galleria-dfs.com
 0.0.0.0 qd.admetricspro.com
+0.0.0.0 qevsbcsbvnph.com
 0.0.0.0 qiqqlb.cyou
 0.0.0.0 qjpdjugacac.com
 0.0.0.0 qlcdnvkgi.com
@@ -25724,6 +25743,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sessions.bugsnag.com
 0.0.0.0 setupslum.com
 0.0.0.0 sftwrads.com
+0.0.0.0 shadesentimentssquint.com
 0.0.0.0 shakegoldfish.com
 0.0.0.0 shareasale-analytics.com
 0.0.0.0 shareitpp.com
@@ -25839,11 +25859,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 st.fullcircleinsights.com
 0.0.0.0 st.static-srv.com
 0.0.0.0 st.tubecorporate.com
+0.0.0.0 st6-22.vk.com
 0.0.0.0 staging-argus-fra1.snigelweb.com
 0.0.0.0 staging-www.cubecdms.com
 0.0.0.0 stake.com
 0.0.0.0 standroogly.com
 0.0.0.0 starlight.networknmedia.com
+0.0.0.0 stat.58che.com
 0.0.0.0 stat.coedcherry.com
 0.0.0.0 stat.made-in-china.com
 0.0.0.0 stat.networkmanag.com
@@ -26206,6 +26228,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tracking.sexcash.com
 0.0.0.0 tracking.tomsguide.com
 0.0.0.0 trackingca.com
+0.0.0.0 tracklog.58.com
 0.0.0.0 trackmackweldon.com
 0.0.0.0 trackquantx.adux.com
 0.0.0.0 traffic.adxprtz.com
@@ -26266,6 +26289,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 typerealisepredict.com
 0.0.0.0 tyxznbghnfkvb.com
 0.0.0.0 tzegilo.com
+0.0.0.0 tzjybeidou.58.com
 0.0.0.0 u.fg8dgt.com
 0.0.0.0 u.geekestoot.com
 0.0.0.0 u.shoksips.com
@@ -26420,6 +26444,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 vywujhsinxfa.com
 0.0.0.0 w.ad.style
 0.0.0.0 w.geekestoot.com
+0.0.0.0 w.irs03.com
 0.0.0.0 w.push-free.com
 0.0.0.0 w.shoksips.com
 0.0.0.0 w.totalbeststories.com
@@ -26432,6 +26457,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wargaming-affiliate.g2afse.com
 0.0.0.0 washedinmate.com
 0.0.0.0 watchcensorbully.com
+0.0.0.0 watchesthereupon.com
 0.0.0.0 watchvideoplayer.com
 0.0.0.0 waudeesestew.com
 0.0.0.0 waufooke.com
@@ -26442,6 +26468,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wbxhrju.thefaceduck.com
 0.0.0.0 wc-tracking.lavasoft.com
 0.0.0.0 wct-1.com
+0.0.0.0 wct-2.com
 0.0.0.0 weaveradrenaline.com
 0.0.0.0 weaverdispensepause.com
 0.0.0.0 web-clients.mynativeplatform.com
@@ -49973,4 +50000,5 @@ ff02::3 ip6-allhosts
 
 # ZOV GAME STUDIO
 # To The Light
+# Google Crashpad
 # Google Crashpad
