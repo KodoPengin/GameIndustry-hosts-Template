@@ -177,9 +177,12 @@
 0.0.0.0 click.apprevolve.com
 
 # Appsflyer
+0.0.0.0 af-event-logger.appsflyer.com
 0.0.0.0 api.appsflyer.com
 0.0.0.0 app.appsflyer.com
+0.0.0.0 banner.appsflyer.com
 0.0.0.0 cdn-settings.appsflyersdk.com
+0.0.0.0 cdn.appsflyer.com
 0.0.0.0 conversions.appsflyer.com
 0.0.0.0 events.appsflyer.com
 0.0.0.0 fvalid.appsflyer.com
@@ -189,9 +192,11 @@
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 o8pz4z-attr.appsflyersdk.com
 0.0.0.0 onelink.appsflyer.com
+0.0.0.0 onelinksmartscript.appsflyer.com
 0.0.0.0 register.appsflyer.com
 0.0.0.0 stats.appsflyer.com
 0.0.0.0 t.appsflyer.com
+0.0.0.0 websdk.appsflyer.com
 
 # Appspot
 0.0.0.0 rs-xpromotion.appspot.com
@@ -691,7 +696,9 @@
 
 # Onesignal
 0.0.0.0 api.onesignal.com
+0.0.0.0 cdn.onesignal.com
 0.0.0.0 img.onesignal.com
+0.0.0.0 infosec.onesignal.com
 0.0.0.0 onesignal.com
 
 # Optimizely
