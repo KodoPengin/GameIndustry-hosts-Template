@@ -1,5 +1,5 @@
-<h1 align="center">GameIndustry host Templates</h1>
-<h3 align="center">Einzigartige Host Templates zur Verbesserung der eigenen Privatsphäre in Spielen, Webseiten und regulärer Software</h3>
+<h1 align="center">GameIndustry hosts Templates</h1>
+<h3 align="center">Einzigartige Hosts Templates zur Verbesserung der eigenen Privatsphäre in Spielen, Webseiten und regulärer Software</h3>
 
 <br />
 	
@@ -22,7 +22,7 @@
 ## 📝 Projektbeschreibung
 Im heutigen digitalen Umfeld werden Geschäftsanalytik, Spyware und Tracking-Cookies in Spielen und Clients oft stillschweigend akzeptiert und den Verbrauchern aufdringlich auferlegt.
 
-Meine veröffentlichten Host-Dateien bieten verbesserten Datenschutz um Benutzer vor Tracking, Spyware, Telemetrie, Malware, Werbung und Weiterleitungen in Spielen, auf Websites und in regulären Programmen auf Desktop- und Mobilsystemen zu schützen.
+Meine veröffentlichten Hosts-Dateien bieten verbesserten Datenschutz um Benutzer vor Tracking, Spyware, Telemetrie, Malware, Werbung und Weiterleitungen in Spielen, auf Websites und in regulären Programmen auf Desktop- und Mobilsystemen zu schützen.
 
 Es sind keine Programme von Drittanbietern, komplexe oder teure Installationsmedien (PI-Hole) erforderlich.
 
@@ -41,7 +41,7 @@ Es sind keine Programme von Drittanbietern, komplexe oder teure Installationsmed
 - Alle Produkte sind getrennt aufgeführt um Verbraucher über die Zusammenhänge zwischen Produkten zu informieren.
 - Zusätzliche Angaben für IPv4- und IPv6-Einträge um sie in Ihrer Firewall zu blockieren.
 
-### Host Versionen
+### Hosts Versionen
 - Haupt-Template: Software, Websites, Treiber, Technologieunternehmen, Gaming-Clients, Spiele und mehr.
 - Mini-Vorlage für Spiele: Blockiert die gängigsten Spielanalysen, Spyware und Werbedienste in PC-Spielen. Nichts anderes.
 - Gaming-Vollversion: Blockiert Telemetrie, Spielanalysen, Spyware und unnötige Verbindungen für Gaming-Clients und Spiele auf und für verschiedene Plattformen.
@@ -54,7 +54,7 @@ Bitte beachten Sie, dass die Hosts je nach System schreibgeschützt sein können
 Quelle: <a href="https://gameindustry.eu/de/blog/hosts-datei-bearbeiten-windows-linux-android/">Wie man die Hosts-Datei bearbeitet</a><br>
 
 ## Einfach zu verwendende Setup-Datei:
-Ein einfach zu verwendendes Host-Datei-Setup wurde erstellt. Starten Sie Ihr Setup, wählen Sie eine von 5 Vorlagen und installieren Sie sie.<br>
+Ein einfach zu verwendendes Hosts-Datei-Setup wurde erstellt. Starten Sie Ihr Setup, wählen Sie eine von 5 Vorlagen und installieren Sie sie.<br>
 Quelle: <a href="https://www.gameindustry.eu/de/downloads/">GameIndustry Downloads</a><br>
 
 Unterstützt die Sprachen Deutsch, Englisch und Japanisch.
@@ -68,12 +68,12 @@ Unterstützt die Sprachen Deutsch, Englisch und Japanisch.
 Das Blockieren von Programmkomponenten kann zu erwünschten und unerwünschten Ergebnissen führen. Hier sind einige wichtige Überlegungen:
 
 ### Mögliche Probleme mit bestimmten Programmen:
-Da ich Verbindungen pro Produkt und damit auch doppelte Einträge festlege sowie "kritische" Prozesse (z.B. Windows Spyware, einige Aktivierungsdienste) strikt blockiere, können manchmal Schwierigkeiten auftauchen. Hersteller missbilligen oft diese Methode und könnten Maßnahmen ergreifen, die zur Löschung oder erheblichen Modifikation der Host-Datei ohne Benachrichtigung führen.<br>
+Da ich Verbindungen pro Produkt und damit auch doppelte Einträge festlege sowie "kritische" Prozesse (z.B. Windows Spyware, einige Aktivierungsdienste) strikt blockiere, können manchmal Schwierigkeiten auftauchen. Hersteller missbilligen oft diese Methode und könnten Maßnahmen ergreifen, die zur Löschung oder erheblichen Modifikation der Hosts-Datei ohne Benachrichtigung führen.<br>
 - Kaspersky Internet Security erfordert eine Ausnahmeregel.
 - Microsoft Windows Defender erfordert eine Ausnahmeregel
-- IoBIT Driver Booster neigt dazu, die meisten AWS-Einträge zu löschen (Blockieren von "FaultFixes.exe" um unerwünschte Host-Änderungen zu verhindern).
-- Wise Care 365 kann auch die Host-Datei ändern.
-- Malwarebytes erzeugt Falschmeldungen wenn bestimmte Einträge vorhanden sind, und kann die Host-Datei ändern.
+- IoBIT Driver Booster neigt dazu, die meisten AWS-Einträge zu löschen (Blockieren von "FaultFixes.exe" um unerwünschte Hosts-Änderungen zu verhindern).
+- Wise Care 365 kann auch die Hosts-Datei ändern.
+- Malwarebytes erzeugt Falschmeldungen wenn bestimmte Einträge vorhanden sind, und kann die Hosts-Datei ändern.
 
 Wenn eins der genannten Programme verwendet wird sollte darauf geachtet werden welche Rechte diesen Programmen zugestanden wird, warum Fehlermeldungen angezeigt werden und welche Dateien durch die Software verändert werden können.
 
@@ -93,7 +93,7 @@ Für diejenigen, die mich und mein Projekt unterstützen möchten, steht eine <a
 
 ## © Copyright, Support & Lizenz
 Hinter dem Projekt steht nur eine Person. Die Erstellung und Pflege der Listen hat mehrere Jahre und viel Geld gekostet und wurde von Grund auf aus dem Nichts aufgebaut.<br><br>
-GameIndustry.eu ist die Originalquelle für diese veröffentlichten Host-Dateien. Wenn Sie diese Dateien (oder Teile davon) anderswo finden (möglicherweise modifiziert) sind sie nicht mein Werk und daher nicht von mir unterstützt.
+GameIndustry.eu ist die Originalquelle für diese veröffentlichten Hosts-Dateien. Wenn Sie diese Dateien (oder Teile davon) anderswo finden (möglicherweise modifiziert) sind sie nicht mein Werk und daher nicht von mir unterstützt.
 
 Webseite & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a> and <a href="https://www.gameindustry.eu/contact/">Kontaktseite</a><br>
 F.A.Q. :<a href="https://www.gameindustry.eu/faq/">F.A.Q.</a><br>
