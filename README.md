@@ -20,51 +20,46 @@
 <br />
 
 ## 📝 Project Description
-Business analytics, spyware, tracking cookies in games and clients and thus partly self-legitimized data theft are often wide accepted these days and are often imposed on consumers on a "eat or die" basis.
+In today's digital environment, business analytics, spyware, and tracking cookies in games and clients are often tacitly accepted and imposed on consumers in a pervasive manner.
 
-My published host files can offer an enhanced privacy to protect users from tracking, spyware, telemetry, malware, advertising and redirections in games, on websites and in regulary programs on desktop and mobile systems.
+My published host files offer enhanced privacy protection to shield users from tracking, spyware, telemetry, malware, advertising, and redirections in games, on websites and in regular programs on both desktop and mobile systems.
 
-No third party programs or complicated or expensive installation media (PI) are required
+No third-party programs or complex or expensive installation media (PI-Hole) are required.
 
 ### Special features:
 - Works on any device. System-wide
-- Blocked entries for over 1688 games and the most important gaming-clients of this time
-- Over 45000 lines
-- Regularly updated
-- Entries for Software, games, websites and IoT
-- Privacy breaking tech companies like Facebook are blocked
-- A large part of the outgoing connections from Windows (xx) and Microsoft games were blocked
-- Strict and no exceptions for big companies
-- Modular design - Take entries you need
-- All entries are categorized by Product names, Publisher, website & company names
-- Comments and additional information for several entries (german language)
-- All products are seperated, to show consumers which things belong to which product
-- Additional Ipv4 and Ipv6 entries to block them in your firewall
+- Blocked entries for over 1810 games and software, including the most important gaming clients of today.
+- 50000 lines
+- Regular updates.
+- Entries for software, games, websites, and IoT.
+- Privacy-infringing tech companies like Facebook are blocked.
+- A significant number of outgoing connections from Windows (xx) and Microsoft games is blocked.
+- Strict policy with no exceptions for large corporations.
+- Modular design - Choose only the entries you need.
+- All entries are categorized by product names, publishers, website & company names.
+- Comments and additional information for several entries (in German).
+- All products are separated, to inform consumers about the associations between products.
+- Additional IPv4 and IPv6 entries to block them in your firewall.
 
 ### Host versions
-- Main Template: software, websites, drivers, technology companys, gaming clients, games and more
-- Gaming Mini-Template: Blocked most common game analytics, spyware and advertising services in PC games. Nothing else
-- Gaming Full-Template: Blocked telemetry, game analytics, spyware and unnecessary connections for Gaming Clients and Games on and for several platforms.
-- Android Mini-Template: Blocked most common game analytics, advertising, spyware and advertising services in Android games and software
-- Android Full-Template: Blocked telemetry, advertising, game analytics, spyware and unnecessary connections for several Android products. Product related without exception
+- Main Template: software, websites, drivers, technology companies, gaming clients, games, and more.
+- Gaming Mini-Template: Blocks most common game analytics, spyware, and advertising services in PC games. Nothing else.
+- Gaming Full-Template: Blocks telemetry, game analytics, spyware, and unnecessary connections for gaming clients and games on and for various platforms.
+- Android Mini-Template: Blocks most common game analytics, advertising, spyware, and advertising services in Android games and software.
+- Android Full-Template: Obsolete - Removed from the repository on 13.01.2024.
 
 And many more on gameindustry.eu
 
 ## 📖 Installation
-Please keep in mind that the hosts may be read-only or require root privileges depending on your system
-### Copy and paste:
-- Open the file on Github, "Save as hosts" without any suffix... and copy the file to one of the listed directories. 
-- As an alternative to "save as" it is also possible to copy the page content and paste it into an existing file
-
-Windows: %SystemRoot%\System32\drivers\etc\hosts<br>
-Linux: /etc/hosts<br>
-Android: /etc/hosts (a symbolic link to /system/etc/hosts)
+Please be aware that the hosts may be read-only or require root privileges depending on your system.
+### More information:
+Source: <a href="https://gameindustry.eu/de/blog/hosts-datei-bearbeiten-windows-linux-android/">How to edit the hosts file</a><br>
 
 ## Easy to use Setup file:
-A host file setup was created for easy use. Start your setup, choose one from 5 templates and install.<br>
-Source: <a href="https://www.gameindustry.eu/de/downloads/">GameIndustry Downloads</a><br>
+An easy-to-use host file setup has been created. Start your setup, choose one of 5 templates, and install.<br>
+Source: <a href="https://www.gameindustry.eu/downloads/">GameIndustry Downloads</a><br>
 
-Supporting german, english and japanese language
+Supports German, English, and Japanese languages.
 
 ### Latest Screenshot:
 <p float="left">
@@ -72,35 +67,35 @@ Supporting german, english and japanese language
 </p>
 
 ## ⚠ Things to be considered
-Blocking program components sometimes brings both desirable and undesirable features. Here are a few things to consider
+Blocking program components can lead to both desired and undesired outcomes. Here are some important considerations:
 
-### Some programs can cause trouble:
-Since I specify connections per product and thus also duplicate entries and strict block "critical" processes (e.g. Windows Spyware, some activation services), it's difficult sometimes. Manufacturers do not like this approach, take the initiative and the hosts will be deleted from your system or will be strongly modified without a hint.<br>
-- Kaspsersky Internet Security requires an exception rule
-- Microsoft Windows Defender requires an exception rule 
-- IoBIT Driver Booster deletes mostly every AWS entry (Block "FaultFixes.exe" to prevent unwanted host changes)
-- WiseCare also modify the hosts
-- Malwarebytes makes false statements when certain entries are in the file and changes the hosts as well
+### Potential Issues with Certain Programs:
+As I target connections per product, including duplicating entries and strictly blocking "critical" processes (e.g., Windows telemetry, some activation services), challenges may arise. Manufacturers often disapprove of this method, and might initiate actions leading to the deletion or significant modification of the hosts file without notification.<br>
+- Kaspersky Internet Security requires an exception rule.
+- Microsoft Windows Defender requires an exception rule.
+- IoBIT Driver Booster tends to delete most AWS entries (Block "FaultFixes.exe" to prevent unwanted host changes).
+- Wise Care 365 may also modify the hosts file.
+- Malwarebytes generates false alerts when certain entries are present and may alter the hosts file.
 
-If you use any of these programs, you should look carefully which rights they take, which and why error messages are displayed and which files they can modified.
+If you use any of these programs, carefully monitor the permissions they require, the error messages they produce, and the files they modify.
 
-Safety does not automatically mean safety in the way we as end users imagine it. Especially since manufacturers and publisher who promise us security often work to their own advantage.
+Remember, security doesn't always equate to safety in the way end-users expect. Often, manufacturers and publishers who promise security act in their own interest.
 
-### Notice to Valve Corporation's GDS connections - Oct. 2021
-This service is definitely superfluous. Entries can be ignored and can be deleted by "Search and Replace" functions. 299 products (updated Dez.2022) are affected.
+### Note on Valve Corporation's GDS Connections - Oct. 2021
+This service is deemed non-essential. Entries related to it can be ignored or removed using "Search and Replace" functions. 215 products (updated Jan. 2024) are affected.
 
-## ❗ Hints:
+## ❗ Tips:
 Careful with using entries. Some may be strict and many services may not work
 
 ## 🐞 Bugs, Mistakes, questions:
-Even me is not perfect and there may be wrong entries or spelling mistakes. If so, do not hesitate to contact me ASAP - Please open a ticket, contact me in Steam or about my website. Corrections (if needed) are quickly implemented.
+Even I am not infallible and errors in entries or typos may occur. If you find any, please do not hesitate to contact me ASAP - Open a ticket, contact me on Steam, or through my website. Corrections (if needed) will be promptly implemented.
 
 ## 🔖 Donations:
-For people who want to support me and my project a <a href="https://gameindustry.eu/de/donations/">donation page</a> has been set up.
+For those who wish to support me and my project, a <a href="https://gameindustry.eu/de/donations/">donation page</a> is available.
 
 ## © Copyright, Support & License
-There is only one person behind the entire project. Creating and maintaining the list has taken several years a lot of money and have build alone from scratch.<br><br>
-GameIndustry.eu is the original source of published host files. If the files (or components) are from somewhere else (maybe modified), they are not from me and get no support.
+This project is the work of a single individual. Creating and maintaining this list has been a years-long endeavor, involving significant time and financial investment, and was built from the ground up by me alone.<br><br>
+GameIndustry.eu is the original source for these published host files. If you find these files (or components thereof) elsewhere (possibly modified), they are not my work and therefore not supported by me.
 
 Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a> and <a href="https://www.gameindustry.eu/contact/">Contact site</a><br>
 F.A.Q. :<a href="https://www.gameindustry.eu/faq/">F.A.Q.</a><br>
@@ -108,11 +103,11 @@ Steam Group & Support: <a href="https://steamcommunity.com/groups/penguindome/">
 
 License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons by-nc-sa 4.0</a>
 
-## 🚨 Copycats and thiefs
-Imposters and thiefs like "Chef-Koch" can go to hell. Using other people's work and passes off other people's work as own creation is the lowest. Especially then if act too stupidly.
+## 🚨 Caution Against Unauthorized Copies
+Please be aware that there may be imitators or unauthorized uses of this work, which would violate the principles of fair use and copyright law.
 
-There are not for nothing notes about licenses and copyrights on my published content.
+Imposters and thiefs like "Chef-Koch" on Gitlab can go to hell. Using other people's work and passes off other people's work as own creation is the lowest. Especially then if act too stupidly.
 
-Reports of violations can be posted here or through the contact options provided.
+If you encounter any instances of copyright violation regarding my work, please report them through the provided contact options or directly here.
 
-Thanks
+Thank you.
