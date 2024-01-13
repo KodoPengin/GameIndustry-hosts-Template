@@ -11,7 +11,7 @@
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
 # Kombinierbar mit anderen host Templates von GameIndustry.eu oder weiteren Quellen
-# Änderungsdatum: 12.03.2022
+# Änderungsdatum: 13.01.2023
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -19,6 +19,9 @@
 # Steam: https://www.steamcommunity.com/groups/Penguindome
 # Github: https://github.com/KodoPengin/GameIndustry-hosts-Template
 # Codeberg: https://codeberg.org/Pengin/GameIndustry-hosts-Template
+#
+# Zur Ergänzung der Android-Liste verwenden Sie bitte das Main-Template oder Produktsuche unter verlinkten Quellen
+# To complete the Android list, please use the main template or product search under the linked sources
 #
 # Lizenz: CC BY-NC-SA 4.0
 # https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
@@ -61,7 +64,6 @@
 # 34.194.231.28, 52.44.156.179, 34.201.88.38, 34.198.64.90, 34.194.1.179
 0.0.0.0 adc3-launch.adcolony.com
 0.0.0.0 ads30.adcolony.com
-0.0.0.0 androidads4-6.adcolony.com
 0.0.0.0 androidads23.adcolony.com
 0.0.0.0 wd.adcolony.com
 0.0.0.0 wd.adcolony.xyz
@@ -135,6 +137,7 @@
 0.0.0.0 pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com
 0.0.0.0 sqs.us-east-1.amazonaws.com
 0.0.0.0 tracking-vektor-lb-2010006827.eu-west-1.elb.amazonaws.com
+#0.0.0.0 s3.amazonaws.com
 
 # Amplitude
 0.0.0.0 api.amplitude.com
@@ -176,6 +179,7 @@
 # Appsflyer
 0.0.0.0 api.appsflyer.com
 0.0.0.0 app.appsflyer.com
+0.0.0.0 cdn-settings.appsflyersdk.com
 0.0.0.0 conversions.appsflyer.com
 0.0.0.0 events.appsflyer.com
 0.0.0.0 fvalid.appsflyer.com
@@ -183,6 +187,7 @@
 0.0.0.0 impression.appsflyer.com
 0.0.0.0 inapps.appsflyer.com
 0.0.0.0 launches.appsflyer.com
+0.0.0.0 o8pz4z-attr.appsflyersdk.com
 0.0.0.0 onelink.appsflyer.com
 0.0.0.0 register.appsflyer.com
 0.0.0.0 stats.appsflyer.com
@@ -252,19 +257,18 @@
 
 # Crashlytics
 # 204.236.237.188, 23.21.44.21, 50.19.223.4
-0.0.0.0 e.crashlytics.com
-0.0.0.0 settings.crashlytics.com
-0.0.0.0 reports.crashlytics.com
 0.0.0.0 crashlytics.l.google.com
 0.0.0.0 crashlytics2.l.google.com
-0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 crashlyticsreports-pa.googleapis.com
+0.0.0.0 e.crashlytics.com
+0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 reports.crashlytics.com
+0.0.0.0 settings.crashlytics.com
 
 # Crittercism
 0.0.0.0 api.crittercism.com
 
 # DBankcloud
-0.0.0.0 dnkeeper.platform.dbankcloud.cn
 0.0.0.0 grs.dbankcloud.com
 0.0.0.0 grs.dbankcloud.cn
 0.0.0.0 grs.dbankcloud.eu
@@ -279,7 +283,7 @@
 0.0.0.0 collect17070dvntr.deltadna.net
 
 # Exitgames
-0.0.0.0 ns.exitgames.com
+#0.0.0.0 ns.exitgames.com # MP
 
 # Facebook, Inc.
 # Hauptdomain blockiert wegen Trackingpixel
@@ -342,7 +346,7 @@
 0.0.0.0 history.google.com
 # API/s
 # 172.217.23.106, 216.58.206.10
-#0.0.0.0 android.googleapis.com # Benötigt für die Angebote im Playstore
+#0.0.0.0 android.googleapis.com # Playstore
 #0.0.0.0 people-pa.googleapis.com # Zuständig für Synchronisation von Kalender und Kontakten
 #0.0.0.0 securetoken.googleapis.com
 #0.0.0.0 www.googleapis.com
@@ -356,7 +360,6 @@
 0.0.0.0 datamixer-pa.googleapis.com
 0.0.0.0 deviceintegritytokens-pa.googleapis.com
 0.0.0.0 digitalassetlinks.googleapis.com
-0.0.0.0 firebaseremoteconfig.googleapis.com
 0.0.0.0 footprints-pa.googleapis.com
 0.0.0.0 geller-pa.googleapis.com
 0.0.0.0 gmscompliance-pa.googleapis.com
@@ -394,11 +397,13 @@
 0.0.0.0 alt8-mtalk.google.com
 0.0.0.0 alt8.mobile-gtalk.l.google.com
 # Playstore
-0.0.0.0 android.clients.google.com # Bestandteil von Ingamekäufen/Bezahlhistorie
+#0.0.0.0 android.clients.google.com # Bestandteil von Ingamekäufen/Bezahlhistorie
 #0.0.0.0 play.googleapis.com
 #0.0.0.0 play-fe.googleapis.com
 #0.0.0.0 playatoms-pa.googleapis.com
 0.0.0.0 playgateway-pa.googleapis.com
+# PubSUB
+0.0.0.0 pubsub.googleapis.com
 # Werbung & Tracking
 0.0.0.0 userlocation.googleapis.com
 # 172.217.22.98, 172.217.16.162, 172.217.18.98
@@ -426,7 +431,6 @@
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 ade.googlesyndication.com
-0.0.0.0 www.googletagmanager.com
 0.0.0.0 www.googletagservices.com
 0.0.0.0 adssettings.google.com
 0.0.0.0 doubleclick.net 
@@ -434,26 +438,32 @@
 0.0.0.0 www.googleadservices.com
 0.0.0.0 chromefeedcontentsuggestions-pa.googleapis.com
 0.0.0.0 partnerad.l.doubleclick.net
-# Google Firebase Analytics
-0.0.0.0 s-usc1c-nss-269.firebaseio.com
+# Google Firebase Analytics and State surveillance
+0.0.0.0 firebase.googleapis.com
+0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 firebaselogging-pa.googleapis.com
+0.0.0.0 firebaselogging.googleapis.com
 0.0.0.0 firebaseremoteconfig.googleapis.com
 0.0.0.0 firebasestorage.googleapis.com
-0.0.0.0 firebaseinstallations.googleapis.com
 0.0.0.0 nmdp-b86eb-users-ko.firebaseio.com
-0.0.0.0 firebaselogging-pa.googleapis.com
+0.0.0.0 s-usc1c-nss-269.firebaseio.com
+0.0.0.0 tveweb-appsvcs-aetnd-com-8ff57.firebaseapp.com
+0.0.0.0 walkthrough-tool.firebaseapp.com
+0.0.0.0 walkthrough-tool.firebaseio.com
 # Google App-Measurement
 # 216.58.207.46
 0.0.0.0 app-measurement.com
 # Google Downloads 
-0.0.0.0 clients.l.google.com
+0.0.0.0 clients.l.google.com # android.apis.google.com
 0.0.0.0 clients1.google.com
 0.0.0.0 clients2.google.com # z.b. für Addondownloads in Chrome, Ping, Crashback Logdateien uvm
 #0.0.0.0 clients3.google.com
 0.0.0.0 clients4.google.com
 # Google Kram
+#0.0.0.0 play-lh.googleusercontent.com # Grafiken
 0.0.0.0 connectivitycheck.gstatic.com
+0.0.0.0 gameswhitelisted.googleapis.com
 0.0.0.0 mobile-gtalk.l.google.com
-0.0.0.0 play-lh.googleusercontent.com
 0.0.0.0 sb.l.google.com
 0.0.0.0 supl.google.com
 # Google Video Transcoding
@@ -465,6 +475,12 @@
 0.0.0.0 r3.sn-h0jeln7l.gvt.com
 0.0.0.0 r5---sn-h0jeen7d.gvt.com
 0.0.0.0 r5.sn-h0jeen7d.gvt.com
+# Google TagManager
+0.0.0.0 googletagmanager.com
+0.0.0.0 lax31s01-in-f8.1e100.net
+0.0.0.0 tagmanager.google.com
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 www-googletagmanager.l.google.com
 
 # Haloapps.com
 0.0.0.0 i.haloapps.com
@@ -565,10 +581,6 @@
 0.0.0.0 cd.lenzmx.com
 0.0.0.0 rd.lenzmx.com
 0.0.0.0 tracking.lenzmx.com
-
-# Liftoff
-0.0.0.0 adexp.liftoff.io
-0.0.0.0 impression-east.liftoff.io
 
 # Limelight Networks
 #0.0.0.0 sammetazrt.hs.llnwd.net # Samsung Downloader
@@ -678,8 +690,9 @@
 0.0.0.0 onelink.me
 
 # Onesignal
-0.0.0.0 onesignal.com
+0.0.0.0 api.onesignal.com
 0.0.0.0 img.onesignal.com
+0.0.0.0 onesignal.com
 
 # Optimizely
 0.0.0.0 cdn.optimizely.com
@@ -712,11 +725,9 @@
 0.0.0.0 dls-udc.dqa.samsung.com
 0.0.0.0 de-odc.samsungapps.com
 0.0.0.0 de-odc.samsungapps.com.wtxcdn.com
-#0.0.0.0 vas.samsungapps.com
+0.0.0.0 vas.samsungapps.com
 # Samsung Firmware
 #0.0.0.0 fota-cloud-dn.ospserver.net # Siehe LLNWD Eintrag
-#0.0.0.0 fota-cloud-dn.ospserver.net
-#0.0.0.0 cfota2.oscpserver.net
 
 # Saygames
 0.0.0.0 track.saygames.io
@@ -737,6 +748,7 @@
 # Andere Programme/Spiele beinhalten eine andere ID als 1170
 0.0.0.0 1170.api.swrve.com
 0.0.0.0 1170.content.swrve.com
+0.0.0.0 4699.api.swrve.com
 0.0.0.0 30007.api.swrve.com
 0.0.0.0 30007.content.swrve.com
 
@@ -794,6 +806,9 @@
 0.0.0.0 track.tenjin.io
 0.0.0.0 track.tenjin.com
 
+# TicToc
+0.0.0.0 pangolin16.isnssdk.com
+
 # Tiltingpoint
 0.0.0.0 analytics.tiltingpoint.io
 0.0.0.0 legal.tiltingpoint.io
@@ -825,40 +840,99 @@
 0.0.0.0 ulogs.umengcloud.com
 0.0.0.0 plbslog.umeng.com
 
-# Unity Technologies ApS | Mobilgeräte
-# 69.106.175.42, 35.241.26.53, 35.186.194.186, 35.241.22.100, 69.16.175.10
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 config.unityads.unity3d.com
-0.0.0.0 ecommerce.iap.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 stats.unity3d.com
-0.0.0.0 api.uca.cloud.unity3d.com
-0.0.0.0 events.iap.unity3d.com
-0.0.0.0 auction.unityads.unity3d.com
-0.0.0.0 publisher-config.unityads.unity3d.com
-0.0.0.0 cdn-highwinds.unityads.unity3d.com
-0.0.0.0 webview.unityads.unity3d.com
+# Unity Technologies
+#0.0.0.0 accounts.unity3d.com # WebAUTH
+#0.0.0.0 api.unity.com # Genesis API
+#0.0.0.0 id.unity.com # Genesis API URL
+#0.0.0.0 license.unity3d.com # Lizenzserver
+#0.0.0.0 public-cdn.cloud.unity3d.com # Hub/Setup
+0.0.0.0 activation.unity3d.com # Aktivierung
 0.0.0.0 ads-brand-postback.unityads.unity3d.com
-0.0.0.0 tracking.prd.mz.internal.unity3d.com
-0.0.0.0 pge.unityads.unity3d.com
-0.0.0.0 cdn-webview-pge.unityads.unity3d.com
-0.0.0.0 sdk-diagnostics.prd.mz.internal.unity3d.com
-0.0.0.0 httpkafka.unityads.unity3d.com
-0.0.0.0 publisher-event.unityads.unity3d.com
-0.0.0.0 cdn-creatives-highwinds-prd.unityads.unity3d.com
-0.0.0.0 cdn-store-icons-highwinds-prd.unityads.unity3d.com
-0.0.0.0 perf-events.cloud.unity3d.com
-0.0.0.0 auiopt.unityads.unity3d.com
-0.0.0.0 ads-gameconfiguration.unityads.unity3d.com
-0.0.0.0 cdn-creatives-highwindsprd.unityads.unity3d.com
-0.0.0.0 adserver.unityads.unity3d.com
-0.0.0.0 ads-brand-postback.unityads.unity3d.com
-0.0.0.0 nginx-auction-prd-gcp.adsx.unityads.unity3d.com
 0.0.0.0 ads-game-configuration.unityads.unity3d.com
+0.0.0.0 adserver.unityads.unity3d.com
+0.0.0.0 auction-load.unityads.unity3d.com
+0.0.0.0 auction.unityads.unity3d.com
+0.0.0.0 auiopt.unityads.unity3d.com
+0.0.0.0 build-api.cloud.unity3d.com # BuildAPI
+0.0.0.0 build-artifact-api.cloud.unity3d.com # Build Upload API
 0.0.0.0 cdn-creatives-akamaistls-prd.unityads.unity3d.com
-0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
-0.0.0.0 cdn-store-icons-akamai-prd.unityads.unity3d.com
+0.0.0.0 cdn-creatives-highwindsprd.unityads.unity3d.com
+0.0.0.0 cdn-store-icons-akamai-ord.unityads.unity3d.com
+0.0.0.0 cdn-store-icons-highwindsprd.unityads.unity3d.com
+0.0.0.0 collab-waiting-list.cloud.unity3d.com # API
+0.0.0.0 collab.cloud.unity3d.com # Collab
+0.0.0.0 commenting.cloud.unity3d.com # Comments
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 core.cloud.unity3d.com # Core
+0.0.0.0 dashboard.heyplayapp.com # Social Dashboard
+0.0.0.0 data.cloud.unity3d.com # Clouddaten
+0.0.0.0 dataoptout-ui-prd.uca.cloud.unity3d.com
+0.0.0.0 developer.cloud.unity3d.com # Dev, CoreUI
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 eloqua-trackings.unity3d.com
+0.0.0.0 embedded.cloud.unity3d.com # Core Embedded
+0.0.0.0 eu-api.uca.cloud.unity3d.com
 0.0.0.0 events.mz.unity3d.com
+0.0.0.0 httpkafka.unityads.unity3d.com
+0.0.0.0 jump.cloud.unity3d.com # Jump
+0.0.0.0 lore.cdp.internal.unity3d.com
+0.0.0.0 lore.data.ie.cdp.internal.unity3d.com
+0.0.0.0 multiplayer.unity3d.com # Mehrspieler
+0.0.0.0 nginx-auction-prd-gcp.adsx.unityads.unity3d.com
+0.0.0.0 operate-sdk-telemetry.unity3d.com
+0.0.0.0 perf.cloud.unity3d.com # Activity-Feed
+0.0.0.0 prd-lender.cdp.internal.unity3d.com # CDP Analytics
+0.0.0.0 publisher-config.unityads.unity3d.com
+0.0.0.0 sdk-diagnostics.prd.mz.internal.unity3d.com
+0.0.0.0 uca.cloud.unity3d.com
+0.0.0.0 unityads.unity3d.com # Werbung
+0.0.0.0 webview.unityads.unity3d.com
+# Unity Ads
+0.0.0.0 cdn-creatives-akamaistls-re-prd.unityads.unity3d.com
+0.0.0.0 cdn-creatives-cf-prd.acquire.unity3dusercontent.com
+0.0.0.0 cdn-creatives-tencent-prd.unityads.unitychina.cn
+0.0.0.0 cdn-store-icons-akamai-prd.unityads.unity3d.com
+0.0.0.0 cdn-store-icons-highwinds-prd.unityads.unity3d.com
+0.0.0.0 cdn-store-icons-tencent-prd.unityads.unitychina.cn
+0.0.0.0 cdn.unityads.unity3d.com
+0.0.0.0 configv2.unityads.unity3d.com
+0.0.0.0 dsp-adx-bidder.unityads.unity3d.com
+0.0.0.0 dsp-adx-tracking.unityads.unity3d.com
+0.0.0.0 dsp-adx-vast.unityads.unity3d.com
+0.0.0.0 dsp-endscreens.unityads.unity3d.com
+0.0.0.0 endscreen.unityads.unity3d.com
+0.0.0.0 endscreen.unityads.unitychina.cn
+0.0.0.0 re-static.unityads.unity3d.com
+# Telemetry, Cloud-Reports
+# Block: 35.227.244.186, 35.241.26.53, 34.111.82.212, 34.111.113.40, 35.190.78.8, 34.107.181.14, 34.107.172.168, 35.186.194.186, 34.111.113.40, 35.190.88.234
+0.0.0.0 14.181.107.34.bc.googleusercontent.com
+0.0.0.0 150.252.227.35.bc.googleusercontent.com
+0.0.0.0 168.172.107.34.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com # ALT
+0.0.0.0 40.113.111.34.bc.googleusercontent.com
+0.0.0.0 api.uca.cloud.unity3d.com # Eventtelemetrie
+0.0.0.0 cdp.cloud.unity3d.com # Eventtelemetrie
+0.0.0.0 config.uca.cloud.unity3d.com # Telemetrie Start
+0.0.0.0 hwstats.uca.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com # Cloud Reports & Crashlytics
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com # cdp.cloud.unity3d.com
+0.0.0.0 userreporting.cloud.unity3d.com
+# Obsolete
+# 35.227.244.186, 35.241.26.53, 35.241.52.229
+0.0.0.0 186.244.227.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com # Gateway
+0.0.0.0 stats.unity3d.com # Obsolete / Inaktiv
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com # JAPAN / ASIA
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com # EUROPE
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com # USA
+0.0.0.0 thind.unityads.unity3d.com
+# Wannabe Opt-Out
+0.0.0.0 data-optout-service.uca.cloud.unity3d.com
+0.0.0.0 analytics.cloud.unity3d.com # Analytics
 
 # Upltv
 0.0.0.0 ads-sdk.upltv.com
@@ -867,12 +941,18 @@
 0.0.0.0 topdata.usdget.com
 0.0.0.0 update.usdget.com
 
-# Vungle
-0.0.0.0 api.vungle.com
-0.0.0.0 ingest.vungle.com
-0.0.0.0 dsp.api.vungle.com
+# Vungle | LiftOff
+0.0.0.0 adexp.liftoff.io
 0.0.0.0 ads.api.vungle.com
+0.0.0.0 adx.ads.vungle.com
+0.0.0.0 api.vungle.com
 0.0.0.0 cdn-lb.vungle.com
+0.0.0.0 cdn.liftoff-creatives.io
+0.0.0.0 config.ads.vungle.com
+0.0.0.0 dsp.api.vungle.com
+0.0.0.0 impression-east.liftoff.io
+0.0.0.0 ingest.vungle.com
+0.0.0.0 new.ads.vungle.com
 0.0.0.0 vungle2-cdn-prod.s3.amazonaws.com
 
 # Webtrekk
@@ -949,7 +1029,6 @@
 0.0.0.0 iploc-api.mangoo-games.com
 0.0.0.0 k.isprog.com
 0.0.0.0 logs-01.loggly.com
-0.0.0.0 logs.ironsrc.mobi
 0.0.0.0 logs1204.xiti.com
 0.0.0.0 matrix.dailyinnovation.biz
 0.0.0.0 mega.ikame.vn
@@ -959,7 +1038,6 @@
 0.0.0.0 nelo2-col.linecorp.com
 0.0.0.0 newplayable.dspunion.com
 0.0.0.0 ns-eh2-prod-bn3-531.cloudapp.net
-0.0.0.0 o315582.ingest.sentry.io
 0.0.0.0 obs.line-scdn.net
 0.0.0.0 ox-d.mobile.servedbyopenx.com
 0.0.0.0 px-conf-ipv.perimeterx.net
@@ -976,11 +1054,11 @@
 0.0.0.0 splash.unity.cn
 0.0.0.0 statgw.devtodev.com
 0.0.0.0 static.hyprmx.com
+0.0.0.0 stats.playrix.com
 0.0.0.0 szeventhub.servicebus.windows.net
 0.0.0.0 track.atom-data.io
 0.0.0.0 track.libii.cn
 0.0.0.0 track.oasis.magictavern.com
-0.0.0.0 tracker-api.my.com
 0.0.0.0 tracker-api.my.com
 0.0.0.0 vector-eu-west-1.aonix.com
 0.0.0.0 vos.line-scdn.net
