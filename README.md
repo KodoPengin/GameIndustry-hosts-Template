@@ -1,5 +1,5 @@
-<h1 align="center">GameIndustry host Templates</h1>
-<h3 align="center">Unique host templates to enhance own privacy in games, websites and regulary software</h3>
+<h1 align="center">GameIndustry hosts Templates</h1>
+<h3 align="center">Unique hosts templates to enhance own privacy in games, websites and regulary software</h3>
 
 <br />
 
@@ -22,7 +22,7 @@
 ## 📝 Project Description
 In today's digital environment, business analytics, spyware, and tracking cookies in games and clients are often tacitly accepted and imposed on consumers in a pervasive manner.
 
-My published host files offer enhanced privacy protection to shield users from tracking, spyware, telemetry, malware, advertising, and redirections in games, on websites and in regular programs on both desktop and mobile systems.
+My published hosts files offer enhanced privacy protection to shield users from tracking, spyware, telemetry, malware, advertising, and redirections in games, on websites and in regular programs on both desktop and mobile systems.
 
 No third-party programs or complex or expensive installation media (PI-Hole) are required.
 
@@ -41,7 +41,7 @@ No third-party programs or complex or expensive installation media (PI-Hole) are
 - All products are separated, to inform consumers about the associations between products.
 - Additional IPv4 and IPv6 entries to block them in your firewall.
 
-### Host versions
+### Hosts versions
 - Main Template: software, websites, drivers, technology companies, gaming clients, games, and more.
 - Gaming Mini-Template: Blocks most common game analytics, spyware, and advertising services in PC games. Nothing else.
 - Gaming Full-Template: Blocks telemetry, game analytics, spyware, and unnecessary connections for gaming clients and games on and for various platforms.
@@ -56,7 +56,7 @@ Please be aware that the hosts may be read-only or require root privileges depen
 Source: <a href="https://gameindustry.eu/de/blog/hosts-datei-bearbeiten-windows-linux-android/">How to edit the hosts file</a><br>
 
 ## Easy to use Setup file:
-An easy-to-use host file setup has been created. Start your setup, choose one of 5 templates, and install.<br>
+An easy-to-use hosts file setup has been created. Start your setup, choose one of 5 templates, and install.<br>
 Source: <a href="https://www.gameindustry.eu/downloads/">GameIndustry Downloads</a><br>
 
 Supports German, English, and Japanese languages.
@@ -73,7 +73,7 @@ Blocking program components can lead to both desired and undesired outcomes. Her
 As I target connections per product, including duplicating entries and strictly blocking "critical" processes (e.g., Windows telemetry, some activation services), challenges may arise. Manufacturers often disapprove of this method, and might initiate actions leading to the deletion or significant modification of the hosts file without notification.<br>
 - Kaspersky Internet Security requires an exception rule.
 - Microsoft Windows Defender requires an exception rule.
-- IoBIT Driver Booster tends to delete most AWS entries (Block "FaultFixes.exe" to prevent unwanted host changes).
+- IoBIT Driver Booster tends to delete most AWS entries (Block "FaultFixes.exe" to prevent unwanted hosts changes).
 - Wise Care 365 may also modify the hosts file.
 - Malwarebytes generates false alerts when certain entries are present and may alter the hosts file.
 
@@ -95,7 +95,7 @@ For those who wish to support me and my project, a <a href="https://gameindustry
 
 ## © Copyright, Support & License
 This project is the work of a single individual. Creating and maintaining this list has been a years-long endeavor, involving significant time and financial investment, and was built from the ground up by me alone.<br><br>
-GameIndustry.eu is the original source for these published host files. If you find these files (or components thereof) elsewhere (possibly modified), they are not my work and therefore not supported by me.
+GameIndustry.eu is the original source for these published hosts files. If you find these files (or components thereof) elsewhere (possibly modified), they are not my work and therefore not supported by me.
 
 Website & Support: <a href="https://www.gameindustry.eu">GameIndustry.eu</a> and <a href="https://www.gameindustry.eu/contact/">Contact site</a><br>
 F.A.Q. :<a href="https://www.gameindustry.eu/faq/">F.A.Q.</a><br>
