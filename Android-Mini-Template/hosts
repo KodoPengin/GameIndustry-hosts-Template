@@ -11,7 +11,7 @@
 # Version: Template für Androidspiele und Programme - Mini-Version
 # Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
 # Kombinierbar mit anderen host Templates von GameIndustry.eu oder weiteren Quellen
-# Änderungsdatum: 13.01.2023
+# Änderungsdatum: 16.01.2023
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: noreply@gameindustry.eu
@@ -120,6 +120,12 @@
 0.0.0.0 e11942.api3.akamaiedge.net
 0.0.0.0 a1810.b.akamai.net
 
+# Amazon Ad Services
+0.0.0.0 aax-eu.amazon-adsystem.com
+0.0.0.0 aax.amazon-adsystem.com
+0.0.0.0 c.amazon-adsystem.com
+0.0.0.0 mads.amazon-adsystem.com
+
 # Amazon Cloud Service | AWS
 0.0.0.0 alb-aws-fr-bswx-2-1673521430.eu-central-1.elb.amazonaws.com
 0.0.0.0 analytics-collector-28944298.us-east-1.elb.amazonaws.com
@@ -153,21 +159,22 @@
 0.0.0.0 in.appcenter.ms
 
 # Applovin
-0.0.0.0 a.applvn.com
 0.0.0.0 a.applovin.com
-0.0.0.0 d.applvn.com
+0.0.0.0 a.applvn.com
+0.0.0.0 a4.applovin.com
+0.0.0.0 assets.applovin.com
 0.0.0.0 d.applovin.com
+0.0.0.0 d.applvn.com
+0.0.0.0 img.applovin.com
+0.0.0.0 ms.applovin.com
 0.0.0.0 ms.applvn
 0.0.0.0 ms.applvn.com
-0.0.0.0 ms.applovin.com
-0.0.0.0 rt.applvn.com
-0.0.0.0 rt.applovin.com
-0.0.0.0 img.applovin.com
-0.0.0.0 res1.applovin.com
-0.0.0.0 prod-a.applovin.com
-0.0.0.0 assets.applovin.com
 0.0.0.0 pdn.applovin.com
+0.0.0.0 prod-a.applovin.com
 0.0.0.0 prod-ms.applovin.com
+0.0.0.0 res1.applovin.com
+0.0.0.0 rt.applovin.com
+0.0.0.0 rt.applvn.com
 0.0.0.0 stage-a.applovin.com
 
 # Appnext.com
@@ -184,6 +191,7 @@
 0.0.0.0 cdn-settings.appsflyersdk.com
 0.0.0.0 cdn.appsflyer.com
 0.0.0.0 conversions.appsflyer.com
+0.0.0.0 dlsdk.appsflyer.com
 0.0.0.0 events.appsflyer.com
 0.0.0.0 fvalid.appsflyer.com
 0.0.0.0 gcdsdk.appsflyer.com
@@ -372,6 +380,7 @@
 0.0.0.0 infinitedata-pa.googleapis.com
 0.0.0.0 instantmessaging-pa.googleapis.com
 0.0.0.0 lamssettings-pa.googleapis.com
+0.0.0.0 locationhistory-pa.googleapis.com
 0.0.0.0 mdh-pa.googleapis.com
 0.0.0.0 mobilemaps-pa-gz.googleapis.com
 0.0.0.0 mobilemaps-pa.googleapis.com
@@ -458,6 +467,7 @@
 # Google App-Measurement
 # 216.58.207.46
 0.0.0.0 app-measurement.com
+0.0.0.0 region1.app-measurement.com
 # Google Downloads 
 0.0.0.0 clients.l.google.com # android.apis.google.com
 0.0.0.0 clients1.google.com
@@ -739,6 +749,10 @@
 # Saygames
 0.0.0.0 track.saygames.io
 
+# Sentry.io
+0.0.0.0 o92387.ingest.sentry.io
+0.0.0.0 browser.sentry-cdn.com
+
 # Splkmobile
 0.0.0.0 a8221c8e.api.splkmobile.com
 
@@ -909,7 +923,13 @@
 0.0.0.0 dsp-endscreens.unityads.unity3d.com
 0.0.0.0 endscreen.unityads.unity3d.com
 0.0.0.0 endscreen.unityads.unitychina.cn
+0.0.0.0 gw.mediation.unity3d.com
+0.0.0.0 hbevents.mz.unity3d.com
+0.0.0.0 o-iab.mediation.unity3d.com
+0.0.0.0 o-sdk.mediation.unity3d.com
+0.0.0.0 publisher-event.unityads.unity3d.com
 0.0.0.0 re-static.unityads.unity3d.com
+0.0.0.0 w.isx.unity3d.com
 # Telemetry, Cloud-Reports
 # Block: 35.227.244.186, 35.241.26.53, 34.111.82.212, 34.111.113.40, 35.190.78.8, 34.107.181.14, 34.107.172.168, 35.186.194.186, 34.111.113.40, 35.190.88.234
 0.0.0.0 14.181.107.34.bc.googleusercontent.com
@@ -957,6 +977,7 @@
 0.0.0.0 cdn.liftoff-creatives.io
 0.0.0.0 config.ads.vungle.com
 0.0.0.0 dsp.api.vungle.com
+0.0.0.0 events.ads.vungle.com
 0.0.0.0 impression-east.liftoff.io
 0.0.0.0 ingest.vungle.com
 0.0.0.0 new.ads.vungle.com
