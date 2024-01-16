@@ -362,7 +362,6 @@
 #0.0.0.0 android.googleapis.com # Playstore
 #0.0.0.0 people-pa.googleapis.com # Zuständig für Synchronisation von Kalender und Kontakten
 #0.0.0.0 securetoken.googleapis.com
-#0.0.0.0 www.googleapis.com
 #0.0.0.0 www.googleapis.com # Synchronisation
 0.0.0.0 chromesyncpasswords-pa.googleapis.com
 0.0.0.0 clientservices.googleapis.com
