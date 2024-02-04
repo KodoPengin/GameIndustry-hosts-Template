@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 18.11.2023
+# Änderungsdatum: 04.02.2024
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -2051,7 +2051,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 worldofgoo.com
 0.0.0.0 2dboy.com
 
-# 2K Games & 2K
+# 2K
 # Borderlands I, II und Pre Sequel
 # Ip/s blockieren:
 # 143.204.181.65
@@ -2129,23 +2129,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 xblcxplatqos-scus-9-18-2-0.cloudapp.net
 #0.0.0.0 pfmsqosprod.westeurope.cloudapp.azure.com
 #0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com
-
-#0.0.0.0 account.services.gearboxsoftware.com
-#0.0.0.0 cdn.services.gearboxsoftware.com # CFG
-#0.0.0.0 chat.shift.services.gearbox.com # Chat
-#0.0.0.0 discovery.services.gearboxsoftware.com # Logincounter
-#0.0.0.0 fellowship.shift.services.gearbox.com # FriendID, Groups, Linked Services, ServiceID
-#0.0.0.0 fr-turn2.xirsys.com
-#0.0.0.0 global.xirsys.net
-#0.0.0.0 hermes.shift.services.gearbox.com # Crossplay
-#0.0.0.0 odyssey.shift.services.gearbox.com # Maps, Beschreibungen, Matchregeln
-#0.0.0.0 tribe.shift.services.gearbox.com # Spielerklassen, Kartennamen, Playerlevel, SessionID, Menu-Tracking
-#0.0.0.0 zeppelin.shift.services.gearbox.com # Serverliste
-0.0.0.0 maw.services.gearboxsoftware.com # GBX-Telemetry
-0.0.0.0 mercury.shift.services.gearbox.com
-0.0.0.0 news.shift.services.gearbox.com # Werbung
-0.0.0.0 ttwxp-mim.vivox.com
-0.0.0.0 ttwxp.www.vivox.com # Sprachchat per default aktiv
 
 # Mafia II: Definitive Edition 2020
 # 192.81.242.131
@@ -2351,21 +2334,64 @@ ff02::3 ip6-allhosts
 # 74.201.103.216
 #0.0.0.0 account.services.gearboxsoftware.com
 #0.0.0.0 avatars.steamstatic.com
-#0.0.0.0 cdn.services.gearboxsoftware.com
-#0.0.0.0 chat.shift.services.gearbox.com
-#0.0.0.0 discovery.services.gearboxsoftware.com
-#0.0.0.0 fellowship.shift.services.gearbox.com
+#0.0.0.0 cdn.services.gearboxsoftware.com # CFG
+#0.0.0.0 chat.shift.services.gearbox.com # Chat
+#0.0.0.0 discovery.services.gearboxsoftware.com # Logincounter
+#0.0.0.0 fellowship.shift.services.gearbox.com # FriendID, Groups, Linked Services, ServiceID
 #0.0.0.0 fr-turn2.xirsys.com
 #0.0.0.0 global.xirsys.net
-#0.0.0.0 hermes.shift.services.gearbox.com
-#0.0.0.0 odyssey.shift.services.gearbox.com
-#0.0.0.0 tribe.shift.services.gearbox.com
-#0.0.0.0 zeppelin.shift.services.gearbox.com
-0.0.0.0 maw.services.gearboxsoftware.com
+#0.0.0.0 hermes.shift.services.gearbox.com # Crossplay
+#0.0.0.0 odyssey.shift.services.gearbox.com # Maps, Beschreibungen, Matchregeln
+#0.0.0.0 tribe.shift.services.gearbox.com # Spielerklassen, Kartennamen, Playerlevel, SessionID, Menu-Tracking
+#0.0.0.0 zeppelin.shift.services.gearbox.com # Serverliste
+0.0.0.0 maw.services.gearboxsoftware.com # GBX-Telemetry
 0.0.0.0 mercury.shift.services.gearbox.com
-0.0.0.0 news.shift.services.gearbox.com
+0.0.0.0 news.shift.services.gearbox.com # Werbung
 0.0.0.0 ttwxp-mim.vivox.com
-0.0.0.0 ttwxp.www.vivox.com
+0.0.0.0 ttwxp.www.vivox.com # Sprachchat per default aktiv
+#0.0.0.0 pfmsqosprod2-0.southcentralus.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod2-0.northeurope.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod2-0.japanwest.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod2-0.australiaeast.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod2-0.westeurope.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod2-0.southeastasia.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod2-0.eastus.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod2-0.centralus.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod2-0.brazilsouth.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod2-0.westus.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod2-0.japaneast.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod2-0.northcentralus.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod2-0.eastasia.cloudapp.azure.com
+
+# The Quarry
+# Details: https://gameindustry.eu/reviews/the-quarry/
+# 74.125.193.95
+# 34.120.195.249
+# 172.64.147.119
+# 104.18.40.137
+# 13.32.27.18
+# 13.32.27.114
+# 13.32.27.12
+# 13.32.27.50
+# 209.85.203.94
+# 192.81.242.131
+# 192.81.242.130
+# 3.215.5.47
+# 3.233.137.139
+# 34.226.79.9
+# 52.201.133.79
+# 88.221.110.192
+#0.0.0.0 fonts.googleapis.com
+0.0.0.0 o433356.ingest.sentry.io
+0.0.0.0 content.t2gp.take2games.com
+#0.0.0.0 images.ctfassets.net
+#0.0.0.0 update.googleapis.com
+#0.0.0.0 download-t2gp.take2games.com
+0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com # Telemetry
+#0.0.0.0 34acf0414d836d3f8d491c6186153694.my.2k.com # Auth, Token, Heartbeat + JSON Webtoken encrypted Geodata & Fingerprint
+0.0.0.0 telemetryk.api.2kcoretech.online
+#0.0.0.0 a88-221-110-192.deploy.static.akamaitechnologies.com
+#0.0.0.0 ec2-52-201-133-79.compute-1.amazonaws.com
 
 # WWE Titel seitens 2K abgeschaltet, kein Support oder Onlinefunktionen
 # WWE 2016
@@ -10394,6 +10420,41 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 
 # Grinding Gear Games
+# Path of Exile - Standalone Version
+#0.0.0.0 www.pathofexile.com
+#0.0.0.0 patch.poecdn.com
+#0.0.0.0 patch2.pathofexile.com
+#0.0.0.0 patch3.pathofexile.com
+#0.0.0.0 patch4.pathofexile.com
+#0.0.0.0 web.poecdn.com
+#0.0.0.0 ams01.login.pathofexile.com
+#0.0.0.0 login.pathofexile.com
+#0.0.0.0 login.tw.pathofexile.com
+#0.0.0.0 login2.tw.pathofexile.com
+#0.0.0.0 login3.tw.pathofexile.com
+#0.0.0.0 th.pathofexile.com
+#0.0.0.0 patch-kr.pathofexile.com
+#0.0.0.0 us.speedtest.pathofexile.com
+#0.0.0.0 eu.speedtest.pathofexile.com
+#0.0.0.0 sjc.speedtest.pathofexile.com
+#0.0.0.0 fra.speedtest.pathofexile.com
+#0.0.0.0 lon.speedtest.pathofexile.com
+#0.0.0.0 sg.speedtest.pathofexile.com
+#0.0.0.0 au.speedtest.pathofexile.com
+#0.0.0.0 mil.speedtest.pathofexile.com
+#0.0.0.0 br.speedtest.pathofexile.com
+#0.0.0.0 par.speedtest.pathofexile.com
+#0.0.0.0 mo.speedtest.pathofexile.com
+#0.0.0.0 tor.speedtest.pathofexile.com
+#0.0.0.0 jp.speedtest.pathofexile.com
+#0.0.0.0 zaf-m.speedtest.pathofexile.com
+0.0.0.0 unity-ams1-ip-holder
+#0.0.0.0 5c3e588941d14ffb8518633c807228b9.pacloudflare.com
+#0.0.0.0 speedtest.sjc01.softlayer.com
+#0.0.0.0 speedtest.dal09.softlayer.com
+#0.0.0.0 speedtest.wdc01.softlayer.com
+#0.0.0.0 speedtest.mil01.softlayer.com
+
 # Path of Exile inkl. Steam Version
 # Chinesische Version unter 流放之路 zu finden
 0.0.0.0 hk2-eap.settings.data.microsoft.com.akadns.net.com
@@ -10964,6 +11025,35 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 0.0.0.0 ec2-35-162-118-172.us-west-2.compute.amazonaws.com
 0.0.0.0 magpole.eus
+
+# Hooded Horse
+# Against the Storm
+# 44.193.93.112
+# 44.194.235.77
+# 44.207.23.191
+# 54.236.91.93
+# 52.203.116.199
+# 52.21.194.159
+# 3.232.209.239
+# 18.211.176.33
+# 3.91.171.253
+# 34.111.113.40
+# 34.107.172.168
+# 34.107.181.14
+# 35.190.78.8
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 userreporting.cloud.unity3d.com
+0.0.0.0 cognito-identity.us-east-1.amazonaws.com
+0.0.0.0 kinesis.us-east-1.amazonaws.com
+#0.0.0.0 api.steampowered.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 14.181.107.34.bc.googleusercontent.com
+0.0.0.0 168.172.107.34.bc.googleusercontent.com
+0.0.0.0 40.113.111.34.bc.googleusercontent.com
 
 # HONG KONG SPARK SOFTWARE TECHNOLOGY CO., LIMITED
 # Idle Big Devil
@@ -13241,6 +13331,29 @@ ff02::3 ip6-allhosts
 0.0.0.0 98.127.149.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
+# Spirit of the Island
+# 172.65.244.245
+# 185.14.47.18
+# 194.99.80.193
+# 202.78.174.56
+# 216.120.180.112
+# 216.120.180.117
+# 216.120.180.26
+# 216.120.180.31
+# 216.120.180.4
+# 216.120.180.56
+# 216.120.180.87
+# 31.223.184.154
+# 45.67.211.193
+# 5.189.220.193
+# 79.133.126.228
+# 91.199.81.130
+# 91.243.81.149
+0.0.0.0 perf-events.cloud.unity3d.com
+#0.0.0.0 forms.gle
+#0.0.0.0 ns.photonengine.io
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+
 # Metalhead Software Inc.
 # Super Mega Baseball: Extra Innings
 # 208.64.200.105
@@ -13968,7 +14081,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
-# Ndemic Creations
+# Ndemic Creations LTD
 # Plague Inc: Evolved
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
@@ -13984,6 +14097,23 @@ ff02::3 ip6-allhosts
 #0.0.0.0 www.kickstarter.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.ndemiccreations.com
+
+# Rebel Inc: Escalation
+# 34.111.113.40
+# 34.107.172.168
+# 51.159.75.255
+# 23.199.218.33
+# 184.25.50.50
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+#0.0.0.0 s.ndemiccreations.com
+0.0.0.0 t.ndemiccreations.com
+#0.0.0.0 api.steampowered.com
+#0.0.0.0 avatars.steamstatic.com
+0.0.0.0 40.113.111.34.bc.googleusercontent.com
+0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
 # NedoStudio
 # Qvabllock
@@ -17560,6 +17690,29 @@ ff02::3 ip6-allhosts
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 bam.nr-data.net
 
+# Two Point Campus
+# s. Rubrik Kopierschutz / AntiCheat
+# 185.172.148.132
+# 54.167.181.158
+# 52.229.156.245
+# 20.120.129.22
+# 34.250.181.230
+# 54.155.54.75
+# 54.74.35.51
+# 23.67.133.187
+# 13.32.121.14
+# 185.172.148.128
+# 34.251.230.174
+# 34.242.22.139
+# 63.34.235.118
+#0.0.0.0 cdn.assets.twopointstudios.com
+#0.0.0.0 api.steampowered.com
+0.0.0.0 events.backtrace.io
+0.0.0.0 garry.sgaas.net
+#0.0.0.0 e6e0f.playfabapi.com
+0.0.0.0 www.twopointstudios.com
+#0.0.0.0 account.service.community.twopointcounty.com
+
 # Two Point Hospital
 # Ip/s blockieren:
 # 52.48.186.45
@@ -19972,7 +20125,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
-# THQ Nordic
+# THQ Nordic GmbH
 # Aquanox Deep Descent
 # Telemetrie und Heartbeat sind von Anbeginn aktiv. Leider werden die Adressen wie z.b. in die Gilde 3 un Spellforce 3 für Mehrspieler benötigt
 # Bei Bedarf de/aktivieren
@@ -19995,6 +20148,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
+
+# Biomutant
+# s. Eintrag Steam: IP Checks
+# Ipv4: https://gameindustry.eu/katalog/epic-games-inc/
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Darksiders III
 #0.0.0.0 steamcloud-eu-ams.storage.googleapis.com
@@ -20026,6 +20185,17 @@ ff02::3 ip6-allhosts
 #0.0.0.0 static.66.252.130.94.clients.your-server.de
 #0.0.0.0 static.87.139.47.78.clients.your-server.de
 #0.0.0.0 static.197.12.203.116.clients.your-server.de
+
+# Expeditions: Rome
+# 54.191.113.36
+# 34.212.224.15
+# 88.198.206.113
+0.0.0.0 gamelink.muxy.io
+0.0.0.0 expeditionsseries.com
+0.0.0.0 rome-drops.muxy.io
+0.0.0.0 ec2-34-212-224-15.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-54-191-113-36.us-west-2.compute.amazonaws.com
+0.0.0.0 static.88-198-206-113.clients.your-server.de
 
 # Fade to Silence
 # Umfrage im Hauptmenü | Wer Google/Docs benötigt beide Adressen mitsamt Gstatic aktiv lassen
@@ -20363,13 +20533,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
-
-# THQ / Embracer
-# Biomutant
-# s. Eintrag Steam: IP Checks
-# Ipv4: https://gameindustry.eu/katalog/epic-games-inc/
-0.0.0.0 datarouter.ol.epicgames.com
-0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Thunder Lotus Games
 # Jotun: Valhalla Edition
@@ -21133,14 +21296,15 @@ ff02::3 ip6-allhosts
 # Ungefragte Datenweitergabe von persönlichen Informationen, Block auf allen Ebenen wird empfohlen
 # Infos auf https://unity3d.com/de/legal/privacy-policy
 #0.0.0.0 accounts.unity3d.com # WebAUTH
-#0.0.0.0 api.unity.com # Genesis API, Identifizierung, Webseitenanmeldung
-#0.0.0.0 id.unity.com # Genesis API URL, Webseitenanmeldung
+#0.0.0.0 api.unity.com # Genesis API
+#0.0.0.0 id.unity.com # Genesis API URL
 #0.0.0.0 license.unity3d.com # Lizenzserver
-#0.0.0.0 public-cdn.cloud.unity3d.com # Hub/Setup Installer z.b. über VisualStudio
+#0.0.0.0 public-cdn.cloud.unity3d.com # Hub/Setup
 0.0.0.0 activation.unity3d.com # Aktivierung
 0.0.0.0 ads-brand-postback.unityads.unity3d.com
 0.0.0.0 ads-game-configuration.unityads.unity3d.com
 0.0.0.0 adserver.unityads.unity3d.com
+0.0.0.0 auction-load.unityads.unity3d.com
 0.0.0.0 auction.unityads.unity3d.com
 0.0.0.0 auiopt.unityads.unity3d.com
 0.0.0.0 build-api.cloud.unity3d.com # BuildAPI
@@ -21149,19 +21313,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn-creatives-highwindsprd.unityads.unity3d.com
 0.0.0.0 cdn-store-icons-akamai-ord.unityads.unity3d.com
 0.0.0.0 cdn-store-icons-highwindsprd.unityads.unity3d.com
-0.0.0.0 collab-waiting-list.cloud.unity3d.com # Warteliste API
+0.0.0.0 collab-waiting-list.cloud.unity3d.com # API
 0.0.0.0 collab.cloud.unity3d.com # Collab
-0.0.0.0 commenting.cloud.unity3d.com # Kommentare
+0.0.0.0 commenting.cloud.unity3d.com # Comments
 0.0.0.0 config.unityads.unity3d.com
 0.0.0.0 core.cloud.unity3d.com # Core
 0.0.0.0 dashboard.heyplayapp.com # Social Dashboard
 0.0.0.0 data.cloud.unity3d.com # Clouddaten
 0.0.0.0 dataoptout-ui-prd.uca.cloud.unity3d.com
-0.0.0.0 developer.cloud.unity3d.com # Entwicklung, CoreUI, Warteliste
+0.0.0.0 developer.cloud.unity3d.com # Dev, CoreUI
 0.0.0.0 ecommerce.iap.unity3d.com
 0.0.0.0 eloqua-trackings.unity3d.com
 0.0.0.0 embedded.cloud.unity3d.com # Core Embedded
 0.0.0.0 eu-api.uca.cloud.unity3d.com
+0.0.0.0 events.mz.unity3d.com
 0.0.0.0 httpkafka.unityads.unity3d.com
 0.0.0.0 jump.cloud.unity3d.com # Jump
 0.0.0.0 lore.cdp.internal.unity3d.com
@@ -21178,11 +21343,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 webview.unityads.unity3d.com
 # Unity Ads
 0.0.0.0 cdn-creatives-akamaistls-re-prd.unityads.unity3d.com
+0.0.0.0 cdn-creatives-cf-prd.acquire.unity3dusercontent.com
 0.0.0.0 cdn-creatives-tencent-prd.unityads.unitychina.cn
 0.0.0.0 cdn-store-icons-akamai-prd.unityads.unity3d.com
 0.0.0.0 cdn-store-icons-highwinds-prd.unityads.unity3d.com
 0.0.0.0 cdn-store-icons-tencent-prd.unityads.unitychina.cn
 0.0.0.0 cdn.unityads.unity3d.com
+0.0.0.0 configv2.unityads.unity3d.com
 0.0.0.0 dsp-adx-bidder.unityads.unity3d.com
 0.0.0.0 dsp-adx-tracking.unityads.unity3d.com
 0.0.0.0 dsp-adx-vast.unityads.unity3d.com
@@ -21203,33 +21370,34 @@ ff02::3 ip6-allhosts
 # 35.186.194.186
 # 34.111.113.40
 # 35.190.88.234
-0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com # Telemetrie Start
+0.0.0.0 14.181.107.34.bc.googleusercontent.com
+0.0.0.0 150.252.227.35.bc.googleusercontent.com
+0.0.0.0 168.172.107.34.bc.googleusercontent.com
+0.0.0.0 186.194.186.35.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com # ALT
+0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 api.uca.cloud.unity3d.com # Eventtelemetrie
 0.0.0.0 cdp.cloud.unity3d.com # Eventtelemetrie
-0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com # cdp.cloud.unity3d.com
-0.0.0.0 perf-events.cloud.unity3d.com # Cloud Reports & Crashlytics
+0.0.0.0 config.uca.cloud.unity3d.com # Telemetrie Start
 0.0.0.0 hwstats.uca.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com # Cloud Reports & Crashlytics
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com # cdp.cloud.unity3d.com
 0.0.0.0 userreporting.cloud.unity3d.com
-0.0.0.0 14.181.107.34.bc.googleusercontent.com
-0.0.0.0 186.194.186.35.bc.googleusercontent.com
-0.0.0.0 150.252.227.35.bc.googleusercontent.com
-0.0.0.0 40.113.111.34.bc.googleusercontent.com
-0.0.0.0 168.172.107.34.bc.googleusercontent.com
-0.0.0.0 212.82.111.34.bc.googleusercontent.com # ALT
 # Veraltet / Obsolete
 # Ip/s blockieren:
 # 35.227.244.186
 # 35.241.26.53
 # 35.241.52.229
-0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com # Gateway
-0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com # EUROPE
-0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com # JAPAN / ASIA
-0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com # USA
 0.0.0.0 186.244.227.35.bc.googleusercontent.com
-0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com # Gateway
 0.0.0.0 stats.unity3d.com # Obsolete / Inaktiv
+0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com # JAPAN / ASIA
+0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com # EUROPE
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com # USA
+0.0.0.0 thind.unityads.unity3d.com
 # Data-Optout leitet auf Analytics mitsamt Übergabeparameter/Token weiter. Dazu gehören ProgrammID, UserID, GeräteID
 # Außerdem Einstellungen zu de/aktivierten Analytics, Optout ja/nein, Report erlaubt ja/nein
 # Bei Bedarf de/aktivieren
