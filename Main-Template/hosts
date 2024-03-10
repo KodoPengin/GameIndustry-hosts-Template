@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 03.03.2024
+# Änderungsdatum: 10.03.2024
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -82,7 +82,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www-google-analytics.l.google.com
 
 # ACDSee Photo Studio Ultimate 2024
-ä {- Ipv4: https://gameindustry.eu/en/search/?suchbegriff=ACDSee+Photo+Studio+Ultimate+2024
+# {- Ipv4: https://gameindustry.eu/en/search/?suchbegriff=ACDSee+Photo+Studio+Ultimate+2024
 0.0.0.0 cdn.onesignal.com
 0.0.0.0 img.onesignal.com
 0.0.0.0 cdn.polyfill.io
