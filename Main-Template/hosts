@@ -28914,9 +28914,10 @@ ff02::3 ip6-allhosts
 
 # Epic Games Datarouter
 # Ipv4/6 Adressen - https://gameindustry.eu/katalog/epic-games-inc/
-0.0.0.0 datarouter.ol.epicgames.com
-0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 datarouter-prod.ak.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 datarouter.cfef.live.use1a.on.epicgames.com
+0.0.0.0 datarouter.ol.epicgames.com
 
 # Paradox Interactive AB
 # Paradox Launcher
