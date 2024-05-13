@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: hosts Datei - Komplett mit allen Einträgen
-# Änderungsdatum: 10.03.2024
+# Änderungsdatum: 13.05.2024
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -82,7 +82,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www-google-analytics.l.google.com
 
 # ACDSee Photo Studio Ultimate 2024
-# {- Ipv4: https://gameindustry.eu/en/search/?suchbegriff=ACDSee+Photo+Studio+Ultimate+2024
+# Ipv4: https://gameindustry.eu/en/search/?suchbegriff=ACDSee+Photo+Studio+Ultimate+2024
 0.0.0.0 cdn.onesignal.com
 0.0.0.0 img.onesignal.com
 0.0.0.0 cdn.polyfill.io
@@ -3863,16 +3863,37 @@ ff02::3 ip6-allhosts
 0.0.0.0 0fslvakw42ai.l4.adsco.re
 0.0.0.0 0fslvakw42ai.n4.adsco.re
 0.0.0.0 0fslvakw42ai.s4.adsco.re
+0.0.0.0 0wptdm7tkqij.l4.adsco.re
+0.0.0.0 0wptdm7tkqij.n4.adsco.re
+0.0.0.0 0wptdm7tkqij.s4.adsco.re
 0.0.0.0 1n3ag5pbgnuw.l4.adsco.re
 0.0.0.0 1n3ag5pbgnuw.n4.adsco.re
 0.0.0.0 1n3ag5pbgnuw.s4.adsco.re
 0.0.0.0 2fkb47s9jmdb.l4.adsco.re
 0.0.0.0 2fkb47s9jmdb.n4.adsco.re
 0.0.0.0 2fkb47s9jmdb.s4.adsco.re
+0.0.0.0 2uqui7y34rg7.l4.adsco.re
+0.0.0.0 2uqui7y34rg7.n4.adsco.re
+0.0.0.0 2uqui7y34rg7.s4.adsco.re
+0.0.0.0 33s5sz4zdpgf.l4.adsco.re
+0.0.0.0 33s5sz4zdpgf.n4.adsco.re
+0.0.0.0 33s5sz4zdpgf.s4.adsco.re
+0.0.0.0 3987ndeyp4pu.l4.adsco.re
+0.0.0.0 3987ndeyp4pu.n4.adsco.re
+0.0.0.0 3987ndeyp4pu.s4.adsco.re
 0.0.0.0 4.adsco.re
+0.0.0.0 43dhdthvul4r.l4.adsco.re
+0.0.0.0 43dhdthvul4r.n4.adsco.re
+0.0.0.0 43dhdthvul4r.s4.adsco.re
+0.0.0.0 4puctmmdhvbx.l4.adsco.re
+0.0.0.0 4puctmmdhvbx.n4.adsco.re
+0.0.0.0 4puctmmdhvbx.s4.adsco.re
 0.0.0.0 59umb0kq0xxa.l4.adsco.re
 0.0.0.0 59umb0kq0xxa.n4.adsco.re
 0.0.0.0 59umb0kq0xxa.s4.adsco.re
+0.0.0.0 5oidk40vvick.l4.adsco.re
+0.0.0.0 5oidk40vvick.n4.adsco.re
+0.0.0.0 5oidk40vvick.s4.adsco.re
 0.0.0.0 5st9yewtczil.l4.adsco.re
 0.0.0.0 5st9yewtczil.n4.adsco.re
 0.0.0.0 5st9yewtczil.s4.adsco.re
@@ -3895,6 +3916,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 6lfiohstdkrd.l4.adsco.re
 0.0.0.0 6lfiohstdkrd.n4.adsco.re
 0.0.0.0 6lfiohstdkrd.s4.adsco.re
+0.0.0.0 6nir0sileidh.l4.adsco.re
+0.0.0.0 6nir0sileidh.n4.adsco.re
+0.0.0.0 6nir0sileidh.s4.adsco.re
 0.0.0.0 6tre8e0sj1gt.l4.adsco.re
 0.0.0.0 6tre8e0sj1gt.n4.adsco.re
 0.0.0.0 6tre8e0sj1gt.s4.adsco.re
@@ -3904,13 +3928,37 @@ ff02::3 ip6-allhosts
 0.0.0.0 892vz5omfryv.l4.adsco.re
 0.0.0.0 892vz5omfryv.n4.adsco.re
 0.0.0.0 892vz5omfryv.s4.adsco.re
+0.0.0.0 8d4qmcxrynxt.l4.adsco.re
+0.0.0.0 8d4qmcxrynxt.n4.adsco.re
+0.0.0.0 8d4qmcxrynxt.s4.adsco.re
+0.0.0.0 8w1irq4vkugn.l4.adsco.re
+0.0.0.0 8w1irq4vkugn.n4.adsco.re
+0.0.0.0 8w1irq4vkugn.s4.adsco.re
+0.0.0.0 9gvjpb1ntd1q.l4.adsco.re
+0.0.0.0 9gvjpb1ntd1q.n4.adsco.re
+0.0.0.0 9gvjpb1ntd1q.s4.adsco.re
 0.0.0.0 9runjmefhwjr.l4.adsco.re
 0.0.0.0 9runjmefhwjr.n4.adsco.re
 0.0.0.0 9runjmefhwjr.s4.adsco.re
 0.0.0.0 ab0lldvbj9lm.l4.adsco.re
 0.0.0.0 ab0lldvbj9lm.n4.adsco.re
 0.0.0.0 ab0lldvbj9lm.s4.adsco.re
+0.0.0.0 acfcawmmdzxr.l4.adsco.re
+0.0.0.0 acfcawmmdzxr.n4.adsco.re
+0.0.0.0 acfcawmmdzxr.s4.adsco.re
 0.0.0.0 adsco.re
+0.0.0.0 agpawv50tdaa.l4.adsco.re
+0.0.0.0 agpawv50tdaa.n4.adsco.re
+0.0.0.0 agpawv50tdaa.s4.adsco.re
+0.0.0.0 ajafhleqswar.l4.adsco.re
+0.0.0.0 ajafhleqswar.n4.adsco.re
+0.0.0.0 ajafhleqswar.s4.adsco.re
+0.0.0.0 apm7q6inpztl.l4.adsco.re
+0.0.0.0 apm7q6inpztl.n4.adsco.re
+0.0.0.0 apm7q6inpztl.s4.adsco.re
+0.0.0.0 apwxe3pqfrju.l4.adsco.re
+0.0.0.0 apwxe3pqfrju.n4.adsco.re
+0.0.0.0 apwxe3pqfrju.s4.adsco.re
 0.0.0.0 au64tdffcan9.l4.adsco.re
 0.0.0.0 au64tdffcan9.n4.adsco.re
 0.0.0.0 au64tdffcan9.s4.adsco.re
@@ -3923,6 +3971,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 b9miizkms4ht.l4.adsco.re
 0.0.0.0 b9miizkms4ht.n4.adsco.re
 0.0.0.0 b9miizkms4ht.s4.adsco.re
+0.0.0.0 bcfhkv07fhnr.l4.adsco.re
+0.0.0.0 bcfhkv07fhnr.n4.adsco.re
+0.0.0.0 bcfhkv07fhnr.s4.adsco.re
 0.0.0.0 bl89cyxcwh9t.l4.adsco.re
 0.0.0.0 bl89cyxcwh9t.n4.adsco.re
 0.0.0.0 bl89cyxcwh9t.s4.adsco.re
@@ -3933,12 +3984,27 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdt3469ssela.l4.adsco.re
 0.0.0.0 cdt3469ssela.n4.adsco.re
 0.0.0.0 cdt3469ssela.s4.adsco.re
+0.0.0.0 ctdmkhu9ml4l.l4.adsco.re
+0.0.0.0 ctdmkhu9ml4l.n4.adsco.re
+0.0.0.0 ctdmkhu9ml4l.s4.adsco.re
+0.0.0.0 cv4fjthtxobo.l4.adsco.re
+0.0.0.0 cv4fjthtxobo.n4.adsco.re
+0.0.0.0 cv4fjthtxobo.s4.adsco.re
+0.0.0.0 dbdksfxs39gn.l4.adsco.re
+0.0.0.0 dbdksfxs39gn.n4.adsco.re
+0.0.0.0 dbdksfxs39gn.s4.adsco.re
 0.0.0.0 ddqbnx2h4iih.l4.adsco.re
 0.0.0.0 ddqbnx2h4iih.n4.adsco.re
 0.0.0.0 ddqbnx2h4iih.s4.adsco.re
+0.0.0.0 duf5vhzgzlf9.l4.adsco.re
+0.0.0.0 duf5vhzgzlf9.n4.adsco.re
+0.0.0.0 duf5vhzgzlf9.s4.adsco.re
 0.0.0.0 dvi9vooup0tv.l4.adsco.re
 0.0.0.0 dvi9vooup0tv.n4.adsco.re
 0.0.0.0 dvi9vooup0tv.s4.adsco.re
+0.0.0.0 e1nvr8uobbm6.l4.adsco.re
+0.0.0.0 e1nvr8uobbm6.n4.adsco.re
+0.0.0.0 e1nvr8uobbm6.s4.adsco.re
 0.0.0.0 e6nhi2abu8hs.l4.adsco.re
 0.0.0.0 e6nhi2abu8hs.n4.adsco.re
 0.0.0.0 e6nhi2abu8hs.s4.adsco.re
@@ -3951,12 +4017,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 enxxjaqf06in.l4.adsco.re
 0.0.0.0 enxxjaqf06in.n4.adsco.re
 0.0.0.0 enxxjaqf06in.s4.adsco.re
+0.0.0.0 exv3wkghzc4u.l4.adsco.re
+0.0.0.0 exv3wkghzc4u.n4.adsco.re
+0.0.0.0 exv3wkghzc4u.s4.adsco.re
 0.0.0.0 ezb45uyvtz6d.l4.adsco.re
 0.0.0.0 ezb45uyvtz6d.n4.adsco.re
 0.0.0.0 ezb45uyvtz6d.s4.adsco.re
 0.0.0.0 f9w5txs5zdew.l4.adsco.re
 0.0.0.0 f9w5txs5zdew.n4.adsco.re
 0.0.0.0 f9w5txs5zdew.s4.adsco.re
+0.0.0.0 felptagjlobm.l4.adsco.re
+0.0.0.0 felptagjlobm.n4.adsco.re
+0.0.0.0 felptagjlobm.s4.adsco.re
+0.0.0.0 fhgw1faffexk.l4.adsco.re
+0.0.0.0 fhgw1faffexk.n4.adsco.re
+0.0.0.0 fhgw1faffexk.s4.adsco.re
 0.0.0.0 firzk8xwvj5t.l4.adsco.re
 0.0.0.0 firzk8xwvj5t.n4.adsco.re
 0.0.0.0 firzk8xwvj5t.s4.adsco.re
@@ -3966,12 +4041,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 g7bvvrrt5gzq.l4.adsco.re
 0.0.0.0 g7bvvrrt5gzq.n4.adsco.re
 0.0.0.0 g7bvvrrt5gzq.s4.adsco.re
+0.0.0.0 gbddf5tpfszo.l4.adsco.re
+0.0.0.0 gbddf5tpfszo.n4.adsco.re
+0.0.0.0 gbddf5tpfszo.s4.adsco.re
+0.0.0.0 giarze7oust3.l4.adsco.re
+0.0.0.0 giarze7oust3.n4.adsco.re
+0.0.0.0 giarze7oust3.s4.adsco.re
+0.0.0.0 gktxdghzcmt8.l4.adsco.re
+0.0.0.0 gktxdghzcmt8.n4.adsco.re
+0.0.0.0 gktxdghzcmt8.s4.adsco.re
 0.0.0.0 godzctt1zcxw.l4.adsco.re
 0.0.0.0 godzctt1zcxw.n4.adsco.re
 0.0.0.0 godzctt1zcxw.s4.adsco.re
 0.0.0.0 gqrwofnzidts.l4.adsco.re
 0.0.0.0 gqrwofnzidts.n4.adsco.re
 0.0.0.0 gqrwofnzidts.s4.adsco.re
+0.0.0.0 gtdcaqlazt75.l4.adsco.re
+0.0.0.0 gtdcaqlazt75.n4.adsco.re
+0.0.0.0 gtdcaqlazt75.s4.adsco.re
 0.0.0.0 ha8egexd88zh.l4.adsco.re
 0.0.0.0 ha8egexd88zh.n4.adsco.re
 0.0.0.0 ha8egexd88zh.s4.adsco.re
@@ -3981,6 +4068,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 ho7aicrdczhm.l4.adsco.re
 0.0.0.0 ho7aicrdczhm.n4.adsco.re
 0.0.0.0 ho7aicrdczhm.s4.adsco.re
+0.0.0.0 hpd7fsogubtd.l4.adsco.re
+0.0.0.0 hpd7fsogubtd.n4.adsco.re
+0.0.0.0 hpd7fsogubtd.s4.adsco.re
+0.0.0.0 hpezhbv5fm6w.l4.adsco.re
+0.0.0.0 hpezhbv5fm6w.n4.adsco.re
+0.0.0.0 hpezhbv5fm6w.s4.adsco.re
+0.0.0.0 hvc0s0ot5bio.l4.adsco.re
+0.0.0.0 hvc0s0ot5bio.n4.adsco.re
+0.0.0.0 hvc0s0ot5bio.s4.adsco.re
 0.0.0.0 hvhhgntpusmh.l4.adsco.re
 0.0.0.0 hvhhgntpusmh.n4.adsco.re
 0.0.0.0 hvhhgntpusmh.s4.adsco.re
@@ -3990,6 +4086,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 i07iesqwbgsa.l4.adsco.re
 0.0.0.0 i07iesqwbgsa.n4.adsco.re
 0.0.0.0 i07iesqwbgsa.s4.adsco.re
+0.0.0.0 iap1utful7co.l4.adsco.re
+0.0.0.0 iap1utful7co.n4.adsco.re
+0.0.0.0 iap1utful7co.s4.adsco.re
 0.0.0.0 ica1uulql11z.l4.adsco.re
 0.0.0.0 ica1uulql11z.n4.adsco.re
 0.0.0.0 ica1uulql11z.s4.adsco.re
@@ -4002,6 +4101,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 iiebd7bdtqyc.l4.adsco.re
 0.0.0.0 iiebd7bdtqyc.n4.adsco.re
 0.0.0.0 iiebd7bdtqyc.s4.adsco.re
+0.0.0.0 irpmahdvgzay.l4.adsco.re
+0.0.0.0 irpmahdvgzay.n4.adsco.re
+0.0.0.0 irpmahdvgzay.s4.adsco.re
 0.0.0.0 j1xf2hobikuw.l4.adsco.re
 0.0.0.0 j1xf2hobikuw.n4.adsco.re
 0.0.0.0 j1xf2hobikuw.s4.adsco.re
@@ -4011,28 +4113,70 @@ ff02::3 ip6-allhosts
 0.0.0.0 jrdbxlftwm1p.l4.adsco.re
 0.0.0.0 jrdbxlftwm1p.n4.adsco.re
 0.0.0.0 jrdbxlftwm1p.s4.adsco.re
+0.0.0.0 jxzbpfls4msw.l4.adsco.re
+0.0.0.0 jxzbpfls4msw.n4.adsco.re
+0.0.0.0 jxzbpfls4msw.s4.adsco.re
 0.0.0.0 kkv94o99qgdf.l4.adsco.re
 0.0.0.0 kkv94o99qgdf.n4.adsco.re
 0.0.0.0 kkv94o99qgdf.s4.adsco.re
+0.0.0.0 kpwfrryqgtak.l4.adsco.re
+0.0.0.0 kpwfrryqgtak.n4.adsco.re
+0.0.0.0 kpwfrryqgtak.s4.adsco.re
 0.0.0.0 kuacvhwxpzdd.s4.adsco.re
+0.0.0.0 kzfp3g3hgtvg.l4.adsco.re
+0.0.0.0 kzfp3g3hgtvg.n4.adsco.re
+0.0.0.0 kzfp3g3hgtvg.s4.adsco.re
+0.0.0.0 l0f5sefmtvb1.l4.adsco.re
+0.0.0.0 l0f5sefmtvb1.n4.adsco.re
+0.0.0.0 l0f5sefmtvb1.s4.adsco.re
+0.0.0.0 l8evopjqaurc.l4.adsco.re
+0.0.0.0 l8evopjqaurc.n4.adsco.re
+0.0.0.0 l8evopjqaurc.s4.adsco.re
 0.0.0.0 lcl0zoxt7fxa.l4.adsco.re
 0.0.0.0 loq6b3axl0fc.n4.adsco.re
 0.0.0.0 loq6b3axl0fc.s4.adsco.re
+0.0.0.0 m1p1fxs7d5fn.l4.adsco.re
+0.0.0.0 m1p1fxs7d5fn.n4.adsco.re
+0.0.0.0 m1p1fxs7d5fn.s4.adsco.re
+0.0.0.0 meftxhv21ozf.l4.adsco.re
+0.0.0.0 meftxhv21ozf.n4.adsco.re
+0.0.0.0 meftxhv21ozf.s4.adsco.re
+0.0.0.0 moz9iymrx4wh.l4.adsco.re
+0.0.0.0 moz9iymrx4wh.n4.adsco.re
+0.0.0.0 moz9iymrx4wh.s4.adsco.re
+0.0.0.0 mxrxkbrf8dty.l4.adsco.re
+0.0.0.0 mxrxkbrf8dty.n4.adsco.re
+0.0.0.0 mxrxkbrf8dty.s4.adsco.re
+0.0.0.0 nrvrbd34ovak.l4.adsco.re
+0.0.0.0 nrvrbd34ovak.n4.adsco.re
+0.0.0.0 nrvrbd34ovak.s4.adsco.re
 0.0.0.0 nudin4ofjvws.l4.adsco.re
 0.0.0.0 nudin4ofjvws.n4.adsco.re
 0.0.0.0 nudin4ofjvws.s4.adsco.re
+0.0.0.0 ob9is3ol6gce.l4.adsco.re
+0.0.0.0 ob9is3ol6gce.n4.adsco.re
+0.0.0.0 ob9is3ol6gce.s4.adsco.re
 0.0.0.0 oesfdaujvsar.l4.adsco.re
 0.0.0.0 oesfdaujvsar.n4.adsco.re
 0.0.0.0 oesfdaujvsar.s4.adsco.re
 0.0.0.0 oft7bbwal0ao.l4.adsco.re
 0.0.0.0 oft7bbwal0ao.n4.adsco.re
 0.0.0.0 oft7bbwal0ao.s4.adsco.re
+0.0.0.0 p652lnvv7jbf.l4.adsco.re
+0.0.0.0 p652lnvv7jbf.n4.adsco.re
+0.0.0.0 p652lnvv7jbf.s4.adsco.re
 0.0.0.0 prc56tdvpeqi.l4.adsco.re
 0.0.0.0 prc56tdvpeqi.n4.adsco.re
 0.0.0.0 prc56tdvpeqi.s4.adsco.re
 0.0.0.0 psv73shrqxi0.l4.adsco.re
 0.0.0.0 psv73shrqxi0.n4.adsco.re
 0.0.0.0 psv73shrqxi0.s4.adsco.re
+0.0.0.0 q2iilc5isr0x.l4.adsco.re
+0.0.0.0 q2iilc5isr0x.n4.adsco.re
+0.0.0.0 q2iilc5isr0x.s4.adsco.re
+0.0.0.0 qccmmwzar2hz.l4.adsco.re
+0.0.0.0 qccmmwzar2hz.n4.adsco.re
+0.0.0.0 qccmmwzar2hz.s4.adsco.re
 0.0.0.0 qknxalrq2lsc.l4.adsco.re
 0.0.0.0 qknxalrq2lsc.n4.adsco.re
 0.0.0.0 qknxalrq2lsc.s4.adsco.re
@@ -4045,20 +4189,35 @@ ff02::3 ip6-allhosts
 0.0.0.0 qpgzuarkmbkw.l4.adsco.re
 0.0.0.0 qpgzuarkmbkw.n4.adsco.re
 0.0.0.0 qpgzuarkmbkw.s4.adsco.re
+0.0.0.0 qste9ahrfdfq.l4.adsco.re
+0.0.0.0 qste9ahrfdfq.n4.adsco.re
+0.0.0.0 qste9ahrfdfq.s4.adsco.re
 0.0.0.0 rcf3ksuso939.l4.adsco.re
 0.0.0.0 rcf3ksuso939.n4.adsco.re
 0.0.0.0 rcf3ksuso939.s4.adsco.re
 0.0.0.0 rleuof7rl02s.l4.adsco.re
 0.0.0.0 rleuof7rl02s.n4.adsco.re
+0.0.0.0 rv0pr51lwiux.l4.adsco.re
+0.0.0.0 rv0pr51lwiux.n4.adsco.re
+0.0.0.0 rv0pr51lwiux.s4.adsco.re
 0.0.0.0 rvbva6t7vc8h.l4.adsco.re
 0.0.0.0 rvbva6t7vc8h.n4.adsco.re
 0.0.0.0 rvbva6t7vc8h.s4.adsco.re
 0.0.0.0 rzo3x4xwx9ny.l4.adsco.re
 0.0.0.0 rzo3x4xwx9ny.n4.adsco.re
 0.0.0.0 rzo3x4xwx9ny.s4.adsco.re
+0.0.0.0 sm7u9s8r1cro.l4.adsco.re
+0.0.0.0 sm7u9s8r1cro.n4.adsco.re
+0.0.0.0 sm7u9s8r1cro.s4.adsco.re
+0.0.0.0 sqoncwsqeqfl.l4.adsco.re
+0.0.0.0 sqoncwsqeqfl.n4.adsco.re
+0.0.0.0 sqoncwsqeqfl.s4.adsco.re
 0.0.0.0 suofsmdcuztg.l4.adsco.re
 0.0.0.0 suofsmdcuztg.n4.adsco.re
 0.0.0.0 suofsmdcuztg.s4.adsco.re
+0.0.0.0 t2om6uspxwzz.l4.adsco.re
+0.0.0.0 t2om6uspxwzz.n4.adsco.re
+0.0.0.0 t2om6uspxwzz.s4.adsco.re
 0.0.0.0 t5mblr17v1i6.l4.adsco.re
 0.0.0.0 t5mblr17v1i6.s4.adsco.re
 0.0.0.0 t6d2ttazpd4x.l4.adsco.re
@@ -4067,18 +4226,51 @@ ff02::3 ip6-allhosts
 0.0.0.0 taratsqigc12.l4.adsco.re
 0.0.0.0 taratsqigc12.n4.adsco.re
 0.0.0.0 taratsqigc12.s4.adsco.re
+0.0.0.0 tcbgklnt56tz.l4.adsco.re
+0.0.0.0 tcbgklnt56tz.n4.adsco.re
+0.0.0.0 tcbgklnt56tz.s4.adsco.re
 0.0.0.0 tfzzkd1m61ek.l4.adsco.re
 0.0.0.0 tfzzkd1m61ek.n4.adsco.re
 0.0.0.0 tfzzkd1m61ek.s4.adsco.re
+0.0.0.0 tih6b8vhpmut.l4.adsco.re
+0.0.0.0 tih6b8vhpmut.n4.adsco.re
+0.0.0.0 tih6b8vhpmut.s4.adsco.re
 0.0.0.0 tirka2duqifl.l4.adsco.re
 0.0.0.0 tirka2duqifl.n4.adsco.re
 0.0.0.0 tirka2duqifl.s4.adsco.re
+0.0.0.0 tmk1ewwvqiwv.l4.adsco.re
+0.0.0.0 tmk1ewwvqiwv.n4.adsco.re
+0.0.0.0 tmk1ewwvqiwv.s4.adsco.re
+0.0.0.0 tmozv6cdmkgr.l4.adsco.re
+0.0.0.0 tmozv6cdmkgr.n4.adsco.re
+0.0.0.0 tmozv6cdmkgr.s4.adsco.re
+0.0.0.0 tmpzfmor5swf.l4.adsco.re
+0.0.0.0 tmpzfmor5swf.n4.adsco.re
+0.0.0.0 tmpzfmor5swf.s4.adsco.re
 0.0.0.0 tokts6rncc1a.l4.adsco.re
 0.0.0.0 tokts6rncc1a.n4.adsco.re
 0.0.0.0 tokts6rncc1a.s4.adsco.re
+0.0.0.0 tvj6i5bq328y.l4.adsco.re
+0.0.0.0 tvj6i5bq328y.n4.adsco.re
+0.0.0.0 tvj6i5bq328y.s4.adsco.re
+0.0.0.0 tx9uictszrvm.l4.adsco.re
+0.0.0.0 tx9uictszrvm.n4.adsco.re
+0.0.0.0 tx9uictszrvm.s4.adsco.re
+0.0.0.0 txwsxn11w7ho.l4.adsco.re
+0.0.0.0 txwsxn11w7ho.n4.adsco.re
+0.0.0.0 txwsxn11w7ho.s4.adsco.re
+0.0.0.0 u3og3gguqgac.l4.adsco.re
+0.0.0.0 u3og3gguqgac.n4.adsco.re
+0.0.0.0 u3og3gguqgac.s4.adsco.re
 0.0.0.0 uael5syx9fgf.l4.adsco.re
 0.0.0.0 uael5syx9fgf.n4.adsco.re
 0.0.0.0 uael5syx9fgf.s4.adsco.re
+0.0.0.0 udhkrrdere7q.l4.adsco.re
+0.0.0.0 udhkrrdere7q.n4.adsco.re
+0.0.0.0 udhkrrdere7q.s4.adsco.re
+0.0.0.0 ulzwhehqa0xm.l4.adsco.re
+0.0.0.0 ulzwhehqa0xm.n4.adsco.re
+0.0.0.0 ulzwhehqa0xm.s4.adsco.re
 0.0.0.0 v10zqv97ftru.l4.adsco.re
 0.0.0.0 v10zqv97ftru.n4.adsco.re
 0.0.0.0 v10zqv97ftru.s4.adsco.re
@@ -4088,18 +4280,33 @@ ff02::3 ip6-allhosts
 0.0.0.0 vbwa40tpr7bi.l4.adsco.re
 0.0.0.0 vbwa40tpr7bi.n4.adsco.re
 0.0.0.0 vbwa40tpr7bi.s4.adsco.re
+0.0.0.0 vihkiow6p34b.l4.adsco.re
+0.0.0.0 vihkiow6p34b.n4.adsco.re
+0.0.0.0 vihkiow6p34b.s4.adsco.re
 0.0.0.0 vqg43wzlic2c.l4.adsco.re
 0.0.0.0 vqg43wzlic2c.n4.adsco.re
 0.0.0.0 vqg43wzlic2c.s4.adsco.re
+0.0.0.0 vqpwuzvhlse5.l4.adsco.re
+0.0.0.0 vqpwuzvhlse5.n4.adsco.re
+0.0.0.0 vqpwuzvhlse5.s4.adsco.re
 0.0.0.0 vzr1az9hrj5z.l4.adsco.re
 0.0.0.0 vzr1az9hrj5z.n4.adsco.re
 0.0.0.0 vzr1az9hrj5z.s4.adsco.re
+0.0.0.0 w13dyxyaqwl3.l4.adsco.re
+0.0.0.0 w13dyxyaqwl3.n4.adsco.re
+0.0.0.0 w13dyxyaqwl3.s4.adsco.re
+0.0.0.0 wi743bpuywpc.l4.adsco.re
+0.0.0.0 wi743bpuywpc.n4.adsco.re
+0.0.0.0 wi743bpuywpc.s4.adsco.re
 0.0.0.0 wicfacaujkaq.l4.adsco.re
 0.0.0.0 wicfacaujkaq.n4.adsco.re
 0.0.0.0 wicfacaujkaq.s4.adsco.re
 0.0.0.0 wma4jyyqvmih.l4.adsco.re
 0.0.0.0 wma4jyyqvmih.n4.adsco.re
 0.0.0.0 wma4jyyqvmih.s4.adsco.re
+0.0.0.0 wnaqktbc3651.l4.adsco.re
+0.0.0.0 wnaqktbc3651.n4.adsco.re
+0.0.0.0 wnaqktbc3651.s4.adsco.re
 0.0.0.0 wnymahpzmoct.l4.adsco.re
 0.0.0.0 wnymahpzmoct.n4.adsco.re
 0.0.0.0 wnymahpzmoct.s4.adsco.re
@@ -4109,6 +4316,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 wosxc3oy78aq.l4.adsco.re
 0.0.0.0 wosxc3oy78aq.n4.adsco.re
 0.0.0.0 wosxc3oy78aq.s4.adsco.re
+0.0.0.0 wv9hg0hoqdwj.l4.adsco.re
+0.0.0.0 wv9hg0hoqdwj.n4.adsco.re
+0.0.0.0 wv9hg0hoqdwj.s4.adsco.re
 0.0.0.0 xbnjwxkipmzo.l4.adsco.re
 0.0.0.0 xbnjwxkipmzo.n4.adsco.re
 0.0.0.0 xbnjwxkipmzo.s4.adsco.re
@@ -4118,12 +4328,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 xiid2tsouiwm.l4.adsco.re
 0.0.0.0 xiid2tsouiwm.n4.adsco.re
 0.0.0.0 xiid2tsouiwm.s4.adsco.re
+0.0.0.0 xp4wbgwwotpo.l4.adsco.re
+0.0.0.0 xp4wbgwwotpo.n4.adsco.re
+0.0.0.0 xp4wbgwwotpo.s4.adsco.re
 0.0.0.0 xp5gsxkkslfw.l4.adsco.re
 0.0.0.0 xp5gsxkkslfw.n4.adsco.re
 0.0.0.0 xp5gsxkkslfw.s4.adsco.re
 0.0.0.0 xqtwhbrpsdub.l4.adsco.re
 0.0.0.0 xqtwhbrpsdub.n4.adsco.re
 0.0.0.0 xqtwhbrpsdub.s4.adsco.re
+0.0.0.0 ygpr6kdstlpl.l4.adsco.re
+0.0.0.0 ygpr6kdstlpl.n4.adsco.re
+0.0.0.0 ygpr6kdstlpl.s4.adsco.re
 0.0.0.0 ylkpuujaqlsb.l4.adsco.re
 0.0.0.0 ylkpuujaqlsb.n4.adsco.re
 0.0.0.0 ylkpuujaqlsb.s4.adsco.re
@@ -4728,7 +4944,7 @@ ff02::3 ip6-allhosts
 
 # Billiger.de
 0.0.0.0 api-img.billiger.de
-0.0.0.0 cdn.billiger.com
+#0.0.0.0 cdn.billiger.com
 
 # Binarywidget.com
 0.0.0.0 binarywidget.com
@@ -10026,6 +10242,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 o4504922469761024.ingest.sentry.io
 0.0.0.0 o4505878223847424.ingest.sentry.io
 0.0.0.0 o46710.ingest.sentry
+0.0.0.0 o488710.ingest.sentry.io
 0.0.0.0 o49094.ingest.sentry.io
 0.0.0.0 o52056.ingest.sentry.io
 0.0.0.0 o529943.ingest.sentry.io
@@ -13310,6 +13527,11 @@ ff02::3 ip6-allhosts
 # 104.24.127.131
 0.0.0.0 matomo.tarnkappe.info
 
+# Taz.de
+# Wie Bild.de, unseriöse Artikel und politische Schmierenkomödien, selbst disqualifiziert
+0.0.0.0 taz.de
+0.0.0.0 data-2d3a3249cd.taz.de
+
 # Tchibo.de
 0.0.0.0 tagm.tchibo.de
 0.0.0.0 ctagm.tchibo.de # Exactag Script
@@ -15147,12 +15369,14 @@ ff02::3 ip6-allhosts
 #0.0.0.0 apis.google.com
 #0.0.0.0 fonts.googleapis.com
 #0.0.0.0 plus.l.google.com # Mit apis.google.com verknüpft
+#0.0.0.0 www.googleapis.com # Affiliates / unter Beobachtung
 0.0.0.0 automate-prod.storage.googleapis.com
 0.0.0.0 chart.googleapis.com
 0.0.0.0 clouderrorreporting.googleapis.com
 0.0.0.0 jnn-pa.googleapis.com
 0.0.0.0 recommendationengine.googleapis.com
 0.0.0.0 safebrowsing.googleapis.com
+0.0.0.0 webpermissionpredictions.googleapis.com
 # Auch für Downloads der Google Cloud benötigt
 #0.0.0.0 storage.googleapis.com # Call Adservice & Dateikomprimierung/Clouddownload, Prebid, Customscripts, Adtags
 
@@ -16035,6 +16259,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cd-ladsp-com.s3.amazonaws.com
 0.0.0.0 clickbank-apache-54377296.us-west-2.elb.amazonaws.com
 0.0.0.0 cognito-identity.ap-northeast-1.amazonaws.com
+0.0.0.0 cognito-identity.ca-central-1.amazonaws.com
 0.0.0.0 cognito-identity.eu-west-1.amazonaws.com
 0.0.0.0 cookiesyncing-1395500543.us-east-1.elb.amazonaws.com
 0.0.0.0 dcs-edge-irl1-876252164.eu-west-1.elb.amazonaws.com
@@ -16321,6 +16546,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d2ohmkyg5w2c18.cloudfront.net
 0.0.0.0 d2osk0po1oybwz.cloudfront.net
 0.0.0.0 d2p3zdq8vjvnxd.cloudfront.net
+0.0.0.0 d2psma0az3acui.cloudfront.net
 0.0.0.0 d2q8xv8xf7whrd.cloudfront.net
 0.0.0.0 d2q9y3krdwohfj.cloudfront.net
 0.0.0.0 d2qnx6y010m4rt.cloudfront.net
@@ -16595,56 +16821,314 @@ ff02::3 ip6-allhosts
 0.0.0.0 a-ring-fallback.msedge.net
 0.0.0.0 a-ring.msedge.net
 0.0.0.0 afdxtest.z01.azurefd.net
+0.0.0.0 ams06prdapp02-canary.netmon.azure.com
+0.0.0.0 ams07prdapp01-canary.netmon.azure.com
+0.0.0.0 ams07prdapp02-canary.netmon.azure.com
+0.0.0.0 ams20prdapp02-canary.netmon.azure.com
+0.0.0.0 ams22prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 amz07prdapp01-canary.netmon.azure.com
 0.0.0.0 api.cortana.ai
+0.0.0.0 arc-ring-fallback.msedge.net
+0.0.0.0 arc-ring.msedge.net
+0.0.0.0 arm-ring-fallback.msedge.net
 0.0.0.0 arm-ring.msedge.net
+0.0.0.0 auh20prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 auh20prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 ax-ring-fallback.msedge.net
+0.0.0.0 ax-ring.msedge.net # Trackingpixel
 0.0.0.0 azwancan.trafficmanager.net # Trackingpixel
+0.0.0.0 b-ring-fallback.msedge.net
 0.0.0.0 b-ring.msedge.net
 0.0.0.0 bgpdefault-amb.msedge.net
 0.0.0.0 bgpdefault-fra.msedge.net
+0.0.0.0 bing.com
+0.0.0.0 bl6prdapp02-canary.netmon.azure.com
+0.0.0.0 blz22prdapp02-canary.netmon.azure.com
+0.0.0.0 bn4prdapp02-canary.netmon.azure.com
+0.0.0.0 bn6prdapp01-canary.netmon.azure.com
+0.0.0.0 bn7prdapp01-canary.netmon.azure.com
+0.0.0.0 bn8prdapp02-canary.netmon.azure.com
+0.0.0.0 bn9prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 by1prdapp02-canary.netmon.azure.com
+0.0.0.0 by4prdapp01-canary.netmon.azure.com
+0.0.0.0 bz6prdapp01-canary.netmon.azure.com
+0.0.0.0 bz7prdapp01-canary.netmon.azure.com
+0.0.0.0 c-ring-fallback.msedge.net
+0.0.0.0 c-ring.msedge.net
+0.0.0.0 cbn07prdapp01-canary.netmon.azure.com
+0.0.0.0 cbn09prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 cbn14prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 cby07prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 cbz07prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 cdm05prdapp01-canary.netmon.azure.com
+0.0.0.0 cdm05prdapp02-canary.netmon.azure.com
 0.0.0.0 cdm05prdapp04-canary-opaph.netmon.azure.com
+0.0.0.0 ch2prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 chaprdapp01-canary.netmon.azure.com
+0.0.0.0 chi23prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 chi25prdapp01-canary-opaph.netmon.azure.com
 0.0.0.0 cloudfront-vs-afd.azurefd.net
+0.0.0.0 co2prdapp01-canary.netmon.azure.com
+0.0.0.0 co3prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 cpq21prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 cpq23prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 cpq24prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 cpq24prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 cpq25prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 cq1prdapp01-canary.netmon.azure.com
+0.0.0.0 cvl02prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 cvl08prdapp01-canary.netmon.azure.com
+0.0.0.0 cys03prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 cys08prdapp01-canary-opaph.netmon.azure.com
 0.0.0.0 d1l0kcze0h5pmt.cloudfront.net
+0.0.0.0 db5prdapp01-canary.netmon.azure.com
+0.0.0.0 db6prdapp01-canary.netmon.azure.com
+0.0.0.0 direct.management.azure.com
+0.0.0.0 doh20prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 doh21prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 doh21prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 doh22prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 doh22prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 dsm06prdapp02-canary.netmon.azure.com
+0.0.0.0 dsm07prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 dsm08prdapp01-canary.netmon.azure.com
+0.0.0.0 dsm09prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 dsz04prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 dsz08prdapp02-canary.netmon.azure.com
 0.0.0.0 dual-a-0001.a-msedge.net
+0.0.0.0 dual-s-ring-fallback.msedge.net
 0.0.0.0 dual-s-ring.msedge.net
+0.0.0.0 dub10prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 dub20prdapp01-canary.netmon.azure.com
+0.0.0.0 dub21prdapp01-canary.netmon.azure.com
 0.0.0.0 dw8wjz3q0i4gj.cloudfront.net
+0.0.0.0 dxb20prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 dxb21prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 dxb22prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 dxb23prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 dxb23prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 dz5prdapp01-canary.netmon.azure.com
+0.0.0.0 e-ring-fallback.msedge.net
 0.0.0.0 eafd-dod-384ea1aa-6aab-4841-a754-35b60cef4ac8.azureedge.us
+0.0.0.0 eafddirect.msedge.net
 0.0.0.0 elasticafd-footprint-0d855e84-e893-47bd-84fd-b5568a836b09.azureedge.us
+0.0.0.0 exo-ring-fallback.msedge.net
 0.0.0.0 exo-ring.msedge.net
+0.0.0.0 fp-afd-nocache-ccp.azureedge.net
 0.0.0.0 fp-afd-nocache.azureedge.net
 0.0.0.0 fp-afd.azureedge.net
+0.0.0.0 fp-afd.azureedge.us
+0.0.0.0 fp-afd.azurefd.net
 0.0.0.0 fp-afd.azurefd.us
+0.0.0.0 fp-afdx-bpdee4gtg6frejfd.z01.azurefd.net
 0.0.0.0 fp-as.azureedge.net # Trackingpixel
+0.0.0.0 fp-vp-nocache.azureedge.net
 0.0.0.0 fp-vp.azureedge.net
+0.0.0.0 fp-vs-nocache.azureedge.net
 0.0.0.0 fp-vs.azureedge.net
-0.0.0.0 fp.msedge.net
+0.0.0.0 fp.msedge.net # Trackingpixel
+0.0.0.0 fra21prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 fra21prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 fra22prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 fra22prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 fra23prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 fra23prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 graph.azurefd.net
+0.0.0.0 graph.microsoft.com
+0.0.0.0 gvx01prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 gvx01prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 gvx11prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 gvx11prdapp02-canary.netmon.azure.com
+0.0.0.0 gvx21prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 gvx21prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 hkg20prdapp02-canary.netmon.azure.com
+0.0.0.0 hkg22prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 hkg23prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 hkg23prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 hknprdapp01-canary.netmon.azure.com
+0.0.0.0 iad01prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 iad01prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 iad20prdapp02-canary-opaph.netmon.azure.com
 0.0.0.0 iteactive-amb.msedge.net
 0.0.0.0 iteactive-fra.msedge.net
+0.0.0.0 jga20prdapp01-canary-opaph.netmon.azure.com
 0.0.0.0 jga20prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 jhz20prdapp01-canary.netmon.azure.com
+0.0.0.0 jhz20prdapp02-canary.netmon.azure.com
+0.0.0.0 jnb20prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 jnb21prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 jnb21prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 jnb22prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 jnb22prdapp02-canary.netmon.azure.com
+0.0.0.0 jnb23prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 k-ring-fallback.msedge.net
 0.0.0.0 k-ring.msedge.net
+0.0.0.0 l-ring-fallback.msedge.net
 0.0.0.0 l-ring.msedge.net
+0.0.0.0 ln-ring-fallback.msedge.net
+0.0.0.0 ln-ring.msedge.net
+0.0.0.0 ln1prdapp02-canary.netmon.azure.com
+0.0.0.0 lon22prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 lon22prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 lon23prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 lon27prdapp02-canary.netmon.azure.com
+0.0.0.0 lon28prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 lvl01prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 m.qualifytring.com
+0.0.0.0 management.azure.com
+0.0.0.0 mcr-ring-fallback.msedge.net
+0.0.0.0 mcr-ring.msedge.net
+0.0.0.0 mel20prdapp01-canary.netmon.azure.com
+0.0.0.0 mel23prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 mil01prdapp03-canary.netmon.azure.com
+0.0.0.0 mil01prdapp04-canary.netmon.azure.com
+0.0.0.0 mil20prdapp01-canary.netmon.azure.com
+0.0.0.0 mil20prdapp06-canary.netmon.azure.com
+0.0.0.0 mil21prdapp02-canary.netmon.azure.com
+0.0.0.0 mil21prdapp03-canary.netmon.azure.com
+0.0.0.0 mnz20prdapp01-canary.netmon.azure.com
+0.0.0.0 mnz20prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 mnz22prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 moiafdaws.clo.footprintdns.com
+0.0.0.0 moiafdazure.clo.footprintdns.com
 0.0.0.0 moiazureorigin.clo.footprintdns.com
+0.0.0.0 mwh01prdapp02-canary.netmon.azure.com
+0.0.0.0 mwh03prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 mwh04prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 mwh05prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 mwh06prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 mwz02prdapp01-canary.netmon.azure.com
+0.0.0.0 mzz20prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 nag20prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 nag20prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 o-ring-fallback.msedge.net
 0.0.0.0 o-ring.msedge.net
 0.0.0.0 odinvzc.azureedge.net # Trackingpixel
+0.0.0.0 osa20prdapp01-canary.netmon.azure.com
+0.0.0.0 osa22prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 osa23prdapp01-canary.netmon.azure.com
+0.0.0.0 osa23prdapp02-canary.netmon.azure.com
+0.0.0.0 osl20prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 osl20prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 osl21prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 osl21prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 osl22prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 osl22prdapp02-canary-opaph.netmon.azure.com
 0.0.0.0 ow1.res.office365.com
+0.0.0.0 ow1.res.office365.com # Trackingpixel
+0.0.0.0 par20prdapp01-canary.netmon.azure.com
+0.0.0.0 par20prdapp02-canary.netmon.azure.com
+0.0.0.0 par21prdapp01-canary.netmon.azure.com
+0.0.0.0 par21prdapp02-canary.netmon.azure.com
+0.0.0.0 par22prdapp01-canary.netmon.azure.com
+0.0.0.0 par23prdapp02-canary-opaph.netmon.azure.com
 0.0.0.0 peer1-fra.msedge.net
 0.0.0.0 peer2-fra.msedge.net
 0.0.0.0 peer3-fra.msedge.net
+0.0.0.0 phx10prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 phx10prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 phx70prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 phx80prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 phx80prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 pnq20prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 pnq20prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 pnq21prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 pnq21prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 pnq22prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 pnq22prdapp02-canary-opaph.netmon.azure.com
 0.0.0.0 q-ring-fallback.msedge.net # Trackingpixel
 0.0.0.0 q-ring.msedge.net
+0.0.0.0 rio20prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 rio20prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 roxy.azurefd.net
+0.0.0.0 rum14.perf.linkedin.com
 0.0.0.0 rum18.perf.linkedin.com
 0.0.0.0 rum8.perf.inkedin.com
+0.0.0.0 rum8.perf.linkedin.com
+0.0.0.0 s-ring-fallback.msedge.net
 0.0.0.0 s-ring.msedge.net
+0.0.0.0 sat09prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 sat12prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 sat20prdapp01-canary-opaph.netmon.azure.com
 0.0.0.0 se1prdapp01-canary.netmon.azure.com
+0.0.0.0 se1prdapp02-canary.netmon.azure.com
 0.0.0.0 segments-s.msedge.net
+0.0.0.0 sel21prdapp02-canary.netmon.azure.com
+0.0.0.0 sel22prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 sel22prdapp02-canary-opaph.netmon.azure.com
 0.0.0.0 settingsfd-prod-db5-endpoint.trafficmanager.net
+0.0.0.0 sg2prdapp01-canary.netmon.azure.com
+0.0.0.0 sg3prdapp02-canary.netmon.azure.com
+0.0.0.0 sin06prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 sin21prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 sin21prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 sin22prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 sjc20prdapp03-canary-opaph.netmon.azure.com
+0.0.0.0 sjc22prdapp01-canary.netmon.azure.com
+0.0.0.0 sjc22prdapp02-canary.netmon.azure.com
+0.0.0.0 sn4prdapp01-canary.netmon.azure.com
+0.0.0.0 sn7prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 sn7prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 spo-ring-fallback.msedge.net
 0.0.0.0 spo-ring.msedge.net # Trackingpixel
-0.0.0.0 t-ring.fallback.msedge.net
+0.0.0.0 spov-ring-fallback.msedge.net
+0.0.0.0 static-ecst.licdn.com
+0.0.0.0 stg01prdapp01-canary.netmon.azure.com
+0.0.0.0 stg01prdapp02-canary.netmon.azure.com
+0.0.0.0 stg03prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 sy3prdapp02-canary.netmon.azure.com
+0.0.0.0 syd22prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 syd25prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 syd26prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 syd27prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 syd27prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 t-ring-fallback.msedge.net
 0.0.0.0 t-ring-fallbacks1.msedge.net
+0.0.0.0 t-ring-fallbacks2.msedge.net
 0.0.0.0 t-ring-fdv2.msedge.net
+0.0.0.0 t-ring.fallback.msedge.net
 0.0.0.0 t-ring.msedge.net
+0.0.0.0 t-s1-ring.msedge.net
+0.0.0.0 t-s2-ring.msedge.net
+0.0.0.0 teams-ring-fallback.msedge.net
 0.0.0.0 teams-ring.msedge.net
+0.0.0.0 teams-ring.msedge.net # Trackingpixel
+0.0.0.0 tlv97prdapp02-canary.netmon.azure.com
+0.0.0.0 tlv97prdapp03-canary.netmon.azure.com
+0.0.0.0 tlv98prdapp04-canary.netmon.azure.com
+0.0.0.0 tlv98prdapp05-canary.netmon.azure.com
+0.0.0.0 tlv99prdapp03-canary.netmon.azure.com
+0.0.0.0 tlv99prdapp04-canary.netmon.azure.com
+0.0.0.0 tring.clo.footprintdns.com
+0.0.0.0 ty1prdapp01-canary.netmon.azure.com
+0.0.0.0 tyo20prdapp01-canary.netmon.azure.com
+0.0.0.0 tyo20prdapp02-canary.netmon.azure.com
+0.0.0.0 tyo22prdapp01-canary.netmon.azure.com
+0.0.0.0 tyo22prdapp02-canary.netmon.azure.com
+0.0.0.0 tyo31prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 wac-ring-fallback.msedge.net
 0.0.0.0 wac-ring.msedge.net
+0.0.0.0 waw02prdapp01-canary.netmon.azure.com
+0.0.0.0 waw02prdapp02-canary.netmon.azure.com
+0.0.0.0 waw20prdapp01-canary.netmon.azure.com
+0.0.0.0 waw20prdapp02-canary.netmon.azure.com
+0.0.0.0 waw21prdapp01-canary.netmon.azure.com
+0.0.0.0 waw21prdapp02-canary.netmon.azure.com
 0.0.0.0 www.bing.com
+0.0.0.0 yq1prdapp01-canary.netmon.azure.com
+0.0.0.0 yq1prdapp02-canary.netmon.azure.com
+0.0.0.0 yt1prdapp02-canary.netmon.azure.com
+0.0.0.0 yto21prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 yto21prdapp02-canary.netmon.azure.com
+0.0.0.0 yto22prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 yto23prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 yto23prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 zrh20prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 zrh20prdapp02-canary.netmon.azure.com
+0.0.0.0 zrh21prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 zrh21prdapp02-canary-opaph.netmon.azure.com
+0.0.0.0 zrh22prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 zrh22prdapp02-canary-opaph.netmon.azure.com
 
 # Feed | windows-windowsShell-feeds | SearchApp.exe
 # Bei Abschaltung weitere Programmbestandteile wie Microsoft Edge betroffen. Nach Bedarf blockieren
@@ -17673,7 +18157,8 @@ ff02::3 ip6-allhosts
 # 20.223.36.55
 0.0.0.0 ocws.officeapps.live.com # Regelmäßige Callbacks mit Zeitstempel, Diagnostics & CorrelationID
 0.0.0.0 europe.ocws1.live.com.akadns.net
-0.0.0.0 fd.api.iris.microsoft.com
+0.0.0.0 fd.api.iris.microsoft.com # Campaigns Tracking
+0.0.0.0 ris.api.iris.microsoft.com
 # 93.184.220.29
 #0.0.0.0 cs9.wac.phicdn.net
 
@@ -20018,6 +20503,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml-eu.adright.co
 # CO.UK
 0.0.0.0 analytics.eip.telegraph.co.uk
+0.0.0.0 ichef.bbci.co.uk
 0.0.0.0 ipw.metadsp.co.uk
 0.0.0.0 nexus.entitytag.co.uk
 0.0.0.0 node1.digprod.express.co.uk
@@ -20490,6 +20976,8 @@ ff02::3 ip6-allhosts
 # HEALTH
 0.0.0.0 fbi.health
 0.0.0.0 hcn.health
+# HN
+0.0.0.0 prf.hn
 # HU
 0.0.0.0 ad.netmedia.hu
 0.0.0.0 daserver.ultraweb.hu
@@ -20547,6 +21035,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dskyseconomic.info
 0.0.0.0 eallywasnothyca.info
 0.0.0.0 easysemblyjusti.info
+0.0.0.0 edbehindforhewa.info
 0.0.0.0 edwhitnes.info
 0.0.0.0 efully.info
 0.0.0.0 elanatality.info
@@ -20570,6 +21059,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 golymn.info
 0.0.0.0 grementessenti.info
 0.0.0.0 gwashiondevelhig.info
+0.0.0.0 hilarlymcken.info
 0.0.0.0 hionedaugsbu.info
 0.0.0.0 hissidelerep.info
 0.0.0.0 hmbm7.kmodukuleqasfo.info
@@ -20596,6 +21086,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 nicatethebene.info
 0.0.0.0 ntoftheusysianedt.info
 0.0.0.0 o.wowreality.info
+0.0.0.0 ourtshipanditlas.info
 0.0.0.0 p0lf9.kmodukuleqasfo.info
 0.0.0.0 p188187.typo3server.info
 0.0.0.0 p455208.mittwaldserver.info
@@ -20623,6 +21114,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 roughexampler.info
 0.0.0.0 sadorsagreeng.info
 0.0.0.0 sambr.ssdwellsgrpo.info
+0.0.0.0 sandmakingsilver.info
 0.0.0.0 scg1b.kmodukuleqasfo.info
 0.0.0.0 shutternsbe.info
 0.0.0.0 societingna.info
@@ -21119,6 +21611,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 edge-hls.doppiocdn.live
 0.0.0.0 fbi3262.live
 0.0.0.0 game3558.nonamecss51.live
+0.0.0.0 go.19sex.live
+0.0.0.0 go.sexygirlspics.live
 0.0.0.0 grand-prize-add4.live
 0.0.0.0 leavequarterpassbeat.live
 0.0.0.0 live.goatgame.live
@@ -21404,6 +21898,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 edge-hls.doppiocdn.net
 0.0.0.0 edgecast-perfops.azureedge.net
 0.0.0.0 eip-ntt.pinimg.com.akapinimg.net
+0.0.0.0 errors.edgesuite.net
 0.0.0.0 eu.doctorpost.net
 0.0.0.0 event.yoochoose.net
 0.0.0.0 eventcollector.azureedge.net # Snowplow
@@ -21497,6 +21992,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mitself.net
 0.0.0.0 mormont.gamer-network.net
 0.0.0.0 mos.fie.futurecdn.net
+0.0.0.0 mutcheng.net
 0.0.0.0 mxl.connexity.net
 0.0.0.0 mygiftcardsplus.7eer.net
 0.0.0.0 n3-r2d2.amgload.net
@@ -21515,6 +22011,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 onatsoas.net
 0.0.0.0 oomsoapt.net
 0.0.0.0 openstat.net
+0.0.0.0 ossmightyenar.net
 0.0.0.0 oufauthy.net
 0.0.0.0 oupaumul.net
 0.0.0.0 output.nend.net
@@ -21679,6 +22176,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 vipicmou.net
 0.0.0.0 vooshagy.net
 0.0.0.0 vt.myvisualiq.net
+0.0.0.0 w1mp.b-cdn.net
 0.0.0.0 wachipho.net
 0.0.0.0 watch-video.net
 0.0.0.0 webchannel-content.eservice.emarsys.net
@@ -21896,6 +22394,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hegtiterbuttons.pro
 0.0.0.0 herreperolsof.pro
 0.0.0.0 hugregregy.pro
+0.0.0.0 imperturbableappearance.pro
 0.0.0.0 jmrnews.pro
 0.0.0.0 jogrukize.pro
 0.0.0.0 kofirusy.pro
@@ -22159,6 +22658,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 1ts19.top
 0.0.0.0 1ts20.top
 0.0.0.0 3r1kwxcd.top
+0.0.0.0 a.bestcontentcost.top
 0.0.0.0 a.bestcontentfood.top
 0.0.0.0 a.bestcontentprogram.top
 0.0.0.0 a.montkpl.top
@@ -22171,6 +22671,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 avbsdcfmrtbfqff.top
 0.0.0.0 b.bestcontentfood.top
 0.0.0.0 b.bestcontentprogram.top
+0.0.0.0 b.bestcontentsale.top
 0.0.0.0 bbqqkcglrgkdwnq.top
 0.0.0.0 brnok.cloudpsh.top
 0.0.0.0 bxwkwwepuptaa.top
@@ -23095,6 +23596,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cdn.privacy-mgmt.com # Cookie Nagscreen z.b. bei Spiegel.de, Capital.de usw
 #0.0.0.0 cdn.vthumbs.com
 #0.0.0.0 content.invisioncic.com # Scripts Malwarebytes Forum
+#0.0.0.0 creative.xlirdr.com
 #0.0.0.0 crimsonmeadow.com # Cookie Nagscreen & Anti-Adblock Screenrant
 #0.0.0.0 i.etsystatic.com # Etsy Produktbilder
 #0.0.0.0 img.purch.com
@@ -23109,6 +23611,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0cf861243d0446f2b4ecfba565358a71.js.ubembed.com
 0.0.0.0 0i0i0i0.com
 0.0.0.0 0pixl.com
+0.0.0.0 1.cqyj3ii7r.com
 0.0.0.0 10-81.s.cdn15.com
 0.0.0.0 1002.men
 0.0.0.0 100tb.sothink.com
@@ -23181,6 +23684,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 820.joomsearch.com
 0.0.0.0 82o9v830.com
 0.0.0.0 848.novitrk2.com
+0.0.0.0 84a0e8beca.5ede78f7a0.com
+0.0.0.0 84gs08xe1.com
 0.0.0.0 8ctihr3.thefaceduck.com
 0.0.0.0 8e7iazfvf2.com
 0.0.0.0 8kardcr.thefaceduck.com
@@ -23198,6 +23703,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.deadlinefunnel.com
 0.0.0.0 a.dtssrv.com
 0.0.0.0 a.eachporn.com
+0.0.0.0 a.espncdn.com
 0.0.0.0 a.geekestoot.com
 0.0.0.0 a.goatagame.com
 0.0.0.0 a.impactradius-go.com
@@ -23223,11 +23729,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.vfgta.com
 0.0.0.0 a.videoreach.com
 0.0.0.0 a0f671730127a0812.awsglobalaccelerator.com
+0.0.0.0 a1.espncdn.com
 0.0.0.0 a16af8740f.07cc1ca467.com
 0.0.0.0 a190d8.optimizesmart.com
 0.0.0.0 a1tb.com
+0.0.0.0 a2.espncdn.com
 0.0.0.0 a2d8cbc90f0a49b78a78f4312bd71987.js.ubembed.com
 0.0.0.0 a2g-secure.com
+0.0.0.0 a3.espncdn.com
 0.0.0.0 a5apzj82.emltrk.com
 0.0.0.0 a69i.com
 0.0.0.0 a8672336.mnoova.com
@@ -23320,6 +23829,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.livembed.com
 0.0.0.0 ads.moartraffic.com
 0.0.0.0 ads.nighttstand.com
+0.0.0.0 ads.nubilefilms.com
 0.0.0.0 ads.onlinevideoconverter.com
 0.0.0.0 ads.prnt.sc
 0.0.0.0 ads.proboards.com
@@ -23378,6 +23888,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 af-event-logger.appsflyer.com
 0.0.0.0 afdse3.com
 0.0.0.0 aff-tracker.com
+0.0.0.0 affabilitydisciple.com
 0.0.0.0 affiliate.nagios.com
 0.0.0.0 affiliategroove.com
 0.0.0.0 affiliates.abebooks.com
@@ -23392,10 +23903,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 aiprvqqnhm.com
 0.0.0.0 airlytics-web.airlock.twcmobile.weather.com
 0.0.0.0 ajorinryeso.com
+0.0.0.0 ak-d.tripcdn.com
+0.0.0.0 ak.aungudie.com
+0.0.0.0 ak.hesoorda.com
 0.0.0.0 ak.hetaint.com
 0.0.0.0 ak.hetaruvg.com
 0.0.0.0 ak.roudoduor.com
 0.0.0.0 ak.whookroo.com
+0.0.0.0 ak.zougreek.com
 0.0.0.0 ak74blog.disqus.com
 0.0.0.0 akmxts.com
 0.0.0.0 akutapro.com
@@ -23435,6 +23950,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ampugi334f.com
 0.0.0.0 ams-pageview-public.s3.amazonaws.com
 0.0.0.0 amxrtb.com
+0.0.0.0 an.pornone.com
 0.0.0.0 analyse.bcovery.com
 0.0.0.0 analytics-eu.clickdimensions.com
 0.0.0.0 analytics-udg.netdna-ssl.com
@@ -23614,7 +24130,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 azentace.com
 0.0.0.0 azulcw7.com
 0.0.0.0 azure-assets-prod.vicomi.com
+0.0.0.0 b-hls-06.sacdnssedge.com
+0.0.0.0 b-hls-07.sacdnssedge.com
+0.0.0.0 b-hls-12.sacdnssedge.com
+0.0.0.0 b-hls-15.sacdnssedge.com
+0.0.0.0 b-hls-16.sacdnssedge.com
 0.0.0.0 b-hls-17.strpst.com
+0.0.0.0 b-hls-23.sacdnssedge.com
 0.0.0.0 b.a11k.com
 0.0.0.0 b.bnrsis.com
 0.0.0.0 b.comihon.com
@@ -23637,6 +24159,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 baannre.com
 0.0.0.0 babadnmak.com
 0.0.0.0 babblecase.com
+0.0.0.0 backfirestomachreasoning.com
 0.0.0.0 backoffice.transmatico.com
 0.0.0.0 badsecs.com
 0.0.0.0 badskis.com
@@ -23652,6 +24175,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bassets.bigabidserv.com
 0.0.0.0 baustraightu.com
 0.0.0.0 bbballs.men
+0.0.0.0 bbzutils.tripcdn.cn
 0.0.0.0 bcdn.clickaine.com
 0.0.0.0 bcdn.grmtas.com
 0.0.0.0 bcprm.com
@@ -23699,6 +24223,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 binary.limited
 0.0.0.0 bitingcomposed.com
 0.0.0.0 bitonclick.com
+0.0.0.0 bitsspiral.com
 0.0.0.0 blacknesskeepplan.com
 0.0.0.0 blastcahs.com
 0.0.0.0 bleachfamouszinc.com
@@ -23714,6 +24239,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bngprm.com
 0.0.0.0 bnmjjwinf292.com
 0.0.0.0 bnvlebfv.com
+0.0.0.0 boastwelfare.com
 0.0.0.0 boloptrex.com
 0.0.0.0 bongacams10.com
 0.0.0.0 bongacams7.com # Tracking Script
@@ -23738,6 +24264,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 btpnative.com
 0.0.0.0 bts.a11k.com
 0.0.0.0 bttrack.com
+0.0.0.0 bulkd.co
 0.0.0.0 bumpyremittancecarnivorous.com
 0.0.0.0 business.bing.com
 0.0.0.0 butalksuw9dj10.com
@@ -23833,6 +24360,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.admitad-connect.com
 0.0.0.0 cdn.adx1.com
 0.0.0.0 cdn.apvdr.com
+0.0.0.0 cdn.banhq.com
 0.0.0.0 cdn.barscreative1.com
 0.0.0.0 cdn.bidfilter.com
 0.0.0.0 cdn.bizible.com
@@ -23981,6 +24509,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 chioneflake.com
 0.0.0.0 chirkacylal.com
 0.0.0.0 chivas.com
+0.0.0.0 chloro.trip.com
 0.0.0.0 choices.consentframework.com
 0.0.0.0 choices.trustarc.com
 0.0.0.0 choices.truste.com
@@ -24001,6 +24530,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cleanleadsonly.com
 0.0.0.0 cleardexchange.com
 0.0.0.0 clearonclick.com
+0.0.0.0 cleftmeter.com
 0.0.0.0 clenchedyouthmatching.com
 0.0.0.0 clerrrep.com
 0.0.0.0 click-v4.expdiremdia.com
@@ -24140,7 +24670,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.schjmp.com
 0.0.0.0 creative.speednetwork15.com
 0.0.0.0 creative.wwwpromoter.com
-0.0.0.0 creative.xlirdr.com
+0.0.0.0 creative.xlviirdr.com
 0.0.0.0 creative.xxxiijmp.com # Werbespots und Popups
 0.0.0.0 creatives.sportradarserving.com
 0.0.0.0 creepercurvaturedefenceless.com
@@ -24240,6 +24770,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 deebcards-themier.com
 0.0.0.0 deep-wisteria-g7u6bcxr6vhvq109ky2cj4v8.herokudns.com
 0.0.0.0 defencehungry.com
+0.0.0.0 defendantlucrative.com
 0.0.0.0 definedbootnervous.com
 0.0.0.0 delicatecascade.com
 0.0.0.0 delivery.adrecover.com
@@ -24258,6 +24789,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 demetsik.com
 0.0.0.0 demolishabolish.com
 0.0.0.0 denetsuk.com
+0.0.0.0 designsrivetfoolish.com
 0.0.0.0 desperationembassy.com
 0.0.0.0 destore-daindmade.com
 0.0.0.0 dev.lifesoftwares.com
@@ -24275,7 +24807,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 diffuser-cdn.app-us1.com
 0.0.0.0 dig.ultimedia.com
 0.0.0.0 digitalfuture.g2afse.com
+0.0.0.0 dimg04.tripcdn.com
 0.0.0.0 dimreproofjumped.com
+0.0.0.0 dinerbreathtaking.com
 0.0.0.0 directionssecondary.com
 0.0.0.0 discovernative.com
 0.0.0.0 discriminationprovide.com
@@ -24315,6 +24849,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dqealri.thefaceduck.com
 0.0.0.0 draft.blogger.com
 0.0.0.0 drctslk.com
+0.0.0.0 drivingfoot.website
 0.0.0.0 drkapoorclinic.com
 0.0.0.0 droppedrolling.com
 0.0.0.0 drtuber.desi
@@ -24327,6 +24862,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dts6.clnmde.com
 0.0.0.0 duamilsyr.com
 0.0.0.0 ductrealistic.com
+0.0.0.0 dukesubsequent.com
 0.0.0.0 dukirliaon.com
 0.0.0.0 dulillipupan.com
 0.0.0.0 dump1.shopkeyem.com
@@ -24369,8 +24905,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 ecdn.analysis.fi
 0.0.0.0 echo.nws.press
 0.0.0.0 ecma.sidebyz.com
+0.0.0.0 ecs.nel.measure.office.net
+0.0.0.0 ecs.office.com
 0.0.0.0 edayo.waqool.com
 0.0.0.0 edconside.com
+0.0.0.0 edge-hls.sacdnssedge.com
 0.0.0.0 edge-vids.wirewax.com
 0.0.0.0 edge.ad1x.com
 0.0.0.0 edge.eu1.fullstory.com
@@ -24403,6 +24942,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 en.ulozto.sk
 0.0.0.0 enaceanspection.com
 0.0.0.0 endingrude.com
+0.0.0.0 engine-cm.hqscene.com
 0.0.0.0 engine-cm.tiypa.com
 0.0.0.0 engine.4dsply.com
 0.0.0.0 engine.adlogists.com
@@ -24558,6 +25098,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 feed.mikle.com
 0.0.0.0 feedads.feedblitz.com
 0.0.0.0 ferniewebcam.com
+0.0.0.0 fetidbelow.com
 0.0.0.0 ff6840b5f0.338d2db673.com
 0.0.0.0 fgddl9szdof7.com
 0.0.0.0 fieldofbachus.com
@@ -24581,6 +25122,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fnjvkjeuf.com
 0.0.0.0 fnkyyrgraizy.com
 0.0.0.0 fo-static.omnitagjs.com
+0.0.0.0 focuscivilization.com
 0.0.0.0 foewhajfnqry.com
 0.0.0.0 fokea.com
 0.0.0.0 for-j.com
@@ -24713,6 +25255,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 go.imagetwistcams.com
 0.0.0.0 go.ktkjmp.com
 0.0.0.0 go.lnkam.com
+0.0.0.0 go.mnaspm.com
 0.0.0.0 go.moaroffers.com
 0.0.0.0 go.moartraffic.com
 0.0.0.0 go.oclasrv.com
@@ -24781,6 +25324,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 h2oapi.adaware.com
 0.0.0.0 h30-deploy.hiconversion.com # Callback/Trackingpixel
 0.0.0.0 h6.msn.com # Nativeads
+0.0.0.0 h74v6kerf.com
 0.0.0.0 hackapparatus.com
 0.0.0.0 hadesleta.com
 0.0.0.0 hadsabs.com
@@ -24798,6 +25342,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 harryloider.com
 0.0.0.0 hartattenuate.com
 0.0.0.0 hatefulgirlfriend.com
+0.0.0.0 hazelmarks.com
 0.0.0.0 hb.adpone.com
 0.0.0.0 hb.brainlyads.com
 0.0.0.0 hb.vntsm.com # Admanager
@@ -24906,6 +25451,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ilusors.com
 0.0.0.0 ilxhsgd.com
 0.0.0.0 imagazine.advertserve.com
+0.0.0.0 imagecdn.clips4sale.com
 0.0.0.0 images.babyboomboomads.com
 0.0.0.0 images.cointelegraph.com
 0.0.0.0 images.getadmiral.com
@@ -24946,14 +25492,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 inorbitad.com
 0.0.0.0 inpage-push.com
 0.0.0.0 inpagepush.com
+0.0.0.0 inpp-ssp-trk.trknext.com
 0.0.0.0 inrhyhorntor.com
 0.0.0.0 inriceukwa.com
+0.0.0.0 insectearly.com
 0.0.0.0 insidenewsreport.com
 0.0.0.0 insights.blogfoster.com # lebegeil.de
 0.0.0.0 insights.dyn.archdaily.com # Trackingpixel
 0.0.0.0 insights.sitesearch360.com # Sessioncookies
 0.0.0.0 inspectorstrongerpill.com
 0.0.0.0 inspiringperiods.com
+0.0.0.0 instagram.bukusukses.com
 0.0.0.0 installerleading.com
 0.0.0.0 instant.page
 0.0.0.0 instantresp.com
@@ -25111,6 +25660,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 kz1d.piguiqproxy.com
 0.0.0.0 l.evidon.com
 0.0.0.0 l.geekestoot.com
+0.0.0.0 l.hyenadata.com
 0.0.0.0 l.shoksips.com
 0.0.0.0 l.totalbeststories.com
 0.0.0.0 l.totaltopwords.com
@@ -25147,6 +25697,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lf1-cdn-tos.bytegoofy.com
 0.0.0.0 lib-us-1.brilliantcollector.com
 0.0.0.0 libedgolart.com
+0.0.0.0 libellousincurablecoronation.com
 0.0.0.0 librato-collector.genius.com
 0.0.0.0 libreriamedina.com
 0.0.0.0 libs.aseads.com
@@ -25190,6 +25741,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 loomscald.com
 0.0.0.0 los.2hisnd.com
 0.0.0.0 lottoland.evergage.com
+0.0.0.0 louisedistanthat.com
 0.0.0.0 lousebankroll.com
 0.0.0.0 lovelybingo.com
 0.0.0.0 loversarrivaladventurer.com
@@ -25198,6 +25750,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lowtyroguer.com
 0.0.0.0 lowtyruntor.com
 0.0.0.0 lp.pctonics.com
+0.0.0.0 lp.theyellownewtab.com
 0.0.0.0 lp.wicked.com
 0.0.0.0 ls.getresponse.com
 0.0.0.0 ltoftheplans.com
@@ -25247,6 +25800,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 manageextremely-thestrongfile.best
 0.0.0.0 manager.eu.smartlook.cloud
 0.0.0.0 manicurereprimand.com
+0.0.0.0 manifest-server.naiadsystems.com
 0.0.0.0 manorparty.com
 0.0.0.0 manslaughterhallucinateenjoyment.com
 0.0.0.0 mantlefluent.com
@@ -25447,6 +26001,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 nopoloferewer.com
 0.0.0.0 northcentralus-0.in.applicationinsights.azure.com
 0.0.0.0 northwestdiddived.com
+0.0.0.0 nostop.go2cloud.org
 0.0.0.0 notabilitysedative.com
 0.0.0.0 notbad-ads.com
 0.0.0.0 notecompilecogitate.com
@@ -25544,6 +26099,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 optimise2.assets-servd.host
 0.0.0.0 optyruntchan.com
 0.0.0.0 oqs.omeda.com
+0.0.0.0 orderana5289.spankbang.com
 0.0.0.0 oreflushvehemence.com
 0.0.0.0 organsshinegarlic.com
 0.0.0.0 orientaldumbest.com
@@ -25603,10 +26159,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 pacifyrespirator.com
 0.0.0.0 padslims.com
 0.0.0.0 pagerankcafe.com
+0.0.0.0 pages.trip.com
 0.0.0.0 pagiwp.com
 0.0.0.0 palundrus.com
 0.0.0.0 pan.adraccoon.com
 0.0.0.0 parcrescentimportantly.com
+0.0.0.0 parentingcalculated.com
 0.0.0.0 parentlargevia.com
 0.0.0.0 park.above.com
 0.0.0.0 parking.bodiscdn.com
@@ -25770,6 +26328,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 predicamentdisconnect.com
 0.0.0.0 predictiondexchange.com
 0.0.0.0 premiumvertising.com
+0.0.0.0 preparedfile.com
 0.0.0.0 preskalyn.com
 0.0.0.0 preventionpitcherremedy.com
 0.0.0.0 preview.anyhentai.com
@@ -25817,6 +26376,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pt.ptlwm.com
 0.0.0.0 ptaohuawu.bagua.com.hgdjkgh.com
 0.0.0.0 ptapjmp.com
+0.0.0.0 ptatexiwhe.com
 0.0.0.0 pti.store.microsoft.com
 0.0.0.0 pto.awecr.com
 0.0.0.0 pto.protoawe.com
@@ -25848,6 +26408,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pushokey.com
 0.0.0.0 pushsar.com
 0.0.0.0 pushwhy.com
+0.0.0.0 putrefyeither.com
 0.0.0.0 puwpush.com
 0.0.0.0 pvpro.com
 0.0.0.0 pwixabcden.com
@@ -25996,6 +26557,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rutpunishsnitch.com
 0.0.0.0 rvrpushserv.com
 0.0.0.0 rvrpushsrv.com
+0.0.0.0 ry.crummerexisted.com
 0.0.0.0 ryymie.com
 0.0.0.0 s-img.lentainform.com
 0.0.0.0 s-img.steepto.com
@@ -26081,6 +26643,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 seapolo.com
 0.0.0.0 search.vibescaster.com
 0.0.0.0 searchae.com
+0.0.0.0 seashorelikelihoodreasonably.com
 0.0.0.0 secludealcoholoverwhelm.com
 0.0.0.0 secretflirtparadise1.com
 0.0.0.0 secure-cdn.mplxtms.com
@@ -26101,6 +26664,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 servanttowns.com
 0.0.0.0 serve.adworldmedia.com
 0.0.0.0 served-by.pixfuture.com
+0.0.0.0 serveforthwithtill.com
 0.0.0.0 serverc.aivdesk.com
 0.0.0.0 service.findologic.com
 0.0.0.0 servicer.lentainform.com
@@ -26162,6 +26726,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 slippersferry.com
 0.0.0.0 slotmagie.zendesk.com
 0.0.0.0 sluicejell.com
+0.0.0.0 smallestgirlfriend.com
 0.0.0.0 smallfiles-url12.netdna-ssl.com
 0.0.0.0 smartadmaker.sqreemtech-test.com
 0.0.0.0 smartcj.com
@@ -26194,6 +26759,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 spc.primagames.com
 0.0.0.0 special-alerts.com
 0.0.0.0 specialistinsensitive.com
+0.0.0.0 specialtymet.com
 0.0.0.0 specificallythesisballot.com
 0.0.0.0 spiffymachine.com
 0.0.0.0 spk-kundenumstellung.com
@@ -26232,6 +26798,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 st.static-srv.com
 0.0.0.0 st.tubecorporate.com
 0.0.0.0 st6-22.vk.com
+0.0.0.0 staggeredravehospitality.com
 0.0.0.0 staging-argus-fra1.snigelweb.com
 0.0.0.0 staging-www.cubecdms.com
 0.0.0.0 stake.com
@@ -26243,6 +26810,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stat.networkmanag.com
 0.0.0.0 stat.onestat.com
 0.0.0.0 statestockingsconfession.com
+0.0.0.0 static-cdn.strpst.com
 0.0.0.0 static-content-1.smadex.com
 0.0.0.0 static-origin.plista.com
 0.0.0.0 static.a-ads.com
@@ -26320,6 +26888,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stray228.com
 0.0.0.0 stream.playbuzz.com # Adwords
 0.0.0.0 stretchsquirrel.com
+0.0.0.0 stripchatgirls.com
 0.0.0.0 studabsently.com
 0.0.0.0 studiolineworks.com
 0.0.0.0 subconsciousill.com
@@ -26675,6 +27244,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 u.totaltopwords.com
 0.0.0.0 u0.extreme-dm.com
 0.0.0.0 u9oxdnxk8b.com
+0.0.0.0 ubt-sin.tripcdn.com
 0.0.0.0 udarem.com
 0.0.0.0 udc-neb.kampyle.com
 0.0.0.0 udinugoo.com
@@ -26713,6 +27283,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 untropiuson.com
 0.0.0.0 unwofulcountys.com
 0.0.0.0 up.trkgenius.com
+0.0.0.0 upcomingmonkeydolphin.com
 0.0.0.0 upcum.com
 0.0.0.0 update.geo.drweb.com
 0.0.0.0 updateenow.com
@@ -26730,6 +27301,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us-fbigov.com
 0.0.0.0 us.ck-ie.com
 0.0.0.0 us.tags.newscgp.com # Prebid
+0.0.0.0 us.trip.com
 0.0.0.0 us01-analysis.ymcart.com
 0.0.0.0 us1.xvika.com
 0.0.0.0 usa.bravo-dog.com
@@ -26744,6 +27316,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 usersync-b3.videoamp.com
 0.0.0.0 ushoofop.com
 0.0.0.0 uslycoloursewo.com
+0.0.0.0 usw3-12.nginxborder-server.naiadsystems.com
 0.0.0.0 usync.nexage.com
 0.0.0.0 ut.performax.cz
 0.0.0.0 utcatholicycl.co
@@ -26859,6 +27432,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 webcompanion.com
 0.0.0.0 webcontentassessor.com
 0.0.0.0 webedia-de-cdn.relevant-digital.com
+0.0.0.0 webresource.tripcdn.com
 0.0.0.0 webroutetrk.com
 0.0.0.0 websdk.appsflyer.com
 0.0.0.0 websocket-visitors.smartsupp.com
@@ -26875,6 +27449,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 weshareabundance.com
 0.0.0.0 wetlinepursuing.com
 0.0.0.0 wfywchrzpic.com
+0.0.0.0 wgqfo.ujscdn.com
 0.0.0.0 whalecashads.com
 0.0.0.0 whamauft.com
 0.0.0.0 whatabouthotbabies.com
@@ -26902,6 +27477,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 widgets.skyprivate.com
 0.0.0.0 widgets.sprinklecontent.com
 0.0.0.0 widow5blackfr.com
+0.0.0.0 wifegraduallyclank.com
 0.0.0.0 wijjidqydgsxas.com
 0.0.0.0 wintub.com
 0.0.0.0 winyourprize36.com
@@ -27031,6 +27607,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.fnkyyrgraizy.com
 0.0.0.0 www.freevpn.win
 0.0.0.0 www.friendlyduck.com
+0.0.0.0 www.frulednulx.com
 0.0.0.0 www.gaming-adult.com
 0.0.0.0 www.gamingnewsweb.com
 0.0.0.0 www.gannett-cdn.com
@@ -27066,6 +27643,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.jetzt-dabei-sein.com
 0.0.0.0 www.jkfdnofnz.com
 0.0.0.0 www.joydownload.com
+0.0.0.0 www.jpsthqhvxynfdx.com
 0.0.0.0 www.jscount.com
 0.0.0.0 www.junbi-tracker.com
 0.0.0.0 www.justproperty.com
@@ -27177,6 +27755,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tradeadexchange.com
 0.0.0.0 www.traktrafficflow.com
 0.0.0.0 www.trfmxt.com
+0.0.0.0 www.trip.com
 0.0.0.0 www.trkview.com
 0.0.0.0 www.trustedcpmrevenue.com
 0.0.0.0 www.trustedshops.com
@@ -27282,6 +27861,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xqiqnxxy.com
 0.0.0.0 xqxknnvbwqfj.com
 0.0.0.0 xs.doweralrostra.com
+0.0.0.0 xszpuvwr7.com
 0.0.0.0 xu2.com
 0.0.0.0 xxwasayldu.com
 0.0.0.0 xymhdmqrjxwl.com
@@ -27291,6 +27871,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 y.totaltopwords.com
 0.0.0.0 yabovip2027.com
 0.0.0.0 yagiay.com
+0.0.0.0 yapdiscuss.com
 0.0.0.0 ydxeryetxyij.com
 0.0.0.0 yfetyg.com
 0.0.0.0 yhb.p.otm-r.com
@@ -27310,8 +27891,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 yourfreepdfconverternow.com
 0.0.0.0 yourfreshstories.com
 0.0.0.0 yourgoads.com
+0.0.0.0 yourjsdelivery.com
 0.0.0.0 yourwebbars.com
 0.0.0.0 yourwownewz.com
+0.0.0.0 yrhnw7h63.com
 0.0.0.0 yukongoldinfo.com
 0.0.0.0 yummy.consumable.com
 0.0.0.0 yuzu-xci-games.5806z.com
@@ -37368,21 +37951,36 @@ ff02::3 ip6-allhosts
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # Conan Exiles
+# Anti Cheat
+#0.0.0.0 cdn.battleye.com
+#0.0.0.0 battleye.b-cdn.net
 #0.0.0.0 ce1.battleye.com
-0.0.0.0 www.google-analytics.com
-#0.0.0.0 cdn-web-nj4.funcom.com
-#0.0.0.0 www.conanexiles.com
-#0.0.0.0 patch.funcom.com
+#0.0.0.0 169-150-247-40.bunnyinfra.net
+#0.0.0.0 ns3181880.ip-51-195-88.eu
+# conansandbox
 #0.0.0.0 a1843.g1.akamai.net
-#0.0.0.0 dl.conanexiles.com # DLCliste, Patchnotes
-#0.0.0.0 exiles-fls-live.azurewebsites.net # Rewards
-#0.0.0.0 a5b4f.playfabapi.com # Onlinezwang & Telemetrie
+#0.0.0.0 dl.conanexiles.com # DLC, Patchnotes
+#0.0.0.0 www.conanexiles.com
+# Stun/Server
+#0.0.0.0 exiles-fls.azurewebsites.net
+#0.0.0.0 ce-fcsd-winunoff-ams.funcom.com # Server G-Portal
+#0.0.0.0 exiles-fls-live.azurewebsites.net # Rewards, Accountinfo, Battlepass, Store items e.g.
+#0.0.0.0 ce-stun-wdc01.funcom.com
+#0.0.0.0 ce-stun-usw01.funcom.com
+#0.0.0.0 ce-stun-ams01.funcom.com
+#0.0.0.0 ce-stun-bra01.funcom.com
+#0.0.0.0 ce-stun-use01.funcom.com
+#0.0.0.0 ce-stun-tpe01.funcom.com
+#0.0.0.0 ce-stun-aus01.funcom.com
+#0.0.0.0 ce-stun-sfo01.funcom.com
+#0.0.0.0 ce-stun-fra01.funcom.com
+# Microsoft Playfab
+#0.0.0.0 A5B4F.playfabapi.com # Onlinezwang & Telemetrie
 0.0.0.0 cluster-d.playfabapi.com
-#0.0.0.0 cdn.funcom.com # Grafiken
-#0.0.0.0 funcom.nyc3.digitaloceanspaces.com
-#0.0.0.0 web04-dc1.funcom.com
-#0.0.0.0 hosts.exiles-fls-live.azurewebsites.net
-#0.0.0.0 ce-fcsd-winunoff-ams.funcom.com # Serverlisten
+# Misc
+0.0.0.0 funcom.pubsub.iegcom.com # Telemetry reports Google Pub/Sub
+0.0.0.0 bugserver-exiles.funcom.com # Data Mining UserTracker, Metrics, Telemetry
+#0.0.0.0 worldtimeapi.org # ClientIP, Datetime, Timezone
 # Vivox Sprachchat
 #0.0.0.0 ce-vts-wdc05.funcom.com
 #0.0.0.0 ce-vts-wdc04.funcom.com
@@ -37390,6 +37988,23 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ce-vts-ams03.funcom.com
 #0.0.0.0 ce-rmq-ams02.funcom.com
 #0.0.0.0 ce-rmq-ams01.funcom.com
+# Launcher
+#0.0.0.0 s.ytimg.com # Javascript
+#0.0.0.0 www.youtube.com # Player, Fonts
+#0.0.0.0 www.conanexiles.com
+#0.0.0.0 patch.funcom.com # XML Feed
+#0.0.0.0 fonts.gstatic.com
+0.0.0.0 www.google-analytics.com # Tracker
+0.0.0.0 googleads.g.doubleclick.net # Ads
+0.0.0.0 static.doubleclick.net # Ads
+0.0.0.0 jnn-pa.googleapis.com # Consent Management
+#0.0.0.0 play.google.com # Logging
+#0.0.0.0 cdn-web-nj4.funcom.com
+#0.0.0.0 cdn.funcom.com # Grafiken
+# Steam Captive Portal Checks / Werbung
+#0.0.0.0 steamcdn-a.akamaihd.net
+0.0.0.0 ipv6check-udp.steamserver.net
+0.0.0.0 test.steampowered.com
 
 # Mutant Year Zero: Road to Eden
 # 23.55.163.62
@@ -43567,9 +44182,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 # VRoid Schnittstelle
 # 104.18.31.199
-0.0.0.0 accounts.pixiv.net.cdn.cloudflare.net
-0.0.0.0 accounts.pixiv.net
-0.0.0.0 s.pximg.net
+#0.0.0.0 accounts.pixiv.net.cdn.cloudflare.net
+#0.0.0.0 accounts.pixiv.net
+#0.0.0.0 s.pximg.net
 # Ingamenews - Dasselbe wie Google Docs
 # https://docs.qq.com/sheet/DWkRuVFhBSWNibm5Q?tab=BB08J2
 # 203.205.254.103
@@ -46902,7 +47517,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter-svc-prod06-public-49221551.us-east-1.elb.amazonaws.com
 
 # Thief IV
-#0.0.0.0 t4.os.eidos.com
+0.0.0.0 t4.os.eidos.com # Online functions discontinued / eingstellt
 
 # Tomb Raider
 # Ipv4/6 Adressen & Adressen - https://gameindustry.eu/katalog/epic-games-inc/
