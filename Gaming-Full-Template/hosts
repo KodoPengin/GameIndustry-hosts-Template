@@ -9,7 +9,7 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 03.03.2024
+# Änderungsdatum: 13.05.2024
 #
 # Diese Datei stammt von https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -763,9 +763,10 @@ ff02::3 ip6-allhosts
 
 # Epic Games Datarouter
 # Ipv4/6 Adressen - https://gameindustry.eu/katalog/epic-games-inc/
-0.0.0.0 datarouter.ol.epicgames.com
-0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 datarouter-prod.ak.epicgames.com
+0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 datarouter.cfef.live.use1a.on.epicgames.com
+0.0.0.0 datarouter.ol.epicgames.com
 
 # Paradox Interactive AB
 # Paradox Launcher
@@ -9800,21 +9801,36 @@ ff02::3 ip6-allhosts
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # Conan Exiles
+# Anti Cheat
+#0.0.0.0 cdn.battleye.com
+#0.0.0.0 battleye.b-cdn.net
 #0.0.0.0 ce1.battleye.com
-0.0.0.0 www.google-analytics.com
-#0.0.0.0 cdn-web-nj4.funcom.com
-#0.0.0.0 www.conanexiles.com
-#0.0.0.0 patch.funcom.com
+#0.0.0.0 169-150-247-40.bunnyinfra.net
+#0.0.0.0 ns3181880.ip-51-195-88.eu
+# conansandbox
 #0.0.0.0 a1843.g1.akamai.net
-#0.0.0.0 dl.conanexiles.com # DLCliste, Patchnotes
-#0.0.0.0 exiles-fls-live.azurewebsites.net # Rewards
-#0.0.0.0 a5b4f.playfabapi.com # Onlinezwang & Telemetrie
+#0.0.0.0 dl.conanexiles.com # DLC, Patchnotes
+#0.0.0.0 www.conanexiles.com
+# Stun/Server
+#0.0.0.0 exiles-fls.azurewebsites.net
+#0.0.0.0 ce-fcsd-winunoff-ams.funcom.com # Server G-Portal
+#0.0.0.0 exiles-fls-live.azurewebsites.net # Rewards, Accountinfo, Battlepass, Store items e.g.
+#0.0.0.0 ce-stun-wdc01.funcom.com
+#0.0.0.0 ce-stun-usw01.funcom.com
+#0.0.0.0 ce-stun-ams01.funcom.com
+#0.0.0.0 ce-stun-bra01.funcom.com
+#0.0.0.0 ce-stun-use01.funcom.com
+#0.0.0.0 ce-stun-tpe01.funcom.com
+#0.0.0.0 ce-stun-aus01.funcom.com
+#0.0.0.0 ce-stun-sfo01.funcom.com
+#0.0.0.0 ce-stun-fra01.funcom.com
+# Microsoft Playfab
+#0.0.0.0 A5B4F.playfabapi.com # Onlinezwang & Telemetrie
 0.0.0.0 cluster-d.playfabapi.com
-#0.0.0.0 cdn.funcom.com # Grafiken
-#0.0.0.0 funcom.nyc3.digitaloceanspaces.com
-#0.0.0.0 web04-dc1.funcom.com
-#0.0.0.0 hosts.exiles-fls-live.azurewebsites.net
-#0.0.0.0 ce-fcsd-winunoff-ams.funcom.com # Serverlisten
+# Misc
+0.0.0.0 funcom.pubsub.iegcom.com # Telemetry reports Google Pub/Sub
+0.0.0.0 bugserver-exiles.funcom.com # Data Mining UserTracker, Metrics, Telemetry
+#0.0.0.0 worldtimeapi.org # ClientIP, Datetime, Timezone
 # Vivox Sprachchat
 #0.0.0.0 ce-vts-wdc05.funcom.com
 #0.0.0.0 ce-vts-wdc04.funcom.com
@@ -9822,6 +9838,23 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ce-vts-ams03.funcom.com
 #0.0.0.0 ce-rmq-ams02.funcom.com
 #0.0.0.0 ce-rmq-ams01.funcom.com
+# Launcher
+#0.0.0.0 s.ytimg.com # Javascript
+#0.0.0.0 www.youtube.com # Player, Fonts
+#0.0.0.0 www.conanexiles.com
+#0.0.0.0 patch.funcom.com # XML Feed
+#0.0.0.0 fonts.gstatic.com
+0.0.0.0 www.google-analytics.com # Tracker
+0.0.0.0 googleads.g.doubleclick.net # Ads
+0.0.0.0 static.doubleclick.net # Ads
+0.0.0.0 jnn-pa.googleapis.com # Consent Management
+#0.0.0.0 play.google.com # Logging
+#0.0.0.0 cdn-web-nj4.funcom.com
+#0.0.0.0 cdn.funcom.com # Grafiken
+# Steam Captive Portal Checks / Werbung
+#0.0.0.0 steamcdn-a.akamaihd.net
+0.0.0.0 ipv6check-udp.steamserver.net
+0.0.0.0 test.steampowered.com
 
 # Mutant Year Zero: Road to Eden
 # 23.55.163.62
@@ -15999,9 +16032,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 # VRoid Schnittstelle
 # 104.18.31.199
-0.0.0.0 accounts.pixiv.net.cdn.cloudflare.net
-0.0.0.0 accounts.pixiv.net
-0.0.0.0 s.pximg.net
+#0.0.0.0 accounts.pixiv.net.cdn.cloudflare.net
+#0.0.0.0 accounts.pixiv.net
+#0.0.0.0 s.pximg.net
 # Ingamenews - Dasselbe wie Google Docs
 # https://docs.qq.com/sheet/DWkRuVFhBSWNibm5Q?tab=BB08J2
 # 203.205.254.103
@@ -19334,7 +19367,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 datarouter-svc-prod06-public-49221551.us-east-1.elb.amazonaws.com
 
 # Thief IV
-#0.0.0.0 t4.os.eidos.com
+0.0.0.0 t4.os.eidos.com # Online functions discontinued / eingstellt
 
 # Tomb Raider
 # Ipv4/6 Adressen & Adressen - https://gameindustry.eu/katalog/epic-games-inc/
