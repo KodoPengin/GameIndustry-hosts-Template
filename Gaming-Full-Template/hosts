@@ -5,17 +5,22 @@
 #  \____|\__,_|_| |_| |_|\___|___|_| |_|\__,_|\__,_|___/\__|_|   \__, (_)___|\__,_|
 #                                                                |___/             
 #
-# Erhöhter Schutz vor Spyware, Advertising, Analytics, Tracking in Spielen
-# Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
+# Erhöhter Schutz vor Spyware, Advertising, Analytics, Tracking in Spielen, Programmen und Webseiten
+# Increased protection against spyware, advertising, analytics, tracking in games, programs and websites
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 13.05.2024
+# Version: Template for game clients and games
+# Change/Datum: 22.07.2024
 #
-# Diese Datei stammt von https://www.gameindustry.eu
+# Weitere und aktuelle Spiele sind auf der Website zu finden.
+# More and current games can be found on the website.
+#
+# Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
 # Hilfe: https://gameindustry.eu/faq/
 # Steam: https://www.steamcommunity.com/groups/Penguindome
 # Github: https://github.com/KodoPengin/GameIndustry-hosts-Template
+
 #
 # Lizenz: CC BY-NC-SA 4.0
 # https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
@@ -411,144 +416,49 @@ ff02::3 ip6-allhosts
 # 99.86.4.35
 # 99.86.4.54
 # 99.86.4.90
-#0.0.0.0 accounts.ea.com
-#0.0.0.0 api1.origin.com
-#0.0.0.0 app-assets.ea.com
-#0.0.0.0 app-images.ea.com
-#0.0.0.0 checkout.ea.com
-#0.0.0.0 client-api.arkoselabs.com
-#0.0.0.0 contentful-proxy.juno.ea.com
-#0.0.0.0 desktop-config.juno.ea.com
-#0.0.0.0 discordapp.com
-#0.0.0.0 ea-api.arkoselabs.com
-#0.0.0.0 eaassets-a.akamaihd.net
-#0.0.0.0 eacommerce.akamaized.net
-#0.0.0.0 friends.gs.ea.com
-#0.0.0.0 gateway.ea.com
-#0.0.0.0 heartbeat.dm.origin.com
-#0.0.0.0 o.ss2.us
-#0.0.0.0 ocsp.rootg2.amazontrust.com
 #0.0.0.0 origin-a.akamaihd.net
-#0.0.0.0 pc-assets.ea.com
-#0.0.0.0 pc.ea.com
-#0.0.0.0 river.data.ea.com
-#0.0.0.0 rtm.tnt-ea.com
-#0.0.0.0 sdk.split.io
-#0.0.0.0 service-aggregation-layer.juno.ea.com
-#0.0.0.0 signin.ea.com
-#0.0.0.0 stage.secure.download.dm.origin.com
-#0.0.0.0 www.google.com
-#0.0.0.0 www.google.de
-0.0.0.0 bam.nr-data.net
-0.0.0.0 c.go-mpulse.net
-0.0.0.0 confluence.ea.com
-0.0.0.0 consent.trustarc.com
-0.0.0.0 events.split.io
-0.0.0.0 gosca18.ea.com
-0.0.0.0 js-agent.newrelic.com
-0.0.0.0 pin-river.data.ea.com
-0.0.0.0 ratt.juno.ea.com
-0.0.0.0 s.go-mpulse.net
-#0.0.0.0 storage.googleapis.com
-0.0.0.0 stats.g.doubleclick.net
-0.0.0.0 www.google-analytics.com
-0.0.0.0 www.googletagmanager.com
-
-# Origin Launcher
-# Weiterhin auf dem MAC präsent
-# Für den Client oder Spiele nicht benötigt
-# 34.230.177.100
-# 34.202.75.252
-0.0.0.0 vpc-prod-heartbeat-439069019.us-east-1.elb.amazonaws.com
-#0.0.0.0 heartbeat.dm.origin.com # Wird zum Login mit VPN benötigt - Sonst Blockieren...
-0.0.0.0 pin-river.data.ea.com
-0.0.0.0 gosca18.ea.com
-0.0.0.0 pin-em.data.ea.com
-0.0.0.0 recommendations.tnt-ea.com
-0.0.0.0 c.go-mpulse.net
-0.0.0.0 2e33b7cf.mpstat.us
-#0.0.0.0 river.data.ea.com
-0.0.0.0 gen4.reports.tools.gos.ea.com
-# Chat & Freunde bei Bedarf de/aktivieren
-#0.0.0.0 friends.dm.origin.com # Freundesliste
-#0.0.0.0 chat.dm.origin.com # Chatfunktion
-#0.0.0.0 rtm.tnt-ea.com
-#0.0.0.0 antelope-rtm-prod-white-483967324.us-east-1.elb.amazonaws.com
-#0.0.0.0 antelope-rtm-prod-black-519949175.us-east-1.elb.amazonaws.com
-#0.0.0.0 antelope-rtm-prod-white-483967324.us-east-1.elb.amazonaws.com
-#0.0.0.0 groups.gameservices.ea.com
-# Cloud und Websocketkommunikation
-# 52.216.99.3
-#0.0.0.0 achievements.gameservices.ea.com # Erfolge...
-#0.0.0.0 cloudsync-prod.s3.amazonaws.com # Cloudsaves/Profileinstellungen usw.
-#0.0.0.0 dl.dropbox.com # Dienst auch in anderen Anwendungen integriert. Nur bei Bedarf blockieren - Zuständig für Crashreports
-0.0.0.0 stage.secure.download.dm.origin.com # Cloudsync Dateitypen Blacklist
-0.0.0.0 dirtybits.api.origin.com # ?
-#0.0.0.0 use.typekit.net # Wird für das Aufrufen der Newslettereinstellungen benötigt
-# Für Funktionalität benötigt
-#0.0.0.0 signin.ea.com
+#0.0.0.0 autopatch.juno.ea.com
+#0.0.0.0 desktop-config.juno.ea.com
+#0.0.0.0 desktop-config-integration.juno.ea.com
 #0.0.0.0 accounts.ea.com
+#0.0.0.0 signin.ea.com
+#0.0.0.0 eaassets-a.akamaihd.net
+#0.0.0.0 update.googleapis.com
+#0.0.0.0 service-aggregation-layer.juno.ea.com
 #0.0.0.0 secure.download.dm.origin.com
-#0.0.0.0 lvlt.cdn.ea.com # Content/Downloadserver
-#0.0.0.0 gateway.ea.com # Displayname/Sichtbarkeit/letzte Logindaten/ID
-#0.0.0.0 origin-a.akamaihd.net # Download aktueller Clientversion
-#0.0.0.0 originassets.akamaized.net # Produktbilder
-# Apis sind abgesehen von Kernfunktionen ebenfalls für die gezeigten Shopangebote/Details zuständig
-#0.0.0.0 api1.origin.com # Autopatch, Produktzuordnungen, Authorisierungen, Länder Bannliste, Währung, Kaufdatum, Erfassung der Spielstarts, Multiplayerids, Spielsitzungen, Spielzeitdauer etc
-#0.0.0.0 api2.origin.com # Spielzeit, IP-Erfassung/Geodaten
-#0.0.0.0 api3.origin.com # SpielID's, MultiplayerID, letzte Spielsitzung und Zeitstempel
-#0.0.0.0 api4.origin.com # Telemetrie - leider verzahnt mit anderen Darstellungs/funktionen
-# Spieledaten wie z.b. Cover, Seitenzuordnungen, Spieleinfos etc
-#0.0.0.0 data1.origin.com
-#0.0.0.0 data2.origin.com
-#0.0.0.0 data3.origin.com
-#0.0.0.0 data4.origin.com
-# OriginWebHelperService.exe
-# 23.38.86.148
-# 2.17.1.22
-# 2.22.247.33
-# 23.211.1.93
-# 88.221.149.16
-# 23.40.97.49
-# 2.22.95.49
-# 23.210.253.16
-# 88.221.164.218
-#0.0.0.0 e4894.g.akamaiedge.net
-# Neu dabei - geprüft Februar 2020
-# 34.199.132.106
-# 34.226.66.159
-# 52.4.13.87
-# 52.5.70.71
-# 52.44.9.38
-# 52.4.13.87
-0.0.0.0 information-api-gateway-prod-blck.us-east-1.elasticbeanstalk.com
-# Sonstiges
-0.0.0.0 09b5a91c7f2d383e9.gs.ea.com
-0.0.0.0 0cf6c0df87dc9f73e.gs.ea.com
-0.0.0.0 0a0f2aa0965ed4a40.gs.ea.com
-0.0.0.0 036bdce1effdafbb4.gs.ea.com
-0.0.0.0 05196775c0912488b.gs.ea.com
-0.0.0.0 03e0279355465f8bc.gs.ea.com
-0.0.0.0 0c14eda1ff93d3986.gs.ea.com
-0.0.0.0 0543d8862727cf1e0.gs.ea.com
-0.0.0.0 07a7ad9333cabe619.gs.ea.com
-0.0.0.0 0ab2c6e49da4a3502.gs.ea.com
-0.0.0.0 0c3d0ff1cff2a72a9.gs.ea.com
-0.0.0.0 0dc5948d07b2684c3.gs.ea.com
-0.0.0.0 03fd2e58e769a6f1f.gs.ea.com
-0.0.0.0 03a4c502020d4ea47.gs.ea.com
-0.0.0.0 03f94b757df37da66.gs.ea.com
-0.0.0.0 09b039b90ee5e48a6.gs.ea.com
-0.0.0.0 0955daf526e15ad28.gs.ea.com
-0.0.0.0 0df42cc7484911469.gs.ea.com
-0.0.0.0 0bcd99b427f2ef101.gs.ea.com
-0.0.0.0 04b59136e1a643f38.gs.ea.com
-0.0.0.0 0bcd99b427f2ef101.gs.ea.com
-0.0.0.0 01e4757ac7e1e56c4.gs.ea.com
-0.0.0.0 0b0449e21a4a7e7ba.gs.ea.com
-0.0.0.0 0a7a1e036169de01a.gs.ea.com
-0.0.0.0 0679d175b8912d4d7.gs.ea.com
-0.0.0.0 0bb5efe081f99e8d0.gs.ea.com
+#0.0.0.0 service-aggregation-layer-subs.juno.ea.com
+#0.0.0.0 contentful-proxy.juno.ea.com
+#0.0.0.0 pc.ea.com
+#0.0.0.0 eacommerce.akamaized.net
+#0.0.0.0 checkout.ea.com
+#0.0.0.0 rtm.tnt-ea.com
+#0.0.0.0 app-images.ea.com
+#0.0.0.0 gcs.ea.com
+#0.0.0.0 friends.gs.ea.com
+#0.0.0.0 groups.gameservices.ea.com
+#0.0.0.0 discordapp.com
+#0.0.0.0 pin-em.data.ea.com
+0.0.0.0 trial-eum-clienttons-s.akamaihd.net
+0.0.0.0 statsigapi.net
+0.0.0.0 region1.google-analytics.com
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 js-agent.newrelic.com
+0.0.0.0 c.go-mpulse.net
+0.0.0.0 bam.nr-data.net
+0.0.0.0 featuregates.org
+0.0.0.0 02179912.akstat.io
+0.0.0.0 sdk.split.io
+0.0.0.0 events.split.io
+0.0.0.0 ea-app-data-override-dev.eax.ea.com
+0.0.0.0 gosca18.ea.com
+0.0.0.0 freeform-river.data.ea.com
+0.0.0.0 confluence.ea.com
+0.0.0.0 redirector.gvt1.com
+0.0.0.0 r3---sn-gxuo03g-vqne.gvt1.com
+0.0.0.0 ratt.juno.ea.com
+0.0.0.0 pin-river.data.ea.com
+0.0.0.0 jvnlfjixedxncztem7pq-pjz1qn-ea616a9d6-clientnsv4-s.akamaihd.net
 
 # Epic Games, Inc.
 # Epic Games Launcher
@@ -891,7 +801,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.cquotient.com
 
 # Valve Corporation | Valve Softworks | Steam Client
-# Dazugehörige Infos unter https://gameindustry.eu/katalog/valve-corporation/#GoogleCaptive
+# Info: https://gameindustry.eu/katalog/valve-corporation/captive-portal/
 # Seit Version 1637358733 inaktiv
 # Steam: Captive Portal und Google
 0.0.0.0 gstatic.com # ALT
@@ -903,7 +813,7 @@ ff02::3 ip6-allhosts
 # 62.115.252.177
 0.0.0.0 test.steampowered.com # /204
 
-# Steam: Anmeldeserver | https und wss Protokoll
+# Steam: Auth | https & wss Protokoll
 # 103.10.124.124
 # 103.28.54.178
 # 162.254.196.67
@@ -965,72 +875,13 @@ ff02::3 ip6-allhosts
 #0.0.0.0 api.steampowered.com # Globale Erfolge, Anmeldetoken, DRM, Metriken, Kommentare im Forum und Profil, Aktivitäten
 
 # Steam: Broadcasting
-# 95.101.72.216
-# 162.254.196.86
-# 162.254.193.42
-# 72.247.154.169
-# 2.21.228.155
-# 155.133.248.16
-# Angaben nicht komplett
+# 23.53.41.248
+# 208.64.200.16
+# 2.19.198.137
+# 2.19.198.122-×
 #0.0.0.0 steambroadcast.akamaized.net
-#0.0.0.0 br1-fra1.broadcast.steamcontent.com
-#0.0.0.0 br1-lax1.broadcast.steamcontent.com
-#0.0.0.0 br1-lhr1.broadcast.steamcontent.com
-#0.0.0.0 br1-ord1.broadcast.steamcontent.com
-#0.0.0.0 br1-tyo1.broadcast.steamcontent.com
-#0.0.0.0 br2-fra1.broadcast.steamcontent.com
-#0.0.0.0 br2-lax1.broadcast.steamcontent.com
-#0.0.0.0 br2-lhr1.broadcast.steamcontent.com
-#0.0.0.0 br2-ord1.broadcast.steamcontent.com
-#0.0.0.0 br2-tyo1.broadcast.steamcontent.com
-#0.0.0.0 br3-fra1.broadcast.steamcontent.com
-#0.0.0.0 br3-lax1.broadcast.steamcontent.com
-#0.0.0.0 br3-lhr1.broadcast.steamcontent.com
-#0.0.0.0 br3-ord1.broadcast.steamcontent.com
-#0.0.0.0 br3-tyo1.broadcast.steamcontent.com
-#0.0.0.0 br4-fra1.broadcast.steamcontent.com
-#0.0.0.0 br4-lax1.broadcast.steamcontent.com
-#0.0.0.0 br4-lhr1.broadcast.steamcontent.com
-#0.0.0.0 br4-ord1.broadcast.steamcontent.com
-#0.0.0.0 br4-tyo1.broadcast.steamcontent.com
-#0.0.0.0 repo-01-fra1.broadcast.steamcontent.com
-#0.0.0.0 repo-01-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-01-sea1.broadcast.steamcontent.com
-#0.0.0.0 repo-01-sto1.broadcast.steamcontent.com
-#0.0.0.0 repo-02-fra1.broadcast.steamcontent.com
-#0.0.0.0 repo-02-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-02-sea1.broadcast.steamcontent.com
-#0.0.0.0 repo-02-sto1.broadcast.steamcontent.com
-#0.0.0.0 repo-03-fra1.broadcast.steamcontent.com
-#0.0.0.0 repo-03-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-03-sea1.broadcast.steamcontent.com
-#0.0.0.0 repo-03-sto1.broadcast.steamcontent.com
-#0.0.0.0 repo-04-fra1.broadcast.steamcontent.com
-#0.0.0.0 repo-04-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-04-sea1.broadcast.steamcontent.com
-#0.0.0.0 repo-04-sto1.broadcast.steamcontent.com
-#0.0.0.0 valve1600.broadcast.steamcontent.com
-#0.0.0.0 valve1600.chat.steamcontent.com
-#0.0.0.0 valve1601.broadcast.steamcontent.com
-#0.0.0.0 valve1601.chat.steamcontent.com
-#0.0.0.0 valve500.broadcast.steamcontent.com
-#0.0.0.0 valve501.broadcast.steamcontent.com
-#0.0.0.0 video.steamstatic.com # Analytics
-# Auszug der Streamingthumbnails
-#0.0.0.0 ingest-01-lax1.broadcast.steamcontent.com
-#0.0.0.0 ingest-01-lhr1.broadcast.steamcontent.com
-#0.0.0.0 ingest-02-fra1.broadcast.steamcontent.com
-#0.0.0.0 ingest-02-lhr1.broadcast.steamcontent.com
-#0.0.0.0 ingest-02-sea1.broadcast.steamcontent.com
-#0.0.0.0 ingest-02-sto1.broadcast.steamcontent.com
-#0.0.0.0 ingest-03-fra1.broadcast.steamcontent.com
-#0.0.0.0 ingest-03-lax1.broadcast.steamcontent.com
-#0.0.0.0 ingest-03-ord1.broadcast.steamcontent.com
-#0.0.0.0 ingest-03-sto1.broadcast.steamcontent.com
-#0.0.0.0 ingest-04-lax1.broadcast.steamcontent.com
-#0.0.0.0 ingest-04-lhr1.broadcast.steamcontent.com
-# Beispiel für Breodcasting über Contentserver
-# https://cache5-ams1.steamcontent.com/broadcast/76561199005420507/7883999028056715455/segment/video/4/*.*
+#0.0.0.0 video.steamstatic.com
+#0.0.0.0 steamvideo-a.akamaihd.net
 
 # Steam: Bootstrapper - Beispiele einiger Endpunkte
 #0.0.0.0 162-254-198-18.valve.net
@@ -1084,9 +935,6 @@ ff02::3 ip6-allhosts
 # 104.82.95.31
 # 23.62.113.19
 #0.0.0.0 steam-chat.com # Javascript WebUI, JSON, Miniprofile
-
-# Steam: Client und Webseite
-0.0.0.0 www.google-analytics.com # Google Analytics x3 - UA-33786258-1, UA-33779068-1 und UA-63631619-1
 
 # Steam: Client Update Service
 # 2.21.228.80
@@ -1158,6 +1006,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 blob.mwh04prdstr01a.store.core.windows.net
 #0.0.0.0 steamcloudmumbai2.blob.core.windows.net
 #0.0.0.0 steamcloud-mumbai.storage.googleapis.com
+#0.0.0.0 steamcloud-tyo.s3.dualstack.ap-northeast-1.amazonaws.com
 # Clouduploads direkt über IP
 # 208.64.201.182 # /depotupload/xxxxx/manifest und chunk
 # Nicht authorisierte Clouduploads
@@ -1186,13 +1035,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamcommunity-a.akamaihd.net # Emoticons, Bilder, Abzeichen, Skins
 #0.0.0.0 community.akamai.steamstatic.com
 
-# Steam: Controller Konfiguration
-# 95.101.142.155
-# 104.104.182.95
-#0.0.0.0 media.steampowered.com
-#0.0.0.0 steam.apac.qtlglb.com # Depotmanifest /depot/241100/manifest/6711344606286301481/5
-#0.0.0.0 controller.steampowered.com
-
 # Steam: Crashlogs | Telemetrie
 # Ip/s blockieren:
 # 208.64.203.140
@@ -1201,94 +1043,35 @@ ff02::3 ip6-allhosts
 0.0.0.0 crash.steampowered.com # BuildID, Zeit, Notes, Plattform, Produktname, Startzeit, Steamuniverse, Theme, Url, UserID, Vendor, Version, Laufzeit, Upload der Minidump uvm.
 0.0.0.0 collector-01.valve.net
 0.0.0.0 collector-02.valve.net
-0.0.0.0 0.0.0.0 r3.o.lencr.org
+0.0.0.0 r3.o.lencr.org
 
-# Steam: Beispiele für Produkt | Spieledownload | Depots
-# Komplette Liste ist ähnlich groß wie die der Mehrspielerserverlisten etwas weiter unten
-# 87.245.223.11
-# 87.245.208.50
-# 162.254.198.14
-# 87.245.208.52
-# 108.177.126.128
-# 155.133.250.67
-# 155.133.248.26
-# 155.133.248.23
-# 155.133.248.13
-# 155.133.248.25
-# 155.133.248.21
-# 155.133.248.29
-# 155.133.248.22
-# 155.133.248.19
-# 2a01:bc80:a:101:0:0:b919:b625
-#0.0.0.0 cache1-sto1.steamcontent.com
-#0.0.0.0 cache10-ams1.steamcontent.com
-#0.0.0.0 cache11-ams1.steamcontent.com
-#0.0.0.0 cache12-ams1.steamcontent.com
-#0.0.0.0 cache13-ams1.steamcontent.com
-#0.0.0.0 cache14-ams1.steamcontent.com
-#0.0.0.0 cache15-ams1.steamcontent.com
-#0.0.0.0 cache18-ams1.steamcontent.com
-#0.0.0.0 cache2-ams1.steamcontent.com
-#0.0.0.0 cache2-iad1.steamcontent.com
-#0.0.0.0 cache2-lax1.steamcontent.com
-#0.0.0.0 cache25-iad1.steamcontent.com
-#0.0.0.0 cache26-iad1.steamcontent.com
-#0.0.0.0 cache3-ams1.steamcontent.com
-#0.0.0.0 cache4-lax1.steamcontent.com
-#0.0.0.0 cache5-iad1.steamcontent.com
-#0.0.0.0 cache54-fra1.steamcontent.com
-#0.0.0.0 cache8-ams1.steamcontent.com
-#0.0.0.0 cdn.highwinds.cs.steampowered.com # Depot Manifest
-# Neue Downloadserver seit Sept./Okt. 2020
-#0.0.0.0 cache1.hel-retn.steamcontent.com
-#0.0.0.0 cache1-hrk-retn.steamcontent.com
-#0.0.0.0 cache2-hrk-retn.steamcontent.com
-#0.0.0.0 cache1-svo-retn.steamcontent.com
-#0.0.0.0 cache1-hel-retn.steamcontent.com
-#0.0.0.0 cache2-hel-retn.steamcontent.com
-#0.0.0.0 cache2-hrk-retn.steamcontent.com
-#0.0.0.0 cache2-svo-retn.steamcontent.com
-#0.0.0.0 cache5-par1.steamcontent.com
-#0.0.0.0 cache6-par1.steamcontent.com
-# Weitere Drittanbieter
-# 2a01:53c0:ff02:ffff:1dbc:b542:5ea:f787
-# 2a01:bc80:a:101:0:0:b919:b625
-# 2001:4de0:ac19:0:0:1:b:2a
-# 2600:1901:0:d9fc:0:0:0:0
-# 8.238.40.124
-#0.0.0.0 steam.naeu.qtlglb.com
-#0.0.0.0 f3b7q2p3.ssl.hwcdn.net
-#0.0.0.0 google.cdn.steampipe.steamcontent.com
+# Steam: Downloads | Depots | Examples / Beispiele
+# Africa - Nordwest
+#0.0.0.0 cache11-lhr1.steamcontent.com
+#0.0.0.0 cache13-lhr1.steamcontent.com
+#0.0.0.0 cache16-lhr1.steamcontent.com
+#0.0.0.0 cache1-lhr1.steamcontent.com
+# Germany - Berlin
+#0.0.0.0 cache10-fra2.steamcontent.com
+#0.0.0.0 cache11-fra1.steamcontent.com
+#0.0.0.0 cache2-fra2.steamcontent.com
+#0.0.0.0 cache6-fra1.steamcontent.com
+# Japan - Fukuoka
+#0.0.0.0 cache10-tyo3.steamcontent.com
+#0.0.0.0 cache11-tyo3.steamcontent.com
+#0.0.0.0 cache12-tyo3.steamcontent.com
+#0.0.0.0 cache1-tyo3.steamcontent.com
+#0.0.0.0 cache2-tyo3.steamcontent.com
+#0.0.0.0 cache3-tyo3.steamcontent.com
+#0.0.0.0 cache7-tyo3.steamcontent.com
+#0.0.0.0 cache8-tyo3.steamcontent.com
+# Outage/Replacement Server
+#0.0.0.0 alibaba.cdn.steampipe.steamcontent.com
+#0.0.0.0 fastly.cdn.steampipe.steamcontent.com
 #0.0.0.0 google2.cdn.steampipe.steamcontent.com
-#0.0.0.0 level3.cdn.steampipe.steamcontent.com
-
-# Steam: Experimentelles Blockieren von Telemetrie, Spyware, Bloatware und Community - Nur Blocken bei Bedarf
-#0.0.0.0 api.steampowered.com # Anmeldung, Token
-# Nicht benötigt, Steam läuft im Minimalmodus. Anmeldung, Erfolge, Bücherei, Downloads
-#0.0.0.0 crash.steampowered.com
-#0.0.0.0 video.steamstatic.com
-#0.0.0.0 steam-chat.com
-#0.0.0.0 steamstore-a.akamaihd.net
-#0.0.0.0 cdn.cloudflare.steamstatic.com
-#0.0.0.0 cdn.akamai.steamstatic.com
-#0.0.0.0 steambroadcast.akamaized.net
-#0.0.0.0 store.steampowered.com
-#0.0.0.0 steamcommunity.com
-#0.0.0.0 steamcdn-a.akamaihd.net
-#0.0.0.0 avatars.akamai.steamstatic.com
-#0.0.0.0 avatars.steamstatic.com
-#0.0.0.0 clientconfig.akamai.steamstatic.com
-#0.0.0.0 steamuserimages-a.akamaihd.net
-#0.0.0.0 community.cloudflare.steamstatic.com
-#0.0.0.0 r3---sn-4g5ednz7.gvt1.com
-#0.0.0.0 redirector.gvt1.com
-#0.0.0.0 media.steampowered.com
-#0.0.0.0 steamloopback.host
-#0.0.0.0 steamcdnstoragequincy.blob.core.windows.net
-#0.0.0.0 steamcdn-uswest.storage.googleapis.com
 
 # Steam: Datagram Relay | SDR
-# Ipv4 Download - https://www.gameindustry.eu/de/blog/steam-datagram-relay/
+# Ipv4 Download - https://www.gameindustry.eu/blog/steam-datagram-relay/
 # Steamworks Info - https://partner.steamgames.com/doc/features/multiplayer/steamdatagramrelay
 
 # Steam: Game Overlay UI
@@ -1296,32 +1079,12 @@ ff02::3 ip6-allhosts
 # 52.58.211.18
 0.0.0.0 ec2-52-58-211-18.eu-central-1.compute.amazonaws.com
 
-# Steam: General Directory Server - Dienst obsolet
-# Ip/s blockieren:
-# 208.64.200.105
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-
-# Steam: html5app_steam.exe
-# 184.84.243.33
-# 23.215.130.81
-# 184.50.211.239
-# 208.64.200.16
-#0.0.0.0 a1507.w23.akamai.net
-#0.0.0.0 store.steampowered.com
-#0.0.0.0 video.steamstatic.com
-
 # Steam: IP Checks
-# Von Valve eingeführte verpflichtende Callbacks im Steam-Client und UE4 Produkten, die allerdings blockiert werden können
-# Dazugehörige IP-Adressen unter https://gameindustry.eu/katalog/valve-corporation/#SteamIPChecks
+# Info & IPv6: https://gameindustry.eu/katalog/valve-corporation/ipv6check/
 0.0.0.0 ipv6check-http.steamcontent.com
 0.0.0.0 ipv6check-udp.steamcontent.com
 0.0.0.0 ipv6check-udp.steamserver.net
-0.0.0.0 ipv6check-http.steamserver.net
+0.0.0.0 ipv6check-http.steamserver.net # Obsolete
 0.0.0.0 eu.http.ipv6check.akadns.net
 0.0.0.0 eu.udp.ipv6check.akadns.net
 0.0.0.0 http.ipv6check.akadns.net
@@ -1366,46 +1129,10 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamuserimages-a.akamaihd.net # hochgeladene Bilder wie Artworks, Screenshots, verlinkte Chatgrafiken
 #0.0.0.0 photos-ugc.l.googleusercontent.com
 
-# Steam: Steam.exe
-# 142.250.186.142
-# 162.254.197.106
-# 155.133.250.108
-# 155.133.250.107
-# 23.55.110.71
-# 23.55.110.179
-# 20.150.66.4
-#0.0.0.0 eu.client.steamcontent.akadns.net
-#0.0.0.0 media.steampowered.com
-0.0.0.0 blob.syd26prdstr02a.store.core.windows.net
-#0.0.0.0 redirector.gvt1.com
-
 # Steam: SteamService.exe
 # Digicert
 # 192.16.58.8
 #0.0.0.0 cs9.wac.phicdn.net
-
-# Steam: SteamWebhelper.exe
-0.0.0.0 limited-prod.giphy.map.fastly.net
-# Ip/s blockieren:
-# 151.101.12.193
-# 151.101.112.193
-# 172.217.12.206
-# 190.61.17.9
-0.0.0.0 prod.imgur.map.fastlylb.net
-0.0.0.0 fpdownload2.macromedia.com
-# Ip/s blockieren:
-# 172.217.12.206
-# 216.58.207.238
-# 216.58.212.136
-# 172.217.22.162
-# 216.58.211.6
-# 173.194.222.154
-0.0.0.0 www-google-analytics.l.google.com
-0.0.0.0 ssl-google-analytics.l.google.com
-0.0.0.0 pagead46.l.doubleclick.net
-0.0.0.0 static-doubleclick-net.l.google.com
-0.0.0.0 stats.l.doubleclick.net
-#0.0.0.0 ipv4.imgur.map.fastly.net
 
 # Steam: streaming_client.exe | RemotePlay
 # GetSDRConfig, Clientservice - NotifyRemotePacket, GetReplies, CreateSessions, Valve Partner
@@ -1437,12 +1164,11 @@ ff02::3 ip6-allhosts
 #0.0.0.0 support.steampowered.com
 
 # Steam: Updates
-# 2.21.22.169
+#0.0.0.0 update.googleapis.com
 #0.0.0.0 client-update.akamai.steamstatic.com
 
 # Steam: Unkategorisiert
 # 2a02:26f0:105:0:0:0:216:16d3
-0.0.0.0 steampipe.akamaized.net # Depot, Manifest
 0.0.0.0 steamstats.valvesoftware.com
 # 155.133.252.39
 # 162.254.198.104
@@ -1455,9 +1181,6 @@ ff02::3 ip6-allhosts
 # 162.254.196.67
 
 # Steam: Weitere Drittanbieter
-# Livepipe.net - Trackingcookies, Werbung und Analytics eingebunden über Javascript
-# 104.115.82.97
-#0.0.0.0 steamcommunity-a.akamaihd.net # public/javascript/livepipe.js?v=.sk9HEaDHE9C5
 # Google, LLC - Youtube, inkl. Logging, Audiences, Doubleclick und Cookies
 # Ip/s blockieren:
 # 172.217.16.150
@@ -1490,7 +1213,7 @@ ff02::3 ip6-allhosts
 
 # Kamu Game Security | Epic Games, Inc.
 # HYDRA Easy Anti-Cheat
-# Dazugehörige IP-Adressen unter https://gameindustry.eu/de/blog/easy-anti-cheat/
+# Dazugehörige IP-Adressen unter https://gameindustry.eu/blog/easy-anti-cheat/
 #0.0.0.0 download-alt.easyanticheat.net
 #0.0.0.0 gossip.easyanticheat.net
 #0.0.0.0 gossip-eu-classic-lb-1736877676.eu-west-1.elb.amazonaws.com
@@ -4193,10 +3916,15 @@ ff02::3 ip6-allhosts
 
 # JUMP FORCE
 # s. Easy Anti-Cheat
-# Ip/s blockieren:
-# 52.203.187.25
+#0.0.0.0 download.eac-cdn.com
+#0.0.0.0 download-alt.easyanticheat.net
+#0.0.0.0 gossip.easyanticheat.net
+#0.0.0.0 hydra.easyanticheat.net
+#0.0.0.0 d168vncdejh91z.cloudfront.net
 0.0.0.0 datarouter.ol.epicgames.com
-0.0.0.0 datarouter-weighted.ol.epicgames.com
+#0.0.0.0 cosmos.channel.or.jp
+#0.0.0.0 avatars.steamstatic.com
+#0.0.0.0 d168vncdejh91z.cloudfront.net
 
 # Little Nightmares
 0.0.0.0 datarouter.ol.epicgames.com
@@ -5513,6 +5241,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 7402.playfabapi.com
 0.0.0.0 p-common-1-mainserver-720424357.us-west-2.elb.amazonaws.com
 
+# モンスターハンターライズ | MONSTER HUNTER RISE
+0.0.0.0 drshjy61dpwmg.cloudfront.net
+0.0.0.0 prod.api.agapanthus.capcom.com
+0.0.0.0 pubsub.googleapis.com
+0.0.0.0 us-central1-snow-analysis.cloudfunctions.net
+
 # Dark Void™
 # SecuROM s. Rubrik Kopierschutz / AntiCheat
 
@@ -5528,6 +5262,15 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ec2-52-8-202-142.us-west-1.compute.amazonaws.com
 #0.0.0.0 ec2-52-53-115-69.us-west-1.compute.amazonaws.com
 #0.0.0.0 ec2-13-56-27-51.us-west-1.compute.amazonaws.com
+
+# Dragon’s Dogma: Dark Arisen
+# SecuROM s. Rubrik Kopierschutz / AntiCheat
+#0.0.0.0 sg-prod-api.newmoon.capcom.co.jp
+#0.0.0.0 steam.newmoon.capcom.co.jp
+#0.0.0.0 endpoint.newmoon.capcom.co.jp
+0.0.0.0 pubsub.googleapis.com
+0.0.0.0 hjm.rebe.capcom.com
+0.0.0.0 mtm.rebe.capcom.com
 
 # Resident Evil: Operation Raccoon City
 # 104.83.120.32
@@ -5580,24 +5323,50 @@ ff02::3 ip6-allhosts
 #0.0.0.0 hjm.rebe.capcom.com
 0.0.0.0 pubsub.googleapis.com
 
+# バイオハザード4 | Resident Evil 4
+# s. Rubrik Kopierschutz / AntiCheat
+0.0.0.0 pubsub.googleapis.com
+0.0.0.0 mtm.rebe.capcom.com
+0.0.0.0 mmr.rebe.capcom.com
+0.0.0.0 mtms.rebe.capcom.com
+0.0.0.0 nkm.rebe.capcom.com
+0.0.0.0 hjm.rebe.capcom.com
+0.0.0.0 selector.gs.capcom.com
+
 # スト5 | Street Fighter 5
-# Ingame Update
-# 23.62.98.25
-#0.0.0.0 a480.dscd.akamai.net
-#0.0.0.0 a23-62-98-25.deploy.static.akamaitechnologies.com
-0.0.0.0 nobunaga.ayagu.jp
-# Epic Games Analytics und Amazon AWS Anbindung
+# 23.48.23.29
+# 23.48.23.48
+# 50.112.223.133
+# 52.32.89.0
+# 52.0.76.96
+# 35.174.187.44
+# 54.83.237.9
+# 34.232.181.236
+# 100.25.125.235
+# 23.22.211.126
+# 3.227.209.242
+# 18.208.43.250
+#0.0.0.0 api-prod.capcomfighters.net
+#0.0.0.0 cdn2-prod-cfn.akamaized.net
+#0.0.0.0 message-prod.capcomfighters.net
+# Multiplayer
+# 52.25.78.247
+# 34.220.52.214
+# 35.164.228.153
+# 34.215.57.130
+# 34.220.52.214
+# 52.25.78.247
+# 54.245.165.72
+# Epic Games Telemetry
 # Ip/s blockieren:
-# 52.200.123.101
-# 54.244.108.50
-# 35.161.233.207
-# 34.220.253.90
-# 35.161.65.242
-# 34.221.17.53
-# 34.215.184.198
-# 34.214.222.226
-0.0.0.0 datarouter-weighted.ol.epicgames.com
-0.0.0.0 ec2-52-200-123-101.compute-1.amazonaws.com
+# 52.0.76.96
+0.0.0.0 etsource.epicgames.com
+
+# バイオハザード6 | Resident Evil VI
+# 40.74.83.21
+# 131.107.13.100
+0.0.0.0 xofr02.capcom.co.jp
+#0.0.0.0 nw.nist.gov
 
 # バイオハザード7 | Resident Evil VII
 # 40.74.124.164
@@ -6116,7 +5885,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.stathat.com
 #0.0.0.0 drg.ghostship.sk
 #0.0.0.0 services.ghostship.dk
-0.0.0.0 api.mod.io
+#0.0.0.0 api.mod.io
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www-google-analytics.l.google.com
 #0.0.0.0 discordapp.com
@@ -6738,17 +6507,10 @@ ff02::3 ip6-allhosts
 # CGPromotions-Adressen in Daedalic Spielen sind für Ingamewerbung zuständig und können getrost blockiert werden
 
 # Barotrauma
-# 104.27.146.140
-# 104.21.76.91
-# 155.133.248.50
-# 155.133.248.52
-# 35.242.251.130
-# 34.235.49.255
-# 151.101.114.49
-# 34.102.176.152
-# 142.250.74.198
-# Tracker werden über das Spiel erreichbare externe Wiki und die Datenschutzrichtlinie geladen. Webseite auf Wix
-#0.0.0.0 www.barotraumagame.com # Ingamenews
+#0.0.0.0 www.barotraumagame.com
+#0.0.0.0 barotraumagame.com
+#0.0.0.0 api.epicgames.dev
+0.0.0.0 api.gameanalytics.com
 
 # Bounty Train
 # 35.227.233.206
@@ -8111,7 +7873,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
-0.0.0.0 api.mod.io
+#0.0.0.0 api.mod.io
 
 # Eek! Games, LLC
 # House Party
@@ -13558,26 +13320,26 @@ ff02::3 ip6-allhosts
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
 # Spirit of the Island
-# 172.65.244.245
-# 185.14.47.18
-# 194.99.80.193
-# 202.78.174.56
-# 216.120.180.112
-# 216.120.180.117
-# 216.120.180.26
-# 216.120.180.31
-# 216.120.180.4
-# 216.120.180.56
-# 216.120.180.87
-# 31.223.184.154
-# 45.67.211.193
-# 5.189.220.193
-# 79.133.126.228
-# 91.199.81.130
-# 91.243.81.149
+# 35.190.78.8
+# 216.120.180.19
+# 199.36.158.100
+# 142.250.185.206
+# 2a00:1450:4001:81c::200e
+# 172.217.16.131
+# 142.250.185.67
+# 74.125.133.84
+# 142.250.74.206
+# 172.217.18.14
 0.0.0.0 perf-events.cloud.unity3d.com
 #0.0.0.0 forms.gle
 #0.0.0.0 ns.photonengine.io
+#0.0.0.0 docs.google.com
+#0.0.0.0 www.gstatic.com
+#0.0.0.0 fonts.gstatic.com
+#0.0.0.0 accounts.google.com
+#0.0.0.0 www3.l.google.com
+#0.0.0.0 accounts.youtube.com
+#0.0.0.0 play.google.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # The Uncertain: Light At The End
@@ -16078,7 +15840,7 @@ ff02::3 ip6-allhosts
 # CrashSender1403.exe und crashrpt_lang.ini im Installationsverzeichnis löschen
 # 103.24.121.30
 # 74.208.236.121
-0.0.0.0 api.mod.io
+#0.0.0.0 api.mod.io
 0.0.0.0 www.polymorph.games # Datenaufnahme als auch Webpräsenz
 
 # Positech Games
@@ -16968,15 +16730,18 @@ ff02::3 ip6-allhosts
 
 # ROCKFISH Games
 # EVERSPACE™
-0.0.0.0 datarouter.ol.epicgames.com
-0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 ipv6check-http.steamcontent.com
+0.0.0.0 ipv6check-udp.steamcontent.com
+0.0.0.0 test.steampowered.com
+0.0.0.0 eu.http.ipv6check.akadns.net
+0.0.0.0 eu.udp.ipv6check.akadns.net
+0.0.0.0 http.ipv6check.akadns.net
+0.0.0.0 udp.ipv6check.akadns.net
 
 # EVERSPACE™ 2
-# 172.217.16.142
-# 216.58.210.142
-# 142.250.186.174
-0.0.0.0 www.google-analytics.com
-0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter.cfef.live.use1a.on.epicgames.com
 
 # Rockin' Android
 # Diadra Empty
@@ -17925,6 +17690,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 wh3prod.whprod.caaws.services
 #0.0.0.0 access-cf-prod.caauth.caaws.services
 0.0.0.0 d3n23swryao27j.cloudfront.net
+0.0.0.0 metrics.hub.caaws.services
+0.0.0.0 wh3prod.whprod.caaws.services
 # Server-Endpunkte
 0.0.0.0 8aefz.x.incapdns.net
 0.0.0.0 s3.eu-west-1.amazonaws.com
@@ -18299,27 +18066,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-185-111-141.eu-central-1.compute.amazonaws.com
 
 # Shiro Games
-# Evoland Legendary Edition
-# 5.39.74.98
-# 208.64.200.105
-# 172.217.22.100
-# 216.58.208.40
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 launcher.shirogames.com
-0.0.0.0 launcher-admin.shirogames.com
-#0.0.0.0 master.shirogames.com
-0.0.0.0 mongo.shirogames.com
-#0.0.0.0 www.google.com
-0.0.0.0 www.googletagmanager.com
-
 # Evoland 2
 # 104.79.88.64
+# 2.18.96.131
 0.0.0.0 airdownload2.adobe.com
 
 # Northgard
@@ -18328,8 +18077,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 shirogames.com
 0.0.0.0 mongo.shirogames.com
 # Mehrspielermodus
-# 37.187.27.57
+# 178.33.233.205
+# 101.42.118.44
 #0.0.0.0 master.shirogames.com
+#0.0.0.0 mastercn.shirogames.com
 
 # Shiver Games
 # Lucius 3
@@ -19072,15 +18823,24 @@ ff02::3 ip6-allhosts
 #0.0.0.0 download.gfwl.xboxlive.com
 #0.0.0.0 download.microsoft.com
 
-# Deus Ex: Mankind Divided
+# Deus Ex: Mankind Divided™
 # s. Rubrik Kopierschutz / AntiCheat
-# 185.215.128.11
-# 185.215.129.12
-# 151.101.113.137
-#0.0.0.0 dxng.os.eidos.com # Gameevents, Ingamemails, Karten, Nutzerprofile, Callbacks, Anmeldung, Infocast, Transaktionen und DLCabgleich
-0.0.0.0 lbmtl.os.eidos.com
+# 108.129.52.82
+# 52.19.100.74
+# 185.215.131.15
+# 185.215.131.16
+# 2.16.96.33
+# 104.18.38.233
+# 172.64.149.23
+#0.0.0.0 dxng.os.eidos.com
+#0.0.0.0 dxbreach.os.eidos.com
 #0.0.0.0 res.cloudinary.com
+#0.0.0.0 ocsp.usertrust.com
+#0.0.0.0 ocsp.sectigo.com
+#0.0.0.0 lbmtlglleg.os.eidos.com
 #0.0.0.0 cloudinary.map.fastly.net
+#0.0.0.0 ocsp.comodoca.com.cdn.cloudflare.net
+#0.0.0.0 ocsp.comodoca.com.cdn.cloudflare.net
 
 # Deus Ex: The Fall
 # 157.240.20.35
@@ -19288,7 +19048,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 steamcloudams2.blob.core.windows.net
 
 # Outriders
-# Hydra Ipv4/Adressen - https://gameindustry.eu/de/blog/easy-anti-cheat/
+# Hydra Ipv4/Adressen - https://gameindustry.eu/blog/easy-anti-cheat/
 # Gesamtüberblick - https://gameindustry.eu/de/search/?suchbegriff=Outriders&suche
 #0.0.0.0 hydra.easyanticheat.net
 #0.0.0.0 download.eac-cdn.com
@@ -19306,7 +19066,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com
 
 # Outriders DEMO
-# Hydra Ipv4/Adressen - https://gameindustry.eu/de/blog/easy-anti-cheat/
+# Hydra Ipv4/Adressen - https://gameindustry.eu/blog/easy-anti-cheat/
 # 31.31.168.30
 # 52.40.143.66
 # 45.60.65.134
@@ -21212,7 +20972,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 mordhau.com # Ingamenews
 #0.0.0.0 uploads.mordhau.com
 0.0.0.0 bugtracker.mordhau.com
-0.0.0.0 api.mod.io
+#0.0.0.0 api.mod.io
 # Youtube Tracking/Cookies
 # 165.231.161.13
 # 216.58.207.35
@@ -21751,20 +21511,24 @@ ff02::3 ip6-allhosts
 # Unknown Worlds Entertainment
 # Subnautica | Update 05.02.2019
 # Ip/s blockieren:
-# 34.111.113.40
-# 34.107.172.168
+# 172.104.209.232
+# 45.79.228.142
+# 3.5.163.130
+# 3.5.162.101
+# 52.219.216.50
+# 52.219.193.34
+# 3.5.160.162
+# 52.219.220.178
+# 52.219.120.193
+# 3.5.160.124
+# 172.104.215.92
 # 35.190.78.8
-0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
-0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 40.113.111.34.bc.googleusercontent.com
-0.0.0.0 168.172.107.34.bc.googleusercontent.com
+0.0.0.0 analytics.unknownworlds.com
+0.0.0.0 subnautica.unknownworlds.com
+0.0.0.0 snupdates.s3.us-west-1.amazonaws.com
+#0.0.0.0 economy.unknownworlds.com
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
-0.0.0.0 subnautica.unknownworlds.com
-#0.0.0.0 s3-us-west-1.amazonaws.com
-0.0.0.0 uwese.herokuapp.com
 
 # Subnautica: Below Zero
 # Ip/s blockieren:
@@ -22273,6 +22037,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 www.google-analytics.com
 
+# Hogwarts Legacy
+# s. Rubrik Kopierschutz / AntiCheat
+0.0.0.0 ngx.download.nvidia.com
+0.0.0.0 phoenix-api.wbagora.com
+0.0.0.0 wb-agora-hydra-file-storage-phoenix.s3.amazonaws.com
+0.0.0.0 prod-network-api.wbagora.com
+0.0.0.0 event.wbinsights.com
+0.0.0.0 us-east-1-phoenix-realtime-12.wbagora.com
+0.0.0.0 us-east-1-phoenix-realtime-19.wbagora.com
+0.0.0.0 us-east-1-phoenix-realtime-24.wbagora.com
+0.0.0.0 us-east-1-phoenix-realtime-31.wbagora.com
+0.0.0.0 us-east-1-phoenix-realtime-32.wbagora.com
+0.0.0.0 us-east-1-phoenix-realtime-38.wbagora.com
+0.0.0.0 us-east-1-phoenix-realtime-42.wbagora.com
+0.0.0.0 www.google-analytics.com
+
 # Mortal Kombat X
 # Ip/s blockieren:
 # 23.20.70.137
@@ -22443,16 +22223,6 @@ ff02::3 ip6-allhosts
 # 216.58.209.14
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-analytics.com
-
-# Weixi Studio
-# Blood Code
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 
 # WFS, Inc.
 # ヘブンバーンズレッド
