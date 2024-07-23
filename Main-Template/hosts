@@ -19389,6 +19389,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 aus5.mozilla.org
 #0.0.0.0 cdn.accounts.firefox.com
 #0.0.0.0 cdnjs.cloudflare.com
+#0.0.0.0 djvbdz1obemzo.cloudfront.net # Amazon.de
 #0.0.0.0 oauth.accounts.firefox.com
 #0.0.0.0 prod.balrog.prod.cloudops.mozgcp.net
 #0.0.0.0 services.addons.mozilla.org
@@ -19404,7 +19405,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 content-signature-2.cdn.mozilla.net
 0.0.0.0 contile.services.mozilla.com
 0.0.0.0 detectportal.firefox.com # IPV6/4 Captive & Canonical
-0.0.0.0 djvbdz1obemzo.cloudfront.net
 0.0.0.0 firefox-settings-attachments.cdn.mozilla.net
 0.0.0.0 firefox.settings.services.mozilla.com
 0.0.0.0 fundingchoicesmessages.google.com
