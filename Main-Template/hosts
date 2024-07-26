@@ -10,7 +10,7 @@
 #
 # Version: hosts-Datei - Vollständig mit allen Einträgen (IoT, Spiele & Clients)
 # Version: hosts file - complete with all entries (IoT, Games & Clients)
-# Change/Datum: 22.07.2024
+# Change/Datum: 26.07.2024
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -1340,8 +1340,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 gilisoft.com # Übergabe von Seriennummer, E-Mail, Betriebssystem, Anwendersprache, MAC, Zeitstempel
 
 # Giorgio Tani
-# PeaZip
-#0.0.0.0 www.peazip.org
+# PeaZip Portable
+# 172.67.173.89
+# 185.199.108.153
+#0.0.0.0 img.shields.io
+#0.0.0.0 peazip.github.io
 
 # Glarysoft Ltd.
 # Glarysoft Disk Cleaner
@@ -3534,7 +3537,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 i.adnium.com
 
 # Adnxs | Appnexus, Inc. | AT&T
-# ×-37.252.173.27
+# 37.252.173.27
 # 185.33.221.91
 0.0.0.0 538.bm-nginx-loadbalancer.mgmt.fra1.adnexus.net
 0.0.0.0 940.bm-nginx-loadbalancer.mgmt.ams3.adnexus.net
@@ -4400,6 +4403,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.adsnative.com
 0.0.0.0 bevo-eu-west-1.adsnative.com
 0.0.0.0 static.adsnative.com
+
+# Adspyglass & Traforama
+0.0.0.0 api.adspyglass.com
+0.0.0.0 app.adspyglass.com
+0.0.0.0 app.traforama.com
+0.0.0.0 www.adspyglass.com
+0.0.0.0 www.adspyglass.net
+0.0.0.0 www.traforama.com
 
 # adsrvr.org
 # 176.74.173.247
@@ -8111,8 +8122,9 @@ ff02::3 ip6-allhosts
 
 # O333o.com
 # Werbung auf Videos z.b. bei Jav.watch
-0.0.0.0 cdn.o333o.com # Grafiken
-0.0.0.0 a.o333o.com # Javascriptverweise auf Werbequellen
+0.0.0.0 cdn.o333o.com
+0.0.0.0 a.o333o.com
+0.0.0.0 s.o333o.com
 
 # OadTS
 0.0.0.0 media.oadts.com
@@ -14364,15 +14376,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 gu.bizspring.net
 
 # Aliexpress.com
+0.0.0.0 ae.mmstat.com
+0.0.0.0 aligtr044.mmstat.com
+0.0.0.0 campaign.aliexpress.com
 0.0.0.0 cbu01.alicdn.com
+0.0.0.0 de-wum.aliexpress.com
 0.0.0.0 lighthouse.aliexpress.com
+0.0.0.0 moduleanalysis.aliexpress.com
 0.0.0.0 pcookie.aliexpress.com
 0.0.0.0 s.click.aliexpress.com
-0.0.0.0 ae.mmstat.com
-0.0.0.0 de-wum.aliexpress.com
 0.0.0.0 us.ynuf.aliapp.org
-0.0.0.0 aligtr044.mmstat.com
-0.0.0.0 moduleanalysis.aliexpress.com
 0.0.0.0 wp.aliexpress.com
 
 # Ameba.jp
@@ -16666,6 +16679,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d3tsytm1wtjqo2.cloudfront.net # Dailymail
 0.0.0.0 d3u8vuldqjolr7.cloudfront.net
 0.0.0.0 d3ud741uvs727m.cloudfront.net
+0.0.0.0 d3v3bqdndm4erx.cloudfront.net
 0.0.0.0 d3vw4uehoh23hx.cloudfront.net
 0.0.0.0 d3x0jb14w6nqz.cloudfront.net
 0.0.0.0 d4el4parm0zb3.cloudfront.net
@@ -19413,6 +19427,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.services.mozilla.com
 0.0.0.0 normandy.cdn.mozilla.net
 0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 passwordsleakcheck-pa.googleapis.com
 0.0.0.0 prod-classifyclient.normandy.prod.cloudops.mozgcp.net
 0.0.0.0 prod.ads.prod.webservices.mozgcp.net
 0.0.0.0 prod.classify-client.prod.webservices.mozgcp.net
@@ -20102,20 +20117,30 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats00main9707.spankbang.com
 
 # Stripchat
-0.0.0.0 img.strpst.com
-0.0.0.0 stripchat.com
-0.0.0.0 cdn.strpst.com
-0.0.0.0 st.stripcdn.com
-0.0.0.0 cdn.stripst.com
-0.0.0.0 go.stripchat.com
-0.0.0.0 creative.stripchat.com
+0.0.0.0 b-hls-06.sacdnssedge.com
+0.0.0.0 b-hls-07.sacdnssedge.com
+0.0.0.0 b-hls-12.sacdnssedge.com
+0.0.0.0 b-hls-15.sacdnssedge.com
+0.0.0.0 b-hls-16.sacdnssedge.com
 0.0.0.0 b-hls-16.stripst.com
 0.0.0.0 b-hls-17.stripst.com
+0.0.0.0 b-hls-17.strpst.com
 0.0.0.0 b-hls-18.stripst.com
-0.0.0.0 widgets.stripst.com
 0.0.0.0 b-hls-20.stripst.com
+0.0.0.0 b-hls-23.sacdnssedge.com
 0.0.0.0 b-hls-23.stripst.com
 0.0.0.0 b-hls-24.stripst.com
+0.0.0.0 cdn.stripst.com
+0.0.0.0 cdn.strpst.com
+0.0.0.0 creative.stripchat.com
+0.0.0.0 edge-hls.sacdnssedge.com
+0.0.0.0 go.stripchat.com
+0.0.0.0 img.strpst.com
+0.0.0.0 st.stripcdn.com
+0.0.0.0 static-cdn.strpst.com
+0.0.0.0 stripchat.com
+0.0.0.0 video.sacdnssedge.com # StripChat VideoAds
+0.0.0.0 widgets.stripst.com
 
 # ThePornDude
 0.0.0.0 theporndude.com
@@ -21894,6 +21919,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ak.deephicy.net
 0.0.0.0 ak.kocairdo.net
 0.0.0.0 ak.psaltauw.net
+0.0.0.0 ak.shaugacakro.net
 0.0.0.0 am.cdnetworks.net
 0.0.0.0 am15.net
 0.0.0.0 amd.sellingsimplified.net
@@ -22323,7 +22349,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.962.net
 0.0.0.0 www.acint.net
 0.0.0.0 www.addonsearch.net
-0.0.0.0 www.adspyglass.net
 0.0.0.0 www.adsupplyads.net
 0.0.0.0 www.angloinfo.net
 0.0.0.0 www.coinpayments.net
@@ -22869,6 +22894,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.1ts11.top
 0.0.0.0 p.1ts18.top
 0.0.0.0 pmnwjmrteyfcn.top
+0.0.0.0 press-continue.hh33zv49zemn.top
 0.0.0.0 pytpbhxpketulvi.top
 0.0.0.0 qljuamcgrpriu.top
 0.0.0.0 qualitydating.top
@@ -23750,7 +23776,6 @@ ff02::3 ip6-allhosts
 # 80.239.254.201
 # 23.50.56.123
 # 224.0.0.251
-#0.0.0.0 ads.a-static.com # Adblock Detektor bei pasteit.top
 #0.0.0.0 api.na-backend.odysee.com # Video RT und player.odycdn.com
 #0.0.0.0 balancer.hazota.eu # base64decode.org
 #0.0.0.0 cdn.privacy-mgmt.com # Cookie Nagscreen z.b. bei Spiegel.de, Capital.de usw
@@ -23971,6 +23996,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adrielas.realpush.news
 0.0.0.0 ads-15s6h.ortb.vuukle.com
 0.0.0.0 ads.2mdnsys.com
+0.0.0.0 ads.a-static.com
 0.0.0.0 ads.adextrem.com
 0.0.0.0 ads.adventive.com
 0.0.0.0 ads.adverline.com
@@ -24298,13 +24324,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 azentace.com
 0.0.0.0 azulcw7.com
 0.0.0.0 azure-assets-prod.vicomi.com
-0.0.0.0 b-hls-06.sacdnssedge.com
-0.0.0.0 b-hls-07.sacdnssedge.com
-0.0.0.0 b-hls-12.sacdnssedge.com
-0.0.0.0 b-hls-15.sacdnssedge.com
-0.0.0.0 b-hls-16.sacdnssedge.com
-0.0.0.0 b-hls-17.strpst.com
-0.0.0.0 b-hls-23.sacdnssedge.com
 0.0.0.0 b.a11k.com
 0.0.0.0 b.bnrsis.com
 0.0.0.0 b.comihon.com
@@ -24654,6 +24673,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn1-smallimg.phncdn.com
 0.0.0.0 cdn2.editmysite.com
 0.0.0.0 cdn2.lockerdomecdn.com
+0.0.0.0 cdn2.tapioni.com
+0.0.0.0 cdn3.tapioni.com
 0.0.0.0 cdn4ads.com
 0.0.0.0 cdnaqw.com
 0.0.0.0 cdnativ.com
@@ -25090,7 +25111,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ecs.office.com
 0.0.0.0 edayo.waqool.com
 0.0.0.0 edconside.com
-0.0.0.0 edge-hls.sacdnssedge.com
 0.0.0.0 edge-vids.wirewax.com
 0.0.0.0 edge.ad1x.com
 0.0.0.0 edge.eu1.fullstory.com
@@ -25101,6 +25121,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 edioca.com
 0.0.0.0 edstever.com
 0.0.0.0 eehuzaih.com
+0.0.0.0 eesidesukbeingaj.com
 0.0.0.0 eevvhoawzybzpv.com
 0.0.0.0 effaceecho.com
 0.0.0.0 effectivelyreport.com
@@ -25109,6 +25130,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 eggs-content.kinkoid.com
 0.0.0.0 eggs-ext.kinkoid.com
 0.0.0.0 ehbbeikveqgmtj.com
+0.0.0.0 ehihrkrj.com
 0.0.0.0 eikegolehem.com
 0.0.0.0 ejectbagsindefinite.com
 0.0.0.0 ejp.rlcdn.com
@@ -25451,6 +25473,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 go.pub2srv.com
 0.0.0.0 go.pushnative.com
 0.0.0.0 go.rcvlink.com
+0.0.0.0 go.rmshqa.com
 0.0.0.0 go.schjmp.com
 0.0.0.0 go.siemonster.com
 0.0.0.0 go.static-srv.com
@@ -25468,6 +25491,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 google.vrthcobj.com
 0.0.0.0 goomaphy.com
 0.0.0.0 goosebomb.com
+0.0.0.0 goplayhere.com
 0.0.0.0 gopusher1.com
 0.0.0.0 gossipbuzz.com
 0.0.0.0 got-a-message.com
@@ -25539,7 +25563,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 hdqkfbi.cn
 0.0.0.0 healthvot.com
 0.0.0.0 heapanalytics.com
-0.0.0.0 heatherdiscussionwhen.com
 0.0.0.0 heiressplane.com
 0.0.0.0 hekate.abs-saas.com
 0.0.0.0 hello-fresh-widget.com
@@ -26222,6 +26245,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ntvpwpush.com
 0.0.0.0 numbgradualassertive.com
 0.0.0.0 numbtoobly.com
+0.0.0.0 nuqocpabj.com
 0.0.0.0 nvg.gpbeta.com
 0.0.0.0 nxt-psh.com
 0.0.0.0 nxtck.com
@@ -26895,6 +26919,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 shiverscissors.com
 0.0.0.0 shockingstrategynovelty.com
 0.0.0.0 shoksips.com
+0.0.0.0 shoordaird.com
 0.0.0.0 shopify-gtm-suite.getelevar.com
 0.0.0.0 shopusuallyvirtue.com
 0.0.0.0 shoveoccupiedinsult.com
@@ -27019,7 +27044,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 stat.networkmanag.com
 0.0.0.0 stat.onestat.com
 0.0.0.0 statestockingsconfession.com
-0.0.0.0 static-cdn.strpst.com
 0.0.0.0 static-content-1.smadex.com
 0.0.0.0 static-origin.plista.com
 0.0.0.0 static.a-ads.com
@@ -27123,6 +27147,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 swimmercelerydialogue.com
 0.0.0.0 swiperjs.com
 0.0.0.0 swissquote.com
+0.0.0.0 syenergyflexibil.com
 0.0.0.0 sync.adotmob.com
 0.0.0.0 sync.adstir.com
 0.0.0.0 sync.colossusssp.com
@@ -27146,6 +27171,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.adx.opera.com
 0.0.0.0 t.bbwafx.com
 0.0.0.0 t.bdwafx.com
+0.0.0.0 t.bt1-vod.com
 0.0.0.0 t.cfjump.com
 0.0.0.0 t.cwkuki.com
 0.0.0.0 t.d.adup-tech.com
@@ -27293,7 +27319,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 tlysearchingf.com
 0.0.0.0 tm-eu.beiersdorf.com
 0.0.0.0 tm-offers.gamingadult.com
-0.0.0.0 top-extension.com
 0.0.0.0 tmnsync.target.com
 0.0.0.0 tmsnrt.rs
 0.0.0.0 toenailtrishaw.com
@@ -27302,6 +27327,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 toolbox.brightspotcdn.com # Autotrack Analytics
 0.0.0.0 tools.impactbnd.com
 0.0.0.0 tools.ip2location.com
+0.0.0.0 top-extension.com
 0.0.0.0 topadultwebcams.com
 0.0.0.0 topdata.downloadatoz.com
 0.0.0.0 topgreatxoffers.com
@@ -27752,7 +27778,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.adexchangeguru.com
 0.0.0.0 www.adsaro.com
 0.0.0.0 www.adspredictiv.com
-0.0.0.0 www.adspyglass.com
 0.0.0.0 www.adultd8.com
 0.0.0.0 www.adultdates.com
 0.0.0.0 www.advinapps.com
@@ -27920,6 +27945,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.pebblepost.com
 0.0.0.0 www.performancetrustednetwork.com
 0.0.0.0 www.pgwcrtobrdjx.com
+0.0.0.0 www.picroe.com
 0.0.0.0 www.pizzaandads.com
 0.0.0.0 www.platincasino.com
 0.0.0.0 www.playstations99.com
@@ -28128,6 +28154,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 yummy.consumable.com
 0.0.0.0 yuzu-xci-games.5806z.com
 0.0.0.0 ywronwasthetron.com
+0.0.0.0 yy.puffexies.com
 0.0.0.0 z.cdn.adbetnet.com
 0.0.0.0 z.cdn.braun634.com
 0.0.0.0 z.cdn.trafficbass.com
@@ -28886,27 +28913,28 @@ ff02::3 ip6-allhosts
 # 3.121.217.224
 # 3.227.34.162
 #0.0.0.0 api.epicgames.dev
-# Version 1
+# Version 1 Endpunkt
 0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingress-prod-w1.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingress-prod-w2.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingress-prod-w3.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingress-prod-w4.befa.live.use1a.on.epicgames.com
 0.0.0.0 eos-gateway-ingress-prod-w5.befa.live.use1a.on.epicgames.com
-# Version 2
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+# Version 2 Endpunkt
+# Notwendig für Systeme wie PI-Hole oder Adguard
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 0.0.0.0 metrics.ol.epicgames.com
 # Downloads
 # 65.9.83.109
@@ -29257,7 +29285,7 @@ ff02::3 ip6-allhosts
 # 23.53.41.248
 # 208.64.200.16
 # 2.19.198.137
-# 2.19.198.122-×
+# 2.19.198.122
 #0.0.0.0 steambroadcast.akamaized.net
 #0.0.0.0 video.steamstatic.com
 #0.0.0.0 steamvideo-a.akamaihd.net
@@ -30594,17 +30622,19 @@ ff02::3 ip6-allhosts
 #0.0.0.0 api.epicgames.dev
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www-google-analytics.l.google.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
 # 38 Studios & Electronic Arts
 # Kingdoms of Amalur: Reckoning
@@ -31952,19 +31982,19 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cotw-social.avalanchestudios.com
 #0.0.0.0 turn.rtcp.on.epicgames.com
 #0.0.0.0 turn-euc1.us.rtcp.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
 # Awaken Realms Digital
 # Tainted Grail: Conquest
@@ -32165,21 +32195,19 @@ ff02::3 ip6-allhosts
 #0.0.0.0 modules-cdn.eac-prod.on.epicgames.com
 #0.0.0.0 api.epicgames.dev
 #0.0.0.0 fnr-steam-prod.fromsoftware-game.net
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
 # Beware Planet Earth
 0.0.0.0 www.lightmare-studio.com
@@ -35435,19 +35463,19 @@ ff02::3 ip6-allhosts
 # 35.227.230.186
 #0.0.0.0 api.epicgames.dev
 0.0.0.0 telemetry.deeparc.net
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
 # Trainz: A new era
 #0.0.0.0 itrainz.auran.com
@@ -38231,21 +38259,19 @@ ff02::3 ip6-allhosts
 #0.0.0.0 stun.l.google.com
 #0.0.0.0 turn.rtcp.on.epicgames.com
 #0.0.0.0 turn-euc1.us.rtcp.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
 # Tribes of Midgard
 # 54.211.121.136
@@ -38356,21 +38382,19 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ec2.me-south-1.amazonaws.com
 #0.0.0.0 ec2.ap-east-1.amazonaws.com
 #0.0.0.0 gamelift.sa-east-1.amazonaws.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
 # We Happy Few
 # 52.27.241.128
@@ -40833,21 +40857,19 @@ ff02::3 ip6-allhosts
 # 3.93.29.232
 # Epic Games EOS Datarouter Telemetrie und Onlinezwang
 #0.0.0.0 api.epicgames.dev
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 # Microsoft Azure Playfab Analytics + Onlinezwang
 # 35.165.107.189
 #0.0.0.0 8c53f.playfabapi.com
@@ -42794,6 +42816,41 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ugc.maplestory2.nexon.net
 #0.0.0.0 globalnps.aws.nexon.com
 #0.0.0.0 guard.nexon.net
+
+# The First Descendant
+0.0.0.0 toy.log.nexon.io # Debuglog
+0.0.0.0 jp.livelog.nexon.com # Logging
+0.0.0.0 psm-log.ngs.nexon.com # Logging
+0.0.0.0 nxnxp.vivox.com
+0.0.0.0 nxnxp.www.vivox.com
+0.0.0.0 nxnxp-ws.vivox.com
+0.0.0.0 nxnxp-mim.vivox.com
+0.0.0.0 watson.vivox.com
+0.0.0.0 cdp.vivox.com
+#0.0.0.0 tt-api.ngs.nexon.com
+0.0.0.0 sdk-push.mp.nexon.com # Policy
+0.0.0.0 gtable.inface.nexon.com
+0.0.0.0 d30y0swoxkbnsm.cloudfront.net # Ingame Ads
+0.0.0.0 jyp.nexon.com
+0.0.0.0 livestream.inface.nexon.com
+#0.0.0.0 config.na.nexon.com # Timesync, UserIP, NexonAnalytics SDK
+#0.0.0.0 tfd.dn.nexoncdn.co.kr
+#0.0.0.0 public.api.nexon.com # UserInfo, Login/Last Login
+#0.0.0.0 api.epicgames.dev # OAuth, Telemetry, Notifications
+#0.0.0.0 sv.symcd.com # OCSP
+#0.0.0.0 ocsp.digicert.com # OCSP
+#0.0.0.0 login.steampowered.com
+#0.0.0.0 maglatencygermanywc.blob.core.windows.net # test.json
+#0.0.0.0 maglatencypolandcentral.blob.core.windows.net # test.json
+#0.0.0.0 maglatencynorthcentralus.blob.core.windows.net # test.json
+#0.0.0.0 maglatencywestus.blob.core.windows.net # test.json
+#0.0.0.0 maglatencyeastus.blob.core.windows.net # test.json
+#0.0.0.0 maglatencysouthea.blob.core.windows.net # test.json
+#0.0.0.0 maglatencybrazilsouth.blob.core.windows.net # test.json
+#0.0.0.0 maglatencyeastasia.blob.core.windows.net # test.json
+#0.0.0.0 maglatencykoreacentral.blob.core.windows.net # test.json
+#0.0.0.0 maglatencygermanywc.blob.core.windows.net # test.json
+#0.0.0.0 maglatencypolandcentral.blob.core.windows.net # test.json
 
 # Next Studios & 哔哩哔哩
 # Unheard
@@ -45354,21 +45411,19 @@ ff02::3 ip6-allhosts
 # Roboquest
 0.0.0.0 galaxy-log.gog.com
 #0.0.0.0 api.epicgames.dev
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
 # Postal Redux
 0.0.0.0 datarouter.ol.epicgames.com
@@ -46080,21 +46135,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 server-18-66-248-49.dus51.r.cloudfront.net
 0.0.0.0 ec2-52-30-239-7.eu-west-1.compute.amazonaws.com
 0.0.0.0 ec2-54-228-31-76.eu-west-1.compute.amazonaws.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
 # Total War Saga: Thrones of Britannia
 # Launcher / Inhalte wurden hier abgeschaltet
@@ -47154,7 +47207,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
 # SQUARE ENIX CO., LTD.
-# ドラゴンクエスト トレジャーズ　蒼き瞳と大空の羅針盤を購入する | DRAGON QUEST TREASURES
+# ドラゴンクエスト トレジャーズ 蒼き瞳と大空の羅針盤を購入する | DRAGON QUEST TREASURES
 # 23.48.23.194
 # 23.48.23.181
 # 52.208.84.243
@@ -47167,7 +47220,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a23-48-23-194.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-48-23-181.deploy.static.akamaitechnologies.com
 
-# インフィニティ ストラッシュ　ドラゴンクエスト ダイの大冒険 - Infinity Strash: DRAGON QUEST The Adventure of Dai
+# インフィニティ ストラッシュ ドラゴンクエスト ダイの大冒険 - Infinity Strash: DRAGON QUEST The Adventure of Dai
 # 192.229.221.95
 # s. Rubrik Kopierschutz / AntiCheat
 #0.0.0.0 ocsp.digicert.com
@@ -47838,7 +47891,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 script.google.com
 
 # SUNFISH Co., Ltd.
-# 東方憑依華　～ Antinomy of Common Flowers.
+# 東方憑依華～ Antinomy of Common Flowers.
 #0.0.0.0 tasofro.net
 
 # Sunside Inc
@@ -48226,18 +48279,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-34-195-166-99.compute-1.amazonaws.com
 #0.0.0.0 stun.l.google.com
 0.0.0.0 ec2-18-157-14-85.eu-central-1.compute.amazonaws.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
 # Dying Light 2 Stay Human
 # s. Rubrik Kopierschutz / AntiCheat
@@ -48333,19 +48387,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 d2hjvmnsrtrg65.cloudfront.net
 0.0.0.0 object-storage-core.techlandonlineservices.com
 #0.0.0.0 api.epicgames.dev # Eos Telemetrie, Onlinefunktionen, API kann nach Erreichen des Hauptmenüs abgeschaltet werden
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
 # God's Trigger
 # Ip/s blockieren:
@@ -48486,19 +48540,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 d2hjvmnsrtrg65.cloudfront.net
 #0.0.0.0 live-h387687ygv7j.ws.gamesparks.net
 #0.0.0.0 api.epicgames.dev
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
 # The Irregular Corporation
 # PC Building Simulator
