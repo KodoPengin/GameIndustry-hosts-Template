@@ -5,23 +5,18 @@
 #  \____|\__,_|_| |_| |_|\___|___|_| |_|\__,_|\__,_|___/\__|_|   \__, (_)___|\__,_|
 #                                                                |___/             
 #
-# Erhöhter Schutz vor Spyware, Advertising, Analytics, Tracking in Spielen
-# Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
+# Erhöhter Schutz vor Spyware, Advertising, Analytics, Tracking in Spielen, Programmen und Webseiten
+# Increased protection against spyware, advertising, analytics, tracking in games, programs and websites
 #
-# Version: Template für Androidspiele und Programme - Mini-Version
-# Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
-# Kombinierbar mit anderen host Templates von GameIndustry.eu oder weiteren Quellen
-# Änderungsdatum: 16.01.2023
+# Version: Android-Mini-Template - Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
+# Version: Android-Mini-Template - Blocks android specific ads, trackers, affiliates, banners and unnecessary connections
+# Change/Datum: 28.07.2024
 #
-# Diese Datei stammt von https://www.gameindustry.eu
-# E-Mail: noreply@gameindustry.eu
-# Hilfe: https://hosts.gameindustry.eu/faq/
+# Source/Quelle: https://www.gameindustry.eu
+# E-Mail: https://gameindustry.eu/contact/
+# Hilfe: https://gameindustry.eu/faq/
 # Steam: https://www.steamcommunity.com/groups/Penguindome
 # Github: https://github.com/KodoPengin/GameIndustry-hosts-Template
-# Codeberg: https://codeberg.org/Pengin/GameIndustry-hosts-Template
-#
-# Zur Ergänzung der Android-Liste verwenden Sie bitte das Main-Template oder Produktsuche unter verlinkten Quellen
-# To complete the Android list, please use the main template or product search under the linked sources
 #
 # Lizenz: CC BY-NC-SA 4.0
 # https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
@@ -363,6 +358,7 @@
 #0.0.0.0 people-pa.googleapis.com # Zuständig für Synchronisation von Kalender und Kontakten
 #0.0.0.0 securetoken.googleapis.com
 #0.0.0.0 www.googleapis.com # Synchronisation
+#0.0.0.0 mobilemaps-pa-gz.googleapis.com # Google Maps
 0.0.0.0 chromesyncpasswords-pa.googleapis.com
 0.0.0.0 clientservices.googleapis.com
 0.0.0.0 cloudconfig.googleapis.com
@@ -381,10 +377,10 @@
 0.0.0.0 lamssettings-pa.googleapis.com
 0.0.0.0 locationhistory-pa.googleapis.com
 0.0.0.0 mdh-pa.googleapis.com
-0.0.0.0 mobilemaps-pa-gz.googleapis.com
 0.0.0.0 mobilemaps-pa.googleapis.com
 0.0.0.0 myphonenumbers-pa.googleapis.com
 0.0.0.0 notifications-pa.googleapis.com
+0.0.0.0 ogads-pa.googleapis.com
 0.0.0.0 performanceparameters.googleapis.com
 0.0.0.0 phonedeviceverification-pa.googleapis.com
 0.0.0.0 reminders-pa.googleapis.com
