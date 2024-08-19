@@ -464,7 +464,7 @@
 0.0.0.0 app-measurement.com
 0.0.0.0 region1.app-measurement.com
 # Google Downloads 
-0.0.0.0 clients.l.google.com # android.apis.google.com
+#0.0.0.0 clients.l.google.com # android.apis.google.com
 0.0.0.0 clients1.google.com
 0.0.0.0 clients2.google.com # z.b. für Addondownloads in Chrome, Ping, Crashback Logdateien uvm
 #0.0.0.0 clients3.google.com
