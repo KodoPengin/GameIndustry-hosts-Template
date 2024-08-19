@@ -10,7 +10,7 @@
 #
 # Version: Template für Spieleclients und Spiele
 # Version: Template for game clients and games
-# Change/Datum: 26.07.2024
+# Change/Datum: 19.08.2024
 #
 # Weitere und aktuelle Spiele sind auf der Website zu finden.
 # More and current games can be found on the website.
@@ -1011,7 +1011,7 @@ ff02::3 ip6-allhosts
 # Clouduploads direkt über IP
 # 208.64.201.182 # /depotupload/xxxxx/manifest und chunk
 # Nicht authorisierte Clouduploads
-0.0.0.0 steamcloudfrankfurt.blob.core.windows.net
+#0.0.0.0 steamcloudfrankfurt.blob.core.windows.net
 0.0.0.0 steamcloud-dub.s3.dualstack.eu-west-1.amazonaws.com
 0.0.0.0 steamcloud-frf.s3.dualstack.eu-central-1.amazonaws.com
 
@@ -1393,54 +1393,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
 # 腾讯 | Tencent
-# 流放之路 Path of Exile
-# Hauseigener Downloadmanager MiniQQDL.exe und TenioDL.exe
-#0.0.0.0 ocsp.verisign.com
-0.0.0.0 sf.symcd.com
-#0.0.0.0 dc.qq.com
-#0.0.0.0 gameproxy.gamedl.qq.com
-#0.0.0.0 config.gamedl.qq.com
-#0.0.0.0 down.qq.com
-#0.0.0.0 downloadtpt.gamedl.qq.com
-#0.0.0.0 ga.gamedl.qq.com
-# Verbindungen während der Installation
-0.0.0.0 trace-report.tgp.qq.com
-#0.0.0.0 ied-tqosweb.qq.com # tgp_daemon.exe & launcher.exe
-#0.0.0.0 bk.downloadtpt.gamedl.qq.com # WeGameSetup
-#0.0.0.0 dldir1.qq.com
-# 183.61.39.221
-#0.0.0.0 downloadtpt.gamedl.qq.com
-#0.0.0.0 cdn.tgp.qq.com # Grafiken
-#0.0.0.0 stun-a1.qq.com # TenioDL
-#0.0.0.0 wegame-portal.tgp.qq.com
-#0.0.0.0 p2pupgrade.gamedl.qq.com
-#0.0.0.0 mini-updatesvr.tgp.qq.com
-#0.0.0.0 config.gamedl.qq.com
-#0.0.0.0 ga.gamedl.qq.com
-# TGP Browser und Daemon
-# Ip/s blockieren:
-# 101.227.153.157
-# 14.17.53.145
-# 117.185.25.107
-#0.0.0.0 wup.browser.qq.com
-#0.0.0.0 qbwup.imtt.qq.com # Data Report
-0.0.0.0 btrace.video.qq.com
-#0.0.0.0 tgccfg.qq.com
-#0.0.0.0 qbwup.html5.qq.com
-#0.0.0.0 down.qq.com # Animationen und Verarbeitung von Dat Dateien
-#0.0.0.0 config.tgp.qq.com
-0.0.0.0 ied-tqos-tgp.qq.com # helper_main.exe
-0.0.0.0 speed.tgp.qq.com
-#0.0.0.0 base.update.tgp.qq.com
-#0.0.0.0 dir.tgp.qq.com
-#0.0.0.0 middle.tgp.qq.com # erfasst an Proxys vorbei die IP4 Adresse des Nutzers
-# Tas Login
-#0.0.0.0 tgscp.mainconn.gamesafe.qq.com
-# PathOfExile_x64.exe und PathOfExile.exe verknüpft mit TenProtect
-#0.0.0.0 tqos.gamesafe.qq.com
-#0.0.0.0 tgscp.mainconn.gamesafe.qq.com # Gameloader
-#0.0.0.0 down.qq.com
-
 # Ring of Elysium
 # 117.144.245.229
 # 125.39.213.39
@@ -2622,17 +2574,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
-# Alawar Entertainment
-# Dark Angels: Masquerade of Shadows
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
-# Alawar Premium
+# Alawar Entertainment, Inc.
 # Beholder 2
 # Ip/s blockieren:
 # 34.111.113.40
@@ -5614,19 +5556,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
 # Chucklefish
-# Risk of Rain
-# 2.19.96.163, 2.19.96.179
-# 52.218.245.91
-# 52.218.181.122
-# 52.218.132.210
-# 52.92.193.227
-# 52.92.163.91
-# 52.218.137.162
-# 52.218.154.26
-# 52.218.246.10
-#0.0.0.0 www.riskofraingame.com
-#0.0.0.0 www.riskofrain.com
-
 # Stardew Valley
 0.0.0.0 blog.chucklefish.org
 #0.0.0.0 s.ytimg.com # Youtube
@@ -6918,7 +6847,7 @@ ff02::3 ip6-allhosts
 # 142.250.186.131
 # 142.250.186.67
 #0.0.0.0 update.googleapis.com
-#0.0.0.0 redirector.gvt1.com
+0.0.0.0 redirector.gvt1.com
 #0.0.0.0 dl.google.com
 #0.0.0.0 www.google.com
 
@@ -7443,45 +7372,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
-# Dharker Studio
-# Negligee: Love Stories
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
-# Digerati Distribution
-# Monster Slayers
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
-# Slain: Back from Hell
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
-# Digital Bento
-# A Salem Witch Trial - Murder Mystery
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # DigitalDNA Games LLC
 # Death Toll
 # Quote: "Game Closed"
@@ -7556,15 +7446,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
-# Kings of Kung Fu
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # Shaolin vs Wutang
 # IPv4 > https://gameindustry.eu/katalog/gameanalytics/
 0.0.0.0 api.gameanalytics.com
@@ -7584,22 +7465,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
-# Disney Interactive
-# Disney Epic Mickey II
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
-# Tron: Evolution
-#0.0.0.0 go.microsoft.com
-#0.0.0.0 download.gfwl.xboxlive.com
-#0.0.0.0 download.microsoft.com
-#0.0.0.0 ocsp.verisign.com
-
 # Digixart & Ravenscourt
 # Road 96
 # Ip/s blockieren:
@@ -7607,26 +7472,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
-# DNZY Games
-# Zombie Wars: Invasion
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # DotEmu
-# Pang
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # Windjammers 2
 #0.0.0.0 wj2-s1.dotemu.com
 #0.0.0.0 ns572703.ip-54-39-130.net
@@ -7757,17 +7603,6 @@ ff02::3 ip6-allhosts
 # 35.190.78.8
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
-
-# dtp entertainment AG
-# The cursed Crusade
-# Ip/s blockieren:
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 
 # Ductape studio
 # Summer Sale
@@ -9867,6 +9702,25 @@ ff02::3 ip6-allhosts
 #0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
 #0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
+# Risk of Rain 2
+#0.0.0.0 api.epicgames.dev
+0.0.0.0 signup.hopoogames.net # Empty DNS Response
+0.0.0.0 perf-events.cloud.unity3d.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+
 # Tribes of Midgard
 # 54.211.121.136
 # 107.23.111.172
@@ -10322,79 +10176,48 @@ ff02::3 ip6-allhosts
 
 # Grinding Gear Games
 # Path of Exile - Standalone Version
-#0.0.0.0 www.pathofexile.com
+#0.0.0.0 akl01.login.pathofexile.com
+#0.0.0.0 ams01.login.pathofexile.com
+#0.0.0.0 au.speedtest.pathofexile.com
+#0.0.0.0 br.speedtest.pathofexile.com
+#0.0.0.0 challenges.cloudflare.com
+#0.0.0.0 dal01.login.pathofexile.com
+#0.0.0.0 eu.speedtest.pathofexile.com
+#0.0.0.0 fra.speedtest.pathofexile.com
+#0.0.0.0 fra01.login.pathofexile.com
+#0.0.0.0 jp.speedtest.pathofexile.com
+#0.0.0.0 lon.speedtest.pathofexile.com
+#0.0.0.0 lon01.login.pathofexile.com
+#0.0.0.0 mel01.login.pathofexile.com
+#0.0.0.0 mil.speedtest.pathofexile.com
+#0.0.0.0 mil01.login.pathofexile.com
+#0.0.0.0 mo.speedtest.pathofexile.com
+#0.0.0.0 mos01.login.pathofexile.com
+#0.0.0.0 nz.speedtest.pathofexile.com
+#0.0.0.0 par.speedtest.pathofexile.com
+#0.0.0.0 par01.login.pathofexile.com
 #0.0.0.0 patch.poecdn.com
 #0.0.0.0 patch2.pathofexile.com
 #0.0.0.0 patch3.pathofexile.com
 #0.0.0.0 patch4.pathofexile.com
-#0.0.0.0 web.poecdn.com
-#0.0.0.0 ams01.login.pathofexile.com
-#0.0.0.0 login.pathofexile.com
-#0.0.0.0 login.tw.pathofexile.com
-#0.0.0.0 login2.tw.pathofexile.com
-#0.0.0.0 login3.tw.pathofexile.com
-#0.0.0.0 th.pathofexile.com
-#0.0.0.0 patch-kr.pathofexile.com
-#0.0.0.0 us.speedtest.pathofexile.com
-#0.0.0.0 eu.speedtest.pathofexile.com
-#0.0.0.0 sjc.speedtest.pathofexile.com
-#0.0.0.0 fra.speedtest.pathofexile.com
-#0.0.0.0 lon.speedtest.pathofexile.com
+#0.0.0.0 sao01.login.pathofexile.com
 #0.0.0.0 sg.speedtest.pathofexile.com
-#0.0.0.0 au.speedtest.pathofexile.com
-#0.0.0.0 mil.speedtest.pathofexile.com
-#0.0.0.0 br.speedtest.pathofexile.com
-#0.0.0.0 par.speedtest.pathofexile.com
-#0.0.0.0 mo.speedtest.pathofexile.com
+#0.0.0.0 sjc.speedtest.pathofexile.com
+#0.0.0.0 sjc01.login.pathofexile.com
+#0.0.0.0 sng01.login.pathofexile.com
+#0.0.0.0 tok01.login.pathofexile.com
 #0.0.0.0 tor.speedtest.pathofexile.com
-#0.0.0.0 jp.speedtest.pathofexile.com
-#0.0.0.0 zaf-m.speedtest.pathofexile.com
-0.0.0.0 unity-ams1-ip-holder
-#0.0.0.0 5c3e588941d14ffb8518633c807228b9.pacloudflare.com
-#0.0.0.0 speedtest.sjc01.softlayer.com
-#0.0.0.0 speedtest.dal09.softlayer.com
-#0.0.0.0 speedtest.wdc01.softlayer.com
-#0.0.0.0 speedtest.mil01.softlayer.com
-
-# Path of Exile inkl. Steam Version
-# Chinesische Version unter 流放之路 zu finden
-0.0.0.0 hk2-eap.settings.data.microsoft.com.akadns.net.com
-# 146.0.234.229
-# 159.122.82.219
-# 104.19.185.16
-#0.0.0.0 www.pathofexile.com
-#0.0.0.0 fra.login.pathofexile.com
-#0.0.0.0 fra01.login.pathofexile.com
-#0.0.0.0 fra2.login.pathofexile.com
-#0.0.0.0 fra3.login.pathofexile.com
-#0.0.0.0 patch2.pathofexile.com
-#0.0.0.0 patch3.pathofexile.com
-#0.0.0.0 patch4.pathofexile.com
-#0.0.0.0 us.login.pathofexile.com
-#0.0.0.0 usp01.pathofexile.com
+#0.0.0.0 tor01.login.pathofexile.com
+#0.0.0.0 us.speedtest.pathofexile.com
+#0.0.0.0 wdc.speedtest.pathofexile.com
+#0.0.0.0 wdc01.login.pathofexile.com
+#0.0.0.0 web.poecdn.com
 #0.0.0.0 webcdn.pathofexile.com
 #0.0.0.0 www.pathofexile.com
-# Gateway Spracheinstellungen
-#0.0.0.0 de.pathofexile.com # Deutsch
-#0.0.0.0 br.pathofexile.com # Portugiesisch
-#0.0.0.0 fr.pathofexile.com # Französisch
-#0.0.0.0 ru.pathofexile.com # Französisch
-#0.0.0.0 th.pathofexile.com # Thai
-#0.0.0.0 es.pathofexile.com # Spanisch
-# Server
-# 34.89.184.203
-# 158.177.236.84
-# Diverses
-# 172.65.204.172
-# 205.185.216.10
-#0.0.0.0 spectrum-patch-ipv4.pathofexile.com
-#0.0.0.0 5c3e588941d14ffb8518633c807228b9.pacloudflare.com
-#0.0.0.0 cds.p7p4m6s5.hwcdn.net
-# News, Links für Mikrotransaktionen
-#0.0.0.0 web.poecdn.com
-# Datenuploaad Telemetrie
-# 104.19.186.16
-#0.0.0.0 www.pathofexile.com # /client/record-patching-metrics
+#0.0.0.0 zaf-m.speedtest.pathofexile.com
+#0.0.0.0 zaf01.login.pathofexile.com
+# Steam
+#0.0.0.0 a1762.dscb.akamai.net
 
 # Grip Digital
 # MOTHERGUNSHIP
@@ -10963,6 +10786,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 14.181.107.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
+
+# Hopoo Games
+# Risk of Rain
+0.0.0.0 www.riskofraingame.com
+0.0.0.0 www.riskofrain.com.cdn.cloudflare.net
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 scontent.xx.fbcdn.net
+#0.0.0.0 www.google.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 analytics.twitter.com
+0.0.0.0 www.facebook.com
+0.0.0.0 star-mini.c10r.facebook.com
+#0.0.0.0 cdnjs.cloudflare.com
+#0.0.0.0 fonts.googleapis.com
+#0.0.0.0 www.gearboxpublishing.com
+#0.0.0.0 www.gearboxpublishing.com.cdn.cloudflare.net
 
 # HONG KONG SPARK SOFTWARE TECHNOLOGY CO., LIMITED
 # Idle Big Devil
@@ -11580,26 +11420,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
-# JAST USA
-# Sonicomi
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
-# JDM4iK
-# J.U.R : Japan Underground Racing
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # JKgames & OHIYOsoft
 # Monster Girl2 | 捉妖物语2
 # Ip/s blockieren:
@@ -11617,14 +11437,9 @@ ff02::3 ip6-allhosts
 
 # JMJ Interactive
 # Akihabara - Feel the Rhythm
-0.0.0.0 scoreserver.klikgamer.com # erklärt sich von selbst
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# Ip/s blockieren:
+# 217.170.198.101
+0.0.0.0 scoreserver.klikgamer.com # DeviceID, Game version, Playername, Leaderboard Code, Level, OS and SystemID, Score, Scorehash
 
 # Joey Drew Studios Inc.
 # Bendy and the Dark Revival
@@ -15160,10 +14975,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 10965211.collect.igodigital.com
 
 # Cities: Skylines
-0.0.0.0 opstm.paradoxplaza.com # Dauerverbindung des Spiels zu Paradox-Servern. Kann abgeschaltet werden
-#0.0.0.0 services.paradoxplaza.com
-#0.0.0.0 api.paradoxplaza.com # Für Accounterstellung/Login
-0.0.0.0 api.buffpanel.com # DLC-Checks, Produkttitel, SpielerID, Analyticsversion "unity_0.0.1"
+0.0.0.0 prod-telemetry.paradox-interactive.com
+#0.0.0.0 api.paradox-interactive.com # Policy
+#0.0.0.0 accounts.paradoxplaza.com # Login
+0.0.0.0 sdk.iad-06.braze.com # Geodaten, GeräteID
+#0.0.0.0 braze-images.com # Images
+0.0.0.0 usage.trackjs.com
+0.0.0.0 capture.trackjs.com
+0.0.0.0 services.paradoxplaza.com # Follow us ads
+#0.0.0.0 appboy-images.com # Images
+#0.0.0.0 legal.paradoxplaza.com # Fonts, JS, Images/Icons, TOS/EULA
+0.0.0.0 legal.paradoxplaza.com.herokudns.com # Empty DNS Response
+0.0.0.0 api.buffpanel.com # Empty DNS Response
+# Aktiv auf der Passwort Vergessen Seite
+0.0.0.0 www.googletagmanager.com # AccountID: GTM-TMQDVP, G-6VRCPQ92DR
+0.0.0.0 www.google-analytics.com # AccountID: UA-994734-63
+0.0.0.0 region1.google-analytics.com # AccountID: G-6VRCPQ92DR
+0.0.0.0 stats.g.doubleclick.net # AccountID: UA-994734-2
 
 # Crusader Kings II
 # Bei Aufruf der Webseite/n durch den Launcher/Ingamefunktionen
@@ -20090,9 +19918,14 @@ ff02::3 ip6-allhosts
 
 # The Behemoth
 # Castle Crashers
-# 107.23.154.158
-0.0.0.0 ec2-107-23-154-158.compute-1.amazonaws.com
-0.0.0.0 behemoth-websites-alb-1662044894.us-east-1.elb.amazonaws.com
+#0.0.0.0 castlesteam.castlecrashers.com
+#0.0.0.0 avatars.steamstatic.com
+#0.0.0.0 server-18-66-102-99.fra56.r.cloudfront.net
+#0.0.0.0 server-18-66-102-71.fra56.r.cloudfront.net
+#0.0.0.0 server-18-66-102-39.fra56.r.cloudfront.net
+#0.0.0.0 server-18-66-102-100.fra56.r.cloudfront.net
+#0.0.0.0 a23-216-77-46.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-216-77-53.deploy.static.akamaitechnologies.com
 
 # The Deep End Games
 # Perception
@@ -20128,12 +19961,17 @@ ff02::3 ip6-allhosts
 
 # The Fun Pimps Entertainment LLC
 # 7 days to die
-# s. Rubrik Kopierschutz / AntiCheat
 #0.0.0.0 modules-cdn.eac-prod.on.epicgames.com
-#0.0.0.0 gossip.easyanticheat.net
-0.0.0.0 d2hjvmnsrtrg65.cloudfront.net
-#0.0.0.0 live-h387687ygv7j.ws.gamesparks.net
 #0.0.0.0 api.epicgames.dev
+0.0.0.0 d2hjvmnsrtrg65.cloudfront.net
+0.0.0.0 test.steampowered.com
+#0.0.0.0 api.steampowered.com
+#0.0.0.0 ext2-ams1.steamserver.net
+#0.0.0.0 ext4-fra1.steamserver.net
+#0.0.0.0 lancache.steamcontent.com
+#0.0.0.0 cache4-ams1.steamcontent.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
 #0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
 #0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
 #0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
@@ -20173,6 +20011,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 0.0.0.0 stats.unity3d.com # Obsolete / Inaktiv
+
+# The Walt Disney Company
+# Disney TRON: Evolution
+# GFWL & SecuROM
+#0.0.0.0 go.microsoft.com
+#0.0.0.0 download.gfwl.xboxlive.com
+#0.0.0.0 download.microsoft.com
+#0.0.0.0 pa01.sonyvfactory.com
+#0.0.0.0 pa02.sonyvfactory.com
+#0.0.0.0 pa03.sonyvfactory.com
+#0.0.0.0 ec2-63-32-146-219.eu-west-1.compute.amazonaws.com
+#0.0.0.0 ec2-34-242-79-182.eu-west-1.compute.amazonaws.com
+#0.0.0.0 a23-32-97-144.deploy.static.akamaitechnologies.com
+#0.0.0.0 a104-122-27-233.deploy.static.akamaitechnologies.com
 
 # The Young Socratics
 # Odyssey - The Story of Science
