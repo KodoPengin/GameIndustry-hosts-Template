@@ -10,7 +10,7 @@
 #
 # Version: hosts-Datei - Vollständig mit allen Einträgen (IoT, Spiele & Clients)
 # Version: hosts file - complete with all entries (IoT, Games & Clients)
-# Change/Datum: 19.08.2024
+# Change/Datum: 22.08.2024
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -22033,6 +22033,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bitskins.com
 0.0.0.0 bolocase.com
 0.0.0.0 cloudcsgo.com
+0.0.0.0 communuityprofile.com
 0.0.0.0 counterluck.com
 0.0.0.0 cs-diva.xyz
 0.0.0.0 cs-heet.xyz
@@ -22048,7 +22049,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 csgo-code.xyz
 0.0.0.0 csgo-dark.xyz
 0.0.0.0 csgo-dream.com
-0.0.0.0 csgo-faster.xyz
 0.0.0.0 csgo-faster.xyz
 0.0.0.0 csgo-fight.com
 0.0.0.0 csgo-gambler.com
@@ -22146,6 +22146,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 skins1v1.com
 0.0.0.0 skinsbazaar.com
 0.0.0.0 sociusgaming.com
+0.0.0.0 steam.communiuityauth.com
 0.0.0.0 steamacommunitry.com
 0.0.0.0 steamacommunity.com
 0.0.0.0 steamanalyst.com
