@@ -14,7 +14,8 @@
     <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/watchers"><img alt="Watchers" src="https://img.shields.io/github/watchers/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" /></a>
     <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" /></a>
     <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/network/members"><img alt="Mitglieder" src="https://img.shields.io/github/forks/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" /></a>
-    <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/issues"><img alt="Gemeldete Fehler" src="https://img.shields.io/github/issues/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" /></a>
+    <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/wiki"><img alt="Wiki" src="https://img.shields.io/badge/wiki-visit-green?style=flat-square&color=0088ff" /></a>
+	<a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/issues"><img alt="Gemeldete Fehler" src="https://img.shields.io/github/issues/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" /></a>
     <a href="https://gameindustry.eu"><img alt="Webseite" src="https://img.shields.io/badge/webseite-online-blue?url=https%3A%2F%2Fgameindustry.eu?color=0088ff" /></a>
   </p>
 <br />
@@ -28,7 +29,7 @@ Es sind keine Programme von Drittanbietern, komplexe oder teure Installationsmed
 
 ### Besondere Merkmale:
 - Funktioniert auf jedem Gerät. Systemweit
-- Blockierte Einträge für über 1810 Spiele und Software, einschließlich der wichtigsten Gaming-Clients von heute.
+- Blockierte Einträge für über 2000 Spiele und Software, einschließlich der wichtigsten Gaming-Clients von heute.
 - 50000 Zeilen.
 - Regelmäßige Updates.
 - Einträge für Software, Spiele, Websites und IoT.
@@ -43,19 +44,23 @@ Es sind keine Programme von Drittanbietern, komplexe oder teure Installationsmed
 
 ### Hosts Versionen
 - Haupt-Template: Software, Websites, Treiber, Technologieunternehmen, Gaming-Clients, Spiele und mehr.
-- Mini-Vorlage für Spiele: Blockiert die gängigsten Spielanalysen, Spyware und Werbedienste in PC-Spielen. Nichts anderes.
 - Gaming-Vollversion: Blockiert Telemetrie, Spielanalysen, Spyware und unnötige Verbindungen für Gaming-Clients und Spiele auf und für verschiedene Plattformen.
 - Android Mini-Template: Blockiert die gängigsten Tracker und Analytics, Werbung, Spyware und Werbedienste in Android-Spielen und -Software.
-- Android Full-Template: Veraltet - Am 13.01.2024 aus dem Repository entfernt.
+
+And many more on gameindustry.eu
+
+### Entfernte Hosts Versionen
+- Android Full-Template: Veraltet - Am 13.01.2024 aus dem Repository entfernt
+- Gaming Mini-Template: Veraltet - Am 19.08.2024 aus dem Repository entfernt
 
 ## 📖 Installation
 Bitte beachten Sie, dass die Hosts je nach System schreibgeschützt sein können oder Root-Rechte erfordern.
 ### Weiterführende Informationen:
-Quelle: <a href="https://gameindustry.eu/de/blog/hosts-datei-bearbeiten-windows-linux-android/">Wie man die Hosts-Datei bearbeitet</a><br>
+Quelle: <a href="https://gameindustry.eu/blog/hosts-datei-bearbeiten-windows-linux-android/">Wie man die Hosts-Datei bearbeitet</a><br>
 
 ## Einfach zu verwendende Setup-Datei:
 Ein einfach zu verwendendes Hosts-Datei-Setup wurde erstellt. Starten Sie Ihr Setup, wählen Sie eine von 5 Vorlagen und installieren Sie sie.<br>
-Quelle: <a href="https://www.gameindustry.eu/de/downloads/">GameIndustry Downloads</a><br>
+Quelle: <a href="https://www.gameindustry.eu/downloads/">GameIndustry Downloads</a><br>
 
 Unterstützt die Sprachen Deutsch, Englisch und Japanisch.
 
@@ -83,13 +88,13 @@ Sicherheit bedeutet nicht automatisch Sicherheit in dem Sinne, wie wir sie uns a
 Dieser Dienst ist mittlerweile inaktiv. Einträge dazu können ignoriert oder mit "Suchen und Ersetzen"-Funktionen entfernt werden. 215 Produkte (Stand Jan. 2024) sind betroffen.
 
 ## ❗ Hinweise:
-Seien Sie vorsichtig bei der Verwendung von Einträgen. Einige können strikt sein und viele Dienste funktionieren möglicherweise nicht.
+Bitte beachten Sie, dass bestimmte Einträge in der Blockliste sehr restriktiv sind und einige Dienste nicht wie erwartet funktionieren. Verwenden Sie diese Einträge daher mit Vorsicht.
 
 ## 🐞 Fehler, Irrtümer, Fragen:
 Auch ich bin nicht unfehlbar und es können Fehler in Einträgen oder Tippfehler auftreten. Wenn Sie welche finden, zögern Sie bitte nicht, mich umgehend zu kontaktieren - Öffnen Sie ein Ticket, kontaktieren Sie mich auf Steam oder über meine Website. Korrekturen (falls erforderlich) werden umgehend umgesetzt.
 
 ## 🔖 Unterstützung:
-Für diejenigen, die mich und mein Projekt unterstützen möchten, steht eine <a href="https://gameindustry.eu/de/donations/">Spendenseite</a> zur Verfügung.
+Für diejenigen, die mich und mein Projekt unterstützen möchten, steht eine <a href="https://gameindustry.eu/donations/">Spendenseite</a> zur Verfügung.
 
 ## © Copyright, Support & Lizenz
 Hinter dem Projekt steht nur eine Person. Die Erstellung und Pflege der Listen hat mehrere Jahre und viel Geld gekostet und wurde von Grund auf aus dem Nichts aufgebaut.<br><br>

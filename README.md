@@ -14,6 +14,7 @@
     <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/watchers"><img alt="Watchers" src="https://img.shields.io/github/watchers/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" /></a>
     <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" /></a>
     <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/network/members"><img alt="Members" src="https://img.shields.io/github/forks/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" /></a>
+	<a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/wiki"><img alt="Wiki" src="https://img.shields.io/badge/wiki-visit-green?style=flat-square&color=0088ff" /></a>
     <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/issues"><img alt="Issues" src="https://img.shields.io/github/issues/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" /></a>
 		<a href="https://gameindustry.eu"><img alt="Website" src="https://img.shields.io/badge/website-online-blue?url=https%3A%2F%2Fgameindustry.eu?color=0088ff" /></a>
   </p>
@@ -28,7 +29,7 @@ No third-party programs or complex or expensive installation media (PI-Hole) are
 
 ### Special features:
 - Works on any device. System-wide
-- Blocked entries for over 1810 games and software, including the most important gaming clients of today.
+- Blocked entries for over 2000 games and software, including the most important gaming clients of today.
 - 50000 lines
 - Regular updates.
 - Entries for software, games, websites, and IoT.
@@ -43,17 +44,19 @@ No third-party programs or complex or expensive installation media (PI-Hole) are
 
 ### Hosts versions
 - Main Template: software, websites, drivers, technology companies, gaming clients, games, and more.
-- Gaming Mini-Template: Blocks most common game analytics, spyware, and advertising services in PC games. Nothing else.
 - Gaming Full-Template: Blocks telemetry, game analytics, spyware, and unnecessary connections for gaming clients and games on and for various platforms.
 - Android Mini-Template: Blocks most common game analytics, advertising, spyware, and advertising services in Android games and software.
-- Android Full-Template: Obsolete - Removed from the repository on 13.01.2024.
 
 And many more on gameindustry.eu
+
+### Deleted Hosts versions
+- Android Full-Template: Obsolete - Removed from the repository on 13.01.2024
+- Gaming Mini-Template: Obsolete - Removed from the repository on 19.08.2024
 
 ## 📖 Installation
 Please be aware that the hosts may be read-only or require root privileges depending on your system.
 ### More information:
-Source: <a href="https://gameindustry.eu/de/blog/hosts-datei-bearbeiten-windows-linux-android/">How to edit the hosts file</a><br>
+Source: <a href="https://gameindustry.eu/blog/hosts-datei-bearbeiten-windows-linux-android/">How to edit the hosts file</a><br>
 
 ## Easy to use Setup file:
 An easy-to-use hosts file setup has been created. Start your setup, choose one of 5 templates, and install.<br>
@@ -85,13 +88,13 @@ Remember, security doesn't always equate to safety in the way end-users expect. 
 This service is deemed non-essential. Entries related to it can be ignored or removed using "Search and Replace" functions. 215 products (updated Jan. 2024) are affected.
 
 ## ❗ Tips:
-Careful with using entries. Some may be strict and many services may not work
+Please be aware that certain entries in the blocklist are very restrictive, and some services may not function as expected. Use these entries with caution.
 
 ## 🐞 Bugs, Mistakes, questions:
 Even I am not infallible and errors in entries or typos may occur. If you find any, please do not hesitate to contact me ASAP - Open a ticket, contact me on Steam, or through my website. Corrections (if needed) will be promptly implemented.
 
 ## 🔖 Donations:
-For those who wish to support me and my project, a <a href="https://gameindustry.eu/de/donations/">donation page</a> is available.
+For those who wish to support me and my project, a <a href="https://gameindustry.eu/donations/">donation page</a> is available.
 
 ## © Copyright, Support & License
 This project is the work of a single individual. Creating and maintaining this list has been a years-long endeavor, involving significant time and financial investment, and was built from the ground up by me alone.<br><br>
