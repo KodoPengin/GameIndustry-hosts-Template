@@ -10,7 +10,7 @@
 #
 # Version: Android-Mini-Template - Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
 # Version: Android-Mini-Template - Blocks android specific ads, trackers, affiliates, banners and unnecessary connections
-# Change/Datum: 28.07.2024
+# Change/Datum: 15.11.2024
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -379,6 +379,7 @@
 0.0.0.0 mdh-pa.googleapis.com
 0.0.0.0 mobilemaps-pa.googleapis.com
 0.0.0.0 myphonenumbers-pa.googleapis.com
+0.0.0.0 nearbysharing-pa.googleapis.com
 0.0.0.0 notifications-pa.googleapis.com
 0.0.0.0 ogads-pa.googleapis.com
 0.0.0.0 performanceparameters.googleapis.com
@@ -387,6 +388,8 @@
 0.0.0.0 safebrowsing.googleapis.com
 0.0.0.0 speechs3proto2-pa.googleapis.com
 0.0.0.0 ulp1p-pa.googleapis.com
+# Google Cloud Optimization Guide
+0.0.0.0 optimizationguide-pa.googleapis.com
 # MessageNet
 0.0.0.0 mtalk.google.com
 0.0.0.0 alt1-mtalk.google.com
@@ -413,7 +416,7 @@
 0.0.0.0 playgateway-pa.googleapis.com
 # PubSUB
 0.0.0.0 pubsub.googleapis.com
-# Werbung & Tracking
+# Ads & Tracking
 0.0.0.0 userlocation.googleapis.com
 # 172.217.22.98, 172.217.16.162, 172.217.18.98
 0.0.0.0 googleads.g.doubleclick.net
@@ -595,6 +598,12 @@
 # Limelight Networks
 #0.0.0.0 sammetazrt.hs.llnwd.net # Samsung Downloader
 
+# Line Messenger
+0.0.0.0 vos.line-scdn.net
+0.0.0.0 obs.line-scdn.net
+0.0.0.0 nelo2-col.linecorp.com
+0.0.0.0 sentry-uit.line-apps.com
+
 # Lnk
 0.0.0.0 lnk8.cn
 0.0.0.0 lnk0.com
@@ -666,6 +675,10 @@
 0.0.0.0 shavar.prod.mozaws.net
 0.0.0.0 shavar.services.mozilla.com
 0.0.0.0 tracking-protection.cdn.mozilla.com
+
+# MIUI
+0.0.0.0 adv.sec.intl.miui.com
+0.0.0.0 tracking.eu.miui.com
 
 # NR-Data
 0.0.0.0 bam.nr-data.com
@@ -745,8 +758,9 @@
 0.0.0.0 track.saygames.io
 
 # Sentry.io
-0.0.0.0 o92387.ingest.sentry.io
 0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 ly.my.sentry.io
+0.0.0.0 o92387.ingest.sentry.io
 
 # Splkmobile
 0.0.0.0 a8221c8e.api.splkmobile.com
@@ -995,11 +1009,20 @@
 0.0.0.0 ipali.xdgcdn.com
 0.0.0.0 ip.xindong.com
 
+# Xiaomi
+0.0.0.0 api.ad.intl.xiaomi.com
+0.0.0.0 fr.resolver.msg.global.xiaomi.net
+0.0.0.0 sdkconfig.ad.intl.xiaomi.com
+0.0.0.0 sdkconfig.eu.xiaomi.com
+0.0.0.0 t7.a.market.xiaomi.com
+
 # Yahoo
 # 87.248.100.136
 0.0.0.0 analytics.query.yahoo.com
 
 # Yandex
+0.0.0.0 adsdk.yandex.ru
+0.0.0.0 mobile.yandexadexchange.net
 0.0.0.0 report.appmetrica.yandex.net
 0.0.0.0 rosenberg.appmetrica.yandex.net
 0.0.0.0 startup.mobile.yandex.net
@@ -1011,7 +1034,7 @@
 0.0.0.0 ad.api.yyapi.net
 
 # Unsortiert
-0.0.0.0 2mdn.net 
+0.0.0.0 2mdn.net
 0.0.0.0 adam.gslb.toastoven.net
 0.0.0.0 ads.adsymptotic.com
 0.0.0.0 ads.mdotm.com
@@ -1058,10 +1081,8 @@
 0.0.0.0 mobile-apps-test.booking.com
 0.0.0.0 napps-1.com
 0.0.0.0 napps-2.com
-0.0.0.0 nelo2-col.linecorp.com
 0.0.0.0 newplayable.dspunion.com
 0.0.0.0 ns-eh2-prod-bn3-531.cloudapp.net
-0.0.0.0 obs.line-scdn.net
 0.0.0.0 ox-d.mobile.servedbyopenx.com
 0.0.0.0 px-conf-ipv.perimeterx.net
 0.0.0.0 px-conf.perimeterx.net
@@ -1085,7 +1106,6 @@
 0.0.0.0 tracking.intl.miui.com
 0.0.0.0 tracker-api.my.com
 0.0.0.0 vector-eu-west-1.aonix.com
-0.0.0.0 vos.line-scdn.net
 0.0.0.0 weighted-autoendpoint.prod.mozaws.net
 0.0.0.0 wins.isprog.com
 0.0.0.0 www.leanplum.com
