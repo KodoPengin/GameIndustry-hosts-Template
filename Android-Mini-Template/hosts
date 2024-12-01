@@ -10,7 +10,7 @@
 #
 # Version: Android-Mini-Template - Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
 # Version: Android-Mini-Template - Blocks android specific ads, trackers, affiliates, banners and unnecessary connections
-# Change/Datum: 15.11.2024
+# Change/Datum: 01.12.2024
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -290,7 +290,7 @@
 0.0.0.0 engage16512wdncq.deltadna.net
 0.0.0.0 collect17070dvntr.deltadna.net
 
-# Exitgames
+# Exitgames GmbH | Photon Engine
 #0.0.0.0 ns.exitgames.com # MP
 
 # Facebook, Inc.
@@ -349,7 +349,7 @@
 0.0.0.0 wadogo.go2cloud.org
 0.0.0.0 ironsource.go2cloud.org
 
-# Google LLC
+# Google, LLC
 # 216.58.206.14
 0.0.0.0 history.google.com
 # API/s
@@ -388,6 +388,8 @@
 0.0.0.0 safebrowsing.googleapis.com
 0.0.0.0 speechs3proto2-pa.googleapis.com
 0.0.0.0 ulp1p-pa.googleapis.com
+0.0.0.0 voledevice-pa.googleapis.com
+0.0.0.0 xgapromomanager-pa.googleapis.com
 # Google Cloud Optimization Guide
 0.0.0.0 optimizationguide-pa.googleapis.com
 # MessageNet
