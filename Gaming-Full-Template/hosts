@@ -10,7 +10,7 @@
 #
 # Version: Template für Spieleclients und Spiele
 # Version: Template for game clients and games
-# Change/Datum: 19.08.2024
+# Change/Datum: 01.12.2024
 #
 # Weitere und aktuelle Spiele sind auf der Website zu finden.
 # More and current games can be found on the website.
@@ -1045,6 +1045,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 collector-01.valve.net
 0.0.0.0 collector-02.valve.net
 0.0.0.0 r3.o.lencr.org
+
+# Steam: Discovery
+# Verbindungen während des Clientstarts als auch zum Start von Spielen aktiviert - Auflistnung nicht vollständig
+# Connections activated during client start as well as for starting games - listing not complete
+0.0.0.0 p2p-ams1.discovery.steamserver.net
+0.0.0.0 p2p-fra1.discovery.steamserver.net
+0.0.0.0 p2p-fra2.discovery.steamserver.net
+0.0.0.0 p2p-sto1.discovery.steamserver.net
 
 # Steam: Downloads | Depots | Examples / Beispiele
 # Africa - Nordwest
@@ -7417,15 +7425,17 @@ ff02::3 ip6-allhosts
 # 170.187.231.80
 # 45.33.58.33
 # 50.116.55.186
-#0.0.0.0 api.warframe.com
+#0.0.0.0 api.warframe.com # ClientIP, Login
 #0.0.0.0 www.warframe.com
-#0.0.0.0 origin.warframe.com
-#0.0.0.0 content.warframe.com
+#0.0.0.0 origin.warframe.com # Cache
+#0.0.0.0 content.warframe.com # Download
+#0.0.0.0 update.googleapis.com # Launcher Update
 #0.0.0.0 cds.b5q9z7i8.hwcdn.net
 #0.0.0.0 fonts.googleapis.com
 #0.0.0.0 fonts.gstatic.com
 0.0.0.0 metrics.warframe.com
 0.0.0.0 arbiter.warframe.com
+0.0.0.0 crashes.warframe.com
 #0.0.0.0 85-159-214-213.ip.linodeusercontent.com
 #0.0.0.0 139-144-69-73.ip.linodeusercontent.com
 #0.0.0.0 104-237-145-11.ip.linodeusercontent.com
@@ -7470,6 +7480,14 @@ ff02::3 ip6-allhosts
 # Ip/s blockieren:
 # 35.190.78.8
 0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+
+# Dionic Software GmbH
+# InfraSpace
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 dionicsoftware.com # Tracker
+#0.0.0.0 infraspace.dionicsoftware.com
+#0.0.0.0 forum.dionicsoftware.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # DotEmu
@@ -10879,6 +10897,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
+# Coral Island
+0.0.0.0 ipv6check-http.steamcontent.com
+0.0.0.0 ipv6check-udp.steamcontent.com
+0.0.0.0 test.steampowered.com
+0.0.0.0 o936297.ingest.sentry.io
+#0.0.0.0 api.epicgames.dev
+0.0.0.0 eu.http.ipv6check.akadns.net
+0.0.0.0 eu.udp.ipv6check.akadns.net
+0.0.0.0 http.ipv6check.akadns.net
+0.0.0.0 udp.ipv6check.akadns.net
+0.0.0.0 a23-216-77-18.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-216-77-30.deploy.static.akamaitechnologies.com
+0.0.0.0 249.195.120.34.bc.googleusercontent.com
+
 # Forager
 # 162.125.66.1
 # 2620:100:6022:1::a27d:4201
@@ -10892,6 +10924,12 @@ ff02::3 ip6-allhosts
 # Dropbox für im Spiel integrierte Fankunst
 0.0.0.0 www.dropbox.com
 0.0.0.0 www.dropbox-dns.com
+
+# Ghost Song
+0.0.0.0 galaxy-log.gog.com
+0.0.0.0 telemetry.humblegames.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # Staxel
 0.0.0.0 log.playstaxel.com # Api v1 - Formular Logfiles, Hardwareinformationen
@@ -16185,6 +16223,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # Raw Fury AB
+# Dome Keeper
+# Playfab Telemetrie optional. Anwender können ein sauberes OptIn/Out ausführen.
+# Playfab telemetry optional. Users can perform a clean opt-in/out.
+0.0.0.0 954a2.playfabapi.com
+#0.0.0.0 steamuserimages-a.akamaihd.net
+#0.0.0.0 steamcommunity.com
+#0.0.0.0 community.fastly.steamstatic.com
+#0.0.0.0 cdn.fastly.steamstatic.com
+
 # Kingdom Two Crowns
 # Playfab Ipv4: https://gameindustry.eu/katalog/microsoft-corporation/#MAPA
 # Steam Datagram Relay
@@ -16230,14 +16277,19 @@ ff02::3 ip6-allhosts
 
 # Sniper Elite IV
 # s. Rubrik Kopierschutz / AntiCheat
-# Facebook Anbindung
-#0.0.0.0 discordapp.com
-#0.0.0.0 hello.myfonts.net
-0.0.0.0 include.reinvigorate.net
-0.0.0.0 js-agent.newrelic.com
-#0.0.0.0 platform.twitter.com
+0.0.0.0 region1.google-analytics.com # G-ESJFQWX28P
+#0.0.0.0 fonts.gstatic.com
+0.0.0.0 www.googletagmanager.com # G-ESJFQWX28P
+#0.0.0.0 static.zdassets.com
+0.0.0.0 rebeldev.zendesk.com
+0.0.0.0 support.rebellion.com # /hc/activity
+0.0.0.0 rebellion.com # UTM, Cookies
+#0.0.0.0 content.do.rebellion.com
 #0.0.0.0 www.rebellion.co.uk
-#0.0.0.0 nephelus-v1.rebellion.co.uk
+#0.0.0.0 goo.gl
+#0.0.0.0 avatars.steamstatic.com
+0.0.0.0 test.steampowered.com
+0.0.0.0 nephelus-v1.rebellion.co.uk
 0.0.0.0 launcher-content.rebellion.co.uk
 
 # Sniper Elite 5
@@ -20210,6 +20262,10 @@ ff02::3 ip6-allhosts
 
 # Wreckfest
 0.0.0.0 wreckfest.sp.backtrace.io
+
+# Those Awesome Guys LLC
+# Deepest Chamber: Resurrection
+#0.0.0.0 discordapp.com # Discord Telemetrie
 
 # tinyBuild, LLC
 # Cartel Tycoon
