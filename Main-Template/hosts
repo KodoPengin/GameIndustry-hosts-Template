@@ -10,7 +10,7 @@
 #
 # Version: hosts-Datei - Vollständig mit allen Einträgen (IoT, Spiele & Clients)
 # Version: hosts file - complete with all entries (IoT, Games & Clients)
-# Change/Datum: 01.12.2024
+# Change/Datum: 17.12.2024
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -2844,7 +2844,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 api.tgcstore.net
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 jnn-pa.googleapis.com
+#0.0.0.0 jnn-pa.googleapis.com
 0.0.0.0 google-analytics.com
 0.0.0.0 region1.google-analytics.com
 
@@ -25762,7 +25762,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 chart.googleapis.com
 0.0.0.0 clouderrorreporting.googleapis.com
 0.0.0.0 firestore.googleapis.com
-0.0.0.0 jnn-pa.googleapis.com
+#0.0.0.0 jnn-pa.googleapis.com
 0.0.0.0 recommendationengine.googleapis.com
 0.0.0.0 safebrowsing.googleapis.com
 0.0.0.0 webpermissionpredictions.googleapis.com
@@ -39964,7 +39964,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 i.ytimg.com
 #0.0.0.0 www.google.com
 #0.0.0.0 www.gstatic.com
-0.0.0.0 jnn-pa.googleapis.com
+#0.0.0.0 jnn-pa.googleapis.com
 #0.0.0.0 play.google.com
 0.0.0.0 polyfill.io
 0.0.0.0 cdn.cquotient.com
@@ -41484,16 +41484,6 @@ ff02::3 ip6-allhosts
 # Vitrum
 0.0.0.0 terror-project.no-ip.org
 
-# .ez Games
-# Riaaf the spider
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
 # Abbey Games
 # Godhood
 # Ip/s blockieren:
@@ -42614,12 +42604,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 tracking2.avalanchestudios.com
 
 # Generation Zero
-# Automatische Crashlogs / DXDiag | Crashrpt_lang.ini, CrashRpt1403.dll, CrashRptProbe1403.dll, CrashSender1403.exe im Installationsverzeichnis löschen
+# CrashRPT | Crashrpt_lang.ini, CrashRpt1403.dll, CrashRptProbe1403.dll, CrashSender1403.exe im Installationsverzeichnis löschen
 # 104.16.1.61
 # 104.16.2.61
-#0.0.0.0 genzero-social.avalanchestudios.com
-0.0.0.0 tracking2.avalanche.com
-0.0.0.0 crashreporter.avalanchestudios.com
+# 104.17.80.160
+# 104.16.239.209
+0.0.0.0 genzero-cdn.avalanchestudios.com # Images
+#0.0.0.0 genzero-social.avalanchestudios.com # Social
+0.0.0.0 oldtracking.avalanchestudios.com # Tracker 1
+0.0.0.0 tracking2.avalanchestudios.com # Tracker 2
 
 # Ravenbound DEMO
 # 104.16.1.61
@@ -45187,7 +45180,7 @@ ff02::3 ip6-allhosts
 # 172.217.16.138
 # 172.217.18.3
 0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 jnn-pa.googleapis.com
+#0.0.0.0 jnn-pa.googleapis.com
 #0.0.0.0 www.gstatic.com
 
 # Cold Beam Games
@@ -46086,28 +46079,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 kamos.kingart-games.com
 
 # Metro Exodus
-# Gilt nur zusammen mit den Einträgen des "Epic Games Launcher"
-# 52.1.153.55
-# 52.200.174.184
-# 172.28.195.1
-# 172.68.195.1
-# 54.80.105.1
-# 3.224.138.95
-# Wird zu Spielstart, Installation, Besitzanspruch benötigt
-#0.0.0.0 eulatracking-public-service-prod.ak.epicgames.com # kid, alg, app, sub, dvid, clid, exchange_code, iai, clsvc, iat, jti, exp u.a.
-#0.0.0.0 account-public-service-prod03.ol.epicgames.com
-#0.0.0.0 ecommerceintegration-public-service-ecomprod02.ol.epicgames.com
-# Abschaltbar
-0.0.0.0 egp-idsoc-proxy-prod.ol.epicgames.com
-0.0.0.0 egp-idsoc-proxy-prod-2006500474.us-east-1.elb.amazonaws.com
-0.0.0.0 ecomprod02.ol.epicgames.com
-0.0.0.0 ecommerce-int-prod-public-alb-1926882986.us-east-1.elb.amazonaws.com
-0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
-0.0.0.0 metrics.ol.epicgames.com
-# Ip/s blockieren:
 # 35.227.230.186
+# 23.207.210.157
+# 23.207.210.133
+0.0.0.0 ngx.download.nvidia.com
 0.0.0.0 telemetry.deeparc.net
-0.0.0.0 186.230.227.35.bc.googleusercontent.com
+
+# Metro Exodus Enhanced Edition
+# 35.227.230.186
+# 23.207.210.157
+# 23.207.210.133
+0.0.0.0 ngx.download.nvidia.com
+0.0.0.0 telemetry.deeparc.net
 
 # Pathfinder: Kingmaker
 # Ip/s blockieren:
@@ -47361,22 +47344,27 @@ ff02::3 ip6-allhosts
 
 # Event Horizon Ltd.
 # Tower of Time
-# Ip/s blockieren:
 # 34.111.113.40
 # 34.107.172.168
 # 35.190.78.8
+# 52.222.214.35
+# 52.222.214.69
+# 52.222.214.72
+# 52.222.214.71
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 api.trello.com
+0.0.0.0 trello-attachments.s3.amazonaws.com
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
-0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
-# 88.221.137.219
-0.0.0.0 api.trello.com # Bugtracker
-0.0.0.0 trello-attachments.s3.amazonaws.com # Datenablage
-0.0.0.0 galaxy-log.gog.com
+#0.0.0.0 server-52-222-214-35.fra56.r.cloudfront.net
+#0.0.0.0 server-52-222-214-69.fra56.r.cloudfront.net
+#0.0.0.0 server-52-222-214-72.fra56.r.cloudfront.net
+#0.0.0.0 server-52-222-214-71.fra56.r.cloudfront.net
 
 # Evil Tortilla Games
 # Who's your Daddy
@@ -47793,15 +47781,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
 # FOAM Entertainment
-# Riff Racer
+# Riff Racer - Race Your Music!
+# 13.35.58.111
+# 13.35.58.43
+# 13.35.58.116
+# 13.35.58.129
 0.0.0.0 parseapi.back4app.com # Erfassung Betriebssystem/Version, Sprache, Spieleplattform, SteamID, Versionsnummer, Ingamenews, Coin Reward
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+#0.0.0.0 server-13-35-58-111.fra60.r.cloudfront.net
+#0.0.0.0 server-13-35-58-43.fra60.r.cloudfront.net
+#0.0.0.0 server-13-35-58-116.fra60.r.cloudfront.net
+#0.0.0.0 server-13-35-58-129.fra60.r.cloudfront.net
 
 # Focus Entertainment
 # A Plague Tale: Innocence
@@ -48631,7 +48620,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.google-analytics.com # Tracker
 0.0.0.0 googleads.g.doubleclick.net # Ads
 0.0.0.0 static.doubleclick.net # Ads
-0.0.0.0 jnn-pa.googleapis.com # Consent Management
+#0.0.0.0 jnn-pa.googleapis.com # Consent Management
 #0.0.0.0 play.google.com # Logging
 #0.0.0.0 cdn-web-nj4.funcom.com
 #0.0.0.0 cdn.funcom.com # Grafiken
@@ -51005,7 +50994,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 encrypted-tbn3.gstatic.com
 #0.0.0.0 encrypted-tbn2.gstatic.com
 #0.0.0.0 encrypted-tbn0.gstatic.com
-0.0.0.0 jnn-pa.googleapis.com
+#0.0.0.0 jnn-pa.googleapis.com
 #0.0.0.0 www.gstatic.com
 #0.0.0.0 www.twitch.tv
 #0.0.0.0 static-cdn.jtvnw.net
@@ -54563,7 +54552,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 p25.zdassets.com
 #0.0.0.0 static.zdassets.com
 0.0.0.0 www.googletagmanager.com
-0.0.0.0 jnn-pa.googleapis.com
+#0.0.0.0 jnn-pa.googleapis.com
 0.0.0.0 stats.g.doubleclick.net
 #0.0.0.0 i.ytimg.com
 #0.0.0.0 youtube-ui.l.google.com
