@@ -10,7 +10,7 @@
 #
 # Version: hosts-Datei - Vollständig mit allen Einträgen (IoT, Spiele & Clients)
 # Version: hosts file - complete with all entries (IoT, Games & Clients)
-# Change/Datum: 17.12.2024
+# Change/Datum: 23.12.2024
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -18494,6 +18494,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 h-massageenvy.online-metrix.net
 0.0.0.0 h-mercari.online-metrix.net
 0.0.0.0 h-mgmresorts.online-metrix.net
+0.0.0.0 h-microsoft.online-metrix.net
 0.0.0.0 h-mmresorts.online-metrix.net
 0.0.0.0 h-momentumventures.online-metrix.net
 0.0.0.0 h-moneycorp.online-metrix.net
@@ -20564,6 +20565,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 o76184.ingest.sentry.io
 0.0.0.0 o8337.ingest.sentry.io
 0.0.0.0 o83571.ingest.sentry.io
+0.0.0.0 o987771.ingest.us.sentry.io
 0.0.0.0 o989828.ingest.sentry.io
 
 # Seoquake.com
@@ -22360,8 +22362,9 @@ ff02::3 ip6-allhosts
 # Microsoft Online Certificate Status Protocol
 # 104.18.24.243
 # 23.55.110.211
-#0.0.0.0 ocsp.msocsp.com
 #0.0.0.0 crl.microsoft.com
+#0.0.0.0 ocsp.msocsp.com
+#0.0.0.0 oneocsp.microsoft.com
 
 # サイバートラスト | Cybertrust
 #0.0.0.0 ssocsp.cybertrust.ne.jp
@@ -28615,10 +28618,9 @@ ff02::3 ip6-allhosts
 # 204.79.197.203
 # 204.79.197.219
 # 13.107.21.239
-#0.0.0.0 a-0003.a-msedge.net # api.msn.com
+#0.0.0.0 a-0003.a-msedge.net # api.msn.com, oneocsp.microsoft.com
 #0.0.0.0 a-0003.dc-msedge.net # api.msn.com
 #0.0.0.0 a-0016.a-msedge.net
-0.0.0.0 a-0003.a-msedge.net
 0.0.0.0 a-0016.dc-msedge.net
 0.0.0.0 a23-207-210-156.deploy.static.akamaitechnologies.com
 #0.0.0.0 dual-a-0036.a-msedge.net # egde.microsoft.com z.b. für Übersetzungen
@@ -29497,7 +29499,7 @@ ff02::3 ip6-allhosts
 # 204.79.197.203
 0.0.0.0 a1834.dspg2.akamai.net # Kaia Global Networks Ltd.
 0.0.0.0 a1093.g2.akamai.net
-#0.0.0.0 a-0003.a-msedge.net # api.msn.com, windows.msn.com
+#0.0.0.0 a-0003.a-msedge.net # api.msn.com, windows.msn.com, oneocsp.microsoft.com
 # Trackingcookies, Referaltracking, Alliliate Werbung & Analytics auf der MSN Startseite
 0.0.0.0 alchemist.go2cloud.org
 0.0.0.0 cdn.rates.consumertrack.com
@@ -30920,6 +30922,7 @@ ff02::3 ip6-allhosts
 # CLICK
 0.0.0.0 adswrapme.click
 0.0.0.0 anicli.click
+0.0.0.0 ariawn.click
 0.0.0.0 brfdkk45tf.click
 0.0.0.0 e346ab6c68.click
 0.0.0.0 live.ravelin.click
@@ -31032,6 +31035,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 green.erne.co
 0.0.0.0 grey.erne.co
 0.0.0.0 i.viafoura.co
+0.0.0.0 invol.co
 0.0.0.0 js.webpartners.co
 0.0.0.0 l.pm-serv.co
 0.0.0.0 marco.feathr.co
@@ -31475,6 +31479,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creatives.yieldpro.eu
 0.0.0.0 pb.media01.eu
 0.0.0.0 promo.worldofwarships.eu
+0.0.0.0 sentry.cdn77.eu
 0.0.0.0 site-azp.slgnt.eu
 0.0.0.0 siteeuwest.slgnt.eu
 0.0.0.0 upvid.eu
@@ -32193,6 +32198,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 find-topprizes-here.life
 0.0.0.0 mobile-soft-storage.life
 0.0.0.0 mobileapp-repo.life
+0.0.0.0 news-xxoboku.live
 0.0.0.0 rewardgains.life
 0.0.0.0 servicesforoffers.life
 0.0.0.0 take-bestprizes1.life
@@ -32397,6 +32403,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.daasrv.net
 0.0.0.0 analytics.headerbiddr.net
 0.0.0.0 analytics.idfnet.net
+0.0.0.0 analytics.techniknews.net
 0.0.0.0 analyticssystems.net
 0.0.0.0 api.bigdatacloud.net
 0.0.0.0 api.clym-sdk.net
@@ -33037,6 +33044,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downright-administration.pro
 0.0.0.0 enormitteen.pro
 0.0.0.0 fatebbc.pro
+0.0.0.0 fixed-complex.pro
 0.0.0.0 flustered-contest.pro
 0.0.0.0 g1.zendplace.pro
 0.0.0.0 gamebooster.pro
@@ -33045,6 +33053,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hegtiterbuttons.pro
 0.0.0.0 herreperolsof.pro
 0.0.0.0 hugregregy.pro
+0.0.0.0 illegalimprovement.pro
 0.0.0.0 imperturbableappearance.pro
 0.0.0.0 isafe.pro
 0.0.0.0 jmrnews.pro
@@ -33092,7 +33101,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 wasshoneaningar.pro
 0.0.0.0 whamukoji.pro
 0.0.0.0 wilwasharrabred.pro
+0.0.0.0 www.boringoccasion.pro
 0.0.0.0 www.classicguarantee.pro
+0.0.0.0 www.negative-speed.pro
 0.0.0.0 www.newcategory.pro
 0.0.0.0 www.productive-chemical.pro
 0.0.0.0 www.quintessential-telephone.pro
@@ -34802,6 +34813,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 appeaserepose.com
 0.0.0.0 apphero.co # IPerfassung/Callback
 0.0.0.0 applets.ebxcdn.com
+0.0.0.0 appointeeivyspongy.com
 0.0.0.0 apps.meg.com
 0.0.0.0 apricotstonephilly.com
 0.0.0.0 aps.hearstnp.com
@@ -35215,6 +35227,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.sb4you1.com
 0.0.0.0 cdn.seaofads.com
 0.0.0.0 cdn.sendpulse.com
+0.0.0.0 cdn.show-creative1.com
 0.0.0.0 cdn.smachnakittchen.com
 0.0.0.0 cdn.snigelweb.com
 0.0.0.0 cdn.sonaserve.com
@@ -36219,6 +36232,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hi.zeri3a.click
 0.0.0.0 hidelen.com
 0.0.0.0 highperformancedformats.com
+0.0.0.0 highrevenuenetwork.com
 0.0.0.0 hilltopgo.com
 0.0.0.0 hip-97166b.com
 0.0.0.0 hipersushiads.com
@@ -37072,6 +37086,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 partwithner.com
 0.0.0.0 passeseura.com
 0.0.0.0 passeseuro.com
+0.0.0.0 pattwyda.com
 0.0.0.0 paulflashlight.com
 0.0.0.0 pay4results24.eu
 0.0.0.0 payingnoodlescam.com
@@ -37350,6 +37365,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 questioningexperimental.com
 0.0.0.0 quick-speedtest.com
 0.0.0.0 qvdt3feo.com
+0.0.0.0 qzaoltruzfus.com
 0.0.0.0 r.254a.com
 0.0.0.0 r.flite.com
 0.0.0.0 r.geekestoot.com
@@ -37620,6 +37636,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 shopify-gtm-suite.getelevar.com
 0.0.0.0 shopusuallyvirtue.com
 0.0.0.0 shoveoccupiedinsult.com
+0.0.0.0 show.partners-show.com
 0.0.0.0 showawuphi.com
 0.0.0.0 showgardener.com
 0.0.0.0 si.salesengineonline.com
@@ -37738,6 +37755,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 st.static-srv.com
 0.0.0.0 st.tubecorporate.com
 0.0.0.0 st6-22.vk.com
+0.0.0.0 staffdisgustedducked.com
 0.0.0.0 staggeredravehospitality.com
 0.0.0.0 staggersuggestedupbrining.com
 0.0.0.0 staging-argus-fra1.snigelweb.com
@@ -37877,6 +37895,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 syndication.dynsrvtyu.com
 0.0.0.0 syndication.optimizesrv.com
 0.0.0.0 syndication.realsrv.com
+0.0.0.0 synonymdetected.com
 0.0.0.0 t-adbar.com
 0.0.0.0 t-adbar1.com
 0.0.0.0 t-de.mindtake.com
@@ -38154,6 +38173,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 travelze.com
 0.0.0.0 traxex.gannettdigital.com
 0.0.0.0 trblocked.com
+0.0.0.0 treasurergroundlessagenda.com
 0.0.0.0 trektinyreproduce.com
 0.0.0.0 tremblingkeyboardassistant.com
 0.0.0.0 trends.newsmaxwidget.com
@@ -38326,6 +38346,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 vengefulgrass.com
 0.0.0.0 venturead.com
 0.0.0.0 venusfritter.com
+0.0.0.0 verbwarilyclotted.com
 0.0.0.0 versedarkenedhusky.com
 0.0.0.0 vexacion.com
 0.0.0.0 vf.startpage.com
