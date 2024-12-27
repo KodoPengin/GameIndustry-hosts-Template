@@ -10,7 +10,7 @@
 #
 # Version: hosts-Datei - Vollständig mit allen Einträgen (IoT, Spiele & Clients)
 # Version: hosts file - complete with all entries (IoT, Games & Clients)
-# Change/Datum: 26.12.2024
+# Change/Datum: 27.12.2024
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -1714,10 +1714,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.foldersizes.com
 0.0.0.0 t3j2g9x7.stackpathcdn.com
 
-# KM-Player
-0.0.0.0 cdn.kmplayer.com
-0.0.0.0 log.kmplayer.com
-
 # KODI
 #0.0.0.0 mirrors.kodi.tv # Contentschnittstelle
 # Verschiedene Downloadmirror nach Bedarf benutzen
@@ -2074,6 +2070,24 @@ ff02::3 ip6-allhosts
 #0.0.0.0 dl5.oo-software.com # Updates
 0.0.0.0 go.oo-software.com
 
+# Pandora TV Co., Ltd.
+# KMPlayer
+0.0.0.0 cdn.kmplayer.com
+#0.0.0.0 img.kmplayer.com
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 pagead2.googlesyndication.com
+#0.0.0.0 www3.l.google.com
+#0.0.0.0 cdnjs.buymeacoffee.com
+#0.0.0.0 api.thesubdb.com
+#0.0.0.0 www.kmplayer.com
+#0.0.0.0 143.212.244.35.bc.googleusercontent.com
+0.0.0.0 fra24s05-in-f8.1e100.net
+0.0.0.0 fra24s06-in-f2.1e100.net
+0.0.0.0 fra24s06-in-f2.1e100.net
+0.0.0.0 fra24s01-in-f14.1e100.net
+#0.0.0.0 li688-213.members.linode.com
+
 # PassFAB
 0.0.0.0 www.passfab.com
 0.0.0.0 www.tenorshare.com
@@ -2355,6 +2369,8 @@ ff02::3 ip6-allhosts
 
 # Ryujinx
 # Ryujinx
+# Ryujinx hat die Entwicklung und Distribution im Oktober 2024 aufgrund eines Rechtsstreits mit Nintendo eingestellt
+# Ryujinx discontinued development and distribution in October 2024 due to a legal dispute with Nintendo
 # 185.199.108.133
 # 185.199.109.133
 # 185.199.110.133
@@ -2366,7 +2382,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 objects.githubusercontent.com
 #0.0.0.0 api.github.com
 #0.0.0.0 github.com
-#0.0.0.0 amiibo.ryujinx.org
+0.0.0.0 amiibo.ryujinx.org
+0.0.0.0 patreon.ryujinx.org
 #0.0.0.0 static.116.11.140.128.clients.your-server.de
 
 # VS Revo Group Ltd.
@@ -32619,6 +32636,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 az412617.vo.msecnd.net
 0.0.0.0 azure-perfops.azureedge.net
 0.0.0.0 b-hls-07.doppiocdn.net
+0.0.0.0 b-hls-22.doppiocdn.net
 0.0.0.0 b.ns1p.net
 0.0.0.0 b6b5p6y2.ssl.hwcdn.net
 0.0.0.0 b6u2w2z4.ssl.hwcdn.net
@@ -32763,9 +32781,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 goaciptu.net
 0.0.0.0 gpush.cogocast.net
 0.0.0.0 gredraus.net
+0.0.0.0 groajirtooh.net
 0.0.0.0 grunoaph.net
-0.0.0.0 gwiq.globalwebindex.net
 0.0.0.0 gwiq-v3.globalwebindex.net
+0.0.0.0 gwiq.globalwebindex.net
 0.0.0.0 gwiqcdn.globalwebindex.net
 0.0.0.0 gxgwgk.made4fcuck.net
 0.0.0.0 haihaime.net
@@ -33186,6 +33205,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 piwik.lwl.org
 0.0.0.0 piwik.terrashop.org
 0.0.0.0 prebid.org
+0.0.0.0 prodregistryv2.org
 0.0.0.0 pubcid.org
 0.0.0.0 reallyfreegeoip.org
 0.0.0.0 rldwideorgani.org
@@ -33493,6 +33513,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hgbn.space
 0.0.0.0 hireprecially.space
 0.0.0.0 holdhostel.space
+0.0.0.0 hoplekhornnist.space
 0.0.0.0 idat.production.ippen.space
 0.0.0.0 lewritishma.space
 0.0.0.0 marazzigcmod5.space
@@ -34962,6 +34983,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 anchovysuccession.com
 0.0.0.0 andtracer.com
 0.0.0.0 animegamesus.com
+0.0.0.0 animeplaynow.com
 0.0.0.0 anlcld.com
 0.0.0.0 annual-gamers-choice.com
 0.0.0.0 anqbzv.chosenlove.com
@@ -35716,6 +35738,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cs.krushmedia.com
 0.0.0.0 cs.mobfox.com
 0.0.0.0 cs.money
+0.0.0.0 cs.mytheresa.com
 0.0.0.0 cs.openwebmp.com
 0.0.0.0 cs.spotimmedia.com
 0.0.0.0 cs10.alli-ti-cod.com
@@ -35806,6 +35829,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 defencehungry.com
 0.0.0.0 defendantlucrative.com
 0.0.0.0 definedbootnervous.com
+0.0.0.0 degreewhether.com
 0.0.0.0 delicatecascade.com
 0.0.0.0 delivery.adrecover.com
 0.0.0.0 delivery.forkcdn.com
@@ -36179,6 +36203,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fl.imgsniper.com
 0.0.0.0 flamboyantmarketing.com
 0.0.0.0 fleraprt.com
+0.0.0.0 flint.defybrick.com
 0.0.0.0 floitcarites.com
 0.0.0.0 flow.lavasoft.com
 0.0.0.0 flx1163.lporirxe.com
@@ -36542,6 +36567,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ihzuephjxb.com
 0.0.0.0 ii.alatest.com
 0.0.0.0 ii.woolensulking.com
+0.0.0.0 iliketomakingpics.com
 0.0.0.0 ilo134ulih.com
 0.0.0.0 iloptrex.com
 0.0.0.0 ilovemakingpics.com
@@ -36664,6 +36690,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 jailabridge.com
 0.0.0.0 jashautchord.com
 0.0.0.0 jasonsvid.com
+0.0.0.0 jcdn.tsyndicate.com
 0.0.0.0 jerkarmlesspuppy.com
 0.0.0.0 jerkmate.com
 0.0.0.0 jf71qh5v14.com
@@ -37705,6 +37732,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rndsystems.com
 0.0.0.0 roastoup.com
 0.0.0.0 robovoiz.com
+0.0.0.0 rock.defybrick.com
 0.0.0.0 rollercoin.com
 0.0.0.0 romeoforum.com
 0.0.0.0 roolgage.com
@@ -48008,6 +48036,7 @@ ff02::3 ip6-allhosts
 # 34.111.113.40
 # 34.107.172.168
 # 35.190.78.8
+0.0.0.0 flamebaitgames.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
@@ -48016,7 +48045,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
-0.0.0.0 flamebaitgames.com # Werbung/Zufallsbilder
 # Mit Klick auf deren Webseite | inkl. Youtube, Facebook & Twitter
 0.0.0.0 static.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
@@ -48724,16 +48752,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 img.sedoparking.com
 0.0.0.0 forever-entertainment.com
 
-# Teddy Floppy Ear: Kayaking & Teddy Floppy Ear: Mountain Adventure
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 games.forever-entertainment.com
-0.0.0.0 teddyfloppyear.forever-entertainment.com
+# Teddy Floppy Ear: Kayaking
+# 34.111.113.40
+# 34.107.172.168
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.
+0.0.0.0 40.113.111.34.bc.googleusercontent.com
+0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
 # THE HOUSE OF THE DEAD: Remake
 # Steam Datagram Relay
@@ -49612,12 +49639,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
-# Grey Box, Six Foot
-# Rime
-# Ip/s blockieren:
-# 34.237.44.165
+# Grey Box and Six Foot
+# RiME
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 ipv6check-udp.steamserver.net
+0.0.0.0 test.steampowered.com
+0.0.0.0 eu.http.ipv6check.akadns.net
+0.0.0.0 eu.udp.ipv6check.akadns.net
+0.0.0.0 http.ipv6check.akadns.net
+0.0.0.0 udp.ipv6check.akadns.net
+0.0.0.0 a23-216-77-18.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-216-77-30.deploy.static.akamaitechnologies.com
+0.0.0.0 249.195.120.34.bc.googleusercontent.com
 
 # Grimm Bros, LLC
 # Dragon Fin Soup
