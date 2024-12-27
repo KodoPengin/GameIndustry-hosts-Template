@@ -10,7 +10,7 @@
 #
 # Version: Android-Mini-Template - Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
 # Version: Android-Mini-Template - Blocks android specific ads, trackers, affiliates, banners and unnecessary connections
-# Change/Datum: 01.12.2024
+# Change/Datum: 27.12.2024
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -288,7 +288,12 @@
 0.0.0.0 balanced-engage.deltadna.net
 0.0.0.0 engage17070dvntr.deltadna.net
 0.0.0.0 engage16512wdncq.deltadna.net
-0.0.0.0 collect17070dvntr.deltadna.net
+0.0.0.0 collect17070dvntr.deltadna.
+
+# Emarsys
+0.0.0.0 me-client.eservice.emarsys.net
+0.0.0.0 mobile-events.eservice.emarsys.net
+0.0.0.0 mobile-sdk-config.gservice.emarsys.net
 
 # Exitgames GmbH | Photon Engine
 #0.0.0.0 ns.exitgames.com # MP
@@ -369,6 +374,7 @@
 0.0.0.0 deviceintegritytokens-pa.googleapis.com
 0.0.0.0 digitalassetlinks.googleapis.com
 0.0.0.0 footprints-pa.googleapis.com
+0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 geller-pa.googleapis.com
 0.0.0.0 gmscompliance-pa.googleapis.com
 0.0.0.0 growth-pa.googleapis.com
@@ -481,8 +487,11 @@
 0.0.0.0 mobile-gtalk.l.google.com
 0.0.0.0 sb.l.google.com
 0.0.0.0 supl.google.com
+# Google MITM
+0.0.0.0 android-safebrowsing.google.com
 # Google Video Transcoding
-#0.0.0.0 redirector.gvt1.com
+# See https://github.com/KodoPengin/GameIndustry-hosts-Template/wiki/Blocked-entries#blocked-redirectorgvt1com
+0.0.0.0 redirector.gvt1.com # Blocked, because of ads
 0.0.0.0 beacons.gvt2.com
 0.0.0.0 beacons3.gvt2.com
 0.0.0.0 beacons4.gvt2.com
@@ -726,6 +735,10 @@
 
 # Otherlevels
 0.0.0.0 config.otherlevels.com
+
+# Pangle
+0.0.0.0 api16-access-sg.pangle.io
+0.0.0.0 ssdk-sg.pangle.io
 
 # Pixelfederation
 0.0.0.0 applogs.pixelfederation.com
@@ -1013,10 +1026,13 @@
 
 # Xiaomi
 0.0.0.0 api.ad.intl.xiaomi.com
+0.0.0.0 de.api.io.mi.com
 0.0.0.0 fr.resolver.msg.global.xiaomi.net
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 sdkconfig.eu.xiaomi.com
 0.0.0.0 t7.a.market.xiaomi.com
+0.0.0.0 ts.market.mi-img.com
+0.0.0.0 us.galleryapi.micloud.xiaomi.net
 
 # Yahoo
 # 87.248.100.136
@@ -1054,6 +1070,7 @@
 0.0.0.0 assets-share.dspunion.com
 0.0.0.0 aviaotpusk.ru # Highscorelisten
 0.0.0.0 aws-fr.bidswitch.net
+0.0.0.0 c.go-mpulse.net
 0.0.0.0 c.riskified.com
 0.0.0.0 cix.line.apps.com
 0.0.0.0 collector-pxikkul2rm.perimeterx.net
@@ -1091,6 +1108,7 @@
 0.0.0.0 r.my.com
 0.0.0.0 rm.aarki.net
 0.0.0.0 s.go-mpulse.net
+0.0.0.0 s2.go-mpulse.net
 0.0.0.0 screenzilla.helpshift.com
 0.0.0.0 sdk-api.hqmonitor.io
 0.0.0.0 secure.fastclick.net
@@ -1105,8 +1123,9 @@
 0.0.0.0 track.atom-data.io
 0.0.0.0 track.libii.cn
 0.0.0.0 track.oasis.magictavern.com
-0.0.0.0 tracking.intl.miui.com
 0.0.0.0 tracker-api.my.com
+0.0.0.0 tracking.intl.miui.com
+0.0.0.0 trck.netto-online.de
 0.0.0.0 vector-eu-west-1.aonix.com
 0.0.0.0 weighted-autoendpoint.prod.mozaws.net
 0.0.0.0 wins.isprog.com
