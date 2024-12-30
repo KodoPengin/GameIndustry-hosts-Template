@@ -288,7 +288,7 @@
 0.0.0.0 balanced-engage.deltadna.net
 0.0.0.0 engage17070dvntr.deltadna.net
 0.0.0.0 engage16512wdncq.deltadna.net
-0.0.0.0 collect17070dvntr.deltadna.
+0.0.0.0 collect17070dvntr.deltadna.net
 
 # Emarsys
 0.0.0.0 me-client.eservice.emarsys.net
@@ -813,7 +813,7 @@
 0.0.0.0 ws.tapjoyads.com
 0.0.0.0 bid.tapjoy.com
 0.0.0.0 rpc-tapjoy-com-lb-1378811527.us-east-1.elb.amazonaws.com
-0.0.0.0 tapjoy-com-lb-vpc-332546193.us-east-1.elb.amazonaws
+0.0.0.0 tapjoy-com-lb-vpc-332546193.us-east-1.elb.amazonaws.com
 
 # Taptica.com
 0.0.0.0 clk.taptica.com
