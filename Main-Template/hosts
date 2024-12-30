@@ -10,7 +10,7 @@
 #
 # Version: hosts-Datei - Vollständig mit allen Einträgen (IoT, Spiele & Clients)
 # Version: hosts file - complete with all entries (IoT, Games & Clients)
-# Change/Datum: 29.12.2024
+# Change/Datum: 30.12.2024
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -3522,6 +3522,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 imagesrv.adition.com
 0.0.0.0 match.adfarm1.adition.com
 0.0.0.0 vt.adition.com
+
+# Aditude
+0.0.0.0 edge.aditude.io
+0.0.0.0 event-ingestor.judy.pnap.aditude.cloud
+0.0.0.0 geo.aditude.io
+0.0.0.0 raven-edge.aditude.io
+0.0.0.0 raven-static.aditude.io
 
 # Adk2x.com
 0.0.0.0 adplexmedia.adk2x.com
@@ -11897,6 +11904,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 sv1srp0nnmbb.l4.adsco.re
 0.0.0.0 sv1srp0nnmbb.n4.adsco.re
 0.0.0.0 sv1srp0nnmbb.s4.adsco.re
+0.0.0.0 svfpheejltc3.l4.adsco.re
+0.0.0.0 svfpheejltc3.n4.adsco.re
+0.0.0.0 svfpheejltc3.s4.adsco.re
 0.0.0.0 svhm6bcb0h25.l4.adsco.re
 0.0.0.0 svhm6bcb0h25.n4.adsco.re
 0.0.0.0 svhm6bcb0h25.s4.adsco.re
@@ -14548,6 +14558,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 zzpvpetcdegn.l4.adsco.re
 0.0.0.0 zzpvpetcdegn.n4.adsco.re
 0.0.0.0 zzpvpetcdegn.s4.adsco.re
+# Endpoints
+0.0.0.0 vlan804.bb2.lon7.uk.m247.ro
+0.0.0.0 irb-0.agg3.nyc1.us.m247.com
+0.0.0.0 no-mans-land.m247.com
 
 # Adserver.cc
 0.0.0.0 outdoor-broker.adserver.cc
@@ -17810,7 +17824,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 adservex.media.net
 0.0.0.0 c21lg-d.media.net
 0.0.0.0 cdn-gase1-xch.media.net
+0.0.0.0 cdn-geuw1-xch.media.net
 0.0.0.0 cdn-guse1-xch.media.net
+0.0.0.0 cdn-gusw1-xch.media.net
 0.0.0.0 contextual.media.net
 0.0.0.0 cs.media.net
 0.0.0.0 cslogger.media.net
@@ -19200,6 +19216,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pu.plugrush.com
 
 # PopADS
+0.0.0.0 522967484.zag.cdn77.com
 0.0.0.0 c1.popads.net
 0.0.0.0 c2.popads.net
 0.0.0.0 serve.popads.net
@@ -20974,9 +20991,11 @@ ff02::3 ip6-allhosts
 # Snigelweb.com
 0.0.0.0 adengine.snigelweb.com
 0.0.0.0 adserv-fra1.snigelweb.com
+0.0.0.0 adserv-nyc1.snigelweb.com
 0.0.0.0 adserv-sgp1.snigelweb.com
 0.0.0.0 adserv.snigelweb.com
 0.0.0.0 adserv-sfo3.snigelweb.com
+0.0.0.0 argus-fra1.snigelweb.com
 0.0.0.0 cdn.snigelweb.com
 0.0.0.0 cdnx.snigelweb.com
 0.0.0.0 geo-eu.snigelweb.com
@@ -22437,6 +22456,7 @@ ff02::3 ip6-allhosts
 # 23.197.15.187
 # 2.16.29.238
 # 2.17.45.211
+# 92.123.52.251
 #0.0.0.0 aia.entrust.net
 #0.0.0.0 e6913.dscx.akamaiedge.net
 #0.0.0.0 ocsp.entrust.net
@@ -22476,6 +22496,7 @@ ff02::3 ip6-allhosts
 # 216.58.208.99
 # 216.58.208.35
 # 216.58.212.163
+# 142.251.39.99
 #0.0.0.0 crl.pki.goog
 #0.0.0.0 o.pki.goog
 #0.0.0.0 ocsp.pki.goog
@@ -22509,6 +22530,7 @@ ff02::3 ip6-allhosts
 # 23.45.105.185
 # 92.123.13.139
 # 184.51.233.240
+# 92.123.53.54
 #0.0.0.0 ocsp.int-x3.letsencrypt.org
 #0.0.0.0 x1.c.lencr.org
 #0.0.0.0 x2.c.lencr.org
@@ -22536,11 +22558,20 @@ ff02::3 ip6-allhosts
 #0.0.0.0 scrootca1.ocsp.secomtrust.net
 #0.0.0.0 scrootca2.ocsp.secomtrust.net
 
-# Sectigo / ehemals Comodoca CA
+# Sectigo / ehemals Comodo CA
 # 151.139.128.14
 #0.0.0.0 ocsp.sectigo.com
 #0.0.0.0 crl.sectigo.com
 #0.0.0.0 zerossl.ocsp.sectigo.com
+
+# SSL Corp
+# 13.226.120.99
+# 13.226.120.26
+# 13.226.120.76
+# 13.226.120.91
+#0.0.0.0 cert.ssl.com
+#0.0.0.0 crls.ssl.com
+#0.0.0.0 ocsps.ssl.com
 
 # Starfield Technologies
 # 52.222.137.79
@@ -27235,6 +27266,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d2sbzwmcg5amr3.cloudfront.net
 0.0.0.0 d2sffavqvyl9dp.cloudfront.net
 0.0.0.0 d2sp5g360gsxjh.cloudfront.net
+0.0.0.0 d2tbszkvx1p56e.cloudfront.net
 0.0.0.0 d2tc1zttji8e3a.cloudfront.net
 0.0.0.0 d2ty8gaf6rmowa.cloudfront.net
 0.0.0.0 d2uap9jskdzp2.cloudfront.net
@@ -27346,6 +27378,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dmg0877nfcvqj.cloudfront.net
 0.0.0.0 dmmzfkd82wayn.cloudfront.net
 0.0.0.0 dmmzkfd82wayn.cloudfront.net
+0.0.0.0 dn0qt3r0xannq.cloudfront.net
 0.0.0.0 dnhfi5nn2dt67.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 dph3kccpbigca.cloudfront.net
@@ -27368,6 +27401,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dx6ctphzljkf1.cloudfront.net # Prebid Golem.de, Zeit.de
 0.0.0.0 dyfw24whmn0ln.cloudfront.net
 0.0.0.0 dyrfxuvraq0fk.cloudfront.net
+0.0.0.0 dyv1bugovvq1g.cloudfront.net
 0.0.0.0 dzlgdtxcws9pb.cloudfront.net # www.firefox.com
 0.0.0.0 s1yx966tga68s8.cloudfront.net # Adform.net
 0.0.0.0 sd1e9rtdi67kart.cloudfront.net
@@ -28290,7 +28324,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 omreppzsvpb.mshome.net
 0.0.0.0 opsjheoy.mshome.net
 0.0.0.0 ovgefobgpidxk.mshome.net
-0.0.0.0 padpmnrtupt.mshome.
+0.0.0.0 padpmnrtupt.mshome.net
 0.0.0.0 patvfegh.mshome.net
 0.0.0.0 pbjqqkhkjljpg.mshome.net
 0.0.0.0 pggdqwsmekbvxl.mshome.net
@@ -31169,6 +31203,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 assets.nexx.cloud
 0.0.0.0 curation-welt-static.curation.deepthought.cloud
 0.0.0.0 eventd-eu.avct.cloud
+0.0.0.0 geo-location.prebid.cloud
 0.0.0.0 gopopivu.cloud
 0.0.0.0 ignite.ecg-liberty.cloud # Experiment Tags Ebay
 0.0.0.0 kazeonline.matomo.cloud
@@ -32876,12 +32911,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 knowledgetags.yextpages.net
 0.0.0.0 lab.blackpics.net # Verweist auf stats.hprofits.com
 0.0.0.0 lab.immue.net
+0.0.0.0 lal.p7cloud.net
 0.0.0.0 lenovo.7eer.net
 0.0.0.0 lidsaich.net
 0.0.0.0 lightinthebox.tv2h87.net
 0.0.0.0 liqwid.net
 0.0.0.0 live.soapps.net
 0.0.0.0 loazuptaice.net
+0.0.0.0 location.p7cloud.net
 0.0.0.0 log.bigroundass.net
 0.0.0.0 logws1330.ati-host.net
 0.0.0.0 louchees.net
@@ -33013,6 +33050,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 shaursar.net
 0.0.0.0 sid.storygize.net
 0.0.0.0 silo48.p7cloud.net
+0.0.0.0 silo52.p7cloud.net
 0.0.0.0 siloh-aka.plutotv.net
 0.0.0.0 siloh-fs.plutotv.net
 0.0.0.0 snacks.faz.net
@@ -33077,6 +33115,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 u3y8v8u3.ackcdn.net
 0.0.0.0 u3y8v8u4.aucdn.net
 0.0.0.0 u6q3y7w9.ssl.hwcdn.net
+0.0.0.0 ua.p7cloud.net
 0.0.0.0 ub.finanzfrage.net # Tracker
 0.0.0.0 ubaherdourou.net
 0.0.0.0 ugroocuw.net
@@ -33276,6 +33315,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sfdpn.dwhitdoedsrag.org
 0.0.0.0 sharedid.org
 0.0.0.0 st.tubecup.org
+0.0.0.0 stat.jpddl.org
 0.0.0.0 static2.creative-serving.org
 0.0.0.0 stquality.org
 0.0.0.0 sw.wpush.org
@@ -33377,6 +33417,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 surfe.pro
 0.0.0.0 thearcitonseveng.pro
 0.0.0.0 trackingflow.pro
+0.0.0.0 trusting-secret.pro
 0.0.0.0 ulisses.pro
 0.0.0.0 validworking.pro
 0.0.0.0 vanderlisten.pro
@@ -35218,6 +35259,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 b.shoksips.com
 0.0.0.0 b.totalbeststories.com
 0.0.0.0 b.totaltopwords.com
+0.0.0.0 b.trueanthem.com
 0.0.0.0 b.tubecorp.com
 0.0.0.0 b.videoamp.com
 0.0.0.0 b13481647cf775c5.com
@@ -36484,6 +36526,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 greedhail.com
 0.0.0.0 greenmentioned.com
 0.0.0.0 grewquartersupporting.com
+0.0.0.0 grincircus.com
 0.0.0.0 grooksom.com
 0.0.0.0 groomaffections.com
 0.0.0.0 grotesquemoviemankind.com
@@ -37585,6 +37628,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pottercosign.com
 0.0.0.0 poutdecimal.com
 0.0.0.0 powerfulfbi.ninja
+0.0.0.0 ppid.dexerto.com
 0.0.0.0 pqqep.hornymilfalone.com
 0.0.0.0 practicallyfire.com
 0.0.0.0 praiseddisintegrate.com
@@ -38169,6 +38213,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.showheroes.com
 0.0.0.0 static.site24x7rum.com # Swisscom
 0.0.0.0 static.stray228.com
+0.0.0.0 static.trueanthem.com
 0.0.0.0 static.virgul.com
 0.0.0.0 static.wasp-182b.com
 0.0.0.0 static.waudeesestew.com
@@ -48858,7 +48903,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
-0.0.0.0 api.uca.cloud.unity3d.
+0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
