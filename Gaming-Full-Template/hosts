@@ -10,7 +10,7 @@
 #
 # Version: Template für Spieleclients und Spiele
 # Version: Template for game clients and games
-# Change/Datum: 17.12.2024
+# Change/Datum: 30.12.2024
 #
 # Weitere und aktuelle Spiele sind auf der Website zu finden.
 # More and current games can be found on the website.
@@ -8557,6 +8557,7 @@ ff02::3 ip6-allhosts
 # 34.111.113.40
 # 34.107.172.168
 # 35.190.78.8
+0.0.0.0 flamebaitgames.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
@@ -8565,7 +8566,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
-0.0.0.0 flamebaitgames.com # Werbung/Zufallsbilder
 # Mit Klick auf deren Webseite | inkl. Youtube, Facebook & Twitter
 0.0.0.0 static.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
@@ -9273,16 +9273,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 img.sedoparking.com
 0.0.0.0 forever-entertainment.com
 
-# Teddy Floppy Ear: Kayaking & Teddy Floppy Ear: Mountain Adventure
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 games.forever-entertainment.com
-0.0.0.0 teddyfloppyear.forever-entertainment.com
+# Teddy Floppy Ear: Kayaking
+# 34.111.113.40
+# 34.107.172.168
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 40.113.111.34.bc.googleusercontent.com
+0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
 # THE HOUSE OF THE DEAD: Remake
 # Steam Datagram Relay
@@ -10161,12 +10160,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
-# Grey Box, Six Foot
-# Rime
-# Ip/s blockieren:
-# 34.237.44.165
+# Grey Box and Six Foot
+# RiME
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 ipv6check-udp.steamserver.net
+0.0.0.0 test.steampowered.com
+0.0.0.0 eu.http.ipv6check.akadns.net
+0.0.0.0 eu.udp.ipv6check.akadns.net
+0.0.0.0 http.ipv6check.akadns.net
+0.0.0.0 udp.ipv6check.akadns.net
+0.0.0.0 a23-216-77-18.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-216-77-30.deploy.static.akamaitechnologies.com
+0.0.0.0 249.195.120.34.bc.googleusercontent.com
 
 # Grimm Bros, LLC
 # Dragon Fin Soup
