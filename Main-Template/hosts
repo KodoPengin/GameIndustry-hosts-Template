@@ -10,7 +10,7 @@
 #
 # Version: hosts-Datei - Vollständig mit allen Einträgen (IoT, Spiele & Clients)
 # Version: hosts file - complete with all entries (IoT, Games & Clients)
-# Change/Datum: 31.12.2024
+# Change/Datum: 02.01.2025
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -21299,7 +21299,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.econda-monitor.de # Trackingpixel auf Strato
 
 # Stripe.com
-#0.0.0.0 js.stripe.com # Analytics
+#0.0.0.0 js.stripe.com # Analytics, Fingerprint
 0.0.0.0 q.stripe.com # Trackingpixel
 0.0.0.0 m.stripe.network # Adblock Detection
 0.0.0.0 m.stripe.com # MUID, GUID, SID
@@ -25689,6 +25689,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 1l-view.mail.ru
 0.0.0.0 676528u53u82k.tke-tambov.ru
 0.0.0.0 acales.ru
+0.0.0.0 acint.net
 0.0.0.0 ad.mail.ru
 0.0.0.0 advmanager.techfun.pl
 0.0.0.0 adx.pladform.ru
@@ -25703,6 +25704,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 c-prolink2.mf.cz
 0.0.0.0 campsplus.ru
 0.0.0.0 catsnetwork.ru
+0.0.0.0 cdn.adfinity.pro
 0.0.0.0 cdn.afp.ai
 0.0.0.0 cdn.directadvert.ru
 0.0.0.0 cdn.videonow.ru
@@ -25929,6 +25931,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.upravel.com
 0.0.0.0 sync.upravel.com
 0.0.0.0 video.upravel.com
+
+# VK.com
+0.0.0.0 632221.ms.vk.com
+0.0.0.0 652221.ms.vk.com
+0.0.0.0 ads.vk.com
+0.0.0.0 akashi.vk-portal.net
+0.0.0.0 stacks.vk-portal.net
+0.0.0.0 st6-22.vk.com
 
 # Yadro
 0.0.0.0 counter.yadro.ru
@@ -26970,6 +26980,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.assoc-amazon.de
 # 13.33.132.216
 # Amazon Adsystem
+0.0.0.0 aan.amazon.co.jp
+0.0.0.0 atv-ps-fe.amazon.co.jp
 0.0.0.0 aan.amazon.de # Impressionen
 0.0.0.0 aax-dtb-cf.amazon-adsystem.com
 0.0.0.0 aax-eu-retail-direct.amazon-adsystem.com
@@ -27033,6 +27045,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 33xchange-1576862511.us-east-1.elb.amazonaws.com
 0.0.0.0 3tt0xhv5u7.execute-api.us-east-1.amazonaws.com
 0.0.0.0 7waf-649347558.us-east-1.elb.amazonaws.com
+0.0.0.0 982b762063fc2544cee0e2dcd38ecc8013de47c88bca28ae25044c4da969ba8.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 9dbd256a-default-ih-dd4d-36901406.eu-central-1.elb.amazonaws.com
 0.0.0.0 9dbd256a-default-trx-2d0e-496170222.eu-central-1.elb.amazonaws.com
 0.0.0.0 9e2xkh9f1e.execute-api.ap-northeast-1.amazonaws.com
@@ -27104,10 +27117,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 elb01-2039628332.us-west-2.elb.amazonaws.com
 0.0.0.0 esev2.s3.amazonaws.com
 0.0.0.0 ets-prd2-uw1-coll-elb-2013165758.us-west-2.elb.amazonaws.com # Adobe
+0.0.0.0 fb788ee3e13c37e386c4fc5c50068dbd4f2d37ac192335d0d1dfd07cb52635b.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 fc-euc1-00-pics-bkt-00.s3.amazonaws.com
 0.0.0.0 fc-euc1-00-pics-bkt-00.s3.eu-central-1.amazonaws.com
 0.0.0.0 firehose.us-west-2.amazonaws.com
 0.0.0.0 firewall-external-2134955858.eu-west-1.elb.amazonaws.com
+0.0.0.0 global.telemetry.insights.video.a2z.com
 0.0.0.0 gtrk.s3.amazonaws.com
 0.0.0.0 hjszhb9uk3.execute-api.eu-west-1.amazonaws.com
 0.0.0.0 infra-events-pipelineproduction-1520650058.useast-1.elb.amazonaws.com
@@ -27187,14 +27202,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 ywgysqpm3f.execute-api.us-east-1.amazonaws.com
 0.0.0.0 zeta-ssp-385516103.us-east-1.elb.amazonaws.com
 0.0.0.0 zvszrckxik.execute-api.eu-central-1.amazonaws.com
-# Amazon-Adsystem und Drittanbietertracking und Metrics
+# Amazon-Adsystem, Drittanbietertracking und Metrics
 # 52.94.222.127
 0.0.0.0 ams-ads-cornerstone-creatives.s3.amazonaws.com
 0.0.0.0 ams-ads-cornerstone-creatives-eu.s3.amazonaws.com
 0.0.0.0 ams-ads-cornerstone-pda-creatives-eu.s3.amazonaws.com
 0.0.0.0 ams-ads-cornerstone-pda-creatives-fe.s3.amazonaws.com
 0.0.0.0 aax-eu-retail-direct.amazon-adsystem.com
-# Sponsored Product Event Tracking
+# Sponsored Product Event Tracking & Service Metrics
 # 52.94.223.32
 0.0.0.0 unagi-eu.amazon.com
 0.0.0.0 unagi-fe.amazon.com
@@ -27210,6 +27225,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a265fc0c8c626759d130aff5f4a082c8e.profile.phl50.cloudfront.net
 0.0.0.0 a2bd8c814f3ee979227ce562342ae1ddd.profile.syd62-p2.cloudfront.net
 0.0.0.0 a3495b80f0cfcca791f408c5a4841e1e6.profile.vpop1.cloudfront.net
+0.0.0.0 a3e25b3c2a3b0d7e30f8f7ecc7f8bdf39.profile.kul51-p1.cloudfront.net
 0.0.0.0 a3fce50b0e5cfc79568cfbc6149145dd2.profile.fra56-c2.cloudfront.net
 0.0.0.0 a4b26c2621b0f117befbb032173f509a4.profile.hyd50-c1.cloudfront.net
 0.0.0.0 a4c0a0d6cd3e2465be5f99871d2d62258.profile.tpe52-c1.cloudfront.net
@@ -27222,11 +27238,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 a7a04ff9eca35d2ba0a3a863b0e0fa924.profile.icn50.cloudfront.net
 0.0.0.0 a7a49ac39cda3c33bfbd74eb7ed19a396.profile.kul50.cloudfront.net
 0.0.0.0 a8090ff55a607aa5ebac401823d28574f.profile.ewr52-c4.cloudfront.net
+0.0.0.0 a84d9c2fc85b169aa3a412816f713b74b.profile.kix50-p2.cloudfront.net
 0.0.0.0 a85680581f84039ad850835e6a06514c9.profile.sin2-p2.cloudfront.net
 0.0.0.0 a892faacf49cfa1031d51f98f05f9c5e7.profile.icn55-c1.cloudfront.net
 0.0.0.0 a93a005a53a47bedd93469537563f7700.profile.atl-m.cloudfront.net
+0.0.0.0 a9ac7553cf1a6620263e723e579e61400.profile.atl56-c1.cloudfront.net
+0.0.0.0 a9da2bfc3d79980c53300fd900ee3795f.profile.atl56-c1.cloudfront.net
 0.0.0.0 ab238a5d5992d086fe5f1a4a782b11a69.profile.lax50-c1.cloudfront.net
 0.0.0.0 ab253c68fab9dd4e26553beb8d9d4dbcb.profile.nrt12-c1.cloudfront.net
+0.0.0.0 ab5f0383f9b778297b84e5294e8affaba.profile.mia3-p8.cloudfront.net
 0.0.0.0 ab725fc205b1310af3b907f8fdaa129d3.profile.ord52-c1.cloudfront.net
 0.0.0.0 ab8dc511023d9ebf4c850dcd0c69e01a0.profile.ord51-c4.cloudfront.net
 0.0.0.0 ac0c2a27568a9659a36bb956f9ce55cbb.profile.syd1-c1.cloudfront.net
@@ -31051,6 +31071,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 targeting.vdo.ai
 0.0.0.0 track.vdo.ai
 0.0.0.0 vetted.ai
+0.0.0.0 xeno.media-lab.ai
 # APP
 0.0.0.0 actions-api-pro-esvehatdmq-ew.a.run.app
 0.0.0.0 bt-log.dfast.app
@@ -33200,7 +33221,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 srv4j.net
 0.0.0.0 ssl2.perquisite.net
 0.0.0.0 ssr.streamrail.net
-0.0.0.0 stacks.vk-portal.net
 0.0.0.0 stadtbremerhaven.digidip.net
 0.0.0.0 static.digidip.net
 0.0.0.0 static.newsinform.net
@@ -34919,7 +34939,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 8proof.com
 0.0.0.0 8pulse.com
 0.0.0.0 97ad8a430e.3841f4b0c4.com
-0.0.0.0 982b762063fc2544cee0e2dcd38ecc8013de47c88bca28ae25044c4da969ba8.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 9b5396665f.ca3223d702.com
 0.0.0.0 9dfa4e4005.2279691fe2.com
 0.0.0.0 9fbd2fab-8f74-42d4-bd13-5bcb3c2a4bd9.snippet.antillephone.com
@@ -35374,6 +35393,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 audigent.com
 0.0.0.0 aukalerim.com
 0.0.0.0 auth.netdnstrace1.com
+0.0.0.0 auto17insurance.blogspot.com
 0.0.0.0 autocomplete.geocoder.ls.hereapi.com
 0.0.0.0 automate-frontend.linksynergy.com
 0.0.0.0 automationeventually.com
@@ -35620,6 +35640,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 carsstar.co
 0.0.0.0 casedrop.com
 0.0.0.0 cassettepreceding.com
+0.0.0.0 cat2.hbwrapper.com
 0.0.0.0 catsunrunjam.com
 0.0.0.0 cavbildi.com
 0.0.0.0 cawbarthe.com
@@ -36579,6 +36600,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 genieedmp.com
 0.0.0.0 genistawabbler.com
 0.0.0.0 geniusonclick.com
+0.0.0.0 geo.ads.audio.thisisdax.com
 0.0.0.0 geoapi.indiatimes.com
 0.0.0.0 geocoding.internetbrands.com
 0.0.0.0 geogenyveered.com
@@ -36765,6 +36787,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hexagon-analytics.com
 0.0.0.0 heycryptic.com
 0.0.0.0 hfllrf6lwh.com
+0.0.0.0 hfnuqljjnt.com
 0.0.0.0 hfziq.voluumtrk.com
 0.0.0.0 hg-bn.com
 0.0.0.0 hgbn1.com
@@ -37551,6 +37574,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 optimise.net
 0.0.0.0 optimise2.assets-servd.host
 0.0.0.0 optyruntchan.com
+0.0.0.0 oqbaxgolrabl.com
 0.0.0.0 oqs.omeda.com
 0.0.0.0 orderana5289.spankbang.com
 0.0.0.0 oreflushvehemence.com
@@ -37871,6 +37895,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 publishers.clickadilla.com
 0.0.0.0 pubmatic.bbvms.com
 0.0.0.0 pubtrky.com
+0.0.0.0 puhyjyf.com
 0.0.0.0 pulpsbarndomed.com
 0.0.0.0 pumpkinneighbourpoet.com
 0.0.0.0 punctuationbelow.com
@@ -37977,6 +38002,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 repayrotten.com
 0.0.0.0 repeatresolve.com
 0.0.0.0 replaceexplanationevasion.com
+0.0.0.0 report-uri.highwebmedia.com
+0.0.0.0 report-uri.mmcdn.com
 0.0.0.0 report2.hb.brainlyads.com
 0.0.0.0 reportsnail.com
 0.0.0.0 reposemarshknot.com
@@ -38311,6 +38338,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ssl2anyone3.com
 0.0.0.0 ssp-nj.webtradehub.com
 0.0.0.0 ssp-nj1.webtradehub.com
+0.0.0.0 ssp.al-adtech.com
 0.0.0.0 ssp.api.tappx.com
 0.0.0.0 ssp.bidvol.com
 0.0.0.0 ssp.imedia.cz
@@ -38324,7 +38352,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 st.fullcircleinsights.com
 0.0.0.0 st.static-srv.com
 0.0.0.0 st.tubecorporate.com
-0.0.0.0 st6-22.vk.com
 0.0.0.0 staffdisgustedducked.com
 0.0.0.0 staggeredravehospitality.com
 0.0.0.0 staggersuggestedupbrining.com
@@ -39391,6 +39418,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.vlkkwxncamnq.com
 0.0.0.0 www.vrewpywootyu.com
 0.0.0.0 www.vsmokhklbw.com
+0.0.0.0 www.vuohztiwpwqd.com
 0.0.0.0 www.vywujhsinxfa.com
 0.0.0.0 www.web-adnote.com
 0.0.0.0 www.webbuildernews.com
