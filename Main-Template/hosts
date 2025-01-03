@@ -10,7 +10,7 @@
 #
 # Version: hosts-Datei - Vollständig mit allen Einträgen (IoT, Spiele & Clients)
 # Version: hosts file - complete with all entries (IoT, Games & Clients)
-# Change/Datum: 02.01.2025
+# Change/Datum: 03.01.2025
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -997,7 +997,7 @@ ff02::3 ip6-allhosts
 # 172.217.18.106
 # 172.217.23.170
 #0.0.0.0 googleapis.l.google.com
-0.0.0.0 cse.cyberlink.com # Formatierung und Javascripts Anmeldefenster Cloud # Übertragung der eigenen SID
+#0.0.0.0 cse.cyberlink.com # Formatierung und Javascripts Anmeldefenster Cloud # Übertragung der eigenen SID
 0.0.0.0 boomerang.cyberlink.com # als Bestätigung von den gesendeten Logs
 # Systemstart - PowerDVD17Agent.exe
 # Ip/s blockieren:
@@ -2501,9 +2501,9 @@ ff02::3 ip6-allhosts
 
 # Sergey Serkov
 # Tagscanner
-# 92.53.96.135
-# 92.53.96.135
+# 185.114.247.102
 #0.0.0.0 www.xdlab.ru # Updates
+#0.0.0.0 vh376.timeweb.ru
 
 # SeriousBit
 # Netbalancer
@@ -3213,6 +3213,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r2.sn-h0jeen76.c.2mdn.net
 0.0.0.0 r3---sn-4g5edndz.c.2mdn.net
 0.0.0.0 r3---sn-nx5s7n7d.c.2mdn.net
+0.0.0.0 r3---sn-oguesndr.c.2mdn.net
 0.0.0.0 r3---sn-q4flrn7k.c.2mdn.net
 0.0.0.0 r4---sn-4g5e6nzs.c.2mdn.net
 0.0.0.0 r4---sn-4g5ednss.c.2mdn.net
@@ -3227,6 +3228,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r5---sn-a5meknzs.c.2mdn.net
 0.0.0.0 r5---sn-ab5l6nsy.c.2mdn.net
 0.0.0.0 r5---sn-ab5sznl7.c.2mdn.net
+0.0.0.0 r5---sn-oguelnlz.c.2mdn.net
 0.0.0.0 r5---sn-q4fl6n6d.c.2mdn.net
 0.0.0.0 r5---sn-vgqsknly.c.2mdn.net
 0.0.0.0 r6---sn-5hne6n7s.c.2mdn.net
@@ -3355,6 +3357,7 @@ ff02::3 ip6-allhosts
 # A-mo.net
 0.0.0.0 1x1.a-mo.net
 0.0.0.0 assets.a-mo.net
+0.0.0.0 c3.a-mo.net
 0.0.0.0 pb-am.a-mo.net
 0.0.0.0 prebid.a-mo.net
 0.0.0.0 sync.a-mo.net
@@ -3633,6 +3636,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 crcdn01.adnxs-simple.com
 0.0.0.0 crcdn01.adnxs.com
 0.0.0.0 dcdn.adnxs-simple.com
+0.0.0.0 dcdn.adnxs.com
 0.0.0.0 default-emea.ssp.adnxs.net
 0.0.0.0 fra1-ib.adnxs-simple.com
 0.0.0.0 fra1-ib.adnxs.com
@@ -14639,6 +14643,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 insight.adsrvr.org
 0.0.0.0 js.adsrvr.org
 0.0.0.0 match.adsrvr.org
+0.0.0.0 sg2-bid.adsrvr.org
+0.0.0.0 usw-ca2.adsrvr.org
 0.0.0.0 va6-bid.adsrvr.org
 0.0.0.0 vad-bid.adsrvr.org
 
@@ -15187,6 +15193,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gce-jp.bidswitch.net
 0.0.0.0 gce-nl-sync.bidswitch.net
 0.0.0.0 ghent-aws-fr.bidswitch.net
+0.0.0.0 ghent-gce-jp.bidswitch.net
 0.0.0.0 ghent-gce-nl.bidswitch.net
 0.0.0.0 ghent-gce-sc.bidswitch.net
 0.0.0.0 grid-cdn.pdc.bidswitch.net
@@ -15360,6 +15367,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1217.casalemedia.com
 0.0.0.0 a1850.casalemedia.com
 0.0.0.0 a1863.casalemedia.com
+0.0.0.0 a2012.casalemedia.com
 0.0.0.0 a2121.casalemedia.com
 0.0.0.0 a2136.casalemedia.com
 0.0.0.0 a2137.casalemedia.com
@@ -15378,6 +15386,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 a2222.casalemedia.com
 0.0.0.0 a2229.casalemedia.com
 0.0.0.0 a2239.casalemedia.com
+0.0.0.0 a2372.casalemedia.com
+0.0.0.0 a2404.casalemedia.com
+0.0.0.0 a2418.casalemedia.com
+0.0.0.0 a2420.casalemedia.com
+0.0.0.0 a2434.casalemedia.com
+0.0.0.0 a2495.casalemedia.com
+0.0.0.0 a2572.casalemedia.com
 0.0.0.0 a3161.casalemedia.com
 0.0.0.0 a3165.casalemedia.com
 0.0.0.0 a3177.casalemedia.com
@@ -15451,6 +15466,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 a5282.casalemedia.com
 0.0.0.0 a5293.casalemedia.com
 0.0.0.0 a5304.casalemedia.com
+0.0.0.0 a5487.casalemedia.com
+0.0.0.0 a5543.casalemedia.com
+0.0.0.0 a5595.casalemedia.com
+0.0.0.0 a5758.casalemedia.com
 0.0.0.0 a683.casalemedia.com
 0.0.0.0 a703.casalemedia.com
 0.0.0.0 as-sec.casalemedia.com
@@ -15840,6 +15859,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cpmmedia.net
 
 # Cpmstar.com
+0.0.0.0 pbs2.cpmstar.com
 0.0.0.0 ssl.cdne.cpmstar.com
 0.0.0.0 server.cpmstar.com
 
@@ -16083,6 +16103,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.doubleverify.com
 0.0.0.0 cdn3.doubleverify.com
 0.0.0.0 rtb0.doubleverify.com
+0.0.0.0 rtbc-ae1.doubleverify.com
 0.0.0.0 rtbc-eu3.doubleverify.com
 0.0.0.0 rtbc-ew1.doubleverify.com
 0.0.0.0 rtbc-ue1.doubleverify.com
@@ -16190,6 +16211,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 eyeota-sync.dotomi.com
 0.0.0.0 googledv-match.dotomi.com
 0.0.0.0 inmobi-match.dotomi.com
+0.0.0.0 loopme-match.dotomi.com
 0.0.0.0 match.sync.ad.cpe.dotomi.com
 0.0.0.0 medianet-match.dotomi.com
 0.0.0.0 openx2-match.dotomi.com
@@ -17226,6 +17248,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 indexww.com
 0.0.0.0 js-sec.indexww.com
 0.0.0.0 js-sec.indexww.com.cdn.cloudflare.net
+0.0.0.0 k8s1-event-tracker-la.lb.indexww.com
+0.0.0.0 k8s1-event-tracker-sj.lb.indexww.com
+0.0.0.0 k8s1-event-tracker-ty.lb.indexww.com
 
 # Industrybrains.com
 0.0.0.0 static-cdn.industrybrains.com
@@ -17240,8 +17265,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 resources.infolinks.com
 0.0.0.0 router.infolinks.com
 0.0.0.0 rt3009.infolinks.com
+0.0.0.0 rt3034.infolinks.com
 0.0.0.0 rt3042.infolinks.com
 0.0.0.0 rt3051.infolinks.com
+0.0.0.0 rt3055.infolinks.com
 0.0.0.0 thumbnails.infolinks.com
 
 # Informaction.com
@@ -17688,6 +17715,7 @@ ff02::3 ip6-allhosts
 
 # Liadm.com
 0.0.0.0 b-code.liadm.com
+0.0.0.0 d-code.liadm.com
 0.0.0.0 i.liadm.com
 0.0.0.0 i6.liadm.com
 0.0.0.0 idx.liadm.com
@@ -18017,6 +18045,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.mgid.com
 0.0.0.0 c.mgid.com
 0.0.0.0 cdn.mgid.com
+0.0.0.0 cm-x.mgid.com
 0.0.0.0 cm.mgid.com
 0.0.0.0 imgg-cdn.mgid.com
 0.0.0.0 jsc.mgid.com
@@ -18919,6 +18948,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 uk-ads.openx.net
 0.0.0.0 us-ads.openx.net
 0.0.0.0 us-u.openx.net
+0.0.0.0 valnetbidder-d.openx.net
 0.0.0.0 venatusmedia-d.openx.net
 0.0.0.0 videointelligence-d.openx.net
 0.0.0.0 webedia-d.openx.net
@@ -19189,6 +19219,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 collector-pxp3nbqmmw.perimeterx.net
 0.0.0.0 collector-pxrw7m6iav.perimeterx.net
 0.0.0.0 collector-pxrw7m6iav.px-cloud.net # Crunchbase
+0.0.0.0 collector-pxsw1vemrh.px-cloud.net
 0.0.0.0 collector-pxszbkva5m.perimeterx.net
 0.0.0.0 collector-pxu6b0qd2s.px-cloud.net
 0.0.0.0 collector-pxzhh9f9x0.px-cloud.net # Udemy
@@ -20934,6 +20965,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn1.smartadserver.com
 0.0.0.0 ced-ns.sascdn.com
 0.0.0.0 creatives.sascdn.com
+0.0.0.0 csync-apac.smartadserver.com
+0.0.0.0 csync-global.smartadserver.com
+0.0.0.0 csync-us.smartadserver.com
 0.0.0.0 csync.smartadserver.com
 0.0.0.0 demo.smartadserver.com
 0.0.0.0 ec-ns.sascdn.com
@@ -20949,8 +20983,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 rtb-csync.smartadserver.com
 0.0.0.0 s.ads.smartadserver.com
 0.0.0.0 sgp.smartadserver.com
+0.0.0.0 ssb-apac1.smartadserver.com
 0.0.0.0 ssb-eqx.smartadserver.com
 0.0.0.0 ssb-eu-secure-3.smartadserver.com
+0.0.0.0 ssb-use1.smartadserver.com
+0.0.0.0 ssb-use2.smartadserver.com
 0.0.0.0 ssbsync-eqx.smartadserver.com
 0.0.0.0 ssbsync-global.smartadserver.com
 0.0.0.0 ssbsync-itx4.smartadserver.com
@@ -21385,6 +21422,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us-west-2-cs-rtb.taboolamedia.com
 0.0.0.0 us-wf.taboola.com
 0.0.0.0 vidanalytics.taboola.com
+0.0.0.0 videos.taboola.com
 0.0.0.0 vidstat.taboola.com
 0.0.0.0 vidstatb.taboola.com
 0.0.0.0 wf.taboola.com
@@ -21911,10 +21949,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 geoip-lookup.vice.com
 
 # Vidazoo.com
+0.0.0.0 bis1.vidazoo.com
 0.0.0.0 bis2.vidazoo.com
 0.0.0.0 bis3.vidazoo.com
 0.0.0.0 bis4.vidazoo.com
 0.0.0.0 bis5.vidazoo.com
+0.0.0.0 bis6.vidazoo.com
 0.0.0.0 bisdr.vidazoo.com
 0.0.0.0 inventory.vidazoo.com
 0.0.0.0 pl.vidazoo.com
@@ -22212,12 +22252,16 @@ ff02::3 ip6-allhosts
 
 # Yieldmo.com
 0.0.0.0 ads.yieldmo.com
+0.0.0.0 matchadsrvr.yieldmo.com
 0.0.0.0 s.yieldmo.com
 0.0.0.0 static.yieldmo.com
 0.0.0.0 sync-adform.ads.yieldmo.com
 0.0.0.0 sync-amazon.ads.yieldmo.com
 0.0.0.0 sync-amz.ads.yieldmo.com
+0.0.0.0 sync-beeswax.ads.yieldmo.com
 0.0.0.0 sync-criteo.ads.yieldmo.com
+0.0.0.0 sync-eq.ads.yieldmo.com
+0.0.0.0 sync-openx.ads.yieldmo.com
 0.0.0.0 sync-pm.ads.yieldmo.com
 0.0.0.0 sync-pp.ads.yieldmo.com
 
@@ -24978,6 +25022,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 as.amanad.adtdp.com
 0.0.0.0 cdn.amanad.adtdp.com
 0.0.0.0 cdn.as.amanad.adtdp.com
+0.0.0.0 dynalyst-sync.adtdp.com
 
 # Advg.jp
 0.0.0.0 dex.advg.jp
@@ -25188,6 +25233,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sjs.ssdsp.smt.docomo.ne.jp
 0.0.0.0 sync.addlv.smt.docomo.ne.jp
 0.0.0.0 sync.adnwif.smt.docomo.ne.jp
+0.0.0.0 tracking.prismpartner.smt.docomo.ne.jp
 
 # Dooga.co.jp
 0.0.0.0 media.r18.com
@@ -25674,7 +25720,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 rranking9.ziyu.net
 
 # Zucks,Inc.
+0.0.0.0 j.zoe.zucks.net
 0.0.0.0 k.zucks.net
+0.0.0.0 ksk.t.zucks.net
 0.0.0.0 ll.zucks.net
 0.0.0.0 ov.zucks.net
 0.0.0.0 sh.zucks.net
@@ -26351,6 +26399,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 p4-gmc64ckiqzroc-wk7wnlzmusswb3tf-849157-s1-v6exp3-v4.metric.gstatic.com
 0.0.0.0 p4-gmc64ckiqzroc-wk7wnlzmusswb3tf-if-v6exp3-v4.metric.gstatic.com
 0.0.0.0 s-v6exp1-ds.metric.gstatic.com
+# Für Werbung verwendet / Used for ads
+# Aufgerufen durch Google Syndication / Initialized by Google Syndication
+0.0.0.0 encrypted-tbn1.gstatic.com
+0.0.0.0 encrypted-tbn1.gstatic.com # shopping?q=tbn:xxx-xxx_xxx=CAI 800x700
+0.0.0.0 encrypted-tbn2.gstatic.com
+0.0.0.0 encrypted-tbn3.gstatic.com
 
 # Google Interactive Media Ads
 0.0.0.0 imasdk.googleapis.com
@@ -26399,6 +26453,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 05a8dff4cd90224eb40f861eb014eec5.safeframe.googlesyndication.com
 0.0.0.0 05dd13d160ecd702ae64be1970c4cf64.safeframe.googlesyndication.com
 0.0.0.0 060dde518461a83e5ff549858d585612.safeframe.googlesyndication.com
+0.0.0.0 067110422cbff319a4d5c8061f57d38f.safeframe.googlesyndication.com
 0.0.0.0 07746710ab0dccf0e78acedc789f6588.safeframe.googlesyndication.com
 0.0.0.0 07f7f897f87d61fd724bf7e97305f214.safeframe.googlesyndication.com
 0.0.0.0 08b98fcb5aedd84609e926aecb2f4db3.safeframe.googlesyndication.com
@@ -26411,6 +26466,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0c5e76ca2a4c76e2ea9b347a97672906.safeframe.googlesyndication.com
 0.0.0.0 0cf4c8f0be9f61e95fff8b909fc7363f.safeframe.googlesyndication.com
 0.0.0.0 0d05615e6ba038dd4a70753550e32d04.safeframe.googlesyndication.com
+0.0.0.0 0d9ecf2dfdbd32e4d28ed9211b9e5bbd.safeframe.googlesyndication.com
 0.0.0.0 0dab83e42e5a7ec62f186dcb8ebd0a4f.safeframe.googlesyndication.com
 0.0.0.0 0e3d30c2dbc6427f3b31428aab927704.safeframe.googlesyndication.com
 0.0.0.0 0e5fb99737aceceef8d10e3bb54ad7cb.safeframe.googlesyndication.com
@@ -26448,6 +26504,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 208bb1cc175c6b19eb954bff9bbe6341.safeframe.googlesyndication.com
 0.0.0.0 20befc9fcbf36dbc98d9a7b87dab0625.safeframe.googlesyndication.com
 0.0.0.0 2136235c67e63313547d0814826b46fa.safeframe.googlesyndication.com
+0.0.0.0 22ce2fcd29ab7504bc7c57a75cf41085.safeframe.googlesyndication.com
 0.0.0.0 234192bd4d4742b1b7660f2530e250b9.safeframe.googlesyndication.com
 0.0.0.0 23c15de8e555dab55c88b454eeacf79a.safeframe.googlesyndication.com
 0.0.0.0 241f63c22f8c5a784917d945cb80e0de.safeframe.googlesyndication.com
@@ -26487,6 +26544,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 397d338da07773f71b5375c0a34248c8.safeframe.googlesyndication.com
 0.0.0.0 39e2852fe77bad29af15d3b2ade0c3b8.safeframe.googlesyndication.com
 0.0.0.0 3a03b1db7486ef9c96a0756b2e1c8d4d.safeframe.googlesyndication.com
+0.0.0.0 3a78717cc3616bc1ff12322526ee4847.safeframe.googlesyndication.com
 0.0.0.0 3ac3e18496524995a370c583ab63527b.safeframe.googlesyndication.com
 0.0.0.0 3ac9dc7a1739c7d2b5b263e40dbb7fec.safeframe.googlesyndication.com
 0.0.0.0 3b88c8825ecb9204c9c0fc757c91ed4f.safeframe.googlesyndication.com
@@ -26496,6 +26554,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 3ca22e2444fd64344b4af13e3a6fc2f8.safeframe.googlesyndication.com
 0.0.0.0 3fd8638b4d3335eb3d7679bbfa75770e.safeframe.googlesyndication.com
 0.0.0.0 4068c44ed379c3b8b3e4359fc8f02d46.safeframe.googlesyndication.com
+0.0.0.0 4098788192ea52d134dfc894dabca288.safeframe.googlesyndication.com
 0.0.0.0 417fcf8457ec3925bf6edb0a22dbdcbd.safeframe.googlesyndication.com
 0.0.0.0 41d9f6a1fc073200bf479a17578d4f48.safeframe.googlesyndication.com
 0.0.0.0 425f9c9c56d8245033233717c73b92ca.safeframe.googlesyndication.com
@@ -26583,6 +26642,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 6dd8464d36388e4c1f5dcafcae2792f4.safeframe.googlesyndication.com
 0.0.0.0 6e48e85e8076d02d64e081f75b55315e.safeframe.googlesyndication.com
 0.0.0.0 70ec0de6e3c1c1332421248b98b12648.safeframe.googlesyndication.com
+0.0.0.0 716f23db02f9f160dbbb1a651f63c1cc.safeframe.googlesyndication.com
 0.0.0.0 71861c5bbe30ec160c9ccad740314128.safeframe.googlesyndication.com
 0.0.0.0 719c72c87cbe5c48b2b36e5e5e68d034.safeframe.googlesyndication.com
 0.0.0.0 722f8b0b405ad061a835e478ae8e301a.safeframe.googlesyndication.com
@@ -26666,6 +26726,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a439da995531f8c665222a75651c39af.safeframe.googlesyndication.com
 0.0.0.0 a4519cb823fc4f5ad512ba1a4da7abc3.safeframe.googlesyndication.com
 0.0.0.0 a47373efd238b42ef65bae88286a79b1.safeframe.googlesyndication.com
+0.0.0.0 a47ff0f2a1fae91f66c5b9935d390f91.safeframe.googlesyndication.com
 0.0.0.0 a5121a5e99f6acba43bc8927cf6da9de.safeframe.googlesyndication.com
 0.0.0.0 a518e984bf786f861dac8c728cd5f2ca.safeframe.googlesyndication.com
 0.0.0.0 a54af55c0bf9ebee91e8a7bed9e471ed.safeframe.googlesyndication.com
@@ -26695,6 +26756,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 b16824485bee779e4a3d5c4f1d237218.safeframe.googlesyndication.com
 0.0.0.0 b214afbad13118365eaec474df0f72fa.safeframe.googlesyndication.com
 0.0.0.0 b30bcd49122155eabbf83668b8fe729d.safeframe.googlesyndication.com
+0.0.0.0 b4cc10cb5e3e6aa1d62ea44dd5d3fd04.safeframe.googlesyndication.com
 0.0.0.0 b6aa48f30f64c547dc85cead765a36c1.safeframe.googlesyndication.com
 0.0.0.0 b6de2115633a68fcc46af6cf03dc0d06.safeframe.googlesyndication.com
 0.0.0.0 b708323b9438978424d32832347319b2.safeframe.googlesyndication.com
@@ -26994,6 +27056,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 aax-us-iad.amazon.com
 0.0.0.0 aax-us-pdx.amazon-adsystem.com
 0.0.0.0 aax.amazon-adsystem.com
+0.0.0.0 aes.ap-southeast.3px.axp.amazon-adsystem.com
 0.0.0.0 aes.eu-west.3px.axp.amazon-adsystem.com
 0.0.0.0 aes.us-east.3px.axp.amazon-adsystem.com
 0.0.0.0 c.amazon-adsystem.com
@@ -27528,6 +27591,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dmmzfkd82wayn.cloudfront.net
 0.0.0.0 dmmzkfd82wayn.cloudfront.net
 0.0.0.0 dn0qt3r0xannq.cloudfront.net
+0.0.0.0 dn6rwwtxa647p.cloudfront.net
 0.0.0.0 dnhfi5nn2dt67.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 dph3kccpbigca.cloudfront.net
@@ -27624,6 +27688,9 @@ ff02::3 ip6-allhosts
 # 13.107.5.88
 0.0.0.0 e-0009.e-msedge.net
 0.0.0.0 evoke-windowsservices-tas.msedge.net
+
+# Bing
+0.0.0.0 www.bing.com # Mediation Trackingpixel/Cookies/Ads
 
 # Bing AI
 0.0.0.0 edgeservices.bing.com
@@ -29930,7 +29997,7 @@ ff02::3 ip6-allhosts
 
 # Microsoft Edge | 20H2 Update+
 # 204.79.197.219
-#0.0.0.0 edge.microsoft.com # e.g. Autofillservice, Filter, Translator, Componentupdater, Blocklist
+#0.0.0.0 edge.microsoft.com # e.g. Autofillservice, Filter, Translator, Componentupdater, Blocklist, Experiments
 # 152.199.21.175
 # 2606:2800:233:1cb7:261b:1f9c:2074:3c
 #0.0.0.0 edgewelcomecdn.microsoft.com
@@ -31072,6 +31139,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 track.vdo.ai
 0.0.0.0 vetted.ai
 0.0.0.0 xeno.media-lab.ai
+# AM
+0.0.0.0 beacon.tru.am
+0.0.0.0 tru.am
 # APP
 0.0.0.0 actions-api-pro-esvehatdmq-ew.a.run.app
 0.0.0.0 bt-log.dfast.app
@@ -31913,6 +31983,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www-old.pixi.eu
 0.0.0.0 www.pixi.eu
 0.0.0.0 yield.h5v.eu
+# EVENTS
+0.0.0.0 analytics.showoff.asp.events
+0.0.0.0 some.growplow.events
 # EXCHANGE
 0.0.0.0 artcrypto.exchange
 0.0.0.0 litbit.exchange
@@ -32324,6 +32397,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gtrace.mediago.io
 0.0.0.0 h.lqm.io
 0.0.0.0 hb.diyriver.io
+0.0.0.0 hubble-02.tmmp.io
 0.0.0.0 hummingbird.mavencoalition.io
 0.0.0.0 hyscore.io
 0.0.0.0 i.realytics.io
@@ -32704,6 +32778,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sitriverunder2.live
 0.0.0.0 staycaseequatebusy.live
 0.0.0.0 superchat.live
+0.0.0.0 sync.lunamedia.live
 0.0.0.0 toiletpaper.life
 0.0.0.0 video.chocobabe.live
 0.0.0.0 web.spacethenear.live
@@ -33058,7 +33133,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 it.pandora.net
 0.0.0.0 iwebatool.net
 0.0.0.0 j.mrpdata.net
-0.0.0.0 j.zoe.zucks.net
 0.0.0.0 jadserve.postrelease.com.akadns.net
 0.0.0.0 jam.finalice.net
 0.0.0.0 jomtingi.net
@@ -33822,6 +33896,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 servboost.tech
 0.0.0.0 sommelier.futurehybrid.tech
 0.0.0.0 subscribe.pushnetwork.tech
+0.0.0.0 sync.ingage.tech
 0.0.0.0 techfreenow.tech
 0.0.0.0 video.primis.tech
 0.0.0.0 websocket-tma1-prd.themill.tech
@@ -34814,6 +34889,7 @@ ff02::3 ip6-allhosts
 # 80.239.254.201
 # 23.50.56.123
 # 224.0.0.251
+#0.0.0.0 1c551ce604fc.us-east-1.sdk.awswaf.com # MyOpenPass
 #0.0.0.0 api.na-backend.odysee.com # Video RT und player.odycdn.com
 #0.0.0.0 balancer.hazota.eu # base64decode.org
 #0.0.0.0 cdn.privacy-mgmt.com # Cookie Nagscreen z.b. bei Spiegel.de, Capital.de usw
@@ -34855,6 +34931,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 15.cbarsrv.com
 0.0.0.0 158milkaqa.tagesgewinner.com
 0.0.0.0 1842fc94dc.109c957fb6.com
+0.0.0.0 1c551ce604fc.84902f5c.us-east-1.token.awswaf.com # Telemetry
 0.0.0.0 1d616fe9445.traffic-c.com
 0.0.0.0 1d6550b1238.trccmpnlnk.com
 0.0.0.0 1suyx9m.lmyiwaakn.com
@@ -35247,7 +35324,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.pesktop.com
 0.0.0.0 analytics.plugon.me
 0.0.0.0 analytics.publir.com
-0.0.0.0 analytics.showoff.asp.events
 0.0.0.0 analytics.slashdotmedia.com
 0.0.0.0 analytics.sleeknote.com
 0.0.0.0 analytics.stuartweitzman.com
@@ -35349,11 +35425,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 art19.com
 0.0.0.0 artfulmilesfake.com
 0.0.0.0 arthwhilearthu.com
+0.0.0.0 as.ad-tech-group.com
 0.0.0.0 as.air2s.com
 0.0.0.0 as.innity.com
 0.0.0.0 asg.phukienthoitranggiare.com
 0.0.0.0 asgclick.com
 0.0.0.0 ashoupsu.com
+0.0.0.0 asia-northeast1.pbs.optidigital.com
 0.0.0.0 aslaironer.com
 0.0.0.0 asoursuls.com
 0.0.0.0 assets-proxy.smartlook.cloud
@@ -35761,6 +35839,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.sb4you1.com
 0.0.0.0 cdn.seaofads.com
 0.0.0.0 cdn.sendpulse.com
+0.0.0.0 cdn.sentinelbi.com
 0.0.0.0 cdn.show-creative1.com
 0.0.0.0 cdn.show-sb.com
 0.0.0.0 cdn.smachnakittchen.com
@@ -35881,6 +35960,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 clicks.affstrack.com
 0.0.0.0 clicks.istripper.com
 0.0.0.0 clicvortex.com
+0.0.0.0 client-rapi-mediavine.recombee.com
 0.0.0.0 client.contents-search-windows.com
 0.0.0.0 client.mutinycdn.com
 0.0.0.0 client.swpcld.com
@@ -35906,6 +35986,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cm.gammaplatform.com
 0.0.0.0 cm.lentainform.com
 0.0.0.0 cm.marketgid.com
+0.0.0.0 cm.nhnace.com
 0.0.0.0 cm.smadex.com
 0.0.0.0 cm.steepto.com
 0.0.0.0 cmp.network-n.com # Google Personalisierung & Partner
@@ -35978,6 +36059,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 coosync.com
 0.0.0.0 cop.cdnetworks.com
 0.0.0.0 cor8ni3shwerex.com
+0.0.0.0 core-b8mf-nocp.tk0x1.com
+0.0.0.0 core-b8mf.tk0x1.com
 0.0.0.0 corot-20c.com
 0.0.0.0 corpulentoverdoselucius.com
 0.0.0.0 count.paycounter.com
@@ -36426,6 +36509,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 falangerewires.com
 0.0.0.0 fantoly.com
 0.0.0.0 farawayreel.com
+0.0.0.0 faro-collector-prod-us-central-0.grafana.net
 0.0.0.0 fatrvclgpnb.com
 0.0.0.0 faucetcrypto.com
 0.0.0.0 fb42cfb166.5701b9f7a4.com
@@ -37303,6 +37387,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 media-exp1.licdn.com
 0.0.0.0 media.acfrg.com
 0.0.0.0 media.admob.com
+0.0.0.0 media.bidgx.com
 0.0.0.0 media.camsoda.com
 0.0.0.0 media.cdngain.com
 0.0.0.0 media.livepromotools.com
@@ -37679,6 +37764,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pbjs.sskzlabs.com
 0.0.0.0 pbs.alfasense.com
 0.0.0.0 pbs.nextmillmedia.com
+0.0.0.0 pbs.optidigital.com
 0.0.0.0 pbs.venatusmedia.com
 0.0.0.0 peacockcorridor.com
 0.0.0.0 peekslap.com
@@ -38162,6 +38248,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.attributionapp.com
 0.0.0.0 scripts.kiosked.com
 0.0.0.0 scripts.mediavine.com
+0.0.0.0 scripts.opti-digital.com
 0.0.0.0 scripts.pubnation.com
 0.0.0.0 sdhfbvd.com
 0.0.0.0 sdk-01.moengage.com
@@ -38325,6 +38412,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sra.relemind.com
 0.0.0.0 src.freshmarketer.com
 0.0.0.0 srchoffer.com
+0.0.0.0 srv.bidgx.com
 0.0.0.0 srv.clickfuse.com
 0.0.0.0 srv.tunefindforfans.com
 0.0.0.0 srv.vivaclix.com
@@ -38481,6 +38569,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 swissquote.com
 0.0.0.0 syenergyflexibil.com
 0.0.0.0 sync.adotmob.com
+0.0.0.0 sync.ads.oveeo.com
 0.0.0.0 sync.adstir.com
 0.0.0.0 sync.aralego.com
 0.0.0.0 sync.clearnview.com
@@ -38489,12 +38578,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 sync.gonet-ads.com
 0.0.0.0 sync.graph.bluecava.com
 0.0.0.0 sync.hgrtb.com
+0.0.0.0 sync.illumin.com
 0.0.0.0 sync.lemmatechnologies.com
 0.0.0.0 sync.sync.viewdeos.com
 0.0.0.0 sync.unoadsrv.com
 0.0.0.0 sync.users-api.com
+0.0.0.0 sync.vistarsagency.com
 0.0.0.0 sync.widespace.com
 0.0.0.0 sync01.engageya.com
+0.0.0.0 syncaps.cootlogix.com
 0.0.0.0 syndi.adxpub.com
 0.0.0.0 syndication.dynsrvtyu.com
 0.0.0.0 syndication.optimizesrv.com
@@ -38796,7 +38888,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 trmnsite.com
 0.0.0.0 troopsassistedstupidity.com
 0.0.0.0 troubledcontradiction.com
-0.0.0.0 tru.am
 0.0.0.0 trust.zone # IP-Erfassung & Geodaten
 0.0.0.0 trustbadge-logging.trustedshops.com # Interaktionen v1
 0.0.0.0 trustedbanana.com
@@ -38903,7 +38994,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 url.giveaff.com
 0.0.0.0 urlish.com
 0.0.0.0 us-fbigov.com
+0.0.0.0 us-west2.pbs.optidigital.com
 0.0.0.0 us.ck-ie.com
+0.0.0.0 us.shb-sync.com
 0.0.0.0 us.tags.newscgp.com # Prebid
 0.0.0.0 us.trip.com
 0.0.0.0 us01-analysis.ymcart.com
@@ -38953,6 +39046,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 veepteero.com
 0.0.0.0 velocecdn.com
 0.0.0.0 velocitycdn.com
+0.0.0.0 velvetquasar.com
 0.0.0.0 venetrigni.com
 0.0.0.0 vengefulgrass.com
 0.0.0.0 venturead.com
@@ -39385,6 +39479,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tamgrt.com
 0.0.0.0 www.teepublic.com
 0.0.0.0 www.tempestpremium.com
+0.0.0.0 www.temu.com # Google, Sonobi, Tripelift Trackingpixel/Cookies
 0.0.0.0 www.thepornstudy.com
 0.0.0.0 www.tickcounter.com
 0.0.0.0 www.tljcake.com
@@ -39513,6 +39608,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xqiqnxxy.com
 0.0.0.0 xqxknnvbwqfj.com
 0.0.0.0 xs.doweralrostra.com
+0.0.0.0 xsync.iqzone.com
 0.0.0.0 xszpuvwr7.com
 0.0.0.0 xu2.com
 0.0.0.0 xxwasayldu.com
