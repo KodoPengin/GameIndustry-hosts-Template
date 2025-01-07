@@ -10,7 +10,7 @@
 #
 # Version: Android-Mini-Template - Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
 # Version: Android-Mini-Template - Blocks android specific ads, trackers, affiliates, banners and unnecessary connections
-# Change/Datum: 27.12.2024
+# Change/Datum: 07.01.2025
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -418,10 +418,12 @@
 0.0.0.0 alt8.mobile-gtalk.l.google.com
 # Playstore
 #0.0.0.0 android.clients.google.com # Bestandteil von Ingamekäufen/Bezahlhistorie
-#0.0.0.0 play.googleapis.com
 #0.0.0.0 play-fe.googleapis.com
+#0.0.0.0 play.googleapis.com
 #0.0.0.0 playatoms-pa.googleapis.com
 0.0.0.0 playgateway-pa.googleapis.com
+0.0.0.0 playstoregatewayadapter-pa.googleapis.com
+0.0.0.0 prod-lt-playstoregatewayadapter-pa.googleapis.com
 # PubSUB
 0.0.0.0 pubsub.googleapis.com
 # Ads & Tracking
@@ -482,6 +484,7 @@
 0.0.0.0 clients4.google.com
 # Google Kram
 #0.0.0.0 play-lh.googleusercontent.com # Grafiken
+0.0.0.0 b1.nel.goog
 0.0.0.0 connectivitycheck.gstatic.com
 0.0.0.0 gameswhitelisted.googleapis.com
 0.0.0.0 mobile-gtalk.l.google.com
@@ -489,9 +492,12 @@
 0.0.0.0 supl.google.com
 # Google MITM
 0.0.0.0 android-safebrowsing.google.com
+# Google Trust Service
+#0.0.0.0 o.pki.goog
 # Google Video Transcoding
 # See https://github.com/KodoPengin/GameIndustry-hosts-Template/wiki/Blocked-entries#blocked-redirectorgvt1com
 0.0.0.0 redirector.gvt1.com # Blocked, because of ads
+0.0.0.0 beacons.gcp.gvt2.com
 0.0.0.0 beacons.gvt2.com
 0.0.0.0 beacons3.gvt2.com
 0.0.0.0 beacons4.gvt2.com
@@ -1088,6 +1094,7 @@
 0.0.0.0 gllto1.glpals.com
 0.0.0.0 gos-api-pew1-b.gos-gsp.io
 0.0.0.0 gos-api.gos-gsp.io
+0.0.0.0 i.sng.link
 0.0.0.0 iapverificator2.beresnev.games
 0.0.0.0 impression.link
 0.0.0.0 ip-api.com
@@ -1114,6 +1121,7 @@
 0.0.0.0 secure.fastclick.net
 0.0.0.0 sensors.yodo1api.com
 0.0.0.0 server.bidstack.com
+0.0.0.0 sf16-static.i18n-pglstatp.com
 0.0.0.0 soma.smaato.net
 0.0.0.0 splash.unity.cn
 0.0.0.0 statgw.devtodev.com
