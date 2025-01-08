@@ -10,7 +10,7 @@
 #
 # Version: hosts-Datei - Vollständig mit allen Einträgen (IoT, Spiele & Clients)
 # Version: hosts file - complete with all entries (IoT, Games & Clients)
-# Change/Datum: 04.01.2025
+# Change/Datum: 08.01.2025
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -1042,6 +1042,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 www2.deepl.com
 0.0.0.0 errortracking.deepl.com
 0.0.0.0 experimentation.deepl.com
+0.0.0.0 gtm.deepl.com
 0.0.0.0 loft12103.serverprofi24.de
 0.0.0.0 r1---sn-5hnedn7s.gvt1.com
 0.0.0.0 redirector.gvt1.com
@@ -3787,6 +3788,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripps.demdex.net
 0.0.0.0 sears.demdex.net
 0.0.0.0 shaw.demdex.net
+0.0.0.0 skydeutschland.demdex.net
 0.0.0.0 sonet.demdex.net
 0.0.0.0 sonysonpo.demdex.net
 0.0.0.0 swa.demdex.net
@@ -18537,6 +18539,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 g94cw1mpcsopvagnim7zsff1jtnsh1623315320.uaid.nmrodam.com
 0.0.0.0 i39qzqmvudlyv5meps0yx7oxmfhsj1616475850.nuid.nmrodam.com
 0.0.0.0 ibzi9odxylbf35kxmra49zlhvecdv1623326376.uaid.nmrodam.com
+0.0.0.0 l7x2drpgrvyx7gsqi1dmdhqwjgztx1736350843.nuid.nmrodam.com
 0.0.0.0 lrj4lntts7eo2usvn2hh7ml3ldjz61623311240.uaid.nmrodam.com
 0.0.0.0 m2o0tewwapwckjmawk305wmt51nws1623398123.uaid.nmrodam.com
 0.0.0.0 m87cz5z6o00rtja01emxrnhjuzgdo1623311490.uaid.nmrodam.com
@@ -21806,7 +21809,7 @@ ff02::3 ip6-allhosts
 # 35.190.14.188
 # 34.120.28.121
 # 34.95.108.180
-0.0.0.0 aggregator.service.usercentrics.eu # Partner
+#0.0.0.0 aggregator.service.usercentrics.eu # Partner
 0.0.0.0 analytics.usercentrics.com
 #0.0.0.0 api.usercentrics.eu # ConsentIDs
 #0.0.0.0 app.usercentrics.eu # Sessionpixel, bundle.hs, main.js
@@ -23358,7 +23361,7 @@ ff02::3 ip6-allhosts
 
 # Erwin Müller de & com
 0.0.0.0 app.usercentrics.eu
-0.0.0.0 api.usercentrics.eu
+#0.0.0.0 api.usercentrics.eu
 0.0.0.0 graphql.usercentrics.eu
 0.0.0.0 aa.erwinmueller.com
 0.0.0.0 matomo.erwinmueller.com
@@ -23655,6 +23658,15 @@ ff02::3 ip6-allhosts
 
 # Japan-feinkost.de
 0.0.0.0 piwik.japan-feinkost.de
+
+# Joyn.de
+0.0.0.0 ab-testing.prd.data.s.joyn.de
+0.0.0.0 dec-svc.abs-prd.s.joyn.de
+0.0.0.0 event-collector.prd.data.s.joyn.de
+0.0.0.0 infinity-c34.youboranqs01.com
+0.0.0.0 infinity-c38.youboranqs01.com
+0.0.0.0 joyn.somquery.sqrt-5041.de
+0.0.0.0 swankyrule.zomap.de
 
 # Kaufda
 # Ausführliche Metadatenerfassung bei Seitenbesuch. Geodaten, Besuchszeit, Erstbesuche, Suchergebnisse, Browserinfos etc. Dafür gibt's Werbung umsonst
@@ -24659,6 +24671,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 an.cmertv.com
 0.0.0.0 ana2.tatsumi-sys.jp
 0.0.0.0 analytics.cocolog-nifty.com
+0.0.0.0 analytics.tver.jp
 0.0.0.0 analyze.pro.research-artisan.com
 0.0.0.0 anymind360.com
 0.0.0.0 api-rank-shikiho.toyokeizai.net
@@ -24766,6 +24779,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 log.maniadb.com
 0.0.0.0 log.melon.com
 0.0.0.0 log.nordot.jp
+0.0.0.0 log12.interactive-circle.jp
 0.0.0.0 logend.cookpad.com
 0.0.0.0 mbadw.nan.co.jp
 0.0.0.0 mediaweaver.jp
@@ -24794,6 +24808,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s3a.pstatp.com
 0.0.0.0 salle-de-fortune.com
 0.0.0.0 sankei2ad.durasite.net
+0.0.0.0 sdk.interactive-circle.jp
 0.0.0.0 send-guile.sonicmoov.com
 0.0.0.0 sgs-api.interactive-circle.jp
 0.0.0.0 site.gnavi.co.jp
@@ -25526,10 +25541,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 uh.nakanohito.jp
 
 # Naver.com
+0.0.0.0 1.2.4_proxy.blog.naver.com
 0.0.0.0 analytics.dict.naver.com
 0.0.0.0 cc.naver.com
 0.0.0.0 lcs.naver.com
 0.0.0.0 nam.veta.naver.com # Redirect Tivan
+0.0.0.0 nlog.naver.com
+0.0.0.0 proxy.blog.naver.com
+0.0.0.0 scv-blog.io.naver.com
 0.0.0.0 tivan.naver.com # Tracking, Impressions, Clicks, Banner
 0.0.0.0 wcs.naver.net
 
@@ -27667,6 +27686,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dn6rwwtxa647p.cloudfront.net
 0.0.0.0 dnhfi5nn2dt67.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
+0.0.0.0 dof9zd9l290mz.cloudfront.net
 0.0.0.0 dph3kccpbigca.cloudfront.net
 0.0.0.0 dq06u9lt5akr2.cloudfront.net
 0.0.0.0 dr3fr5q4g2ul9.cloudfront.net
@@ -29070,7 +29090,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 musicart.xboxlive.com # Grafiken Microsoft Store
 0.0.0.0 settings-ssl.xboxlive.com
 0.0.0.0 xnotify.xboxlive.com # Serverstatus
-0.0.0.0 www.xboxab.com
+0.0.0.0 www.xboxab.com # ImpressionID, ClientID, TrackingID, XBoxApp Version
 #0.0.0.0 dlassets-ssl.xboxlive.com # KnownGameList
 # 20.37.137.5
 # 13.107.5.91
@@ -29250,8 +29270,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 notice.xbox.com
 #0.0.0.0 e1822.dspb.akamaiedge.net # Notice Endpunkt
 
-# Während Spielesessions ohne XBox Anbindung Titel egal werden dennoch Microsoft's Server kontaktiert
-# Diese Funktionen werden nur benötigt sollte man tatsächlich Microsoft Spiele nutzen bzw den Microsoft Store
 # Wer Ruhe haben will.... Abschalten nach Bedarf
 # 40.126.31.1
 # 40.91.76.181
@@ -29265,7 +29283,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 user.auth.xboxlive.com
 #0.0.0.0 device.auth.xboxlive.com
 #0.0.0.0 userpresence.xboxlive.com
-0.0.0.0 www.xboxab.com # Impressions
+0.0.0.0 www.xboxab.com # ImpressionID, ClientID, TrackingID, XBoxApp Version
 
 # Windows 11 - Microsoft.XboxDevices | devices.app.exe
 # 23.99.194.233
@@ -29320,6 +29338,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 privacy.xboxlive.com.akadns.net
 #0.0.0.0 xblmessaging.xboxlive.com.akadns.net
 #0.0.0.0 multiplayeractivity.xboxlive.com.akadns.net
+# Microsoft Server werden trotz deaktivierten Einstellungen GPO, Settings kontaktiert
+# Microsoft servers are contacted despite deactivated settings GPO, Settings
+0.0.0.0 www.xboxab.com # ImpressionID, ClientID, TrackingID, XBoxApp Version
 # Falls von Nöten, Mehrspielerserver aus jeweiligen Titeln z.b. folgende drei aus State of Decay II
 # 52.152.253.13
 # 20.82.62.217
@@ -31251,6 +31272,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 onakasulback.autos
 0.0.0.0 opertyvaluat.autos
 0.0.0.0 yresumeform.autos
+# BABY
+0.0.0.0 chargeit.baby
+0.0.0.0 roots.baby
 # BE
 0.0.0.0 gw.geoedge.be
 0.0.0.0 rumcdn.geoedge.be
@@ -31446,6 +31470,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 orientaldaily.on.cc
 0.0.0.0 tagbucket.cc
 0.0.0.0 useragent.cc
+0.0.0.0 vmring.cc
 0.0.0.0 www.lokicasino.cc
 # CENTER
 0.0.0.0 track.mp4.center
@@ -32169,6 +32194,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 synccompletelyquickproduct.icu
 0.0.0.0 tracrauma-notional.icu
 0.0.0.0 www.03347b0e2c1321feb76e79ad81003e51.icu
+0.0.0.0 xdgeslibgbim.icu
 0.0.0.0 xzillla.icu
 # IN
 0.0.0.0 2ntrfi.jakervokild.co.in
@@ -32442,6 +32468,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cookiesync.api.bliink.io
 0.0.0.0 core-api.bringhub.io
 0.0.0.0 core.arc.io
+0.0.0.0 creative-adchoices.advertise.qcinternal.io
 0.0.0.0 dafloor.tidelinedata.io
 0.0.0.0 data.beop.io
 0.0.0.0 data.deep-content.io # Heatmap Session Recording
@@ -32899,6 +32926,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 9.express-news.me
 0.0.0.0 90531bbba.dl8.me
 0.0.0.0 api.grow.me
+0.0.0.0 app.staticmoly.me
 0.0.0.0 asg.aphex.me
 0.0.0.0 cimg.blacklist.me
 0.0.0.0 coin.onelink.me
@@ -33183,6 +33211,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gredraus.net
 0.0.0.0 groajirtooh.net
 0.0.0.0 grunoaph.net
+0.0.0.0 gutockeewhargo.net
 0.0.0.0 gwiq-v3.globalwebindex.net
 0.0.0.0 gwiq.globalwebindex.net
 0.0.0.0 gwiqcdn.globalwebindex.net
@@ -33232,6 +33261,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 logws1330.ati-host.net
 0.0.0.0 louchees.net
 0.0.0.0 mailbc.hanbiro.net
+0.0.0.0 massiveanalyticssys.net
 0.0.0.0 matomo.ripe.net
 0.0.0.0 matomo.steamcardexchange.net
 0.0.0.0 mauchopt.net
@@ -33638,6 +33668,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tellihandlesexwr.org
 0.0.0.0 tempuri.org
 0.0.0.0 the-ethereum.bit-system.org
+0.0.0.0 timaariraconiansta.org
 0.0.0.0 top.nydus.org
 0.0.0.0 utilapi.geeksforgeeks.org # Geodaten
 0.0.0.0 video-box.org
@@ -33689,6 +33720,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 g1.zendplace.pro
 0.0.0.0 gamebooster.pro
 0.0.0.0 gomain2.pro
+0.0.0.0 gummy-bonus.pro
 0.0.0.0 halleyperson.pro
 0.0.0.0 hegtiterbuttons.pro
 0.0.0.0 herreperolsof.pro
@@ -33742,6 +33774,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wasshoneaningar.pro
 0.0.0.0 whamukoji.pro
 0.0.0.0 wilwasharrabred.pro
+0.0.0.0 www.awfulmorning.pro
 0.0.0.0 www.boringoccasion.pro
 0.0.0.0 www.classicguarantee.pro
 0.0.0.0 www.negative-speed.pro
@@ -33872,6 +33905,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ncecafvdeu.shop
 0.0.0.0 nl.almagrabalkish.shop
 0.0.0.0 sparredcubans.shop
+0.0.0.0 swamperhyphens.shop
 0.0.0.0 xu.olympuscracowe.shop
 # SITE
 0.0.0.0 1337x.onlyvpn.site
@@ -34975,6 +35009,25 @@ ff02::3 ip6-allhosts
 # 80.239.254.201
 # 23.50.56.123
 # 224.0.0.251
+0.0.0.0 rochestertrend.com
+0.0.0.0 uqqmj868.xyz
+0.0.0.0 epededonemile.com
+0.0.0.0 gekeebsirs.com
+0.0.0.0 c83de17caf.a8e8c59504.com
+0.0.0.0 222f2632ff.3535d0471e.com
+0.0.0.0 e3b36d8f06.69de27b955.com
+0.0.0.0 et.vizierspavan.com
+0.0.0.0 cgxctfqmhvc.com
+0.0.0.0 shakingtacklingunpeeled.com
+0.0.0.0 nucjcavicpun.com
+0.0.0.0 rs.prioraslop.com
+0.0.0.0 tegleebs.com
+0.0.0.0 camp.purchase-shop.com
+0.0.0.0 up.clickiocdn.com
+0.0.0.0 railingperformance.com
+0.0.0.0 1002820.metrics.convertexperiments.com
+0.0.0.0 adosfgcfajqvfi.com
+0.0.0.0 logs.convertexperiments.com
 #0.0.0.0 1c551ce604fc.us-east-1.sdk.awswaf.com # MyOpenPass
 #0.0.0.0 api.na-backend.odysee.com # Video RT und player.odycdn.com
 #0.0.0.0 balancer.hazota.eu # base64decode.org
@@ -39566,7 +39619,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tamgrt.com
 0.0.0.0 www.teepublic.com
 0.0.0.0 www.tempestpremium.com
-0.0.0.0 www.temu.com # Google, Sonobi, Tripelift Trackingpixel/Cookies
+0.0.0.0 www.temu.com # Crossover Google, Sonobi, Tripelift Trackingpixel/Cookies
 0.0.0.0 www.thepornstudy.com
 0.0.0.0 www.tickcounter.com
 0.0.0.0 www.tljcake.com
