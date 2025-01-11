@@ -10,7 +10,7 @@
 #
 # Version: Android-Mini-Template - Blockiert androidspezifische Werbung, Tracker, Affiliates, Banner und unnötige Verbindungen
 # Version: Android-Mini-Template - Blocks android specific ads, trackers, affiliates, banners and unnecessary connections
-# Change/Datum: 07.01.2025
+# Change/Datum: 11.01.2025
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -617,7 +617,7 @@
 
 # Line Messenger
 0.0.0.0 vos.line-scdn.net
-0.0.0.0 obs.line-scdn.net
+#0.0.0.0 obs.line-scdn.net # Preview pictures
 0.0.0.0 nelo2-col.linecorp.com
 0.0.0.0 sentry-uit.line-apps.com
 
