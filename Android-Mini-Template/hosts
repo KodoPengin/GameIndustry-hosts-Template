@@ -322,11 +322,12 @@
 
 # Flurry | Yahoo
 # 87.248.118.23
-0.0.0.0 data.flurry.com
-0.0.0.0 cdn.flurry.com
 0.0.0.0 adlog.flurry.com
 0.0.0.0 ads.flurry.com
+0.0.0.0 cdn.flurry.com
+0.0.0.0 data.flurry.com
 0.0.0.0 flury-ycpi.b.yahoodns.net
+0.0.0.0 media-router-flurry76.prod.media.vip.bf1.yahoo.com
 
 # Fyber
 0.0.0.0 service.fyber.com
