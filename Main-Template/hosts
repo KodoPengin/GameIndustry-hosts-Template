@@ -10,7 +10,7 @@
 #
 # Version: hosts-Datei - Vollständig mit allen Einträgen (IoT, Spiele & Clients)
 # Version: hosts file - complete with all entries (IoT, Games & Clients)
-# Change/Datum: 15.01.2025
+# Change/Datum: 19.01.2025
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -174,9 +174,10 @@ ff02::3 ip6-allhosts
 #0.0.0.0 www.recaptcha.net
 0.0.0.0 23ynjitwt5.adobe.io
 0.0.0.0 2ftem87osk.adobe.io
+0.0.0.0 8eptecerpq.adobestats.io
+0.0.0.0 8ncdzpmmrg.adobe.io # userPGUID, OsUserID, AppKey, DeviceID, CLientversion, CartInstalled, OS, Language, ArchType, Timestamp, LicenseType, AppProfile, LegacyProfile, RelationshopProfile, UserProfile, ErrorCodes, Validation
 0.0.0.0 95yojg6epq.adobestats.io
 0.0.0.0 9rcgbke6qx.adobestats.io
-0.0.0.0 8ncdzpmmrg.adobe.io # userPGUID, OsUserID, AppKey, DeviceID, CLientversion, CartInstalled, OS, Language, ArchType, Timestamp, LicenseType, AppProfile, LegacyProfile, RelationshopProfile, UserProfile, ErrorCodes, Validation
 0.0.0.0 a652.dscb.akamai.net
 0.0.0.0 accounts.adobe.com # Accountverwaltung
 0.0.0.0 acroipm2.adobe.com # Anmeldung
@@ -210,6 +211,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d3d51sjda1sdc4.cloudfront.net # Config
 0.0.0.0 dlmping2.adobe.com
 0.0.0.0 download.macromedia.com
+0.0.0.0 dr49lng3n1n2s.cloudfront.net
 0.0.0.0 dump.cr.adobe.com
 0.0.0.0 ets-prd1-ue1-coll-elb-122061436.us-east-1.elb.amazonaws.com
 0.0.0.0 ets-prd2-uw1-coll-elb-2013165758.us-west-2.elb.amazonaws.com
@@ -241,6 +243,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 log.cr.adobe.com
 0.0.0.0 na0e-acc.services.adobe.com
 0.0.0.0 na1r.services.adobe.com # Setup
+0.0.0.0 nttk31y0q.mw1i8.adobestats.io
 0.0.0.0 o1383653.ingest.sentry.io # Photoshop 25.3.1, Session, SID, Timestamp, OS Version, Build
 0.0.0.0 oobe.adobe.com # Weiterleitung
 0.0.0.0 p13n.adobe.io # Profile
@@ -265,6 +268,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 w3ffpxhbn6.adobestats.io
 0.0.0.0 workflow.licenses.adobe.com
 0.0.0.0 www.adobe.com
+0.0.0.0 xa8g202i4u.adobestats.io
 
 # Adobe Acrobat Reader DC
 # 95.101.174.33
@@ -22846,6 +22850,7 @@ ff02::3 ip6-allhosts
 # 93.184.220.29
 #0.0.0.0 crl.verisign.com
 #0.0.0.0 csc3-2004-aia.verisign.com # Empty DNS Response
+#0.0.0.0 csc3-2009-2-aia.verisign.com # Empty DNS Response
 #0.0.0.0 csc3-2009-2-crl.verisign.com # Empty DNS Response
 #0.0.0.0 csc3-2010-crl.verisign.com
 #0.0.0.0 ocsp.verisign.com
@@ -27882,6 +27887,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bn7prdapp01-canary.netmon.azure.com
 0.0.0.0 bn8prdapp02-canary.netmon.azure.com
 0.0.0.0 bn9prdapp01-canary-opaph.netmon.azure.com
+0.0.0.0 bx-ring-fallback.msedge
+0.0.0.0 bx-ring.msedge.net
 0.0.0.0 by1prdapp02-canary.netmon.azure.com
 0.0.0.0 by4prdapp01-canary.netmon.azure.com
 0.0.0.0 bz6prdapp01-canary.netmon.azure.com
@@ -27945,6 +27952,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 eafd-dod-384ea1aa-6aab-4841-a754-35b60cef4ac8.azureedge.us
 0.0.0.0 eafddirect.msedge.net
 0.0.0.0 elasticafd-footprint-0d855e84-e893-47bd-84fd-b5568a836b09.azureedge.us
+0.0.0.0 ev2-ring.msedge.net
 0.0.0.0 exo-ring-fallback.msedge.net
 0.0.0.0 exo-ring.msedge.net
 0.0.0.0 fp-afd-nocache-ccp.azureedge.net
@@ -28049,6 +28057,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 osl22prdapp02-canary-opaph.netmon.azure.com
 0.0.0.0 ow1.res.office365.com
 0.0.0.0 ow1.res.office365.com # Trackingpixel
+0.0.0.0 p-ring.msedge.net
 0.0.0.0 par20prdapp01-canary.netmon.azure.com
 0.0.0.0 par20prdapp02-canary.netmon.azure.com
 0.0.0.0 par21prdapp01-canary.netmon.azure.com
@@ -28430,7 +28439,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 e3230.b.akamaiedge.net
 0.0.0.0 x1ds.gtm.xboxlive.com
 
-# Windows 10 & 11 Microsoft Store | WinStore.App.exe, svchost & services.exe
+# Windows 10 & 11 Microsoft Store | WinStore.App.exe, svchost & services.exe, windowspackagemanagerserver.exe
 # 2.19.104.253
 # 2.18.232.143
 # 2.19.205.105
@@ -28532,6 +28541,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 config.teams.microsoft.com # Betriebssystem/Version, ClientID, Accounttyp
 
 # Noch mehr Telemetrie
+0.0.0.0 js.monitor.azure.com # 1DS JS SDK Analytics Web, PageAction, PageView, ContentUpdate, OutgoingRequest, ClientError, PartnerApiCall, TrackedScenario
 0.0.0.0 oca.microsoft.com
 0.0.0.0 oca.telemetry.microsoft.com # Analyse von Onlineabstürzen
 0.0.0.0 kmwatsonc.telemetry.microsoft.com
@@ -33898,10 +33908,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 sw.wpu.sh
 # SHOP
 0.0.0.0 athyimmesa.shop
+0.0.0.0 blearspellaea.shop
 0.0.0.0 chef-essentials.shop
 0.0.0.0 dentofinauk.shop
 0.0.0.0 dvw22rk.c2dat.shop
 0.0.0.0 jumpsite.shop
+0.0.0.0 jurantsepinine.shop
 0.0.0.0 ncecafvdeu.shop
 0.0.0.0 nl.almagrabalkish.shop
 0.0.0.0 sparredcubans.shop
@@ -34065,6 +34077,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dahgarq.top
 0.0.0.0 damsez02.top
 0.0.0.0 dgnjrysxl.top
+0.0.0.0 dianilinfant.top
 0.0.0.0 dvxrxm-cxo.top
 0.0.0.0 epocttuajqtswu.top
 0.0.0.0 ewakyc72.top
@@ -34114,6 +34127,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 refpaucqkl.top
 0.0.0.0 refpazaaig.top
 0.0.0.0 regulationprivilegescan.top
+0.0.0.0 rivagesguam.top
 0.0.0.0 s.1ts17.top
 0.0.0.0 s.1ts18.top
 0.0.0.0 seespiracul.top
@@ -34126,6 +34140,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tjbuxltdsg.top
 0.0.0.0 tnnhhhqmhijqd.top
 0.0.0.0 ttskfhepsoma.top
+0.0.0.0 tz.uiguriczante.top
 0.0.0.0 ueaggress.top
 0.0.0.0 uosxberyg.top
 0.0.0.0 vrkl.vymybkyamvzky.top
@@ -35009,25 +35024,6 @@ ff02::3 ip6-allhosts
 # 80.239.254.201
 # 23.50.56.123
 # 224.0.0.251
-0.0.0.0 rochestertrend.com
-0.0.0.0 uqqmj868.xyz
-0.0.0.0 epededonemile.com
-0.0.0.0 gekeebsirs.com
-0.0.0.0 c83de17caf.a8e8c59504.com
-0.0.0.0 222f2632ff.3535d0471e.com
-0.0.0.0 e3b36d8f06.69de27b955.com
-0.0.0.0 et.vizierspavan.com
-0.0.0.0 cgxctfqmhvc.com
-0.0.0.0 shakingtacklingunpeeled.com
-0.0.0.0 nucjcavicpun.com
-0.0.0.0 rs.prioraslop.com
-0.0.0.0 tegleebs.com
-0.0.0.0 camp.purchase-shop.com
-0.0.0.0 up.clickiocdn.com
-0.0.0.0 railingperformance.com
-0.0.0.0 1002820.metrics.convertexperiments.com
-0.0.0.0 adosfgcfajqvfi.com
-0.0.0.0 logs.convertexperiments.com
 #0.0.0.0 1c551ce604fc.us-east-1.sdk.awswaf.com # MyOpenPass
 #0.0.0.0 api.na-backend.odysee.com # Video RT und player.odycdn.com
 #0.0.0.0 balancer.hazota.eu # base64decode.org
@@ -35053,6 +35049,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 1.cqyj3ii7r.com
 0.0.0.0 10-81.s.cdn15.com
 0.0.0.0 1002.men
+0.0.0.0 1002820.metrics.convertexperiments.com
 0.0.0.0 100tb.sothink.com
 0.0.0.0 10739-3.s.cdn15.com
 0.0.0.0 1086.hostedprebid.com
@@ -35078,6 +35075,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 1xbetbk7.com
 0.0.0.0 1xbetbk8.com
 0.0.0.0 1xbetbk9.com
+0.0.0.0 222f2632ff.3535d0471e.com
 0.0.0.0 23427cb58c.2e59c3b290.com
 0.0.0.0 263ce1e63f.a6947f0e54.com
 0.0.0.0 26eaafe34dec47878ba763c3b1daf6d5-77ee068b6863.cdn.forter.com
@@ -35276,6 +35274,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adminpromotion.com
 0.0.0.0 adnetwrk.com
 0.0.0.0 adoptimadigital.com
+0.0.0.0 adosfgcfajqvfi.com
 0.0.0.0 adotsolution.com
 0.0.0.0 adpolsbix.com
 0.0.0.0 adrenalpop.com
@@ -35828,6 +35827,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 c43a3cd8f99413891.com
 0.0.0.0 c5.adalyser.com
 0.0.0.0 c5.patreon.com
+0.0.0.0 c83de17caf.a8e8c59504.com
 0.0.0.0 c8468c7e4fa35572f4dfd8a23ce2f267.adjns.com
 0.0.0.0 cab-too-low.com
 0.0.0.0 cache-api.ranker.com
@@ -35839,6 +35839,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 call.inforsea.com
 0.0.0.0 calm-cabbage-a9umxyb6jlwq9ypiv5av5m12.herokudns.com
 0.0.0.0 camose.com
+0.0.0.0 camp.purchase-shop.com
 0.0.0.0 campaign.bet3000.com
 0.0.0.0 camterest.com
 0.0.0.0 candyprotected.com
@@ -36039,6 +36040,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cfgrcr1.com
 0.0.0.0 cfjump.ergoflex.com.au
 0.0.0.0 cftn.pornhits.com
+0.0.0.0 cgxctfqmhvc.com
 0.0.0.0 ch-gmtdmp.mookie1.com
 0.0.0.0 ch.hh-content.com
 0.0.0.0 chanelets-aurning.com
@@ -36470,6 +36472,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 e2.extreme-dm.com
 0.0.0.0 e2ertt.com
 0.0.0.0 e335udnv6drg78b7.com
+0.0.0.0 e3b36d8f06.69de27b955.com
 0.0.0.0 e7393e33565ce805.com
 0.0.0.0 eanddescri.com
 0.0.0.0 earandmarketing.com
@@ -36548,6 +36551,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 envoy-hl.envoy-csync1.core-b8mf.ov1o.com
 0.0.0.0 eo244l.cloudatacdn.com
 0.0.0.0 epb.hextom.com
+0.0.0.0 epededonemile.com
 0.0.0.0 epeex.com
 0.0.0.0 epicguide.com
 0.0.0.0 epiv.cardlytics.com
@@ -36565,12 +36569,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 ervantasrelaterc.com
 0.0.0.0 erxdq.com
 0.0.0.0 es.dislovebroody.com
+0.0.0.0 escooterzone.com
 0.0.0.0 esmentbrads.com
 0.0.0.0 esp-m.aptrinsic.com
 0.0.0.0 esp.aptrinsic.com
 0.0.0.0 esp.rtbhouse.com
 0.0.0.0 esvfhfqx.com
 0.0.0.0 et.twyn.com
+0.0.0.0 et.vizierspavan.com
 0.0.0.0 ethicalpastime.com
 0.0.0.0 ethnicacknowledgedbeneficial.com
 0.0.0.0 ethprofitminer.com
@@ -36818,6 +36824,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gedspecificano.com
 0.0.0.0 geekestoot.com
 0.0.0.0 gejute.com
+0.0.0.0 gekeebsirs.com
 0.0.0.0 generic-2.lb.lm5v.com
 0.0.0.0 genieedmp.com
 0.0.0.0 genistawabbler.com
@@ -37253,7 +37260,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.getlasso.co # Eventtracking
 0.0.0.0 js.mbidinp.com
 0.0.0.0 js.mbidpp.com
-0.0.0.0 js.monitor.azure.com # 1DS JS SDK Analytics Web
 0.0.0.0 js.natsdk.com
 0.0.0.0 js.sddan.com
 0.0.0.0 js.taplytics.com
@@ -37405,6 +37411,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 log.prezi.com
 0.0.0.0 log2.r2games.com
 0.0.0.0 logs-api.shoprunner.com
+0.0.0.0 logs.convertexperiments.com
 0.0.0.0 logs1187.xiti.com # HR-Fernsehen
 0.0.0.0 logs1413.xiti.com # NDR TV
 0.0.0.0 lokicode.had.su
@@ -37711,6 +37718,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 nr.static.mmcdn.com
 0.0.0.0 nr.tetrantreverer.com
 0.0.0.0 nrs6ffl9w.com
+0.0.0.0 nrubunkuzawg.com
 0.0.0.0 ns-dnstest.spyoff.com
 0.0.0.0 nstarvardsus.com
 0.0.0.0 ntlysearchin.com
@@ -37719,6 +37727,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ntvpforever.com
 0.0.0.0 ntvpinp.com
 0.0.0.0 ntvpwpush.com
+0.0.0.0 nucjcavicpun.com
 0.0.0.0 numbgradualassertive.com
 0.0.0.0 numbtoobly.com
 0.0.0.0 nuqocpabj.com
@@ -38190,6 +38199,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rabbitent-static.casinomodule.com
 0.0.0.0 rag3ca7t5amubr8eedffin.com
 0.0.0.0 railcowboy.com
+0.0.0.0 railingperformance.com
 0.0.0.0 railroadtomato.com
 0.0.0.0 ramp.purch.com
 0.0.0.0 randommaxtrix.com # Adskeeper Script
@@ -38273,6 +38283,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rndsystems.com
 0.0.0.0 roastoup.com
 0.0.0.0 robovoiz.com
+0.0.0.0 rochestertrend.com
 0.0.0.0 rock.defybrick.com
 0.0.0.0 rollercoin.com
 0.0.0.0 romeoforum.com
@@ -38283,6 +38294,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rounddescribe.com
 0.0.0.0 rp.gwallet.com
 0.0.0.0 rp.totafofesos1.com
+0.0.0.0 rs.prioraslop.com
 0.0.0.0 rsafrwd.com
 0.0.0.0 rt.marphezis.com
 0.0.0.0 rt.prnewswire.com
@@ -38444,6 +38456,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sgtm.pacificpavingstone.com
 0.0.0.0 shadesentimentssquint.com
 0.0.0.0 shakegoldfish.com
+0.0.0.0 shakingtacklingunpeeled.com
 0.0.0.0 shareasale-analytics.com
 0.0.0.0 shareitpp.com
 0.0.0.0 sheltermilligrammillions.com
@@ -38528,6 +38541,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 soocaips.com
 0.0.0.0 soundelktemper.com
 0.0.0.0 sourcepoint.kotaku.com
+0.0.0.0 spacecatholicpalmful.com
 0.0.0.0 spamvariationswithin.com
 0.0.0.0 spanuletubings.com
 0.0.0.0 sparks.ipowow.com
@@ -38536,6 +38550,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 special-alerts.com
 0.0.0.0 specialistinsensitive.com
 0.0.0.0 specialtymet.com
+0.0.0.0 specificallycries.com
 0.0.0.0 specificallythesisballot.com
 0.0.0.0 spiffymachine.com
 0.0.0.0 spitspacecraftfraternity.com
@@ -38823,6 +38838,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tech.convergd.com
 0.0.0.0 teddynineteenthpreoccupation.com
 0.0.0.0 teeglimu.com
+0.0.0.0 tegleebs.com
 0.0.0.0 telegramsit.com
 0.0.0.0 telehouse.interactgo.com
 0.0.0.0 telemetry.jivosite.com
@@ -39113,7 +39129,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 unsuccessfulpensive.com
 0.0.0.0 untappedwealth.com
 0.0.0.0 untropiuson.com
+0.0.0.0 unusuallypilgrim.com
 0.0.0.0 unwofulcountys.com
+0.0.0.0 up.clickiocdn.com
 0.0.0.0 up.trkgenius.com
 0.0.0.0 upcomingmonkeydolphin.com
 0.0.0.0 upcum.com
@@ -39129,6 +39147,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 uptimecdn.com
 0.0.0.0 uptodatefinishconference.com
 0.0.0.0 upx.provenpixel.com
+0.0.0.0 uqqmj868.xyz
 0.0.0.0 urechar.com
 0.0.0.0 url.giveaff.com
 0.0.0.0 urlish.com
@@ -39520,6 +39539,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.linkconnector.com
 0.0.0.0 www.linkfame.com
 0.0.0.0 www.linkhaitao.com
+0.0.0.0 www.liveplaygame.com
 0.0.0.0 www.lokicasino.com # Websocket
 0.0.0.0 www.lufbogazixz.com
 0.0.0.0 www.maplejuddy.com
@@ -39741,6 +39761,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xmlclick.hueadsxml.com
 0.0.0.0 xmlp.search.yahoo.com
 0.0.0.0 xngqoc.com
+0.0.0.0 xnmcahltoqq.com
 0.0.0.0 xoadxxnbwkapq.com
 0.0.0.0 xpidixaqkos.com
 0.0.0.0 xpwbgf.com
@@ -39791,6 +39812,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 yrhnw7h63.com
 0.0.0.0 yukongoldinfo.com
 0.0.0.0 yummy.consumable.com
+0.0.0.0 yummyadvertiseexploded.com
 0.0.0.0 yuzu-xci-games.5806z.com
 0.0.0.0 ywronwasthetron.com
 0.0.0.0 ywrqulbftw.com
@@ -41143,14 +41165,8 @@ ff02::3 ip6-allhosts
 
 # Steam: IP Checks
 # Info & IPv6: https://gameindustry.eu/katalog/valve-corporation/ipv6check/
-0.0.0.0 ipv6check-http.steamcontent.com
-0.0.0.0 ipv6check-udp.steamcontent.com
 0.0.0.0 ipv6check-udp.steamserver.net
-0.0.0.0 ipv6check-http.steamserver.net # Obsolete
-0.0.0.0 eu.http.ipv6check.akadns.net
-0.0.0.0 eu.udp.ipv6check.akadns.net
-0.0.0.0 http.ipv6check.akadns.net
-0.0.0.0 udp.ipv6check.akadns.net
+0.0.0.0 ipv6check-http.steamserver.net # Obsolete, but still contacted
 
 # Steam: IP Selector
 # 205.196.6.144
@@ -41636,19 +41652,28 @@ ff02::3 ip6-allhosts
 
 # 10tons Ltd
 # JYDGE
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-# Ip/s blockieren:
-# 52.72.141.108
-# 54.164.66.28
-# 18.215.25.247
+# Invalid callback to http:///v2/d5a6eea103f2b8c83ea11d051b1e677f/init
 0.0.0.0 api.gameanalytics.com
-0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
+0.0.0.0 ec2-100-29-84-172.compute-1.amazonaws.com
+0.0.0.0 ec2-18-209-253-14.compute-1.amazonaws.com
+0.0.0.0 ec2-23-20-246-32.compute-1.amazonaws.com
+0.0.0.0 ec2-3-213-169-74.compute-1.amazonaws.com
+0.0.0.0 ec2-3-213-173-117.compute-1.amazonaws.com
+0.0.0.0 ec2-34-192-184-46.compute-1.amazonaws.com
+0.0.0.0 ec2-34-224-211-251.compute-1.amazonaws.com
+0.0.0.0 ec2-34-233-79-20.compute-1.amazonaws.com
+0.0.0.0 ec2-34-234-157-6.compute-1.amazonaws.com
+0.0.0.0 ec2-44-219-106-168.compute-1.amazonaws.com
+0.0.0.0 ec2-52-2-191-29.compute-1.amazonaws.com
+0.0.0.0 ec2-52-23-82-100.compute-1.amazonaws.com
+0.0.0.0 ec2-52-4-74-59.compute-1.amazonaws.com
+0.0.0.0 ec2-52-6-79-121.compute-1.amazonaws.com
+0.0.0.0 ec2-54-147-117-252.compute-1.amazonaws.com
+0.0.0.0 ec2-54-221-216-107.compute-1.amazonaws.com
+0.0.0.0 ec2-98-85-192-210.compute-1.amazonaws.com
+0.0.0.0 ec2-52-72-190-184.compute-1.amazonaws.com
+0.0.0.0 ec2-52-5-111-243.compute-1.amazonaws.com
+0.0.0.0 ec2-34-234-45-65.compute-1.amazonaws.com
 
 # Spellspire
 # 54.225.115.127
@@ -42266,7 +42291,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
-# 505 Games
+# 505 Games S.p.A.
 # Abzû
 # s. Rubrik Kopierschutz / AntiCheat
 
@@ -42292,6 +42317,17 @@ ff02::3 ip6-allhosts
 # 52.88.46.75
 #0.0.0.0 prod-pc.wws-gs2.com # Onlinemodi, Statistiken und Funktionen
 #0.0.0.0 a46a2a13688f54b57bb35502a5acbc2c-2082727945.us-west-2.elb.amazonaws.com
+
+Ghostrunner 2
+0.0.0.0 ngx.download.nvidia.com
+#0.0.0.0 ocsp.digicert.com
+0.0.0.0 a23-207-210-133.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-207-210-157.deploy.static.akamaitechnologies.com
+#0.0.0.0 a2-17-190-73.deploy.static.akamaitechnologies.com
+# Empty DNS Response
+0.0.0.0 collect16548ghstr.deltadna.net
+0.0.0.0 balanced-collect.deltadna.net
+0.0.0.0 148.113.96.34.bc.googleusercontent.com
 
 # Journey To The Savage Planet
 # s. Eintrag Steam: IP Checks
@@ -42330,13 +42366,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
-# 505 Games und All In! Games
+# 505 Games S.p.A. und All In! Games
 # Ghostrunner
-# Ip/s blockieren:
-# 34.96.113.148
-# 2600:1901:0:15bb::
+0.0.0.0 ngx.download.nvidia.com
+0.0.0.0 a23-207-210-133.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-207-210-157.deploy.static.akamaitechnologies.com
+# Empty DNS Response
 0.0.0.0 collect16548ghstr.deltadna.net
 0.0.0.0 balanced-collect.deltadna.net
+0.0.0.0 148.113.96.34.bc.googleusercontent.com
 
 # 8-Bit Studio
 # Skara - The Blade Remains
@@ -42504,18 +42542,6 @@ ff02::3 ip6-allhosts
 
 # Momodora: Reverie Under the Moonlight
 0.0.0.0 www.google-analytics.com # id, game initializations und einiges anderes mehr
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-
-# Murasaki
-# Wohl ehemalige Patchnotes. Seite ist nicht mehr existent. Adressen bereits verschachtelt im Configmenü aufgerufen
-0.0.0.0 members.jcom.home.ne.jp
-0.0.0.0 maintenance.zaq.ne.jp
 # 208.64.200.105
 0.0.0.0 gds1.steampowered.com
 0.0.0.0 gds2.steampowered.com
@@ -43304,14 +43330,6 @@ ff02::3 ip6-allhosts
 
 # Rollers of the Realm | Update 24.08.2018
 0.0.0.0 api.gameanalytics.com
-
-# Auroch Digital
-# Chainsaw Warrior: Lords of the Night
-#0.0.0.0 static.squarespace.com # Static und Static1 dienen auf einigen Seiten als CSS Ablage
-0.0.0.0 www.darkfuture.info
-0.0.0.0 darkfutureblog.disqus.com
-0.0.0.0 aurochdigital.us7.list-manage2.com
-0.0.0.0 twemoji.maxcdn.com
 
 # Aurum Dust, LLC. & WhisperGames
 # Ash of Gods: Redemption
@@ -45042,15 +45060,8 @@ ff02::3 ip6-allhosts
 
 # BTNcafe
 # Mold on Pizza
-# dauerhafte Onlineverbindung zwecks Statistiken bzw. Herkunftsland, Plattform, Grafikkarte/Hersteller, Angaben zu Levelabschnitten, Zeit, Schwierigkeitsgrad, Spracheinstellungen usw.
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 mopdserver.btncafe.com
+# Broadcast: 255.255.255.255
+0.0.0.0 mopdserver.btncafe.com # Empty DNS Response
 
 # Buddy Productions GmbH
 # Bud Spencer & Terence Hill - Slaps And Beans
@@ -45102,20 +45113,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
-# Butterscotch Senanigans
+# Butterscotch Senanigans, Inc.
 # Crashlands
-# Amazonaws, Quantserve, Google, Google Analytics, GStatic, GoogleTagManager, Bandcamp, Imgix Anbindung
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 id.bscotch.net
-#0.0.0.0 bit.ly
-0.0.0.0 www.crashlands.net
-#0.0.0.0 s4.bcbits.com # Ablage CSS Formatierung einiger Seiten
+# Online-Interaction
+#0.0.0.0 beta.bscotch.net
+#0.0.0.0 rumpus-elb-299810162.us-east-1.elb.amazonaws.com
+#0.0.0.0 ec2-34-231-159-19.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-84-171-7.compute-1.amazonaws.com
+#0.0.0.0 ec2-34-202-226-209.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-224-242-141.compute-1.amazonaws.com
 
 # cada
 # Bootombaa
@@ -45175,19 +45181,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 mtm.rebe.capcom.com
 
 # Resident Evil: Operation Raccoon City
-# 104.83.120.32
-# 80.239.237.18
-#0.0.0.0 go.microsoft.com
-#0.0.0.0 e11290.dspg.akamaiedge.net
-#0.0.0.0 a104-83-120-32.deploy.static.akamaitechnologies.com
 #0.0.0.0 download.gfwl.xboxlive.com
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+#0.0.0.0 go.microsoft.com
+#0.0.0.0 a2-16-10-174.deploy.static.akamaitechnologies.com
+#0.0.0.0 a2-16-10-164.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-35-238-131.deploy.static.akamaitechnologies.com
 
 # バイオハザード RE:2 | RESIDENT EVIL 2 / BIOHAZARD RE:2
 # s. Rubrik Kopierschutz / AntiCheat
@@ -47596,23 +47594,22 @@ ff02::3 ip6-allhosts
 
 # Eek! Games, LLC
 # House Party
-# Ip/s blockieren:
-# 173.194.76.155
-# 35.165.253.172
-# 216.239.36.178
-# 208.64.71.50
-# 142.250.74.196
-# 172.217.18.10
-# 142.250.181.232
-# 208.64.71.50
-0.0.0.0 games.eekllc.com
-0.0.0.0 www.googletagmanager.com
-#0.0.0.0 fonts.googleapis.com
-#0.0.0.0 www.google.com
-0.0.0.0 housepartygame.com
-0.0.0.0 www-alv.google-analytics.com
-0.0.0.0 gsght.com
-0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 ngx.download.nvidia.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 7hyufttso6.execute-api.us-west-2.amazonaws.com
+#0.0.0.0 games.eekllc.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 168.172.107.34.bc.googleusercontent.com
+0.0.0.0 40.113.111.34.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+0.0.0.0 a23-207-210-157.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-207-210-133.deploy.static.akamaitechnologies.com
+#0.0.0.0 server-18-173-205-26.fra56.r.cloudfront.net
+#0.0.0.0 server-18-173-205-44.fra56.r.cloudfront.net
+#0.0.0.0 server-18-173-205-36.fra56.r.cloudfront.net
+#0.0.0.0 server-18-173-205-11.fra56.r.cloudfront.net
 
 # EGOSOFT GmbH
 # X4: Foundations
@@ -49969,12 +49966,9 @@ ff02::3 ip6-allhosts
 # RiME
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
+0.0.0.0 ipv6check-http.steamserver.net
 0.0.0.0 ipv6check-udp.steamserver.net
 0.0.0.0 test.steampowered.com
-0.0.0.0 eu.http.ipv6check.akadns.net
-0.0.0.0 eu.udp.ipv6check.akadns.net
-0.0.0.0 http.ipv6check.akadns.net
-0.0.0.0 udp.ipv6check.akadns.net
 0.0.0.0 a23-216-77-18.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-216-77-30.deploy.static.akamaitechnologies.com
 0.0.0.0 249.195.120.34.bc.googleusercontent.com
@@ -50671,15 +50665,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
 
 # Coral Island
-0.0.0.0 ipv6check-http.steamcontent.com
-0.0.0.0 ipv6check-udp.steamcontent.com
 0.0.0.0 test.steampowered.com
 0.0.0.0 o936297.ingest.sentry.io
 #0.0.0.0 api.epicgames.dev
-0.0.0.0 eu.http.ipv6check.akadns.net
-0.0.0.0 eu.udp.ipv6check.akadns.net
-0.0.0.0 http.ipv6check.akadns.net
-0.0.0.0 udp.ipv6check.akadns.net
 0.0.0.0 a23-216-77-18.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-216-77-30.deploy.static.akamaitechnologies.com
 0.0.0.0 249.195.120.34.bc.googleusercontent.com
@@ -52010,6 +51998,71 @@ ff02::3 ip6-allhosts
 #0.0.0.0 cdn01.doax-venusvacation.jp
 #0.0.0.0 a1822.dscd.akamai.net
 #0.0.0.0 a1768.g1.akamai.net
+
+# 仁王 Complete Edition | Nioh – The Complete Edition
+#0.0.0.0 api.epicgames.dev
+#0.0.0.0 ec2-18-213-127-242.compute-1.amazonaws.com
+#0.0.0.0 ec2-23-23-34-45.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-208-241-19.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-210-125-7.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-216-173-215.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-217-147-137.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-219-184-96.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-220-88-34.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-224-91-189.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-230-232-103.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-90-130-232.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-91-126-88.compute-1.amazonaws.com
+#0.0.0.0 ec2-34-192-185-153.compute-1.amazonaws.com
+#0.0.0.0 ec2-34-192-250-199.compute-1.amazonaws.com
+#0.0.0.0 ec2-34-196-68-247.compute-1.amazonaws.com
+#0.0.0.0 ec2-34-202-207-102.compute-1.amazonaws.com
+#0.0.0.0 ec2-34-224-125-107.compute-1.amazonaws.com
+#0.0.0.0 ec2-34-225-61-157.compute-1.amazonaws.com
+#0.0.0.0 ec2-34-225-85-65.compute-1.amazonaws.com
+#0.0.0.0 ec2-34-238-184-76.compute-1.amazonaws.com
+#0.0.0.0 ec2-35-168-133-5.compute-1.amazonaws.com
+#0.0.0.0 ec2-35-171-40-226.compute-1.amazonaws.com
+#0.0.0.0 ec2-44-194-84-39.compute-1.amazonaws.com
+#0.0.0.0 ec2-44-196-208-245.compute-1.amazonaws.com
+#0.0.0.0 ec2-44-198-225-247.compute-1.amazonaws.com
+#0.0.0.0 ec2-44-205-82-59.compute-1.amazonaws.com
+#0.0.0.0 ec2-44-209-10-112.compute-1.amazonaws.com
+#0.0.0.0 ec2-44-210-206-38.compute-1.amazonaws.com
+#0.0.0.0 ec2-44-215-209-232.compute-1.amazonaws.com
+#0.0.0.0 ec2-44-215-36-139.compute-1.amazonaws.com
+#0.0.0.0 ec2-44-217-68-67.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-0-65-11.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-20-51-88.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-200-40-31.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-206-254-62.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-206-37-246.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-206-52-237.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-206-79-154.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-3-174-158.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-4-27-153.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-44-72-41.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-5-26-5.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-71-228-162.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-72-68-143.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-87-92-96.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-146-227-248.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-156-46-215.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-157-203-78.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-159-147-190.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-160-106-254.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-204-233-205.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-204-83-134.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-205-131-96.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-205-85-245.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-211-125-8.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-226-142-0.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-236-154-140.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-237-252-98.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-82-253-236.compute-1.amazonaws.com
+#0.0.0.0 ec2-67-202-26-192.compute-1.amazonaws.com
+#0.0.0.0 ec2-98-80-39-24.compute-1.amazonaws.com
+#0.0.0.0 ec2-98-85-51-174.compute-1.amazonaws.com
 
 # 仁王２ | Nioh 2 – The Complete Edition
 # 52.86.97.10
@@ -55379,6 +55432,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
+# Democracy 4
+# Permanent data sharing of game status, ingame-decisions, settings and sessions
+0.0.0.0 www.positech.co.uk
+
+# Production Line : Car factory simulation
+# Unter der Hauptdomäne /productionline/server/check_update.php, post_mectrics.php und post_survey2.php sind Updatechecks, Analytics und die Umfrage zu finden
+# Ebenso existiert post_framerate.php die besagte weitergibt und die Analytics aktualisieren sich je nach Aktion von selbst
+0.0.0.0 www.positech.co.uk
+
 # PotatoIndustries
 # RollingBall
 # Ip/s blockieren:
@@ -55396,11 +55458,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 168.172.107.34.bc.googleusercontent.com
-
-# Production Line : Car factory simulation
-# Unter der Hauptdomäne /productionline/server/check_update.php, post_mectrics.php und post_survey2.php sind Updatechecks, Analytics und die Umfrage zu finden
-# Ebenso existiert post_framerate.php die besagte weitergibt und die Analytics aktualisieren sich je nach Aktion von selbst
-0.0.0.0 www.positech.co.uk
 
 # PQube Limited
 # Gal✰Gun 2
@@ -56234,13 +56291,7 @@ ff02::3 ip6-allhosts
 
 # ROCKFISH Games
 # EVERSPACE™
-0.0.0.0 ipv6check-http.steamcontent.com
-0.0.0.0 ipv6check-udp.steamcontent.com
 0.0.0.0 test.steampowered.com
-0.0.0.0 eu.http.ipv6check.akadns.net
-0.0.0.0 eu.udp.ipv6check.akadns.net
-0.0.0.0 http.ipv6check.akadns.net
-0.0.0.0 udp.ipv6check.akadns.net
 
 # EVERSPACE™ 2
 0.0.0.0 api.gameanalytics.com
@@ -58349,6 +58400,7 @@ ff02::3 ip6-allhosts
 # 208.64.203.173
 # 185.215.130.10
 # 185.215.130.11
+0.0.0.0 ipv6check-http.steamserver.net
 0.0.0.0 ipv6check-udp.steamserver.net
 0.0.0.0 crash.steampowered.com
 #0.0.0.0 sej-end.os.eidos.com
