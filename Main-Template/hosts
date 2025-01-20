@@ -10,7 +10,7 @@
 #
 # Version: hosts-Datei - Vollständig mit allen Einträgen (IoT, Spiele & Clients)
 # Version: hosts file - complete with all entries (IoT, Games & Clients)
-# Change/Datum: 19.01.2025
+# Change/Datum: 20.01.2025
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -22441,6 +22441,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 battle-cup.com
 0.0.0.0 bitskins.com
 0.0.0.0 bolocase.com
+0.0.0.0 buff163.gifts
 0.0.0.0 cloudcsgo.com
 0.0.0.0 communuityprofile.com
 0.0.0.0 counterluck.com
@@ -22561,6 +22562,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 steamanalyst.com
 0.0.0.0 steamcommnuiety.com
 0.0.0.0 steamconmunmilty.com
+0.0.0.0 steampowered.eldenring-nightreign-invite.com
+0.0.0.0 steampowered.playtestgameinvited.com
 0.0.0.0 steamwalletgifts.com
 0.0.0.0 steanmcomnmunlty.com
 0.0.0.0 stonefire.io
