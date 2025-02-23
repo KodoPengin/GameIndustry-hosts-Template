@@ -10,14 +10,14 @@
 #
 # Version: Template für Spieleclients und Spiele
 # Version: Template for game clients and games
-# Change/Datum: 19.01.2025
+# Change/Datum: 23.02.2025
 #
 # Weitere und aktuelle Spiele sind auf der Website zu finden.
 # More and current games can be found on the website.
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
-# Hilfe: https://gameindustry.eu/faq/
+# F.A.Q.: https://gameindustry.eu/faq/
 # Steam: https://www.steamcommunity.com/groups/Penguindome
 # Github: https://github.com/KodoPengin/GameIndustry-hosts-Template
 
@@ -73,7 +73,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 geo.battle.net # Geodaten
 # 142.250.185.142
 # 172.217.16.206
-0.0.0.0 dl.google.com
+#0.0.0.0 dl.google.com
 # 24.105.29.76
 0.0.0.0 telemetry-in.battle.net
 # 37.244.28.30
@@ -697,32 +697,40 @@ ff02::3 ip6-allhosts
 # Rockstar Games, Inc.
 # Rockstar Games Launcher
 # Games Launcher, Social Club UI & Launcher Patcher
-#0.0.0.0 scui.rockstargames.com
-#0.0.0.0 rgl.rockstargames.com
-#0.0.0.0 rgl-prod.ros.rockstargames.com
-#0.0.0.0 gamedownloads-rockstargames-com.akamaized.net
-#0.0.0.0 auth-prod.ros.rockstargames.com
-#0.0.0.0 auth-rgl-prod.ros.rockstargames.com
-#0.0.0.0 prod.ros.rockstargames.com
-#0.0.0.0 prod.cloud.rockstargames.com
 #0.0.0.0 gamedownloads.rockstargames.com
+#0.0.0.0 gamedownloads-rockstargames-com.akamaized.net
+#0.0.0.0 rgl.rockstargames.com
 0.0.0.0 www.googletagmanager.com
+0.0.0.0 region1.google-analytics.com
 0.0.0.0 o432808.ingest.sentry.io
-0.0.0.0 www.google-analytics.com
-0.0.0.0 stats.g.doubleclick.net
-#0.0.0.0 a.rsg.sc
-#0.0.0.0 s.rsg.sc
+0.0.0.0 csp.withgoogle.com
 #0.0.0.0 recaptcha.net
-#0.0.0.0 rockstar-api.arkoselabs.com
-0.0.0.0 prs-rgl-prod.ros.rockstargames.com
-0.0.0.0 ps-rgl-prod.ros.rockstargames.com
-0.0.0.0 tm-rgl-prod.ros.rockstargames.com
-0.0.0.0 rsgames.s.llnwi.net
-#0.0.0.0 e6913.dscx.akamaiedge.net # ocsp.entrust.net
-0.0.0.0 e8290.dscd.akamaiedge.net
-# Cloudsync
+#0.0.0.0 www.gstatic.com
+#0.0.0.0 fonts.gstatic.com
+#0.0.0.0 update.googleapis.com
+#0.0.0.0 ocsp.digicert.com
+0.0.0.0 csp.withgoogle.com
+#0.0.0.0 rgl-prod.ros.rockstargames.com
+#0.0.0.0 scui.rockstargames.com
+#0.0.0.0 s.rsg.sc
 #0.0.0.0 app-rgl-prod.ros.rockstargames.com
-#0.0.0.0 cs-rgl-prod.ros.rockstargames.com
+#0.0.0.0 prod-avatars.akamaized.net
+0.0.0.0 prod.cloud.rockstargames.com
+#0.0.0.0 a23-50-131-73.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-50-131-82.deploy.static.akamaitechnologies.com
+#0.0.0.0 a104-102-37-172.deploy.static.akamaitechnologies.com
+0.0.0.0 249.195.120.34.bc.googleusercontent.com
+0.0.0.0 fra16s65-in-f8.1e100.net
+#0.0.0.0 fra16s51-in-f3.1e100.net
+#0.0.0.0 fra24s05-in-f3.1e100.net
+#0.0.0.0 fra16s49-in-f3.1e100.net
+#0.0.0.0 fra16s08-in-f195.1e100.net
+#0.0.0.0 a184-30-131-245.deploy.static.akamaitechnologies.com
+#0.0.0.0 zrh04s05-in-f113.1e100.net
+#0.0.0.0 a23-201-254-175.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-50-131-87.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-50-131-89.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-215-19-173.deploy.static.akamaitechnologies.com
 
 # Ubisoft Entertainment SA
 # Ubisoft Connect | UPlay
@@ -3427,7 +3435,7 @@ Ghostrunner 2
 #0.0.0.0 pfmsqosprod1-0.japanwest.cloudapp.azure.com
 # Endpunkte
 #0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
-#0.0.0.0 tts-ingress-prod-speech2-ame8-usw.westus.cloudapp.azure.com
+0.0.0.0 tts-ingress-prod-speech2-ame8-usw.westus.cloudapp.azure.com
 
 # The Hunter: Primal
 # 172.217.168.234
@@ -5362,10 +5370,6 @@ Ghostrunner 2
 #0.0.0.0 auth.gog.com
 #0.0.0.0 users.gog.com
 #0.0.0.0 ocsp.digicert.com
-
-# Charles University und Czech Academy of Sciences
-# Attentat 1942
-0.0.0.0 airdownload2.adobe.com
 
 # Charyb Games
 # Take Thy Throne
@@ -16235,16 +16239,7 @@ Ghostrunner 2
 
 # Rockstar Games
 # Grand Theft Auto IV
-# SecuROM s. Rubrik Kopierschutz / AntiCheat
-# 34.251.133.206
-# 54.194.81.177
-# 104.69.249.194
-# 23.0.47.140
-# 52.43.12.129
-#0.0.0.0 go.microsoft.com
-#0.0.0.0 ocsp.entrust.net
-0.0.0.0 tv.rockstargames.com
-#0.0.0.0 www.rockstargames.com
+# See Rockstar Games Launcher - The game has been fully integrated into the Rockstar Games Launcher and takes over its connections.
 
 # Grand Theft Auto V
 # Rockstar Launcher
@@ -17453,13 +17448,6 @@ Ghostrunner 2
 # 47.93.244.219
 0.0.0.0 94d63cbf92082237b86267ffd4cacc64.cloudfront.net
 
-# Shanghai JingCai Computer Software Development Co., Ltd
-# Metal Waltz: Anime tank girls
-# 54.250.239.190
-#0.0.0.0 steamhkver.metalwaltz.com
-#0.0.0.0 jpdouj.metalwaltz.com
-#0.0.0.0 steammima.metalwaltz.com
-
 # Sharkmob AB
 # Vampire: The Masquerade - Bloodhunt
 # 3.233.86.120
@@ -17868,6 +17856,14 @@ Ghostrunner 2
 0.0.0.0 sqm.woniu.com # Telemetrie
 0.0.0.0 crashlogs.woniu.com # Crashlytics
 
+# Snapbreak Games AB
+# Boxes: Lost Fragments
+# Steam Datagram Relay
+0.0.0.0 collect.analytics.unity3d.com
+0.0.0.0 operate-sdk-telemetry.unity3d.com
+0.0.0.0 148.113.96.34.bc.googleusercontent.com
+0.0.0.0 34.214.149.34.bc.googleusercontent.com
+
 # PixARK
 #0.0.0.0 pihark-up.woniu.com # Zertifikat
 #0.0.0.0 arkdedicated.com # Meldung Serverstatus, Ingamenews
@@ -18004,6 +18000,7 @@ Ghostrunner 2
 # Ip/s blockieren:
 # 34.111.113.40
 # 34.107.172.168
+#0.0.0.0 ns.exitgames.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -20291,12 +20288,10 @@ Ghostrunner 2
 0.0.0.0 duxsites-trendy-assets.s3.amazonaws.com
 #0.0.0.0 ddcloudfs.cloudapp.net
 
-# Trese Brothers
+# Trese Brothers LLC
 # Star Traders: Frontiers
-# 172.217.168.46
 0.0.0.0 www.google-analytics.com
-0.0.0.0 www-google-analytics.l.google.com
-0.0.0.0 zrh04s14-in-f14.1e100.net
+0.0.0.0 csp.withgoogle.com
 
 # Trichotomy
 # Dog Sled Saga
@@ -21750,8 +21745,12 @@ Ghostrunner 2
 #0.0.0.0 gamelift.ap-southeast-2.amazonaws.com
 #0.0.0.0 e10884.dsca.akamaiedge.net
 
-# Magic 2014 — Duels of the Planeswalkers
-#0.0.0.0 dotp.onlinegaming.wizards.com
+# Magic 2014
+0.0.0.0 dotp.onlinegaming.wizards.com # Empty DNS Response
+#0.0.0.0 avatars.steamstatic.com
+0.0.0.0 crash.steampowered.com
+0.0.0.0 collector-02.valve.net
+0.0.0.0 collector-01.valve.net
 
 # Magic 2015 - Duels of the Planeswalkers
 #0.0.0.0 dotp.onlinegaming.wizards.com
@@ -21794,6 +21793,20 @@ Ghostrunner 2
 # Wube Software LTD.
 # Factorio
 #0.0.0.0 auth.factorio.com # Accountschnittstelle
+
+# WuL Game Studio
+# Metal Waltz: Anime tank girls
+#0.0.0.0 mwpatch.metalwaltz.com
+#0.0.0.0 fcmyemu.metalwaltz.com
+#0.0.0.0 tkver.metalwaltz.com
+#0.0.0.0 steamversion.metalwaltz.com
+#0.0.0.0 steamdouj.metalwaltz.com
+#0.0.0.0 ssltndpayst.metalwaltz.com
+#0.0.0.0 ec2-54-250-239-190.ap-northeast-1.compute.amazonaws.com
+#0.0.0.0 ec2-54-169-167-235.ap-southeast-1.compute.amazonaws.com
+#0.0.0.0 ec2-54-242-218-25.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-199-144-160.ap-northeast-1.compute.amazonaws.com
+#0.0.0.0 ec2-54-93-200-178.eu-central-1.compute.amazonaws.com
 
 # WySix
 # Paint Skills
