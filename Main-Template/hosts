@@ -10,11 +10,11 @@
 #
 # Version: hosts-Datei - Vollständig mit allen Einträgen (IoT, Spiele & Clients)
 # Version: hosts file - complete with all entries (IoT, Games & Clients)
-# Change/Datum: 20.01.2025
+# Change/Datum: 23.02.2025
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
-# Hilfe: https://gameindustry.eu/faq/
+# F.A.Q.: https://gameindustry.eu/faq/
 # Steam: https://www.steamcommunity.com/groups/Penguindome
 # Github: https://github.com/KodoPengin/GameIndustry-hosts-Template
 #
@@ -233,6 +233,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ims-na1.adobelogin.com # Login Adobeseite
 0.0.0.0 ims-prod06.adobelogin.com # Spracheinstellungen, Gerätenamen, GeräteID usw.
 0.0.0.0 iy304996hm.adobestats.io
+0.0.0.0 l32ts1bba.mw1i8.adobestats.io
 0.0.0.0 lcs-cops.adobe.io # Teilweise Base64 codiert Eindeutige GeräteID, Fingerprint, eindeutige NutzerID, Zeitstempel, Gerätename z.b. Desktop Karl-Heinz, Betriebssystem, Produktname, Sprache uvm., Lizenzmodell, Tracking aktiviert ja/nein, Seriennummer
 0.0.0.0 lcs-robs.adobe.io # Abgleich der vorherigen Adresse
 0.0.0.0 lcs.cops.adobe.io
@@ -20847,6 +20848,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 o4504293643452416.ingest.sentry.io
 0.0.0.0 o4504922469761024.ingest.sentry.io
 0.0.0.0 o4505878223847424.ingest.sentry.io
+0.0.0.0 o4507376918396928.ingest.us.sentry.io
 0.0.0.0 o46710.ingest.sentry
 0.0.0.0 o488710.ingest.sentry.io # Unity Hub
 0.0.0.0 o49094.ingest.sentry.io
@@ -22560,14 +22562,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 staemcommunnuty.com
 0.0.0.0 staemcomunnitly.com
 0.0.0.0 steam.communiuityauth.com
+0.0.0.0 steam.workshop-assist.shop
 0.0.0.0 steamacommunitry.com
 0.0.0.0 steamacommunity.com
 0.0.0.0 steamanalyst.com
 0.0.0.0 steamcommnuiety.com
+0.0.0.0 steamcommunity.app2627887.com
 0.0.0.0 steamconmunmilty.com
 0.0.0.0 steampowered.app262919.com
 0.0.0.0 steampowered.eldenring-nightreign-invite.com
 0.0.0.0 steampowered.playtestgameinvited.com
+0.0.0.0 steamscommumnnity.com
 0.0.0.0 steamwalletgifts.com
 0.0.0.0 steanmcomnmunlty.com
 0.0.0.0 stonefire.io
@@ -22859,6 +22864,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 csc3-2004-aia.verisign.com # Empty DNS Response
 #0.0.0.0 csc3-2009-2-aia.verisign.com # Empty DNS Response
 #0.0.0.0 csc3-2009-2-crl.verisign.com # Empty DNS Response
+#0.0.0.0 csc3-2010-aia.verisign.com
 #0.0.0.0 csc3-2010-crl.verisign.com
 #0.0.0.0 ocsp.verisign.com
 
@@ -27202,6 +27208,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 z-na.amazon-adsystem.com
 # Amazon AWS
 #0.0.0.0 s3-1-w.amazonaws.com
+#0.0.0.0 s3.eu-central-1.amazonaws.com # Bilder, Javascript
 #0.0.0.0 s3-eu-west-1.amazonaws.com # Ablage CSS Files, CCC Adscript und mehr
 #0.0.0.0 s3.amazonaws.com # u.A. auch Ablage für Trackingscripte
 0.0.0.0 0dxnrp41n3.execute-api.us-west-2.amazonaws.com
@@ -27341,7 +27348,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 rw-yieldmo-com-1233107411.us-east-1.elb.amazonaws.com
 0.0.0.0 rxgh4jurki.execute-api.us-east-2.amazonaws.com
 0.0.0.0 s3-w.eu-central-1.amazonaws.com
-0.0.0.0 s3.eu-central-1.amazonaws.com # Bilder
 0.0.0.0 saas-components-ecsloadbalancer-1709586717.eu-central-1.elb.amazonaws.com
 0.0.0.0 science-edge-external-prod-73889260.us-west-2.elb.amazonaws.com
 0.0.0.0 sharedid-2070269664.us-east-1.elb.amazonaws.com
@@ -27639,6 +27645,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d3oy68whu51rnt.cloudfront.net
 0.0.0.0 d3qz0rrtpnddkp.cloudfront.net # Gamespot.com
 0.0.0.0 d3sai2k6w952qd.cloudfront.net
+0.0.0.0 d3sdfpysdncs72.cloudfront.net
 0.0.0.0 d3t3z4teexdk2r.cloudfront.net
 0.0.0.0 d3t5ngjixpjdho.cloudfront.net
 0.0.0.0 d3t87ooo0697p8.cloudfront.net
@@ -27829,13 +27836,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 settings-prod-neu-1.northeurope.cloudapp.azure.com
 
 # NCSI - Callbacks Nettzwerkverbindungsanzeige
-0.0.0.0 dns.msftncsi.com
-0.0.0.0 iana.org
-0.0.0.0 example.org
-0.0.0.0 ipv4only.arpa
 0.0.0.0 client.wns.windows.com
-0.0.0.0 www.msftconnecttest.com # /connecttest.txt
+0.0.0.0 dns.msftncsi.com
+0.0.0.0 example.org
+0.0.0.0 iana.org
+0.0.0.0 ipv4only.arpa
 0.0.0.0 ipv6.msftconnecttest.com # /connecttest.txt
+0.0.0.0 ipv6.msftncsi.com # Empty DNS Response
+0.0.0.0 www.msftconnecttest.com # /connecttest.txt
+0.0.0.0 www.msftncsi.com
 
 # Communication App
 0.0.0.0 sn2.settings.data.microsoft.com.akadns.net
@@ -28877,7 +28886,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pf2am3.activity.windows.com.akadns.net
 0.0.0.0 pre.footprintpredict.com
 0.0.0.0 prod.client.wosc.services.microsoft.com
-0.0.0.0 pti.store.microsoft.com # Geräteregistrierung verweist auf dp5.wns.*
+0.0.0.0 pti.store.microsoft.com # Empty DNS Response
 0.0.0.0 reports.wes.df.telemetry.microsoft.com
 0.0.0.0 ris-prod.trafficmanager.net
 0.0.0.0 settingsfd-prod-dub01-endpoint.trafficmanager.net
@@ -30136,7 +30145,7 @@ ff02::3 ip6-allhosts
 # 52.48.45.48
 0.0.0.0 target.microsoft.com
 # 13.107.246.10
-0.0.0.0 wcpstatic.microsoft.com
+#0.0.0.0 wcpstatic.microsoft.com # Necessary Website Consent for Downloads Visual Studio
 # 104.119.109.218
 # 2a02:26f0:1700:1b8::356e
 #0.0.0.0 www.microsoft.com
@@ -30426,7 +30435,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 passwordsleakcheck-pa.googleapis.com
 0.0.0.0 prod-classifyclient.normandy.prod.cloudops.mozgcp.net
 0.0.0.0 prod.ads.prod.webservices.mozgcp.net
-0.0.0.0 prod.classify-client.prod.webservices.mozgcp.net
+0.0.0.0 prod.classify-client.prod.webservices.mozgcp.net # Empty DNS Response
 0.0.0.0 prod.content-signature-chains.prod.webservices.mozgcp.net
 0.0.0.0 prod.detectportal.prod.cloudops.mozgcp.net
 0.0.0.0 push.services.mozilla.com
@@ -31435,10 +31444,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 entualkenti.buzz
 0.0.0.0 familysareascompany.buzz
 0.0.0.0 gcouncer.buzz
+0.0.0.0 hpnkctxx.buzz
 0.0.0.0 hzquq.ewoverth.buzz
 0.0.0.0 ismscold.buzz
 0.0.0.0 jilorunmy.buzz
 0.0.0.0 lustgoddessthegame.buzz
+0.0.0.0 lvlhmjerf.buzz
 0.0.0.0 mvmph.wukbgater.buzz
 0.0.0.0 mworkh.buzz
 0.0.0.0 ndbriolenproc.buzz
@@ -31454,8 +31465,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 statesongsexactlys.buzz
 0.0.0.0 theappyrinc.buzz
 0.0.0.0 theharityhild.buzz
-0.0.0.0 www.zap.buzz
 0.0.0.0 whcrc.sweredth.buzz
+0.0.0.0 www.zap.buzz
 0.0.0.0 zap.buzz
 # CA
 0.0.0.0 adserver.pressboard.ca
@@ -31530,6 +31541,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 brfdkk45tf.click
 0.0.0.0 ceveq.click
 0.0.0.0 e346ab6c68.click
+0.0.0.0 financialforecast.click
 0.0.0.0 live.ravelin.click
 0.0.0.0 spadirect.click
 0.0.0.0 z.cpng.click
@@ -32069,6 +32081,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 little-flower-d8af.torrentfreak.workers.dev
 0.0.0.0 performante.revcontent.dev
 0.0.0.0 westats.dev
+# DIGITAL
+0.0.0.0 eu.messenger-notify.digital
+0.0.0.0 quadref.digital
 # DK
 0.0.0.0 blinn.beredskabdanmark.dk
 0.0.0.0 navas.yoga-aabenraa.dk
@@ -32902,6 +32917,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 toiletpaper.life
 0.0.0.0 video.chocobabe.live
 0.0.0.0 web.spacethenear.live
+0.0.0.0 webdaily.live
 0.0.0.0 websecured.live
 0.0.0.0 wholebankcottonpress.live
 0.0.0.0 wirebasicexcite-5.live
@@ -33040,6 +33056,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.avads.net
 0.0.0.0 adsninjacdn.b-cdn.net
 0.0.0.0 adswizz.podigee-cdn.net
+0.0.0.0 adv.clickadu.net
 0.0.0.0 adventurefeeds.xml.ak-is2.net
 0.0.0.0 advertisement.b-cdn.net # bunny.net
 0.0.0.0 aefd.nelreports.net
@@ -33316,6 +33333,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ogffa.net
 0.0.0.0 ogfna.net
 0.0.0.0 onatsoas.net
+0.0.0.0 oomaugnaps.net
 0.0.0.0 oomsoapt.net
 0.0.0.0 openstat.net
 0.0.0.0 ossmightyenar.net
@@ -33414,6 +33432,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 soumehoo.net
 0.0.0.0 spire.aarki.net
 0.0.0.0 spoprod-a.akamaihd.net
+0.0.0.0 spuppeh.net
 0.0.0.0 srv.carbonads.net
 0.0.0.0 srv1.aaacompany.net
 0.0.0.0 srv2.trafficgate.net
@@ -33456,6 +33475,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tr.migite.net
 0.0.0.0 track.analitycs.net
 0.0.0.0 track.cj.akadns.net
+0.0.0.0 track.eavefrom.net
 0.0.0.0 tracker-shr.ortb.net
 0.0.0.0 tracker.euroweb.net
 0.0.0.0 tracking24.net
@@ -33637,7 +33657,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 csgo-pattern.lebanontourism.org
 0.0.0.0 currency.prebid.org
 0.0.0.0 cyber-crime-fbi.org
-0.0.0.0 datatracker.ietf.org
 0.0.0.0 eakelandorders.org
 0.0.0.0 events.tubecup.org
 0.0.0.0 fbifrauddepartment.org
@@ -33789,6 +33808,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 vanderlisten.pro
 0.0.0.0 washimmuchtitfa.pro
 0.0.0.0 wasshoneaningar.pro
+0.0.0.0 weird-speed.pro
 0.0.0.0 whamukoji.pro
 0.0.0.0 wilwasharrabred.pro
 0.0.0.0 www.awfulmorning.pro
@@ -33796,6 +33816,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.classicguarantee.pro
 0.0.0.0 www.negative-speed.pro
 0.0.0.0 www.newcategory.pro
+0.0.0.0 www.pointlessplan.pro
 0.0.0.0 www.productive-chemical.pro
 0.0.0.0 www.quintessential-telephone.pro
 0.0.0.0 www.reberr.pro
@@ -33921,6 +33942,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dvw22rk.c2dat.shop
 0.0.0.0 jumpsite.shop
 0.0.0.0 jurantsepinine.shop
+0.0.0.0 milta.shop
 0.0.0.0 ncecafvdeu.shop
 0.0.0.0 nl.almagrabalkish.shop
 0.0.0.0 sparredcubans.shop
@@ -34638,7 +34660,7 @@ ff02::3 ip6-allhosts
 
 # Consentmanager.net
 #0.0.0.0 a.delivery.consentmanager.net
-0.0.0.0 b.delivery.consentmanager.net
+#0.0.0.0 b.delivery.consentmanager.net
 #0.0.0.0 cdn.consentmanager.net
 #0.0.0.0 delivery.consentmanager.net
 
@@ -36077,6 +36099,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 clarity-ingest-eus-c-sc.eastus.cloudapp.azure.com
 0.0.0.0 clarity-ingest-eus2-sc.eastus2.cloudapp.azure.com
 0.0.0.0 claspedtwelve.com
+0.0.0.0 classmatedischargedinnumerable.com
 0.0.0.0 clck.littlecdn.com
 0.0.0.0 clckreceiver.com
 0.0.0.0 cldloadz.com
@@ -36508,6 +36531,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 edge12-gru.live.mmcdn.com
 0.0.0.0 edge2-alb.stream.highwebmedia.com
 0.0.0.0 edgesecretion.com
+0.0.0.0 edgypollnormandy.com
 0.0.0.0 edgystrangleconcentrate.com
 0.0.0.0 ediatesuperviso.com
 0.0.0.0 edioca.com
@@ -36517,6 +36541,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 eevvhoawzybzpv.com
 0.0.0.0 effaceecho.com
 0.0.0.0 effectivelyreport.com
+0.0.0.0 efficientdescent.com
 0.0.0.0 efreecode.com
 0.0.0.0 egcc918s.com
 0.0.0.0 eggs-content.kinkoid.com
@@ -36566,6 +36591,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 epsilon.6sense.com
 0.0.0.0 epsilon.com
 0.0.0.0 epsupuby.com
+0.0.0.0 eptykginkhrnxx.com
 0.0.0.0 eq.contrapeachen.com
 0.0.0.0 eraltradiansid.com
 0.0.0.0 ercoyintu.com
@@ -36593,7 +36619,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 eu-central-1.qvdt3feo.com
 0.0.0.0 eu-west-1-cs-rtb.openwebmp.com
 0.0.0.0 eu-west-1-production-rtb-wins.digbearings.com
-0.0.0.0 eu.messenger-notify.digital
 0.0.0.0 eu1.wbdds.com
 0.0.0.0 eu2.madsone.com
 0.0.0.0 eulnl.vornz.com
@@ -36628,6 +36653,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 exityield.advertise.com
 0.0.0.0 exoticads.com
 0.0.0.0 experience.tinypass.com
+0.0.0.0 experttrafficcounter.com
 0.0.0.0 experttrafficmonitor.com
 0.0.0.0 exploitedteens.com
 0.0.0.0 exportspring.com
@@ -37013,6 +37039,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hello.fuckbooksite.com
 0.0.0.0 helltraffic.com
 0.0.0.0 hemicalcov.com
+0.0.0.0 hengradualtroops.com
 0.0.0.0 hentaifap.land
 0.0.0.0 hentaiheroes.com
 0.0.0.0 hentaiplaytime.com
@@ -37093,6 +37120,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 icinyex.thefaceduck.com
 0.0.0.0 iclickcdn.com
 0.0.0.0 ico.minently.com
+0.0.0.0 icon.dt.bmndx.com
 0.0.0.0 icosiomewpgnmdn.com
 0.0.0.0 icycorrection.com
 0.0.0.0 id.a-mx.com
@@ -37200,6 +37228,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 irblue.ml
 0.0.0.0 irdetocsp.report-uri.com
 0.0.0.0 iremukentsiw.com
+0.0.0.0 iringtgandmotiv.com
 0.0.0.0 is.riverisland.com
 0.0.0.0 isanalyze.com # Multi-Cookie
 0.0.0.0 isolatedovercomepasted.com
@@ -37305,6 +37334,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 kapotlyka.com
 0.0.0.0 katie.trktnc.com
 0.0.0.0 kayakm.comm
+0.0.0.0 kdmyatytentionia.com
 0.0.0.0 kelpmetorealiuk.com
 0.0.0.0 kerumal.com
 0.0.0.0 kesimon.com
@@ -37398,6 +37428,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 livepixel-production.bln.liveintent.com
 0.0.0.0 liveramp.com
 0.0.0.0 livetracker.voa.pangea-cms.com
+0.0.0.0 ll8kx.bemobpath.com
 0.0.0.0 llahnch259.com
 0.0.0.0 lmbf88.hypertrackeraff.com
 0.0.0.0 lmn-pou-win.com
@@ -37747,6 +37778,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 o.shoksips.com
 0.0.0.0 o.totalbeststories.com
 0.0.0.0 o.totaltopwords.com
+0.0.0.0 oabaubsutha.com
 0.0.0.0 oazznjmbchmpdg.com
 0.0.0.0 ob.cheqzone.com
 0.0.0.0 obituaryfuneral.com
@@ -37830,6 +37862,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 oskar.themuse.com
 0.0.0.0 ossgogoaton.com
 0.0.0.0 otnolatrnup.com
+0.0.0.0 otoadom.com
 0.0.0.0 oulsools.com
 0.0.0.0 oulukdltobepa.com
 0.0.0.0 ourcommonnews.com
@@ -38186,6 +38219,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 questioningexperimental.com
 0.0.0.0 quick-speedtest.com
 0.0.0.0 qvdt3feo.com
+0.0.0.0 qwcxilnoj.com
 0.0.0.0 qzaoltruzfus.com
 0.0.0.0 r.254a.com
 0.0.0.0 r.cdnpure.com
@@ -38213,6 +38247,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rapi.walkme.com
 0.0.0.0 rartobrk.com
 0.0.0.0 rashbarnabas.com
+0.0.0.0 rd.tk.gaming-adult.com
 0.0.0.0 rddywd.com
 0.0.0.0 rdtrck2.com
 0.0.0.0 re49vdpgg5.com
@@ -38224,6 +38259,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 recastcompellease.com
 0.0.0.0 receleges-illoffee.com
 0.0.0.0 recentphenomenon.com
+0.0.0.0 recessionspeaksanybody.com
 0.0.0.0 reclinepersuadedraven.com
 0.0.0.0 recommendedchain.com
 0.0.0.0 recommender.scarabresearch.com
@@ -38254,6 +38290,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 requestingreview.com
 0.0.0.0 requiresfamoushometown.com
 0.0.0.0 resalag.com
+0.0.0.0 rescueaccredited.com
 0.0.0.0 research-your-profit1.com
 0.0.0.0 resistshy.com
 0.0.0.0 resize.mantisadnetwork.com
@@ -38383,6 +38420,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sankakucomplex.com
 0.0.0.0 santonpardal.com
 0.0.0.0 santosattestation.com
+0.0.0.0 saptiledispatch.com
 0.0.0.0 saptorge.com
 0.0.0.0 sasinator.realestate.com.au
 0.0.0.0 sasogkbirr.com
@@ -38696,6 +38734,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 storage.mbidstorage.com
 0.0.0.0 storage.multstorage.com # Counter
 0.0.0.0 stovecharacterize.com
+0.0.0.0 stptrk.com
 0.0.0.0 stray228.com
 0.0.0.0 stream.playbuzz.com # Adwords
 0.0.0.0 stretchsquirrel.com
@@ -38721,6 +38760,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 surrogatelithe.com
 0.0.0.0 surroundingsliftingstubborn.com
 0.0.0.0 survey.survicate.com
+0.0.0.0 sutean.com
 0.0.0.0 svc-stats.linkury.com
 0.0.0.0 svibeacon.onezapp.com
 0.0.0.0 swallowcrockerybless.com
@@ -39341,6 +39381,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wholenicenews.com
 0.0.0.0 wholesomehealthshop.com
 0.0.0.0 wholewowblog.com
+0.0.0.0 whouseem.com
 0.0.0.0 widget-api.jobbio.com
 0.0.0.0 widget.cdn.vidyome.com
 0.0.0.0 widget.engageya.com
@@ -40155,7 +40196,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 geo.battle.net # Geodaten
 # 142.250.185.142
 # 172.217.16.206
-0.0.0.0 dl.google.com
+#0.0.0.0 dl.google.com
 # 24.105.29.76
 0.0.0.0 telemetry-in.battle.net
 # 37.244.28.30
@@ -40779,32 +40820,40 @@ ff02::3 ip6-allhosts
 # Rockstar Games, Inc.
 # Rockstar Games Launcher
 # Games Launcher, Social Club UI & Launcher Patcher
-#0.0.0.0 scui.rockstargames.com
-#0.0.0.0 rgl.rockstargames.com
-#0.0.0.0 rgl-prod.ros.rockstargames.com
-#0.0.0.0 gamedownloads-rockstargames-com.akamaized.net
-#0.0.0.0 auth-prod.ros.rockstargames.com
-#0.0.0.0 auth-rgl-prod.ros.rockstargames.com
-#0.0.0.0 prod.ros.rockstargames.com
-#0.0.0.0 prod.cloud.rockstargames.com
 #0.0.0.0 gamedownloads.rockstargames.com
+#0.0.0.0 gamedownloads-rockstargames-com.akamaized.net
+#0.0.0.0 rgl.rockstargames.com
 0.0.0.0 www.googletagmanager.com
+0.0.0.0 region1.google-analytics.com
 0.0.0.0 o432808.ingest.sentry.io
-0.0.0.0 www.google-analytics.com
-0.0.0.0 stats.g.doubleclick.net
-#0.0.0.0 a.rsg.sc
-#0.0.0.0 s.rsg.sc
+0.0.0.0 csp.withgoogle.com
 #0.0.0.0 recaptcha.net
-#0.0.0.0 rockstar-api.arkoselabs.com
-0.0.0.0 prs-rgl-prod.ros.rockstargames.com
-0.0.0.0 ps-rgl-prod.ros.rockstargames.com
-0.0.0.0 tm-rgl-prod.ros.rockstargames.com
-0.0.0.0 rsgames.s.llnwi.net
-#0.0.0.0 e6913.dscx.akamaiedge.net # ocsp.entrust.net
-0.0.0.0 e8290.dscd.akamaiedge.net
-# Cloudsync
+#0.0.0.0 www.gstatic.com
+#0.0.0.0 fonts.gstatic.com
+#0.0.0.0 update.googleapis.com
+#0.0.0.0 ocsp.digicert.com
+0.0.0.0 csp.withgoogle.com
+#0.0.0.0 rgl-prod.ros.rockstargames.com
+#0.0.0.0 scui.rockstargames.com
+#0.0.0.0 s.rsg.sc
 #0.0.0.0 app-rgl-prod.ros.rockstargames.com
-#0.0.0.0 cs-rgl-prod.ros.rockstargames.com
+#0.0.0.0 prod-avatars.akamaized.net
+0.0.0.0 prod.cloud.rockstargames.com
+#0.0.0.0 a23-50-131-73.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-50-131-82.deploy.static.akamaitechnologies.com
+#0.0.0.0 a104-102-37-172.deploy.static.akamaitechnologies.com
+0.0.0.0 249.195.120.34.bc.googleusercontent.com
+0.0.0.0 fra16s65-in-f8.1e100.net
+#0.0.0.0 fra16s51-in-f3.1e100.net
+#0.0.0.0 fra24s05-in-f3.1e100.net
+#0.0.0.0 fra16s49-in-f3.1e100.net
+#0.0.0.0 fra16s08-in-f195.1e100.net
+#0.0.0.0 a184-30-131-245.deploy.static.akamaitechnologies.com
+#0.0.0.0 zrh04s05-in-f113.1e100.net
+#0.0.0.0 a23-201-254-175.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-50-131-87.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-50-131-89.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-215-19-173.deploy.static.akamaitechnologies.com
 
 # Ubisoft Entertainment SA
 # Ubisoft Connect | UPlay
@@ -43509,7 +43558,7 @@ Ghostrunner 2
 #0.0.0.0 pfmsqosprod1-0.japanwest.cloudapp.azure.com
 # Endpunkte
 #0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
-#0.0.0.0 tts-ingress-prod-speech2-ame8-usw.westus.cloudapp.azure.com
+0.0.0.0 tts-ingress-prod-speech2-ame8-usw.westus.cloudapp.azure.com
 
 # The Hunter: Primal
 # 172.217.168.234
@@ -45444,10 +45493,6 @@ Ghostrunner 2
 #0.0.0.0 auth.gog.com
 #0.0.0.0 users.gog.com
 #0.0.0.0 ocsp.digicert.com
-
-# Charles University und Czech Academy of Sciences
-# Attentat 1942
-0.0.0.0 airdownload2.adobe.com
 
 # Charyb Games
 # Take Thy Throne
@@ -56317,16 +56362,7 @@ Ghostrunner 2
 
 # Rockstar Games
 # Grand Theft Auto IV
-# SecuROM s. Rubrik Kopierschutz / AntiCheat
-# 34.251.133.206
-# 54.194.81.177
-# 104.69.249.194
-# 23.0.47.140
-# 52.43.12.129
-#0.0.0.0 go.microsoft.com
-#0.0.0.0 ocsp.entrust.net
-0.0.0.0 tv.rockstargames.com
-#0.0.0.0 www.rockstargames.com
+# See Rockstar Games Launcher - The game has been fully integrated into the Rockstar Games Launcher and takes over its connections.
 
 # Grand Theft Auto V
 # Rockstar Launcher
@@ -57535,13 +57571,6 @@ Ghostrunner 2
 # 47.93.244.219
 0.0.0.0 94d63cbf92082237b86267ffd4cacc64.cloudfront.net
 
-# Shanghai JingCai Computer Software Development Co., Ltd
-# Metal Waltz: Anime tank girls
-# 54.250.239.190
-#0.0.0.0 steamhkver.metalwaltz.com
-#0.0.0.0 jpdouj.metalwaltz.com
-#0.0.0.0 steammima.metalwaltz.com
-
 # Sharkmob AB
 # Vampire: The Masquerade - Bloodhunt
 # 3.233.86.120
@@ -57950,6 +57979,14 @@ Ghostrunner 2
 0.0.0.0 sqm.woniu.com # Telemetrie
 0.0.0.0 crashlogs.woniu.com # Crashlytics
 
+# Snapbreak Games AB
+# Boxes: Lost Fragments
+# Steam Datagram Relay
+0.0.0.0 collect.analytics.unity3d.com
+0.0.0.0 operate-sdk-telemetry.unity3d.com
+0.0.0.0 148.113.96.34.bc.googleusercontent.com
+0.0.0.0 34.214.149.34.bc.googleusercontent.com
+
 # PixARK
 #0.0.0.0 pihark-up.woniu.com # Zertifikat
 #0.0.0.0 arkdedicated.com # Meldung Serverstatus, Ingamenews
@@ -58086,6 +58123,7 @@ Ghostrunner 2
 # Ip/s blockieren:
 # 34.111.113.40
 # 34.107.172.168
+#0.0.0.0 ns.exitgames.com
 0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
@@ -60373,12 +60411,10 @@ Ghostrunner 2
 0.0.0.0 duxsites-trendy-assets.s3.amazonaws.com
 #0.0.0.0 ddcloudfs.cloudapp.net
 
-# Trese Brothers
+# Trese Brothers LLC
 # Star Traders: Frontiers
-# 172.217.168.46
 0.0.0.0 www.google-analytics.com
-0.0.0.0 www-google-analytics.l.google.com
-0.0.0.0 zrh04s14-in-f14.1e100.net
+0.0.0.0 csp.withgoogle.com
 
 # Trichotomy
 # Dog Sled Saga
@@ -61832,8 +61868,12 @@ Ghostrunner 2
 #0.0.0.0 gamelift.ap-southeast-2.amazonaws.com
 #0.0.0.0 e10884.dsca.akamaiedge.net
 
-# Magic 2014 — Duels of the Planeswalkers
-#0.0.0.0 dotp.onlinegaming.wizards.com
+# Magic 2014
+0.0.0.0 dotp.onlinegaming.wizards.com # Empty DNS Response
+#0.0.0.0 avatars.steamstatic.com
+0.0.0.0 crash.steampowered.com
+0.0.0.0 collector-02.valve.net
+0.0.0.0 collector-01.valve.net
 
 # Magic 2015 - Duels of the Planeswalkers
 #0.0.0.0 dotp.onlinegaming.wizards.com
@@ -61876,6 +61916,20 @@ Ghostrunner 2
 # Wube Software LTD.
 # Factorio
 #0.0.0.0 auth.factorio.com # Accountschnittstelle
+
+# WuL Game Studio
+# Metal Waltz: Anime tank girls
+#0.0.0.0 mwpatch.metalwaltz.com
+#0.0.0.0 fcmyemu.metalwaltz.com
+#0.0.0.0 tkver.metalwaltz.com
+#0.0.0.0 steamversion.metalwaltz.com
+#0.0.0.0 steamdouj.metalwaltz.com
+#0.0.0.0 ssltndpayst.metalwaltz.com
+#0.0.0.0 ec2-54-250-239-190.ap-northeast-1.compute.amazonaws.com
+#0.0.0.0 ec2-54-169-167-235.ap-southeast-1.compute.amazonaws.com
+#0.0.0.0 ec2-54-242-218-25.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-199-144-160.ap-northeast-1.compute.amazonaws.com
+#0.0.0.0 ec2-54-93-200-178.eu-central-1.compute.amazonaws.com
 
 # WySix
 # Paint Skills
