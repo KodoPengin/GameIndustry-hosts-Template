@@ -10,7 +10,7 @@
 #
 # Version: Template für Spieleclients und Spiele
 # Version: Template for game clients and games
-# Change/Datum: 23.02.2025
+# Change/Datum: 05.03.2025
 #
 # Weitere und aktuelle Spiele sind auf der Website zu finden.
 # More and current games can be found on the website.
@@ -697,40 +697,46 @@ ff02::3 ip6-allhosts
 # Rockstar Games, Inc.
 # Rockstar Games Launcher
 # Games Launcher, Social Club UI & Launcher Patcher
-#0.0.0.0 gamedownloads.rockstargames.com
-#0.0.0.0 gamedownloads-rockstargames-com.akamaized.net
-#0.0.0.0 rgl.rockstargames.com
+#0.0.0.0 s.rsg.sc # PNG, Watermark
+#0.0.0.0 scui.rockstargames.com # Mandatory Analytics, Playerprofile
+0.0.0.0 tm-rgl-prod.ros.rockstargames.com
+0.0.0.0 www.datadoghq-browser-agent.com
 0.0.0.0 www.googletagmanager.com
-0.0.0.0 region1.google-analytics.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 csp.withgoogle.com
 0.0.0.0 o432808.ingest.sentry.io
-0.0.0.0 csp.withgoogle.com
-#0.0.0.0 recaptcha.net
+0.0.0.0 geolocation.onetrust.com
+0.0.0.0 privacyportal.onetrust.com
+#0.0.0.0 signin.rockstargames.com
+#0.0.0.0 cdn.cookielaw.org
 #0.0.0.0 www.gstatic.com
+#0.0.0.0 recaptcha.net
 #0.0.0.0 fonts.gstatic.com
-#0.0.0.0 update.googleapis.com
-#0.0.0.0 ocsp.digicert.com
-0.0.0.0 csp.withgoogle.com
 #0.0.0.0 rgl-prod.ros.rockstargames.com
-#0.0.0.0 scui.rockstargames.com
-#0.0.0.0 s.rsg.sc
-#0.0.0.0 app-rgl-prod.ros.rockstargames.com
 #0.0.0.0 prod-avatars.akamaized.net
-0.0.0.0 prod.cloud.rockstargames.com
-#0.0.0.0 a23-50-131-73.deploy.static.akamaitechnologies.com
-#0.0.0.0 a23-50-131-82.deploy.static.akamaitechnologies.com
-#0.0.0.0 a104-102-37-172.deploy.static.akamaitechnologies.com
+#0.0.0.0 prs55-prod.ros.rockstargames.com
+#0.0.0.0 prod.rglstore.rockstargames.com
+#0.0.0.0 update.googleapis.com
+#0.0.0.0 auth-rgl-prod.ros.rockstargames.com
+#0.0.0.0 gamedownloads-rockstargames-com.akamaized.net
+#0.0.0.0 js.stripe.com
+#0.0.0.0 m.stripe.com
+#0.0.0.0 avatars.steamstatic.com
+#0.0.0.0 a23-53-40-26.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-53-40-25.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-48-141-21.deploy.static.akamaitechnologies.com
 0.0.0.0 249.195.120.34.bc.googleusercontent.com
-0.0.0.0 fra16s65-in-f8.1e100.net
+#0.0.0.0 server-3-165-206-26.vie50.r.cloudfront.net
+#0.0.0.0 server-3-165-206-24.vie50.r.cloudfront.net
+#0.0.0.0 server-3-165-206-116.vie50.r.cloudfront.net
+#0.0.0.0 server-3-165-206-107.vie50.r.cloudfront.net
+0.0.0.0 fra16s51-in-f8.1e100.net
+#0.0.0.0 fra24s04-in-f3.1e100.net
+#0.0.0.0 fra16s08-in-f3.1e100.net
 #0.0.0.0 fra16s51-in-f3.1e100.net
-#0.0.0.0 fra24s05-in-f3.1e100.net
-#0.0.0.0 fra16s49-in-f3.1e100.net
-#0.0.0.0 fra16s08-in-f195.1e100.net
-#0.0.0.0 a184-30-131-245.deploy.static.akamaitechnologies.com
-#0.0.0.0 zrh04s05-in-f113.1e100.net
-#0.0.0.0 a23-201-254-175.deploy.static.akamaitechnologies.com
-#0.0.0.0 a23-50-131-87.deploy.static.akamaitechnologies.com
-#0.0.0.0 a23-50-131-89.deploy.static.akamaitechnologies.com
-#0.0.0.0 a23-215-19-173.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-53-40-57.deploy.static.akamaitechnologies.com
+#0.0.0.0 a23-53-40-59.deploy.static.akamaitechnologies.com
+0.0.0.0 server-13-32-1-191.vie50.r.cloudfront.net
 
 # Ubisoft Entertainment SA
 # Ubisoft Connect | UPlay
@@ -5061,6 +5067,8 @@ Ghostrunner 2
 # Crashpad Analytics
 
 # CAPCOM Co., Ltd.
+# F.A.Q.: https://gameindustry.eu/faq/ga/#Capcom
+
 # モンスターハンター：ワールド | MONSTER HUNTER: WORLD + Iceborne DLC
 # 13.225.78.78
 # 13.225.78.81
@@ -16238,8 +16246,7 @@ Ghostrunner 2
 0.0.0.0 a1737.b.akamai.net
 
 # Rockstar Games
-# Grand Theft Auto IV
-# See Rockstar Games Launcher - The game has been fully integrated into the Rockstar Games Launcher and takes over its connections.
+# Info: Rockstar products are GAAS - Connections of the Rockstar Games Launcher are adopted for all products.
 
 # Grand Theft Auto V
 # Rockstar Launcher
@@ -16266,6 +16273,21 @@ Ghostrunner 2
 #0.0.0.0 prod.p01ams.pod.rockstargames.com
 0.0.0.0 prod.telemetry.ros.rockstargames.com
 #0.0.0.0 prod.realtimevc.ros.rockstargames.com
+
+# Grand Theft Auto V Enhanced
+0.0.0.0 ngx.download.nvidia.com
+0.0.0.0 tm-gta5-prod.ros.rockstargames.com
+#0.0.0.0 prod.cloud.rockstargames.com
+#0.0.0.0 prod.ros.rockstargames.com # Ratelimit, Friends
+#0.0.0.0 ps-gta5-prod.ros.rockstargames.com
+#0.0.0.0 prod-core.ros.rockstargames.com
+#0.0.0.0 api.steampowered.com
+#0.0.0.0 cdn.steamstatic.com
+#0.0.0.0 cs-gta5-prod.ros.rockstargames.com # Saves
+#0.0.0.0 prs-rgl-prod.ros.rockstargames.com
+#0.0.0.0 ugc-gta5-prod.ros.rockstargames.com
+#0.0.0.0 feed-gta5-prod.ros.rockstargames.com
+#0.0.0.0 conductor-prod.ros.rockstargames.com
 
 # Red Dead Redemption 2
 #0.0.0.0 amspdc4-web3-rdr2-prod.ros.rockstargames.com
@@ -22437,7 +22459,7 @@ Ghostrunner 2
 
 # Zoo Corporation
 # Princess Kaguya: Legend of the Moon Warrior
-0.0.0.0 stats.unity3d.com # Obsolete / Inaktiv
+0.0.0.0 stats.unity3d.com # Empty DNS Response
 
 # ZoopTEK
 # Super Cat Herding: Totally Awesome Edition
