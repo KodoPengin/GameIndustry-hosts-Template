@@ -26137,6 +26137,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 myaccount.google.com
 
 # Google Adservices.com
+0.0.0.0 ads.google.com
 0.0.0.0 adservice.google.co.in
 0.0.0.0 adservice.google.co.jp
 0.0.0.0 adservice.google.co.uk
@@ -30444,6 +30445,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 content-signature-2.cdn.mozilla.net
 0.0.0.0 contile.services.mozilla.com
 0.0.0.0 detectportal.firefox.com # IPV6/4 Captive & Canonical
+0.0.0.0 firefox-api-proxy.cdn.mozilla.net # Recommendations
 0.0.0.0 firefox-settings-attachments.cdn.mozilla.net
 0.0.0.0 firefox.settings.services.mozilla.com
 0.0.0.0 fundingchoicesmessages.google.com
@@ -32117,6 +32119,10 @@ ff02::3 ip6-allhosts
 # EE
 0.0.0.0 api.linktr.ee
 0.0.0.0 ingress.linktr.ee
+0.0.0.0 kampaaniad.optibet.ee
+0.0.0.0 welcome.unibet.ee
+0.0.0.0 www.olybet.ee
+0.0.0.0 www.unibet.ee
 # ES
 0.0.0.0 dummermuth.yarqtec.es
 0.0.0.0 fernandoyasociados.es
@@ -33404,7 +33410,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 prod.taboola.map.fastly.net
 0.0.0.0 psootchu.net
 0.0.0.0 pt.dwcdn.net
+0.0.0.0 ptichoolsougn.net
 0.0.0.0 ptoumsid.net
+0.0.0.0 pubads.g.doubleclick.uk.net
 0.0.0.0 push-sdk.net
 0.0.0.0 px.adhigh.net
 0.0.0.0 px.owneriq.net
@@ -33851,6 +33859,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.awfulmorning.pro
 0.0.0.0 www.boringoccasion.pro
 0.0.0.0 www.classicguarantee.pro
+0.0.0.0 www.jaded-spell.pro
 0.0.0.0 www.negative-speed.pro
 0.0.0.0 www.newcategory.pro
 0.0.0.0 www.pointlessplan.pro
@@ -34013,6 +34022,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 nietalless.site
 0.0.0.0 nzpttu.dynamodb8581.site
 0.0.0.0 okaido.site
+0.0.0.0 online-hd.amazingcontent.site
 0.0.0.0 op.cryptobrowser.site
 0.0.0.0 paowlw.workouts7555.site
 0.0.0.0 providentsopport.site
@@ -34308,6 +34318,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 olderlying.website
 0.0.0.0 smart-service-optimise.website
 0.0.0.0 weodp.misrepress.website
+# WIN
+0.0.0.0 go.cbro.win
+0.0.0.0 www.empiri.win
+0.0.0.0 www.freevpn.win
+0.0.0.0 www.offerformediaservices.win
+0.0.0.0 www.startos.win
 # WTF
 0.0.0.0 script.vast.wtf # AdImpression
 0.0.0.0 yare3.yare.wtf
@@ -34740,6 +34756,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 consent.cookiefirst.com
 0.0.0.0 edge.cookiefirst.com
 
+# Cookiepro
+0.0.0.0 cookie-cdn.cookiepro.com
+
 # Gatekeeperconsent
 0.0.0.0 privacy.gatekeeperconsent.com
 0.0.0.0 the.gatekeeperconsent.com
@@ -35149,6 +35168,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 23427cb58c.2e59c3b290.com
 0.0.0.0 263ce1e63f.a6947f0e54.com
 0.0.0.0 26eaafe34dec47878ba763c3b1daf6d5-77ee068b6863.cdn.forter.com
+0.0.0.0 29019087-29384-15175.horonstogly.com
+0.0.0.0 29019087-29384-ex.micerisobane.com
+0.0.0.0 29384.2463april2024.com
 0.0.0.0 2997.thanksgivingdelights.com
 0.0.0.0 2an-hit-ren.com
 0.0.0.0 2aus34sie6po5m.com
@@ -35188,6 +35210,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 517pn6he9p5r.com
 0.0.0.0 517s61.loopanews.com
 0.0.0.0 517s61.reminews.com
+0.0.0.0 52e0ea674a.8e4e948d2f.com
 0.0.0.0 5418.allow-to-continue.com
 0.0.0.0 550b3ikb9j.com
 0.0.0.0 564d28256cddaeba.com
@@ -35414,6 +35437,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adsmansion.com
 0.0.0.0 adsp.i2idata.com
 0.0.0.0 adsplatform.com
+0.0.0.0 adspy.hdthot.com
 0.0.0.0 adsrv.rtbsuperhub.com
 0.0.0.0 adsrv4k.com
 0.0.0.0 adstask.helppng.com
@@ -35822,6 +35846,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 blue.ktla.com
 0.0.0.0 blueswordksh.com
 0.0.0.0 blurbreimbursetrombone.com
+0.0.0.0 bmmads.com
 0.0.0.0 bnc1m.com
 0.0.0.0 bncloudfl.com
 0.0.0.0 bngprm.com
@@ -35902,6 +35927,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 c5.patreon.com
 0.0.0.0 c83de17caf.a8e8c59504.com
 0.0.0.0 c8468c7e4fa35572f4dfd8a23ce2f267.adjns.com
+0.0.0.0 c9c90f0ffa.5fc96ec3c7.com
 0.0.0.0 cab-too-low.com
 0.0.0.0 cache-api.ranker.com
 0.0.0.0 cactus-search.com
@@ -36347,6 +36373,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cubiclerunner.com
 0.0.0.0 cuddlethehyena.com
 0.0.0.0 cuplikenominee.com
+0.0.0.0 curlyluxurypregnancy.com
 0.0.0.0 cushiondrum.com
 0.0.0.0 cute82.com
 0.0.0.0 cutopporting.com
@@ -36547,10 +36574,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 e2ertt.com
 0.0.0.0 e335udnv6drg78b7.com
 0.0.0.0 e3b36d8f06.69de27b955.com
+0.0.0.0 e410f82db5.52588314e4.com
 0.0.0.0 e7393e33565ce805.com
 0.0.0.0 eanddescri.com
 0.0.0.0 earandmarketing.com
 0.0.0.0 earlapspur.com
+0.0.0.0 earringsatisfiedsplice.com
 0.0.0.0 easiesttangle.com
 0.0.0.0 easy-bars.com
 0.0.0.0 easy2cnjuh34jb.com
@@ -37187,6 +37216,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ihzuephjxb.com
 0.0.0.0 ii.alatest.com
 0.0.0.0 ii.woolensulking.com
+0.0.0.0 ileeckut.com
 0.0.0.0 iliketomakingpics.com
 0.0.0.0 ilo134ulih.com
 0.0.0.0 iloptrex.com
@@ -37378,7 +37408,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 k77hof1z7k.com
 0.0.0.0 ka.crypticrallye.com
 0.0.0.0 kadpkyolwc.com
-0.0.0.0 kampaaniad.optibet.ee
 0.0.0.0 kapotlyka.com
 0.0.0.0 katie.trktnc.com
 0.0.0.0 kayakm.comm
@@ -37444,6 +37473,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 latestsocial.com
 0.0.0.0 latinnathathem.com
 0.0.0.0 lazypeacefullyutterly.com
+0.0.0.0 lcdnvulxdqyb.com
 0.0.0.0 lcfeed.com
 0.0.0.0 lciapi.ninthdecimal.com
 0.0.0.0 ldrokcmtkfuem.com
@@ -37839,6 +37869,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 oddheels.com
 0.0.0.0 oeijmacuhisdaix.com
 0.0.0.0 oevll.com
+0.0.0.0 ofcamerupta.com
 0.0.0.0 offer.advotionhot.com
 0.0.0.0 offerentsentedo.com
 0.0.0.0 offergate-software11.com
@@ -38325,6 +38356,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 reewituhinlar.com
 0.0.0.0 refbanners.com
 0.0.0.0 referral.crypto.com
+0.0.0.0 reflectingproject.com
 0.0.0.0 region1.app-measurement.com
 0.0.0.0 regularplants.com
 0.0.0.0 rencessedessations.com
@@ -39051,6 +39083,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tr.snapchat.com
 0.0.0.0 tr.zam.com
 0.0.0.0 tr6.snapchat.com
+0.0.0.0 traatcamjwra.com
 0.0.0.0 track-api.klickly.com
 0.0.0.0 track-ext.solidgate.com
 0.0.0.0 track.activemetering.com
@@ -39181,6 +39214,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 twinrdsyn.com
 0.0.0.0 twinrdsyte.com
 0.0.0.0 twistconcept.com
+0.0.0.0 txeunxbiuvi.com
 0.0.0.0 typerealisepredict.com
 0.0.0.0 tyxznbghnfkvb.com
 0.0.0.0 tzegilo.com
@@ -39289,6 +39323,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.geekestoot.com
 0.0.0.0 v.shoksips.com
 0.0.0.0 v.totalbeststories.com
+0.0.0.0 v.vfgta.com
 0.0.0.0 v2.skeettools.com
 0.0.0.0 v2l.ccdnss.com
 0.0.0.0 v3.traincdn.com
@@ -39416,7 +39451,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 wegjfleiohb.com
 0.0.0.0 weimar-powder.com
 0.0.0.0 wekomix.com
-0.0.0.0 welcome.unibet.ee
 0.0.0.0 welfarefit.com
 0.0.0.0 weshareabundance.com
 0.0.0.0 wetlinepursuing.com
@@ -39512,6 +39546,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.adultd8.com
 0.0.0.0 www.adultdates.com
 0.0.0.0 www.advinapps.com
+0.0.0.0 www.advp1.com
 0.0.0.0 www.affiliategroove.com
 0.0.0.0 www.afgtrwd1.com
 0.0.0.0 www.ahqpqpdjpj.com
@@ -39575,7 +39610,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.downloadoperagx.com
 0.0.0.0 www.dwin2.com
 0.0.0.0 www.easyprofitclub.com
-0.0.0.0 www.empiri.win
 0.0.0.0 www.en.advertisercommunity.com
 0.0.0.0 www.enewsgossip.com
 0.0.0.0 www.epicurious.com
@@ -39584,7 +39618,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.ex-challenge.com # THK Analytics
 0.0.0.0 www.fatrvclgpnb.com
 0.0.0.0 www.fnkyyrgraizy.com
-0.0.0.0 www.freevpn.win
 0.0.0.0 www.friendlyduck.com
 0.0.0.0 www.frulednulx.com
 0.0.0.0 www.gaming-adult.com
@@ -39666,9 +39699,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.nextfable.com
 0.0.0.0 www.ntqtvdlnzhkoc.com
 0.0.0.0 www.nygvejyn.com
-0.0.0.0 www.offerformediaservices.win
 0.0.0.0 www.olkrzytv.com
-0.0.0.0 www.olybet.ee
 0.0.0.0 www.omqygrfokyxg.com
 0.0.0.0 www.onclickalgo.com
 0.0.0.0 www.onclicksuper.com
@@ -39727,7 +39758,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.srmdata-eur.com
 0.0.0.0 www.srmdata.com
 0.0.0.0 www.stargames.com
-0.0.0.0 www.startos.win
 0.0.0.0 www.statisgeek.com
 0.0.0.0 www.statsforads.com
 0.0.0.0 www.steepto.com
@@ -39756,7 +39786,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tubzmfmqovh.com
 0.0.0.0 www.ucxfdvhuqwpig.com
 0.0.0.0 www.ueuodgnrhb.com
-0.0.0.0 www.unibet.ee
 0.0.0.0 www.unineed.com
 0.0.0.0 www.updatesoftomorrow.com
 0.0.0.0 www.vanityfair.com
@@ -39933,6 +39962,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 z9v5j9a5.stackpathcdn.com
 0.0.0.0 zaf.services.zam.com
 0.0.0.0 zaglushkaaa.com
+0.0.0.0 zazporn.com
 0.0.0.0 zb.rafikfangas.com
 0.0.0.0 zdravselhoz.com
 0.0.0.0 zdstatic.toolbox.com # Ziff Davis
