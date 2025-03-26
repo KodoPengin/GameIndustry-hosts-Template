@@ -10,7 +10,7 @@
 #
 # Version: Template für Spieleclients und Spiele
 # Version: Template for game clients and games
-# Change/Datum: 05.03.2025
+# Change/Datum: 26.03.2025
 #
 # Weitere und aktuelle Spiele sind auf der Website zu finden.
 # More and current games can be found on the website.
@@ -462,215 +462,48 @@ ff02::3 ip6-allhosts
 
 # Epic Games, Inc.
 # Epic Games Launcher
-# Angaben zum Epic Games Launcher sind nicht komplett und stellen nur einen Teilauszug der getätigten Verbindungen dar
-# Achtung! Zur Anmeldung wird einmalig die tracking.epicgames.com benötigt - Den Analyticszwang gab es in Vorgängerversionen noch nicht
-# 54.159.7.98
-# 3.211.138.87
-# 52.22.227.150
-# 50.16.103.4
-# 46.51.241.187
-# 198.217.251.251
-# 34.234.9.227
-# 65.9.83.39
-#0.0.0.0 lightswitch-public-service-prod06.ol.epicgames.com
-#0.0.0.0 priceengine-public-service-ecomprod01.ol.epicgames.com
+#0.0.0.0 account-public-service-prod.ak.epicgames.com
 #0.0.0.0 account-public-service-prod03.ol.epicgames.com
-#0.0.0.0 launcher-public-service-prod06.ol.epicgames.com
-#0.0.0.0 catalog-public-service-prod06.ol.epicgames.com
-#0.0.0.0 entitlement-public-service-prod08.ol.epicgames.com
-#0.0.0.0 epicgames-download1.akamaized.net
-#0.0.0.0 epicgames.com # Login
-#0.0.0.0 www.unrealengine.com
-#0.0.0.0 eulatracking-public-service-prod06.ol.epicgames.com
-#0.0.0.0 qos1.ol.epicgames.com
-0.0.0.0 qos2.ol.epicgames.com
-0.0.0.0 qos3.ol.epicgames.com
-0.0.0.0 qos4.ol.epicgames.com
-#0.0.0.0 songbird.cardinalcommerce.com
-0.0.0.0 merchantpool1.epicgames.com # Angeschlossen an Microsoft Dynamics 365 Fraud Protection
-# Bei neueren Titeln ist die API mit Telemetrie und Onlinezwang in Spielen verknüpft
-# Api mitsamt Endpunkten - Für reines Einzelspielervergnügen ohne Schnüffelei - Dienste stillschalten
-# Diesselbe Adresse als WSS für Heartbeat Telemetrie - Mehr Info unter dem Firmeneintrag zu Epic Games, Inc.
-# 35.168.186.144
-# 3.217.15.178
-# 54.146.107.62
-# 54.146.103.168
-# 34.225.36.75
-# 52.20.216.246
-# 34.239.197.18
-# 54.145.142.99
-# 52.3.2.193
-# 35.172.21.138
-# 52.3.2.193
-# 3.223.253.136
-# 3.123.128.174
-# 3.121.217.224
-# 3.227.34.162
 #0.0.0.0 api.epicgames.dev
-# Version 1 Endpunkt
-0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingress-prod-w1.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingress-prod-w2.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingress-prod-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingress-prod-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingress-prod-w5.befa.live.use1a.on.epicgames.com
-# Version 2 Endpunkt
-# Notwendig für Systeme wie PI-Hole oder Adguard
-#0.0.0.0 eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
-#0.0.0.0 eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
-#0.0.0.0 eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
-#0.0.0.0 eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
-#0.0.0.0 eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
-#0.0.0.0 eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
-#0.0.0.0 eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
-#0.0.0.0 eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
-#0.0.0.0 eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
-#0.0.0.0 eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
-#0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-#0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-#0.0.0.0 eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
-0.0.0.0 metrics.ol.epicgames.com
-# Downloads
-# 65.9.83.109
-# 55.222.155.195
-# 143.204.89.36
-# 13.224.195.35
-# 13.227.219.27
-# 65.9.83.64
-# 65.9.73.55
-# 65.9.76.182
-# 65.9.83.116
-# 65.9.83.3
-#0.0.0.0 epicgames-download1.akamaized.net
+#0.0.0.0 api.hcaptcha.com
+#0.0.0.0 catalog-public-service-prod06.ol.epicgames.com
+#0.0.0.0 cdn1.epicgames.com
+#0.0.0.0 cdn2.epicgames.com
+#0.0.0.0 cdn2.unrealengine.com
+#0.0.0.0 cms-assets.unrealengine.com
+#0.0.0.0 connect.epicgames.dev
+#0.0.0.0 connect.ol.epicgames.com
+#0.0.0.0 d3kjluh73b9h9o.cloudfront.net
 #0.0.0.0 download.epicgames.com
-#0.0.0.0 download2.epicgames.com
-#0.0.0.0 download3.epicgames.com
-#0.0.0.0 download4.epicgames.com
-#0.0.0.0 dvo2b19ndqhsb.cloudfront.net
-#0.0.0.0 d1z9autcf703pk.cloudfront.net
-#0.0.0.0 d3jcvwdlexg1ul.cloudfront.net
-#0.0.0.0 d2vryputvprrok.cloudfront.net
-#0.0.0.0 static-assets-prod.unrealengine.com
-# Warenkorb
-# 184.73.115.165
-# 54.68.228.72
-# 52.34.71.92
-# 64.233.165.127
-# 100.20.121.79
-#0.0.0.0 payment-website-pci.ol.epicgames.com # IP-Adresse, Land, Sprtache, Zeitstempel, Währung, AccountID, genutzte Plattform z.b. Launcher uvm
-#0.0.0.0 a.stun.kaptcha.com
-#0.0.0.0 ssl.kaptcha.com
-#0.0.0.0 stun1.l.google.com
-# Cloud
-# 34.192.2.184
-#0.0.0.0 datastorage-public-service-liveegs.live.use1a.on.epicgames.com
-# Freunde
-# 35.169.189.124
-# 3.224.186.128
-# 34.199.242.157
-# 50.17.75.168
-#0.0.0.0 friends-public-service-prod06.ol.epicgames.com # Verknüpfung & Blockliste
-#0.0.0.0 xmpp-service-prod.ol.epicgames.com # Websocket
-#0.0.0.0 xmpp-service-prod-weighted.ol.epicgames.com
-#0.0.0.0 launcher-website-prod07.ol.epicgames.com # Freundeseite
-# Seitenaufbau, Inhalte
-# 52.4.65.215
-# 104.101.101.114
-# 143.204.101.127
-# 52.207.66.163
-#0.0.0.0 graphql.epicgames.com # Verknüpfungen zu eigentlichen Seiteninhalten auf CDN2
-#0.0.0.0 cdn1.unrealengine.com # Produktbilder & Logos
-#0.0.0.0 cdn2.unrealengine.com # Seitenkateogrien nach Autor, Datum, Beschreibung, Links, Titel usw
-#0.0.0.0 static-assets-prod.epicgames.com # Javascripts, CSS, Schriften, Bilder
-# Analytics, Affiliate und Geodatenerfassung
-# 52.2.190.222
-# 54.158.82.37
-# 52.22.160.221
-# 35.153.174.108
-# 34.192.176.27
-# 52.20.219.23
-# 50.17.125.216
-# 34.228.118.104
-# 52.202.229.103
-# 35.188.42.15
-# 34.194.59.21
-# 34.202.239.176
-# 52.202.229.103
-# 3.222.153.230
-# 3.227.104.71
-# 34.228.176.58
-# 54.242.72.161
-# 52.6.71.146
-# 52.22.147.232
-0.0.0.0 datarouter.ol.epicgames.com
-0.0.0.0 datarouter-prod.ak.epicgames.com
-#0.0.0.0 tracking.epicgames.com # Javascript, Pageview, Trackingpixel - aktiviert sich auf ziemlich jeder Seite mit aktuellen Daten und Aufnahme von Einzelschritten
-#0.0.0.0 www.epicgames.com # Geodatenerfassung und Funnel-Analytics - zudem liegt dort die eigene Accountseite
-#0.0.0.0 media-cdn.epicgames.com # WEBM Videos auf Produktseiten - EPICEVENTTRACKING
-0.0.0.0 accounts.launcher-website-prod07.ol.epicgames.com # Funnelanalytics - Unterseite für Freundeverbindungen, Anfragen, Vorschläge
-0.0.0.0 tracking-website-prod07-epic-96184209.us-east-1.elb.amazonaws.com
-0.0.0.0 tracking-website-prod07-epic-961842049.us-east-1.elb.amazonaws.com
-0.0.0.0 eulatracking-svc-prod06-pub-1257580502.us-east-1.elb.amazonaws.com
-0.0.0.0 sentry.io # Monitoring und Errortracking
-# Nicht zugeordnet
-# 23.45.96.219
-#0.0.0.0 talon-website-prod.ak.epicgames.com
-#0.0.0.0 talon-service-prod.ak.epicgames.com
-#0.0.0.0 talon-service-v4-prod.ak.epicgames.com
-# Drittanbieter
-# 216.58.205.238
-# 216.58.208.33
-# 104.19.198.151
-# 54.84.34.104
-# 76.223.31.44
-# 13.248.151.210
-# 143.204.202.115
-# 99.86.3.37
-# 13.35.253.45
-# 143.204.202.85
-#0.0.0.0 www.youtube.com
-#0.0.0.0 s.ytimg.com
-#0.0.0.0 i.ytimg.com
-#0.0.0.0 i9.ytimg.com
-#0.0.0.0 www.youtube-nocookie.com
-#0.0.0.0 www.google.com
-#0.0.0.0 fonts.gstatic.com
-#0.0.0.0 yt3.ggpht.com
-#0.0.0.0 r1---sn-4g5e6nsy.googlevideo.com # usw
-#0.0.0.0 r3---sn-4g5e6nsy.googlevideo.com
-#0.0.0.0 r3---sn-4g5ednld.googlevideo.com
-#0.0.0.0 cdnjs.cloudflare.com
-0.0.0.0 events.elev.io # Supportwebseite
-0.0.0.0 bam-cell.nr-data.net # Tracking von https://store-launcher.epicgames.com/store/purchase
-0.0.0.0 js-agent.newrelic.com # Tracking von https://store-launcher.epicgames.com/store/purchase?showNavigation=true&highlightColor=0078f2&offers=1-xxxxxx-xxxxxx
-0.0.0.0 fpt.dfp.microsoft.com
-0.0.0.0 fpt.microsoft.com
-# 13.248.151.210
-# 76.223.31.44
-# 151.101.114.217
-# 52.87.79.132
-# 54.88.39.88
-# 54.86.9.34
-#0.0.0.0 app.launchdarkly.com
-#0.0.0.0 clientstream-ga.launchdarkly.com
-#0.0.0.0 events.launchdarkly.com
-#0.0.0.0 clientstream.launchdarkly.com
-#0.0.0.0 clientstream-ga.launchdarkly.com
-#0.0.0.0 d1dxcvubdbe4ji.cloudfront.net # media-cdn.epicgames.com
-# Webseite Anmeldung Captcha
-# 104.16.168.131
-# 34.253.77.237
-# 13.227.156.28
-# 13.227.134.216
-# 104.16.169.131
-# 104.18.25.64
-#0.0.0.0 hcaptcha.com
-#0.0.0.0 assets.hcaptcha.com
+#0.0.0.0 egs-platform-service.store.epicgames.com
+#0.0.0.0 entitlement-public-service-prod08.ol.epicgames.com
+#0.0.0.0 epic-social-social-modules-prod.ol.epicgames.com
+#0.0.0.0 eulatracking-public-service-prod06.ol.epicgames.com
+#0.0.0.0 fastly-download.epicgames.com
+#0.0.0.0 friends-public-service-prod06.ol.epicgames.com
+#0.0.0.0 js.hcaptcha.com
+#0.0.0.0 launcher-public-service-prod06.ol.epicgames.com
+#0.0.0.0 launcher.store.epicgames.com
+#0.0.0.0 library-service.live.use1a.on.epicgames.com
 #0.0.0.0 newassets.hcaptcha.com
-#0.0.0.0 prod-ireland.arkoselabs.com
-#0.0.0.0 cdn.arkoselabs.com
-#0.0.0.0 cdn.arkoselabs.com.cdn.cloudflare.net
-#0.0.0.0 epic-games-api.arkoselabs.com
+#0.0.0.0 ocsp.thawte.com
+#0.0.0.0 presence-public-service-prod.ol.epicgames.com
+#0.0.0.0 priceengine-public-service-ecomprod01.ol.epicgames.com
+#0.0.0.0 social-overlay-launchdarkly-api-prod.ol.epicgames.com
+#0.0.0.0 static-assets-prod.epicgames.com
+#0.0.0.0 static-assets-prod.unrealengine.com
+#0.0.0.0 store-site-backend-static-ipv4.ak.epicgames.com
+#0.0.0.0 talon-website-prod.ecosec.on.epicgames.com
+0.0.0.0 ts-crl.ws.symantec.com
+0.0.0.0 ts-ocsp.ws.symantec.com
+#0.0.0.0 ue-launcher-website-prod.ol.epicgames.com
+#0.0.0.0 www.fab.com
+0.0.0.0 4c596c9ec80a.466da07a.us-east-1.token.awswaf.com
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 sentry.io
+0.0.0.0 tracking.epicgames.com
+0.0.0.0 ts-crl.ws.symantec.com
+0.0.0.0 ts-ocsp.ws.symantec.com
 
 # Epic Games Datarouter
 # Ipv4/6 Adressen - https://gameindustry.eu/katalog/epic-games-inc/
@@ -10937,30 +10770,15 @@ Ghostrunner 2
 0.0.0.0 az416426.vo.msecnd.net # Application Insights
 #0.0.0.0 account.ioi.dk # Texte nur in Englisch
 
-# Hitman 3
-# 20.105.216.4
-# 20.50.2.67
-# 20.150.42.196
-# 20.60.223.36
-# 20.50.2.75
-# 20.50.64.10
-# 20.101.99.94
-#0.0.0.0 config.hitman.io # Fehlermeldungen
-#0.0.0.0 dev-auth.hitman.io # Platform Entitlements
-#0.0.0.0 iohm3prodstorage.blob.core.windows.net
-#0.0.0.0 iohmconfigprodstorage.blob.core.windows.net
+# Hitman 3 | World of Assassination
 #0.0.0.0 auth.hitman.io
-0.0.0.0 hm3-metrics.hitman.io # Telemetrie :
-#0.0.0.0 hm3-service.hitman.io # Userconfig, Save, Dashboard UI, Aufträge usw
-0.0.0.0 dkcdc01.corp.ioi.dk
-# Endpunkte
-#0.0.0.0 waws-prod-am2-533-159b.westeurope.cloudapp.azure.com
-#0.0.0.0 waws-prod-am2-463-f8d1.westeurope.cloudapp.azure.com
-#0.0.0.0 blob.ams07prdstr09a.store.core.windows.net
-#0.0.0.0 blob.ams24prdstr03a.store.core.windows.net
-#0.0.0.0 waws-prod-am2-475-f207.westeurope.cloudapp.azure.com
-#0.0.0.0 iohm3sfprodcsp.westeurope.cloudapp.azure.com
-0.0.0.0 waws-prod-db3-183-323c.northeurope.cloudapp.azure.com
+#0.0.0.0 config.hitman.io
+#0.0.0.0 dev-auth.hitman.io # Platform Entitlements
+#0.0.0.0 hm3-service.hitman.io
+#0.0.0.0 iohm3prodstorage.blob.core.windows.net
+0.0.0.0 dkcdc01.corp.ioi.dk # Empty DNS Response
+0.0.0.0 hm3-metrics.hitman.io # Userconfig, Save, Dashboard UI, Aufträge usw
+0.0.0.0 ngx.download.nvidia.com
 
 # IonFX Studios
 # Miasmata
