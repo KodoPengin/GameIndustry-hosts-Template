@@ -10,7 +10,7 @@
 #
 # Version: Template für Spieleclients und Spiele
 # Version: Template for game clients and games
-# Change/Datum: 26.03.2025
+# Change/Datum: 10.04.2025
 #
 # Weitere und aktuelle Spiele sind auf der Website zu finden.
 # More and current games can be found on the website.
@@ -2090,7 +2090,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 prod-pc.wws-gs2.com # Onlinemodi, Statistiken und Funktionen
 #0.0.0.0 a46a2a13688f54b57bb35502a5acbc2c-2082727945.us-west-2.elb.amazonaws.com
 
-Ghostrunner 2
+# Ghostrunner 2
 0.0.0.0 ngx.download.nvidia.com
 #0.0.0.0 ocsp.digicert.com
 0.0.0.0 a23-207-210-133.deploy.static.akamaitechnologies.com

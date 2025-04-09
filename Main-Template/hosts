@@ -10,7 +10,7 @@
 #
 # Version: hosts-Datei - Vollständig mit allen Einträgen (IoT, Spiele & Clients)
 # Version: hosts file - complete with all entries (IoT, Games & Clients)
-# Change/Datum: 08.04.2025
+# Change/Datum: 10.04.2025
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -34047,16 +34047,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 chef-essentials.shop
 0.0.0.0 dentofinauk.shop
 0.0.0.0 dvw22rk.c2dat.shop
+0.0.0.0 enointselety.shop
+0.0.0.0 guatusowanned.shop
 0.0.0.0 jumpsite.shop
 0.0.0.0 jurantsepinine.shop
 0.0.0.0 meatmengynecia.shop
 0.0.0.0 milta.shop
+0.0.0.0 nc.monozoascutate.shop
 0.0.0.0 ncecafvdeu.shop
 0.0.0.0 nl.almagrabalkish.shop
+0.0.0.0 paludicrapped.shop
 0.0.0.0 shewingcudeigh.shop
 0.0.0.0 smalltoysome.shop
 0.0.0.0 sparredcubans.shop
 0.0.0.0 swamperhyphens.shop
+0.0.0.0 ux.regretshansom.shop
 0.0.0.0 wt.paenulavetanda.shop
 0.0.0.0 xu.olympuscracowe.shop
 # SITE
@@ -34228,6 +34233,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 epocttuajqtswu.top
 0.0.0.0 ewakyc72.top
 0.0.0.0 eyvjojfpv.top
+0.0.0.0 faqirsgoliard.top
 0.0.0.0 fingahvf.top
 0.0.0.0 fnenwipw.top
 0.0.0.0 fvhicsue.top
@@ -34288,6 +34294,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 support.streamjav.top
 0.0.0.0 swapsprediet.top
 0.0.0.0 teatyoverput.top
+0.0.0.0 thecoidchirped.top
 0.0.0.0 timidclubbed.top
 0.0.0.0 tipto.top
 0.0.0.0 tjbuxltdsg.top
@@ -34315,6 +34322,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 yiatelychur.top
 0.0.0.0 z08kcqt.farmgeneralgreat.top
 0.0.0.0 z08kcqt.soondeterminedecimal.top
+0.0.0.0 zitzithquaff.top
 # TR
 0.0.0.0 ads3.admatic.com.tr
 0.0.0.0 ads4.admatic.com.tr
@@ -35742,6 +35750,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 aps.hearstnp.com
 0.0.0.0 apsoutheast-match.deepintent.com
 0.0.0.0 archipelagopuppy.com
+0.0.0.0 aroundcommoditysway.com
 0.0.0.0 arrqs.developedseve.com
 0.0.0.0 ars.homeaway.com
 0.0.0.0 arsnivyr.com
@@ -36068,6 +36077,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cchdbond.com
 0.0.0.0 cd-down.com
 0.0.0.0 cd-mob.com
+0.0.0.0 cd560io.cloudatacdn.com
 0.0.0.0 cd836371f1d.cdn.intergient.com
 0.0.0.0 cdm.cursecdn.com
 0.0.0.0 cdn-aws.platincasino.com
@@ -36504,6 +36514,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dadarmy.sbs
 0.0.0.0 dadsats.com
 0.0.0.0 dailyinterventioncongestion.com
+0.0.0.0 daintynotice.com
 0.0.0.0 danlt4f.thefaceduck.com
 0.0.0.0 dap.digitalgov.gov # Universal Federated Analytics
 0.0.0.0 daredcoil.com
@@ -38059,6 +38070,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 optimise.net
 0.0.0.0 optyruntchan.com
 0.0.0.0 oqbaxgolrabl.com
+0.0.0.0 oqdavkguftan.com
 0.0.0.0 oqs.omeda.com
 0.0.0.0 orderana5289.spankbang.com
 0.0.0.0 oreflushvehemence.com
@@ -38834,6 +38846,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 squirtpresented.com
 0.0.0.0 sr7pv7n5x.com
 0.0.0.0 sra.relemind.com
+0.0.0.0 sraghuba.com
 0.0.0.0 src.freshmarketer.com
 0.0.0.0 srchoffer.com
 0.0.0.0 srv.bidgx.com
@@ -42463,7 +42476,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 prod-pc.wws-gs2.com # Onlinemodi, Statistiken und Funktionen
 #0.0.0.0 a46a2a13688f54b57bb35502a5acbc2c-2082727945.us-west-2.elb.amazonaws.com
 
-Ghostrunner 2
+# Ghostrunner 2
 0.0.0.0 ngx.download.nvidia.com
 #0.0.0.0 ocsp.digicert.com
 0.0.0.0 a23-207-210-133.deploy.static.akamaitechnologies.com
