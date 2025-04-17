@@ -10,7 +10,7 @@
 #
 # Version: hosts-Datei - Vollständig mit allen Einträgen (IoT, Spiele & Clients)
 # Version: hosts file - complete with all entries (IoT, Games & Clients)
-# Change/Datum: 10.04.2025
+# Change/Datum: 18.04.2025
 #
 # Source/Quelle: https://www.gameindustry.eu
 # E-Mail: https://gameindustry.eu/contact/
@@ -1073,6 +1073,16 @@ ff02::3 ip6-allhosts
 # Programmstart
 0.0.0.0 secure.disc-soft.com # u.a. Key Aktivierung
 
+# Domotz, Inc.
+# GlassWIre v.3.5.821.0+
+#0.0.0.0 pivot.protect.glasswire.com
+#0.0.0.0 www.glasswire.com
+#0.0.0.0 api.protect.glasswire.com
+0.0.0.0 api-us-east-2.protect.glasswire.com
+#0.0.0.0 activate.glasswire.com
+#0.0.0.0 geoip-database.protect.glasswire.com
+0.0.0.0 o987771.ingest.us.sentry.io # GWCrashpadHandler.exe
+
 # dotPDN, LLC.
 # Paint.NET
 # 185.199.108.133
@@ -1875,6 +1885,19 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ocsp.comodoca.com.cdn.cloudflare.net
 0.0.0.0 ec2-54-200-94-9.us-west-2.compute.amazonaws.com
 
+# Windows Firewall Control WFC
+# Ip/s blockieren:
+# 44.236.57.200
+# 45.41.235.33
+# 52.89.79.199, 54.148.128.50
+# Telemetry contains machine ID, product ID, version number, timestamp, license status, domain name/ID and admin rights, file system, language, operating system architecture
+0.0.0.0 telemetry.malwarebytes.com
+#0.0.0.0 binisoft.org
+0.0.0.0 ec2-44-236-57-200.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-52-89-79-199.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-54-148-128-50.us-west-2.compute.amazonaws.com
+#0.0.0.0 node306.namehero.net
+
 # Marcin Szeniak
 # BCUninstaller
 #0.0.0.0 aia.entrust.net
@@ -2488,7 +2511,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-23-21-241-41.compute-1.amazonaws.com
 0.0.0.0 58b222ebbb6cc6c8c8c9a46127ae3a3e.cloudfront.net
 
-# Glasswire v3.0.476+
+# GlassWire v3.0.476+
 # Ab v3.0 mit Registrierung, Cloudanbindung und Anmeldefunktion
 # 16.16.41.74
 # 16.170.49.121
@@ -16775,7 +16798,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.feedbackify.com
 
 # Feedburner
-0.0.0.0 feeds.feedburner.com
+#0.0.0.0 feeds.feedburner.com
 
 # Ferientroll.de
 0.0.0.0 ferien.ferientroll.de
@@ -22555,6 +22578,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 egb.com
 0.0.0.0 eqraffle.com
 0.0.0.0 esl.proseason22.com
+0.0.0.0 eslmasterscup.com
+0.0.0.0 espublicevotes.top
 0.0.0.0 ezskinz.org
 0.0.0.0 good-gabe.com
 0.0.0.0 invite.playtest184192.com
@@ -29241,12 +29266,16 @@ ff02::3 ip6-allhosts
 
 # Windows 11 - Microsoft 365 Copilot App WebViewHost.exe, Microsoft Copilot CopilotNative.exe, Microsoft WebView2 msedgewebview2.exe
 # Ip/s blockieren:
+# 13.89.178.26
+# 20.189.173.17
 # 13.89.179.11
 # 51.116.246.106
 # 51.116.246.104
 # 20.42.73.25
 # 20.42.65.89
 # 51.104.15.253
+# 104.126.37.169
+# 104.126.37.136
 0.0.0.0 copilot.microsoft.com
 0.0.0.0 mobile.events.data.microsoft.com # /OneCollector/1.0/
 0.0.0.0 studiostaticassetsprod.azureedge.net
@@ -59897,25 +59926,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 unreal.backtrace.io
 0.0.0.0 o313068.ingest.sentry.io
 
-# Die Gilde III
-# 239.255.255.250
-# 176.9.91.194
-# 78.74.49.118
+# Die Gilde 3 | The Guild 3
 # 78.47.49.117
-# http://176.9.91.194:5080/gds/TG3/01/rpc oder 78.74.49.118:5080/gds/TG3/01/rpc
-0.0.0.0 tqa_pc-gds.thqonline.net
-0.0.0.0 o313068.ingest.sentry.io # Erstellte Minidumps zu Spielstart gehen hierhin
-# Für Onlinespiel benötigt
+# 116.202.188.147
 # 78.47.139.87
 # 116.203.12.197
-#0.0.0.0 uaa.services.thqonline.net # Mehrspieler Anmeldung
-#0.0.0.0 gu.services.thqonline.net # Serverlist, Heartbeat
-# 94.130.198.244
-# 94.130.252.66
-#0.0.0.0 nat2.thqonline.net
-# Endpunkte
-#0.0.0.0 static.244.198.130.94.clients.your-server.de
-#0.0.0.0 static.66.252.130.94.clients.your-server.de
+# Direct Connection: http://78.47.49.117:5080/gds/TG3/01/rpc
+0.0.0.0 tqa_pc-gds.thqonline.net
+0.0.0.0 discovery.ezmpl.thqonline.net
+0.0.0.0 o313068.ingest.sentry.io
+#0.0.0.0 steamcommunity.com
+#0.0.0.0 gu.services.thqonline.net
+#0.0.0.0 uaa.services.thqonline.net
+0.0.0.0 static.117.49.47.78.clients.your-server.de
+0.0.0.0 static.147.188.202.116.clients.your-server.de
 #0.0.0.0 static.87.139.47.78.clients.your-server.de
 #0.0.0.0 static.197.12.203.116.clients.your-server.de
 
