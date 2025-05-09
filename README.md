@@ -4,7 +4,7 @@
 <br />
 
 <h3 align="center">
-  **Support:** [Webform](https://gameindustry.eu/contact/)
+  Support: <a href="https://gameindustry.eu/contact/">Webform</a>
   <span> · </span>
   <a href="/docs/README_de.md">Deutsch</a>
 </h3>
