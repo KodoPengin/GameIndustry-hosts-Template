@@ -4,11 +4,9 @@
 <br />
 	
 <h3 align="center">
-  <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/issues">Fehler melden</a>
+  Support: <a href="https://gameindustry.eu/contact/">Webformular</a>
   <span> · </span>
-  Support: <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/discussions">Diskussionen</a>
-  <span> · </span>
-  <a href="../README.md">Englisch</a>
+  <a href="../README.md">Englische Readme</a>
 </h3>
  <p align="center">
     <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/watchers"><img alt="Watchers" src="https://img.shields.io/github/watchers/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" /></a>

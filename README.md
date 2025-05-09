@@ -6,7 +6,7 @@
 <h3 align="center">
   Support: <a href="https://gameindustry.eu/contact/">Webform</a>
   <span> · </span>
-  <a href="/docs/README_de.md">Deutsch</a>
+  <a href="/docs/README_de.md">Deutsche Readme</a>
 </h3>
  <p align="center">
     <a href="https://github.com/KodoPengin/GameIndustry-hosts-Template/watchers"><img alt="Watchers" src="https://img.shields.io/github/watchers/KodoPengin/GameIndustry-hosts-Template.svg?color=0088ff" /></a>
