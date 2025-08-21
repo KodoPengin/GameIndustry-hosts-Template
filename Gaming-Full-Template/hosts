@@ -10,7 +10,7 @@
 #
 # Version: Template für Spieleclients und Spiele
 # Version: Template for game clients and games
-# Change/Datum: 18.04.2025
+# Change/Datum: 21.08.2025
 #
 # Weitere und aktuelle Spiele sind auf der Website zu finden.
 # More and current games can be found on the website.
@@ -456,8 +456,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 confluence.ea.com
 0.0.0.0 redirector.gvt1.com
 0.0.0.0 r3---sn-gxuo03g-vqne.gvt1.com
-0.0.0.0 ratt.juno.ea.com
-0.0.0.0 pin-river.data.ea.com
+0.0.0.0 ratt.juno.ea.com # Telemetry
+#0.0.0.0 pin-river.data.ea.com
 0.0.0.0 jvnlfjixedxncztem7pq-pjz1qn-ea616a9d6-clientnsv4-s.akamaihd.net
 
 # Epic Games, Inc.
@@ -1885,33 +1885,19 @@ ff02::3 ip6-allhosts
 
 # The Quarry
 # Details: https://gameindustry.eu/reviews/the-quarry/
-# 74.125.193.95
-# 34.120.195.249
-# 172.64.147.119
-# 104.18.40.137
-# 13.32.27.18
-# 13.32.27.114
-# 13.32.27.12
-# 13.32.27.50
-# 209.85.203.94
-# 192.81.242.131
-# 192.81.242.130
-# 3.215.5.47
-# 3.233.137.139
-# 34.226.79.9
-# 52.201.133.79
-# 88.221.110.192
-#0.0.0.0 fonts.googleapis.com
-0.0.0.0 o433356.ingest.sentry.io
-0.0.0.0 content.t2gp.take2games.com
-#0.0.0.0 images.ctfassets.net
-#0.0.0.0 update.googleapis.com
-#0.0.0.0 download-t2gp.take2games.com
-0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com # Telemetry
-#0.0.0.0 34acf0414d836d3f8d491c6186153694.my.2k.com # Auth, Token, Heartbeat + JSON Webtoken encrypted Geodata & Fingerprint
+#0.0.0.0 api.steampowered.com
+#0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com
 0.0.0.0 telemetryk.api.2kcoretech.online
-#0.0.0.0 a88-221-110-192.deploy.static.akamaitechnologies.com
-#0.0.0.0 ec2-52-201-133-79.compute-1.amazonaws.com
+#0.0.0.0 sso.api.2kcoretech.online
+#0.0.0.0 ec2-18-224-236-3.us-east-2.compute.amazonaws.com
+#0.0.0.0 ec2-3-139-49-248.us-east-2.compute.amazonaws.com
+0.0.0.0 ec2-52-5-69-8.compute-1.amazonaws.com
+0.0.0.0 ec2-98-84-245-96.compute-1.amazonaws.com
+0.0.0.0 ec2-3-211-86-232.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-134-46-22.us-east-2.compute.amazonaws.com
+#0.0.0.0 ec2-3-14-138-8.us-east-2.compute.amazonaws.com
+#0.0.0.0 ec2-3-133-50-239.us-east-2.compute.amazonaws.com
+#0.0.0.0 a104-102-49-106.deploy.static.akamaitechnologies.com
 
 # WWE Titel seitens 2K abgeschaltet, kein Support oder Onlinefunktionen
 # WWE 2016
@@ -7648,7 +7634,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 qos-prod-bio-iad-common-common.gos.ea.com
 #0.0.0.0 qos-prod-bio-dub-common-common.gos.ea.com
 0.0.0.0 ds-aksb-a.akamaihd.net
-0.0.0.0 pin-river.data.ea.com
+#0.0.0.0 pin-river.data.ea.com
 0.0.0.0 gosca18.ea.com
 0.0.0.0 dirtybits.api.origin.com
 0.0.0.0 www.google-analytics.com
@@ -17994,17 +17980,10 @@ ff02::3 ip6-allhosts
 
 # Spiderling Studios
 # Besiege
-# 104.20.17.242
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 icanhazip.com
-# Mehrspielermodi konnten nicht getestet werden
-#0.0.0.0 ms.spiderlinggames.co.uk
+# 104.16.184.241
+# 104.16.185.241
+0.0.0.0 icanhazip.com # IP detection, Trackingcookie
+# Multiplayer SDR
 #0.0.0.0 euwest.ms.spiderlinggames.co.uk
 #0.0.0.0 asia.ms.spiderlinggames.co.uk
 #0.0.0.0 useast.ms.spiderlinggames.co.uk
@@ -18059,26 +18038,21 @@ ff02::3 ip6-allhosts
 #0.0.0.0 ocsp.digicert.com
 
 # ドラゴンクエストライバルズ エース | DRAGON QUEST RIVALS Ace
-# 222.158.245.226
-# 151.101.230.205
-# 125.0.145.216
-# 216.58.197.238
 # 74.125.203.156
 # 124.150.158.171
-# 208.64.200.105
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# 125.0.145.216
+# 151.101.230.205
+# 216.58.197.238
+# 222.158.245.226
+# Server down Juli 2021
 #0.0.0.0 lobby.dqrivals.com
 #0.0.0.0 cache.dqrivals.com
 0.0.0.0 www.google-analytics.com
-0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 stats.g.doubleclick.net
 #0.0.0.0 support.jp.square-enix.com
+0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 nrt13s49-in-f238.1e100.net
+0.0.0.0 th-in-f156.1e100.net
 
 # Battlestations Pacific
 # Beinhaltet Games for Windows Live
@@ -18254,15 +18228,14 @@ ff02::3 ip6-allhosts
 # Legend of Mana
 # s. Rubrik Kopierschutz / AntiCheat
 
-# Life is Strange
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 lis.os.eidos.com
+# Life is Strange™
+0.0.0.0 ipv6check-udp.steamserver.net
+0.0.0.0 test.steampowered.com
+#0.0.0.0 api.steampowered.com
+0.0.0.0 lis.os.eidos.com # Accountlink, Geodata, Tracking
+#0.0.0.0 a104-102-49-106.deploy.static.akamaitechnologies.com
+0.0.0.0 a88-221-110-129.deploy.static.akamaitechnologies.com
+0.0.0.0 a88-221-110-154.deploy.static.akamaitechnologies.com
 
 # Life is Strange 2
 # s. Rubrik Kopierschutz / AntiCheat
@@ -18514,16 +18487,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 swupdate.stardock.com
 #0.0.0.0 ico-reb.stardock.com # Multiplayer
 
-# Sorcerer King: Rivals
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 skrivals-api-tachyon.stardock.net
-
 # Star Control: Origins
 # 66.79.209.97
 # 54.152.111.238
@@ -18552,20 +18515,6 @@ ff02::3 ip6-allhosts
 # The Political Machine 2016
 # Identität wird per Token überprüft - zusätzlich werden Stats abgefragt zu Playtime, Matches usw.
 0.0.0.0 tpm2016-api-tachyon.stardock.net
-
-# StarSystemStudios™
-# The Quest for Achievements
-# Twitter, Youtube, Facebook, Google Analytics - bei aktivem Seitenauf
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 www.google-analytics.com
-#0.0.0.0 twitter.com
-#0.0.0.0 www.youtube.com
 
 # Statespace Labs, Inc.
 # Aimlabs
@@ -18618,14 +18567,10 @@ ff02::3 ip6-allhosts
 
 # Stolen Couch Games
 # Ichi
-# Facebook & Twitter
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+# Service shutdown 2019 - Connections are still being established successfully
+# 172.67.128.20
+# 104.21.0.144
+0.0.0.0 a.nel.cloudflare.com
 0.0.0.0 www.stolencouchgames.com
 
 # Stompy Bot Productions
