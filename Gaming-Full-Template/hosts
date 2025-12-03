@@ -10,7 +10,7 @@
 #
 # Version: Template für Spieleclients und Spiele
 # Version: Template for game clients and games
-# Change/Datum: 21.08.2025
+# Change/Datum: 03.12.2025
 #
 # Weitere und aktuelle Spiele sind auf der Website zu finden.
 # More and current games can be found on the website.
@@ -3551,11 +3551,15 @@ ff02::3 ip6-allhosts
 #0.0.0.0 frpg2-steam64-ope-login.fromsoftware-game.net
 
 # Dark Souls III
+# 35.91.183.158
+# 35.164.180.141
+# 52.32.137.65
+# 54.188.232.118
 #0.0.0.0 fdp-steam-ope-login.fromsoftware-game.net
-# 52.36.123.251
-# 52.35.220.94
-# 35.163.56.166
-#0.0.0.0 ocsp.msocsp.com
+#0.0.0.0 ec2-52-32-137-65.us-west-2.compute.amazonaws.com
+#0.0.0.0 ec2-35-164-180-141.us-west-2.compute.amazonaws.com
+#0.0.0.0 ec2-54-188-232-118.us-west-2.compute.amazonaws.com
+#0.0.0.0 ec2-35-91-183-158.us-west-2.compute.amazonaws.com
 
 # DeadCore | Update 24.08.2018
 0.0.0.0 api.gameanalytics.com
@@ -11319,8 +11323,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 static-cdn.jtvnw.net
 #0.0.0.0 vod-secure.twitch.tv
 #0.0.0.0 api.twitch.tv
-0.0.0.0 d2v02itv0y9u9t.cloudfront.net
-0.0.0.0 d2nvs31859zcd8.cloudfront.net
+#0.0.0.0 d2v02itv0y9u9t.cloudfront.net
+#0.0.0.0 d2nvs31859zcd8.cloudfront.net
 #0.0.0.0 gql.twitch.tv
 0.0.0.0 s.amazon-adsystem.com
 0.0.0.0 c.amazon-adsystem.com
@@ -13742,7 +13746,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.vivox.com
 #0.0.0.0 tt-api.ngs.nexon.com
 0.0.0.0 sdk-push.mp.nexon.com # Policy
-0.0.0.0 gtable.inface.nexon.com
+#0.0.0.0 gtable.inface.nexon.com
 0.0.0.0 d30y0swoxkbnsm.cloudfront.net # Ingame Ads
 0.0.0.0 jyp.nexon.com
 0.0.0.0 livestream.inface.nexon.com
@@ -13991,6 +13995,31 @@ ff02::3 ip6-allhosts
 0.0.0.0 208-64-200-105.steampowered.com
 0.0.0.0 a1737.b.akamai.net
 
+# North Beach Games, Inc.
+# The Lord of the Rings: Return to Moria™
+0.0.0.0 ngx.download.nvidia.com
+#0.0.0.0 api.epicgames.dev
+0.0.0.0 test.steampowered.com
+0.0.0.0 mor-analytics-live-941107368707.us-east1.run.app
+0.0.0.0 d2hjvmnsrtrg65.cloudfront.net
+0.0.0.0 o558783.ingest.sentry.io
+0.0.0.0 test.steampowered.com
+#0.0.0.0 ec2-100-29-43-92.compute-1.amazonaws.com
+#0.0.0.0 ec2-13-217-133-219.compute-1.amazonaws.com
+#0.0.0.0 ec2-3-217-149-201.compute-1.amazonaws.com
+#0.0.0.0 ec2-44-214-66-169.compute-1.amazonaws.com
+#0.0.0.0 ec2-52-72-150-54.compute-1.amazonaws.com
+#0.0.0.0 ec2-54-86-199-88.compute-1.amazonaws.com
+#0.0.0.0 ec2-98-85-194-181.compute-1.amazonaws.com
+#0.0.0.0 ec2-98-88-241-213.compute-1.amazonaws.com
+#0.0.0.0 a23-207-106-113.deploy.static.akamaitechnologies.com
+0.0.0.0 a104-109-143-157.deploy.static.akamaitechnologies.com
+0.0.0.0 a104-109-143-162.deploy.static.akamaitechnologies.com
+#0.0.0.0 server-18-64-16-109.fra60.r.cloudfront.net
+#0.0.0.0 server-18-64-16-170.fra60.r.cloudfront.net
+#0.0.0.0 server-18-64-16-224.fra60.r.cloudfront.net
+#0.0.0.0 server-18-64-16-226.fra60.r.cloudfront.net
+
 # Northway Games
 # Rebuild III: Gangs of Deadsville
 # Betriebssystem inkl. Architektur, Produktbezeichnung, Spracheinstellungen
@@ -14026,14 +14055,7 @@ ff02::3 ip6-allhosts
 
 # NVLMaker
 # Soulslayer～灭魂·误佳期～
-0.0.0.0 open.bakery.moe
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
+0.0.0.0 open.bakery.moe # Empty DNS Response
 
 # Nyu Media
 # Yatagarasu Attack on Cataclysm
@@ -21572,7 +21594,8 @@ ff02::3 ip6-allhosts
 
 # Wube Software LTD.
 # Factorio
-#0.0.0.0 auth.factorio.com # Accountschnittstelle
+#0.0.0.0 auth.factorio.com
+#0.0.0.0 mods.factorio.com
 
 # WuL Game Studio
 # Metal Waltz: Anime tank girls
